@@ -14,10 +14,14 @@ include (ValaPrecompile)
 # Add all your vala files and requires packages to the List below to include them in the build
 vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     mouse-touchpad.vala
-    mouse-settings.vala
-    touchpad-settings.vala
     page.vala
+
     Pages/Mouse/mouse-page.vala
+    Pages/Mouse/mouse-settings.vala
+
+    Pages/Touchpad/touchpad-page.vala
+    Pages/Touchpad/touchpad-settings.vala
+
     ${CMAKE_CURRENT_BINARY_DIR}/config.vala
 PACKAGES
     gtk+-3.0
