@@ -1,5 +1,5 @@
-switchboard-plug-mouse-touchpad (0.1-1) trusty; urgency=low
+switchboard-plug-mouse-touchpad (0.1) trusty; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+ * Initial upload!
 
- -- keith Thu, 24 Jul 2014 13:01:14 -0700
+ -- Keith Gonyon <kgonyon@gmail.com>  Thu, 24 Jul 2014 14:23:26 -0700
