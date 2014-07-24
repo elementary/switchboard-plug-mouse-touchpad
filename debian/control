@@ -1,27 +1,18 @@
-Source: switchboard-plug-template
+Source: switchboard-plug-mouse-touchpad
 Section: x11
 Priority: optional
-Maintainer: Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
-Build-Depends: cmake,
-               debhelper (>= 9),
-               libswitchboard-2.0-dev
-Standards-Version: 3.9.2
-Homepage: https://launchpad.net/pantheon-plugs
+Maintainer: keith 
+Build-Depends: cmake, 
+               debhelper (>= 8.0.0), 
+               libgranite-dev, 
+               libswitchboard-2.0-dev, 
+               valac (>= 0.24)
+Standards-Version: 3.9.4
+Homepage: https://launchpad.net/switchboard-plug-mouse-touchpad
 
-Package: switchboard-plug-template
+Package: switchboard-plug-mouse-touchpad
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Enhances: switchboard
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: switchboard-plug-template-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: switchboard-plug-template (= ${binary:Version}), ${misc:Depends}
-Enhances: switchboard-plug-template
-Description: <insert up to 60 chars description> (debugging symbols)
- <insert long description, indented with spaces>
- .
- This package contains debugging symbols for switchboard-plug-template.
+Description: Mouse/Touchpad plug for Switchboard
+ This plug configures mouse and touchpad. 
