@@ -1,6 +1,18 @@
+/***
+  Copyright (C) 2014 Keith Gonyon <kgonyon@gmail.com>
+  This program is free software: you can redistribute it and/or modify it
+  under the terms of the GNU Lesser General Public License version 3, as published
+  by the Free Software Foundation.
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranties of
+  MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR
+  PURPOSE. See the GNU General Public License for more details.
+  You should have received a copy of the GNU General Public License along
+  with this program. If not, see 
+***/
 namespace MouseTouchpad {
     public class Plug : Switchboard.Plug {
-        // Main layout variables
+        /* ---- Layout Variables ---- */
         Gtk.Grid          main_grid;
         Gtk.Grid          separator_grid;
         Gtk.Separator     left_separator;
@@ -8,7 +20,7 @@ namespace MouseTouchpad {
         Gtk.Stack         pages;
         Gtk.StackSwitcher page_switcher;
 
-        // General settings variables
+        /* ----- General settings variables ---- */
         Gtk.Label       general_settings_label;
         Gtk.ButtonBox   handed_buttons;
         Gtk.RadioButton left_handed_button;

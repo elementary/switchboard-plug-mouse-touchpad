@@ -1,7 +1,23 @@
+/***
+  Copyright (C) 2014 Keith Gonyon <kgonyon@gmail.com>
+  This program is free software: you can redistribute it and/or modify it
+  under the terms of the GNU Lesser General Public License version 3, as published
+  by the Free Software Foundation.
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranties of
+  MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR
+  PURPOSE. See the GNU General Public License for more details.
+  You should have received a copy of the GNU General Public License along
+  with this program. If not, see 
+***/
 namespace MouseTouchpad {
 	public class MousePage : AbstractPage {
+        /* ---- Layout Variables ---- */
+
         Gtk.Grid pointer_scale_grid;
-        // Pointer speed variables
+
+        /* ---- Widget Variables ---- */
+
         Gtk.Label pointer_speed_label;
         Gtk.Label acceleration_slow_label;
         Gtk.Label acceleration_fast_label;
@@ -10,7 +26,12 @@ namespace MouseTouchpad {
         private MouseSettings mouse_settings;
 
 		public MousePage () {
+            /* ---- Init Settings ---- */
+
 			mouse_settings = new MouseSettings ();
+
+            /* ---- Init Widgets ---- */
+
             // Pointer speed
             pointer_scale_grid      = new Gtk.Grid ();
             pointer_speed_label     = new Gtk.Label (_("<b>Pointer Speed:</b>"));
@@ -21,7 +42,8 @@ namespace MouseTouchpad {
             setup_widgets ();
             setup_signals ();
 
-            // Attach widgets
+            /* ---- Attach widgets ---- */
+
             // Pointer speed
             pointer_scale_grid.attach (acceleration_slow_label, 0, 1, 1, 1);
             pointer_scale_grid.attach (acceleration_scale,      1, 1, 3, 1);
@@ -35,18 +57,16 @@ namespace MouseTouchpad {
 		}
 
 		private void setup_widgets () {
-            this.row_spacing        = 12;
-            this.column_spacing     = 12;
-            this.margin_top         = 12;
-            this.margin_bottom      = 12;
-            this.column_homogeneous = false;
-            this.row_homogeneous    = false;
+            /* ---- Grids ---- */
 
+            // Pointer Scale
             pointer_scale_grid.column_spacing     = 12;
             pointer_scale_grid.margin_top         = 12;
             pointer_scale_grid.margin_start       = 12;
             pointer_scale_grid.column_homogeneous = false;
             pointer_scale_grid.row_homogeneous    = false;
+
+            /* ---- Widgets ---- */
 
             // Pointer speed
             pointer_speed_label.halign         = Gtk.Align.START;
