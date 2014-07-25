@@ -1,13 +1,13 @@
 Source: switchboard-plug-mouse-touchpad
 Section: x11
 Priority: optional
-Maintainer: keith 
+Maintainer: Keith Gonyon <kgonyon@gmail.com> 
 Build-Depends: cmake, 
-               debhelper (>= 8.0.0), 
+               debhelper (>= 9), 
                libgranite-dev, 
                libswitchboard-2.0-dev, 
-               valac (>= 0.24)
-Standards-Version: 3.9.4
+               valac (>= 0.22)
+Standards-Version: 3.9.2
 Homepage: https://launchpad.net/switchboard-plug-mouse-touchpad
 
 Package: switchboard-plug-mouse-touchpad
