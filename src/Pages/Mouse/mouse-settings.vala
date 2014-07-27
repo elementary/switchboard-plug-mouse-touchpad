@@ -21,11 +21,11 @@ namespace MouseTouchpad {
 			base ("org.gnome.settings-daemon.peripherals.mouse");
 		}
 
-		public void reset_all () {
-			schema.reset ("motion-acceleration");
-			schema.reset ("motion-threshold");
-			schema.reset ("left-handed");
-			schema.reset ("locate-pointer");
-		}
+		// public void reset_all () {
+		// 	schema.reset ("motion-acceleration");
+		// 	schema.reset ("motion-threshold");
+		// 	schema.reset ("left-handed");
+		// 	schema.reset ("locate-pointer");
+		// }
 	}
 }

@@ -33,7 +33,7 @@ namespace MouseTouchpad {
 
         public Plug () {
             Object (category: Category.HARDWARE,
-                    code_name: "hardware-pantheon-mouse-touchpad",
+                    code_name: "pantheon-mouse-touchpad",
                     display_name: _("Mouse & Touchpad"),
                     description: _("Set your mouse and touchpad preferences"),
                     icon: "preferences-desktop-peripherals");

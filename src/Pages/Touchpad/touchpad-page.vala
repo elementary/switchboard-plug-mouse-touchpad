@@ -24,7 +24,6 @@ namespace MouseTouchpad {
         // Scrolling
         Gtk.Grid scrolling_grid;
         Gtk.Grid scrolling_label_grid;
-        Gtk.ButtonBox scrolling_mode;
 
         /* ---- Widget Variables ---- */
 

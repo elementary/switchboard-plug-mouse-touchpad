@@ -28,8 +28,14 @@ namespace MouseTouchpad {
 			base ("org.gnome.settings-daemon.peripherals.touchpad");
 		}
 
-		public void reset_all () {
-			
-		}
+		// public void reset_all () {
+		// 	schema.reset ("natural-scroll");
+		// 	schema.reset ("horiz_scroll-enabled");
+		// 	schema.reset ("tab-to-click");
+		// 	schema.reset ("disable_while_typeing");
+		// 	schema.reset ("motion_acceleration");
+		// 	schema.reset ("motion_threshold");
+		// 	schema.reset ("scroll_method");
+		// }
 	}
 }
