@@ -1,0 +1,89 @@
+# Turkish translation for switchboard-plug-mouse-touchpad
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the switchboard-plug-mouse-touchpad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-mouse-touchpad\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-07-24 22:24-0700\n"
+"PO-Revision-Date: 2015-08-22 14:27+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-08-23 07:16+0000\n"
+"X-Generator: Launchpad (build 17690)\n"
+
+#: ../src/mouse-touchpad.vala:25
+msgid "Mouse & Touchpad"
+msgstr "Fare & Dokunmatik Panel"
+
+#: ../src/mouse-touchpad.vala:26
+msgid "Set your mouse and touchpad preferences"
+msgstr "Fare ve dokunmatik panel tercihlerinizi ayarlayın"
+
+#: ../src/mouse-touchpad.vala:41 ../src/Pages/Touchpad/touchpad-page.vala:46
+msgid "<b>General:</b>"
+msgstr "<b>Genel:</b>"
+
+#: ../src/mouse-touchpad.vala:43
+msgid "Left-handed"
+msgstr "Sol-elle"
+
+#: ../src/mouse-touchpad.vala:45
+msgid "Right-handed"
+msgstr "Sağ-elle"
+
+#: ../src/mouse-touchpad.vala:47
+msgid "Pointer Reveal"
+msgstr ""
+
+#: ../src/mouse-touchpad.vala:104
+msgid "Mouse"
+msgstr "Fare"
+
+#: ../src/mouse-touchpad.vala:105
+msgid "Touchpad"
+msgstr "Dokunmatik Panel"
+
+#: ../src/Pages/Mouse/mouse-page.vala:16
+#: ../src/Pages/Touchpad/touchpad-page.vala:41
+msgid "<b>Pointer Speed:</b>"
+msgstr "<b>İşaretçi Hızı:</b>"
+
+#: ../src/Pages/Mouse/mouse-page.vala:17
+#: ../src/Pages/Touchpad/touchpad-page.vala:42
+msgid "<i>Slow</i>"
+msgstr "<i>Yavaş</i>"
+
+#: ../src/Pages/Mouse/mouse-page.vala:18
+#: ../src/Pages/Touchpad/touchpad-page.vala:43
+msgid "<i>Fast</i>"
+msgstr "<i>Hızlı</i>"
+
+#: ../src/Pages/Touchpad/touchpad-page.vala:47
+msgid "Disable while typing"
+msgstr "Yazarken devre dışı bırak"
+
+#: ../src/Pages/Touchpad/touchpad-page.vala:48
+msgid "Tap to click"
+msgstr "Tıklamak için vurma"
+
+#: ../src/Pages/Touchpad/touchpad-page.vala:50
+msgid "<b>Scrolling:</b>"
+msgstr "<b>Kaydırma:</b>"
+
+#: ../src/Pages/Touchpad/touchpad-page.vala:52
+msgid "Natural scrolling"
+msgstr "Doğal kaydırma"
+
+#: ../src/Pages/Touchpad/touchpad-page.vala:53
+msgid "Horizontal scrolling"
+msgstr "Yatay kaydırma"
+
+#: ../src/Pages/Touchpad/touchpad-page.vala:54
+msgid "Two finger scrolling"
+msgstr "İki parmakla kaydırma"
