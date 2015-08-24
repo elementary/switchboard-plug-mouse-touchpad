@@ -4,6 +4,7 @@ find_package (PkgConfig)
 pkg_check_modules (DEPS REQUIRED gthread-2.0 gtk+-3.0 switchboard-2.0 granite)
 
 add_definitions (${DEPS_CFLAGS})
+add_definitions ("-w")
 link_directories (${DEPS_LIBRARY_DIRS})
 
 find_package (Vala REQUIRED)
@@ -14,14 +15,12 @@ include (ValaPrecompile)
 # Add all your vala files and requires packages to the List below to include them in the build
 vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     mouse-touchpad.vala
-    page.vala
-
-    Pages/Mouse/mouse-page.vala
-    Pages/Mouse/mouse-settings.vala
-
-    Pages/Touchpad/touchpad-page.vala
-    Pages/Touchpad/touchpad-settings.vala
-
+    Backend/MouseSettings.vala
+    Backend/TouchpadSettings.vala
+    Widgets/Section.vala
+    Widgets/GeneralSection.vala
+    Widgets/MouseSection.vala
+    Widgets/TouchpadSection.vala
     ${CMAKE_CURRENT_BINARY_DIR}/config.vala
 PACKAGES
     gtk+-3.0

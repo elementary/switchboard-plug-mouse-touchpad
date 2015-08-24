@@ -1,35 +1,32 @@
-/***
-  Copyright (C) 2014 Keith Gonyon <kgonyon@gmail.com>
-  This program is free software: you can redistribute it and/or modify it
-  under the terms of the GNU Lesser General Public License version 3, as published
-  by the Free Software Foundation.
-  This program is distributed in the hope that it will be useful, but
-  WITHOUT ANY WARRANTY; without even the implied warranties of
-  MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR
-  PURPOSE. See the GNU General Public License for more details.
-  You should have received a copy of the GNU General Public License along
-  with this program. If not, see 
-***/
+/*
+ * Copyright (c) 2011-2015 elementary Developers (https://launchpad.net/elementary)
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public
+ * License as published by the Free Software Foundation; either
+ * version 2 of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public
+ * License along with this program; if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ */
+
 namespace MouseTouchpad {
     public class Plug : Switchboard.Plug {
-        /* ---- Layout Variables ---- */
-        Gtk.Grid          main_grid;
-        Gtk.Grid          separator_grid;
-        Gtk.Separator     left_separator;
-        Gtk.Separator     right_separator;
-        Gtk.Stack         pages;
-        Gtk.StackSwitcher page_switcher;
+        private Backend.MouseSettings mouse_settings;
+        private Backend.TouchpadSettings touchpad_settings;
 
-        /* ----- General settings variables ---- */
-        Gtk.Label       general_settings_label;
-        Gtk.ButtonBox   handed_buttons;
-        Gtk.RadioButton left_handed_button;
-        Gtk.RadioButton right_handed_button;
-        Gtk.Grid        pointer_reveal_grid;
-        Gtk.CheckButton pointer_reveal_check;
+        private Gtk.Grid main_grid;
 
-        // Settings
-        MouseSettings mouse_settings;
+        private Widgets.GeneralSection general_section;
+        private Widgets.MouseSection mouse_section;
+        private Widgets.TouchpadSection touchpad_section;
 
         public Plug () {
             Object (category: Category.HARDWARE,
@@ -37,120 +34,58 @@ namespace MouseTouchpad {
                     display_name: _("Mouse & Touchpad"),
                     description: _("Set your mouse and touchpad preferences"),
                     icon: "preferences-desktop-peripherals");
-
-            mouse_settings = new MouseSettings ();
         }
 
         public override Gtk.Widget get_widget () {
             if (main_grid == null) {
-                // Initialize variables
-                // Main
-                main_grid      = new Gtk.Grid ();
-                separator_grid = new Gtk.Grid ();
-                pages          = new Gtk.Stack ();
-                page_switcher  = new Gtk.StackSwitcher ();
-                // General
-                general_settings_label = new Gtk.Label (_("<b>General:</b>"));
-                handed_buttons         = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
-                left_handed_button     = new Gtk.RadioButton.with_label (null, _("Left-handed"));
-                right_handed_button    = new Gtk.RadioButton.with_label (left_handed_button.get_group(), 
-                                                                         _("Right-handed"));
-                pointer_reveal_grid    = new Gtk.Grid ();
-                pointer_reveal_check   = new Gtk.CheckButton.with_label (_("Pointer Reveal"));
-                left_separator         = new Gtk.Separator (Gtk.Orientation.HORIZONTAL);
-                right_separator        = new Gtk.Separator (Gtk.Orientation.HORIZONTAL);
-
-                setup_widgets ();
-                setup_signals ();
-
-                // Attach
-                // General
-                handed_buttons.add (left_handed_button);
-                handed_buttons.add (right_handed_button);
-                pointer_reveal_grid.attach (pointer_reveal_check, 0, 0, 1, 1);
-                // Separator
-                separator_grid.add (left_separator);
-                separator_grid.add (page_switcher);
-                separator_grid.add (right_separator);
-                // Main
-                main_grid.attach (general_settings_label, 0, 0, 1, 1);
-                main_grid.attach (pointer_reveal_grid,    0, 1, 1, 1);
-                main_grid.attach (handed_buttons,         0, 2, 1, 1);
-                main_grid.attach (separator_grid,         0, 4, 1, 1);
-                main_grid.attach (pages,                  0, 5, 1, 1);
+                load_settings ();
+                build_ui ();
             }
 
-            main_grid.show_all ();
             return main_grid;
         }
 
         public override void shown () {
-            
         }
 
         public override void hidden () {
-            
         }
 
         public override void search_callback (string location) {
-            
         }
 
-        // 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior")
+        /* 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior") */
         public override async Gee.TreeMap<string, string> search (string search) {
             return new Gee.TreeMap<string, string> (null, null);
         }
 
-        private void setup_widgets () {
-            // Grid
-            main_grid.margin      = 12;
-            main_grid.row_spacing = 12;
-
-            separator_grid.hexpand = true;
-            left_separator.hexpand = true;
-            right_separator.hexpand = true;
-
-            // Pages
-            page_switcher.set_stack(pages);
-            page_switcher.halign = Gtk.Align.CENTER;
-            pages.add_titled (new MousePage (), "mouse", _("Mouse"));
-            pages.add_titled (new TouchpadPage (), "touchpad", _("Touchpad"));
-
-            // General
-            general_settings_label.use_markup  = true;
-            general_settings_label.halign      = Gtk.Align.START;
-            handed_buttons.layout_style        = Gtk.ButtonBoxStyle.START;
-            handed_buttons.margin_start        = 12;
-            pointer_reveal_grid.margin_start   = 12;
-            pointer_reveal_grid.column_spacing = 12;
-
-            left_handed_button.active  = mouse_settings.left_handed;
-            right_handed_button.active = !mouse_settings.left_handed;
+        private void load_settings () {
+            mouse_settings = new Backend.MouseSettings ();
+            touchpad_settings = new Backend.TouchpadSettings ();
         }
 
-        private void setup_signals () {
-            mouse_settings.changed["left-handed"].connect (() => {
-                left_handed_button.active  = mouse_settings.left_handed;
-                right_handed_button.active = !mouse_settings.left_handed;
-            });
+        private void build_ui () {
+            main_grid = new Gtk.Grid ();
+            main_grid.margin = 12;
+            main_grid.row_spacing = 12;
+            main_grid.halign = Gtk.Align.CENTER;
 
-            mouse_settings.changed["locate-pointer"].connect (() => {
-                pointer_reveal_check.active = mouse_settings.locate_pointer;
-            });
+            general_section = new Widgets.GeneralSection (mouse_settings);
+            mouse_section = new Widgets.MouseSection (mouse_settings);
+            touchpad_section = new Widgets.TouchpadSection (touchpad_settings);
 
-            left_handed_button.notify["active"].connect (() => {
-                mouse_settings.left_handed = left_handed_button.active;
-            });
-
-            pointer_reveal_check.notify["active"].connect (() => {
-                mouse_settings.locate_pointer = pointer_reveal_check.active;
-            });
+            main_grid.attach (general_section, 0, 0, 1, 1);
+            main_grid.attach (mouse_section, 0, 1, 1, 1);
+            main_grid.attach (touchpad_section, 0, 2, 1, 1);
+            main_grid.show_all ();
         }
     }
 }
 
 public Switchboard.Plug get_plug (Module module) {
     debug ("Activating Mouse-Touchpad plug");
+
     var plug = new MouseTouchpad.Plug ();
+
     return plug;
 }
