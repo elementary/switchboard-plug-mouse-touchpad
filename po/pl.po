@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-24 05:37+0000\n"
+"X-Launchpad-Export-Date: 2015-08-25 06:28+0000\n"
 "X-Generator: Launchpad (build 17690)\n"
 
 #: ../src/mouse-touchpad.vala:34
@@ -92,42 +92,3 @@ msgstr ""
 #: ../src/Widgets/TouchpadSection.vala:67
 msgid "Natural scrolling:"
 msgstr ""
-
-#~ msgid "<i>Slow</i>"
-#~ msgstr "<i>Powoli</i>"
-
-#~ msgid "Right-handed"
-#~ msgstr "Praworęczny"
-
-#~ msgid "Pointer Reveal"
-#~ msgstr "Pokaż pozycje kursora"
-
-#~ msgid "<b>General:</b>"
-#~ msgstr "<b>Główne:</b>"
-
-#~ msgid "Left-handed"
-#~ msgstr "Leworęczny"
-
-#~ msgid "<b>Pointer Speed:</b>"
-#~ msgstr "<b>Prędkość kursora:</b>"
-
-#~ msgid "Two finger scrolling"
-#~ msgstr "Przewijanie dwoma palcami"
-
-#~ msgid "<b>Scrolling:</b>"
-#~ msgstr "<b>Przewijanie:</b>"
-
-#~ msgid "Tap to click"
-#~ msgstr "Tapnij aby kliknąć"
-
-#~ msgid "Horizontal scrolling"
-#~ msgstr "Przewijanie poziome"
-
-#~ msgid "Natural scrolling"
-#~ msgstr "Naturalne przewijanie"
-
-#~ msgid "Disable while typing"
-#~ msgstr "Wyłącz w trakcie pisania"
-
-#~ msgid "<i>Fast</i>"
-#~ msgstr "<i>Szybko</i>"

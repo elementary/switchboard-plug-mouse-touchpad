@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-24 05:37+0000\n"
+"X-Launchpad-Export-Date: 2015-08-25 06:28+0000\n"
 "X-Generator: Launchpad (build 17690)\n"
 
 #: ../src/mouse-touchpad.vala:34
@@ -92,39 +92,3 @@ msgstr ""
 #: ../src/Widgets/TouchpadSection.vala:67
 msgid "Natural scrolling:"
 msgstr ""
-
-#~ msgid "<b>Pointer Speed:</b>"
-#~ msgstr "<b>İşaretçi Hızı:</b>"
-
-#~ msgid "Right-handed"
-#~ msgstr "Sağ-elle"
-
-#~ msgid "<b>General:</b>"
-#~ msgstr "<b>Genel:</b>"
-
-#~ msgid "Left-handed"
-#~ msgstr "Sol-elle"
-
-#~ msgid "<i>Slow</i>"
-#~ msgstr "<i>Yavaş</i>"
-
-#~ msgid "Two finger scrolling"
-#~ msgstr "İki parmakla kaydırma"
-
-#~ msgid "<b>Scrolling:</b>"
-#~ msgstr "<b>Kaydırma:</b>"
-
-#~ msgid "Tap to click"
-#~ msgstr "Tıklamak için vurma"
-
-#~ msgid "Horizontal scrolling"
-#~ msgstr "Yatay kaydırma"
-
-#~ msgid "Natural scrolling"
-#~ msgstr "Doğal kaydırma"
-
-#~ msgid "Disable while typing"
-#~ msgstr "Yazarken devre dışı bırak"
-
-#~ msgid "<i>Fast</i>"
-#~ msgstr "<i>Hızlı</i>"

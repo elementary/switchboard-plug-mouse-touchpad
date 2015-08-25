@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-24 05:37+0000\n"
+"X-Launchpad-Export-Date: 2015-08-25 06:28+0000\n"
 "X-Generator: Launchpad (build 17690)\n"
 
 #: ../src/mouse-touchpad.vala:34
@@ -92,42 +92,3 @@ msgstr ""
 #: ../src/Widgets/TouchpadSection.vala:67
 msgid "Natural scrolling:"
 msgstr ""
-
-#~ msgid "<b>Pointer Speed:</b>"
-#~ msgstr "<b>포인터 속도:</b>"
-
-#~ msgid "Right-handed"
-#~ msgstr "오른손잡이용"
-
-#~ msgid "Pointer Reveal"
-#~ msgstr "포인터 표시"
-
-#~ msgid "<b>General:</b>"
-#~ msgstr "<b>일반 설정:</b>"
-
-#~ msgid "Left-handed"
-#~ msgstr "왼손잡이용"
-
-#~ msgid "<i>Slow</i>"
-#~ msgstr "<i>느리게</i>"
-
-#~ msgid "Two finger scrolling"
-#~ msgstr "두 손가락으로 스크롤"
-
-#~ msgid "<b>Scrolling:</b>"
-#~ msgstr "<b>스크롤:</b>"
-
-#~ msgid "Tap to click"
-#~ msgstr "탭해서 클릭하기"
-
-#~ msgid "Natural scrolling"
-#~ msgstr "자연스러운  스크롤"
-
-#~ msgid "Disable while typing"
-#~ msgstr "타이핑하는 동안엔 작동 멈추기"
-
-#~ msgid "<i>Fast</i>"
-#~ msgstr "<i>빠르게</i>"
-
-#~ msgid "Horizontal scrolling"
-#~ msgstr "가로 스크롤"
