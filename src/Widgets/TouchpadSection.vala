@@ -43,7 +43,8 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
         tap_to_click_switch = new Gtk.Switch ();
         tap_to_click_switch.halign = Gtk.Align.START;
 
-        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 10, 1);
+        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 1, 0.1);
+        pointer_speed_scale.adjustment.value = touchpad_settings.speed;
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.set_size_request (160, -1);
@@ -59,44 +60,29 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
         natural_scrolling_switch = new Gtk.Switch ();
         natural_scrolling_switch.halign = Gtk.Align.START;
 
-        this.add_entry (_("Disable while typing:"), disable_while_typing_switch);
+        //this.add_entry (_("Disable while typing:"), disable_while_typing_switch);
         this.add_entry (_("Tap to click:"), tap_to_click_switch);
         this.add_entry (_("Pointer speed:"), pointer_speed_scale);
         this.add_entry (_("Scrolling:"), scrolling_combobox);
-        this.add_entry (_("Horizontal scrolling:"), horizontal_scrolling_switch);
+        //this.add_entry (_("Horizontal scrolling:"), horizontal_scrolling_switch);
         this.add_entry (_("Natural scrolling:"), natural_scrolling_switch);
     }
 
     private void create_bindings () {
-        touchpad_settings.bind_property ("disable-while-typing",
-                                         disable_while_typing_switch,
-                                         "state",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
-
         touchpad_settings.bind_property ("tap-to-click",
                                          tap_to_click_switch,
                                          "state",
                                          BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
 
-        touchpad_settings.bind_property ("motion-acceleration",
-                                         pointer_speed_scale.adjustment,
-                                         "value",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
-
         pointer_speed_scale.adjustment.bind_property ("value",
                                                       touchpad_settings,
-                                                      "motion-threshold",
+                                                      "speed",
                                                       BindingFlags.SYNC_CREATE,
                                                       pointer_speed_scale_transform_func);
 
         touchpad_settings.bind_property ("scroll-method",
                                          scrolling_combobox,
                                          "active-id",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
-
-        touchpad_settings.bind_property ("horiz-scroll-enabled",
-                                         horizontal_scrolling_switch,
-                                         "state",
                                          BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
 
         touchpad_settings.bind_property ("natural-scroll",
@@ -106,8 +92,8 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
     }
 
     private bool pointer_speed_scale_transform_func (Binding binding, Value source_value, ref Value target_value) {
-        int val = 11 - (int)source_value.get_double ();
-        target_value.set_int (val);
+        double val = source_value.get_double ();
+        target_value.set_double (val);
 
         return true;
     }

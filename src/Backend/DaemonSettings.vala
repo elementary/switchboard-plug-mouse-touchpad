@@ -17,12 +17,10 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class MouseTouchpad.Backend.MouseSettings : Granite.Services.Settings {
-    public bool left_handed { get; set; }
-    public bool natural_scroll { get; set; }
-    public double speed  { get; set; }    
+public class MouseTouchpad.Backend.DaemonSettings : Granite.Services.Settings {
+    public bool locate_pointer { get; set; }
 
-    public MouseSettings () {
-        base ("org.gnome.desktop.peripherals.mouse");
+    public DaemonSettings () {
+        base ("org.gnome.settings-daemon.peripherals.mouse");
     }
 }

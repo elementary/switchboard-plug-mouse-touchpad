@@ -19,14 +19,16 @@
 
 public class MouseTouchpad.Widgets.GeneralSection : Section {
     private Backend.MouseSettings mouse_settings;
+    private Backend.DaemonSettings daemon_settings;
 
     private Granite.Widgets.ModeButton primary_button_switcher;
     private Gtk.Switch reveal_pointer_switch;
 
-    public GeneralSection (Backend.MouseSettings mouse_settings) {
+    public GeneralSection (Backend.MouseSettings mouse_settings, Backend.DaemonSettings daemon_settings) {
         base (_("General"));
 
         this.mouse_settings = mouse_settings;
+        this.daemon_settings = daemon_settings;
 
         build_ui ();
         create_bindings ();
@@ -39,6 +41,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Section {
 
         reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
+        reveal_pointer_switch.margin_end = 8;        
 
         this.add_entry (_("Primary Button:"), primary_button_switcher);
         this.add_entry (_("Reveal pointer:"), reveal_pointer_switch, _("Pressing the control key will highlight the position of the pointer"));
@@ -50,7 +53,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Section {
                                       "selected",
                                       BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
 
-        mouse_settings.bind_property ("locate-pointer",
+        daemon_settings.bind_property ("locate-pointer",
                                       reveal_pointer_switch,
                                       "state",
                                       BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
