@@ -32,7 +32,8 @@ public class MouseTouchpad.Widgets.MouseSection : Section {
     }
 
     private void build_ui () {
-        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 1, 10, 1);
+        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 1, 0.1);
+        pointer_speed_scale.adjustment.value = mouse_settings.speed;
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.set_size_request (160, -1);
@@ -41,21 +42,16 @@ public class MouseTouchpad.Widgets.MouseSection : Section {
     }
 
     private void create_bindings () {
-        mouse_settings.bind_property ("motion-acceleration",
-                                      pointer_speed_scale.adjustment,
-                                      "value",
-                                      BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
-
         pointer_speed_scale.adjustment.bind_property ("value",
                                                       mouse_settings,
-                                                      "motion-threshold",
+                                                      "speed",
                                                       BindingFlags.SYNC_CREATE,
                                                       pointer_speed_scale_transform_func);
     }
 
     private bool pointer_speed_scale_transform_func (Binding binding, Value source_value, ref Value target_value) {
-        int val = 11 - (int)source_value.get_double ();
-        target_value.set_int (val);
+        double val = (double)source_value.get_double ();
+        target_value.set_double (val);
 
         return true;
     }
