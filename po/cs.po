@@ -14,28 +14,28 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-19 05:44+0000\n"
-"X-Generator: Launchpad (build 17746)\n"
+"X-Launchpad-Export-Date: 2015-10-31 05:38+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
 #: ../src/mouse-touchpad.vala:34
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Myš a touchpad"
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Set your mouse and touchpad preferences"
-msgstr ""
+msgstr "Nastavit předvolby pro vaši myš a touchpad"
 
 #: ../src/Widgets/GeneralSection.vala:27
 msgid "General"
-msgstr ""
+msgstr "Obecné"
 
 #: ../src/Widgets/GeneralSection.vala:37
 msgid "Left"
-msgstr ""
+msgstr "Levé"
 
 #: ../src/Widgets/GeneralSection.vala:38
 msgid "Right"
-msgstr ""
+msgstr "Pravé"
 
 #: ../src/Widgets/GeneralSection.vala:43
 msgid "Primary Button:"
@@ -51,27 +51,27 @@ msgstr "Stisknutí klávesy Control (CTRL) zvýrazní kurzor"
 
 #: ../src/Widgets/MouseSection.vala:26
 msgid "Mouse"
-msgstr ""
+msgstr "Myš"
 
 #: ../src/Widgets/MouseSection.vala:40 ../src/Widgets/TouchpadSection.vala:64
 msgid "Pointer speed:"
-msgstr ""
+msgstr "Rychlost kurzoru:"
 
 #: ../src/Widgets/TouchpadSection.vala:31
 msgid "Touchpad"
-msgstr ""
+msgstr "Touchpad"
 
 #: ../src/Widgets/TouchpadSection.vala:52
 msgid "Two-finger"
-msgstr ""
+msgstr "Dvěma prsty"
 
 #: ../src/Widgets/TouchpadSection.vala:53
 msgid "Edge"
-msgstr ""
+msgstr "Okraj"
 
 #: ../src/Widgets/TouchpadSection.vala:54
 msgid "Disabled"
-msgstr ""
+msgstr "Vypnuto"
 
 #: ../src/Widgets/TouchpadSection.vala:62
 msgid "Disable while typing:"

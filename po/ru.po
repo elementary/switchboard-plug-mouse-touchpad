@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-09-03 05:43+0000\n"
-"X-Generator: Launchpad (build 17706)\n"
+"X-Launchpad-Export-Date: 2015-10-31 05:38+0000\n"
+"X-Generator: Launchpad (build 17838)\n"
 
 #: ../src/mouse-touchpad.vala:34
 msgid "Mouse & Touchpad"
@@ -23,7 +23,7 @@ msgstr "Мышь и сенсорная панель"
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Set your mouse and touchpad preferences"
-msgstr "Настройка параметров мыши и сенсорной панели"
+msgstr "Параметры мыши и сенсорной панели"
 
 #: ../src/Widgets/GeneralSection.vala:27
 msgid "General"
@@ -31,23 +31,23 @@ msgstr "Общие"
 
 #: ../src/Widgets/GeneralSection.vala:37
 msgid "Left"
-msgstr "Слева"
+msgstr "Левая"
 
 #: ../src/Widgets/GeneralSection.vala:38
 msgid "Right"
-msgstr "Справа"
+msgstr "Правая"
 
 #: ../src/Widgets/GeneralSection.vala:43
 msgid "Primary Button:"
-msgstr ""
+msgstr "Основная клавиша:"
 
 #: ../src/Widgets/GeneralSection.vala:44
 msgid "Reveal pointer:"
-msgstr ""
+msgstr "Показывать указатель:"
 
 #: ../src/Widgets/GeneralSection.vala:44
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr ""
+msgstr "Нажатие Ctrl подсветит указатель"
 
 #: ../src/Widgets/MouseSection.vala:26
 msgid "Mouse"
@@ -55,7 +55,7 @@ msgstr "Мышь"
 
 #: ../src/Widgets/MouseSection.vala:40 ../src/Widgets/TouchpadSection.vala:64
 msgid "Pointer speed:"
-msgstr ""
+msgstr "Скорость указателя:"
 
 #: ../src/Widgets/TouchpadSection.vala:31
 msgid "Touchpad"
@@ -75,20 +75,20 @@ msgstr "Отключён"
 
 #: ../src/Widgets/TouchpadSection.vala:62
 msgid "Disable while typing:"
-msgstr ""
+msgstr "Отключить во время набора текста:"
 
 #: ../src/Widgets/TouchpadSection.vala:63
 msgid "Tap to click:"
-msgstr ""
+msgstr "Клик по нажатию:"
 
 #: ../src/Widgets/TouchpadSection.vala:65
 msgid "Scrolling:"
-msgstr ""
+msgstr "Прокрутка:"
 
 #: ../src/Widgets/TouchpadSection.vala:66
 msgid "Horizontal scrolling:"
-msgstr ""
+msgstr "Горизонтальная прокрутка:"
 
 #: ../src/Widgets/TouchpadSection.vala:67
 msgid "Natural scrolling:"
-msgstr ""
+msgstr "Естественная прокрутка:"
