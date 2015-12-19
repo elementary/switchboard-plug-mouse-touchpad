@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-24 01:07+0200\n"
+"POT-Creation-Date: 2015-12-18 18:55-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,78 +17,70 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/mouse-touchpad.vala:34
+#: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
 msgstr ""
 
-#: ../src/mouse-touchpad.vala:35
+#: ../src/mouse-touchpad.vala:36
 msgid "Set your mouse and touchpad preferences"
-msgstr ""
-
-#: ../src/Widgets/GeneralSection.vala:27
-msgid "General"
-msgstr ""
-
-#: ../src/Widgets/GeneralSection.vala:37
-msgid "Left"
-msgstr ""
-
-#: ../src/Widgets/GeneralSection.vala:38
-msgid "Right"
-msgstr ""
-
-#: ../src/Widgets/GeneralSection.vala:43
-msgid "Primary Button:"
-msgstr ""
-
-#: ../src/Widgets/GeneralSection.vala:44
-msgid "Reveal pointer:"
-msgstr ""
-
-#: ../src/Widgets/GeneralSection.vala:44
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr ""
-
-#: ../src/Widgets/MouseSection.vala:26
-msgid "Mouse"
-msgstr ""
-
-#: ../src/Widgets/MouseSection.vala:40 ../src/Widgets/TouchpadSection.vala:64
-msgid "Pointer speed:"
 msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:31
 msgid "Touchpad"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:52
+#: ../src/Widgets/TouchpadSection.vala:53
 msgid "Two-finger"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:53
+#: ../src/Widgets/TouchpadSection.vala:54
 msgid "Edge"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:54
+#: ../src/Widgets/TouchpadSection.vala:55
 msgid "Disabled"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:62
-msgid "Disable while typing:"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:63
+#: ../src/Widgets/TouchpadSection.vala:64
 msgid "Tap to click:"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:65
-msgid "Scrolling:"
+#: ../src/Widgets/TouchpadSection.vala:65 ../src/Widgets/MouseSection.vala:41
+msgid "Pointer speed:"
 msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:66
-msgid "Horizontal scrolling:"
+msgid "Scrolling:"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:67
+#: ../src/Widgets/TouchpadSection.vala:68
 msgid "Natural scrolling:"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:26
+msgid "Mouse"
+msgstr ""
+
+#: ../src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr ""
+
+#: ../src/Widgets/GeneralSection.vala:39
+msgid "Left"
+msgstr ""
+
+#: ../src/Widgets/GeneralSection.vala:40
+msgid "Right"
+msgstr ""
+
+#: ../src/Widgets/GeneralSection.vala:46
+msgid "Primary Button:"
+msgstr ""
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Reveal pointer:"
+msgstr ""
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
