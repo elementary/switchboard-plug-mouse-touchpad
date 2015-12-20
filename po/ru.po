@@ -7,88 +7,80 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-08-24 01:07+0200\n"
-"PO-Revision-Date: 2015-09-02 15:49+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-18 18:55-0600\n"
+"PO-Revision-Date: 2015-10-29 22:23+0000\n"
+"Last-Translator: Djaler <djaler1@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-31 05:38+0000\n"
-"X-Generator: Launchpad (build 17838)\n"
+"X-Launchpad-Export-Date: 2015-12-20 06:42+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 
-#: ../src/mouse-touchpad.vala:34
+#: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
 msgstr "Мышь и сенсорная панель"
 
-#: ../src/mouse-touchpad.vala:35
+#: ../src/mouse-touchpad.vala:36
 msgid "Set your mouse and touchpad preferences"
 msgstr "Параметры мыши и сенсорной панели"
-
-#: ../src/Widgets/GeneralSection.vala:27
-msgid "General"
-msgstr "Общие"
-
-#: ../src/Widgets/GeneralSection.vala:37
-msgid "Left"
-msgstr "Левая"
-
-#: ../src/Widgets/GeneralSection.vala:38
-msgid "Right"
-msgstr "Правая"
-
-#: ../src/Widgets/GeneralSection.vala:43
-msgid "Primary Button:"
-msgstr "Основная клавиша:"
-
-#: ../src/Widgets/GeneralSection.vala:44
-msgid "Reveal pointer:"
-msgstr "Показывать указатель:"
-
-#: ../src/Widgets/GeneralSection.vala:44
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Нажатие Ctrl подсветит указатель"
-
-#: ../src/Widgets/MouseSection.vala:26
-msgid "Mouse"
-msgstr "Мышь"
-
-#: ../src/Widgets/MouseSection.vala:40 ../src/Widgets/TouchpadSection.vala:64
-msgid "Pointer speed:"
-msgstr "Скорость указателя:"
 
 #: ../src/Widgets/TouchpadSection.vala:31
 msgid "Touchpad"
 msgstr "Сенсорная панель"
 
-#: ../src/Widgets/TouchpadSection.vala:52
+#: ../src/Widgets/TouchpadSection.vala:53
 msgid "Two-finger"
 msgstr "Двухпальцевая"
 
-#: ../src/Widgets/TouchpadSection.vala:53
+#: ../src/Widgets/TouchpadSection.vala:54
 msgid "Edge"
 msgstr "По краю"
 
-#: ../src/Widgets/TouchpadSection.vala:54
+#: ../src/Widgets/TouchpadSection.vala:55
 msgid "Disabled"
 msgstr "Отключён"
 
-#: ../src/Widgets/TouchpadSection.vala:62
-msgid "Disable while typing:"
-msgstr "Отключить во время набора текста:"
-
-#: ../src/Widgets/TouchpadSection.vala:63
+#: ../src/Widgets/TouchpadSection.vala:64
 msgid "Tap to click:"
 msgstr "Клик по нажатию:"
 
-#: ../src/Widgets/TouchpadSection.vala:65
+#: ../src/Widgets/TouchpadSection.vala:65 ../src/Widgets/MouseSection.vala:41
+msgid "Pointer speed:"
+msgstr "Скорость указателя:"
+
+#: ../src/Widgets/TouchpadSection.vala:66
 msgid "Scrolling:"
 msgstr "Прокрутка:"
 
-#: ../src/Widgets/TouchpadSection.vala:66
-msgid "Horizontal scrolling:"
-msgstr "Горизонтальная прокрутка:"
-
-#: ../src/Widgets/TouchpadSection.vala:67
+#: ../src/Widgets/TouchpadSection.vala:68
 msgid "Natural scrolling:"
 msgstr "Естественная прокрутка:"
+
+#: ../src/Widgets/MouseSection.vala:26
+msgid "Mouse"
+msgstr "Мышь"
+
+#: ../src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "Общие"
+
+#: ../src/Widgets/GeneralSection.vala:39
+msgid "Left"
+msgstr "Левая"
+
+#: ../src/Widgets/GeneralSection.vala:40
+msgid "Right"
+msgstr "Правая"
+
+#: ../src/Widgets/GeneralSection.vala:46
+msgid "Primary Button:"
+msgstr "Основная клавиша:"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Reveal pointer:"
+msgstr "Показывать указатель:"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Нажатие Ctrl подсветит указатель"

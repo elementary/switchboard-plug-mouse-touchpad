@@ -7,88 +7,80 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-08-24 01:07+0200\n"
-"PO-Revision-Date: 2015-08-31 18:37+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-18 18:55-0600\n"
+"PO-Revision-Date: 2015-08-31 18:44+0000\n"
+"Last-Translator: ProsjektX <Unknown>\n"
 "Language-Team: Norwegian Bokmal <nb@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-31 05:38+0000\n"
-"X-Generator: Launchpad (build 17838)\n"
+"X-Launchpad-Export-Date: 2015-12-20 06:41+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 
-#: ../src/mouse-touchpad.vala:34
+#: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
 msgstr "Mus og pekeplate"
 
-#: ../src/mouse-touchpad.vala:35
+#: ../src/mouse-touchpad.vala:36
 msgid "Set your mouse and touchpad preferences"
 msgstr "Sett dine brukervalg for mus og pekeplate"
-
-#: ../src/Widgets/GeneralSection.vala:27
-msgid "General"
-msgstr "Generelt"
-
-#: ../src/Widgets/GeneralSection.vala:37
-msgid "Left"
-msgstr "Venstre"
-
-#: ../src/Widgets/GeneralSection.vala:38
-msgid "Right"
-msgstr "Høyre"
-
-#: ../src/Widgets/GeneralSection.vala:43
-msgid "Primary Button:"
-msgstr "Primær-knapp:"
-
-#: ../src/Widgets/GeneralSection.vala:44
-msgid "Reveal pointer:"
-msgstr "Avslør peker:"
-
-#: ../src/Widgets/GeneralSection.vala:44
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Ved å trykke på Ctrl-tasten vil pekerens posisjon markeres"
-
-#: ../src/Widgets/MouseSection.vala:26
-msgid "Mouse"
-msgstr "Mus"
-
-#: ../src/Widgets/MouseSection.vala:40 ../src/Widgets/TouchpadSection.vala:64
-msgid "Pointer speed:"
-msgstr "Pekerhastighet:"
 
 #: ../src/Widgets/TouchpadSection.vala:31
 msgid "Touchpad"
 msgstr "Pekeplate"
 
-#: ../src/Widgets/TouchpadSection.vala:52
+#: ../src/Widgets/TouchpadSection.vala:53
 msgid "Two-finger"
 msgstr "To-finger"
 
-#: ../src/Widgets/TouchpadSection.vala:53
+#: ../src/Widgets/TouchpadSection.vala:54
 msgid "Edge"
 msgstr "Kant"
 
-#: ../src/Widgets/TouchpadSection.vala:54
+#: ../src/Widgets/TouchpadSection.vala:55
 msgid "Disabled"
 msgstr "Deaktivert"
 
-#: ../src/Widgets/TouchpadSection.vala:62
-msgid "Disable while typing:"
-msgstr "Deaktiver mens du skriver:"
-
-#: ../src/Widgets/TouchpadSection.vala:63
+#: ../src/Widgets/TouchpadSection.vala:64
 msgid "Tap to click:"
 msgstr "Kort trykk for å klikke:"
 
-#: ../src/Widgets/TouchpadSection.vala:65
+#: ../src/Widgets/TouchpadSection.vala:65 ../src/Widgets/MouseSection.vala:41
+msgid "Pointer speed:"
+msgstr "Pekerhastighet:"
+
+#: ../src/Widgets/TouchpadSection.vala:66
 msgid "Scrolling:"
 msgstr "Rulling:"
 
-#: ../src/Widgets/TouchpadSection.vala:66
-msgid "Horizontal scrolling:"
-msgstr "Horisontal rulling:"
-
-#: ../src/Widgets/TouchpadSection.vala:67
+#: ../src/Widgets/TouchpadSection.vala:68
 msgid "Natural scrolling:"
 msgstr "Naturlig rulling:"
+
+#: ../src/Widgets/MouseSection.vala:26
+msgid "Mouse"
+msgstr "Mus"
+
+#: ../src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "Generelt"
+
+#: ../src/Widgets/GeneralSection.vala:39
+msgid "Left"
+msgstr "Venstre"
+
+#: ../src/Widgets/GeneralSection.vala:40
+msgid "Right"
+msgstr "Høyre"
+
+#: ../src/Widgets/GeneralSection.vala:46
+msgid "Primary Button:"
+msgstr "Primær-knapp:"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Reveal pointer:"
+msgstr "Avslør peker:"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Ved å trykke på Ctrl-tasten vil pekerens posisjon markeres"
