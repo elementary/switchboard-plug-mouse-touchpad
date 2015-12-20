@@ -33,7 +33,7 @@ namespace MouseTouchpad {
             Object (category: Category.HARDWARE,
                     code_name: "pantheon-mouse-touchpad",
                     display_name: _("Mouse & Touchpad"),
-                    description: _("Set your mouse and touchpad preferences"),
+                    description: _("Configure mouse and touchpad"),
                     icon: "preferences-desktop-peripherals");
         }
 
