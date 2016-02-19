@@ -108,7 +108,7 @@ namespace MouseTouchpad {
 
         private bool has_mouse (Gdk.DeviceManager manager) {
             foreach (var device in manager.list_devices (Gdk.DeviceType.SLAVE)) {
-                print (device.input_source.to_string () + "\n");
+                print (device.get_name ().to_string () + "\n");
                 if (device.input_source == Gdk.InputSource.MOUSE) {
                     return true;
                 }
