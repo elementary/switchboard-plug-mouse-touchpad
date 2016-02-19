@@ -29,8 +29,6 @@ namespace MouseTouchpad {
         private Widgets.MouseSection mouse_section;
         private Widgets.TouchpadSection touchpad_section;
 
-        //private Gdk.Seat seat;
-
         public Plug () {
             Object (category: Category.HARDWARE,
                     code_name: "pantheon-mouse-touchpad",
