@@ -76,10 +76,44 @@ namespace MouseTouchpad {
             mouse_section = new Widgets.MouseSection (mouse_settings);
             touchpad_section = new Widgets.TouchpadSection (touchpad_settings);
 
+            var display = Gdk.Display.get_default ();
+            if (display != null) {
+                var manager = Gdk.Display.get_default ().get_device_manager ();
+                manager.device_added.connect (() => {
+                    update_ui (manager);
+                });
+
+                manager.device_removed.connect (() => {
+                    update_ui (manager);
+                });
+
+                update_ui (manager);    
+            }
+
             main_grid.attach (general_section, 0, 0, 1, 1);
             main_grid.attach (mouse_section, 0, 1, 1, 1);
             main_grid.attach (touchpad_section, 0, 2, 1, 1);
             main_grid.show_all ();
+        }
+
+        private void update_ui (Gdk.DeviceManager manager) {
+            if (has_mouse (manager)) {
+                mouse_section.no_show_all = false;
+                mouse_section.show_all ();
+            } else {
+                mouse_section.no_show_all = true;
+                mouse_section.hide ();        
+            }
+        }
+
+        private bool has_mouse (Gdk.DeviceManager manager) {
+            foreach (var device in manager.list_devices (Gdk.DeviceType.SLAVE)) {
+                if (device.get_source () == Gdk.InputSource.MOUSE && !device.get_name ().has_prefix ("Virtual core")) {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }
