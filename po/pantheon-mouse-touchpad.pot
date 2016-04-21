@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-18 18:55-0600\n"
+"POT-Creation-Date: 2016-04-21 08:47-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,43 +22,7 @@ msgid "Mouse & Touchpad"
 msgstr ""
 
 #: ../src/mouse-touchpad.vala:36
-msgid "Set your mouse and touchpad preferences"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:31
-msgid "Touchpad"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:53
-msgid "Two-finger"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:54
-msgid "Edge"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:55
-msgid "Disabled"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:64
-msgid "Tap to click:"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:65 ../src/Widgets/MouseSection.vala:41
-msgid "Pointer speed:"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:66
-msgid "Scrolling:"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:68
-msgid "Natural scrolling:"
-msgstr ""
-
-#: ../src/Widgets/MouseSection.vala:26
-msgid "Mouse"
+msgid "Configure mouse and touchpad"
 msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:28
@@ -83,4 +47,40 @@ msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:26
+msgid "Mouse"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:41 ../src/Widgets/TouchpadSection.vala:65
+msgid "Pointer speed:"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:31
+msgid "Touchpad"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:53
+msgid "Two-finger"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:54
+msgid "Edge"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:55
+msgid "Disabled"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:64
+msgid "Tap to click:"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:66
+msgid "Scrolling:"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:68
+msgid "Natural scrolling:"
 msgstr ""
