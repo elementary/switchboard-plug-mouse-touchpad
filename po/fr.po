@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-21 08:47-0300\n"
-"PO-Revision-Date: 2015-12-14 08:12+0000\n"
+"PO-Revision-Date: 2016-04-23 23:40+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-22 05:42+0000\n"
+"X-Launchpad-Export-Date: 2016-04-24 06:07+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
 
 #: ../src/mouse-touchpad.vala:35
@@ -23,7 +23,7 @@ msgstr "Souris & pavé tactile"
 
 #: ../src/mouse-touchpad.vala:36
 msgid "Configure mouse and touchpad"
-msgstr ""
+msgstr "Configurer la souris et le pavé tactile"
 
 #: ../src/Widgets/GeneralSection.vala:28
 msgid "General"
