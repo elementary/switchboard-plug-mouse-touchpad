@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-21 08:47-0300\n"
-"PO-Revision-Date: 2016-04-24 00:59+0000\n"
-"Last-Translator: colindemian <dengmengpc@gmail.com>\n"
+"PO-Revision-Date: 2016-06-16 16:53+0000\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-25 05:33+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-06-17 05:47+0000\n"
+"X-Generator: Launchpad (build 18097)\n"
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
@@ -27,7 +27,7 @@ msgstr "配置鼠标和触控板"
 
 #: ../src/Widgets/GeneralSection.vala:28
 msgid "General"
-msgstr "常规"
+msgstr "常规："
 
 #: ../src/Widgets/GeneralSection.vala:39
 msgid "Left"
@@ -39,7 +39,7 @@ msgstr "右键"
 
 #: ../src/Widgets/GeneralSection.vala:46
 msgid "Primary Button:"
-msgstr "主按键："
+msgstr "主要按键："
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Reveal pointer:"
@@ -51,7 +51,7 @@ msgstr "按住 Ctrl 键时高亮指针所在位置"
 
 #: ../src/Widgets/MouseSection.vala:26
 msgid "Mouse"
-msgstr "鼠标"
+msgstr "鼠标："
 
 #: ../src/Widgets/MouseSection.vala:41 ../src/Widgets/TouchpadSection.vala:65
 msgid "Pointer speed:"
@@ -59,7 +59,7 @@ msgstr "指针速度："
 
 #: ../src/Widgets/TouchpadSection.vala:31
 msgid "Touchpad"
-msgstr "触控板"
+msgstr "触控板："
 
 #: ../src/Widgets/TouchpadSection.vala:53
 msgid "Two-finger"
@@ -75,7 +75,7 @@ msgstr "禁用滚动"
 
 #: ../src/Widgets/TouchpadSection.vala:64
 msgid "Tap to click:"
-msgstr "轻触以点击："
+msgstr "轻触点击："
 
 #: ../src/Widgets/TouchpadSection.vala:66
 msgid "Scrolling:"
