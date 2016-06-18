@@ -22,6 +22,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
 
     private Gtk.Switch disable_while_typing_switch;
     private Gtk.Switch tap_to_click_switch;
+    private Gtk.ComboBoxText click_method_combobox;
     private Gtk.Scale pointer_speed_scale;
     private Gtk.ComboBoxText scrolling_combobox;
     private Gtk.Switch horizontal_scrolling_switch;
@@ -43,6 +44,12 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
         tap_to_click_switch = new Gtk.Switch ();
         tap_to_click_switch.halign = Gtk.Align.START;
 
+        click_method_combobox = new Gtk.ComboBoxText ();
+        click_method_combobox.append ("default", _("Default"));
+        click_method_combobox.append ("fingers", _("Multitouch"));
+        click_method_combobox.append ("areas", _("Areas"));
+        click_method_combobox.append ("none", _("None"));
+
         pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 1, 0.1);
         pointer_speed_scale.adjustment.value = touchpad_settings.speed;
         pointer_speed_scale.digits = 2;
@@ -62,6 +69,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
 
         //this.add_entry (_("Disable while typing:"), disable_while_typing_switch);
         this.add_entry (_("Tap to click:"), tap_to_click_switch);
+        this.add_entry (_("Click method:"), click_method_combobox);
         this.add_entry (_("Pointer speed:"), pointer_speed_scale);
         this.add_entry (_("Scrolling:"), scrolling_combobox);
         //this.add_entry (_("Horizontal scrolling:"), horizontal_scrolling_switch);
@@ -72,6 +80,11 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
         touchpad_settings.bind_property ("tap-to-click",
                                          tap_to_click_switch,
                                          "state",
+                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+
+        touchpad_settings.bind_property ("click-method",
+                                         click_method_combobox,
+                                         "active-id",
                                          BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
 
         pointer_speed_scale.adjustment.bind_property ("value",
