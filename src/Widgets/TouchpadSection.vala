@@ -67,16 +67,21 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
         natural_scrolling_switch = new Gtk.Switch ();
         natural_scrolling_switch.halign = Gtk.Align.START;
 
+        this.add_entry (_("Pointer speed:"), pointer_speed_scale);
         //this.add_entry (_("Disable while typing:"), disable_while_typing_switch);
         this.add_entry (_("Tap to click:"), tap_to_click_switch);
-        this.add_entry (_("Click method:"), click_method_combobox);
-        this.add_entry (_("Pointer speed:"), pointer_speed_scale);
+        this.add_entry (_("Secondary clicking:"), click_method_combobox);
         this.add_entry (_("Scrolling:"), scrolling_combobox);
         //this.add_entry (_("Horizontal scrolling:"), horizontal_scrolling_switch);
         this.add_entry (_("Natural scrolling:"), natural_scrolling_switch);
     }
 
     private void create_bindings () {
+        touchpad_settings.bind_property ("scroll-method",
+                                         scrolling_combobox,
+                                         "active-id",
+                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+
         touchpad_settings.bind_property ("tap-to-click",
                                          tap_to_click_switch,
                                          "state",
@@ -92,11 +97,6 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
                                                       "speed",
                                                       BindingFlags.SYNC_CREATE,
                                                       pointer_speed_scale_transform_func);
-
-        touchpad_settings.bind_property ("scroll-method",
-                                         scrolling_combobox,
-                                         "active-id",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
 
         touchpad_settings.bind_property ("natural-scroll",
                                          natural_scrolling_switch,
