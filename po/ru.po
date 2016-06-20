@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-18 19:05-0700\n"
-"PO-Revision-Date: 2015-09-02 15:49+0000\n"
+"PO-Revision-Date: 2016-06-19 12:09+0000\n"
 "Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-19 06:02+0000\n"
+"X-Launchpad-Export-Date: 2016-06-20 06:13+0000\n"
 "X-Generator: Launchpad (build 18097)\n"
 
 #: ../src/Widgets/TouchpadSection.vala:32
@@ -23,19 +23,19 @@ msgstr "Сенсорная панель"
 
 #: ../src/Widgets/TouchpadSection.vala:48
 msgid "Hardware default"
-msgstr ""
+msgstr "По умолчанию"
 
 #: ../src/Widgets/TouchpadSection.vala:49
 msgid "Multitouch"
-msgstr ""
+msgstr "Мультитач"
 
 #: ../src/Widgets/TouchpadSection.vala:50
 msgid "Touchpad areas"
-msgstr ""
+msgstr "Зоны сенсорной панели"
 
 #: ../src/Widgets/TouchpadSection.vala:51
 msgid "No secondary clicking"
-msgstr ""
+msgstr "Без правого клика"
 
 #: ../src/Widgets/TouchpadSection.vala:60
 msgid "Two-finger"
@@ -59,7 +59,7 @@ msgstr "Клик по касанию:"
 
 #: ../src/Widgets/TouchpadSection.vala:73
 msgid "Physical clicking:"
-msgstr ""
+msgstr "Метод кликов:"
 
 #: ../src/Widgets/TouchpadSection.vala:74
 msgid "Scrolling:"
