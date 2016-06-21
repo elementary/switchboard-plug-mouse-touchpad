@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-18 19:05-0700\n"
-"PO-Revision-Date: 2016-06-17 17:27+0000\n"
+"PO-Revision-Date: 2016-06-20 06:21+0000\n"
 "Last-Translator: Fabio Zaramella <FFabio.96.X@Gmail.com>\n"
 "Language-Team: Italian <it@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-20 06:13+0000\n"
+"X-Launchpad-Export-Date: 2016-06-21 06:01+0000\n"
 "X-Generator: Launchpad (build 18097)\n"
 
 #: ../src/Widgets/TouchpadSection.vala:32
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:49
 msgid "Multitouch"
-msgstr ""
+msgstr "Multitouch"
 
 #: ../src/Widgets/TouchpadSection.vala:50
 msgid "Touchpad areas"
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:51
 msgid "No secondary clicking"
-msgstr ""
+msgstr "Nessun click secondario"
 
 #: ../src/Widgets/TouchpadSection.vala:60
 msgid "Two-finger"
@@ -59,7 +59,7 @@ msgstr "Tap per cliccare:"
 
 #: ../src/Widgets/TouchpadSection.vala:73
 msgid "Physical clicking:"
-msgstr ""
+msgstr "Click fisico:"
 
 #: ../src/Widgets/TouchpadSection.vala:74
 msgid "Scrolling:"
