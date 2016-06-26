@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-18 19:05-0700\n"
-"PO-Revision-Date: 2016-06-20 09:22+0000\n"
-"Last-Translator: Damian Woźniak <fiszet@gmail.com>\n"
+"PO-Revision-Date: 2016-06-23 11:07+0000\n"
+"Last-Translator: Szymon <krasuski.szymon.piotr@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-21 06:01+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-06-26 06:24+0000\n"
+"X-Generator: Launchpad (build 18111)\n"
 
 #: ../src/Widgets/TouchpadSection.vala:32
 msgid "Touchpad"
@@ -23,7 +23,7 @@ msgstr "Panel dotykowy"
 
 #: ../src/Widgets/TouchpadSection.vala:48
 msgid "Hardware default"
-msgstr ""
+msgstr "Domyślne sprzętowe"
 
 #: ../src/Widgets/TouchpadSection.vala:49
 msgid "Multitouch"
@@ -35,7 +35,7 @@ msgstr "Obszary gładzika"
 
 #: ../src/Widgets/TouchpadSection.vala:51
 msgid "No secondary clicking"
-msgstr ""
+msgstr "Bez drugiego kliknięcia"
 
 #: ../src/Widgets/TouchpadSection.vala:60
 msgid "Two-finger"
@@ -67,11 +67,11 @@ msgstr "Przewijanie:"
 
 #: ../src/Widgets/TouchpadSection.vala:76
 msgid "Natural scrolling:"
-msgstr "Przewijanie naturalne:"
+msgstr "Przewijanie normalne:"
 
 #: ../src/Widgets/MouseSection.vala:26
 msgid "Mouse"
-msgstr "Mysz"
+msgstr "Myszka"
 
 #: ../src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -95,12 +95,12 @@ msgstr "Pokaż wskaźnik:"
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Pokaż lokalizację wskaźnika po naciśnięciu klawisza CTRL"
+msgstr "Naciśnięcie przycisku kontrolnego zaznaczy pozycję wskaźnika"
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
-msgstr "Mysz i panel dotykowy"
+msgstr "Myszka i panel dotykowy"
 
 #: ../src/mouse-touchpad.vala:36
 msgid "Configure mouse and touchpad"
-msgstr "Konfiguruj mysz oraz gładzik"
+msgstr "Skonfiguruj myszkę i panel dotykowy"
