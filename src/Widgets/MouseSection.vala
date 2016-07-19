@@ -38,7 +38,7 @@ public class MouseTouchpad.Widgets.MouseSection : Section {
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.set_size_request (160, -1);
 
-        this.add_entry (_ ("Pointer speed:"), pointer_speed_scale);
+        this.add_entry (_("Pointer speed:"), pointer_speed_scale);
     }
 
     private void create_bindings () {
