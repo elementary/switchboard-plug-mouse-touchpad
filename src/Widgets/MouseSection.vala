@@ -21,6 +21,7 @@ public class MouseTouchpad.Widgets.MouseSection : Section {
     private Backend.MouseSettings mouse_settings;
 
     private Gtk.Scale pointer_speed_scale;
+    private Gtk.Switch natural_scrolling_switch;
 
     public MouseSection (Backend.MouseSettings mouse_settings) {
         base (_("Mouse"));
@@ -38,7 +39,11 @@ public class MouseTouchpad.Widgets.MouseSection : Section {
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.set_size_request (160, -1);
 
+        natural_scrolling_switch = new Gtk.Switch ();
+        natural_scrolling_switch.halign = Gtk.Align.START;
+
         this.add_entry (_ ("Pointer speed:"), pointer_speed_scale);
+        this.add_entry (_("Natural scrolling:"), natural_scrolling_switch);
     }
 
     private void create_bindings () {
@@ -47,6 +52,11 @@ public class MouseTouchpad.Widgets.MouseSection : Section {
                                                       "speed",
                                                       BindingFlags.SYNC_CREATE,
                                                       pointer_speed_scale_transform_func);
+
+        mouse_settings.bind_property ("natural-scroll",
+                                      natural_scrolling_switch,
+                                      "state",
+                                      BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
     }
 
     private bool pointer_speed_scale_transform_func (Binding binding, Value source_value, ref Value target_value) {
