@@ -7,15 +7,55 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-06-18 19:05-0700\n"
+"POT-Creation-Date: 2016-07-19 05:19-0500\n"
 "PO-Revision-Date: 2016-06-23 11:07+0000\n"
 "Last-Translator: Szymon <krasuski.szymon.piotr@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-26 06:24+0000\n"
-"X-Generator: Launchpad (build 18111)\n"
+"X-Launchpad-Export-Date: 2016-07-20 06:07+0000\n"
+"X-Generator: Launchpad (build 18147)\n"
+
+#: ../src/mouse-touchpad.vala:35
+msgid "Mouse & Touchpad"
+msgstr "Myszka i panel dotykowy"
+
+#: ../src/mouse-touchpad.vala:36
+msgid "Configure mouse and touchpad"
+msgstr "Skonfiguruj myszkę i panel dotykowy"
+
+#: ../src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "Ogólne"
+
+#: ../src/Widgets/GeneralSection.vala:39
+msgid "Left"
+msgstr "Lewy"
+
+#: ../src/Widgets/GeneralSection.vala:40
+msgid "Right"
+msgstr "Prawy"
+
+#: ../src/Widgets/GeneralSection.vala:46
+msgid "Primary Button:"
+msgstr "Przycisk podstawowy:"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Reveal pointer:"
+msgstr "Pokaż wskaźnik:"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Naciśnięcie przycisku kontrolnego zaznaczy pozycję wskaźnika"
+
+#: ../src/Widgets/MouseSection.vala:26
+msgid "Mouse"
+msgstr "Myszka"
+
+#: ../src/Widgets/MouseSection.vala:41 ../src/Widgets/TouchpadSection.vala:70
+msgid "Pointer speed:"
+msgstr "Szybkość wskaźnika:"
 
 #: ../src/Widgets/TouchpadSection.vala:32
 msgid "Touchpad"
@@ -49,10 +89,6 @@ msgstr "Krawędź"
 msgid "Disabled"
 msgstr "Wyłączone"
 
-#: ../src/Widgets/TouchpadSection.vala:70 ../src/Widgets/MouseSection.vala:41
-msgid "Pointer speed:"
-msgstr "Szybkość wskaźnika:"
-
 #: ../src/Widgets/TouchpadSection.vala:72
 msgid "Tap to click:"
 msgstr "Stuknij, aby kilknąć:"
@@ -68,39 +104,3 @@ msgstr "Przewijanie:"
 #: ../src/Widgets/TouchpadSection.vala:76
 msgid "Natural scrolling:"
 msgstr "Przewijanie normalne:"
-
-#: ../src/Widgets/MouseSection.vala:26
-msgid "Mouse"
-msgstr "Myszka"
-
-#: ../src/Widgets/GeneralSection.vala:28
-msgid "General"
-msgstr "Ogólne"
-
-#: ../src/Widgets/GeneralSection.vala:39
-msgid "Left"
-msgstr "Lewy"
-
-#: ../src/Widgets/GeneralSection.vala:40
-msgid "Right"
-msgstr "Prawy"
-
-#: ../src/Widgets/GeneralSection.vala:46
-msgid "Primary Button:"
-msgstr "Przycisk podstawowy:"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Reveal pointer:"
-msgstr "Pokaż wskaźnik:"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Naciśnięcie przycisku kontrolnego zaznaczy pozycję wskaźnika"
-
-#: ../src/mouse-touchpad.vala:35
-msgid "Mouse & Touchpad"
-msgstr "Myszka i panel dotykowy"
-
-#: ../src/mouse-touchpad.vala:36
-msgid "Configure mouse and touchpad"
-msgstr "Skonfiguruj myszkę i panel dotykowy"

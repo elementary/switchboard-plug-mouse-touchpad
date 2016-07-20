@@ -7,15 +7,55 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-06-18 19:05-0700\n"
+"POT-Creation-Date: 2016-07-19 05:19-0500\n"
 "PO-Revision-Date: 2016-02-23 20:47+0000\n"
 "Last-Translator: momit rahman <momitrahman@gmail.com>\n"
 "Language-Team: Bengali <bn@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-20 06:13+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-07-20 06:07+0000\n"
+"X-Generator: Launchpad (build 18147)\n"
+
+#: ../src/mouse-touchpad.vala:35
+msgid "Mouse & Touchpad"
+msgstr "মাউস ও টাচপ্যাড"
+
+#: ../src/mouse-touchpad.vala:36
+msgid "Configure mouse and touchpad"
+msgstr ""
+
+#: ../src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "সাধারন"
+
+#: ../src/Widgets/GeneralSection.vala:39
+msgid "Left"
+msgstr "বামে"
+
+#: ../src/Widgets/GeneralSection.vala:40
+msgid "Right"
+msgstr "ডানে"
+
+#: ../src/Widgets/GeneralSection.vala:46
+msgid "Primary Button:"
+msgstr "প্রাথমিক বাটনঃ"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Reveal pointer:"
+msgstr "মাউসের পইন্টার দেখানঃ"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "কন্ট্রোল কী চেপে ধরলে মাউসের পইন্টারের অবস্থান তুলে ধরবে"
+
+#: ../src/Widgets/MouseSection.vala:26
+msgid "Mouse"
+msgstr "মাউস"
+
+#: ../src/Widgets/MouseSection.vala:41 ../src/Widgets/TouchpadSection.vala:70
+msgid "Pointer speed:"
+msgstr "পয়েন্টারের গতি:"
 
 #: ../src/Widgets/TouchpadSection.vala:32
 msgid "Touchpad"
@@ -49,10 +89,6 @@ msgstr "প্রান্ত"
 msgid "Disabled"
 msgstr "নিস্ক্রিয় করুন"
 
-#: ../src/Widgets/TouchpadSection.vala:70 ../src/Widgets/MouseSection.vala:41
-msgid "Pointer speed:"
-msgstr "পয়েন্টারের গতি:"
-
 #: ../src/Widgets/TouchpadSection.vala:72
 msgid "Tap to click:"
 msgstr "ক্লিক করতে টোকা দেনঃ"
@@ -68,39 +104,3 @@ msgstr "উপরে নিচে করাঃ"
 #: ../src/Widgets/TouchpadSection.vala:76
 msgid "Natural scrolling:"
 msgstr "সাধারন ভাবে উপরে নিচে নেওয়াঃ"
-
-#: ../src/Widgets/MouseSection.vala:26
-msgid "Mouse"
-msgstr "মাউস"
-
-#: ../src/Widgets/GeneralSection.vala:28
-msgid "General"
-msgstr "সাধারন"
-
-#: ../src/Widgets/GeneralSection.vala:39
-msgid "Left"
-msgstr "বামে"
-
-#: ../src/Widgets/GeneralSection.vala:40
-msgid "Right"
-msgstr "ডানে"
-
-#: ../src/Widgets/GeneralSection.vala:46
-msgid "Primary Button:"
-msgstr "প্রাথমিক বাটনঃ"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Reveal pointer:"
-msgstr "মাউসের পইন্টার দেখানঃ"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "কন্ট্রোল কী চেপে ধরলে মাউসের পইন্টারের অবস্থান তুলে ধরবে"
-
-#: ../src/mouse-touchpad.vala:35
-msgid "Mouse & Touchpad"
-msgstr "মাউস ও টাচপ্যাড"
-
-#: ../src/mouse-touchpad.vala:36
-msgid "Configure mouse and touchpad"
-msgstr ""

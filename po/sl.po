@@ -7,15 +7,55 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-06-18 19:05-0700\n"
+"POT-Creation-Date: 2016-07-19 05:19-0500\n"
 "PO-Revision-Date: 2015-10-30 22:11+0000\n"
 "Last-Translator: Jernej Virag <Unknown>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-20 06:13+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-07-20 06:07+0000\n"
+"X-Generator: Launchpad (build 18147)\n"
+
+#: ../src/mouse-touchpad.vala:35
+msgid "Mouse & Touchpad"
+msgstr "Miška in sledilna ploščica"
+
+#: ../src/mouse-touchpad.vala:36
+msgid "Configure mouse and touchpad"
+msgstr ""
+
+#: ../src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "Splošno"
+
+#: ../src/Widgets/GeneralSection.vala:39
+msgid "Left"
+msgstr "Levi"
+
+#: ../src/Widgets/GeneralSection.vala:40
+msgid "Right"
+msgstr "Desni"
+
+#: ../src/Widgets/GeneralSection.vala:46
+msgid "Primary Button:"
+msgstr "Primarni gumb:"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Reveal pointer:"
+msgstr "Pokaži miškin kazalec:"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Tipka control bo pokazala miškin kazalec."
+
+#: ../src/Widgets/MouseSection.vala:26
+msgid "Mouse"
+msgstr "Miška"
+
+#: ../src/Widgets/MouseSection.vala:41 ../src/Widgets/TouchpadSection.vala:70
+msgid "Pointer speed:"
+msgstr "Hitrost kazalca:"
 
 #: ../src/Widgets/TouchpadSection.vala:32
 msgid "Touchpad"
@@ -49,10 +89,6 @@ msgstr "Rob"
 msgid "Disabled"
 msgstr "Onemogočeno"
 
-#: ../src/Widgets/TouchpadSection.vala:70 ../src/Widgets/MouseSection.vala:41
-msgid "Pointer speed:"
-msgstr "Hitrost kazalca:"
-
 #: ../src/Widgets/TouchpadSection.vala:72
 msgid "Tap to click:"
 msgstr "Udarjanje za _klik:"
@@ -68,39 +104,3 @@ msgstr "Drsenje:"
 #: ../src/Widgets/TouchpadSection.vala:76
 msgid "Natural scrolling:"
 msgstr "Naravno drsenje:"
-
-#: ../src/Widgets/MouseSection.vala:26
-msgid "Mouse"
-msgstr "Miška"
-
-#: ../src/Widgets/GeneralSection.vala:28
-msgid "General"
-msgstr "Splošno"
-
-#: ../src/Widgets/GeneralSection.vala:39
-msgid "Left"
-msgstr "Levi"
-
-#: ../src/Widgets/GeneralSection.vala:40
-msgid "Right"
-msgstr "Desni"
-
-#: ../src/Widgets/GeneralSection.vala:46
-msgid "Primary Button:"
-msgstr "Primarni gumb:"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Reveal pointer:"
-msgstr "Pokaži miškin kazalec:"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Tipka control bo pokazala miškin kazalec."
-
-#: ../src/mouse-touchpad.vala:35
-msgid "Mouse & Touchpad"
-msgstr "Miška in sledilna ploščica"
-
-#: ../src/mouse-touchpad.vala:36
-msgid "Configure mouse and touchpad"
-msgstr ""
