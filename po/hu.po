@@ -1,4 +1,4 @@
-# Swedish translation for switchboard-plug-mouse-touchpad
+# Hungarian translation for switchboard-plug-mouse-touchpad
 # Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
 # This file is distributed under the same license as the switchboard-plug-mouse-touchpad package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-07-19 05:19-0500\n"
-"PO-Revision-Date: 2016-07-22 13:17+0000\n"
-"Last-Translator: Mikael Nyberg <mikanybe@gmail.com>\n"
-"Language-Team: Swedish <sv@li.org>\n"
+"PO-Revision-Date: 2016-07-22 15:48+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,89 +19,88 @@ msgstr ""
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
-msgstr "Mus & pekplatta"
+msgstr ""
 
 #: ../src/mouse-touchpad.vala:36
 msgid "Configure mouse and touchpad"
-msgstr "Ställ in mus och pekplatta"
+msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:28
 msgid "General"
-msgstr "Allmänt"
+msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:39
 msgid "Left"
-msgstr "Vänster"
+msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:40
 msgid "Right"
-msgstr "Höger"
+msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:46
 msgid "Primary Button:"
-msgstr "Primär knapp:"
+msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Reveal pointer:"
-msgstr "Avslöja markör"
+msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
-"Genom att trycka på kontrolltangenten markeras positionen för muspekaren"
 
 #: ../src/Widgets/MouseSection.vala:26
 msgid "Mouse"
-msgstr "Mus"
+msgstr ""
 
 #: ../src/Widgets/MouseSection.vala:41 ../src/Widgets/TouchpadSection.vala:70
 msgid "Pointer speed:"
-msgstr "Markörens hastighet:"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:32
 msgid "Touchpad"
-msgstr "Pekplatta"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:48
 msgid "Hardware default"
-msgstr "Hårdvarans standard"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:49
 msgid "Multitouch"
-msgstr "Multi-touch"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:50
 msgid "Touchpad areas"
-msgstr "Områden på pekplattan"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:51
 msgid "No secondary clicking"
-msgstr "Ingen sekundär klickning"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:60
 msgid "Two-finger"
-msgstr "Två fingrar"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:61
 msgid "Edge"
-msgstr "Kant"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:62
 msgid "Disabled"
-msgstr "Inaktiverad"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:72
 msgid "Tap to click:"
-msgstr "Knacka för att klicka:"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:73
 msgid "Physical clicking:"
-msgstr "Fysisk klickning:"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:74
 msgid "Scrolling:"
-msgstr "Rullning:"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:76
 msgid "Natural scrolling:"
-msgstr "Naturlig rullning:"
+msgstr ""
