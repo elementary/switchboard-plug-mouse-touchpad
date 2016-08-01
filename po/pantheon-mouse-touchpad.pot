@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-19 05:19-0500\n"
+"POT-Creation-Date: 2016-07-31 23:06-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,12 +49,16 @@ msgstr ""
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 
-#: ../src/Widgets/MouseSection.vala:26
+#: ../src/Widgets/MouseSection.vala:27
 msgid "Mouse"
 msgstr ""
 
-#: ../src/Widgets/MouseSection.vala:41 ../src/Widgets/TouchpadSection.vala:70
+#: ../src/Widgets/MouseSection.vala:44 ../src/Widgets/TouchpadSection.vala:70
 msgid "Pointer speed:"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:45 ../src/Widgets/TouchpadSection.vala:76
+msgid "Natural scrolling:"
 msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:32
@@ -99,8 +103,4 @@ msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:74
 msgid "Scrolling:"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:76
-msgid "Natural scrolling:"
 msgstr ""
