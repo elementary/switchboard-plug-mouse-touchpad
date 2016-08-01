@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-07-19 05:19-0500\n"
+"POT-Creation-Date: 2016-07-31 23:06-0500\n"
 "PO-Revision-Date: 2016-07-26 13:36+0000\n"
 "Last-Translator: Mikael Nyberg <mikanybe@gmail.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-07-27 06:42+0000\n"
-"X-Generator: Launchpad (build 18153)\n"
+"X-Launchpad-Export-Date: 2016-08-01 05:37+0000\n"
+"X-Generator: Launchpad (build 18169)\n"
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
@@ -50,13 +50,17 @@ msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 "Genom att trycka på kontrolltangenten markeras positionen för muspekaren"
 
-#: ../src/Widgets/MouseSection.vala:26
+#: ../src/Widgets/MouseSection.vala:27
 msgid "Mouse"
 msgstr "Mus"
 
-#: ../src/Widgets/MouseSection.vala:41 ../src/Widgets/TouchpadSection.vala:70
+#: ../src/Widgets/MouseSection.vala:44 ../src/Widgets/TouchpadSection.vala:70
 msgid "Pointer speed:"
 msgstr "Markörens hastighet:"
+
+#: ../src/Widgets/MouseSection.vala:45 ../src/Widgets/TouchpadSection.vala:76
+msgid "Natural scrolling:"
+msgstr "Naturlig rullning:"
 
 #: ../src/Widgets/TouchpadSection.vala:32
 msgid "Touchpad"
@@ -101,7 +105,3 @@ msgstr "Fysisk klickning:"
 #: ../src/Widgets/TouchpadSection.vala:74
 msgid "Scrolling:"
 msgstr "Rullning:"
-
-#: ../src/Widgets/TouchpadSection.vala:76
-msgid "Natural scrolling:"
-msgstr "Naturlig rullning:"
