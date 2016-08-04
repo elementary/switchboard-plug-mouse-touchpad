@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-07-31 23:06-0500\n"
-"PO-Revision-Date: 2016-08-02 13:08+0000\n"
+"PO-Revision-Date: 2016-08-03 15:17+0000\n"
 "Last-Translator: Jun Takeda <takeda.jun@gmail.com>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-03 05:57+0000\n"
+"X-Launchpad-Export-Date: 2016-08-04 05:46+0000\n"
 "X-Generator: Launchpad (build 18169)\n"
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
-msgstr "マウス・タッチパッド"
+msgstr "マウスとタッチパッド"
 
 #: ../src/mouse-touchpad.vala:36
 msgid "Configure mouse and touchpad"
-msgstr "マウス・タッチパッドの設定"
+msgstr "マウスとタッチパッドの設定"
 
 #: ../src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -43,11 +43,11 @@ msgstr "主ボタン:"
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Reveal pointer:"
-msgstr ""
+msgstr "ポインターのハイライト："
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Controlキーをおすとポインターの位置がハイライトされます"
+msgstr "Ctrl キーをおすとポインターの位置がハイライトされます"
 
 #: ../src/Widgets/MouseSection.vala:27
 msgid "Mouse"
