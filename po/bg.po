@@ -1,16 +1,16 @@
-# German translation for switchboard-plug-mouse-touchpad
-# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# Bulgarian translation for switchboard-plug-mouse-touchpad
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
 # This file is distributed under the same license as the switchboard-plug-mouse-touchpad package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-07-31 23:06-0500\n"
-"PO-Revision-Date: 2016-08-04 12:13+0000\n"
-"Last-Translator: UweS <Unknown>\n"
-"Language-Team: German <de@li.org>\n"
+"PO-Revision-Date: 2016-08-04 21:57+0000\n"
+"Last-Translator: Stanislav <stunito0o0o0@gmail.com>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,88 +19,88 @@ msgstr ""
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
-msgstr "Maus und Touchpad"
+msgstr "Мишка и Тъчпад"
 
 #: ../src/mouse-touchpad.vala:36
 msgid "Configure mouse and touchpad"
-msgstr "Maus und Touchpad einrichten"
+msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:28
 msgid "General"
-msgstr "Allgemein"
+msgstr "Общи"
 
 #: ../src/Widgets/GeneralSection.vala:39
 msgid "Left"
-msgstr "Links"
+msgstr "Ляв"
 
 #: ../src/Widgets/GeneralSection.vala:40
 msgid "Right"
-msgstr "Rechts"
+msgstr "Десен"
 
 #: ../src/Widgets/GeneralSection.vala:46
 msgid "Primary Button:"
-msgstr "Primäre Taste:"
+msgstr "Основен бутон:"
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Reveal pointer:"
-msgstr "Mauszeiger hervorheben:"
+msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Drücken der Strg-Taste hebt die Position des Mauszeigers hervor"
+msgstr ""
 
 #: ../src/Widgets/MouseSection.vala:27
 msgid "Mouse"
-msgstr "Maus"
+msgstr "Мишка"
 
 #: ../src/Widgets/MouseSection.vala:44 ../src/Widgets/TouchpadSection.vala:70
 msgid "Pointer speed:"
-msgstr "Zeigergeschwindigkeit:"
+msgstr "Скорост на курсора:"
 
 #: ../src/Widgets/MouseSection.vala:45 ../src/Widgets/TouchpadSection.vala:76
 msgid "Natural scrolling:"
-msgstr "Natürliches Scrollen:"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:32
 msgid "Touchpad"
-msgstr "Touchpad"
+msgstr "Тъчпад"
 
 #: ../src/Widgets/TouchpadSection.vala:48
 msgid "Hardware default"
-msgstr "Gerätestandard"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:49
 msgid "Multitouch"
-msgstr "Multi-Touch"
+msgstr "Мултитъч"
 
 #: ../src/Widgets/TouchpadSection.vala:50
 msgid "Touchpad areas"
-msgstr "Touchpad-Bereiche"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:51
 msgid "No secondary clicking"
-msgstr "Kein Sekundärklick"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:60
 msgid "Two-finger"
-msgstr "Zwei Finger"
+msgstr "Два пръста"
 
 #: ../src/Widgets/TouchpadSection.vala:61
 msgid "Edge"
-msgstr "Rand"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:62
 msgid "Disabled"
-msgstr "Deaktiviert"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:72
 msgid "Tap to click:"
-msgstr "Klicken durch Tipp aufs Touchpad:"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:73
 msgid "Physical clicking:"
-msgstr "Klicken:"
+msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:74
 msgid "Scrolling:"
-msgstr "Scrollen:"
+msgstr "Скрол"
