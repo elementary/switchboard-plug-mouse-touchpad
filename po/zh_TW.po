@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-07-31 23:06-0500\n"
-"PO-Revision-Date: 2015-09-13 14:15+0000\n"
+"PO-Revision-Date: 2016-08-06 10:17+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-02 06:02+0000\n"
+"X-Launchpad-Export-Date: 2016-08-07 05:46+0000\n"
 "X-Generator: Launchpad (build 18169)\n"
 
 #: ../src/mouse-touchpad.vala:35
@@ -23,7 +23,7 @@ msgstr "滑鼠和觸控板"
 
 #: ../src/mouse-touchpad.vala:36
 msgid "Configure mouse and touchpad"
-msgstr ""
+msgstr "調整滑鼠和觸控板設定"
 
 #: ../src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -67,19 +67,19 @@ msgstr "觸控板"
 
 #: ../src/Widgets/TouchpadSection.vala:48
 msgid "Hardware default"
-msgstr ""
+msgstr "硬體預設值"
 
 #: ../src/Widgets/TouchpadSection.vala:49
 msgid "Multitouch"
-msgstr ""
+msgstr "多點觸控"
 
 #: ../src/Widgets/TouchpadSection.vala:50
 msgid "Touchpad areas"
-msgstr ""
+msgstr "觸控板區塊"
 
 #: ../src/Widgets/TouchpadSection.vala:51
 msgid "No secondary clicking"
-msgstr ""
+msgstr "沒有次要點擊"
 
 #: ../src/Widgets/TouchpadSection.vala:60
 msgid "Two-finger"
@@ -99,7 +99,7 @@ msgstr "輕觸表示點擊："
 
 #: ../src/Widgets/TouchpadSection.vala:73
 msgid "Physical clicking:"
-msgstr ""
+msgstr "實體點擊："
 
 #: ../src/Widgets/TouchpadSection.vala:74
 msgid "Scrolling:"
