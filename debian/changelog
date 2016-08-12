@@ -1,8 +1,8 @@
-switchboard-plug-mouse-touchpad (0.1.1) trusty; urgency=low
+switchboard-plug-mouse-touchpad (0.1.1) xenial; urgency=medium
 
-  * Minor Changes
+  * New upstream release.
 
- -- Keith Gonyon <kgonyon@gmail.com>  Sat, 26 Jul 2014 15:20:42 -0700
+ -- Cody Garver <cody@elementary.io>  Fri, 12 Aug 2016 05:06:47 -0500
 
 switchboard-plug-mouse-touchpad (0.1.0) trusty; urgency=low
 
