@@ -68,11 +68,9 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
         natural_scrolling_switch.halign = Gtk.Align.START;
 
         this.add_entry (_("Pointer speed:"), pointer_speed_scale);
-        //this.add_entry (_("Disable while typing:"), disable_while_typing_switch);
         this.add_entry (_("Tap to click:"), tap_to_click_switch);
         this.add_entry (_("Physical clicking:"), click_method_combobox);
         this.add_entry (_("Scrolling:"), scrolling_combobox);
-        //this.add_entry (_("Horizontal scrolling:"), horizontal_scrolling_switch);
         this.add_entry (_("Natural scrolling:"), natural_scrolling_switch);
     }
 
