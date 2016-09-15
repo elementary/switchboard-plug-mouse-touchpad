@@ -17,36 +17,38 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class MouseTouchpad.Widgets.MouseSection : Section {
-    private Backend.MouseSettings mouse_settings;
-
-    private Gtk.Scale pointer_speed_scale;
-    private Gtk.Switch natural_scrolling_switch;
+public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
+    public Backend.MouseSettings mouse_settings { get; construct; }
 
     public MouseSection (Backend.MouseSettings mouse_settings) {
-        base (_("Mouse"));
-
-        this.mouse_settings = mouse_settings;
-
-        build_ui ();
-        create_bindings ();
+        Object (mouse_settings: mouse_settings);
     }
 
-    private void build_ui () {
-        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
+    construct {
+        var title_label = new Gtk.Label (_("Mouse"));
+        title_label.halign = Gtk.Align.START;
+        title_label.get_style_context ().add_class ("h4");
+
+        var pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
         pointer_speed_scale.adjustment.value = mouse_settings.speed;
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.set_size_request (160, -1);
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
-        natural_scrolling_switch = new Gtk.Switch ();
+
+        var natural_scrolling_switch = new Gtk.Switch ();
         natural_scrolling_switch.halign = Gtk.Align.START;
 
-        this.add_entry (_("Pointer speed:"), pointer_speed_scale);
-        this.add_entry (_("Natural scrolling:"), natural_scrolling_switch);
-    }
+        row_spacing = 12;
+        column_spacing = 12;
+        column_homogeneous = true;
 
-    private void create_bindings () {
+        attach (title_label, 0, 0, 1, 1);
+        attach (new SettingLabel (_("Pointer speed:")), 0, 1, 1, 1);
+        attach (pointer_speed_scale, 1, 1, 1, 1);
+        attach (new SettingLabel (_("Natural scrolling:")), 0, 2, 1, 1);
+        attach (natural_scrolling_switch, 1, 2, 1, 1);
+
         pointer_speed_scale.adjustment.bind_property ("value",
                                                       mouse_settings,
                                                       "speed",
