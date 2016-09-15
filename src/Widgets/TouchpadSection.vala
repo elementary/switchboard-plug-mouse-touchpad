@@ -17,7 +17,7 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class MouseTouchpad.Widgets.TouchpadSection : Section {
+public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
     private Backend.TouchpadSettings touchpad_settings;
 
     private Gtk.Switch disable_while_typing_switch;
@@ -29,15 +29,16 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
     private Gtk.Switch natural_scrolling_switch;
 
     public TouchpadSection (Backend.TouchpadSettings touchpad_settings) {
-        base (_("Touchpad"));
-
         this.touchpad_settings = touchpad_settings;
 
-        build_ui ();
         create_bindings ();
     }
 
-    private void build_ui () {
+    construct {
+        var title_label = new Gtk.Label (_("Touchpad"));
+        title_label.halign = Gtk.Align.START;
+        title_label.get_style_context ().add_class ("h4");
+
         disable_while_typing_switch = new Gtk.Switch ();
         disable_while_typing_switch.halign = Gtk.Align.START;
 
@@ -66,11 +67,21 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
         natural_scrolling_switch = new Gtk.Switch ();
         natural_scrolling_switch.halign = Gtk.Align.START;
 
-        add_entry (_("Pointer speed:"), pointer_speed_scale);
-        add_entry (_("Tap to click:"), tap_to_click_switch);
-        add_entry (_("Physical clicking:"), click_method_combobox);
-        add_entry (_("Scrolling:"), scrolling_combobox);
-        add_entry (_("Natural scrolling:"), natural_scrolling_switch);
+        row_spacing = 12;
+        column_spacing = 12;
+        column_homogeneous = true;
+
+        attach (title_label, 0, 0, 1, 1);
+        attach (new SettingLabel (_("Pointer speed:")), 0, 1, 1, 1);
+        attach (pointer_speed_scale, 1, 1, 1, 1);
+        attach (new SettingLabel (_("Tap to click:")), 0, 2, 1, 1);
+        attach (tap_to_click_switch, 1, 2, 1, 1);
+        attach (new SettingLabel (_("Physical clicking:")), 0, 3, 1, 1);
+        attach (click_method_combobox, 1, 3, 1, 1);
+        attach (new SettingLabel (_("Scrolling:")), 0, 4, 1, 1);
+        attach (scrolling_combobox, 1, 4, 1, 1);
+        attach (new SettingLabel (_("Natural scrolling:")), 0, 5, 1, 1);
+        attach (natural_scrolling_switch, 1, 5, 1, 1);
     }
 
     private void create_bindings () {

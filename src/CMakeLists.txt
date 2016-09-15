@@ -19,6 +19,7 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Backend/TouchpadSettings.vala
     Backend/DaemonSettings.vala
     Widgets/Section.vala
+    Widgets/SettingLabel.vala
     Widgets/GeneralSection.vala
     Widgets/MouseSection.vala
     Widgets/TouchpadSection.vala
