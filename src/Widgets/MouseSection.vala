@@ -27,7 +27,9 @@ public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
     construct {
         var title_label = new Gtk.Label (_("Mouse"));
         title_label.halign = Gtk.Align.START;
+        title_label.hexpand = true;
         title_label.get_style_context ().add_class ("h4");
+        Plug.start_size_group.add_widget (title_label);
 
         var pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
         pointer_speed_scale.adjustment.value = mouse_settings.speed;
@@ -35,13 +37,13 @@ public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.set_size_request (160, -1);
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
+        Plug.end_size_group.add_widget (pointer_speed_scale);
 
         var natural_scrolling_switch = new Gtk.Switch ();
         natural_scrolling_switch.halign = Gtk.Align.START;
 
         row_spacing = 12;
         column_spacing = 12;
-        column_homogeneous = true;
 
         attach (title_label, 0, 0, 1, 1);
         attach (new SettingLabel (_("Pointer speed:")), 0, 1, 1, 1);

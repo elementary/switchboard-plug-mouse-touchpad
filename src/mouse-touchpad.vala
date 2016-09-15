@@ -29,12 +29,20 @@ namespace MouseTouchpad {
         private Widgets.MouseSection mouse_section;
         private Widgets.TouchpadSection touchpad_section;
 
+        public static Gtk.SizeGroup end_size_group;
+        public static Gtk.SizeGroup start_size_group;
+
         public Plug () {
             Object (category: Category.HARDWARE,
                     code_name: "pantheon-mouse-touchpad",
                     display_name: _("Mouse & Touchpad"),
                     description: _("Configure mouse and touchpad"),
                     icon: "preferences-desktop-peripherals");
+        }
+
+        construct {
+            end_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+            start_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
         }
 
         public override Gtk.Widget get_widget () {

@@ -28,33 +28,33 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
     construct {
         var title_label = new Gtk.Label (_("General"));
         title_label.halign = Gtk.Align.START;
+        title_label.hexpand = true;
         title_label.get_style_context ().add_class ("h4");
+        Plug.start_size_group.add_widget (title_label);
 
         var primary_button_switcher = new Granite.Widgets.ModeButton ();
         primary_button_switcher.append_text (_("Left"));
         primary_button_switcher.append_text (_("Right"));
+        Plug.end_size_group.add_widget (primary_button_switcher);
 
         var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
         reveal_pointer_switch.margin_end = 8;     
 
         var help_icon = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
+        help_icon.halign = Gtk.Align.START;
+        help_icon.hexpand = true;
         help_icon.tooltip_text = _("Pressing the control key will highlight the position of the pointer");
-
-        var reveal_pointer_grid = new Gtk.Grid ();
-        reveal_pointer_grid.column_spacing = 12;
-        reveal_pointer_grid.add (reveal_pointer_switch);
-        reveal_pointer_grid.add (help_icon);
 
         row_spacing = 12;
         column_spacing = 12;
-        column_homogeneous = true;
 
         attach (title_label, 0, 0, 1, 1);
         attach (new SettingLabel (_("Primary Button:")), 0, 1, 1, 1);
         attach (primary_button_switcher, 1, 1, 2, 1);
         attach (new SettingLabel (_("Reveal pointer:")), 0, 2, 1, 1);
-        attach (reveal_pointer_grid, 1, 2, 1, 1);
+        attach (reveal_pointer_switch, 1, 2, 1, 1);
+        attach (help_icon, 2, 2, 1, 1);
 
         mouse_settings.bind_property ("left-handed",
                                       primary_button_switcher,

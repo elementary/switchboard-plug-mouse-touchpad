@@ -27,7 +27,9 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
     construct {
         var title_label = new Gtk.Label (_("Touchpad"));
         title_label.halign = Gtk.Align.START;
+        title_label.hexpand = true;
         title_label.get_style_context ().add_class ("h4");
+        Plug.start_size_group.add_widget (title_label);
 
         var disable_while_typing_switch = new Gtk.Switch ();
         disable_while_typing_switch.halign = Gtk.Align.START;
@@ -46,6 +48,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
+        Plug.end_size_group.add_widget (pointer_speed_scale);
 
         var scrolling_combobox = new Gtk.ComboBoxText ();
         scrolling_combobox.append ("two-finger-scrolling", _("Two-finger"));
@@ -60,7 +63,6 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
 
         row_spacing = 12;
         column_spacing = 12;
-        column_homogeneous = true;
 
         attach (title_label, 0, 0, 1, 1);
         attach (new SettingLabel (_("Pointer speed:")), 0, 1, 1, 1);
