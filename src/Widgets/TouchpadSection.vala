@@ -50,11 +50,10 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
         click_method_combobox.append ("areas", _("Touchpad areas"));
         click_method_combobox.append ("none", _("No secondary clicking"));
 
-        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 1, 0.1);
+        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
         pointer_speed_scale.adjustment.value = touchpad_settings.speed;
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
-        pointer_speed_scale.set_size_request (160, -1);
 
         scrolling_combobox = new Gtk.ComboBoxText ();
         scrolling_combobox.append ("two-finger-scrolling", _("Two-finger"));
