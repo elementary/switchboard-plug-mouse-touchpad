@@ -17,64 +17,63 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class MouseTouchpad.Widgets.TouchpadSection : Section {
-    private Backend.TouchpadSettings touchpad_settings;
-
-    private Gtk.Switch disable_while_typing_switch;
-    private Gtk.Switch tap_to_click_switch;
-    private Gtk.ComboBoxText click_method_combobox;
-    private Gtk.Scale pointer_speed_scale;
-    private Gtk.ComboBoxText scrolling_combobox;
-    private Gtk.Switch horizontal_scrolling_switch;
-    private Gtk.Switch natural_scrolling_switch;
+public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
+    public Backend.TouchpadSettings touchpad_settings { get; construct; }
 
     public TouchpadSection (Backend.TouchpadSettings touchpad_settings) {
-        base (_("Touchpad"));
-
-        this.touchpad_settings = touchpad_settings;
-
-        build_ui ();
-        create_bindings ();
+        Object (touchpad_settings: touchpad_settings);
     }
 
-    private void build_ui () {
-        disable_while_typing_switch = new Gtk.Switch ();
+    construct {
+        var title_label = new Gtk.Label (_("Touchpad"));
+        title_label.halign = Gtk.Align.START;
+        title_label.get_style_context ().add_class ("h4");
+
+        var disable_while_typing_switch = new Gtk.Switch ();
         disable_while_typing_switch.halign = Gtk.Align.START;
 
-        tap_to_click_switch = new Gtk.Switch ();
+        var tap_to_click_switch = new Gtk.Switch ();
         tap_to_click_switch.halign = Gtk.Align.START;
 
-        click_method_combobox = new Gtk.ComboBoxText ();
+        var click_method_combobox = new Gtk.ComboBoxText ();
         click_method_combobox.append ("default", _("Hardware default"));
         click_method_combobox.append ("fingers", _("Multitouch"));
         click_method_combobox.append ("areas", _("Touchpad areas"));
         click_method_combobox.append ("none", _("No secondary clicking"));
 
-        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
+        var pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
         pointer_speed_scale.adjustment.value = touchpad_settings.speed;
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
 
-        scrolling_combobox = new Gtk.ComboBoxText ();
+        var scrolling_combobox = new Gtk.ComboBoxText ();
         scrolling_combobox.append ("two-finger-scrolling", _("Two-finger"));
         scrolling_combobox.append ("edge-scrolling", _("Edge"));
         scrolling_combobox.append ("disabled", _("Disabled"));
 
-        horizontal_scrolling_switch = new Gtk.Switch ();
+        var horizontal_scrolling_switch = new Gtk.Switch ();
         horizontal_scrolling_switch.halign = Gtk.Align.START;
 
-        natural_scrolling_switch = new Gtk.Switch ();
+        var natural_scrolling_switch = new Gtk.Switch ();
         natural_scrolling_switch.halign = Gtk.Align.START;
 
-        add_entry (_("Pointer speed:"), pointer_speed_scale);
-        add_entry (_("Tap to click:"), tap_to_click_switch);
-        add_entry (_("Physical clicking:"), click_method_combobox);
-        add_entry (_("Scrolling:"), scrolling_combobox);
-        add_entry (_("Natural scrolling:"), natural_scrolling_switch);
-    }
+        row_spacing = 12;
+        column_spacing = 12;
+        column_homogeneous = true;
 
-    private void create_bindings () {
+        attach (title_label, 0, 0, 1, 1);
+        attach (new SettingLabel (_("Pointer speed:")), 0, 1, 1, 1);
+        attach (pointer_speed_scale, 1, 1, 1, 1);
+        attach (new SettingLabel (_("Tap to click:")), 0, 2, 1, 1);
+        attach (tap_to_click_switch, 1, 2, 1, 1);
+        attach (new SettingLabel (_("Physical clicking:")), 0, 3, 1, 1);
+        attach (click_method_combobox, 1, 3, 1, 1);
+        attach (new SettingLabel (_("Scrolling:")), 0, 4, 1, 1);
+        attach (scrolling_combobox, 1, 4, 1, 1);
+        attach (new SettingLabel (_("Natural scrolling:")), 0, 5, 1, 1);
+        attach (natural_scrolling_switch, 1, 5, 1, 1);
+
         touchpad_settings.bind_property ("scroll-method",
                                          scrolling_combobox,
                                          "active-id",
