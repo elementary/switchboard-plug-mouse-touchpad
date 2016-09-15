@@ -17,7 +17,7 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class MouseTouchpad.Widgets.GeneralSection : Section {
+public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
     private Backend.MouseSettings mouse_settings;
     private Backend.DaemonSettings daemon_settings;
 
@@ -25,26 +25,42 @@ public class MouseTouchpad.Widgets.GeneralSection : Section {
     private Gtk.Switch reveal_pointer_switch;
 
     public GeneralSection (Backend.MouseSettings mouse_settings, Backend.DaemonSettings daemon_settings) {
-        base (_("General"));
-
         this.mouse_settings = mouse_settings;
         this.daemon_settings = daemon_settings;
 
-        build_ui ();
         create_bindings ();
     }
 
-    private void build_ui () {
+    construct {
+        var title_label = new Gtk.Label (_("General"));
+        title_label.halign = Gtk.Align.START;
+        title_label.get_style_context ().add_class ("h4");
+
         primary_button_switcher = new Granite.Widgets.ModeButton ();
         primary_button_switcher.append_text (_("Left"));
         primary_button_switcher.append_text (_("Right"));
 
         reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
-        reveal_pointer_switch.margin_end = 8;        
+        reveal_pointer_switch.margin_end = 8;     
 
-        this.add_entry (_("Primary Button:"), primary_button_switcher);
-        this.add_entry (_("Reveal pointer:"), reveal_pointer_switch, _("Pressing the control key will highlight the position of the pointer"));
+        var help_icon = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
+        help_icon.tooltip_text = _("Pressing the control key will highlight the position of the pointer");
+
+        var reveal_pointer_grid = new Gtk.Grid ();
+        reveal_pointer_grid.column_spacing = 12;
+        reveal_pointer_grid.add (reveal_pointer_switch);
+        reveal_pointer_grid.add (help_icon);
+
+        row_spacing = 12;
+        column_spacing = 12;
+        column_homogeneous = true;
+
+        attach (title_label, 0, 0, 1, 1);
+        attach (new SettingLabel (_("Primary Button:")), 0, 1, 1, 1);
+        attach (primary_button_switcher, 1, 1, 2, 1);
+        attach (new SettingLabel (_("Reveal pointer:")), 0, 2, 1, 1);
+        attach (reveal_pointer_grid, 1, 2, 1, 1);
     }
 
     private void create_bindings () {

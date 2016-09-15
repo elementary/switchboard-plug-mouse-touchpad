@@ -26,28 +26,13 @@ public class MouseTouchpad.Widgets.Section : Gtk.Grid {
         build_ui (title);
     }
 
-    public void add_entry (string option, Gtk.Widget widget, string description = "") {
+    public void add_entry (string option, Gtk.Widget widget) {
         int row = row_count++;
 
         Gtk.Label option_label = new Gtk.Label (option);
         option_label.halign = Gtk.Align.END;
 
         this.attach (option_label, 0, row, 1, 1);
-
-        if (description == "") {
-            this.attach (widget, 1, row, 1, 1);
-        } else {
-            Gtk.Box widget_container = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
-            widget_container.hexpand = false;
-
-            Gtk.Image help_icon = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
-            help_icon.tooltip_text = description;
-
-            widget_container.add (widget);
-            widget_container.add (help_icon);
-
-            this.attach (widget_container, 1, row, 1, 1);
-        }
     }
 
     private void build_ui (string title) {
