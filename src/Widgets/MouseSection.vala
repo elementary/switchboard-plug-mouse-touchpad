@@ -33,7 +33,7 @@ public class MouseTouchpad.Widgets.MouseSection : Section {
     }
 
     private void build_ui () {
-        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0, 1, 0.1);
+        pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
         pointer_speed_scale.adjustment.value = mouse_settings.speed;
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
