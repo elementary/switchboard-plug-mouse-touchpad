@@ -54,6 +54,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Section {
         pointer_speed_scale.adjustment.value = touchpad_settings.speed;
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
+        pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
 
         scrolling_combobox = new Gtk.ComboBoxText ();
         scrolling_combobox.append ("two-finger-scrolling", _("Two-finger"));
