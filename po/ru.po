@@ -7,15 +7,95 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-07-31 23:06-0500\n"
+"POT-Creation-Date: 2016-09-14 22:03-0700\n"
 "PO-Revision-Date: 2016-06-19 12:09+0000\n"
 "Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-02 06:02+0000\n"
-"X-Generator: Launchpad (build 18169)\n"
+"X-Launchpad-Export-Date: 2016-09-15 06:20+0000\n"
+"X-Generator: Launchpad (build 18186)\n"
+
+#: ../src/Widgets/TouchpadSection.vala:28
+msgid "Touchpad"
+msgstr "Сенсорная панель"
+
+#: ../src/Widgets/TouchpadSection.vala:39
+msgid "Hardware default"
+msgstr "По умолчанию"
+
+#: ../src/Widgets/TouchpadSection.vala:40
+msgid "Multitouch"
+msgstr "Мультитач"
+
+#: ../src/Widgets/TouchpadSection.vala:41
+msgid "Touchpad areas"
+msgstr "Зоны сенсорной панели"
+
+#: ../src/Widgets/TouchpadSection.vala:42
+msgid "No secondary clicking"
+msgstr "Без правого клика"
+
+#: ../src/Widgets/TouchpadSection.vala:51
+msgid "Two-finger"
+msgstr "Двухпальцевая"
+
+#: ../src/Widgets/TouchpadSection.vala:52
+msgid "Edge"
+msgstr "По краю"
+
+#: ../src/Widgets/TouchpadSection.vala:53
+msgid "Disabled"
+msgstr "Отключена"
+
+#: ../src/Widgets/TouchpadSection.vala:66 ../src/Widgets/MouseSection.vala:47
+msgid "Pointer speed:"
+msgstr "Скорость указателя:"
+
+#: ../src/Widgets/TouchpadSection.vala:68
+msgid "Tap to click:"
+msgstr "Клик по касанию:"
+
+#: ../src/Widgets/TouchpadSection.vala:70
+msgid "Physical clicking:"
+msgstr "Метод кликов:"
+
+#: ../src/Widgets/TouchpadSection.vala:72
+msgid "Scrolling:"
+msgstr "Прокрутка:"
+
+#: ../src/Widgets/TouchpadSection.vala:74 ../src/Widgets/MouseSection.vala:49
+msgid "Natural scrolling:"
+msgstr "Естественная прокрутка:"
+
+#: ../src/Widgets/GeneralSection.vala:29
+msgid "General"
+msgstr "Общие"
+
+#: ../src/Widgets/GeneralSection.vala:34
+msgid "Left"
+msgstr "Левая"
+
+#: ../src/Widgets/GeneralSection.vala:35
+msgid "Right"
+msgstr "Правая"
+
+#: ../src/Widgets/GeneralSection.vala:42
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Нажатие Ctrl подсветит позицию курсора"
+
+#: ../src/Widgets/GeneralSection.vala:54
+msgid "Primary Button:"
+msgstr "Основная клавиша:"
+
+#: ../src/Widgets/GeneralSection.vala:56
+msgid "Reveal pointer:"
+msgstr "Выделять указатель:"
+
+#: ../src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "Мышь"
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
@@ -24,83 +104,3 @@ msgstr "Мышь и сенсорная панель"
 #: ../src/mouse-touchpad.vala:36
 msgid "Configure mouse and touchpad"
 msgstr "Настройка клавиатуры и тачпада"
-
-#: ../src/Widgets/GeneralSection.vala:28
-msgid "General"
-msgstr "Общие"
-
-#: ../src/Widgets/GeneralSection.vala:39
-msgid "Left"
-msgstr "Левая"
-
-#: ../src/Widgets/GeneralSection.vala:40
-msgid "Right"
-msgstr "Правая"
-
-#: ../src/Widgets/GeneralSection.vala:46
-msgid "Primary Button:"
-msgstr "Основная клавиша:"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Reveal pointer:"
-msgstr "Выделять указатель:"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Нажатие Ctrl подсветит позицию курсора"
-
-#: ../src/Widgets/MouseSection.vala:27
-msgid "Mouse"
-msgstr "Мышь"
-
-#: ../src/Widgets/MouseSection.vala:44 ../src/Widgets/TouchpadSection.vala:70
-msgid "Pointer speed:"
-msgstr "Скорость указателя:"
-
-#: ../src/Widgets/MouseSection.vala:45 ../src/Widgets/TouchpadSection.vala:76
-msgid "Natural scrolling:"
-msgstr "Естественная прокрутка:"
-
-#: ../src/Widgets/TouchpadSection.vala:32
-msgid "Touchpad"
-msgstr "Сенсорная панель"
-
-#: ../src/Widgets/TouchpadSection.vala:48
-msgid "Hardware default"
-msgstr "По умолчанию"
-
-#: ../src/Widgets/TouchpadSection.vala:49
-msgid "Multitouch"
-msgstr "Мультитач"
-
-#: ../src/Widgets/TouchpadSection.vala:50
-msgid "Touchpad areas"
-msgstr "Зоны сенсорной панели"
-
-#: ../src/Widgets/TouchpadSection.vala:51
-msgid "No secondary clicking"
-msgstr "Без правого клика"
-
-#: ../src/Widgets/TouchpadSection.vala:60
-msgid "Two-finger"
-msgstr "Двухпальцевая"
-
-#: ../src/Widgets/TouchpadSection.vala:61
-msgid "Edge"
-msgstr "По краю"
-
-#: ../src/Widgets/TouchpadSection.vala:62
-msgid "Disabled"
-msgstr "Отключена"
-
-#: ../src/Widgets/TouchpadSection.vala:72
-msgid "Tap to click:"
-msgstr "Клик по касанию:"
-
-#: ../src/Widgets/TouchpadSection.vala:73
-msgid "Physical clicking:"
-msgstr "Метод кликов:"
-
-#: ../src/Widgets/TouchpadSection.vala:74
-msgid "Scrolling:"
-msgstr "Прокрутка:"

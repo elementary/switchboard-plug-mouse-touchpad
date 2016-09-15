@@ -7,15 +7,95 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-07-31 23:06-0500\n"
+"POT-Creation-Date: 2016-09-14 22:03-0700\n"
 "PO-Revision-Date: 2016-02-23 20:47+0000\n"
 "Last-Translator: momit rahman <momitrahman@gmail.com>\n"
 "Language-Team: Bengali <bn@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-02 06:02+0000\n"
-"X-Generator: Launchpad (build 18169)\n"
+"X-Launchpad-Export-Date: 2016-09-15 06:20+0000\n"
+"X-Generator: Launchpad (build 18186)\n"
+
+#: ../src/Widgets/TouchpadSection.vala:28
+msgid "Touchpad"
+msgstr "টাচপ্যাড"
+
+#: ../src/Widgets/TouchpadSection.vala:39
+msgid "Hardware default"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:40
+msgid "Multitouch"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:41
+msgid "Touchpad areas"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:42
+msgid "No secondary clicking"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:51
+msgid "Two-finger"
+msgstr "দুই-আঙুল"
+
+#: ../src/Widgets/TouchpadSection.vala:52
+msgid "Edge"
+msgstr "প্রান্ত"
+
+#: ../src/Widgets/TouchpadSection.vala:53
+msgid "Disabled"
+msgstr "নিস্ক্রিয় করুন"
+
+#: ../src/Widgets/TouchpadSection.vala:66 ../src/Widgets/MouseSection.vala:47
+msgid "Pointer speed:"
+msgstr "পয়েন্টারের গতি:"
+
+#: ../src/Widgets/TouchpadSection.vala:68
+msgid "Tap to click:"
+msgstr "ক্লিক করতে টোকা দেনঃ"
+
+#: ../src/Widgets/TouchpadSection.vala:70
+msgid "Physical clicking:"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:72
+msgid "Scrolling:"
+msgstr "উপরে নিচে করাঃ"
+
+#: ../src/Widgets/TouchpadSection.vala:74 ../src/Widgets/MouseSection.vala:49
+msgid "Natural scrolling:"
+msgstr "সাধারন ভাবে উপরে নিচে নেওয়াঃ"
+
+#: ../src/Widgets/GeneralSection.vala:29
+msgid "General"
+msgstr "সাধারন"
+
+#: ../src/Widgets/GeneralSection.vala:34
+msgid "Left"
+msgstr "বামে"
+
+#: ../src/Widgets/GeneralSection.vala:35
+msgid "Right"
+msgstr "ডানে"
+
+#: ../src/Widgets/GeneralSection.vala:42
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "কন্ট্রোল কী চেপে ধরলে মাউসের পইন্টারের অবস্থান তুলে ধরবে"
+
+#: ../src/Widgets/GeneralSection.vala:54
+msgid "Primary Button:"
+msgstr "প্রাথমিক বাটনঃ"
+
+#: ../src/Widgets/GeneralSection.vala:56
+msgid "Reveal pointer:"
+msgstr "মাউসের পইন্টার দেখানঃ"
+
+#: ../src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "মাউস"
 
 #: ../src/mouse-touchpad.vala:35
 msgid "Mouse & Touchpad"
@@ -24,83 +104,3 @@ msgstr "মাউস ও টাচপ্যাড"
 #: ../src/mouse-touchpad.vala:36
 msgid "Configure mouse and touchpad"
 msgstr ""
-
-#: ../src/Widgets/GeneralSection.vala:28
-msgid "General"
-msgstr "সাধারন"
-
-#: ../src/Widgets/GeneralSection.vala:39
-msgid "Left"
-msgstr "বামে"
-
-#: ../src/Widgets/GeneralSection.vala:40
-msgid "Right"
-msgstr "ডানে"
-
-#: ../src/Widgets/GeneralSection.vala:46
-msgid "Primary Button:"
-msgstr "প্রাথমিক বাটনঃ"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Reveal pointer:"
-msgstr "মাউসের পইন্টার দেখানঃ"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "কন্ট্রোল কী চেপে ধরলে মাউসের পইন্টারের অবস্থান তুলে ধরবে"
-
-#: ../src/Widgets/MouseSection.vala:27
-msgid "Mouse"
-msgstr "মাউস"
-
-#: ../src/Widgets/MouseSection.vala:44 ../src/Widgets/TouchpadSection.vala:70
-msgid "Pointer speed:"
-msgstr "পয়েন্টারের গতি:"
-
-#: ../src/Widgets/MouseSection.vala:45 ../src/Widgets/TouchpadSection.vala:76
-msgid "Natural scrolling:"
-msgstr "সাধারন ভাবে উপরে নিচে নেওয়াঃ"
-
-#: ../src/Widgets/TouchpadSection.vala:32
-msgid "Touchpad"
-msgstr "টাচপ্যাড"
-
-#: ../src/Widgets/TouchpadSection.vala:48
-msgid "Hardware default"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:49
-msgid "Multitouch"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:50
-msgid "Touchpad areas"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:51
-msgid "No secondary clicking"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:60
-msgid "Two-finger"
-msgstr "দুই-আঙুল"
-
-#: ../src/Widgets/TouchpadSection.vala:61
-msgid "Edge"
-msgstr "প্রান্ত"
-
-#: ../src/Widgets/TouchpadSection.vala:62
-msgid "Disabled"
-msgstr "নিস্ক্রিয় করুন"
-
-#: ../src/Widgets/TouchpadSection.vala:72
-msgid "Tap to click:"
-msgstr "ক্লিক করতে টোকা দেনঃ"
-
-#: ../src/Widgets/TouchpadSection.vala:73
-msgid "Physical clicking:"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:74
-msgid "Scrolling:"
-msgstr "উপরে নিচে করাঃ"
