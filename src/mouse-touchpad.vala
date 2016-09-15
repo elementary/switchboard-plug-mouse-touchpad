@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2015 elementary Developers (https://launchpad.net/elementary)
+ * Copyright (c) 2011-2016 elementary LLC. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -29,12 +29,20 @@ namespace MouseTouchpad {
         private Widgets.MouseSection mouse_section;
         private Widgets.TouchpadSection touchpad_section;
 
+        public static Gtk.SizeGroup end_size_group;
+        public static Gtk.SizeGroup start_size_group;
+
         public Plug () {
             Object (category: Category.HARDWARE,
                     code_name: "pantheon-mouse-touchpad",
                     display_name: _("Mouse & Touchpad"),
                     description: _("Configure mouse and touchpad"),
                     icon: "preferences-desktop-peripherals");
+        }
+
+        static construct {
+            end_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+            start_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
         }
 
         public override Gtk.Widget get_widget () {
