@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-31 23:06-0500\n"
+"POT-Creation-Date: 2016-09-14 21:07-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,11 +53,11 @@ msgstr ""
 msgid "Mouse"
 msgstr ""
 
-#: ../src/Widgets/MouseSection.vala:44 ../src/Widgets/TouchpadSection.vala:70
+#: ../src/Widgets/MouseSection.vala:44 ../src/Widgets/TouchpadSection.vala:69
 msgid "Pointer speed:"
 msgstr ""
 
-#: ../src/Widgets/MouseSection.vala:45 ../src/Widgets/TouchpadSection.vala:76
+#: ../src/Widgets/MouseSection.vala:45 ../src/Widgets/TouchpadSection.vala:73
 msgid "Natural scrolling:"
 msgstr ""
 
@@ -81,26 +81,26 @@ msgstr ""
 msgid "No secondary clicking"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:60
+#: ../src/Widgets/TouchpadSection.vala:59
 msgid "Two-finger"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:61
+#: ../src/Widgets/TouchpadSection.vala:60
 msgid "Edge"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:62
+#: ../src/Widgets/TouchpadSection.vala:61
 msgid "Disabled"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:72
+#: ../src/Widgets/TouchpadSection.vala:70
 msgid "Tap to click:"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:73
+#: ../src/Widgets/TouchpadSection.vala:71
 msgid "Physical clicking:"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:74
+#: ../src/Widgets/TouchpadSection.vala:72
 msgid "Scrolling:"
 msgstr ""
