@@ -18,7 +18,7 @@
  */
 
 public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
-    private Backend.TouchpadSettings touchpad_settings;
+    public Backend.TouchpadSettings touchpad_settings { get; construct; }
 
     private Gtk.Switch disable_while_typing_switch;
     private Gtk.Switch tap_to_click_switch;
@@ -29,9 +29,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
     private Gtk.Switch natural_scrolling_switch;
 
     public TouchpadSection (Backend.TouchpadSettings touchpad_settings) {
-        this.touchpad_settings = touchpad_settings;
-
-        create_bindings ();
+        Object (touchpad_settings: touchpad_settings);
     }
 
     construct {
@@ -82,9 +80,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         attach (scrolling_combobox, 1, 4, 1, 1);
         attach (new SettingLabel (_("Natural scrolling:")), 0, 5, 1, 1);
         attach (natural_scrolling_switch, 1, 5, 1, 1);
-    }
 
-    private void create_bindings () {
         touchpad_settings.bind_property ("scroll-method",
                                          scrolling_combobox,
                                          "active-id",
