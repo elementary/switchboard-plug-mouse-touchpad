@@ -27,7 +27,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
 
     construct {
         var title_label = new Gtk.Label (_("General"));
-        title_label.halign = Gtk.Align.START;
+        title_label.xalign = 0;
         title_label.hexpand = true;
         title_label.get_style_context ().add_class ("h4");
         Plug.start_size_group.add_widget (title_label);
