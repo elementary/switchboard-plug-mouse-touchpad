@@ -18,17 +18,11 @@
  */
 
 public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
-    private Backend.MouseSettings mouse_settings;
-    private Backend.DaemonSettings daemon_settings;
-
-    private Granite.Widgets.ModeButton primary_button_switcher;
-    private Gtk.Switch reveal_pointer_switch;
+    public Backend.MouseSettings mouse_settings { get; construct; }
+    public Backend.DaemonSettings daemon_settings { get; construct; }
 
     public GeneralSection (Backend.MouseSettings mouse_settings, Backend.DaemonSettings daemon_settings) {
-        this.mouse_settings = mouse_settings;
-        this.daemon_settings = daemon_settings;
-
-        create_bindings ();
+        Object (mouse_settings: mouse_settings, daemon_settings: daemon_settings);
     }
 
     construct {
@@ -36,11 +30,11 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         title_label.halign = Gtk.Align.START;
         title_label.get_style_context ().add_class ("h4");
 
-        primary_button_switcher = new Granite.Widgets.ModeButton ();
+        var primary_button_switcher = new Granite.Widgets.ModeButton ();
         primary_button_switcher.append_text (_("Left"));
         primary_button_switcher.append_text (_("Right"));
 
-        reveal_pointer_switch = new Gtk.Switch ();
+        var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
         reveal_pointer_switch.margin_end = 8;     
 
@@ -61,9 +55,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         attach (primary_button_switcher, 1, 1, 2, 1);
         attach (new SettingLabel (_("Reveal pointer:")), 0, 2, 1, 1);
         attach (reveal_pointer_grid, 1, 2, 1, 1);
-    }
 
-    private void create_bindings () {
         mouse_settings.bind_property ("left-handed",
                                       primary_button_switcher,
                                       "selected",
