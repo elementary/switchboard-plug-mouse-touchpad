@@ -7,89 +7,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-09-14 22:03-0700\n"
+"POT-Creation-Date: 2016-09-16 02:01-0500\n"
 "PO-Revision-Date: 2016-06-20 11:46+0000\n"
 "Last-Translator: Jiri Grönroos <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-09-15 06:20+0000\n"
+"X-Launchpad-Export-Date: 2016-09-16 08:10+0000\n"
 "X-Generator: Launchpad (build 18186)\n"
 
-#: ../src/Widgets/TouchpadSection.vala:28
-msgid "Touchpad"
-msgstr "Kosketuslevy"
+#: ../src/mouse-touchpad.vala:38
+msgid "Mouse & Touchpad"
+msgstr "Hiiri ja kosketuslevy"
 
-#: ../src/Widgets/TouchpadSection.vala:39
-msgid "Hardware default"
-msgstr "Laitteiston oletus"
-
-#: ../src/Widgets/TouchpadSection.vala:40
-msgid "Multitouch"
-msgstr "Monikosketus"
-
-#: ../src/Widgets/TouchpadSection.vala:41
-msgid "Touchpad areas"
-msgstr "Kosketuslevyn alueet"
-
-#: ../src/Widgets/TouchpadSection.vala:42
-msgid "No secondary clicking"
-msgstr "Ei toissijaista napsautusta"
-
-#: ../src/Widgets/TouchpadSection.vala:51
-msgid "Two-finger"
-msgstr "Kaksi sormea"
-
-#: ../src/Widgets/TouchpadSection.vala:52
-msgid "Edge"
-msgstr "Reuna"
-
-#: ../src/Widgets/TouchpadSection.vala:53
-msgid "Disabled"
-msgstr "Ei käytössä"
-
-#: ../src/Widgets/TouchpadSection.vala:66 ../src/Widgets/MouseSection.vala:47
-msgid "Pointer speed:"
-msgstr "Osoittimen nopeus:"
-
-#: ../src/Widgets/TouchpadSection.vala:68
-msgid "Tap to click:"
-msgstr "Napsautus napauttamalla:"
-
-#: ../src/Widgets/TouchpadSection.vala:70
-msgid "Physical clicking:"
-msgstr "Fyysinen napsautus:"
-
-#: ../src/Widgets/TouchpadSection.vala:72
-msgid "Scrolling:"
-msgstr "Vieritys:"
-
-#: ../src/Widgets/TouchpadSection.vala:74 ../src/Widgets/MouseSection.vala:49
-msgid "Natural scrolling:"
-msgstr "Luonnollinen vieritys:"
+#: ../src/mouse-touchpad.vala:39
+msgid "Configure mouse and touchpad"
+msgstr "Määritä hiiren ja kosketuslevyn asetukset"
 
 #: ../src/Widgets/GeneralSection.vala:29
 msgid "General"
 msgstr "Yleiset"
 
-#: ../src/Widgets/GeneralSection.vala:34
+#: ../src/Widgets/GeneralSection.vala:36
 msgid "Left"
 msgstr "Vasen"
 
-#: ../src/Widgets/GeneralSection.vala:35
+#: ../src/Widgets/GeneralSection.vala:37
 msgid "Right"
 msgstr "Oikea"
 
-#: ../src/Widgets/GeneralSection.vala:42
+#: ../src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Ctrl-näppäimen painaminen korostaa hiiren osoittimen"
 
-#: ../src/Widgets/GeneralSection.vala:54
+#: ../src/Widgets/GeneralSection.vala:53
 msgid "Primary Button:"
 msgstr "Ensisijainen painike:"
 
-#: ../src/Widgets/GeneralSection.vala:56
+#: ../src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
 msgstr "Korosta osoitin:"
 
@@ -97,10 +53,54 @@ msgstr "Korosta osoitin:"
 msgid "Mouse"
 msgstr "Hiiri"
 
-#: ../src/mouse-touchpad.vala:35
-msgid "Mouse & Touchpad"
-msgstr "Hiiri ja kosketuslevy"
+#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:68
+msgid "Pointer speed:"
+msgstr "Osoittimen nopeus:"
 
-#: ../src/mouse-touchpad.vala:36
-msgid "Configure mouse and touchpad"
-msgstr "Määritä hiiren ja kosketuslevyn asetukset"
+#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:76
+msgid "Natural scrolling:"
+msgstr "Luonnollinen vieritys:"
+
+#: ../src/Widgets/TouchpadSection.vala:28
+msgid "Touchpad"
+msgstr "Kosketuslevy"
+
+#: ../src/Widgets/TouchpadSection.vala:41
+msgid "Hardware default"
+msgstr "Laitteiston oletus"
+
+#: ../src/Widgets/TouchpadSection.vala:42
+msgid "Multitouch"
+msgstr "Monikosketus"
+
+#: ../src/Widgets/TouchpadSection.vala:43
+msgid "Touchpad areas"
+msgstr "Kosketuslevyn alueet"
+
+#: ../src/Widgets/TouchpadSection.vala:44
+msgid "No secondary clicking"
+msgstr "Ei toissijaista napsautusta"
+
+#: ../src/Widgets/TouchpadSection.vala:54
+msgid "Two-finger"
+msgstr "Kaksi sormea"
+
+#: ../src/Widgets/TouchpadSection.vala:55
+msgid "Edge"
+msgstr "Reuna"
+
+#: ../src/Widgets/TouchpadSection.vala:56
+msgid "Disabled"
+msgstr "Ei käytössä"
+
+#: ../src/Widgets/TouchpadSection.vala:70
+msgid "Tap to click:"
+msgstr "Napsautus napauttamalla:"
+
+#: ../src/Widgets/TouchpadSection.vala:72
+msgid "Physical clicking:"
+msgstr "Fyysinen napsautus:"
+
+#: ../src/Widgets/TouchpadSection.vala:74
+msgid "Scrolling:"
+msgstr "Vieritys:"
