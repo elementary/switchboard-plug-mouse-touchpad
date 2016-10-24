@@ -18,6 +18,8 @@
  */
 
 public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
+    private Gtk.Switch click_method_switch;
+
     public Backend.TouchpadSettings touchpad_settings { get; construct; }
 
     public TouchpadSection (Backend.TouchpadSettings touchpad_settings) {
@@ -37,11 +39,24 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         var tap_to_click_switch = new Gtk.Switch ();
         tap_to_click_switch.halign = Gtk.Align.START;
 
+        click_method_switch = new Gtk.Switch ();
+        click_method_switch.halign = Gtk.Align.START;
+        click_method_switch.valign = Gtk.Align.CENTER;
+
+        if (touchpad_settings.click_method == "none") {
+            click_method_switch.active = false;
+        } else {
+            click_method_switch.active = true;
+        }
+
         var click_method_combobox = new Gtk.ComboBoxText ();
         click_method_combobox.append ("default", _("Hardware default"));
         click_method_combobox.append ("fingers", _("Multitouch"));
         click_method_combobox.append ("areas", _("Touchpad areas"));
-        click_method_combobox.append ("none", _("No secondary clicking"));
+
+        if (click_method_combobox.active_id == null ) {
+            click_method_combobox.active_id = "default";
+        }
 
         var pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
         pointer_speed_scale.adjustment.value = touchpad_settings.speed;
@@ -66,15 +81,26 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
 
         attach (title_label, 0, 0, 1, 1);
         attach (new SettingLabel (_("Pointer speed:")), 0, 1, 1, 1);
-        attach (pointer_speed_scale, 1, 1, 1, 1);
+        attach (pointer_speed_scale, 1, 1, 2, 1);
         attach (new SettingLabel (_("Tap to click:")), 0, 2, 1, 1);
         attach (tap_to_click_switch, 1, 2, 1, 1);
         attach (new SettingLabel (_("Physical clicking:")), 0, 3, 1, 1);
-        attach (click_method_combobox, 1, 3, 1, 1);
+        attach (click_method_switch, 1, 3, 1, 1);
+        attach (click_method_combobox, 2, 3, 1, 1);
         attach (new SettingLabel (_("Scrolling:")), 0, 4, 1, 1);
-        attach (scrolling_combobox, 1, 4, 1, 1);
+        attach (scrolling_combobox, 1, 4, 2, 1);
         attach (new SettingLabel (_("Natural scrolling:")), 0, 5, 1, 1);
         attach (natural_scrolling_switch, 1, 5, 1, 1);
+
+        click_method_switch.bind_property ("active", click_method_combobox, "sensitive", BindingFlags.SYNC_CREATE);
+
+        click_method_switch.notify["active"].connect (() => {
+            if (click_method_switch.active) {
+                touchpad_settings.click_method = click_method_combobox.active_id;
+            } else {
+                touchpad_settings.click_method = "none";
+            }
+        });
 
         touchpad_settings.bind_property ("scroll-method",
                                          scrolling_combobox,
@@ -89,7 +115,8 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         touchpad_settings.bind_property ("click-method",
                                          click_method_combobox,
                                          "active-id",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE,
+                                         click_method_transform_func);
 
         pointer_speed_scale.adjustment.bind_property ("value",
                                                       touchpad_settings,
@@ -101,6 +128,15 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
                                          natural_scrolling_switch,
                                          "state",
                                          BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+    }
+
+    private bool click_method_transform_func (Binding binding, Value source_value, ref Value target_value) {
+        if (touchpad_settings.click_method == "none") {
+            return false;
+        }
+
+        target_value = source_value;
+        return true;
     }
 
     private bool pointer_speed_scale_transform_func (Binding binding, Value source_value, ref Value target_value) {
