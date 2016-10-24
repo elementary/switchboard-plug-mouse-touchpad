@@ -134,6 +134,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         if (touchpad_settings.click_method == "none") {
             return false;
         }
+
         target_value = source_value;
         return true;
     }
