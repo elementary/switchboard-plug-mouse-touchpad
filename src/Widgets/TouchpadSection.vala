@@ -101,6 +101,18 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
                 touchpad_settings.click_method = "none";
             }
         });
+        
+        scrolling_combobox.changed.connect (() => {
+            string active_text = scrolling_combobox.get_active_id ();
+            if (active_text == "disabled") {
+                horizontal_scrolling_switch.sensitive = false;
+                natural_scrolling_switch.sensitive = false;
+            }
+            else {
+                horizontal_scrolling_switch.sensitive = true;
+                natural_scrolling_switch.sensitive = true;
+            }
+        });
 
         touchpad_settings.bind_property ("scroll-method",
                                          scrolling_combobox,
