@@ -50,7 +50,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         column_spacing = 12;
 
         attach (title_label, 0, 0, 1, 1);
-        attach (new SettingLabel (_("Primary Button:")), 0, 1, 1, 1);
+        attach (new SettingLabel (_("Primary button:")), 0, 1, 1, 1);
         attach (primary_button_switcher, 1, 1, 2, 1);
         attach (new SettingLabel (_("Reveal pointer:")), 0, 2, 1, 1);
         attach (reveal_pointer_switch, 1, 2, 1, 1);
