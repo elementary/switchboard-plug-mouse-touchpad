@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-09-16 02:01-0500\n"
+"POT-Creation-Date: 2016-10-31 14:18+0100\n"
 "PO-Revision-Date: 2016-07-22 15:48+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-09-17 07:16+0000\n"
-"X-Generator: Launchpad (build 18186)\n"
+"X-Launchpad-Export-Date: 2016-11-01 06:24+0000\n"
+"X-Generator: Launchpad (build 18246)\n"
 
 #: ../src/mouse-touchpad.vala:38
 msgid "Mouse & Touchpad"
@@ -23,6 +23,18 @@ msgstr ""
 
 #: ../src/mouse-touchpad.vala:39
 msgid "Configure mouse and touchpad"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
+msgid "Pointer speed:"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
+msgid "Natural scrolling:"
 msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:29
@@ -42,65 +54,49 @@ msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:53
-msgid "Primary Button:"
+msgid "Primary button:"
 msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
 msgstr ""
 
-#: ../src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr ""
-
-#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:68
-msgid "Pointer speed:"
-msgstr ""
-
-#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:76
-msgid "Natural scrolling:"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:28
+#: ../src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:41
+#: ../src/Widgets/TouchpadSection.vala:53
 msgid "Hardware default"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:42
+#: ../src/Widgets/TouchpadSection.vala:54
 msgid "Multitouch"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:43
+#: ../src/Widgets/TouchpadSection.vala:55
 msgid "Touchpad areas"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:44
-msgid "No secondary clicking"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:54
+#: ../src/Widgets/TouchpadSection.vala:69
 msgid "Two-finger"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:55
+#: ../src/Widgets/TouchpadSection.vala:70
 msgid "Edge"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:56
+#: ../src/Widgets/TouchpadSection.vala:71
 msgid "Disabled"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:70
+#: ../src/Widgets/TouchpadSection.vala:85
 msgid "Tap to click:"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:72
+#: ../src/Widgets/TouchpadSection.vala:87
 msgid "Physical clicking:"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:74
+#: ../src/Widgets/TouchpadSection.vala:90
 msgid "Scrolling:"
 msgstr ""
