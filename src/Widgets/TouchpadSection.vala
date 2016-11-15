@@ -107,8 +107,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
             if (active_text == "disabled") {
                 horizontal_scrolling_switch.sensitive = false;
                 natural_scrolling_switch.sensitive = false;
-            }
-            else {
+            } else {
                 horizontal_scrolling_switch.sensitive = true;
                 natural_scrolling_switch.sensitive = true;
             }
