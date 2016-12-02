@@ -35,6 +35,7 @@ public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
         pointer_speed_scale.adjustment.value = mouse_settings.speed;
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
+        pointer_speed_scale.hexpand = true;
         pointer_speed_scale.set_size_request (160, -1);
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
         Plug.end_size_group.add_widget (pointer_speed_scale);

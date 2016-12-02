@@ -33,6 +33,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         Plug.start_size_group.add_widget (title_label);
 
         var primary_button_switcher = new Granite.Widgets.ModeButton ();
+        primary_button_switcher.width_request = 256;
         primary_button_switcher.append_text (_("Left"));
         primary_button_switcher.append_text (_("Right"));
         Plug.end_size_group.add_widget (primary_button_switcher);
