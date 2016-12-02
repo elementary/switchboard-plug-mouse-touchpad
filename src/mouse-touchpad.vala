@@ -40,7 +40,7 @@ namespace MouseTouchpad {
                     icon: "preferences-desktop-peripherals");
         }
 
-        static construct {
+        construct {
             end_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
             start_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
         }

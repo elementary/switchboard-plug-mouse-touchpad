@@ -50,6 +50,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         }
 
         var click_method_combobox = new Gtk.ComboBoxText ();
+        click_method_combobox.hexpand = true;
         click_method_combobox.append ("default", _("Hardware default"));
         click_method_combobox.append ("fingers", _("Multitouch"));
         click_method_combobox.append ("areas", _("Touchpad areas"));
