@@ -8,46 +8,46 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2016-10-20 07:39+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2017-01-05 18:11+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <sr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-23 06:46+0000\n"
-"X-Generator: Launchpad (build 18269)\n"
+"X-Launchpad-Export-Date: 2017-01-06 06:26+0000\n"
+"X-Generator: Launchpad (build 18302)\n"
 
 #: ../src/mouse-touchpad.vala:38
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Миш и додирна табла"
 
 #: ../src/mouse-touchpad.vala:39
 msgid "Configure mouse and touchpad"
-msgstr ""
+msgstr "Подесите миша и додирну таблу"
 
 #: ../src/Widgets/MouseSection.vala:28
 msgid "Mouse"
-msgstr ""
+msgstr "Миш"
 
 #: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
 msgid "Pointer speed:"
-msgstr ""
+msgstr "Брзина показивача:"
 
 #: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
 msgid "Natural scrolling:"
-msgstr ""
+msgstr "Природно премицање:"
 
 #: ../src/Widgets/GeneralSection.vala:29
 msgid "General"
-msgstr ""
+msgstr "Опште"
 
 #: ../src/Widgets/GeneralSection.vala:36
 msgid "Left"
-msgstr ""
+msgstr "Лево"
 
 #: ../src/Widgets/GeneralSection.vala:37
 msgid "Right"
-msgstr ""
+msgstr "Десно"
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
@@ -55,48 +55,48 @@ msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
-msgstr ""
+msgstr "Примарно дугме:"
 
 #: ../src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
-msgstr ""
+msgstr "Прикажи показивач:"
 
 #: ../src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
-msgstr ""
+msgstr "Додирна табла"
 
 #: ../src/Widgets/TouchpadSection.vala:53
 msgid "Hardware default"
-msgstr ""
+msgstr "Основно хардвера"
 
 #: ../src/Widgets/TouchpadSection.vala:54
 msgid "Multitouch"
-msgstr ""
+msgstr "Више додирно"
 
 #: ../src/Widgets/TouchpadSection.vala:55
 msgid "Touchpad areas"
-msgstr ""
+msgstr "Области додирне табле"
 
 #: ../src/Widgets/TouchpadSection.vala:69
 msgid "Two-finger"
-msgstr ""
+msgstr "Два прста"
 
 #: ../src/Widgets/TouchpadSection.vala:70
 msgid "Edge"
-msgstr ""
+msgstr "Ивица"
 
 #: ../src/Widgets/TouchpadSection.vala:71
 msgid "Disabled"
-msgstr ""
+msgstr "Искључено"
 
 #: ../src/Widgets/TouchpadSection.vala:85
 msgid "Tap to click:"
-msgstr ""
+msgstr "Лупни за клик:"
 
 #: ../src/Widgets/TouchpadSection.vala:87
 msgid "Physical clicking:"
-msgstr ""
+msgstr "Физичко кликање:"
 
 #: ../src/Widgets/TouchpadSection.vala:90
 msgid "Scrolling:"
-msgstr ""
+msgstr "Премицање:"
