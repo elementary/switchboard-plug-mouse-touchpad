@@ -1,0 +1,102 @@
+# Greek translation for switchboard-plug-mouse-touchpad
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the switchboard-plug-mouse-touchpad package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-mouse-touchpad\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-10-31 14:18+0100\n"
+"PO-Revision-Date: 2017-02-07 11:46+0000\n"
+"Last-Translator: Christos Iatropoulos <Unknown>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-02-08 05:11+0000\n"
+"X-Generator: Launchpad (build 18326)\n"
+
+#: ../src/mouse-touchpad.vala:38
+msgid "Mouse & Touchpad"
+msgstr "Ποντίκι & touchpad"
+
+#: ../src/mouse-touchpad.vala:39
+msgid "Configure mouse and touchpad"
+msgstr "Ρύθμιση ποντικιού και touchpad"
+
+#: ../src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "Ποντίκι"
+
+#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
+msgid "Pointer speed:"
+msgstr "Ταχύτητα δείκτη:"
+
+#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
+msgid "Natural scrolling:"
+msgstr "Φυσική κύλιση:"
+
+#: ../src/Widgets/GeneralSection.vala:29
+msgid "General"
+msgstr "Γενικά"
+
+#: ../src/Widgets/GeneralSection.vala:36
+msgid "Left"
+msgstr "Αριστερό"
+
+#: ../src/Widgets/GeneralSection.vala:37
+msgid "Right"
+msgstr "Δεξί"
+
+#: ../src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Το πάτημα του πλήκτρου control θα επισημάνει τη θέση του δείκτη"
+
+#: ../src/Widgets/GeneralSection.vala:53
+msgid "Primary button:"
+msgstr "Βασικό κουμπί:"
+
+#: ../src/Widgets/GeneralSection.vala:55
+msgid "Reveal pointer:"
+msgstr "Φανέρωση δείκτη:"
+
+#: ../src/Widgets/TouchpadSection.vala:30
+msgid "Touchpad"
+msgstr "Touchpad"
+
+#: ../src/Widgets/TouchpadSection.vala:53
+msgid "Hardware default"
+msgstr "Προεπιλογή του υλικού"
+
+#: ../src/Widgets/TouchpadSection.vala:54
+msgid "Multitouch"
+msgstr "Multitouch"
+
+#: ../src/Widgets/TouchpadSection.vala:55
+msgid "Touchpad areas"
+msgstr "Περιοχές touchpad"
+
+#: ../src/Widgets/TouchpadSection.vala:69
+msgid "Two-finger"
+msgstr "Με δύο δάκτυλα"
+
+#: ../src/Widgets/TouchpadSection.vala:70
+msgid "Edge"
+msgstr "Στην άκρη"
+
+#: ../src/Widgets/TouchpadSection.vala:71
+msgid "Disabled"
+msgstr "Απενεργοποιημένη"
+
+#: ../src/Widgets/TouchpadSection.vala:85
+msgid "Tap to click:"
+msgstr "Άγγιγμα για κλικ:"
+
+#: ../src/Widgets/TouchpadSection.vala:87
+msgid "Physical clicking:"
+msgstr "Φυσικό κλικάρισμα:"
+
+#: ../src/Widgets/TouchpadSection.vala:90
+msgid "Scrolling:"
+msgstr "Κύλιση:"
