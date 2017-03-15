@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2015-12-07 14:46+0000\n"
-"Last-Translator: Jimmy Merrild Krag <jimmy@kragenet.dk>\n"
+"PO-Revision-Date: 2017-03-14 17:38+0000\n"
+"Last-Translator: Patrick <Unknown>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
+"X-Launchpad-Export-Date: 2017-03-15 06:49+0000\n"
+"X-Generator: Launchpad (build 18331)\n"
 
 #: ../src/mouse-touchpad.vala:38
 msgid "Mouse & Touchpad"
@@ -23,7 +23,7 @@ msgstr "Mus & museplade"
 
 #: ../src/mouse-touchpad.vala:39
 msgid "Configure mouse and touchpad"
-msgstr ""
+msgstr "Konfigurer mus og touchpad"
 
 #: ../src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -55,7 +55,7 @@ msgstr "Tryk på Ctrl-knappen vil fremhæve markørens position"
 
 #: ../src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
-msgstr ""
+msgstr "Primær knap:"
 
 #: ../src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
@@ -67,15 +67,15 @@ msgstr "Museplade"
 
 #: ../src/Widgets/TouchpadSection.vala:53
 msgid "Hardware default"
-msgstr ""
+msgstr "Hardware standard"
 
 #: ../src/Widgets/TouchpadSection.vala:54
 msgid "Multitouch"
-msgstr ""
+msgstr "Multitouch"
 
 #: ../src/Widgets/TouchpadSection.vala:55
 msgid "Touchpad areas"
-msgstr ""
+msgstr "Touchpad-områder"
 
 #: ../src/Widgets/TouchpadSection.vala:69
 msgid "Two-finger"
@@ -95,7 +95,7 @@ msgstr "Tryk for at klikke:"
 
 #: ../src/Widgets/TouchpadSection.vala:87
 msgid "Physical clicking:"
-msgstr ""
+msgstr "Fysisk klikning:"
 
 #: ../src/Widgets/TouchpadSection.vala:90
 msgid "Scrolling:"
