@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2017-03-14 17:38+0000\n"
-"Last-Translator: Patrick <Unknown>\n"
+"PO-Revision-Date: 2017-03-20 14:46+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-03-15 06:49+0000\n"
-"X-Generator: Launchpad (build 18331)\n"
+"X-Launchpad-Export-Date: 2017-03-22 07:14+0000\n"
+"X-Generator: Launchpad (build 18334)\n"
 
 #: ../src/mouse-touchpad.vala:38
 msgid "Mouse & Touchpad"
@@ -51,7 +51,7 @@ msgstr "Højre"
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Tryk på Ctrl-knappen vil fremhæve markørens position"
+msgstr "Tryk på Ctrl-tasten vil fremhæve markørens position"
 
 #: ../src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
