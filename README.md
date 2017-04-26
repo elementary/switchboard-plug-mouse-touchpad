@@ -8,7 +8,6 @@ You'll need the following dependencies:
 * cmake
 * libswitchboard-2.0-dev
 * libgranite-dev
-* libgtk-3-dev
 * valac
 
 It's recommended to create a clean build environment
