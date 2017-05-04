@@ -6,16 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2016-12-31 16:09+0000\n"
-"Last-Translator: İbrahim Ethem Göl <Unknown>\n"
-"Language-Team: Turkish <tr@li.org>\n"
+"PO-Revision-Date: 2017-05-04 09:30+0000\n"
+"Last-Translator: Seyit Ali Doğan <seyit822@yandex.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-mouse-touchpad/tr/>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: ../src/mouse-touchpad.vala:38
 msgid "Mouse & Touchpad"
@@ -87,7 +90,7 @@ msgstr "Kenar"
 
 #: ../src/Widgets/TouchpadSection.vala:71
 msgid "Disabled"
-msgstr "Etkin Değil"
+msgstr "Pasif"
 
 #: ../src/Widgets/TouchpadSection.vala:85
 msgid "Tap to click:"
