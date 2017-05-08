@@ -6,16 +6,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2016-12-20 09:27+0000\n"
+"PO-Revision-Date: 2017-05-08 03:20+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
-"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"Language-Team: Chinese (Simplified) "
+"<https://l10n.elementary.io/projects/switchboard/switchboard-plug-mouse-"
+"touchpad/zh_CN/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: ../src/mouse-touchpad.vala:38
 msgid "Mouse & Touchpad"
@@ -39,7 +43,7 @@ msgstr "自然滚动："
 
 #: ../src/Widgets/GeneralSection.vala:29
 msgid "General"
-msgstr "常规："
+msgstr "常规"
 
 #: ../src/Widgets/GeneralSection.vala:36
 msgid "Left"
@@ -87,7 +91,7 @@ msgstr "边缘滚动"
 
 #: ../src/Widgets/TouchpadSection.vala:71
 msgid "Disabled"
-msgstr "禁用滚动"
+msgstr "已禁用"
 
 #: ../src/Widgets/TouchpadSection.vala:85
 msgid "Tap to click:"
