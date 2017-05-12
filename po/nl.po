@@ -6,16 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2015-10-07 11:02+0000\n"
-"Last-Translator: Gert-Jan Ter Vrugt <gertjantervrugt@gmail.com>\n"
-"Language-Team: Dutch <nl@li.org>\n"
+"PO-Revision-Date: 2017-05-12 16:18+0000\n"
+"Last-Translator: Dieter Debast <dieter_debast@hotmail.com>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-mouse-touchpad/nl/>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: ../src/mouse-touchpad.vala:38
 msgid "Mouse & Touchpad"
@@ -31,7 +34,7 @@ msgstr "Muis"
 
 #: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
 msgid "Pointer speed:"
-msgstr "Cursorsnelheid"
+msgstr "Cursorsnelheid:"
 
 #: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
 msgid "Natural scrolling:"
@@ -43,7 +46,7 @@ msgstr "Algemeen"
 
 #: ../src/Widgets/GeneralSection.vala:36
 msgid "Left"
-msgstr "Resterend"
+msgstr "Links"
 
 #: ../src/Widgets/GeneralSection.vala:37
 msgid "Right"
@@ -60,7 +63,7 @@ msgstr ""
 
 #: ../src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
-msgstr "Laat cursor zien"
+msgstr "Laat cursor zien:"
 
 #: ../src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
@@ -92,7 +95,7 @@ msgstr "Uitgeschakeld"
 
 #: ../src/Widgets/TouchpadSection.vala:85
 msgid "Tap to click:"
-msgstr "Tik om te klikken"
+msgstr "Tik om te klikken:"
 
 #: ../src/Widgets/TouchpadSection.vala:87
 msgid "Physical clicking:"
@@ -100,4 +103,4 @@ msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:90
 msgid "Scrolling:"
-msgstr "Scrollen"
+msgstr "Scrollen:"
