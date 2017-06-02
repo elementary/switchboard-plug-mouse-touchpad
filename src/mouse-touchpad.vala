@@ -34,8 +34,8 @@ namespace MouseTouchpad {
 
         public Plug () {
             var settings = new Gee.TreeMap<string, string?> (null, null);
-            settings.set ("input/mouse", "null");
-            settings.set ("input/touch", "null");
+            settings.set ("input/mouse", null);
+            settings.set ("input/touch", null);
             Object (category: Category.HARDWARE,
                     code_name: "pantheon-mouse-touchpad",
                     display_name: _("Mouse & Touchpad"),
