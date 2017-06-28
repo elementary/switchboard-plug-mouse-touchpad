@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2016-11-28 13:37+0000\n"
-"Last-Translator: BALLOON a.k.a. Fu-sen. (Keiichi SHIGA) <Unknown>\n"
-"Language-Team: Japanese <ja@li.org>\n"
+"PO-Revision-Date: 2017-06-28 10:37+0000\n"
+"Last-Translator: Ryo Nakano <rmfmada3q@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-mouse-touchpad/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: ../src/mouse-touchpad.vala:38
 msgid "Mouse & Touchpad"
@@ -52,7 +54,7 @@ msgstr "右"
 
 #: ../src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Ctrl キーをおすとポインターの位置がハイライトされます"
+msgstr "Ctrl キーを押すとポインターの位置がハイライトされます"
 
 #: ../src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
