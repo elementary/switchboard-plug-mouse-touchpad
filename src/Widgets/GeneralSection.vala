@@ -23,7 +23,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
     public Backend.InterfaceSettings interface_settings { get; construct; }
 
     public GeneralSection (Backend.MouseSettings mouse_settings, Backend.DaemonSettings daemon_settings, Backend.InterfaceSettings interface_settings) {
-        Object (mouse_settings: mouse_settings, daemon_settings: daemon_settings);
+        Object (mouse_settings: mouse_settings, daemon_settings: daemon_settings, interface_settings: interface_settings);
     }
 
     construct {
