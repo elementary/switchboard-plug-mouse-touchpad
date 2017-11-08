@@ -52,6 +52,11 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         locate_pointer_help.hexpand = true;
         locate_pointer_help.tooltip_text = _("Pressing the control key will highlight the position of the pointer");
 
+        var primary_paste_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
+        primary_paste_help.halign = Gtk.Align.START;
+        primary_paste_help.hexpand = true;
+        primary_paste_help.tooltip_text = _("Middle or three-finger clicking on an input will paste any selected text");
+
         row_spacing = 12;
         column_spacing = 12;
 
@@ -63,6 +68,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         attach (locate_pointer_help, 2, 2, 1, 1);
         attach (new SettingLabel (_("Paste on middle-click:")), 0, 3, 1, 1);
         attach (primary_paste_switch, 1, 3, 1, 1);
+        attach (primary_paste_help, 2, 3, 1, 1);
 
         mouse_settings.bind_property ("left-handed",
                                       primary_button_switcher,
