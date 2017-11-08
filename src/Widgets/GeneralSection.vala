@@ -75,8 +75,8 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
                                       BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
 
         interface_settings.bind_property ("gtk-enable-primary-paste",
-                                      primary_paste_switch,
-                                      "state",
-                                      BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+                                         primary_paste_switch,
+                                         "state",
+                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
     }
 }
