@@ -20,6 +20,7 @@
 public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
     public Backend.MouseSettings mouse_settings { get; construct; }
     public Backend.DaemonSettings daemon_settings { get; construct; }
+    public Backend.InterfaceSettings interface_settings { get; construct; }
 
     public GeneralSection (Backend.MouseSettings mouse_settings, Backend.DaemonSettings daemon_settings) {
         Object (mouse_settings: mouse_settings, daemon_settings: daemon_settings);
@@ -40,7 +41,11 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
 
         var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
-        reveal_pointer_switch.margin_end = 8;     
+        reveal_pointer_switch.margin_end = 8;
+
+        var primary_paste_switch = new Gtk.Switch ();
+        primary_paste_switch.halign = Gtk.Align.START;
+        primary_paste_switch.margin_end = 8;
 
         var help_icon = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
         help_icon.halign = Gtk.Align.START;
@@ -56,6 +61,8 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         attach (new SettingLabel (_("Reveal pointer:")), 0, 2, 1, 1);
         attach (reveal_pointer_switch, 1, 2, 1, 1);
         attach (help_icon, 2, 2, 1, 1);
+        attach (new SettingLabel (_("Paste on middle-click:")), 0, 3, 1, 1);
+        attach (primary_paste_switch, 1, 3, 1, 1);
 
         mouse_settings.bind_property ("left-handed",
                                       primary_button_switcher,
@@ -64,6 +71,11 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
 
         daemon_settings.bind_property ("locate-pointer",
                                       reveal_pointer_switch,
+                                      "state",
+                                      BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+
+        interface_settings.bind_property ("gtk-enable-primary-paste",
+                                      primary_paste_switch,
                                       "state",
                                       BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
     }
