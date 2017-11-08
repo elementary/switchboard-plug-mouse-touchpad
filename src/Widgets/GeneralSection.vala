@@ -47,10 +47,10 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         primary_paste_switch.halign = Gtk.Align.START;
         primary_paste_switch.margin_end = 8;
 
-        var help_icon = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
-        help_icon.halign = Gtk.Align.START;
-        help_icon.hexpand = true;
-        help_icon.tooltip_text = _("Pressing the control key will highlight the position of the pointer");
+        var locate_pointer_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
+        locate_pointer_help.halign = Gtk.Align.START;
+        locate_pointer_help.hexpand = true;
+        locate_pointer_help.tooltip_text = _("Pressing the control key will highlight the position of the pointer");
 
         row_spacing = 12;
         column_spacing = 12;
@@ -60,7 +60,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         attach (primary_button_switcher, 1, 1, 2, 1);
         attach (new SettingLabel (_("Reveal pointer:")), 0, 2, 1, 1);
         attach (reveal_pointer_switch, 1, 2, 1, 1);
-        attach (help_icon, 2, 2, 1, 1);
+        attach (locate_pointer_help, 2, 2, 1, 1);
         attach (new SettingLabel (_("Paste on middle-click:")), 0, 3, 1, 1);
         attach (primary_paste_switch, 1, 3, 1, 1);
 
