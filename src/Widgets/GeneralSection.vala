@@ -66,7 +66,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         attach (new SettingLabel (_("Reveal pointer:")), 0, 2, 1, 1);
         attach (reveal_pointer_switch, 1, 2, 1, 1);
         attach (locate_pointer_help, 2, 2, 1, 1);
-        attach (new SettingLabel (_("Paste on middle-click:")), 0, 3, 1, 1);
+        attach (new SettingLabel (_("Middle click paste:")), 0, 3, 1, 1);
         attach (primary_paste_switch, 1, 3, 1, 1);
         attach (primary_paste_help, 2, 3, 1, 1);
 
