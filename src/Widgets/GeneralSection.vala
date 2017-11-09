@@ -40,12 +40,12 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
 
         var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
-        reveal_pointer_switch.margin_end = 8;     
+        reveal_pointer_switch.margin_end = 8;
 
-        var help_icon = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
-        help_icon.halign = Gtk.Align.START;
-        help_icon.hexpand = true;
-        help_icon.tooltip_text = _("Pressing the control key will highlight the position of the pointer");
+        var locate_pointer_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
+        locate_pointer_help.halign = Gtk.Align.START;
+        locate_pointer_help.hexpand = true;
+        locate_pointer_help.tooltip_text = _("Pressing the control key will highlight the position of the pointer");
 
         row_spacing = 12;
         column_spacing = 12;
@@ -55,7 +55,27 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         attach (primary_button_switcher, 1, 1, 2, 1);
         attach (new SettingLabel (_("Reveal pointer:")), 0, 2, 1, 1);
         attach (reveal_pointer_switch, 1, 2, 1, 1);
-        attach (help_icon, 2, 2, 1, 1);
+        attach (locate_pointer_help, 2, 2, 1, 1);
+
+        var interface_settings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.desktop.interface",false);
+
+        if (interface_settings_schema.has_key ("gtk-enable-primary-paste")) {
+            var primary_paste_switch = new Gtk.Switch ();
+            primary_paste_switch.halign = Gtk.Align.START;
+            primary_paste_switch.margin_end = 8;
+
+            var primary_paste_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
+            primary_paste_help.halign = Gtk.Align.START;
+            primary_paste_help.hexpand = true;
+            primary_paste_help.tooltip_text = _("Middle or three-finger clicking on an input will paste any selected text");
+
+            attach (new SettingLabel (_("Middle click paste:")), 0, 3, 1, 1);
+            attach (primary_paste_switch, 1, 3, 1, 1);
+            attach (primary_paste_help, 2, 3, 1, 1);
+
+            var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
+            interface_settings.bind ("gtk-enable-primary-paste", primary_paste_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        }
 
         mouse_settings.bind_property ("left-handed",
                                       primary_button_switcher,
