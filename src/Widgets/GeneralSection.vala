@@ -57,7 +57,7 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         attach (reveal_pointer_switch, 1, 2, 1, 1);
         attach (locate_pointer_help, 2, 2, 1, 1);
 
-        var interface_settings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.desktop.interface",false);
+        var interface_settings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.desktop.interface", false);
 
         if (interface_settings_schema.has_key ("gtk-enable-primary-paste")) {
             var primary_paste_switch = new Gtk.Switch ();
