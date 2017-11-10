@@ -19,10 +19,9 @@
 
 public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
     public Backend.MouseSettings mouse_settings { get; construct; }
-    public Backend.DaemonSettings daemon_settings { get; construct; }
 
-    public GeneralSection (Backend.MouseSettings mouse_settings, Backend.DaemonSettings daemon_settings) {
-        Object (mouse_settings: mouse_settings, daemon_settings: daemon_settings);
+    public GeneralSection (Backend.MouseSettings mouse_settings) {
+        Object (mouse_settings: mouse_settings);
     }
 
     construct {
@@ -57,14 +56,13 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         attach (reveal_pointer_switch, 1, 2, 1, 1);
         attach (help_icon, 2, 2, 1, 1);
 
+        var daemon_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
+        daemon_settings.bind ("locate-pointer", reveal_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+
         mouse_settings.bind_property ("left-handed",
                                       primary_button_switcher,
                                       "selected",
                                       BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
 
-        daemon_settings.bind_property ("locate-pointer",
-                                      reveal_pointer_switch,
-                                      "state",
-                                      BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
     }
 }

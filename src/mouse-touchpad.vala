@@ -20,7 +20,6 @@
 namespace MouseTouchpad {
     public class Plug : Switchboard.Plug {
         private Backend.MouseSettings mouse_settings;
-        private Backend.DaemonSettings daemon_settings;
         private Backend.TouchpadSettings touchpad_settings;
 
         private Gtk.Grid main_grid;
@@ -75,7 +74,6 @@ namespace MouseTouchpad {
         private void load_settings () {
             mouse_settings = new Backend.MouseSettings ();
             touchpad_settings = new Backend.TouchpadSettings ();
-            daemon_settings = new Backend.DaemonSettings ();
         }
 
         private void build_ui () {
@@ -84,7 +82,7 @@ namespace MouseTouchpad {
             main_grid.row_spacing = 12;
             main_grid.halign = Gtk.Align.CENTER;
 
-            general_section = new Widgets.GeneralSection (mouse_settings, daemon_settings);
+            general_section = new Widgets.GeneralSection (mouse_settings);
             mouse_section = new Widgets.MouseSection (mouse_settings);
             touchpad_section = new Widgets.TouchpadSection (touchpad_settings);
 
