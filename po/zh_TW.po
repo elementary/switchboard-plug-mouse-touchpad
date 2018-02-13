@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2017-12-26 00:10+0000\n"
+"PO-Revision-Date: 2018-02-17 10:10+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) "
 "<https://weblate.elementary.io/projects/switchboard/switchboard-plug-mouse-"
@@ -91,7 +91,7 @@ msgstr "邊緣"
 
 #: ../src/Widgets/TouchpadSection.vala:71
 msgid "Disabled"
-msgstr "停用"
+msgstr "已停用"
 
 #: ../src/Widgets/TouchpadSection.vala:85
 msgid "Tap to click:"
