@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-15 09:34-0800\n"
+"POT-Creation-Date: 2018-02-18 11:11-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,6 +100,10 @@ msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
+msgstr ""
+
+#: ../src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
 msgstr ""
 
 #: ../src/mouse-touchpad.vala:40
