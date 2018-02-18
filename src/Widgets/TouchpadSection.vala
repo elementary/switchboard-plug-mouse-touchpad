@@ -92,6 +92,8 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         attach (scrolling_combobox, 1, 4, 2, 1);
         attach (new SettingLabel (_("Natural scrolling:")), 0, 5, 1, 1);
         attach (natural_scrolling_switch, 1, 5, 1, 1);
+        attach (new SettingLabel (_("Diable while typing:")), 0, 6, 1, 1);
+        attach (disable_while_typing_switch, 1, 6, 1, 1);
 
         click_method_switch.bind_property ("active", click_method_combobox, "sensitive", BindingFlags.SYNC_CREATE);
 
@@ -102,7 +104,7 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
                 touchpad_settings.click_method = "none";
             }
         });
-        
+
         scrolling_combobox.changed.connect (() => {
             string active_text = scrolling_combobox.get_active_id ();
             if (active_text == "disabled") {
@@ -138,6 +140,11 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
 
         touchpad_settings.bind_property ("natural-scroll",
                                          natural_scrolling_switch,
+                                         "state",
+                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+
+        touchpad_settings.bind_property ("disable-while-typing",
+                                         disable_while_typing_switch,
                                          "state",
                                          BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
     }
