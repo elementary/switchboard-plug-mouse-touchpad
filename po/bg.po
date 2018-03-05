@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-31 14:18+0100\n"
+"POT-Creation-Date: 2018-03-14 23:37+0000\n"
 "PO-Revision-Date: 2017-04-14 16:43+0000\n"
 "Last-Translator: Boris Bongalov <b.bongalov@gmail.com>\n"
-"Language-Team: Bulgarian <https://l10n.elementary.io/projects/switchboard"
-"/switchboard-plug-mouse-touchpad/bg/>\n"
+"Language-Team: Bulgarian <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/bg/>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,88 +20,114 @@ msgstr ""
 "X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
-#: ../src/mouse-touchpad.vala:38
+#: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
 msgstr "Мишка и сензорен панел"
 
-#: ../src/mouse-touchpad.vala:39
+#: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Настройка на мишката и сензорния панел"
 
-#: ../src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "Мишка"
+#: src/Widgets/TouchpadSection.vala:30
+msgid "Touchpad"
+msgstr "Сензорен панел"
 
-#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
+#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
+msgid "Hardware default"
+msgstr "По подразбиране"
+
+#: src/Widgets/TouchpadSection.vala:55
+msgid "Multitouch"
+msgstr "Многоточково докосване"
+
+#: src/Widgets/TouchpadSection.vala:56
+msgid "Touchpad areas"
+msgstr "Райони на сензорния панел"
+
+#: src/Widgets/TouchpadSection.vala:70
+msgid "Two-finger"
+msgstr "Два пръста"
+
+#: src/Widgets/TouchpadSection.vala:71
+msgid "Edge"
+msgstr "По ръба"
+
+#: src/Widgets/TouchpadSection.vala:72
+msgid "Disabled"
+msgstr "Изключено"
+
+#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
 msgid "Pointer speed:"
 msgstr "Скорост на показалеца:"
 
-#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
+#: src/Widgets/TouchpadSection.vala:86
+msgid "Tap to click:"
+msgstr "Потупване за щракване:"
+
+#: src/Widgets/TouchpadSection.vala:88
+msgid "Physical clicking:"
+msgstr "Физическо щракване:"
+
+#: src/Widgets/TouchpadSection.vala:91
+msgid "Scrolling:"
+msgstr "Превъртане:"
+
+#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
 msgid "Natural scrolling:"
 msgstr "Естествено превъртане:"
 
-#: ../src/Widgets/GeneralSection.vala:29
+#: src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "Мишка"
+
+#: src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:62
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "Скорост на показалеца:"
+
+#: src/Widgets/GeneralSection.vala:28
 msgid "General"
 msgstr "Общи"
 
-#: ../src/Widgets/GeneralSection.vala:36
+#: src/Widgets/GeneralSection.vala:36
 msgid "Left"
 msgstr "Ляво"
 
-#: ../src/Widgets/GeneralSection.vala:37
+#: src/Widgets/GeneralSection.vala:37
 msgid "Right"
 msgstr "Дясно"
 
-#: ../src/Widgets/GeneralSection.vala:47
+#: src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 "При натискане на клавиша Контрол (Ctrl), показалеца на мишката ще бъде "
 "осветен"
 
-#: ../src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
 msgstr "Основен бутон:"
 
-#: ../src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
 msgstr "Показване на показалеца:"
 
-#: ../src/Widgets/TouchpadSection.vala:30
-msgid "Touchpad"
-msgstr "Сензорен панел"
+#: src/Widgets/GeneralSection.vala:69
+msgid ""
+"Middle or three-finger clicking on an input will paste any selected text"
+msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:53
-msgid "Hardware default"
-msgstr "По подразбиране"
-
-#: ../src/Widgets/TouchpadSection.vala:54
-msgid "Multitouch"
-msgstr "Многоточково докосване"
-
-#: ../src/Widgets/TouchpadSection.vala:55
-msgid "Touchpad areas"
-msgstr "Райони на сензорния панел"
-
-#: ../src/Widgets/TouchpadSection.vala:69
-msgid "Two-finger"
-msgstr "Два пръста"
-
-#: ../src/Widgets/TouchpadSection.vala:70
-msgid "Edge"
-msgstr "По ръба"
-
-#: ../src/Widgets/TouchpadSection.vala:71
-msgid "Disabled"
-msgstr "Изключено"
-
-#: ../src/Widgets/TouchpadSection.vala:85
-msgid "Tap to click:"
-msgstr "Потупване за щракване:"
-
-#: ../src/Widgets/TouchpadSection.vala:87
-msgid "Physical clicking:"
-msgstr "Физическо щракване:"
-
-#: ../src/Widgets/TouchpadSection.vala:90
-msgid "Scrolling:"
-msgstr "Превъртане:"
+#: src/Widgets/GeneralSection.vala:71
+msgid "Middle click paste:"
+msgstr ""

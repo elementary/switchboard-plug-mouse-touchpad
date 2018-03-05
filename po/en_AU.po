@@ -1,0 +1,129 @@
+# English translations for mouse-touchpad-plug package.
+# Copyright (C) 2018 THE mouse-touchpad-plug'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mouse-touchpad-plug package.
+# Automatically generated, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mouse-touchpad-plug\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-14 23:37+0000\n"
+"PO-Revision-Date: 2018-03-05 23:53+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_AU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/mouse-touchpad.vala:40
+msgid "Mouse & Touchpad"
+msgstr "Mouse & Touchpad"
+
+#: src/mouse-touchpad.vala:41
+msgid "Configure mouse and touchpad"
+msgstr "Configure mouse and touchpad"
+
+#: src/Widgets/TouchpadSection.vala:30
+msgid "Touchpad"
+msgstr "Touchpad"
+
+#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
+msgid "Hardware default"
+msgstr "Hardware default"
+
+#: src/Widgets/TouchpadSection.vala:55
+msgid "Multitouch"
+msgstr "Multitouch"
+
+#: src/Widgets/TouchpadSection.vala:56
+msgid "Touchpad areas"
+msgstr "Touchpad areas"
+
+#: src/Widgets/TouchpadSection.vala:70
+msgid "Two-finger"
+msgstr "Two-finger"
+
+#: src/Widgets/TouchpadSection.vala:71
+msgid "Edge"
+msgstr "Edge"
+
+#: src/Widgets/TouchpadSection.vala:72
+msgid "Disabled"
+msgstr "Disabled"
+
+#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
+msgid "Pointer speed:"
+msgstr "Pointer speed:"
+
+#: src/Widgets/TouchpadSection.vala:86
+msgid "Tap to click:"
+msgstr "Tap to click:"
+
+#: src/Widgets/TouchpadSection.vala:88
+msgid "Physical clicking:"
+msgstr "Physical clicking:"
+
+#: src/Widgets/TouchpadSection.vala:91
+msgid "Scrolling:"
+msgstr "Scrolling:"
+
+#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
+msgid "Natural scrolling:"
+msgstr "Natural scrolling:"
+
+#: src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
+msgstr "Disable while typing:"
+
+#: src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "Mouse"
+
+#: src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:62
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "Pointer speed:"
+
+#: src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "General"
+
+#: src/Widgets/GeneralSection.vala:36
+msgid "Left"
+msgstr "Left"
+
+#: src/Widgets/GeneralSection.vala:37
+msgid "Right"
+msgstr "Right"
+
+#: src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Pressing the control key will highlight the position of the pointer"
+
+#: src/Widgets/GeneralSection.vala:53
+msgid "Primary button:"
+msgstr "Primary button:"
+
+#: src/Widgets/GeneralSection.vala:55
+msgid "Reveal pointer:"
+msgstr "Reveal pointer:"
+
+#: src/Widgets/GeneralSection.vala:69
+msgid ""
+"Middle or three-finger clicking on an input will paste any selected text"
+msgstr ""
+"Middle or three-finger clicking on an input will paste any selected text"
+
+#: src/Widgets/GeneralSection.vala:71
+msgid "Middle click paste:"
+msgstr "Middle click paste:"

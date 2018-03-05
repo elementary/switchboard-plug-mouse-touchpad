@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-31 14:18+0100\n"
+"POT-Creation-Date: 2018-03-14 23:37+0000\n"
 "PO-Revision-Date: 2018-02-11 00:08+0000\n"
 "Last-Translator: Lasha-Giorgi Esebua <lashagiorgiesebua@gmail.com>\n"
-"Language-Team: Georgian <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-mouse-touchpad/ka/>\n"
+"Language-Team: Georgian <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,86 +20,112 @@ msgstr ""
 "X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
-#: ../src/mouse-touchpad.vala:38
+#: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
 msgstr "მაუსი & თაჩპედი"
 
-#: ../src/mouse-touchpad.vala:39
+#: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr ""
 
-#: ../src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "მაუსი"
-
-#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
-msgid "Pointer speed:"
-msgstr "ისრის სიჩქარე:"
-
-#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
-msgid "Natural scrolling:"
-msgstr "ჩვეულებრივი სკროლინგი:"
-
-#: ../src/Widgets/GeneralSection.vala:29
-msgid "General"
-msgstr "საერთო"
-
-#: ../src/Widgets/GeneralSection.vala:36
-msgid "Left"
-msgstr "მარცხენა"
-
-#: ../src/Widgets/GeneralSection.vala:37
-msgid "Right"
-msgstr "მარჯვენა"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "control ღილაკზე დაჭერა მიგითითებთ ისრის ადგილმდებარეობაზე"
-
-#: ../src/Widgets/GeneralSection.vala:53
-msgid "Primary button:"
-msgstr ""
-
-#: ../src/Widgets/GeneralSection.vala:55
-msgid "Reveal pointer:"
-msgstr "ისრის ნახვება:"
-
-#: ../src/Widgets/TouchpadSection.vala:30
+#: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
 msgstr "თაჩპედი"
 
-#: ../src/Widgets/TouchpadSection.vala:53
+#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
 msgid "Hardware default"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:54
+#: src/Widgets/TouchpadSection.vala:55
 msgid "Multitouch"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:55
+#: src/Widgets/TouchpadSection.vala:56
 msgid "Touchpad areas"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:69
+#: src/Widgets/TouchpadSection.vala:70
 msgid "Two-finger"
 msgstr "ორ-თითა"
 
-#: ../src/Widgets/TouchpadSection.vala:70
+#: src/Widgets/TouchpadSection.vala:71
 msgid "Edge"
 msgstr "კიდე"
 
-#: ../src/Widgets/TouchpadSection.vala:71
+#: src/Widgets/TouchpadSection.vala:72
 msgid "Disabled"
 msgstr "გამორთულია"
 
-#: ../src/Widgets/TouchpadSection.vala:85
+#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
+msgid "Pointer speed:"
+msgstr "ისრის სიჩქარე:"
+
+#: src/Widgets/TouchpadSection.vala:86
 msgid "Tap to click:"
 msgstr "დაკვრა დასაწკაპუნებლად:"
 
-#: ../src/Widgets/TouchpadSection.vala:87
+#: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:90
+#: src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
 msgstr "სკროლინგი:"
+
+#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
+msgid "Natural scrolling:"
+msgstr "ჩვეულებრივი სკროლინგი:"
+
+#: src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "მაუსი"
+
+#: src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:62
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "ისრის სიჩქარე:"
+
+#: src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "საერთო"
+
+#: src/Widgets/GeneralSection.vala:36
+msgid "Left"
+msgstr "მარცხენა"
+
+#: src/Widgets/GeneralSection.vala:37
+msgid "Right"
+msgstr "მარჯვენა"
+
+#: src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "control ღილაკზე დაჭერა მიგითითებთ ისრის ადგილმდებარეობაზე"
+
+#: src/Widgets/GeneralSection.vala:53
+msgid "Primary button:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:55
+msgid "Reveal pointer:"
+msgstr "ისრის ნახვება:"
+
+#: src/Widgets/GeneralSection.vala:69
+msgid ""
+"Middle or three-finger clicking on an input will paste any selected text"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:71
+msgid "Middle click paste:"
+msgstr ""

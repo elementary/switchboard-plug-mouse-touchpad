@@ -7,12 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-31 14:18+0100\n"
+"POT-Creation-Date: 2018-03-14 23:37+0000\n"
 "PO-Revision-Date: 2017-05-23 08:07+0000\n"
 "Last-Translator: Fernando da Silva Sousa <wild.nando@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) "
-"<https://l10n.elementary.io/projects/switchboard/switchboard-plug-mouse-"
-"touchpad/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"switchboard/switchboard-plug-mouse-touchpad/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,86 +20,112 @@ msgstr ""
 "X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
-#: ../src/mouse-touchpad.vala:38
+#: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
 msgstr "Mouse e touchpad"
 
-#: ../src/mouse-touchpad.vala:39
+#: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Configurar o mouse e o touchpad"
 
-#: ../src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "Mouse"
-
-#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
-msgid "Pointer speed:"
-msgstr "Velocidade do cursor:"
-
-#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
-msgid "Natural scrolling:"
-msgstr "Rolagem natural:"
-
-#: ../src/Widgets/GeneralSection.vala:29
-msgid "General"
-msgstr "Geral"
-
-#: ../src/Widgets/GeneralSection.vala:36
-msgid "Left"
-msgstr "Esquerda"
-
-#: ../src/Widgets/GeneralSection.vala:37
-msgid "Right"
-msgstr "Direita"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Quando pressionado o botão crlt, a posição do cursor será revelada"
-
-#: ../src/Widgets/GeneralSection.vala:53
-msgid "Primary button:"
-msgstr "Botão principal:"
-
-#: ../src/Widgets/GeneralSection.vala:55
-msgid "Reveal pointer:"
-msgstr "Revelar o cursor:"
-
-#: ../src/Widgets/TouchpadSection.vala:30
+#: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
 msgstr "Touchpad"
 
-#: ../src/Widgets/TouchpadSection.vala:53
+#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
 msgid "Hardware default"
 msgstr "Hardware padrão"
 
-#: ../src/Widgets/TouchpadSection.vala:54
+#: src/Widgets/TouchpadSection.vala:55
 msgid "Multitouch"
 msgstr "Multitoque"
 
-#: ../src/Widgets/TouchpadSection.vala:55
+#: src/Widgets/TouchpadSection.vala:56
 msgid "Touchpad areas"
 msgstr "Áreas do Touchpad"
 
-#: ../src/Widgets/TouchpadSection.vala:69
+#: src/Widgets/TouchpadSection.vala:70
 msgid "Two-finger"
 msgstr "Com dois dedos"
 
-#: ../src/Widgets/TouchpadSection.vala:70
+#: src/Widgets/TouchpadSection.vala:71
 msgid "Edge"
 msgstr "Na borda"
 
-#: ../src/Widgets/TouchpadSection.vala:71
+#: src/Widgets/TouchpadSection.vala:72
 msgid "Disabled"
 msgstr "Desabilitado"
 
-#: ../src/Widgets/TouchpadSection.vala:85
+#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
+msgid "Pointer speed:"
+msgstr "Velocidade do cursor:"
+
+#: src/Widgets/TouchpadSection.vala:86
 msgid "Tap to click:"
 msgstr "Toque para clicar:"
 
-#: ../src/Widgets/TouchpadSection.vala:87
+#: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
 msgstr "Clique físico:"
 
-#: ../src/Widgets/TouchpadSection.vala:90
+#: src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
 msgstr "Rolagem:"
+
+#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
+msgid "Natural scrolling:"
+msgstr "Rolagem natural:"
+
+#: src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "Mouse"
+
+#: src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:62
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "Velocidade do cursor:"
+
+#: src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "Geral"
+
+#: src/Widgets/GeneralSection.vala:36
+msgid "Left"
+msgstr "Esquerda"
+
+#: src/Widgets/GeneralSection.vala:37
+msgid "Right"
+msgstr "Direita"
+
+#: src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Quando pressionado o botão crlt, a posição do cursor será revelada"
+
+#: src/Widgets/GeneralSection.vala:53
+msgid "Primary button:"
+msgstr "Botão principal:"
+
+#: src/Widgets/GeneralSection.vala:55
+msgid "Reveal pointer:"
+msgstr "Revelar o cursor:"
+
+#: src/Widgets/GeneralSection.vala:69
+msgid ""
+"Middle or three-finger clicking on an input will paste any selected text"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:71
+msgid "Middle click paste:"
+msgstr ""

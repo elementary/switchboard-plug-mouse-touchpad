@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-31 14:18+0100\n"
+"POT-Creation-Date: 2018-03-14 23:37+0000\n"
 "PO-Revision-Date: 2015-10-14 18:07+0000\n"
 "Last-Translator: ABCDEFGH <aefgh7233@gmail.com>\n"
 "Language-Team: Thai <th@li.org>\n"
@@ -18,86 +18,112 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 "X-Generator: Launchpad (build 18326)\n"
 
-#: ../src/mouse-touchpad.vala:38
+#: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
 msgstr "เมาส์และทัชแพด"
 
-#: ../src/mouse-touchpad.vala:39
+#: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr ""
 
-#: ../src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "เมาส์"
-
-#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
-msgid "Pointer speed:"
-msgstr "ความเร็วของตัวชี้:"
-
-#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
-msgid "Natural scrolling:"
-msgstr "Natural scrolling:"
-
-#: ../src/Widgets/GeneralSection.vala:29
-msgid "General"
-msgstr "ทั่วไป"
-
-#: ../src/Widgets/GeneralSection.vala:36
-msgid "Left"
-msgstr "ซ้าย"
-
-#: ../src/Widgets/GeneralSection.vala:37
-msgid "Right"
-msgstr "ขวา"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "การกดปุ่ม Control จะเลือกตำแหน่งตัวชี้"
-
-#: ../src/Widgets/GeneralSection.vala:53
-msgid "Primary button:"
-msgstr ""
-
-#: ../src/Widgets/GeneralSection.vala:55
-msgid "Reveal pointer:"
-msgstr "แสดงตัวชี้เมาส์:"
-
-#: ../src/Widgets/TouchpadSection.vala:30
+#: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
 msgstr "ทัชแพด"
 
-#: ../src/Widgets/TouchpadSection.vala:53
+#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
 msgid "Hardware default"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:54
+#: src/Widgets/TouchpadSection.vala:55
 msgid "Multitouch"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:55
+#: src/Widgets/TouchpadSection.vala:56
 msgid "Touchpad areas"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:69
+#: src/Widgets/TouchpadSection.vala:70
 msgid "Two-finger"
 msgstr "สองนิ้ว"
 
-#: ../src/Widgets/TouchpadSection.vala:70
+#: src/Widgets/TouchpadSection.vala:71
 msgid "Edge"
 msgstr "ขอบ"
 
-#: ../src/Widgets/TouchpadSection.vala:71
+#: src/Widgets/TouchpadSection.vala:72
 msgid "Disabled"
 msgstr "ปิด"
 
-#: ../src/Widgets/TouchpadSection.vala:85
+#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
+msgid "Pointer speed:"
+msgstr "ความเร็วของตัวชี้:"
+
+#: src/Widgets/TouchpadSection.vala:86
 msgid "Tap to click:"
 msgstr "แตะเพื่อคลิก:"
 
-#: ../src/Widgets/TouchpadSection.vala:87
+#: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
 msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:90
+#: src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
 msgstr "ลาก:"
+
+#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
+msgid "Natural scrolling:"
+msgstr "Natural scrolling:"
+
+#: src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "เมาส์"
+
+#: src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:62
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "ความเร็วของตัวชี้:"
+
+#: src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "ทั่วไป"
+
+#: src/Widgets/GeneralSection.vala:36
+msgid "Left"
+msgstr "ซ้าย"
+
+#: src/Widgets/GeneralSection.vala:37
+msgid "Right"
+msgstr "ขวา"
+
+#: src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "การกดปุ่ม Control จะเลือกตำแหน่งตัวชี้"
+
+#: src/Widgets/GeneralSection.vala:53
+msgid "Primary button:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:55
+msgid "Reveal pointer:"
+msgstr "แสดงตัวชี้เมาส์:"
+
+#: src/Widgets/GeneralSection.vala:69
+msgid ""
+"Middle or three-finger clicking on an input will paste any selected text"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:71
+msgid "Middle click paste:"
+msgstr ""

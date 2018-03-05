@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-31 14:18+0100\n"
+"POT-Creation-Date: 2018-03-14 23:37+0000\n"
 "PO-Revision-Date: 2016-07-26 13:36+0000\n"
 "Last-Translator: Mikael Nyberg <mikanybe@gmail.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
@@ -18,87 +18,113 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 "X-Generator: Launchpad (build 18326)\n"
 
-#: ../src/mouse-touchpad.vala:38
+#: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
 msgstr "Mus och pekplatta"
 
-#: ../src/mouse-touchpad.vala:39
+#: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Ställ in mus och pekplatta"
 
-#: ../src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "Mus"
+#: src/Widgets/TouchpadSection.vala:30
+msgid "Touchpad"
+msgstr "Pekplatta"
 
-#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
+#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
+msgid "Hardware default"
+msgstr "Hårdvarans standard"
+
+#: src/Widgets/TouchpadSection.vala:55
+msgid "Multitouch"
+msgstr "Multi-touch"
+
+#: src/Widgets/TouchpadSection.vala:56
+msgid "Touchpad areas"
+msgstr "Områden på pekplattan"
+
+#: src/Widgets/TouchpadSection.vala:70
+msgid "Two-finger"
+msgstr "Två fingrar"
+
+#: src/Widgets/TouchpadSection.vala:71
+msgid "Edge"
+msgstr "Kant"
+
+#: src/Widgets/TouchpadSection.vala:72
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
 msgid "Pointer speed:"
 msgstr "Markörens hastighet:"
 
-#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
+#: src/Widgets/TouchpadSection.vala:86
+msgid "Tap to click:"
+msgstr "Knacka för att klicka:"
+
+#: src/Widgets/TouchpadSection.vala:88
+msgid "Physical clicking:"
+msgstr "Fysisk klickning:"
+
+#: src/Widgets/TouchpadSection.vala:91
+msgid "Scrolling:"
+msgstr "Rullning:"
+
+#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
 msgid "Natural scrolling:"
 msgstr "Naturlig rullning:"
 
-#: ../src/Widgets/GeneralSection.vala:29
+#: src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "Mus"
+
+#: src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:62
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "Markörens hastighet:"
+
+#: src/Widgets/GeneralSection.vala:28
 msgid "General"
 msgstr "Allmänt"
 
-#: ../src/Widgets/GeneralSection.vala:36
+#: src/Widgets/GeneralSection.vala:36
 msgid "Left"
 msgstr "Vänster"
 
-#: ../src/Widgets/GeneralSection.vala:37
+#: src/Widgets/GeneralSection.vala:37
 msgid "Right"
 msgstr "Höger"
 
-#: ../src/Widgets/GeneralSection.vala:47
+#: src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 "Genom att trycka på kontrolltangenten markeras positionen för muspekaren"
 
-#: ../src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
 msgstr ""
 
-#: ../src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
 msgstr "Avslöja markör"
 
-#: ../src/Widgets/TouchpadSection.vala:30
-msgid "Touchpad"
-msgstr "Pekplatta"
+#: src/Widgets/GeneralSection.vala:69
+msgid ""
+"Middle or three-finger clicking on an input will paste any selected text"
+msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:53
-msgid "Hardware default"
-msgstr "Hårdvarans standard"
-
-#: ../src/Widgets/TouchpadSection.vala:54
-msgid "Multitouch"
-msgstr "Multi-touch"
-
-#: ../src/Widgets/TouchpadSection.vala:55
-msgid "Touchpad areas"
-msgstr "Områden på pekplattan"
-
-#: ../src/Widgets/TouchpadSection.vala:69
-msgid "Two-finger"
-msgstr "Två fingrar"
-
-#: ../src/Widgets/TouchpadSection.vala:70
-msgid "Edge"
-msgstr "Kant"
-
-#: ../src/Widgets/TouchpadSection.vala:71
-msgid "Disabled"
-msgstr "Inaktiverad"
-
-#: ../src/Widgets/TouchpadSection.vala:85
-msgid "Tap to click:"
-msgstr "Knacka för att klicka:"
-
-#: ../src/Widgets/TouchpadSection.vala:87
-msgid "Physical clicking:"
-msgstr "Fysisk klickning:"
-
-#: ../src/Widgets/TouchpadSection.vala:90
-msgid "Scrolling:"
-msgstr "Rullning:"
+#: src/Widgets/GeneralSection.vala:71
+msgid "Middle click paste:"
+msgstr ""

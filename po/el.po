@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-31 14:18+0100\n"
+"POT-Creation-Date: 2018-03-14 23:37+0000\n"
 "PO-Revision-Date: 2017-08-31 23:37+0000\n"
 "Last-Translator: Grammatopoulos Athanasios-Vasi <darkthanos.gr@gmail.com>\n"
-"Language-Team: Greek <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-mouse-touchpad/el/>\n"
+"Language-Team: Greek <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,86 +20,112 @@ msgstr ""
 "X-Generator: Weblate 2.16\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
-#: ../src/mouse-touchpad.vala:38
+#: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
 msgstr "Ποντίκι & touchpad"
 
-#: ../src/mouse-touchpad.vala:39
+#: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Ρύθμιση ποντικιού και touchpad"
 
-#: ../src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "Ποντίκι"
-
-#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
-msgid "Pointer speed:"
-msgstr "Ταχύτητα δείκτη:"
-
-#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
-msgid "Natural scrolling:"
-msgstr "Φυσική κύλιση:"
-
-#: ../src/Widgets/GeneralSection.vala:29
-msgid "General"
-msgstr "Γενικά"
-
-#: ../src/Widgets/GeneralSection.vala:36
-msgid "Left"
-msgstr "Αριστερά"
-
-#: ../src/Widgets/GeneralSection.vala:37
-msgid "Right"
-msgstr "Δεξιά"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Το πάτημα του πλήκτρου control θα εμφανίσει τη θέση του δείκτη"
-
-#: ../src/Widgets/GeneralSection.vala:53
-msgid "Primary button:"
-msgstr "Βασικό κουμπί:"
-
-#: ../src/Widgets/GeneralSection.vala:55
-msgid "Reveal pointer:"
-msgstr "Εμφάνιση δείκτη:"
-
-#: ../src/Widgets/TouchpadSection.vala:30
+#: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
 msgstr "Touchpad"
 
-#: ../src/Widgets/TouchpadSection.vala:53
+#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
 msgid "Hardware default"
 msgstr "Προεπιλογή του υλικού"
 
-#: ../src/Widgets/TouchpadSection.vala:54
+#: src/Widgets/TouchpadSection.vala:55
 msgid "Multitouch"
 msgstr "Multitouch"
 
-#: ../src/Widgets/TouchpadSection.vala:55
+#: src/Widgets/TouchpadSection.vala:56
 msgid "Touchpad areas"
 msgstr "Περιοχές touchpad"
 
-#: ../src/Widgets/TouchpadSection.vala:69
+#: src/Widgets/TouchpadSection.vala:70
 msgid "Two-finger"
 msgstr "Με δύο δάκτυλα"
 
-#: ../src/Widgets/TouchpadSection.vala:70
+#: src/Widgets/TouchpadSection.vala:71
 msgid "Edge"
 msgstr "Στην άκρη"
 
-#: ../src/Widgets/TouchpadSection.vala:71
+#: src/Widgets/TouchpadSection.vala:72
 msgid "Disabled"
 msgstr "Απενεργοποιημένη"
 
-#: ../src/Widgets/TouchpadSection.vala:85
+#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
+msgid "Pointer speed:"
+msgstr "Ταχύτητα δείκτη:"
+
+#: src/Widgets/TouchpadSection.vala:86
 msgid "Tap to click:"
 msgstr "Άγγιγμα για κλικ:"
 
-#: ../src/Widgets/TouchpadSection.vala:87
+#: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
 msgstr "Φυσικό χτύπημα:"
 
-#: ../src/Widgets/TouchpadSection.vala:90
+#: src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
 msgstr "Κύλιση:"
+
+#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
+msgid "Natural scrolling:"
+msgstr "Φυσική κύλιση:"
+
+#: src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "Ποντίκι"
+
+#: src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:62
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "Ταχύτητα δείκτη:"
+
+#: src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "Γενικά"
+
+#: src/Widgets/GeneralSection.vala:36
+msgid "Left"
+msgstr "Αριστερά"
+
+#: src/Widgets/GeneralSection.vala:37
+msgid "Right"
+msgstr "Δεξιά"
+
+#: src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Το πάτημα του πλήκτρου control θα εμφανίσει τη θέση του δείκτη"
+
+#: src/Widgets/GeneralSection.vala:53
+msgid "Primary button:"
+msgstr "Βασικό κουμπί:"
+
+#: src/Widgets/GeneralSection.vala:55
+msgid "Reveal pointer:"
+msgstr "Εμφάνιση δείκτη:"
+
+#: src/Widgets/GeneralSection.vala:69
+msgid ""
+"Middle or three-finger clicking on an input will paste any selected text"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:71
+msgid "Middle click paste:"
+msgstr ""
