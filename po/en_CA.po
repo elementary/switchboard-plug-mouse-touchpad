@@ -8,15 +8,18 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2016-05-10 17:29+0000\n"
-"Last-Translator: Giovanni Caligaris <giovannicaligaris@gmail.com>\n"
-"Language-Team: English (Canada) <en_CA@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-03-09 00:06+0000\n"
+"Last-Translator: Shawn <syst3mfailur3@gmail.com>\n"
+"Language-Team: English (Canada) "
+"<https://weblate.elementary.io/projects/switchboard/switchboard-plug-mouse-"
+"touchpad/en_CA/>\n"
+"Language: en_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: ../src/mouse-touchpad.vala:38
 msgid "Mouse & Touchpad"
@@ -56,7 +59,7 @@ msgstr "Pressing the control key will highlight the position of the pointer"
 
 #: ../src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
-msgstr ""
+msgstr "Primary button:"
 
 #: ../src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
@@ -68,15 +71,15 @@ msgstr "Touchpad"
 
 #: ../src/Widgets/TouchpadSection.vala:53
 msgid "Hardware default"
-msgstr ""
+msgstr "Hardware default"
 
 #: ../src/Widgets/TouchpadSection.vala:54
 msgid "Multitouch"
-msgstr ""
+msgstr "Multitouch"
 
 #: ../src/Widgets/TouchpadSection.vala:55
 msgid "Touchpad areas"
-msgstr ""
+msgstr "Touchpad areas"
 
 #: ../src/Widgets/TouchpadSection.vala:69
 msgid "Two-finger"
@@ -95,8 +98,9 @@ msgid "Tap to click:"
 msgstr "Tap to click:"
 
 #: ../src/Widgets/TouchpadSection.vala:87
+#, fuzzy
 msgid "Physical clicking:"
-msgstr ""
+msgstr "Physical clicking:"
 
 #: ../src/Widgets/TouchpadSection.vala:90
 msgid "Scrolling:"
