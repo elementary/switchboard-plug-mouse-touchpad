@@ -43,8 +43,8 @@ public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
         var accel_profile_combobox = new Gtk.ComboBoxText ();
         accel_profile_combobox.hexpand = true;
         accel_profile_combobox.append ("default", _("Hardware default"));
-        accel_profile_combobox.append ("flat", _("No acceleration"));
-        accel_profile_combobox.append ("adaptive", _("Adaptive acceleration"));
+        accel_profile_combobox.append ("flat", _("None"));
+        accel_profile_combobox.append ("adaptive", _("Adaptive"));
 
         if (accel_profile_combobox.active_id == null ) {
             accel_profile_combobox.active_id = "default";
