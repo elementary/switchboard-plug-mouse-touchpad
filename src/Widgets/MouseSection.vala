@@ -59,7 +59,7 @@ public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
         attach (title_label, 0, 0, 1, 1);
         attach (new SettingLabel (_("Pointer speed:")), 0, 1, 1, 1);
         attach (pointer_speed_scale, 1, 1, 1, 1);
-        attach (new SettingLabel (_("Acceleration profile:")), 0, 2, 1, 1);
+        attach (new SettingLabel (_("Pointer acceleration:")), 0, 2, 1, 1);
         attach (accel_profile_combobox, 1, 2, 1, 1);
         attach (new SettingLabel (_("Natural scrolling:")), 0, 3, 1, 1);
         attach (natural_scrolling_switch, 1, 3, 1, 1);
