@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-18 11:11-0800\n"
+"POT-Creation-Date: 2018-03-14 16:15-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,20 +54,32 @@ msgstr ""
 msgid "Mouse"
 msgstr ""
 
-#: ../src/Widgets/MouseSection.vala:50 ../src/Widgets/TouchpadSection.vala:84
+#: ../src/Widgets/MouseSection.vala:45 ../src/Widgets/TouchpadSection.vala:54
+msgid "Hardware default"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:60 ../src/Widgets/TouchpadSection.vala:84
 msgid "Pointer speed:"
 msgstr ""
 
-#: ../src/Widgets/MouseSection.vala:52 ../src/Widgets/TouchpadSection.vala:93
+#: ../src/Widgets/MouseSection.vala:62
+msgid "Pointer acceleration:"
+msgstr ""
+
+#: ../src/Widgets/MouseSection.vala:64 ../src/Widgets/TouchpadSection.vala:93
 msgid "Natural scrolling:"
 msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
-msgstr ""
-
-#: ../src/Widgets/TouchpadSection.vala:54
-msgid "Hardware default"
 msgstr ""
 
 #: ../src/Widgets/TouchpadSection.vala:55
