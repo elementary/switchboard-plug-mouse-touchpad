@@ -22,7 +22,7 @@ namespace MouseTouchpad {
         private Backend.MouseSettings mouse_settings;
         private Backend.TouchpadSettings touchpad_settings;
 
-        private Gtk.Grid main_grid;
+        private Gtk.ScrolledWindow scrolled;
 
         private Widgets.GeneralSection general_section;
         private Widgets.MouseSection mouse_section;
@@ -49,12 +49,41 @@ namespace MouseTouchpad {
         }
 
         public override Gtk.Widget get_widget () {
-            if (main_grid == null) {
+            if (scrolled == null) {
                 load_settings ();
-                build_ui ();
+
+                general_section = new Widgets.GeneralSection (mouse_settings);
+                mouse_section = new Widgets.MouseSection (mouse_settings);
+                touchpad_section = new Widgets.TouchpadSection (touchpad_settings);
+
+                var display = Gdk.Display.get_default ();
+                if (display != null) {
+                    var manager = Gdk.Display.get_default ().get_device_manager ();
+                    manager.device_added.connect (() => {
+                        update_ui (manager);
+                    });
+
+                    manager.device_removed.connect (() => {
+                        update_ui (manager);
+                    });
+
+                    update_ui (manager);    
+                }
+
+                var main_grid = new Gtk.Grid ();
+                main_grid.margin = 12;
+                main_grid.row_spacing = 12;
+                main_grid.halign = Gtk.Align.CENTER;
+                main_grid.attach (general_section, 0, 0, 1, 1);
+                main_grid.attach (mouse_section, 0, 1, 1, 1);
+                main_grid.attach (touchpad_section, 0, 2, 1, 1);
+
+                scrolled = new Gtk.ScrolledWindow (null, null);
+                scrolled.add (main_grid);
+                scrolled.show_all ();
             }
 
-            return main_grid;
+            return scrolled;
         }
 
         public override void shown () {
@@ -74,36 +103,6 @@ namespace MouseTouchpad {
         private void load_settings () {
             mouse_settings = new Backend.MouseSettings ();
             touchpad_settings = new Backend.TouchpadSettings ();
-        }
-
-        private void build_ui () {
-            main_grid = new Gtk.Grid ();
-            main_grid.margin = 12;
-            main_grid.row_spacing = 12;
-            main_grid.halign = Gtk.Align.CENTER;
-
-            general_section = new Widgets.GeneralSection (mouse_settings);
-            mouse_section = new Widgets.MouseSection (mouse_settings);
-            touchpad_section = new Widgets.TouchpadSection (touchpad_settings);
-
-            var display = Gdk.Display.get_default ();
-            if (display != null) {
-                var manager = Gdk.Display.get_default ().get_device_manager ();
-                manager.device_added.connect (() => {
-                    update_ui (manager);
-                });
-
-                manager.device_removed.connect (() => {
-                    update_ui (manager);
-                });
-
-                update_ui (manager);    
-            }
-
-            main_grid.attach (general_section, 0, 0, 1, 1);
-            main_grid.attach (mouse_section, 0, 1, 1, 1);
-            main_grid.attach (touchpad_section, 0, 2, 1, 1);
-            main_grid.show_all ();
         }
 
         private void update_ui (Gdk.DeviceManager manager) {
