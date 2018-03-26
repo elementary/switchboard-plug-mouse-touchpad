@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-31 14:18+0100\n"
+"POT-Creation-Date: 2018-03-14 23:37+0000\n"
 "PO-Revision-Date: 2018-01-09 00:18+0000\n"
 "Last-Translator: stefan t <s.tomeij@gmail.com>\n"
-"Language-Team: Dutch <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-mouse-touchpad/nl/>\n"
+"Language-Team: Dutch <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,87 +20,113 @@ msgstr ""
 "X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
-#: ../src/mouse-touchpad.vala:38
+#: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
 msgstr "Muis en touchpad"
 
-#: ../src/mouse-touchpad.vala:39
+#: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Configureer muis en touchpad"
 
-#: ../src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "Muis"
+#: src/Widgets/TouchpadSection.vala:30
+msgid "Touchpad"
+msgstr "Touchpad"
 
-#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
+#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
+msgid "Hardware default"
+msgstr "Hardware standaardinstelling"
+
+#: src/Widgets/TouchpadSection.vala:55
+msgid "Multitouch"
+msgstr "Gebaren"
+
+#: src/Widgets/TouchpadSection.vala:56
+msgid "Touchpad areas"
+msgstr "Touchpad gebieden"
+
+#: src/Widgets/TouchpadSection.vala:70
+msgid "Two-finger"
+msgstr "Twee vingers"
+
+#: src/Widgets/TouchpadSection.vala:71
+msgid "Edge"
+msgstr "Rand"
+
+#: src/Widgets/TouchpadSection.vala:72
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
 msgid "Pointer speed:"
 msgstr "Cursorsnelheid:"
 
-#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
+#: src/Widgets/TouchpadSection.vala:86
+msgid "Tap to click:"
+msgstr "Tik om te klikken:"
+
+#: src/Widgets/TouchpadSection.vala:88
+msgid "Physical clicking:"
+msgstr "Fysiek klikken:"
+
+#: src/Widgets/TouchpadSection.vala:91
+msgid "Scrolling:"
+msgstr "Scrollen:"
+
+#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
 msgid "Natural scrolling:"
 msgstr "Natuurlijk scrollen:"
 
-#: ../src/Widgets/GeneralSection.vala:29
+#: src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "Muis"
+
+#: src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:62
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "Cursorsnelheid:"
+
+#: src/Widgets/GeneralSection.vala:28
 msgid "General"
 msgstr "Algemeen"
 
-#: ../src/Widgets/GeneralSection.vala:36
+#: src/Widgets/GeneralSection.vala:36
 msgid "Left"
 msgstr "Links"
 
-#: ../src/Widgets/GeneralSection.vala:37
+#: src/Widgets/GeneralSection.vala:37
 msgid "Right"
 msgstr "Rechts"
 
-#: ../src/Widgets/GeneralSection.vala:47
+#: src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 "Houd de Control-toets ingedrukt om de positie van de cursor te laten zien"
 
-#: ../src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
 msgstr "Primaire knop:"
 
-#: ../src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
 msgstr "Aanwijzer opsporen:"
 
-#: ../src/Widgets/TouchpadSection.vala:30
-msgid "Touchpad"
-msgstr "Touchpad"
+#: src/Widgets/GeneralSection.vala:69
+msgid ""
+"Middle or three-finger clicking on an input will paste any selected text"
+msgstr ""
 
-#: ../src/Widgets/TouchpadSection.vala:53
-msgid "Hardware default"
-msgstr "Hardware standaardinstelling"
-
-#: ../src/Widgets/TouchpadSection.vala:54
-msgid "Multitouch"
-msgstr "Gebaren"
-
-#: ../src/Widgets/TouchpadSection.vala:55
-msgid "Touchpad areas"
-msgstr "Touchpad gebieden"
-
-#: ../src/Widgets/TouchpadSection.vala:69
-msgid "Two-finger"
-msgstr "Twee vingers"
-
-#: ../src/Widgets/TouchpadSection.vala:70
-msgid "Edge"
-msgstr "Rand"
-
-#: ../src/Widgets/TouchpadSection.vala:71
-msgid "Disabled"
-msgstr "Uitgeschakeld"
-
-#: ../src/Widgets/TouchpadSection.vala:85
-msgid "Tap to click:"
-msgstr "Tik om te klikken:"
-
-#: ../src/Widgets/TouchpadSection.vala:87
-msgid "Physical clicking:"
-msgstr "Fysiek klikken:"
-
-#: ../src/Widgets/TouchpadSection.vala:90
-msgid "Scrolling:"
-msgstr "Scrollen:"
+#: src/Widgets/GeneralSection.vala:71
+msgid "Middle click paste:"
+msgstr ""

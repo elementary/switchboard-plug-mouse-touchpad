@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-31 14:18+0100\n"
+"POT-Creation-Date: 2018-03-14 23:37+0000\n"
 "PO-Revision-Date: 2016-11-02 16:53+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -18,86 +18,112 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 "X-Generator: Launchpad (build 18326)\n"
 
-#: ../src/mouse-touchpad.vala:38
+#: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
 msgstr "Miš i dodirnik"
 
-#: ../src/mouse-touchpad.vala:39
+#: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Prilagodite miš i dodirnik"
 
-#: ../src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "Miš"
-
-#: ../src/Widgets/MouseSection.vala:49 ../src/Widgets/TouchpadSection.vala:83
-msgid "Pointer speed:"
-msgstr "Brzina pokazivača:"
-
-#: ../src/Widgets/MouseSection.vala:51 ../src/Widgets/TouchpadSection.vala:92
-msgid "Natural scrolling:"
-msgstr "Prirodno pomicanje:"
-
-#: ../src/Widgets/GeneralSection.vala:29
-msgid "General"
-msgstr "Općenito"
-
-#: ../src/Widgets/GeneralSection.vala:36
-msgid "Left"
-msgstr "Lijeva"
-
-#: ../src/Widgets/GeneralSection.vala:37
-msgid "Right"
-msgstr "Desna"
-
-#: ../src/Widgets/GeneralSection.vala:47
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Prikaži položaj miša pritiskom na Ctrl"
-
-#: ../src/Widgets/GeneralSection.vala:53
-msgid "Primary button:"
-msgstr "Glavna tipka:"
-
-#: ../src/Widgets/GeneralSection.vala:55
-msgid "Reveal pointer:"
-msgstr "Otkrij pokazivač:"
-
-#: ../src/Widgets/TouchpadSection.vala:30
+#: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
 msgstr "Dodirnik"
 
-#: ../src/Widgets/TouchpadSection.vala:53
+#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
 msgid "Hardware default"
 msgstr "Zadani hardver"
 
-#: ../src/Widgets/TouchpadSection.vala:54
+#: src/Widgets/TouchpadSection.vala:55
 msgid "Multitouch"
 msgstr "Višestruki dodir"
 
-#: ../src/Widgets/TouchpadSection.vala:55
+#: src/Widgets/TouchpadSection.vala:56
 msgid "Touchpad areas"
 msgstr "Područja dodirnika"
 
-#: ../src/Widgets/TouchpadSection.vala:69
+#: src/Widgets/TouchpadSection.vala:70
 msgid "Two-finger"
 msgstr "Dva prsta"
 
-#: ../src/Widgets/TouchpadSection.vala:70
+#: src/Widgets/TouchpadSection.vala:71
 msgid "Edge"
 msgstr "Rubom"
 
-#: ../src/Widgets/TouchpadSection.vala:71
+#: src/Widgets/TouchpadSection.vala:72
 msgid "Disabled"
 msgstr "Onemogućeno"
 
-#: ../src/Widgets/TouchpadSection.vala:85
+#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
+msgid "Pointer speed:"
+msgstr "Brzina pokazivača:"
+
+#: src/Widgets/TouchpadSection.vala:86
 msgid "Tap to click:"
 msgstr "Dodir za klik:"
 
-#: ../src/Widgets/TouchpadSection.vala:87
+#: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
 msgstr "Fizički klik:"
 
-#: ../src/Widgets/TouchpadSection.vala:90
+#: src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
 msgstr "Pomicanje:"
+
+#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
+msgid "Natural scrolling:"
+msgstr "Prirodno pomicanje:"
+
+#: src/Widgets/TouchpadSection.vala:95
+msgid "Disable while typing:"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:28
+msgid "Mouse"
+msgstr "Miš"
+
+#: src/Widgets/MouseSection.vala:46
+msgid "None"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:47
+msgid "Adaptive"
+msgstr ""
+
+#: src/Widgets/MouseSection.vala:62
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "Brzina pokazivača:"
+
+#: src/Widgets/GeneralSection.vala:28
+msgid "General"
+msgstr "Općenito"
+
+#: src/Widgets/GeneralSection.vala:36
+msgid "Left"
+msgstr "Lijeva"
+
+#: src/Widgets/GeneralSection.vala:37
+msgid "Right"
+msgstr "Desna"
+
+#: src/Widgets/GeneralSection.vala:47
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Prikaži položaj miša pritiskom na Ctrl"
+
+#: src/Widgets/GeneralSection.vala:53
+msgid "Primary button:"
+msgstr "Glavna tipka:"
+
+#: src/Widgets/GeneralSection.vala:55
+msgid "Reveal pointer:"
+msgstr "Otkrij pokazivač:"
+
+#: src/Widgets/GeneralSection.vala:69
+msgid ""
+"Middle or three-finger clicking on an input will paste any selected text"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:71
+msgid "Middle click paste:"
+msgstr ""
