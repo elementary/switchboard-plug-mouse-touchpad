@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-03-28 19:59+0000\n"
+"PO-Revision-Date: 2018-03-29 00:10+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-mouse-touchpad/da/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
-msgstr "Mus & museplade"
+msgstr "Mus & Touchpad"
 
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
@@ -30,7 +30,7 @@ msgstr "Konfigurer mus og touchpad"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
-msgstr "Museplade"
+msgstr "Touchpad"
 
 #: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
 msgid "Hardware default"
@@ -66,15 +66,15 @@ msgstr "Tryk for at klikke:"
 
 #: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
-msgstr "Fysisk klikning:"
+msgstr "Fysisk klik:"
 
 #: src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
-msgstr "Rulning:"
+msgstr "Scrolling:"
 
 #: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
 msgid "Natural scrolling:"
-msgstr "Naturlig rulning:"
+msgstr "Naturlig scrolling:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
@@ -110,7 +110,7 @@ msgstr "Højre"
 
 #: src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Tryk på Ctrl-tasten vil fremhæve markørens position"
+msgstr "Ved at trykke på Ctrl-tasten fremhæves markørens position"
 
 #: src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
@@ -127,4 +127,4 @@ msgstr "Mellem- eller trefingers klik på et input vil indsætte markeret tekst"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr "Mellem klik indsæt:"
+msgstr "Mellem-klik indsæt:"
