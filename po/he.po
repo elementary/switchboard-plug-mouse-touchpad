@@ -8,120 +8,122 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-03-05 23:53+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-03-29 17:20+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-mouse-touchpad/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "עכבר ומשטח מגע"
 
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
-msgstr ""
+msgstr "הגדרת עכבר ומשטח מגע"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
-msgstr ""
+msgstr "משטח מגע"
 
 #: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
 msgid "Hardware default"
-msgstr ""
+msgstr "בררת מחדל של חומרה"
 
 #: src/Widgets/TouchpadSection.vala:55
 msgid "Multitouch"
-msgstr ""
+msgstr "ריבוי נקודות מגע"
 
 #: src/Widgets/TouchpadSection.vala:56
 msgid "Touchpad areas"
-msgstr ""
+msgstr "אזורים במשטח המגע"
 
 #: src/Widgets/TouchpadSection.vala:70
 msgid "Two-finger"
-msgstr ""
+msgstr "שתי אצבעות"
 
 #: src/Widgets/TouchpadSection.vala:71
 msgid "Edge"
-msgstr ""
+msgstr "קצה"
 
 #: src/Widgets/TouchpadSection.vala:72
 msgid "Disabled"
-msgstr ""
+msgstr "מושבת"
 
 #: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
 msgid "Pointer speed:"
-msgstr ""
+msgstr "מהירות הסמן:"
 
 #: src/Widgets/TouchpadSection.vala:86
 msgid "Tap to click:"
-msgstr ""
+msgstr "נגיעה לצורך לחיצה:"
 
 #: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
-msgstr ""
+msgstr "לחיצה פיזית:"
 
 #: src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
-msgstr ""
+msgstr "גלילה:"
 
 #: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
 msgid "Natural scrolling:"
-msgstr ""
+msgstr "גלילה טבעית:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "השבתה בעת הקלדה:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
-msgstr ""
+msgstr "עכבר"
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
-msgstr ""
+msgstr "ללא"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "מסתגל"
 
 #: src/Widgets/MouseSection.vala:62
 msgid "Pointer acceleration:"
-msgstr ""
+msgstr "האצת סמן:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
-msgstr ""
+msgstr "כללי"
 
 #: src/Widgets/GeneralSection.vala:36
 msgid "Left"
-msgstr ""
+msgstr "שמאלי"
 
 #: src/Widgets/GeneralSection.vala:37
 msgid "Right"
-msgstr ""
+msgstr "ימני"
 
 #: src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr ""
+msgstr "לחיצה על המקש Ctrl תדגיש את מיקום הסמן"
 
 #: src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
-msgstr ""
+msgstr "כפתור עיקרי:"
 
 #: src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
-msgstr ""
+msgstr "חשיפת הסמן:"
 
 #: src/Widgets/GeneralSection.vala:69
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
-msgstr ""
+msgstr "לחיצה אמצעית או עם שלוש אצבעות על שדה קלט תדביק טקסט כלשהו שנבחר"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "הדבקה עם סמן אמצעי:"
