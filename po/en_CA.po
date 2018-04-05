@@ -8,10 +8,11 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-10-31 14:18+0100\n"
-"PO-Revision-Date: 2018-03-22 13:41+0000\n"
+"PO-Revision-Date: 2018-04-05 14:35+0000\n"
 "Last-Translator: Shawn <syst3mfailur3@gmail.com>\n"
-"Language-Team: English (Canada) <https://weblate.elementary.io/projects/"
-"switchboard/switchboard-plug-mouse-touchpad/en_CA/>\n"
+"Language-Team: English (Canada) "
+"<https://weblate.elementary.io/projects/switchboard/switchboard-plug-mouse-"
+"touchpad/en_CA/>\n"
 "Language: en_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +66,6 @@ msgid "Tap to click:"
 msgstr "Tap to click:"
 
 #: src/Widgets/TouchpadSection.vala:88
-#, fuzzy
 msgid "Physical clicking:"
 msgstr "Physical clicking:"
 
@@ -79,7 +79,7 @@ msgstr "Natural scrolling:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "Disable while typing:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -87,16 +87,15 @@ msgstr "Mouse"
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Adaptive"
 
 #: src/Widgets/MouseSection.vala:62
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "Pointer speed:"
+msgstr "Pointer acceleration:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -126,7 +125,8 @@ msgstr "Reveal pointer:"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"Middle or three-finger clicking on an input will paste any selected text"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "Middle click paste:"
