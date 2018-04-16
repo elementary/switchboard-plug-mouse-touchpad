@@ -43,13 +43,11 @@ namespace MouseTouchpad {
                     supported_settings: settings);
         }
 
-        construct {
-            end_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
-            start_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
-        }
-
         public override Gtk.Widget get_widget () {
             if (scrolled == null) {
+                end_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+                start_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+
                 load_settings ();
 
                 general_section = new Widgets.GeneralSection (mouse_settings);
