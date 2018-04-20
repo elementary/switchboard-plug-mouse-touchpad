@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-03-29 17:20+0000\n"
+"PO-Revision-Date: 2018-04-21 00:11+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-mouse-touchpad/he/>\n"
@@ -53,7 +53,7 @@ msgstr "קצה"
 
 #: src/Widgets/TouchpadSection.vala:72
 msgid "Disabled"
-msgstr "מושבת"
+msgstr "מושבתת"
 
 #: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
 msgid "Pointer speed:"
