@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-04-25 10:32+0000\n"
+"PO-Revision-Date: 2018-04-26 00:03+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-mouse-touchpad/cs/>\n"
@@ -62,7 +62,7 @@ msgstr "Rychlost kurzoru:"
 
 #: src/Widgets/TouchpadSection.vala:86
 msgid "Tap to click:"
-msgstr "Ťuknout pro kliknutí:"
+msgstr "Kliknutí klepnutím:"
 
 #: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
@@ -78,7 +78,7 @@ msgstr "Přirozené posouvání:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr "Vypnout v průběhu psaní:"
+msgstr "Deaktivovat při psaní:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -110,7 +110,7 @@ msgstr "Pravé"
 
 #: src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Stisknutí klávesy Control (CTRL) zvýrazní kurzor"
+msgstr "Stisknutí klávesy Control zvýrazní pozici ukazatele"
 
 #: src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
