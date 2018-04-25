@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2017-05-17 21:38+0000\n"
+"PO-Revision-Date: 2018-04-25 10:32+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
-"Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-mouse-touchpad/cs/>\n"
+"Language-Team: Czech <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-mouse-touchpad/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.13-dev\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/mouse-touchpad.vala:40
@@ -78,7 +78,7 @@ msgstr "Přirozené posouvání:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "Vypnout v průběhu psaní:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -86,16 +86,15 @@ msgstr "Myš"
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
-msgstr ""
+msgstr "Žádný"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Adaptivní"
 
 #: src/Widgets/MouseSection.vala:62
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "Rychlost kurzoru:"
+msgstr "Zrychlení kurzoru:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -125,7 +124,9 @@ msgstr "Zvýraznit kurzor:"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"Kliknutí prostředním tlačítkem nebo třemi prsty na vstup vloží jakýkoli "
+"vybraný text"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "Vkládání prostředním tlačítkem:"
