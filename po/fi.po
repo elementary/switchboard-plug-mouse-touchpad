@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2016-11-02 11:26+0000\n"
-"Last-Translator: Jiri Grönroos <Unknown>\n"
-"Language-Team: Finnish <fi@li.org>\n"
+"PO-Revision-Date: 2018-05-01 16:59+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-mouse-touchpad/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
@@ -76,7 +78,7 @@ msgstr "Luonnollinen vieritys:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "Poista käytöstä kirjoittaessa:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -84,16 +86,15 @@ msgstr "Hiiri"
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
-msgstr ""
+msgstr "Ei mitään"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Sopeutuva"
 
 #: src/Widgets/MouseSection.vala:62
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "Osoittimen nopeus:"
+msgstr "Osoittimen kiihtyvyys:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -123,7 +124,9 @@ msgstr "Korosta osoitin:"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"Keskimmäisen tai kolmen sormen napsautus syötekentässä liittää minkä tahansa "
+"valitun tekstin"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "Liittäminen keskimmäistä napsauttamalla:"
