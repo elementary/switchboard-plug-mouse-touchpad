@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-05-01 16:59+0000\n"
+"PO-Revision-Date: 2018-05-04 00:06+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-mouse-touchpad/fi/>\n"
@@ -54,7 +54,7 @@ msgstr "Reuna"
 
 #: src/Widgets/TouchpadSection.vala:72
 msgid "Disabled"
-msgstr "Ei käytössä"
+msgstr "Pois käytöstä"
 
 #: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
 msgid "Pointer speed:"
