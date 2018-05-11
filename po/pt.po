@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2016-12-31 00:06+0000\n"
-"Last-Translator: Pedro Monteiro <Unknown>\n"
-"Language-Team: Portuguese <pt@li.org>\n"
+"PO-Revision-Date: 2018-05-11 11:37+0000\n"
+"Last-Translator: Pedro Ferreira <pmaf.ferreira@gmail.com>\n"
+"Language-Team: Portuguese <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-mouse-touchpad/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
@@ -76,7 +78,7 @@ msgstr "Deslocação natural:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "Desativar ao escrever:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -84,16 +86,15 @@ msgstr "Rato"
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
-msgstr ""
+msgstr "Nenhuma"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Adaptativo"
 
 #: src/Widgets/MouseSection.vala:62
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "Velocidade do ponteiro:"
+msgstr "Aceleração do ponteiro:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -123,7 +124,9 @@ msgstr "Revelar ponteiro"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"Clique com botão do meio ou três dedos numa entrada irá colar qualquer texto "
+"selecionado"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "Colar com botão do meio:"
