@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-05-11 11:37+0000\n"
+"PO-Revision-Date: 2018-05-12 00:11+0000\n"
 "Last-Translator: Pedro Ferreira <pmaf.ferreira@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-mouse-touchpad/pt/>\n"
@@ -118,7 +118,7 @@ msgstr "Botão primário:"
 
 #: src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
-msgstr "Revelar ponteiro"
+msgstr "Revelar ponteiro:"
 
 #: src/Widgets/GeneralSection.vala:69
 msgid ""
