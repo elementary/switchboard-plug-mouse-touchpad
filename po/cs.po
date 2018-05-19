@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-05-11 00:06+0000\n"
+"PO-Revision-Date: 2018-05-20 00:04+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-mouse-touchpad/cs/>\n"
@@ -102,11 +102,11 @@ msgstr "Obecné"
 
 #: src/Widgets/GeneralSection.vala:36
 msgid "Left"
-msgstr "Levé"
+msgstr "Levý"
 
 #: src/Widgets/GeneralSection.vala:37
 msgid "Right"
-msgstr "Pravé"
+msgstr "Pravý"
 
 #: src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
