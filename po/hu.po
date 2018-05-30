@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-05-30 00:04+0000\n"
+"PO-Revision-Date: 2018-05-30 11:35+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-mouse-touchpad/hu/>\n"
@@ -22,67 +22,67 @@ msgstr ""
 
 #: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
-msgstr ""
+msgstr "Egér és touchpad"
 
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
-msgstr ""
+msgstr "Egér és touchpad beállítása"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
-msgstr ""
+msgstr "Touchpad"
 
 #: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
 msgid "Hardware default"
-msgstr ""
+msgstr "Alapértelmezett hardver"
 
 #: src/Widgets/TouchpadSection.vala:55
 msgid "Multitouch"
-msgstr ""
+msgstr "Multi-touch"
 
 #: src/Widgets/TouchpadSection.vala:56
 msgid "Touchpad areas"
-msgstr ""
+msgstr "Touchpad területek"
 
 #: src/Widgets/TouchpadSection.vala:70
 msgid "Two-finger"
-msgstr ""
+msgstr "Két ujjal"
 
 #: src/Widgets/TouchpadSection.vala:71
 msgid "Edge"
-msgstr ""
+msgstr "Szélen"
 
 #: src/Widgets/TouchpadSection.vala:72
 msgid "Disabled"
-msgstr ""
+msgstr "Letiltva"
 
 #: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
 msgid "Pointer speed:"
-msgstr ""
+msgstr "Mutató sebessége:"
 
 #: src/Widgets/TouchpadSection.vala:86
 msgid "Tap to click:"
-msgstr ""
+msgstr "Koppintás a kattintáshoz:"
 
 #: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
-msgstr ""
+msgstr "Fizikai kattintás:"
 
 #: src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
-msgstr ""
+msgstr "Görgetés:"
 
 #: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
 msgid "Natural scrolling:"
-msgstr ""
+msgstr "Természetes görgetés:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "Kikapcsolás gépelés közben:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
-msgstr ""
+msgstr "Egér"
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
@@ -90,41 +90,43 @@ msgstr "Nincs"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Adaptív"
 
 #: src/Widgets/MouseSection.vala:62
 msgid "Pointer acceleration:"
-msgstr ""
+msgstr "Mutató gyorsítása:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
-msgstr ""
+msgstr "Általános"
 
 #: src/Widgets/GeneralSection.vala:36
 msgid "Left"
-msgstr ""
+msgstr "Bal"
 
 #: src/Widgets/GeneralSection.vala:37
 msgid "Right"
-msgstr ""
+msgstr "Jobb"
 
 #: src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr ""
+msgstr "A control billentyű megnyomása kiemeli a mutató helyét"
 
 #: src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
-msgstr ""
+msgstr "Elsődleges gomb:"
 
 #: src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
-msgstr ""
+msgstr "Mutató kiemelése:"
 
 #: src/Widgets/GeneralSection.vala:69
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"A középső gombos vagy háromujjas kattintás egy beviteli mezőben, beilleszti "
+"a kijelölt szöveget"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "Középső gombos beillesztés:"
