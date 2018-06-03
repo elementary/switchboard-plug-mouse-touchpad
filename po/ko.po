@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-06-03 07:05+0000\n"
+"PO-Revision-Date: 2018-06-04 00:09+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-mouse-touchpad/ko/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
-msgstr "마우스와 터치패드"
+msgstr "마우스 & 터치패드"
 
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
