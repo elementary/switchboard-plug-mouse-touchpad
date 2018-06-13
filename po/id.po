@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-06-13 00:07+0000\n"
+"PO-Revision-Date: 2018-06-14 00:09+0000\n"
 "Last-Translator: Eri Hidayat <eriwhidayat@gmail.com>\n"
 "Language-Team: Indonesian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-mouse-touchpad/id/>\n"
@@ -101,11 +101,11 @@ msgstr ""
 
 #: src/Widgets/GeneralSection.vala:36
 msgid "Left"
-msgstr ""
+msgstr "Kiri"
 
 #: src/Widgets/GeneralSection.vala:37
 msgid "Right"
-msgstr ""
+msgstr "Kanan"
 
 #: src/Widgets/GeneralSection.vala:47
 msgid "Pressing the control key will highlight the position of the pointer"
