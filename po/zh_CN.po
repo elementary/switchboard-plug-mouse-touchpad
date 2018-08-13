@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2017-07-04 07:53+0000\n"
+"PO-Revision-Date: 2018-08-13 00:03+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
-"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
-"switchboard/switchboard-plug-mouse-touchpad/zh_CN/>\n"
+"Language-Team: Chinese (Simplified) <https://weblate.elementary.io/projects/"
+"switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.14\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/mouse-touchpad.vala:40
@@ -78,7 +78,7 @@ msgstr "自然滚动："
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "输入时禁用："
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -86,11 +86,11 @@ msgstr "鼠标："
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "自适应的"
 
 #: src/Widgets/MouseSection.vala:62
 #, fuzzy
@@ -124,8 +124,8 @@ msgstr "显示指针："
 #: src/Widgets/GeneralSection.vala:69
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
-msgstr ""
+msgstr "中键或三指点击将会粘贴选中文本"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "中键粘贴："
