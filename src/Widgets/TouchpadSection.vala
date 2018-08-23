@@ -105,21 +105,37 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
             }
         });
 
+        var glib_settings = new GLib.Settings ("org.gnome.desktop.peripherals.touchpad");
+
+        if (!glib_settings.get_boolean ("edge-scrolling-enabled") && !glib_settings.get_boolean ("two-finger-scrolling-enabled")) {
+            scrolling_combobox.active_id = "disabled";
+        } else if (glib_settings.get_boolean ("two-finger-scrolling-enabled")) {
+            scrolling_combobox.active_id = "two-finger-scrolling";
+        } else {
+            scrolling_combobox.active_id = "edge-scrolling";
+        }
+
         scrolling_combobox.changed.connect (() => {
             string active_text = scrolling_combobox.get_active_id ();
-            if (active_text == "disabled") {
-                horizontal_scrolling_switch.sensitive = false;
-                natural_scrolling_switch.sensitive = false;
-            } else {
-                horizontal_scrolling_switch.sensitive = true;
-                natural_scrolling_switch.sensitive = true;
-            }
-        });
 
-        touchpad_settings.bind_property ("scroll-method",
-                                         scrolling_combobox,
-                                         "active-id",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+            switch (active_text) {
+                case "disabled":
+                    glib_settings.set_boolean ("edge-scrolling-enabled", false);
+                    glib_settings.set_boolean ("two-finger-scrolling-enabled", false);
+                    break;
+                case "two-finger-scrolling":
+                    glib_settings.set_boolean ("edge-scrolling-enabled", false);
+                    glib_settings.set_boolean ("two-finger-scrolling-enabled", true);
+                    break;
+                case "edge-scrolling":
+                    glib_settings.set_boolean ("edge-scrolling-enabled", true);
+                    glib_settings.set_boolean ("two-finger-scrolling-enabled", false);
+                    break;
+            }
+
+            horizontal_scrolling_switch.sensitive = active_text != "disabled";
+            natural_scrolling_switch.sensitive = active_text != "disabled";
+        });
 
         touchpad_settings.bind_property ("tap-to-click",
                                          tap_to_click_switch,
