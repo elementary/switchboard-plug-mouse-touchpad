@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
 "PO-Revision-Date: 2018-08-29 16:25+0000\n"
-"Last-Translator: Israel Felipe de Lima Araújo S <israelita.felipe@gmail.com>"
-"\n"
+"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -94,9 +93,8 @@ msgid "Adaptive"
 msgstr "Adaptável"
 
 #: src/Widgets/MouseSection.vala:62
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "Velocidade do cursor:"
+msgstr "Aceleração do cursor:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
