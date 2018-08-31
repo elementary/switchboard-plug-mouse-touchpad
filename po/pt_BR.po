@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-08-29 16:25+0000\n"
+"PO-Revision-Date: 2018-09-01 00:08+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt_BR/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
-msgstr "Mouse e touchpad"
+msgstr "Mouse e Touchpad"
 
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
