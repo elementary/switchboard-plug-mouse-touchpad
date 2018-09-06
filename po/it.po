@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-09-06 00:09+0000\n"
+"PO-Revision-Date: 2018-09-06 04:35+0000\n"
 "Last-Translator: strozzascotte <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/it/>\n"
@@ -78,7 +78,7 @@ msgstr "Scorrimento naturale:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "Disattivare mentre si sta digitando:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -90,12 +90,11 @@ msgstr "Nessuna"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Adattativo"
 
 #: src/Widgets/MouseSection.vala:62
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "Velocità del puntatore:"
+msgstr "Accelerazione del puntatore:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -125,7 +124,8 @@ msgstr "Rivela puntatore:"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"Un clic centrale o con tre dita su di un campo incollerà il testo selezionato"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "Incollare con un clic centrale:"
