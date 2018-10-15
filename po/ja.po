@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:20-0500\n"
-"PO-Revision-Date: 2018-07-02 00:07+0000\n"
+"PO-Revision-Date: 2018-10-15 21:51+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -29,49 +29,40 @@ msgid "Configure mouse and touchpad"
 msgstr "マウスとタッチパッドの設定をします"
 
 #: src/mouse-touchpad.vala:99
-#, fuzzy
 msgid "Primary button"
-msgstr "主ボタン:"
+msgstr "主ボタン"
 
 #: src/mouse-touchpad.vala:100
-#, fuzzy
 msgid "Reveal pointer"
-msgstr "ポインターのハイライト:"
+msgstr "ポインターのハイライト"
 
 #: src/mouse-touchpad.vala:101
-#, fuzzy
 msgid "Middle click paste"
-msgstr "中クリックで貼り付け:"
+msgstr "中クリックで貼り付け"
 
 #: src/mouse-touchpad.vala:102
-#, fuzzy
 msgid "Pointer speed"
-msgstr "ポインターの速度:"
+msgstr "ポインターの速度"
 
 #: src/mouse-touchpad.vala:103
-#, fuzzy
 msgid "Tap to click"
-msgstr "タップでクリック動作:"
+msgstr "タップでクリック動作"
 
 #: src/mouse-touchpad.vala:104
-#, fuzzy
 msgid "Physical clicking"
-msgstr "物理クリックポタン:"
+msgstr "物理クリックポタン"
 
 #: src/mouse-touchpad.vala:105
-#, fuzzy
 msgid "Scrolling"
-msgstr "スクロール:"
+msgstr "スクロール"
 
 #: src/mouse-touchpad.vala:106
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "スクロールを逆にする:"
+msgstr "スクロールを逆にする"
 
 #: src/mouse-touchpad.vala:107
-#, fuzzy
 msgid "Disable while typing"
-msgstr "タイピング中は無効にする:"
+msgstr "タイピング中は無効にする"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
