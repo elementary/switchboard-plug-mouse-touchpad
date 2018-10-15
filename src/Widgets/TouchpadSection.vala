@@ -21,17 +21,26 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
     private Gtk.Switch click_method_switch;
 
     public Backend.TouchpadSettings touchpad_settings { get; construct; }
+    public Backend.TouchpadGestures touchpad_gestures;
 
     public TouchpadSection (Backend.TouchpadSettings touchpad_settings) {
         Object (touchpad_settings: touchpad_settings);
     }
 
     construct {
+        touchpad_gestures = new Backend.TouchpadGestures ();
+
         var title_label = new Gtk.Label (_("Touchpad"));
         title_label.xalign = 0;
         title_label.hexpand = true;
         title_label.get_style_context ().add_class ("h4");
         Plug.start_size_group.add_widget (title_label);
+
+        var gestures_label = new Gtk.Label (_("Touchpad Gestures"));
+        gestures_label.xalign = 0;
+        gestures_label.hexpand = true;
+        gestures_label.get_style_context ().add_class ("h4");
+        Plug.start_size_group.add_widget (gestures_label);
 
         var disable_while_typing_switch = new Gtk.Switch ();
         disable_while_typing_switch.halign = Gtk.Align.START;
@@ -77,6 +86,42 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         var natural_scrolling_switch = new Gtk.Switch ();
         natural_scrolling_switch.halign = Gtk.Align.START;
 
+
+        var enable_gestures = new Gtk.Switch ();
+        enable_gestures.halign = Gtk.Align.START;
+
+        var swipe_right = new Gtk.ComboBoxText ();
+        swipe_right.append ("super+Left", _("⌘+Left"));
+        swipe_right.append ("super+Right", _("⌘+Right"));
+
+        if (swipe_right.active_id == null ) {
+            swipe_right.active_id = touchpad_gestures.getCurrentCommand("swipe right");
+        }
+
+        var swipe_left = new Gtk.ComboBoxText ();
+        swipe_right.append ("super+Right", _("⌘+Right"));
+        swipe_right.append ("super+Left", _("⌘+Left"));
+
+        if (swipe_left.active_id == null ) {
+            swipe_left.active_id = touchpad_gestures.getCurrentCommand("swipe left");
+        }
+
+        var swipe_up = new Gtk.ComboBoxText ();
+        swipe_up.append ("super+Down", _("⌘+Down"));
+        swipe_up.append ("super+Up", _("⌘+Up"));
+
+        if (swipe_up.active_id == null ) {
+            swipe_up.active_id = touchpad_gestures.getCurrentCommand("swipe up");
+        }
+
+        var swipe_down = new Gtk.ComboBoxText ();
+        swipe_up.append ("super+Up", _("⌘+Up"));
+        swipe_up.append ("super+Down", _("⌘+Down"));
+
+        if (swipe_down.active_id == null ) {
+            swipe_down.active_id = touchpad_gestures.getCurrentCommand("swipe down");
+        }
+
         row_spacing = 12;
         column_spacing = 12;
 
@@ -94,6 +139,17 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         attach (natural_scrolling_switch, 1, 5, 1, 1);
         attach (new SettingLabel (_("Disable while typing:")), 0, 6, 1, 1);
         attach (disable_while_typing_switch, 1, 6, 1, 1);
+        attach (gestures_label, 0, 7, 1, 1);
+        attach (new SettingLabel (_("Enable Gestures:")), 0, 8, 1, 1);
+        attach (enable_gestures, 1, 8, 1, 1);
+        attach (new SettingLabel (_("Swipe Right:")), 0, 9, 1, 1);
+        attach (swipe_right, 1, 9, 1, 1);
+        attach (new SettingLabel (_("Swipe Left:")), 0, 10, 1, 1);
+        attach (swipe_left, 1, 10, 1, 1);
+        attach (new SettingLabel (_("Swipe Up:")), 0, 11, 1, 1);
+        attach (swipe_up, 1, 11, 1, 1);
+        attach (new SettingLabel (_("Swipe Down:")), 0, 12, 1, 1);
+        attach (swipe_down, 1, 12, 1, 1);
 
         click_method_switch.bind_property ("active", click_method_combobox, "sensitive", BindingFlags.SYNC_CREATE);
 
@@ -136,6 +192,35 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
             horizontal_scrolling_switch.sensitive = active_text != "disabled";
             natural_scrolling_switch.sensitive = active_text != "disabled";
         });
+
+        enable_gestures.notify["active"].connect (() => {
+            if (enable_gestures.active) {
+                touchpad_gestures.enableGestures ();
+            } else {
+                touchpad_gestures.disableGestures ();
+            }
+        });
+
+        swipe_right.changed.connect (() => {
+            string active_text = swipe_right.get_active_id ();
+            touchpad_gestures.changeSwipeGesture(active_text, "swipe right");
+        });
+
+        swipe_left.changed.connect (() => {
+            string active_text = swipe_left.get_active_id ();
+            touchpad_gestures.changeSwipeGesture(active_text, "swipe left");
+        });
+
+        swipe_up.changed.connect (() => {
+            string active_text = swipe_up.get_active_id ();
+            touchpad_gestures.changeSwipeGesture(active_text, "swipe up");
+        });
+
+        swipe_down.changed.connect (() => {
+            string active_text = swipe_down.get_active_id ();
+            touchpad_gestures.changeSwipeGesture(active_text, "swipe down");
+        });
+
 
         touchpad_settings.bind_property ("tap-to-click",
                                          tap_to_click_switch,
@@ -180,4 +265,5 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
 
         return true;
     }
+
 }
