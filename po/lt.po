@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:03-0700\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
 "PO-Revision-Date: 2018-09-19 00:09+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/"
@@ -28,6 +28,51 @@ msgstr "Pelė ir jutiklinis kilimėlis"
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Konfigūruoti pelę ir jutiklinį kilimėlį"
+
+#: src/mouse-touchpad.vala:99
+#, fuzzy
+msgid "Primary button"
+msgstr "Pirminis mygtukas:"
+
+#: src/mouse-touchpad.vala:100
+#, fuzzy
+msgid "Reveal pointer"
+msgstr "Parodyti rodyklę:"
+
+#: src/mouse-touchpad.vala:101
+#, fuzzy
+msgid "Middle click paste"
+msgstr "Įdėti, spustelėjus vidurinį mygtuką:"
+
+#: src/mouse-touchpad.vala:102
+#, fuzzy
+msgid "Pointer speed"
+msgstr "Rodyklės greitis:"
+
+#: src/mouse-touchpad.vala:103
+#, fuzzy
+msgid "Tap to click"
+msgstr "Bakstelėti, norint spustelėti:"
+
+#: src/mouse-touchpad.vala:104
+#, fuzzy
+msgid "Physical clicking"
+msgstr "Fizinis spustelėjimas:"
+
+#: src/mouse-touchpad.vala:105
+#, fuzzy
+msgid "Scrolling"
+msgstr "Slinkimas:"
+
+#: src/mouse-touchpad.vala:106
+#, fuzzy
+msgid "Natural scrolling"
+msgstr "Natūralus slinkimas:"
+
+#: src/mouse-touchpad.vala:107
+#, fuzzy
+msgid "Disable while typing"
+msgstr "Išjungti, renkant tekstą:"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"

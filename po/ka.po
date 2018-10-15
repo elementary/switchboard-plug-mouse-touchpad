@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:03-0700\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
 "PO-Revision-Date: 2018-02-11 00:08+0000\n"
 "Last-Translator: Lasha-Giorgi Esebua <lashagiorgiesebua@gmail.com>\n"
 "Language-Team: Georgian <https://weblate.elementary.io/projects/switchboard/"
@@ -26,6 +26,47 @@ msgstr "მაუსი & თაჩპედი"
 
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
+msgstr ""
+
+#: src/mouse-touchpad.vala:99
+msgid "Primary button"
+msgstr ""
+
+#: src/mouse-touchpad.vala:100
+#, fuzzy
+msgid "Reveal pointer"
+msgstr "ისრის ნახვება:"
+
+#: src/mouse-touchpad.vala:101
+msgid "Middle click paste"
+msgstr ""
+
+#: src/mouse-touchpad.vala:102
+#, fuzzy
+msgid "Pointer speed"
+msgstr "ისრის სიჩქარე:"
+
+#: src/mouse-touchpad.vala:103
+#, fuzzy
+msgid "Tap to click"
+msgstr "დაკვრა დასაწკაპუნებლად:"
+
+#: src/mouse-touchpad.vala:104
+msgid "Physical clicking"
+msgstr ""
+
+#: src/mouse-touchpad.vala:105
+#, fuzzy
+msgid "Scrolling"
+msgstr "სკროლინგი:"
+
+#: src/mouse-touchpad.vala:106
+#, fuzzy
+msgid "Natural scrolling"
+msgstr "ჩვეულებრივი სკროლინგი:"
+
+#: src/mouse-touchpad.vala:107
+msgid "Disable while typing"
 msgstr ""
 
 #: src/Widgets/TouchpadSection.vala:30

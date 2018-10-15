@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:03-0700\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
 "PO-Revision-Date: 2018-10-07 00:09+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
@@ -27,6 +27,51 @@ msgstr "Mouse e Touchpad"
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Configurar o mouse e o touchpad"
+
+#: src/mouse-touchpad.vala:99
+#, fuzzy
+msgid "Primary button"
+msgstr "Botão principal:"
+
+#: src/mouse-touchpad.vala:100
+#, fuzzy
+msgid "Reveal pointer"
+msgstr "Revelar o cursor:"
+
+#: src/mouse-touchpad.vala:101
+#, fuzzy
+msgid "Middle click paste"
+msgstr "Colagem de clique do meio:"
+
+#: src/mouse-touchpad.vala:102
+#, fuzzy
+msgid "Pointer speed"
+msgstr "Velocidade do cursor:"
+
+#: src/mouse-touchpad.vala:103
+#, fuzzy
+msgid "Tap to click"
+msgstr "Toque para clicar:"
+
+#: src/mouse-touchpad.vala:104
+#, fuzzy
+msgid "Physical clicking"
+msgstr "Clique físico:"
+
+#: src/mouse-touchpad.vala:105
+#, fuzzy
+msgid "Scrolling"
+msgstr "Rolagem:"
+
+#: src/mouse-touchpad.vala:106
+#, fuzzy
+msgid "Natural scrolling"
+msgstr "Rolagem natural:"
+
+#: src/mouse-touchpad.vala:107
+#, fuzzy
+msgid "Disable while typing"
+msgstr "Desativar enquanto digitar:"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"

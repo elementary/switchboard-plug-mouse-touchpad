@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:03-0700\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
 "PO-Revision-Date: 2016-02-23 20:47+0000\n"
 "Last-Translator: momit rahman <momitrahman@gmail.com>\n"
 "Language-Team: Bengali <bn@li.org>\n"
@@ -24,6 +24,47 @@ msgstr "মাউস ও টাচপ্যাড"
 
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
+msgstr ""
+
+#: src/mouse-touchpad.vala:99
+msgid "Primary button"
+msgstr ""
+
+#: src/mouse-touchpad.vala:100
+#, fuzzy
+msgid "Reveal pointer"
+msgstr "মাউসের পইন্টার দেখানঃ"
+
+#: src/mouse-touchpad.vala:101
+msgid "Middle click paste"
+msgstr ""
+
+#: src/mouse-touchpad.vala:102
+#, fuzzy
+msgid "Pointer speed"
+msgstr "পয়েন্টারের গতি:"
+
+#: src/mouse-touchpad.vala:103
+#, fuzzy
+msgid "Tap to click"
+msgstr "ক্লিক করতে টোকা দেনঃ"
+
+#: src/mouse-touchpad.vala:104
+msgid "Physical clicking"
+msgstr ""
+
+#: src/mouse-touchpad.vala:105
+#, fuzzy
+msgid "Scrolling"
+msgstr "উপরে নিচে করাঃ"
+
+#: src/mouse-touchpad.vala:106
+#, fuzzy
+msgid "Natural scrolling"
+msgstr "সাধারন ভাবে উপরে নিচে নেওয়াঃ"
+
+#: src/mouse-touchpad.vala:107
+msgid "Disable while typing"
 msgstr ""
 
 #: src/Widgets/TouchpadSection.vala:30

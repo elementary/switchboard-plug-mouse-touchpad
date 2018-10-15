@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:03-0700\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
 "PO-Revision-Date: 2018-05-08 17:10+0000\n"
 "Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
 "Language-Team: Russian <https://weblate.elementary.io/projects/switchboard/"
@@ -28,6 +28,51 @@ msgstr "Мышь и сенсорная панель"
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Настройка клавиатуры и тачпада"
+
+#: src/mouse-touchpad.vala:99
+#, fuzzy
+msgid "Primary button"
+msgstr "Основная клавиша:"
+
+#: src/mouse-touchpad.vala:100
+#, fuzzy
+msgid "Reveal pointer"
+msgstr "Выделять указатель:"
+
+#: src/mouse-touchpad.vala:101
+#, fuzzy
+msgid "Middle click paste"
+msgstr "Вставка средней клавишей:"
+
+#: src/mouse-touchpad.vala:102
+#, fuzzy
+msgid "Pointer speed"
+msgstr "Скорость указателя:"
+
+#: src/mouse-touchpad.vala:103
+#, fuzzy
+msgid "Tap to click"
+msgstr "Клик по касанию:"
+
+#: src/mouse-touchpad.vala:104
+#, fuzzy
+msgid "Physical clicking"
+msgstr "Метод физических нажатий:"
+
+#: src/mouse-touchpad.vala:105
+#, fuzzy
+msgid "Scrolling"
+msgstr "Прокрутка:"
+
+#: src/mouse-touchpad.vala:106
+#, fuzzy
+msgid "Natural scrolling"
+msgstr "Естественная прокрутка:"
+
+#: src/mouse-touchpad.vala:107
+#, fuzzy
+msgid "Disable while typing"
+msgstr "Отключить во время печати:"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"

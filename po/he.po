@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:03-0700\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
 "PO-Revision-Date: 2018-04-21 00:11+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
@@ -26,6 +26,51 @@ msgstr "עכבר ומשטח מגע"
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "הגדרת עכבר ומשטח מגע"
+
+#: src/mouse-touchpad.vala:99
+#, fuzzy
+msgid "Primary button"
+msgstr "כפתור עיקרי:"
+
+#: src/mouse-touchpad.vala:100
+#, fuzzy
+msgid "Reveal pointer"
+msgstr "חשיפת הסמן:"
+
+#: src/mouse-touchpad.vala:101
+#, fuzzy
+msgid "Middle click paste"
+msgstr "הדבקה עם סמן אמצעי:"
+
+#: src/mouse-touchpad.vala:102
+#, fuzzy
+msgid "Pointer speed"
+msgstr "מהירות הסמן:"
+
+#: src/mouse-touchpad.vala:103
+#, fuzzy
+msgid "Tap to click"
+msgstr "נגיעה לצורך לחיצה:"
+
+#: src/mouse-touchpad.vala:104
+#, fuzzy
+msgid "Physical clicking"
+msgstr "לחיצה פיזית:"
+
+#: src/mouse-touchpad.vala:105
+#, fuzzy
+msgid "Scrolling"
+msgstr "גלילה:"
+
+#: src/mouse-touchpad.vala:106
+#, fuzzy
+msgid "Natural scrolling"
+msgstr "גלילה טבעית:"
+
+#: src/mouse-touchpad.vala:107
+#, fuzzy
+msgid "Disable while typing"
+msgstr "השבתה בעת הקלדה:"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"

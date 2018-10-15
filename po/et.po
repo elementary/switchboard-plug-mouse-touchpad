@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:03-0700\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
 "PO-Revision-Date: 2016-06-20 22:28+0000\n"
 "Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -25,6 +25,48 @@ msgstr "Hiir ja puutepadi"
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Hiire ja puuteplaadi seadistamine"
+
+#: src/mouse-touchpad.vala:99
+msgid "Primary button"
+msgstr ""
+
+#: src/mouse-touchpad.vala:100
+#, fuzzy
+msgid "Reveal pointer"
+msgstr "Kursori esiletoomine:"
+
+#: src/mouse-touchpad.vala:101
+msgid "Middle click paste"
+msgstr ""
+
+#: src/mouse-touchpad.vala:102
+#, fuzzy
+msgid "Pointer speed"
+msgstr "Kursori kiirus:"
+
+#: src/mouse-touchpad.vala:103
+#, fuzzy
+msgid "Tap to click"
+msgstr "Koputamisel klõpsu tegemine:"
+
+#: src/mouse-touchpad.vala:104
+#, fuzzy
+msgid "Physical clicking"
+msgstr "Füüsiline klõps:"
+
+#: src/mouse-touchpad.vala:105
+#, fuzzy
+msgid "Scrolling"
+msgstr "Kerimine:"
+
+#: src/mouse-touchpad.vala:106
+#, fuzzy
+msgid "Natural scrolling"
+msgstr "Loomulik kerimine:"
+
+#: src/mouse-touchpad.vala:107
+msgid "Disable while typing"
+msgstr ""
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
