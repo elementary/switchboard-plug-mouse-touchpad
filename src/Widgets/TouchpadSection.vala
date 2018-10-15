@@ -99,8 +99,8 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         }
 
         var swipe_left = new Gtk.ComboBoxText ();
-        swipe_right.append ("super+Right", _("⌘+Right"));
-        swipe_right.append ("super+Left", _("⌘+Left"));
+        swipe_left.append ("super+Right", _("⌘+Right"));
+        swipe_left.append ("super+Left", _("⌘+Left"));
 
         if (swipe_left.active_id == null ) {
             swipe_left.active_id = touchpad_gestures.getCurrentCommand("swipe left");
@@ -115,8 +115,8 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         }
 
         var swipe_down = new Gtk.ComboBoxText ();
-        swipe_up.append ("super+Up", _("⌘+Up"));
-        swipe_up.append ("super+Down", _("⌘+Down"));
+        swipe_down.append ("super+Up", _("⌘+Up"));
+        swipe_down.append ("super+Down", _("⌘+Down"));
 
         if (swipe_down.active_id == null ) {
             swipe_down.active_id = touchpad_gestures.getCurrentCommand("swipe down");
