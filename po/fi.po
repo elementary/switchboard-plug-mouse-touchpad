@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:20-0500\n"
-"PO-Revision-Date: 2018-05-04 00:06+0000\n"
+"PO-Revision-Date: 2018-10-16 16:41+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/mouse-touchpad.vala:40
@@ -29,49 +29,40 @@ msgid "Configure mouse and touchpad"
 msgstr "Määritä hiiren ja kosketuslevyn asetukset"
 
 #: src/mouse-touchpad.vala:99
-#, fuzzy
 msgid "Primary button"
-msgstr "Ensisijainen painike:"
+msgstr "Ensisijainen painike"
 
 #: src/mouse-touchpad.vala:100
-#, fuzzy
 msgid "Reveal pointer"
-msgstr "Korosta osoitin:"
+msgstr "Korosta osoitin"
 
 #: src/mouse-touchpad.vala:101
-#, fuzzy
 msgid "Middle click paste"
-msgstr "Liittäminen keskimmäistä napsauttamalla:"
+msgstr "Liittäminen keskimmäistä napsauttamalla"
 
 #: src/mouse-touchpad.vala:102
-#, fuzzy
 msgid "Pointer speed"
-msgstr "Osoittimen nopeus:"
+msgstr "Osoittimen nopeus"
 
 #: src/mouse-touchpad.vala:103
-#, fuzzy
 msgid "Tap to click"
-msgstr "Napsautus napauttamalla:"
+msgstr "Napsautus napauttamalla"
 
 #: src/mouse-touchpad.vala:104
-#, fuzzy
 msgid "Physical clicking"
-msgstr "Fyysinen napsautus:"
+msgstr "Fyysinen napsautus"
 
 #: src/mouse-touchpad.vala:105
-#, fuzzy
 msgid "Scrolling"
-msgstr "Vieritys:"
+msgstr "Vieritys"
 
 #: src/mouse-touchpad.vala:106
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "Luonnollinen vieritys:"
+msgstr "Luonnollinen vieritys"
 
 #: src/mouse-touchpad.vala:107
-#, fuzzy
 msgid "Disable while typing"
-msgstr "Poista käytöstä kirjoittaessa:"
+msgstr "Poista käytöstä kirjoittaessa"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
