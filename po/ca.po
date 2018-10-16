@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:20-0500\n"
-"PO-Revision-Date: 2018-10-16 13:43+0000\n"
+"PO-Revision-Date: 2018-10-17 00:07+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ca/>\n"
@@ -62,7 +62,7 @@ msgstr "Desplaçament natural"
 
 #: src/mouse-touchpad.vala:107
 msgid "Disable while typing"
-msgstr "Inhabilita-ho mentre s'escriu"
+msgstr "Inhabilita'l mentre s'escriu"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
@@ -114,7 +114,7 @@ msgstr "Desplaçament natural:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr "Inhabilita mentre s'escriu:"
+msgstr "Inhabilita'l mentre s'escriu:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
