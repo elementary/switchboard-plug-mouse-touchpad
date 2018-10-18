@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:20-0500\n"
-"PO-Revision-Date: 2018-07-22 00:03+0000\n"
+"PO-Revision-Date: 2018-10-18 06:58+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/cs/>\n"
@@ -29,49 +29,40 @@ msgid "Configure mouse and touchpad"
 msgstr "Nastavujte myš a touchpad"
 
 #: src/mouse-touchpad.vala:99
-#, fuzzy
 msgid "Primary button"
-msgstr "Primární tlačítko:"
+msgstr "Primární tlačítko"
 
 #: src/mouse-touchpad.vala:100
-#, fuzzy
 msgid "Reveal pointer"
-msgstr "Zvýraznit kurzor:"
+msgstr "Zvýraznit kurzor"
 
 #: src/mouse-touchpad.vala:101
-#, fuzzy
 msgid "Middle click paste"
-msgstr "Vkládání prostředním tlačítkem:"
+msgstr "Vkládání prostředním tlačítkem"
 
 #: src/mouse-touchpad.vala:102
-#, fuzzy
 msgid "Pointer speed"
-msgstr "Rychlost kurzoru:"
+msgstr "Rychlost kurzoru"
 
 #: src/mouse-touchpad.vala:103
-#, fuzzy
 msgid "Tap to click"
-msgstr "Kliknutí klepnutím:"
+msgstr "Kliknutí klepnutím"
 
 #: src/mouse-touchpad.vala:104
-#, fuzzy
 msgid "Physical clicking"
-msgstr "Fyzické klikání:"
+msgstr "Fyzické klikání"
 
 #: src/mouse-touchpad.vala:105
-#, fuzzy
 msgid "Scrolling"
-msgstr "Posouvání:"
+msgstr "Posouvání"
 
 #: src/mouse-touchpad.vala:106
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "Přirozené posouvání:"
+msgstr "Přirozené posouvání"
 
 #: src/mouse-touchpad.vala:107
-#, fuzzy
 msgid "Disable while typing"
-msgstr "Deaktivovat při psaní:"
+msgstr "Deaktivovat při psaní"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
