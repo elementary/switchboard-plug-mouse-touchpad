@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:20-0500\n"
-"PO-Revision-Date: 2018-11-01 10:07+0000\n"
+"PO-Revision-Date: 2018-11-06 21:36+0000\n"
 "Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
@@ -126,7 +126,7 @@ msgstr "Hiçbiri"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Duyarlı"
 
 #: src/Widgets/MouseSection.vala:62
 msgid "Pointer acceleration:"
@@ -160,6 +160,8 @@ msgstr "İmleci göster:"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"Bir giriş alanına üç parmakla dokunmak veya fare tekerleğine tıklamak seçili "
+"olan metni yapıştıracak"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
