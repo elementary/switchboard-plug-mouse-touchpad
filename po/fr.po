@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:20-0500\n"
-"PO-Revision-Date: 2018-11-16 08:15+0000\n"
+"PO-Revision-Date: 2018-11-20 09:07+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
@@ -38,7 +38,7 @@ msgstr "Révéler la position du pointeur"
 
 #: src/mouse-touchpad.vala:101
 msgid "Middle click paste"
-msgstr "Coller avec le clique du milieu"
+msgstr "Coller avec le clic du milieu"
 
 #: src/mouse-touchpad.vala:102
 msgid "Pointer speed"
@@ -161,9 +161,9 @@ msgstr "Révéler la position du pointeur :"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
-"Un clique du milieu ou avec trois doigts sur une entrée collera n'importe "
-"quel texte sélectionné"
+"Un clic du milieu ou avec trois doigts sur une entrée collera n'importe quel "
+"texte sélectionné"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr "Collage avec clique du milieu :"
+msgstr "Collage avec clic du milieu :"
