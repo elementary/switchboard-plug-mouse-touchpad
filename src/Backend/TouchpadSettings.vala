@@ -22,7 +22,6 @@ public class MouseTouchpad.Backend.TouchpadSettings : Granite.Services.Settings 
     public string click_method { get; set; }
     public double speed { get; set; }
     public string left_handed  { get; set; }
-    public string scroll_method { get; set; }
     public bool natural_scroll { get; set; }
     public bool disable_while_typing { get; set; }
 

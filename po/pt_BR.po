@@ -7,26 +7,62 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2017-05-23 08:07+0000\n"
-"Last-Translator: Fernando da Silva Sousa <wild.nando@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"PO-Revision-Date: 2018-10-17 00:07+0000\n"
+"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.14\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/mouse-touchpad.vala:40
 msgid "Mouse & Touchpad"
-msgstr "Mouse e touchpad"
+msgstr "Mouse e Touchpad"
 
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Configurar o mouse e o touchpad"
+
+#: src/mouse-touchpad.vala:99
+msgid "Primary button"
+msgstr "Botão principal"
+
+#: src/mouse-touchpad.vala:100
+msgid "Reveal pointer"
+msgstr "Revelar o cursor"
+
+#: src/mouse-touchpad.vala:101
+msgid "Middle click paste"
+msgstr "Colar com clique do meio"
+
+#: src/mouse-touchpad.vala:102
+msgid "Pointer speed"
+msgstr "Velocidade do cursor"
+
+#: src/mouse-touchpad.vala:103
+msgid "Tap to click"
+msgstr "Toque para clicar"
+
+#: src/mouse-touchpad.vala:104
+msgid "Physical clicking"
+msgstr "Clique físico"
+
+#: src/mouse-touchpad.vala:105
+msgid "Scrolling"
+msgstr "Rolagem"
+
+#: src/mouse-touchpad.vala:106
+msgid "Natural scrolling"
+msgstr "Rolagem natural"
+
+#: src/mouse-touchpad.vala:107
+msgid "Disable while typing"
+msgstr "Desativar ao digitar"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
@@ -78,7 +114,7 @@ msgstr "Rolagem natural:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "Desativar enquanto digitar:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -86,16 +122,15 @@ msgstr "Mouse"
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Adaptável"
 
 #: src/Widgets/MouseSection.vala:62
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "Velocidade do cursor:"
+msgstr "Aceleração do cursor:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -125,7 +160,9 @@ msgstr "Revelar o cursor:"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"Clicando no meio ou com três dedos em uma entrada, você colará qualquer "
+"texto selecionado"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "Colagem de clique do meio:"

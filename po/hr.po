@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-14 23:37+0000\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
 "PO-Revision-Date: 2016-11-02 16:53+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -25,6 +25,49 @@ msgstr "Miš i dodirnik"
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Prilagodite miš i dodirnik"
+
+#: src/mouse-touchpad.vala:99
+#, fuzzy
+msgid "Primary button"
+msgstr "Glavna tipka:"
+
+#: src/mouse-touchpad.vala:100
+#, fuzzy
+msgid "Reveal pointer"
+msgstr "Otkrij pokazivač:"
+
+#: src/mouse-touchpad.vala:101
+msgid "Middle click paste"
+msgstr ""
+
+#: src/mouse-touchpad.vala:102
+#, fuzzy
+msgid "Pointer speed"
+msgstr "Brzina pokazivača:"
+
+#: src/mouse-touchpad.vala:103
+#, fuzzy
+msgid "Tap to click"
+msgstr "Dodir za klik:"
+
+#: src/mouse-touchpad.vala:104
+#, fuzzy
+msgid "Physical clicking"
+msgstr "Fizički klik:"
+
+#: src/mouse-touchpad.vala:105
+#, fuzzy
+msgid "Scrolling"
+msgstr "Pomicanje:"
+
+#: src/mouse-touchpad.vala:106
+#, fuzzy
+msgid "Natural scrolling"
+msgstr "Prirodno pomicanje:"
+
+#: src/mouse-touchpad.vala:107
+msgid "Disable while typing"
+msgstr ""
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"

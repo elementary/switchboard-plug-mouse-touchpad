@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-08-13 00:03+0000\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"PO-Revision-Date: 2018-10-29 03:00+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
@@ -27,6 +27,42 @@ msgstr "鼠标和触控板"
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "配置鼠标和触控板"
+
+#: src/mouse-touchpad.vala:99
+msgid "Primary button"
+msgstr "主要按键："
+
+#: src/mouse-touchpad.vala:100
+msgid "Reveal pointer"
+msgstr "显示指针："
+
+#: src/mouse-touchpad.vala:101
+msgid "Middle click paste"
+msgstr "中键粘贴："
+
+#: src/mouse-touchpad.vala:102
+msgid "Pointer speed"
+msgstr "指针速度："
+
+#: src/mouse-touchpad.vala:103
+msgid "Tap to click"
+msgstr "轻触点击："
+
+#: src/mouse-touchpad.vala:104
+msgid "Physical clicking"
+msgstr "物理点击："
+
+#: src/mouse-touchpad.vala:105
+msgid "Scrolling"
+msgstr "滚动设置："
+
+#: src/mouse-touchpad.vala:106
+msgid "Natural scrolling"
+msgstr "自然滚动："
+
+#: src/mouse-touchpad.vala:107
+msgid "Disable while typing"
+msgstr "输入时禁用："
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
@@ -93,9 +129,8 @@ msgid "Adaptive"
 msgstr "自适应的"
 
 #: src/Widgets/MouseSection.vala:62
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "指针速度："
+msgstr "指针加速："
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"

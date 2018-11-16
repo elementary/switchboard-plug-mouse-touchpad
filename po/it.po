@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-03-03 00:02+0000\n"
-"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"PO-Revision-Date: 2018-10-16 00:57+0000\n"
+"Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-03-03 06:05+0000\n"
 
 #: src/mouse-touchpad.vala:40
@@ -27,6 +27,42 @@ msgstr "Mouse e touchpad"
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Configura il mouse e il touchpad"
+
+#: src/mouse-touchpad.vala:99
+msgid "Primary button"
+msgstr "Pulsante principale"
+
+#: src/mouse-touchpad.vala:100
+msgid "Reveal pointer"
+msgstr "Rivela puntatore"
+
+#: src/mouse-touchpad.vala:101
+msgid "Middle click paste"
+msgstr "Incollare con un clic centrale"
+
+#: src/mouse-touchpad.vala:102
+msgid "Pointer speed"
+msgstr "Velocità del puntatore"
+
+#: src/mouse-touchpad.vala:103
+msgid "Tap to click"
+msgstr "Tocca per cliccare"
+
+#: src/mouse-touchpad.vala:104
+msgid "Physical clicking"
+msgstr "Clic fisico"
+
+#: src/mouse-touchpad.vala:105
+msgid "Scrolling"
+msgstr "Scorrimento"
+
+#: src/mouse-touchpad.vala:106
+msgid "Natural scrolling"
+msgstr "Scorrimento naturale"
+
+#: src/mouse-touchpad.vala:107
+msgid "Disable while typing"
+msgstr "Disattivare durante la digitazione"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
@@ -78,7 +114,7 @@ msgstr "Scorrimento naturale:"
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr ""
+msgstr "Disattivare mentre si sta digitando:"
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -86,16 +122,15 @@ msgstr "Mouse"
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
-msgstr ""
+msgstr "Nessuna"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Adattativo"
 
 #: src/Widgets/MouseSection.vala:62
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "Velocità del puntatore:"
+msgstr "Accelerazione del puntatore:"
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -125,7 +160,8 @@ msgstr "Rivela puntatore:"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"Un clic centrale o con tre dita su di un campo incollerà il testo selezionato"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr ""
+msgstr "Incollare con un clic centrale:"

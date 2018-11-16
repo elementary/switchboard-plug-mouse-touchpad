@@ -56,24 +56,27 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         attach (reveal_pointer_switch, 1, 2, 1, 1);
         attach (locate_pointer_help, 2, 2, 1, 1);
 
-        var interface_settings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.desktop.interface", false);
-        if (interface_settings_schema != null) {
-            if (interface_settings_schema.has_key ("gtk-enable-primary-paste")) {
-                var primary_paste_switch = new Gtk.Switch ();
-                primary_paste_switch.halign = Gtk.Align.START;
-                primary_paste_switch.margin_end = 8;
+        var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
+        if (xsettings_schema != null) {
+            var primary_paste_switch = new Gtk.Switch ();
+            primary_paste_switch.halign = Gtk.Align.START;
+            primary_paste_switch.margin_end = 8;
 
-                var primary_paste_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
-                primary_paste_help.halign = Gtk.Align.START;
-                primary_paste_help.hexpand = true;
-                primary_paste_help.tooltip_text = _("Middle or three-finger clicking on an input will paste any selected text");
+            var primary_paste_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
+            primary_paste_help.halign = Gtk.Align.START;
+            primary_paste_help.hexpand = true;
+            primary_paste_help.tooltip_text = _("Middle or three-finger clicking on an input will paste any selected text");
 
-                attach (new SettingLabel (_("Middle click paste:")), 0, 3, 1, 1);
-                attach (primary_paste_switch, 1, 3, 1, 1);
-                attach (primary_paste_help, 2, 3, 1, 1);
+            attach (new SettingLabel (_("Middle click paste:")), 0, 3, 1, 1);
+            attach (primary_paste_switch, 1, 3, 1, 1);
+            attach (primary_paste_help, 2, 3, 1, 1);
 
-                var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
-                interface_settings.bind ("gtk-enable-primary-paste", primary_paste_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+            var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
+            primary_paste_switch.notify["active"].connect (() => on_primary_paste_switch_changed (primary_paste_switch, xsettings));
+
+            var current_value = xsettings.get_value ("overrides").lookup_value ("Gtk/EnablePrimaryPaste", VariantType.INT32);
+            if (current_value != null) {
+                primary_paste_switch.active = current_value.get_int32 () == 1;
             }
         }
 
@@ -85,5 +88,14 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
                                       "selected",
                                       BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
 
+    }
+
+    private void on_primary_paste_switch_changed (Gtk.Switch switch, GLib.Settings xsettings) {
+        var overrides = xsettings.get_value ("overrides");
+        var dict = new VariantDict (overrides);
+        dict.insert_value ("Gtk/EnablePrimaryPaste", new Variant.int32 (switch.active ? 1 : 0));
+
+        overrides = dict.end ();
+        xsettings.set_value ("overrides", overrides);
     }
 }

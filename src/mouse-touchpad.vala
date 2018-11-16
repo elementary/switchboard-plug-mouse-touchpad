@@ -65,7 +65,7 @@ namespace MouseTouchpad {
                         update_ui (manager);
                     });
 
-                    update_ui (manager);    
+                    update_ui (manager);
                 }
 
                 var main_grid = new Gtk.Grid ();
@@ -95,7 +95,17 @@ namespace MouseTouchpad {
 
         /* 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior") */
         public override async Gee.TreeMap<string, string> search (string search) {
-            return new Gee.TreeMap<string, string> (null, null);
+            var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
+            search_results.set ("%s → %s".printf (display_name, _("Primary button")), "");
+            search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "");
+            search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "");
+            search_results.set ("%s → %s".printf (display_name, _("Pointer speed")), "");
+            search_results.set ("%s → %s".printf (display_name, _("Tap to click")), "");
+            search_results.set ("%s → %s".printf (display_name, _("Physical clicking")), "");
+            search_results.set ("%s → %s".printf (display_name, _("Scrolling")), "");
+            search_results.set ("%s → %s".printf (display_name, _("Natural scrolling")), "");
+            search_results.set ("%s → %s".printf (display_name, _("Disable while typing")), "");
+            return search_results;
         }
 
         private void load_settings () {
@@ -109,7 +119,7 @@ namespace MouseTouchpad {
                 mouse_section.show_all ();
             } else {
                 mouse_section.no_show_all = true;
-                mouse_section.hide ();        
+                mouse_section.hide ();
             }
         }
 

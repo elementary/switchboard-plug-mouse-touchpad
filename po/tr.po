@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-14 23:37+0000\n"
-"PO-Revision-Date: 2018-05-27 00:05+0000\n"
-"Last-Translator: İbrahim Ethem Göl <ethem578@gmail.com>\n"
-"Language-Team: Turkish <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-mouse-touchpad/tr/>\n"
+"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"PO-Revision-Date: 2018-11-06 21:36+0000\n"
+"Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
+"Language-Team: Turkish <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/mouse-touchpad.vala:40
@@ -27,6 +27,42 @@ msgstr "Fare & Dokunmatik Panel"
 #: src/mouse-touchpad.vala:41
 msgid "Configure mouse and touchpad"
 msgstr "Fare ve touchpad'i yapılandırın"
+
+#: src/mouse-touchpad.vala:99
+msgid "Primary button"
+msgstr "Birincil tuş"
+
+#: src/mouse-touchpad.vala:100
+msgid "Reveal pointer"
+msgstr "İmleci göster"
+
+#: src/mouse-touchpad.vala:101
+msgid "Middle click paste"
+msgstr "Orta tıklama ile yapıştır"
+
+#: src/mouse-touchpad.vala:102
+msgid "Pointer speed"
+msgstr "İşaretçi hızı"
+
+#: src/mouse-touchpad.vala:103
+msgid "Tap to click"
+msgstr "Tıklamak için dokunun"
+
+#: src/mouse-touchpad.vala:104
+msgid "Physical clicking"
+msgstr "Fiziksel tıklama"
+
+#: src/mouse-touchpad.vala:105
+msgid "Scrolling"
+msgstr "Kaydırma"
+
+#: src/mouse-touchpad.vala:106
+msgid "Natural scrolling"
+msgstr "Doğal kaydırma"
+
+#: src/mouse-touchpad.vala:107
+msgid "Disable while typing"
+msgstr "Yazarken devre dışı bırak"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
@@ -86,11 +122,11 @@ msgstr "Fare"
 
 #: src/Widgets/MouseSection.vala:46
 msgid "None"
-msgstr ""
+msgstr "Hiçbiri"
 
 #: src/Widgets/MouseSection.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "Duyarlı"
 
 #: src/Widgets/MouseSection.vala:62
 msgid "Pointer acceleration:"
@@ -124,6 +160,8 @@ msgstr "İmleci göster:"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
+"Bir giriş alanına üç parmakla dokunmak veya fare tekerleğine tıklamak seçili "
+"olan metni yapıştıracak"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
