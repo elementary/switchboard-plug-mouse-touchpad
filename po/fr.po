@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:20-0500\n"
-"PO-Revision-Date: 2018-03-26 01:35+0000\n"
+"PO-Revision-Date: 2018-11-20 09:07+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/mouse-touchpad.vala:40
@@ -29,49 +29,40 @@ msgid "Configure mouse and touchpad"
 msgstr "Configurer la souris et le pavé tactile"
 
 #: src/mouse-touchpad.vala:99
-#, fuzzy
 msgid "Primary button"
-msgstr "Bouton principal :"
+msgstr "Bouton principal"
 
 #: src/mouse-touchpad.vala:100
-#, fuzzy
 msgid "Reveal pointer"
-msgstr "Révéler la position du pointeur :"
+msgstr "Révéler la position du pointeur"
 
 #: src/mouse-touchpad.vala:101
-#, fuzzy
 msgid "Middle click paste"
-msgstr "Collage avec clique du milieu :"
+msgstr "Coller avec le clic du milieu"
 
 #: src/mouse-touchpad.vala:102
-#, fuzzy
 msgid "Pointer speed"
-msgstr "Vitesse du pointeur :"
+msgstr "Vitesse du pointeur"
 
 #: src/mouse-touchpad.vala:103
-#, fuzzy
 msgid "Tap to click"
-msgstr "Taper pour cliquer :"
+msgstr "Taper pour cliquer"
 
 #: src/mouse-touchpad.vala:104
-#, fuzzy
 msgid "Physical clicking"
-msgstr "Clic physique :"
+msgstr "Clic physique"
 
 #: src/mouse-touchpad.vala:105
-#, fuzzy
 msgid "Scrolling"
-msgstr "Défilement :"
+msgstr "Défilement"
 
 #: src/mouse-touchpad.vala:106
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "Défilement naturel :"
+msgstr "Défilement naturel"
 
 #: src/mouse-touchpad.vala:107
-#, fuzzy
 msgid "Disable while typing"
-msgstr "Désactiver lors de la frappe :"
+msgstr "Désactiver lors de la frappe"
 
 #: src/Widgets/TouchpadSection.vala:30
 msgid "Touchpad"
@@ -170,9 +161,9 @@ msgstr "Révéler la position du pointeur :"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
-"Un clique du milieu ou avec trois doigts sur une entrée collera n'importe "
-"quel texte sélectionné"
+"Un clic du milieu ou avec trois doigts sur une entrée collera n'importe quel "
+"texte sélectionné"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr "Collage avec clique du milieu :"
+msgstr "Collage avec clic du milieu :"
