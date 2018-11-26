@@ -56,7 +56,6 @@ namespace MouseTouchpad {
                 stack.add_titled (mouse_view, "mouse", _("Mouse"));
                 stack.add_titled (touchpad_view, "touchpad", _("Touchpad"));
 
-                // TODO: Decide what to do about visibility of tabs without the proper hardware
                 var switcher = new Gtk.StackSwitcher ();
                 switcher.halign = Gtk.Align.CENTER;
                 switcher.homogeneous = true;
