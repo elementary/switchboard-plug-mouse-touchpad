@@ -50,20 +50,6 @@ namespace MouseTouchpad {
                 mouse_view = new Mouse (mouse_settings);
                 touchpad_view = new Touchpad (touchpad_settings);
 
-                var display = Gdk.Display.get_default ();
-                if (display != null) {
-                    var manager = Gdk.Display.get_default ().get_device_manager ();
-                    manager.device_added.connect (() => {
-                        update_ui (manager);
-                    });
-
-                    manager.device_removed.connect (() => {
-                        update_ui (manager);
-                    });
-
-                    update_ui (manager);
-                }
-
                 var stack = new Gtk.Stack ();
                 stack.margin = 12;
                 stack.add_titled (general_view, "general", _("General"));
@@ -119,29 +105,6 @@ namespace MouseTouchpad {
         private void load_settings () {
             mouse_settings = new Backend.MouseSettings ();
             touchpad_settings = new Backend.TouchpadSettings ();
-        }
-
-        private void update_ui (Gdk.DeviceManager manager) {
-            if (has_mouse (manager)) {
-                mouse_view.no_show_all = false;
-                mouse_view.show_all ();
-            } else {
-                mouse_view.no_show_all = true;
-                mouse_view.hide ();
-            }
-        }
-
-        private bool has_mouse (Gdk.DeviceManager manager) {
-            foreach (var device in manager.list_devices (Gdk.DeviceType.SLAVE)) {
-                if (
-                    device.get_source () == Gdk.InputSource.MOUSE &&
-                    !device.get_name ().has_prefix ("Virtual core")
-                ) {
-                    return true;
-                }
-            }
-
-            return false;
         }
     }
 }
