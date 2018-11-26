@@ -21,6 +21,7 @@ public class Plug : Switchboard.Plug {
     private Backend.MouseSettings mouse_settings;
     private Backend.TouchpadSettings touchpad_settings;
 
+    private Gtk.Stack stack;
     private Gtk.ScrolledWindow scrolled;
 
     private General general_view;
@@ -49,7 +50,7 @@ public class Plug : Switchboard.Plug {
             mouse_view = new Mouse (mouse_settings);
             touchpad_view = new Touchpad (touchpad_settings);
 
-            var stack = new Gtk.Stack ();
+            stack = new Gtk.Stack ();
             stack.margin = 12;
             stack.add_titled (general_view, "general", _("General"));
             stack.add_titled (mouse_view, "mouse", _("Mouse"));
@@ -81,22 +82,40 @@ public class Plug : Switchboard.Plug {
     }
 
     public override void search_callback (string location) {
+        switch (location) {
+            case "mouse":
+                stack.set_visible_child_name ("mouse");
+                break;
+            case "touchpad":
+                stack.set_visible_child_name ("touchpad");
+                break;
+            case "general":
+            default:
+                stack.set_visible_child_name ("general");
+                break;
+        }
     }
 
-    // TODO: Update to switch to the right tabs, like Pantheon Shell plug
     /* 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior") */
     public override async Gee.TreeMap<string, string> search (string search) {
         var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
-        search_results.set ("%s → %s".printf (display_name, _("Primary button")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Pointer speed")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Tap to click")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Physical clicking")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Scrolling")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Natural scrolling")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Disable while typing")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Primary button")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Long-press length")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Mouse")), "mouse");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer speed")), "mouse");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer acceleration")), "mouse");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Natural scrolling")), "mouse");
+        search_results.set ("%s → %s".printf (display_name, _("Touchpad")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Pointer speed")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Tap to click")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Physical clicking")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Scrolling")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Natural scrolling")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Disable while typing")), "touchpad");
         return search_results;
     }
 
