@@ -61,16 +61,16 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         row_spacing = 12;
         column_spacing = 12;
 
-        attach (new SettingLabel (_("Primary button:")), 0, 1);
-        attach (primary_button_switcher, 1, 1, 2, 1);
-        attach (new SettingLabel (_("Reveal pointer:")), 0, 2);
-        attach (reveal_pointer_switch, 1, 2);
-        attach (locate_pointer_help, 2, 2);
-        attach (hold_label, 0, 3);
-        attach (hold_switch, 1, 3);
-        attach (hold_help, 2, 3);
-        attach (hold_length_label, 0, 4);
-        attach (hold_scale, 1, 4, 2);
+        attach (new SettingLabel (_("Primary button:")), 0, 0);
+        attach (primary_button_switcher, 1, 0, 2, 1);
+        attach (new SettingLabel (_("Reveal pointer:")), 0, 1);
+        attach (reveal_pointer_switch, 1, 1);
+        attach (locate_pointer_help, 2, 1);
+        attach (hold_label, 0, 2);
+        attach (hold_switch, 1, 2);
+        attach (hold_help, 2, 2);
+        attach (hold_length_label, 0, 3);
+        attach (hold_scale, 1, 3, 2);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
         if (xsettings_schema != null) {
@@ -83,9 +83,9 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
             primary_paste_help.hexpand = true;
             primary_paste_help.tooltip_text = _("Middle or three-finger clicking on an input will paste any selected text");
 
-            attach (new SettingLabel (_("Middle click paste:")), 0, 5);
-            attach (primary_paste_switch, 1, 5);
-            attach (primary_paste_help, 2, 5);
+            attach (new SettingLabel (_("Middle click paste:")), 0, 4);
+            attach (primary_paste_switch, 1, 4);
+            attach (primary_paste_help, 2, 4);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
             primary_paste_switch.notify["active"].connect (() => on_primary_paste_switch_changed (primary_paste_switch, xsettings));
@@ -99,10 +99,12 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         var daemon_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
         daemon_settings.bind ("locate-pointer", reveal_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
-        mouse_settings.bind_property ("left-handed",
-                                      primary_button_switcher,
-                                      "selected",
-                                      BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+        mouse_settings.bind_property (
+            "left-handed",
+            primary_button_switcher,
+            "selected",
+            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
+        );
 
         var a11y_mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
         a11y_mouse_settings.bind ("secondary-click-enabled", hold_switch, "active", GLib.SettingsBindFlags.DEFAULT);
