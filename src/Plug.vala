@@ -32,6 +32,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         var settings = new Gee.TreeMap<string, string?> (null, null);
         settings.set ("input/mouse", null);
         settings.set ("input/touch", null);
+
         Object (
             category: Category.HARDWARE,
             code_name: "pantheon-mouse-touchpad",
