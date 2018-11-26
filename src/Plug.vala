@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2016 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -21,19 +21,18 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
     private Backend.MouseSettings mouse_settings;
     private Backend.TouchpadSettings touchpad_settings;
 
+    private Gtk.Stack stack;
     private Gtk.ScrolledWindow scrolled;
 
-    private Widgets.GeneralSection general_section;
-    private Widgets.MouseSection mouse_section;
-    private Widgets.TouchpadSection touchpad_section;
-
-    public static Gtk.SizeGroup end_size_group;
-    public static Gtk.SizeGroup start_size_group;
+    private GeneralView general_view;
+    private MouseView mouse_view;
+    private TouchpadView touchpad_view;
 
     public Plug () {
         var settings = new Gee.TreeMap<string, string?> (null, null);
         settings.set ("input/mouse", null);
-        settings.set ("input/touch", null);
+        settings.set ("input/touch", "touchpad");
+
         Object (
             category: Category.HARDWARE,
             code_name: "pantheon-mouse-touchpad",
@@ -46,36 +45,28 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     public override Gtk.Widget get_widget () {
         if (scrolled == null) {
-            end_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
-            start_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
-
             load_settings ();
 
-            general_section = new Widgets.GeneralSection (mouse_settings);
-            mouse_section = new Widgets.MouseSection (mouse_settings);
-            touchpad_section = new Widgets.TouchpadSection (touchpad_settings);
+            general_view = new GeneralView (mouse_settings);
+            mouse_view = new MouseView (mouse_settings);
+            touchpad_view = new TouchpadView (touchpad_settings);
 
-            var display = Gdk.Display.get_default ();
-            if (display != null) {
-                var manager = Gdk.Display.get_default ().get_device_manager ();
-                manager.device_added.connect (() => {
-                    update_ui (manager);
-                });
+            stack = new Gtk.Stack ();
+            stack.margin = 12;
+            stack.add_titled (general_view, "general", _("General"));
+            stack.add_titled (mouse_view, "mouse", _("Mouse"));
+            stack.add_titled (touchpad_view, "touchpad", _("Touchpad"));
 
-                manager.device_removed.connect (() => {
-                    update_ui (manager);
-                });
-
-                update_ui (manager);
-            }
+            var switcher = new Gtk.StackSwitcher ();
+            switcher.halign = Gtk.Align.CENTER;
+            switcher.homogeneous = true;
+            switcher.margin = 12;
+            switcher.stack = stack;
 
             var main_grid = new Gtk.Grid ();
-            main_grid.margin = 12;
-            main_grid.row_spacing = 12;
             main_grid.halign = Gtk.Align.CENTER;
-            main_grid.attach (general_section, 0, 0, 1, 1);
-            main_grid.attach (mouse_section, 0, 1, 1, 1);
-            main_grid.attach (touchpad_section, 0, 2, 1, 1);
+            main_grid.attach (switcher, 0, 0);
+            main_grid.attach (stack, 0, 1);
 
             scrolled = new Gtk.ScrolledWindow (null, null);
             scrolled.add (main_grid);
@@ -92,47 +83,46 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
     }
 
     public override void search_callback (string location) {
+        switch (location) {
+            case "mouse":
+                stack.set_visible_child_name ("mouse");
+                break;
+            case "touchpad":
+                stack.set_visible_child_name ("touchpad");
+                break;
+            case "general":
+            default:
+                stack.set_visible_child_name ("general");
+                break;
+        }
     }
 
     /* 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior") */
     public override async Gee.TreeMap<string, string> search (string search) {
         var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
-        search_results.set ("%s → %s".printf (display_name, _("Primary button")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Pointer speed")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Tap to click")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Physical clicking")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Scrolling")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Natural scrolling")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Disable while typing")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Primary button")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Long-press length")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Mouse")), "mouse");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer speed")), "mouse");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer acceleration")), "mouse");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Natural scrolling")), "mouse");
+        search_results.set ("%s → %s".printf (display_name, _("Touchpad")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Pointer speed")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Tap to click")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Physical clicking")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Scrolling")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Natural scrolling")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Disable while typing")), "touchpad");
         return search_results;
     }
 
     private void load_settings () {
         mouse_settings = new Backend.MouseSettings ();
         touchpad_settings = new Backend.TouchpadSettings ();
-    }
-
-    private void update_ui (Gdk.DeviceManager manager) {
-        if (has_mouse (manager)) {
-            mouse_section.no_show_all = false;
-            mouse_section.show_all ();
-        } else {
-            mouse_section.no_show_all = true;
-            mouse_section.hide ();
-        }
-    }
-
-    private bool has_mouse (Gdk.DeviceManager manager) {
-        foreach (var device in manager.list_devices (Gdk.DeviceType.SLAVE)) {
-            if (device.get_source () == Gdk.InputSource.MOUSE && !device.get_name ().has_prefix ("Virtual core")) {
-                return true;
-            }
-        }
-
-        return false;
     }
 }
 

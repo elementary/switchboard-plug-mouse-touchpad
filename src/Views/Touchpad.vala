@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2016 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,22 +17,16 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
+public class MouseTouchpad.TouchpadView : Gtk.Grid {
     private Gtk.Switch click_method_switch;
 
     public Backend.TouchpadSettings touchpad_settings { get; construct; }
 
-    public TouchpadSection (Backend.TouchpadSettings touchpad_settings) {
+    public TouchpadView (Backend.TouchpadSettings touchpad_settings) {
         Object (touchpad_settings: touchpad_settings);
     }
 
     construct {
-        var title_label = new Gtk.Label (_("Touchpad"));
-        title_label.xalign = 0;
-        title_label.hexpand = true;
-        title_label.get_style_context ().add_class ("h4");
-        Plug.start_size_group.add_widget (title_label);
-
         var disable_while_typing_switch = new Gtk.Switch ();
         disable_while_typing_switch.halign = Gtk.Align.START;
 
@@ -64,7 +58,6 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
-        Plug.end_size_group.add_widget (pointer_speed_scale);
 
         var scrolling_combobox = new Gtk.ComboBoxText ();
         scrolling_combobox.append ("two-finger-scrolling", _("Two-finger"));
@@ -80,20 +73,19 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         row_spacing = 12;
         column_spacing = 12;
 
-        attach (title_label, 0, 0, 1, 1);
-        attach (new SettingLabel (_("Pointer speed:")), 0, 1, 1, 1);
-        attach (pointer_speed_scale, 1, 1, 2, 1);
-        attach (new SettingLabel (_("Tap to click:")), 0, 2, 1, 1);
-        attach (tap_to_click_switch, 1, 2, 1, 1);
-        attach (new SettingLabel (_("Physical clicking:")), 0, 3, 1, 1);
-        attach (click_method_switch, 1, 3, 1, 1);
-        attach (click_method_combobox, 2, 3, 1, 1);
-        attach (new SettingLabel (_("Scrolling:")), 0, 4, 1, 1);
-        attach (scrolling_combobox, 1, 4, 2, 1);
-        attach (new SettingLabel (_("Natural scrolling:")), 0, 5, 1, 1);
-        attach (natural_scrolling_switch, 1, 5, 1, 1);
-        attach (new SettingLabel (_("Disable while typing:")), 0, 6, 1, 1);
-        attach (disable_while_typing_switch, 1, 6, 1, 1);
+        attach (new SettingLabel (_("Pointer speed:")), 0, 0);
+        attach (pointer_speed_scale, 1, 0, 2, 1);
+        attach (new SettingLabel (_("Tap to click:")), 0, 1);
+        attach (tap_to_click_switch, 1, 1);
+        attach (new SettingLabel (_("Physical clicking:")), 0, 2);
+        attach (click_method_switch, 1, 2);
+        attach (click_method_combobox, 2, 2);
+        attach (new SettingLabel (_("Scrolling:")), 0, 3);
+        attach (scrolling_combobox, 1, 3, 2, 1);
+        attach (new SettingLabel (_("Natural scrolling:")), 0, 4);
+        attach (natural_scrolling_switch, 1, 4);
+        attach (new SettingLabel (_("Disable while typing:")), 0, 5);
+        attach (disable_while_typing_switch, 1, 5);
 
         click_method_switch.bind_property ("active", click_method_combobox, "sensitive", BindingFlags.SYNC_CREATE);
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2016 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,25 +17,18 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
+public class MouseTouchpad.GeneralView : Gtk.Grid {
     public Backend.MouseSettings mouse_settings { get; construct; }
 
-    public GeneralSection (Backend.MouseSettings mouse_settings) {
+    public GeneralView (Backend.MouseSettings mouse_settings) {
         Object (mouse_settings: mouse_settings);
     }
 
     construct {
-        var title_label = new Gtk.Label (_("General"));
-        title_label.xalign = 0;
-        title_label.hexpand = true;
-        title_label.get_style_context ().add_class ("h4");
-        Plug.start_size_group.add_widget (title_label);
-
         var primary_button_switcher = new Granite.Widgets.ModeButton ();
         primary_button_switcher.width_request = 256;
         primary_button_switcher.append_text (_("Left"));
         primary_button_switcher.append_text (_("Right"));
-        Plug.end_size_group.add_widget (primary_button_switcher);
 
         var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
@@ -64,22 +57,20 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         hold_scale.draw_value = false;
         hold_scale.hexpand = true;
         hold_scale.set_size_request (160, -1);
-        Plug.end_size_group.add_widget (hold_scale);
 
         row_spacing = 12;
         column_spacing = 12;
 
-        attach (title_label, 0, 0, 1, 1);
-        attach (new SettingLabel (_("Primary button:")), 0, 1);
-        attach (primary_button_switcher, 1, 1, 2, 1);
-        attach (new SettingLabel (_("Reveal pointer:")), 0, 2);
-        attach (reveal_pointer_switch, 1, 2);
-        attach (locate_pointer_help, 2, 2);
-        attach (hold_label, 0, 3);
-        attach (hold_switch, 1, 3);
-        attach (hold_help, 2, 3);
-        attach (hold_length_label, 0, 4);
-        attach (hold_scale, 1, 4, 2);
+        attach (new SettingLabel (_("Primary button:")), 0, 0);
+        attach (primary_button_switcher, 1, 0, 2, 1);
+        attach (new SettingLabel (_("Reveal pointer:")), 0, 1);
+        attach (reveal_pointer_switch, 1, 1);
+        attach (locate_pointer_help, 2, 1);
+        attach (hold_label, 0, 2);
+        attach (hold_switch, 1, 2);
+        attach (hold_help, 2, 2);
+        attach (hold_length_label, 0, 3);
+        attach (hold_scale, 1, 3, 2);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
         if (xsettings_schema != null) {
@@ -92,9 +83,9 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
             primary_paste_help.hexpand = true;
             primary_paste_help.tooltip_text = _("Middle or three-finger clicking on an input will paste any selected text");
 
-            attach (new SettingLabel (_("Middle click paste:")), 0, 5);
-            attach (primary_paste_switch, 1, 5);
-            attach (primary_paste_help, 2, 5);
+            attach (new SettingLabel (_("Middle click paste:")), 0, 4);
+            attach (primary_paste_switch, 1, 4);
+            attach (primary_paste_help, 2, 4);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
             primary_paste_switch.notify["active"].connect (() => on_primary_paste_switch_changed (primary_paste_switch, xsettings));
@@ -121,7 +112,6 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
 
         hold_switch.bind_property ("active", hold_length_label, "sensitive", BindingFlags.SYNC_CREATE);
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
-
     }
 
     private void on_primary_paste_switch_changed (Gtk.Switch switch, GLib.Settings xsettings) {
