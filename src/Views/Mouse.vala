@@ -32,7 +32,6 @@ public class Mouse : Gtk.Grid {
         pointer_speed_scale.hexpand = true;
         pointer_speed_scale.set_size_request (160, -1);
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
-        // Plug.end_size_group.add_widget (pointer_speed_scale);
 
         var accel_profile_combobox = new Gtk.ComboBoxText ();
         accel_profile_combobox.hexpand = true;
