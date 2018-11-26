@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"POT-Creation-Date: 2018-11-26 09:24-0800\n"
 "PO-Revision-Date: 2018-03-26 01:22+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/"
@@ -44,31 +44,35 @@ msgid "Middle click paste"
 msgstr "中鍵點按貼上："
 
 #: src/mouse-touchpad.vala:102
+msgid "Long-press secondary click"
+msgstr ""
+
+#: src/mouse-touchpad.vala:103
 #, fuzzy
 msgid "Pointer speed"
 msgstr "指標速度："
 
-#: src/mouse-touchpad.vala:103
+#: src/mouse-touchpad.vala:104
 #, fuzzy
 msgid "Tap to click"
 msgstr "輕觸表示點擊："
 
-#: src/mouse-touchpad.vala:104
+#: src/mouse-touchpad.vala:105
 #, fuzzy
 msgid "Physical clicking"
 msgstr "實體點擊："
 
-#: src/mouse-touchpad.vala:105
+#: src/mouse-touchpad.vala:106
 #, fuzzy
 msgid "Scrolling"
 msgstr "捲動："
 
-#: src/mouse-touchpad.vala:106
+#: src/mouse-touchpad.vala:107
 #, fuzzy
 msgid "Natural scrolling"
 msgstr "自然捲動："
 
-#: src/mouse-touchpad.vala:107
+#: src/mouse-touchpad.vala:108
 #, fuzzy
 msgid "Disable while typing"
 msgstr "打字時停用："
@@ -157,19 +161,31 @@ msgstr "右"
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "按下 Ctl 鍵可以突顯指標的位置"
 
-#: src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:49
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:58
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:60
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:73
 msgid "Primary button:"
 msgstr "主按鍵："
 
-#: src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:75
 msgid "Reveal pointer:"
 msgstr "揭示指標："
 
-#: src/Widgets/GeneralSection.vala:69
+#: src/Widgets/GeneralSection.vala:93
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr "滑鼠中鍵或三指點按輸入可貼上所選取的文字"
 
-#: src/Widgets/GeneralSection.vala:71
+#: src/Widgets/GeneralSection.vala:95
 msgid "Middle click paste:"
 msgstr "中鍵點按貼上："

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"POT-Creation-Date: 2018-11-26 09:24-0800\n"
 "PO-Revision-Date: 2018-11-20 09:07+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
@@ -41,26 +41,30 @@ msgid "Middle click paste"
 msgstr "Coller avec le clic du milieu"
 
 #: src/mouse-touchpad.vala:102
+msgid "Long-press secondary click"
+msgstr ""
+
+#: src/mouse-touchpad.vala:103
 msgid "Pointer speed"
 msgstr "Vitesse du pointeur"
 
-#: src/mouse-touchpad.vala:103
+#: src/mouse-touchpad.vala:104
 msgid "Tap to click"
 msgstr "Taper pour cliquer"
 
-#: src/mouse-touchpad.vala:104
+#: src/mouse-touchpad.vala:105
 msgid "Physical clicking"
 msgstr "Clic physique"
 
-#: src/mouse-touchpad.vala:105
+#: src/mouse-touchpad.vala:106
 msgid "Scrolling"
 msgstr "Défilement"
 
-#: src/mouse-touchpad.vala:106
+#: src/mouse-touchpad.vala:107
 msgid "Natural scrolling"
 msgstr "Défilement naturel"
 
-#: src/mouse-touchpad.vala:107
+#: src/mouse-touchpad.vala:108
 msgid "Disable while typing"
 msgstr "Désactiver lors de la frappe"
 
@@ -149,21 +153,33 @@ msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 "L'appui sur la touche contrôle mettra en valeur la position du pointeur"
 
-#: src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:49
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:58
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:60
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:73
 msgid "Primary button:"
 msgstr "Bouton principal :"
 
-#: src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:75
 msgid "Reveal pointer:"
 msgstr "Révéler la position du pointeur :"
 
-#: src/Widgets/GeneralSection.vala:69
+#: src/Widgets/GeneralSection.vala:93
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Un clic du milieu ou avec trois doigts sur une entrée collera n'importe quel "
 "texte sélectionné"
 
-#: src/Widgets/GeneralSection.vala:71
+#: src/Widgets/GeneralSection.vala:95
 msgid "Middle click paste:"
 msgstr "Collage avec clic du milieu :"

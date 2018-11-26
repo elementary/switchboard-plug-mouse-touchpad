@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"POT-Creation-Date: 2018-11-26 09:24-0800\n"
 "PO-Revision-Date: 2016-06-20 22:28+0000\n"
 "Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -40,31 +40,35 @@ msgid "Middle click paste"
 msgstr ""
 
 #: src/mouse-touchpad.vala:102
+msgid "Long-press secondary click"
+msgstr ""
+
+#: src/mouse-touchpad.vala:103
 #, fuzzy
 msgid "Pointer speed"
 msgstr "Kursori kiirus:"
 
-#: src/mouse-touchpad.vala:103
+#: src/mouse-touchpad.vala:104
 #, fuzzy
 msgid "Tap to click"
 msgstr "Koputamisel klõpsu tegemine:"
 
-#: src/mouse-touchpad.vala:104
+#: src/mouse-touchpad.vala:105
 #, fuzzy
 msgid "Physical clicking"
 msgstr "Füüsiline klõps:"
 
-#: src/mouse-touchpad.vala:105
+#: src/mouse-touchpad.vala:106
 #, fuzzy
 msgid "Scrolling"
 msgstr "Kerimine:"
 
-#: src/mouse-touchpad.vala:106
+#: src/mouse-touchpad.vala:107
 #, fuzzy
 msgid "Natural scrolling"
 msgstr "Loomulik kerimine:"
 
-#: src/mouse-touchpad.vala:107
+#: src/mouse-touchpad.vala:108
 msgid "Disable while typing"
 msgstr ""
 
@@ -153,19 +157,31 @@ msgstr "Parem"
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Control nuppu vajutades tuuakse kursor esile"
 
-#: src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:49
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:58
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:60
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:73
 msgid "Primary button:"
 msgstr ""
 
-#: src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:75
 msgid "Reveal pointer:"
 msgstr "Kursori esiletoomine:"
 
-#: src/Widgets/GeneralSection.vala:69
+#: src/Widgets/GeneralSection.vala:93
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 
-#: src/Widgets/GeneralSection.vala:71
+#: src/Widgets/GeneralSection.vala:95
 msgid "Middle click paste:"
 msgstr ""

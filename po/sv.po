@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"POT-Creation-Date: 2018-11-26 09:24-0800\n"
 "PO-Revision-Date: 2018-10-21 15:54+0000\n"
 "Last-Translator: Fredrik B <frbo9002@gmail.com>\n"
 "Language-Team: Swedish <https://weblate.elementary.io/projects/switchboard/"
@@ -41,26 +41,30 @@ msgid "Middle click paste"
 msgstr "Mellanklicksklistra"
 
 #: src/mouse-touchpad.vala:102
+msgid "Long-press secondary click"
+msgstr ""
+
+#: src/mouse-touchpad.vala:103
 msgid "Pointer speed"
 msgstr "Markörens hastighet"
 
-#: src/mouse-touchpad.vala:103
+#: src/mouse-touchpad.vala:104
 msgid "Tap to click"
 msgstr "Knacka för att klicka"
 
-#: src/mouse-touchpad.vala:104
+#: src/mouse-touchpad.vala:105
 msgid "Physical clicking"
 msgstr "Fysisk klickning"
 
-#: src/mouse-touchpad.vala:105
+#: src/mouse-touchpad.vala:106
 msgid "Scrolling"
 msgstr "Skrollning"
 
-#: src/mouse-touchpad.vala:106
+#: src/mouse-touchpad.vala:107
 msgid "Natural scrolling"
 msgstr "Naturlig skrollning"
 
-#: src/mouse-touchpad.vala:107
+#: src/mouse-touchpad.vala:108
 msgid "Disable while typing"
 msgstr "Inaktivera medan du skriver"
 
@@ -149,21 +153,33 @@ msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 "Genom att trycka på kontrolltangenten markeras positionen för muspekaren"
 
-#: src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:49
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:58
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:60
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:73
 msgid "Primary button:"
 msgstr "Primärknapp:"
 
-#: src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:75
 msgid "Reveal pointer:"
 msgstr "Visa pekare:"
 
-#: src/Widgets/GeneralSection.vala:69
+#: src/Widgets/GeneralSection.vala:93
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Mellan- eller trefingerklick på ett inmatningsfält kommer klistra in "
 "markerad text"
 
-#: src/Widgets/GeneralSection.vala:71
+#: src/Widgets/GeneralSection.vala:95
 msgid "Middle click paste:"
 msgstr "Mellanklicksklistra:"

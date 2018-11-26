@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"POT-Creation-Date: 2018-11-26 09:24-0800\n"
 "PO-Revision-Date: 2018-11-05 23:44+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/switchboard/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.0.1\n"
 
 #: src/mouse-touchpad.vala:40
@@ -41,26 +41,30 @@ msgid "Middle click paste"
 msgstr "Zalijepi srednjim klikom"
 
 #: src/mouse-touchpad.vala:102
+msgid "Long-press secondary click"
+msgstr ""
+
+#: src/mouse-touchpad.vala:103
 msgid "Pointer speed"
 msgstr "Brzina kursora"
 
-#: src/mouse-touchpad.vala:103
+#: src/mouse-touchpad.vala:104
 msgid "Tap to click"
 msgstr "Dodirni za klik"
 
-#: src/mouse-touchpad.vala:104
+#: src/mouse-touchpad.vala:105
 msgid "Physical clicking"
 msgstr "Fizičko klikanje"
 
-#: src/mouse-touchpad.vala:105
+#: src/mouse-touchpad.vala:106
 msgid "Scrolling"
 msgstr "Skrolanje"
 
-#: src/mouse-touchpad.vala:106
+#: src/mouse-touchpad.vala:107
 msgid "Natural scrolling"
 msgstr "Prirodno skrolanje"
 
-#: src/mouse-touchpad.vala:107
+#: src/mouse-touchpad.vala:108
 msgid "Disable while typing"
 msgstr "Deaktiviraj tokom kucanja teksta"
 
@@ -148,21 +152,33 @@ msgstr "Desno"
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Pritiskanjem tipke Ctrl bit će istaknuta pozicija kursora"
 
-#: src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:49
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:58
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:60
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:73
 msgid "Primary button:"
 msgstr "Glavno dugme:"
 
-#: src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:75
 msgid "Reveal pointer:"
 msgstr "Pokaži kursor:"
 
-#: src/Widgets/GeneralSection.vala:69
+#: src/Widgets/GeneralSection.vala:93
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Srednjim klikom ili klikom s tri prsta u polje unosa označeni tekst će biti "
 "zalijepljen"
 
-#: src/Widgets/GeneralSection.vala:71
+#: src/Widgets/GeneralSection.vala:95
 msgid "Middle click paste:"
 msgstr "Zalijepi srednjim klikom:"

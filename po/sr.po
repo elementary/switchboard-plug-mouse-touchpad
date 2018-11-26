@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"POT-Creation-Date: 2018-11-26 09:24-0800\n"
 "PO-Revision-Date: 2017-01-06 07:30+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <sr@li.org>\n"
@@ -41,31 +41,35 @@ msgid "Middle click paste"
 msgstr ""
 
 #: src/mouse-touchpad.vala:102
+msgid "Long-press secondary click"
+msgstr ""
+
+#: src/mouse-touchpad.vala:103
 #, fuzzy
 msgid "Pointer speed"
 msgstr "Брзина показивача:"
 
-#: src/mouse-touchpad.vala:103
+#: src/mouse-touchpad.vala:104
 #, fuzzy
 msgid "Tap to click"
 msgstr "Лупни за клик:"
 
-#: src/mouse-touchpad.vala:104
+#: src/mouse-touchpad.vala:105
 #, fuzzy
 msgid "Physical clicking"
 msgstr "Физичко кликање:"
 
-#: src/mouse-touchpad.vala:105
+#: src/mouse-touchpad.vala:106
 #, fuzzy
 msgid "Scrolling"
 msgstr "Премицање:"
 
-#: src/mouse-touchpad.vala:106
+#: src/mouse-touchpad.vala:107
 #, fuzzy
 msgid "Natural scrolling"
 msgstr "Природно премицање:"
 
-#: src/mouse-touchpad.vala:107
+#: src/mouse-touchpad.vala:108
 msgid "Disable while typing"
 msgstr ""
 
@@ -154,19 +158,31 @@ msgstr "Десно"
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Притисак на управљачки тастер истакнуће положај показивача"
 
-#: src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:49
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:58
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:60
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:73
 msgid "Primary button:"
 msgstr "Примарно дугме:"
 
-#: src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:75
 msgid "Reveal pointer:"
 msgstr "Прикажи показивач:"
 
-#: src/Widgets/GeneralSection.vala:69
+#: src/Widgets/GeneralSection.vala:93
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 
-#: src/Widgets/GeneralSection.vala:71
+#: src/Widgets/GeneralSection.vala:95
 msgid "Middle click paste:"
 msgstr ""

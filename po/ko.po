@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 16:20-0500\n"
+"POT-Creation-Date: 2018-11-26 09:24-0800\n"
 "PO-Revision-Date: 2018-10-20 03:00+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/switchboard/"
@@ -41,26 +41,30 @@ msgid "Middle click paste"
 msgstr "가운데 클릭 붙여 넣기"
 
 #: src/mouse-touchpad.vala:102
+msgid "Long-press secondary click"
+msgstr ""
+
+#: src/mouse-touchpad.vala:103
 msgid "Pointer speed"
 msgstr "포인터 속도"
 
-#: src/mouse-touchpad.vala:103
+#: src/mouse-touchpad.vala:104
 msgid "Tap to click"
 msgstr "탭 해서 클릭"
 
-#: src/mouse-touchpad.vala:104
+#: src/mouse-touchpad.vala:105
 msgid "Physical clicking"
 msgstr "클릭 방식"
 
-#: src/mouse-touchpad.vala:105
+#: src/mouse-touchpad.vala:106
 msgid "Scrolling"
 msgstr "스크롤"
 
-#: src/mouse-touchpad.vala:106
+#: src/mouse-touchpad.vala:107
 msgid "Natural scrolling"
 msgstr "자연스러운 스크롤"
 
-#: src/mouse-touchpad.vala:107
+#: src/mouse-touchpad.vala:108
 msgid "Disable while typing"
 msgstr "타이핑할 땐 끄기"
 
@@ -148,19 +152,31 @@ msgstr "오른쪽"
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "ctrl 키를 누르면 포인터 위치를 표시합니다"
 
-#: src/Widgets/GeneralSection.vala:53
+#: src/Widgets/GeneralSection.vala:49
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:58
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:60
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Widgets/GeneralSection.vala:73
 msgid "Primary button:"
 msgstr "실행 버튼:"
 
-#: src/Widgets/GeneralSection.vala:55
+#: src/Widgets/GeneralSection.vala:75
 msgid "Reveal pointer:"
 msgstr "포인터 표시:"
 
-#: src/Widgets/GeneralSection.vala:69
+#: src/Widgets/GeneralSection.vala:93
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr "가운데 또는 세 손가락으로 입력을 클릭하면 선택한 텍스트가 붙여집니다"
 
-#: src/Widgets/GeneralSection.vala:71
+#: src/Widgets/GeneralSection.vala:95
 msgid "Middle click paste:"
 msgstr "가운데 클릭 붙여 넣기:"
