@@ -56,11 +56,13 @@ public class MouseTouchpad.MouseView : Gtk.Grid {
         attach (new SettingLabel (_("Natural scrolling:")), 0, 2);
         attach (natural_scrolling_switch, 1, 2);
 
-        pointer_speed_scale.adjustment.bind_property ("value",
-                                                      mouse_settings,
-                                                      "speed",
-                                                      BindingFlags.SYNC_CREATE,
-                                                      pointer_speed_scale_transform_func);
+        pointer_speed_scale.adjustment.bind_property (
+            "value",
+            mouse_settings,
+            "speed",
+            BindingFlags.SYNC_CREATE,
+            pointer_speed_scale_transform_func
+        );
 
         mouse_settings.bind_property (
             "accel-profile",
@@ -69,10 +71,12 @@ public class MouseTouchpad.MouseView : Gtk.Grid {
             BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
         );
 
-        mouse_settings.bind_property ("natural-scroll",
-                                      natural_scrolling_switch,
-                                      "state",
-                                      BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+        mouse_settings.bind_property (
+            "natural-scroll",
+            natural_scrolling_switch,
+            "state",
+            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
+        );
     }
 
     private bool pointer_speed_scale_transform_func (Binding binding, Value source_value, ref Value target_value) {

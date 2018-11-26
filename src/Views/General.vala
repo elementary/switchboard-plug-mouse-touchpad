@@ -112,7 +112,6 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         hold_switch.bind_property ("active", hold_length_label, "sensitive", BindingFlags.SYNC_CREATE);
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
-
     }
 
     private void on_primary_paste_switch_changed (Gtk.Switch switch, GLib.Settings xsettings) {
