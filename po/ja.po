@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-26 09:24-0800\n"
-"PO-Revision-Date: 2018-11-24 13:08+0000\n"
+"PO-Revision-Date: 2018-11-26 22:00+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -42,7 +42,7 @@ msgstr "中クリックで貼り付け"
 
 #: src/mouse-touchpad.vala:102
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "長押しで右クリック"
 
 #: src/mouse-touchpad.vala:103
 msgid "Pointer speed"
@@ -154,15 +154,15 @@ msgstr "Ctrl キーを押すとポインターの位置がハイライトされ�
 
 #: src/Widgets/GeneralSection.vala:49
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "長押しで右クリック："
 
 #: src/Widgets/GeneralSection.vala:58
 msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
+msgstr "主ボタンを長押しして離すことで右クリックになります。"
 
 #: src/Widgets/GeneralSection.vala:60
 msgid "Long-press length:"
-msgstr ""
+msgstr "長押しの長さ："
 
 #: src/Widgets/GeneralSection.vala:73
 msgid "Primary button:"
