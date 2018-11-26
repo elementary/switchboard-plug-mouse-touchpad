@@ -46,15 +46,40 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         locate_pointer_help.hexpand = true;
         locate_pointer_help.tooltip_text = _("Pressing the control key will highlight the position of the pointer");
 
+        var hold_label = new SettingLabel (_("Long-press secondary click:"));
+
+        var hold_switch = new Gtk.Switch ();
+        hold_switch.halign = Gtk.Align.START;
+        hold_switch.margin_end = 8;
+
+        var hold_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
+        hold_help.halign = Gtk.Align.START;
+        hold_help.hexpand = true;
+        hold_help.tooltip_text = _("Long-pressing and releasing the primary button will secondary click.");
+
+        var hold_length_label = new SettingLabel (_("Long-press length:"));
+
+        var hold_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0.5, 2.0, 0.1);
+        hold_scale.add_mark (1.2, Gtk.PositionType.BOTTOM, null);
+        hold_scale.draw_value = false;
+        hold_scale.hexpand = true;
+        hold_scale.set_size_request (160, -1);
+        Plug.end_size_group.add_widget (hold_scale);
+
         row_spacing = 12;
         column_spacing = 12;
 
         attach (title_label, 0, 0, 1, 1);
-        attach (new SettingLabel (_("Primary button:")), 0, 1, 1, 1);
+        attach (new SettingLabel (_("Primary button:")), 0, 1);
         attach (primary_button_switcher, 1, 1, 2, 1);
-        attach (new SettingLabel (_("Reveal pointer:")), 0, 2, 1, 1);
-        attach (reveal_pointer_switch, 1, 2, 1, 1);
-        attach (locate_pointer_help, 2, 2, 1, 1);
+        attach (new SettingLabel (_("Reveal pointer:")), 0, 2);
+        attach (reveal_pointer_switch, 1, 2);
+        attach (locate_pointer_help, 2, 2);
+        attach (hold_label, 0, 3);
+        attach (hold_switch, 1, 3);
+        attach (hold_help, 2, 3);
+        attach (hold_length_label, 0, 4);
+        attach (hold_scale, 1, 4, 2);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
         if (xsettings_schema != null) {
@@ -67,9 +92,9 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
             primary_paste_help.hexpand = true;
             primary_paste_help.tooltip_text = _("Middle or three-finger clicking on an input will paste any selected text");
 
-            attach (new SettingLabel (_("Middle click paste:")), 0, 3, 1, 1);
-            attach (primary_paste_switch, 1, 3, 1, 1);
-            attach (primary_paste_help, 2, 3, 1, 1);
+            attach (new SettingLabel (_("Middle click paste:")), 0, 5);
+            attach (primary_paste_switch, 1, 5);
+            attach (primary_paste_help, 2, 5);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
             primary_paste_switch.notify["active"].connect (() => on_primary_paste_switch_changed (primary_paste_switch, xsettings));
@@ -87,6 +112,13 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
                                       primary_button_switcher,
                                       "selected",
                                       BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+
+        var a11y_mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
+        a11y_mouse_settings.bind ("secondary-click-enabled", hold_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        a11y_mouse_settings.bind ("secondary-click-time", hold_scale.adjustment, "value", GLib.SettingsBindFlags.DEFAULT);
+
+        hold_switch.bind_property ("active", hold_length_label, "sensitive", BindingFlags.SYNC_CREATE);
+        hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
 
     }
 

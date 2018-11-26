@@ -99,6 +99,7 @@ namespace MouseTouchpad {
             search_results.set ("%s → %s".printf (display_name, _("Primary button")), "");
             search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "");
             search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "");
+            search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "");
             search_results.set ("%s → %s".printf (display_name, _("Pointer speed")), "");
             search_results.set ("%s → %s".printf (display_name, _("Tap to click")), "");
             search_results.set ("%s → %s".printf (display_name, _("Physical clicking")), "");
