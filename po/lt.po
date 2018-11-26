@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-26 09:24-0800\n"
+"POT-Creation-Date: 2018-11-26 15:55-0800\n"
 "PO-Revision-Date: 2018-11-26 19:13+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/"
@@ -16,172 +16,184 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
-"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-17 06:05+0000\n"
 
-#: src/mouse-touchpad.vala:40
+#: src/Plug.vala:39
 msgid "Mouse & Touchpad"
 msgstr "Pelė ir jutiklinis kilimėlis"
 
-#: src/mouse-touchpad.vala:41
+#: src/Plug.vala:40
 msgid "Configure mouse and touchpad"
 msgstr "Konfigūruoti pelę ir jutiklinį kilimėlį"
 
-#: src/mouse-touchpad.vala:99
-msgid "Primary button"
-msgstr "Pirminis mygtukas"
-
-#: src/mouse-touchpad.vala:100
-msgid "Reveal pointer"
-msgstr "Parodyti rodyklę"
-
-#: src/mouse-touchpad.vala:101
-msgid "Middle click paste"
-msgstr "Įdėti, spustelėjus vidurinį mygtuką"
-
-#: src/mouse-touchpad.vala:102
-msgid "Long-press secondary click"
-msgstr "Antrinis spustelėjimas ilguoju paspaudimu"
-
-#: src/mouse-touchpad.vala:103
-msgid "Pointer speed"
-msgstr "Rodyklės greitis"
-
-#: src/mouse-touchpad.vala:104
-msgid "Tap to click"
-msgstr "Bakstelėti, norint spustelėti"
-
-#: src/mouse-touchpad.vala:105
-msgid "Physical clicking"
-msgstr "Fizinis spustelėjimas"
-
-#: src/mouse-touchpad.vala:106
-msgid "Scrolling"
-msgstr "Slinkimas"
-
-#: src/mouse-touchpad.vala:107
-msgid "Natural scrolling"
-msgstr "Natūralus slinkimas"
-
-#: src/mouse-touchpad.vala:108
-msgid "Disable while typing"
-msgstr "Išjungti, renkant tekstą"
-
-#: src/Widgets/TouchpadSection.vala:30
-msgid "Touchpad"
-msgstr "Jutiklinis kilimėlis"
-
-#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
-msgid "Hardware default"
-msgstr "Pagal aparatinės įrangos numatymą"
-
-#: src/Widgets/TouchpadSection.vala:55
-msgid "Multitouch"
-msgstr "Daugiataškis"
-
-#: src/Widgets/TouchpadSection.vala:56
-msgid "Touchpad areas"
-msgstr "Jutiklinio kilimėlio sritys"
-
-#: src/Widgets/TouchpadSection.vala:70
-msgid "Two-finger"
-msgstr "Dviem pirštais"
-
-#: src/Widgets/TouchpadSection.vala:71
-msgid "Edge"
-msgstr "Kraštuose"
-
-#: src/Widgets/TouchpadSection.vala:72
-msgid "Disabled"
-msgstr "Išjungta"
-
-#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
-msgid "Pointer speed:"
-msgstr "Rodyklės greitis:"
-
-#: src/Widgets/TouchpadSection.vala:86
-msgid "Tap to click:"
-msgstr "Bakstelėti, norint spustelėti:"
-
-#: src/Widgets/TouchpadSection.vala:88
-msgid "Physical clicking:"
-msgstr "Fizinis spustelėjimas:"
-
-#: src/Widgets/TouchpadSection.vala:91
-msgid "Scrolling:"
-msgstr "Slinkimas:"
-
-#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
-msgid "Natural scrolling:"
-msgstr "Natūralus slinkimas:"
-
-#: src/Widgets/TouchpadSection.vala:95
-msgid "Disable while typing:"
-msgstr "Išjungti, renkant tekstą:"
-
-#: src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "Pelė"
-
-#: src/Widgets/MouseSection.vala:46
-msgid "None"
-msgstr "Nėra"
-
-#: src/Widgets/MouseSection.vala:47
-msgid "Adaptive"
-msgstr "Adaptyvus"
-
-#: src/Widgets/MouseSection.vala:62
-msgid "Pointer acceleration:"
-msgstr "Rodyklės pagreitis:"
-
-#: src/Widgets/GeneralSection.vala:28
+#: src/Plug.vala:56
 msgid "General"
 msgstr "Bendra"
 
-#: src/Widgets/GeneralSection.vala:36
+#: src/Plug.vala:57 src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111
+#: src/Plug.vala:112
+msgid "Mouse"
+msgstr "Pelė"
+
+#: src/Plug.vala:58 src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115
+#: src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+msgid "Touchpad"
+msgstr "Jutiklinis kilimėlis"
+
+#: src/Plug.vala:103
+msgid "Primary button"
+msgstr "Pirminis mygtukas"
+
+#: src/Plug.vala:104
+msgid "Reveal pointer"
+msgstr "Parodyti rodyklę"
+
+#: src/Plug.vala:105 src/Plug.vala:108
+msgid "Middle click paste"
+msgstr "Įdėti, spustelėjus vidurinį mygtuką"
+
+#: src/Plug.vala:106
+msgid "Long-press secondary click"
+msgstr "Antrinis spustelėjimas ilguoju paspaudimu"
+
+#: src/Plug.vala:107
+#, fuzzy
+msgid "Long-press length"
+msgstr "Ilgojo paspaudimo trukmė:"
+
+#: src/Plug.vala:110 src/Plug.vala:114
+msgid "Pointer speed"
+msgstr "Rodyklės greitis"
+
+#: src/Plug.vala:111
+#, fuzzy
+msgid "Pointer acceleration"
+msgstr "Rodyklės pagreitis:"
+
+#: src/Plug.vala:112 src/Plug.vala:118
+msgid "Natural scrolling"
+msgstr "Natūralus slinkimas"
+
+#: src/Plug.vala:115
+msgid "Tap to click"
+msgstr "Bakstelėti, norint spustelėti"
+
+#: src/Plug.vala:116
+msgid "Physical clicking"
+msgstr "Fizinis spustelėjimas"
+
+#: src/Plug.vala:117
+msgid "Scrolling"
+msgstr "Slinkimas"
+
+#: src/Plug.vala:119
+msgid "Disable while typing"
+msgstr "Išjungti, renkant tekstą"
+
+#: src/Views/General.vala:30
 msgid "Left"
 msgstr "Kairysis"
 
-#: src/Widgets/GeneralSection.vala:37
+#: src/Views/General.vala:31
 msgid "Right"
 msgstr "Dešinysis"
 
-#: src/Widgets/GeneralSection.vala:47
+#: src/Views/General.vala:40
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Valdymo (Ctrl) klavišo paspaudimas paryškins rodyklės vietą"
 
-#: src/Widgets/GeneralSection.vala:49
+#: src/Views/General.vala:42
 msgid "Long-press secondary click:"
 msgstr "Antrinis spustelėjimas ilguoju paspaudimu:"
 
-#: src/Widgets/GeneralSection.vala:58
+#: src/Views/General.vala:51
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
 "Ilgai paspaudus ir atleidus pirminį mygtuką bus atliktas antrinio "
 "spustelėjimo veiksmas."
 
-#: src/Widgets/GeneralSection.vala:60
+#: src/Views/General.vala:53
 msgid "Long-press length:"
 msgstr "Ilgojo paspaudimo trukmė:"
 
-#: src/Widgets/GeneralSection.vala:73
+#: src/Views/General.vala:64
 msgid "Primary button:"
 msgstr "Pirminis mygtukas:"
 
-#: src/Widgets/GeneralSection.vala:75
+#: src/Views/General.vala:66
 msgid "Reveal pointer:"
 msgstr "Parodyti rodyklę:"
 
-#: src/Widgets/GeneralSection.vala:93
+#: src/Views/General.vala:84
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Spustelėjus viduriniuoju pelės mygtuku ar bakstelėjus trimis pirštais į "
 "įvesties lauką, bus įdėtas bet koks pažymėtas tekstas"
 
-#: src/Widgets/GeneralSection.vala:95
+#: src/Views/General.vala:86
 msgid "Middle click paste:"
 msgstr "Įdėti, spustelėjus vidurinį mygtuką:"
+
+#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+msgid "Hardware default"
+msgstr "Pagal aparatinės įrangos numatymą"
+
+#: src/Views/Mouse.vala:39
+msgid "None"
+msgstr "Nėra"
+
+#: src/Views/Mouse.vala:40
+msgid "Adaptive"
+msgstr "Adaptyvus"
+
+#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+msgid "Pointer speed:"
+msgstr "Rodyklės greitis:"
+
+#: src/Views/Mouse.vala:54
+msgid "Pointer acceleration:"
+msgstr "Rodyklės pagreitis:"
+
+#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+msgid "Natural scrolling:"
+msgstr "Natūralus slinkimas:"
+
+#: src/Views/Touchpad.vala:49
+msgid "Multitouch"
+msgstr "Daugiataškis"
+
+#: src/Views/Touchpad.vala:50
+msgid "Touchpad areas"
+msgstr "Jutiklinio kilimėlio sritys"
+
+#: src/Views/Touchpad.vala:63
+msgid "Two-finger"
+msgstr "Dviem pirštais"
+
+#: src/Views/Touchpad.vala:64
+msgid "Edge"
+msgstr "Kraštuose"
+
+#: src/Views/Touchpad.vala:65
+msgid "Disabled"
+msgstr "Išjungta"
+
+#: src/Views/Touchpad.vala:78
+msgid "Tap to click:"
+msgstr "Bakstelėti, norint spustelėti:"
+
+#: src/Views/Touchpad.vala:80
+msgid "Physical clicking:"
+msgstr "Fizinis spustelėjimas:"
+
+#: src/Views/Touchpad.vala:83
+msgid "Scrolling:"
+msgstr "Slinkimas:"
+
+#: src/Views/Touchpad.vala:87
+msgid "Disable while typing:"
+msgstr "Išjungti, renkant tekstą:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-26 09:24-0800\n"
+"POT-Creation-Date: 2018-11-26 15:55-0800\n"
 "PO-Revision-Date: 2016-06-20 22:28+0000\n"
 "Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -18,170 +18,181 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 "X-Generator: Launchpad (build 18326)\n"
 
-#: src/mouse-touchpad.vala:40
+#: src/Plug.vala:39
 msgid "Mouse & Touchpad"
 msgstr "Hiir ja puutepadi"
 
-#: src/mouse-touchpad.vala:41
+#: src/Plug.vala:40
 msgid "Configure mouse and touchpad"
 msgstr "Hiire ja puuteplaadi seadistamine"
 
-#: src/mouse-touchpad.vala:99
+#: src/Plug.vala:56
+msgid "General"
+msgstr "Üldine"
+
+#: src/Plug.vala:57 src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111
+#: src/Plug.vala:112
+msgid "Mouse"
+msgstr "Hiir"
+
+#: src/Plug.vala:58 src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115
+#: src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+msgid "Touchpad"
+msgstr "Puutepadi"
+
+#: src/Plug.vala:103
 msgid "Primary button"
 msgstr ""
 
-#: src/mouse-touchpad.vala:100
+#: src/Plug.vala:104
 #, fuzzy
 msgid "Reveal pointer"
 msgstr "Kursori esiletoomine:"
 
-#: src/mouse-touchpad.vala:101
+#: src/Plug.vala:105 src/Plug.vala:108
 msgid "Middle click paste"
 msgstr ""
 
-#: src/mouse-touchpad.vala:102
+#: src/Plug.vala:106
 msgid "Long-press secondary click"
 msgstr ""
 
-#: src/mouse-touchpad.vala:103
+#: src/Plug.vala:107
+msgid "Long-press length"
+msgstr ""
+
+#: src/Plug.vala:110 src/Plug.vala:114
 #, fuzzy
 msgid "Pointer speed"
 msgstr "Kursori kiirus:"
 
-#: src/mouse-touchpad.vala:104
+#: src/Plug.vala:111
 #, fuzzy
-msgid "Tap to click"
-msgstr "Koputamisel klõpsu tegemine:"
+msgid "Pointer acceleration"
+msgstr "Kursori kiirus:"
 
-#: src/mouse-touchpad.vala:105
-#, fuzzy
-msgid "Physical clicking"
-msgstr "Füüsiline klõps:"
-
-#: src/mouse-touchpad.vala:106
-#, fuzzy
-msgid "Scrolling"
-msgstr "Kerimine:"
-
-#: src/mouse-touchpad.vala:107
+#: src/Plug.vala:112 src/Plug.vala:118
 #, fuzzy
 msgid "Natural scrolling"
 msgstr "Loomulik kerimine:"
 
-#: src/mouse-touchpad.vala:108
+#: src/Plug.vala:115
+#, fuzzy
+msgid "Tap to click"
+msgstr "Koputamisel klõpsu tegemine:"
+
+#: src/Plug.vala:116
+#, fuzzy
+msgid "Physical clicking"
+msgstr "Füüsiline klõps:"
+
+#: src/Plug.vala:117
+#, fuzzy
+msgid "Scrolling"
+msgstr "Kerimine:"
+
+#: src/Plug.vala:119
 msgid "Disable while typing"
 msgstr ""
 
-#: src/Widgets/TouchpadSection.vala:30
-msgid "Touchpad"
-msgstr "Puutepadi"
-
-#: src/Widgets/TouchpadSection.vala:54 src/Widgets/MouseSection.vala:45
-msgid "Hardware default"
-msgstr "Riistvara vaikimisi valik"
-
-#: src/Widgets/TouchpadSection.vala:55
-msgid "Multitouch"
-msgstr "Mitmepuutetundlik"
-
-#: src/Widgets/TouchpadSection.vala:56
-msgid "Touchpad areas"
-msgstr "Puuteplaadi alad"
-
-#: src/Widgets/TouchpadSection.vala:70
-msgid "Two-finger"
-msgstr "Kahe näpuga"
-
-#: src/Widgets/TouchpadSection.vala:71
-msgid "Edge"
-msgstr "Servas"
-
-#: src/Widgets/TouchpadSection.vala:72
-msgid "Disabled"
-msgstr "Keelatud"
-
-#: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
-msgid "Pointer speed:"
-msgstr "Kursori kiirus:"
-
-#: src/Widgets/TouchpadSection.vala:86
-msgid "Tap to click:"
-msgstr "Koputamisel klõpsu tegemine:"
-
-#: src/Widgets/TouchpadSection.vala:88
-msgid "Physical clicking:"
-msgstr "Füüsiline klõps:"
-
-#: src/Widgets/TouchpadSection.vala:91
-msgid "Scrolling:"
-msgstr "Kerimine:"
-
-#: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
-msgid "Natural scrolling:"
-msgstr "Loomulik kerimine:"
-
-#: src/Widgets/TouchpadSection.vala:95
-msgid "Disable while typing:"
-msgstr ""
-
-#: src/Widgets/MouseSection.vala:28
-msgid "Mouse"
-msgstr "Hiir"
-
-#: src/Widgets/MouseSection.vala:46
-msgid "None"
-msgstr ""
-
-#: src/Widgets/MouseSection.vala:47
-msgid "Adaptive"
-msgstr ""
-
-#: src/Widgets/MouseSection.vala:62
-#, fuzzy
-msgid "Pointer acceleration:"
-msgstr "Kursori kiirus:"
-
-#: src/Widgets/GeneralSection.vala:28
-msgid "General"
-msgstr "Üldine"
-
-#: src/Widgets/GeneralSection.vala:36
+#: src/Views/General.vala:30
 msgid "Left"
 msgstr "Vasak"
 
-#: src/Widgets/GeneralSection.vala:37
+#: src/Views/General.vala:31
 msgid "Right"
 msgstr "Parem"
 
-#: src/Widgets/GeneralSection.vala:47
+#: src/Views/General.vala:40
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Control nuppu vajutades tuuakse kursor esile"
 
-#: src/Widgets/GeneralSection.vala:49
+#: src/Views/General.vala:42
 msgid "Long-press secondary click:"
 msgstr ""
 
-#: src/Widgets/GeneralSection.vala:58
+#: src/Views/General.vala:51
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
 
-#: src/Widgets/GeneralSection.vala:60
+#: src/Views/General.vala:53
 msgid "Long-press length:"
 msgstr ""
 
-#: src/Widgets/GeneralSection.vala:73
+#: src/Views/General.vala:64
 msgid "Primary button:"
 msgstr ""
 
-#: src/Widgets/GeneralSection.vala:75
+#: src/Views/General.vala:66
 msgid "Reveal pointer:"
 msgstr "Kursori esiletoomine:"
 
-#: src/Widgets/GeneralSection.vala:93
+#: src/Views/General.vala:84
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 
-#: src/Widgets/GeneralSection.vala:95
+#: src/Views/General.vala:86
 msgid "Middle click paste:"
+msgstr ""
+
+#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+msgid "Hardware default"
+msgstr "Riistvara vaikimisi valik"
+
+#: src/Views/Mouse.vala:39
+msgid "None"
+msgstr ""
+
+#: src/Views/Mouse.vala:40
+msgid "Adaptive"
+msgstr ""
+
+#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+msgid "Pointer speed:"
+msgstr "Kursori kiirus:"
+
+#: src/Views/Mouse.vala:54
+#, fuzzy
+msgid "Pointer acceleration:"
+msgstr "Kursori kiirus:"
+
+#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+msgid "Natural scrolling:"
+msgstr "Loomulik kerimine:"
+
+#: src/Views/Touchpad.vala:49
+msgid "Multitouch"
+msgstr "Mitmepuutetundlik"
+
+#: src/Views/Touchpad.vala:50
+msgid "Touchpad areas"
+msgstr "Puuteplaadi alad"
+
+#: src/Views/Touchpad.vala:63
+msgid "Two-finger"
+msgstr "Kahe näpuga"
+
+#: src/Views/Touchpad.vala:64
+msgid "Edge"
+msgstr "Servas"
+
+#: src/Views/Touchpad.vala:65
+msgid "Disabled"
+msgstr "Keelatud"
+
+#: src/Views/Touchpad.vala:78
+msgid "Tap to click:"
+msgstr "Koputamisel klõpsu tegemine:"
+
+#: src/Views/Touchpad.vala:80
+msgid "Physical clicking:"
+msgstr "Füüsiline klõps:"
+
+#: src/Views/Touchpad.vala:83
+msgid "Scrolling:"
+msgstr "Kerimine:"
+
+#: src/Views/Touchpad.vala:87
+msgid "Disable while typing:"
 msgstr ""
