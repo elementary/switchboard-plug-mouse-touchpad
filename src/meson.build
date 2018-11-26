@@ -1,11 +1,11 @@
 plug_files = files(
     'mouse-touchpad.vala',
-    'Widgets/TouchpadSection.vala',
-    'Widgets/SettingLabel.vala',
-    'Widgets/MouseSection.vala',
-    'Widgets/GeneralSection.vala',
+    'Backend/MouseSettings.vala',
     'Backend/TouchpadSettings.vala',
-    'Backend/MouseSettings.vala'
+    'Views/General.vala',
+    'Views/Mouse.vala',
+    'Views/Touchpad.vala',
+    'Widgets/SettingLabel.vala',
 )
 
 switchboard_dep = dependency('switchboard-2.0')

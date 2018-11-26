@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2016 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,20 +17,14 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
+public class Mouse : Gtk.Grid {
     public Backend.MouseSettings mouse_settings { get; construct; }
 
-    public MouseSection (Backend.MouseSettings mouse_settings) {
+    public Mouse (Backend.MouseSettings mouse_settings) {
         Object (mouse_settings: mouse_settings);
     }
 
     construct {
-        var title_label = new Gtk.Label (_("Mouse"));
-        title_label.xalign = 0;
-        title_label.hexpand = true;
-        title_label.get_style_context ().add_class ("h4");
-        Plug.start_size_group.add_widget (title_label);
-
         var pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
         pointer_speed_scale.adjustment.value = mouse_settings.speed;
         pointer_speed_scale.digits = 2;
@@ -38,7 +32,7 @@ public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
         pointer_speed_scale.hexpand = true;
         pointer_speed_scale.set_size_request (160, -1);
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
-        Plug.end_size_group.add_widget (pointer_speed_scale);
+        // Plug.end_size_group.add_widget (pointer_speed_scale);
 
         var accel_profile_combobox = new Gtk.ComboBoxText ();
         accel_profile_combobox.hexpand = true;
@@ -56,13 +50,12 @@ public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
         row_spacing = 12;
         column_spacing = 12;
 
-        attach (title_label, 0, 0, 1, 1);
-        attach (new SettingLabel (_("Pointer speed:")), 0, 1, 1, 1);
-        attach (pointer_speed_scale, 1, 1, 1, 1);
-        attach (new SettingLabel (_("Pointer acceleration:")), 0, 2, 1, 1);
-        attach (accel_profile_combobox, 1, 2, 1, 1);
-        attach (new SettingLabel (_("Natural scrolling:")), 0, 3, 1, 1);
-        attach (natural_scrolling_switch, 1, 3, 1, 1);
+        attach (new SettingLabel (_("Pointer speed:")), 0, 0);
+        attach (pointer_speed_scale, 1, 0);
+        attach (new SettingLabel (_("Pointer acceleration:")), 0, 1);
+        attach (accel_profile_combobox, 1, 1);
+        attach (new SettingLabel (_("Natural scrolling:")), 0, 2);
+        attach (natural_scrolling_switch, 1, 2);
 
         pointer_speed_scale.adjustment.bind_property ("value",
                                                       mouse_settings,
@@ -90,3 +83,4 @@ public class MouseTouchpad.Widgets.MouseSection : Gtk.Grid {
         return true;
     }
 }
+

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2016 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,25 +17,18 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
+public class General : Gtk.Grid {
     public Backend.MouseSettings mouse_settings { get; construct; }
 
-    public GeneralSection (Backend.MouseSettings mouse_settings) {
+    public General (Backend.MouseSettings mouse_settings) {
         Object (mouse_settings: mouse_settings);
     }
 
     construct {
-        var title_label = new Gtk.Label (_("General"));
-        title_label.xalign = 0;
-        title_label.hexpand = true;
-        title_label.get_style_context ().add_class ("h4");
-        Plug.start_size_group.add_widget (title_label);
-
         var primary_button_switcher = new Granite.Widgets.ModeButton ();
         primary_button_switcher.width_request = 256;
         primary_button_switcher.append_text (_("Left"));
         primary_button_switcher.append_text (_("Right"));
-        Plug.end_size_group.add_widget (primary_button_switcher);
 
         var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
@@ -64,12 +57,10 @@ public class MouseTouchpad.Widgets.GeneralSection : Gtk.Grid {
         hold_scale.draw_value = false;
         hold_scale.hexpand = true;
         hold_scale.set_size_request (160, -1);
-        Plug.end_size_group.add_widget (hold_scale);
 
         row_spacing = 12;
         column_spacing = 12;
 
-        attach (title_label, 0, 0, 1, 1);
         attach (new SettingLabel (_("Primary button:")), 0, 1);
         attach (primary_button_switcher, 1, 1, 2, 1);
         attach (new SettingLabel (_("Reveal pointer:")), 0, 2);

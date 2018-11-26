@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2015 elementary Developers (https://launchpad.net/elementary)
+ * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,7 +17,7 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.Backend.TouchpadSettings : Granite.Services.Settings {
+public class Backend.TouchpadSettings : Granite.Services.Settings {
     public bool tap_to_click { get; set; }
     public string click_method { get; set; }
     public double speed { get; set; }
@@ -29,3 +29,4 @@ public class MouseTouchpad.Backend.TouchpadSettings : Granite.Services.Settings 
         base ("org.gnome.desktop.peripherals.touchpad");
     }
 }
+
