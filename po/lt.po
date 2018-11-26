@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-26 09:24-0800\n"
-"PO-Revision-Date: 2018-10-16 19:51+0000\n"
+"PO-Revision-Date: 2018-11-26 19:13+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/lt/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-17 06:05+0000\n"
 
@@ -43,7 +43,7 @@ msgstr "Įdėti, spustelėjus vidurinį mygtuką"
 
 #: src/mouse-touchpad.vala:102
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Antrinis spustelėjimas ilguoju paspaudimu"
 
 #: src/mouse-touchpad.vala:103
 msgid "Pointer speed"
@@ -155,15 +155,17 @@ msgstr "Valdymo (Ctrl) klavišo paspaudimas paryškins rodyklės vietą"
 
 #: src/Widgets/GeneralSection.vala:49
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Antrinis spustelėjimas ilguoju paspaudimu:"
 
 #: src/Widgets/GeneralSection.vala:58
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
+"Ilgai paspaudus ir atleidus pirminį mygtuką bus atliktas antrinio "
+"spustelėjimo veiksmas."
 
 #: src/Widgets/GeneralSection.vala:60
 msgid "Long-press length:"
-msgstr ""
+msgstr "Ilgojo paspaudimo trukmė:"
 
 #: src/Widgets/GeneralSection.vala:73
 msgid "Primary button:"
