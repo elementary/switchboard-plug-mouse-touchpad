@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 16:20-0500\n"
-"PO-Revision-Date: 2018-10-15 21:51+0000\n"
+"PO-Revision-Date: 2018-11-24 13:08+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -94,27 +94,27 @@ msgstr "無効"
 
 #: src/Widgets/TouchpadSection.vala:84 src/Widgets/MouseSection.vala:60
 msgid "Pointer speed:"
-msgstr "ポインターの速度:"
+msgstr "ポインターの速度："
 
 #: src/Widgets/TouchpadSection.vala:86
 msgid "Tap to click:"
-msgstr "タップでクリック動作:"
+msgstr "タップでクリック動作："
 
 #: src/Widgets/TouchpadSection.vala:88
 msgid "Physical clicking:"
-msgstr "物理クリックポタン:"
+msgstr "物理クリックポタン："
 
 #: src/Widgets/TouchpadSection.vala:91
 msgid "Scrolling:"
-msgstr "スクロール:"
+msgstr "スクロール："
 
 #: src/Widgets/TouchpadSection.vala:93 src/Widgets/MouseSection.vala:64
 msgid "Natural scrolling:"
-msgstr "スクロールを逆にする:"
+msgstr "ナチュラルスクロール："
 
 #: src/Widgets/TouchpadSection.vala:95
 msgid "Disable while typing:"
-msgstr "タイピング中は無効にする:"
+msgstr "タイピング中は無効にする："
 
 #: src/Widgets/MouseSection.vala:28
 msgid "Mouse"
@@ -130,7 +130,7 @@ msgstr "適応"
 
 #: src/Widgets/MouseSection.vala:62
 msgid "Pointer acceleration:"
-msgstr "ポインターの加速:"
+msgstr "ポインターの加速："
 
 #: src/Widgets/GeneralSection.vala:28
 msgid "General"
@@ -150,19 +150,17 @@ msgstr "Ctrl キーを押すとポインターの位置がハイライトされ�
 
 #: src/Widgets/GeneralSection.vala:53
 msgid "Primary button:"
-msgstr "主ボタン:"
+msgstr "主ボタン："
 
 #: src/Widgets/GeneralSection.vala:55
 msgid "Reveal pointer:"
-msgstr "ポインターのハイライト:"
+msgstr "ポインターのハイライト："
 
 #: src/Widgets/GeneralSection.vala:69
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
-msgstr ""
-"入力欄の上で中クリックまたは3本指のタップをすると選択されたテキストを貼り付け"
-"ます"
+msgstr "入力欄の上で中クリックまたは 3 本指のタップをすると、選択されたテキストを貼り付けます"
 
 #: src/Widgets/GeneralSection.vala:71
 msgid "Middle click paste:"
-msgstr "中クリックで貼り付け:"
+msgstr "中クリックで貼り付け："
