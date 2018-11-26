@@ -17,7 +17,7 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class Backend.MouseSettings : Granite.Services.Settings {
+public class MouseTouchpad.Backend.MouseSettings : Granite.Services.Settings {
     public string accel_profile { get; set; }
     public bool left_handed { get; set; }
     public bool natural_scroll { get; set; }

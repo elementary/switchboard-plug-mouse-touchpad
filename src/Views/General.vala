@@ -17,10 +17,10 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class General : Gtk.Grid {
+public class MouseTouchpad.GeneralView : Gtk.Grid {
     public Backend.MouseSettings mouse_settings { get; construct; }
 
-    public General (Backend.MouseSettings mouse_settings) {
+    public GeneralView (Backend.MouseSettings mouse_settings) {
         Object (mouse_settings: mouse_settings);
     }
 

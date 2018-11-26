@@ -17,7 +17,7 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class Backend.TouchpadSettings : Granite.Services.Settings {
+public class MouseTouchpad.Backend.TouchpadSettings : Granite.Services.Settings {
     public bool tap_to_click { get; set; }
     public string click_method { get; set; }
     public double speed { get; set; }

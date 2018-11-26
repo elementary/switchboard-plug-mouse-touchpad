@@ -17,12 +17,12 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class Touchpad : Gtk.Grid {
+public class MouseTouchpad.TouchpadView : Gtk.Grid {
     private Gtk.Switch click_method_switch;
 
     public Backend.TouchpadSettings touchpad_settings { get; construct; }
 
-    public Touchpad (Backend.TouchpadSettings touchpad_settings) {
+    public TouchpadView (Backend.TouchpadSettings touchpad_settings) {
         Object (touchpad_settings: touchpad_settings);
     }
 

@@ -17,16 +17,16 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class Plug : Switchboard.Plug {
+public class MouseTouchpad.Plug : Switchboard.Plug {
     private Backend.MouseSettings mouse_settings;
     private Backend.TouchpadSettings touchpad_settings;
 
     private Gtk.Stack stack;
     private Gtk.ScrolledWindow scrolled;
 
-    private General general_view;
-    private Mouse mouse_view;
-    private Touchpad touchpad_view;
+    private GeneralView general_view;
+    private MouseView mouse_view;
+    private TouchpadView touchpad_view;
 
     public Plug () {
         var settings = new Gee.TreeMap<string, string?> (null, null);
@@ -46,9 +46,9 @@ public class Plug : Switchboard.Plug {
         if (scrolled == null) {
             load_settings ();
 
-            general_view = new General (mouse_settings);
-            mouse_view = new Mouse (mouse_settings);
-            touchpad_view = new Touchpad (touchpad_settings);
+            general_view = new GeneralView (mouse_settings);
+            mouse_view = new MouseView (mouse_settings);
+            touchpad_view = new TouchpadView (touchpad_settings);
 
             stack = new Gtk.Stack ();
             stack.margin = 12;
@@ -128,7 +128,7 @@ public class Plug : Switchboard.Plug {
 public Switchboard.Plug get_plug (Module module) {
     debug ("Activating Mouse-Touchpad plug");
 
-    var plug = new Plug ();
+    var plug = new MouseTouchpad.Plug ();
 
     return plug;
 }
