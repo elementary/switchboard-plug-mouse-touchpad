@@ -1,5 +1,5 @@
 plug_files = files(
-    'mouse-touchpad.vala',
+    'Plug.vala',
     'Widgets/TouchpadSection.vala',
     'Widgets/SettingLabel.vala',
     'Widgets/MouseSection.vala',
