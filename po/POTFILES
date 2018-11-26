@@ -1,4 +1,4 @@
-src/mouse-touchpad.vala
+src/Plug.vala
 src/Widgets/TouchpadSection.vala
 src/Widgets/SettingLabel.vala
 src/Widgets/MouseSection.vala
