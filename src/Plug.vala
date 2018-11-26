@@ -34,12 +34,14 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         var settings = new Gee.TreeMap<string, string?> (null, null);
         settings.set ("input/mouse", null);
         settings.set ("input/touch", null);
-        Object (category: Category.HARDWARE,
-                code_name: "pantheon-mouse-touchpad",
-                display_name: _("Mouse & Touchpad"),
-                description: _("Configure mouse and touchpad"),
-                icon: "preferences-desktop-peripherals",
-                supported_settings: settings);
+        Object (
+            category: Category.HARDWARE,
+            code_name: "pantheon-mouse-touchpad",
+            display_name: _("Mouse & Touchpad"),
+            description: _("Configure mouse and touchpad"),
+            icon: "preferences-desktop-peripherals",
+            supported_settings: settings
+        );
     }
 
     public override Gtk.Widget get_widget () {
@@ -141,3 +143,4 @@ public Switchboard.Plug get_plug (Module module) {
 
     return plug;
 }
+

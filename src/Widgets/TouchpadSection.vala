@@ -137,32 +137,42 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
             natural_scrolling_switch.sensitive = active_text != "disabled";
         });
 
-        touchpad_settings.bind_property ("tap-to-click",
-                                         tap_to_click_switch,
-                                         "state",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+        touchpad_settings.bind_property (
+            "tap-to-click",
+            tap_to_click_switch,
+            "state",
+            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
+        );
 
-        touchpad_settings.bind_property ("click-method",
-                                         click_method_combobox,
-                                         "active-id",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE,
-                                         click_method_transform_func);
+        touchpad_settings.bind_property (
+            "click-method",
+            click_method_combobox,
+            "active-id",
+            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE,
+            click_method_transform_func
+        );
 
-        pointer_speed_scale.adjustment.bind_property ("value",
-                                                      touchpad_settings,
-                                                      "speed",
-                                                      BindingFlags.SYNC_CREATE,
-                                                      pointer_speed_scale_transform_func);
+        pointer_speed_scale.adjustment.bind_property (
+            "value",
+            touchpad_settings,
+            "speed",
+            BindingFlags.SYNC_CREATE,
+            pointer_speed_scale_transform_func
+        );
 
-        touchpad_settings.bind_property ("natural-scroll",
-                                         natural_scrolling_switch,
-                                         "state",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+        touchpad_settings.bind_property (
+            "natural-scroll",
+            natural_scrolling_switch,
+            "state",
+            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
+        );
 
-        touchpad_settings.bind_property ("disable-while-typing",
-                                         disable_while_typing_switch,
-                                         "state",
-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
+        touchpad_settings.bind_property (
+            "disable-while-typing",
+            disable_while_typing_switch,
+            "state",
+            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
+        );
     }
 
     private bool click_method_transform_func (Binding binding, Value source_value, ref Value target_value) {
@@ -181,3 +191,4 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
         return true;
     }
 }
+
