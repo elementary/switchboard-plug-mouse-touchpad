@@ -69,12 +69,14 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         hold_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
         var hold_length_label = new SettingLabel (_("Long-press length:"));
+        hold_length_label.margin_bottom = 18;
 
         var hold_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0.5, 2.0, 0.1);
-        hold_scale.add_mark (1.2, Gtk.PositionType.BOTTOM, null);
         hold_scale.draw_value = false;
         hold_scale.hexpand = true;
-        hold_scale.set_size_request (160, -1);
+        hold_scale.margin_bottom = 10;
+        hold_scale.width_request = 160;
+        hold_scale.add_mark (1.2, Gtk.PositionType.BOTTOM, null);
 
         row_spacing = 6;
         column_spacing = 12;
@@ -96,14 +98,13 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
             primary_paste_switch.halign = Gtk.Align.START;
             primary_paste_switch.margin_end = 8;
 
-            var primary_paste_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
-            primary_paste_help.halign = Gtk.Align.START;
-            primary_paste_help.hexpand = true;
-            primary_paste_help.tooltip_text = _("Middle or three-finger clicking on an input will paste any selected text");
+            var primary_paste_help = new Gtk.Label (_("Middle or three-finger clicking on an input will paste any selected text"));
+            primary_paste_help.xalign = 0;
+            primary_paste_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-            attach (new SettingLabel (_("Middle click paste:")), 0, 4);
-            attach (primary_paste_switch, 1, 4);
-            attach (primary_paste_help, 2, 4);
+            attach (new SettingLabel (_("Middle click paste:")), 0, 6);
+            attach (primary_paste_switch, 1, 6);
+            attach (primary_paste_help, 1, 7);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
             primary_paste_switch.notify["active"].connect (() => on_primary_paste_switch_changed (primary_paste_switch, xsettings));
