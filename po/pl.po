@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-26 15:55-0800\n"
-"PO-Revision-Date: 2018-10-16 10:28+0000\n"
+"PO-Revision-Date: 2018-11-27 23:20+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pl/>\n"
@@ -57,20 +57,19 @@ msgstr "Wklejenie poprzez kliknięcie środkowym przyciskiem"
 
 #: src/Plug.vala:106
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Długie przytrzymanie kliknięcia prawym przyciskiem myszy"
 
 #: src/Plug.vala:107
 msgid "Long-press length"
-msgstr ""
+msgstr "Długość długiego przytrzymania"
 
 #: src/Plug.vala:110 src/Plug.vala:114
 msgid "Pointer speed"
 msgstr "Szybkość wskaźnika"
 
 #: src/Plug.vala:111
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Przyspieszenie wskaźnika:"
+msgstr "Przyspieszenie wskaźnika"
 
 #: src/Plug.vala:112 src/Plug.vala:118
 msgid "Natural scrolling"
