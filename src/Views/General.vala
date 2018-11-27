@@ -25,19 +25,29 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
     }
 
     construct {
+        var primary_button_label = new SettingLabel (_("Primary button:"));
+        primary_button_label.margin_bottom = 18;
+
+        var mouse_left = new Gtk.Image.from_icon_name ("mouse-left-symbolic", Gtk.IconSize.DND);
+        mouse_left.tooltip_text = _("Left");
+
+        var mouse_right = new Gtk.Image.from_icon_name ("mouse-right-symbolic", Gtk.IconSize.DND);
+        mouse_right.tooltip_text = _("Right");
+
         var primary_button_switcher = new Granite.Widgets.ModeButton ();
+        primary_button_switcher.margin_bottom = 18;
         primary_button_switcher.width_request = 256;
-        primary_button_switcher.append_text (_("Left"));
-        primary_button_switcher.append_text (_("Right"));
+        primary_button_switcher.append (mouse_left);
+        primary_button_switcher.append (mouse_right);
 
         var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
         reveal_pointer_switch.margin_end = 8;
 
-        var locate_pointer_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
-        locate_pointer_help.halign = Gtk.Align.START;
-        locate_pointer_help.hexpand = true;
-        locate_pointer_help.tooltip_text = _("Pressing the control key will highlight the position of the pointer");
+        var locate_pointer_help = new Gtk.Label (_("Pressing the control key will highlight the position of the pointer"));
+        locate_pointer_help.margin_bottom = 18;
+        locate_pointer_help.xalign = 0;
+        locate_pointer_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
         var hold_label = new SettingLabel (_("Long-press secondary click:"));
 
@@ -45,10 +55,10 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         hold_switch.halign = Gtk.Align.START;
         hold_switch.margin_end = 8;
 
-        var hold_help = new Gtk.Image.from_icon_name ("help-info-symbolic", Gtk.IconSize.BUTTON);
-        hold_help.halign = Gtk.Align.START;
-        hold_help.hexpand = true;
-        hold_help.tooltip_text = _("Long-pressing and releasing the primary button will secondary click.");
+        var hold_help = new Gtk.Label (_("Long-pressing and releasing the primary button will secondary click."));
+        hold_help.margin_bottom = 18;
+        hold_help.xalign = 0;
+        hold_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
         var hold_length_label = new SettingLabel (_("Long-press length:"));
 
@@ -58,19 +68,19 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         hold_scale.hexpand = true;
         hold_scale.set_size_request (160, -1);
 
-        row_spacing = 12;
+        row_spacing = 6;
         column_spacing = 12;
 
-        attach (new SettingLabel (_("Primary button:")), 0, 0);
+        attach (primary_button_label, 0, 0);
         attach (primary_button_switcher, 1, 0, 2, 1);
         attach (new SettingLabel (_("Reveal pointer:")), 0, 1);
         attach (reveal_pointer_switch, 1, 1);
-        attach (locate_pointer_help, 2, 1);
-        attach (hold_label, 0, 2);
-        attach (hold_switch, 1, 2);
-        attach (hold_help, 2, 2);
-        attach (hold_length_label, 0, 3);
-        attach (hold_scale, 1, 3, 2);
+        attach (locate_pointer_help, 1, 2);
+        attach (hold_label, 0, 3);
+        attach (hold_switch, 1, 3);
+        attach (hold_help, 1, 4);
+        attach (hold_length_label, 0, 5);
+        attach (hold_scale, 1, 5, 2);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
         if (xsettings_schema != null) {

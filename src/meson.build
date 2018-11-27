@@ -12,6 +12,7 @@ switchboard_dep = dependency('switchboard-2.0')
 
 shared_module(
     meson.project_name(),
+    icon_res,
     plug_files,
     dependencies: [
         dependency('glib-2.0'),
