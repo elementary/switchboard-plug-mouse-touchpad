@@ -35,6 +35,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         mouse_right.tooltip_text = _("Right");
 
         var primary_button_switcher = new Granite.Widgets.ModeButton ();
+        primary_button_switcher.halign = Gtk.Align.START;
         primary_button_switcher.margin_bottom = 18;
         primary_button_switcher.width_request = 256;
         primary_button_switcher.append (mouse_left);
