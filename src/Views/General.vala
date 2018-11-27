@@ -38,8 +38,15 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         primary_button_switcher.halign = Gtk.Align.START;
         primary_button_switcher.margin_bottom = 18;
         primary_button_switcher.width_request = 256;
-        primary_button_switcher.append (mouse_left);
-        primary_button_switcher.append (mouse_right);
+
+        if (Gtk.StateFlags.DIR_LTR in get_state_flags ()) {
+            primary_button_switcher.append (mouse_left);
+            primary_button_switcher.append (mouse_right);
+        } else {
+            primary_button_switcher.append (mouse_right);
+            primary_button_switcher.append (mouse_left);
+        }
+
 
         var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
