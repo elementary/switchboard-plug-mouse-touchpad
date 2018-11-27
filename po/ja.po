@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-26 15:55-0800\n"
-"PO-Revision-Date: 2018-11-26 22:00+0000\n"
+"PO-Revision-Date: 2018-11-27 03:09+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -59,18 +59,16 @@ msgid "Long-press secondary click"
 msgstr "長押しで右クリック"
 
 #: src/Plug.vala:107
-#, fuzzy
 msgid "Long-press length"
-msgstr "長押しの長さ："
+msgstr "長押しの長さ"
 
 #: src/Plug.vala:110 src/Plug.vala:114
 msgid "Pointer speed"
 msgstr "ポインターの速度"
 
 #: src/Plug.vala:111
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "ポインターの加速："
+msgstr "ポインターの加速"
 
 #: src/Plug.vala:112 src/Plug.vala:118
 msgid "Natural scrolling"

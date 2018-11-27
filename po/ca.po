@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-26 15:55-0800\n"
-"PO-Revision-Date: 2018-10-17 00:07+0000\n"
+"PO-Revision-Date: 2018-11-27 17:56+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ca/>\n"
@@ -56,20 +56,19 @@ msgstr "Enganxa amb el botó del mig"
 
 #: src/Plug.vala:106
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Clic secundari per a la pressió d'estona"
 
 #: src/Plug.vala:107
 msgid "Long-press length"
-msgstr ""
+msgstr "Durada de la pressió d'estona"
 
 #: src/Plug.vala:110 src/Plug.vala:114
 msgid "Pointer speed"
 msgstr "Velocitat del punter"
 
 #: src/Plug.vala:111
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Acceleració del punter:"
+msgstr "Acceleració del punter"
 
 #: src/Plug.vala:112 src/Plug.vala:118
 msgid "Natural scrolling"
@@ -105,15 +104,17 @@ msgstr "Prémer la tecla de control realçarà la posició del punter."
 
 #: src/Views/General.vala:42
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Clic secundari per a la pressió d'estona:"
 
 #: src/Views/General.vala:51
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
+"Prémer durant un temps llarg i deixar anar el botó primari significarà un "
+"clic secundari."
 
 #: src/Views/General.vala:53
 msgid "Long-press length:"
-msgstr ""
+msgstr "Durada de la pressió d'estona:"
 
 #: src/Views/General.vala:64
 msgid "Primary button:"

@@ -30,6 +30,10 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     public Plug () {
         var settings = new Gee.TreeMap<string, string?> (null, null);
+        settings.set ("input/pointer/mouse", "mouse");
+        settings.set ("input/pointer/touch", "touchpad");
+        settings.set ("input/pointer", "general");
+        // deprecated
         settings.set ("input/mouse", null);
         settings.set ("input/touch", "touchpad");
 
