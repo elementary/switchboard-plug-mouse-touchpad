@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-26 15:55-0800\n"
-"PO-Revision-Date: 2018-10-20 03:00+0000\n"
+"PO-Revision-Date: 2018-11-27 06:40+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ko/>\n"
@@ -56,20 +56,19 @@ msgstr "가운데 클릭 붙여 넣기"
 
 #: src/Plug.vala:106
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "길게 누르기로 보조 클릭"
 
 #: src/Plug.vala:107
 msgid "Long-press length"
-msgstr ""
+msgstr "길게 누르기 시간"
 
 #: src/Plug.vala:110 src/Plug.vala:114
 msgid "Pointer speed"
 msgstr "포인터 속도"
 
 #: src/Plug.vala:111
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "포인터 가속:"
+msgstr "포인터 가속"
 
 #: src/Plug.vala:112 src/Plug.vala:118
 msgid "Natural scrolling"
@@ -105,15 +104,15 @@ msgstr "ctrl 키를 누르면 포인터 위치를 표시합니다"
 
 #: src/Views/General.vala:42
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "길게 누르기로 보조 클릭:"
 
 #: src/Views/General.vala:51
 msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
+msgstr "실행 버튼을 길게 눌렀다 놓으면 보조 클릭 기능을 합니다."
 
 #: src/Views/General.vala:53
 msgid "Long-press length:"
-msgstr ""
+msgstr "길게 누르기 시간:"
 
 #: src/Views/General.vala:64
 msgid "Primary button:"
