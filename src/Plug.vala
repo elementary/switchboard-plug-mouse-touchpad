@@ -51,6 +51,9 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         if (scrolled == null) {
             load_settings ();
 
+            weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
+            default_theme.add_resource_path ("/io/elementary/switchboard/mouse-touchpad");
+
             general_view = new GeneralView (mouse_settings);
             mouse_view = new MouseView (mouse_settings);
             touchpad_view = new TouchpadView (touchpad_settings);
