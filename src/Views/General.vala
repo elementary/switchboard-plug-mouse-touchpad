@@ -42,9 +42,23 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         if (Gtk.StateFlags.DIR_LTR in get_state_flags ()) {
             primary_button_switcher.append (mouse_left);
             primary_button_switcher.append (mouse_right);
+
+            mouse_settings.bind_property (
+                "left-handed",
+                primary_button_switcher,
+                "selected",
+                BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
+            );
         } else {
             primary_button_switcher.append (mouse_right);
             primary_button_switcher.append (mouse_left);
+
+            mouse_settings.bind_property (
+                "left-handed",
+                primary_button_switcher,
+                "selected",
+                BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE | BindingFlags.INVERT_BOOLEAN
+            );
         }
 
 
@@ -117,13 +131,6 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         var daemon_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
         daemon_settings.bind ("locate-pointer", reveal_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-
-        mouse_settings.bind_property (
-            "left-handed",
-            primary_button_switcher,
-            "selected",
-            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
-        );
 
         var a11y_mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
         a11y_mouse_settings.bind ("secondary-click-enabled", hold_switch, "active", GLib.SettingsBindFlags.DEFAULT);
