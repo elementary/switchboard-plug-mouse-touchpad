@@ -20,6 +20,8 @@
 public class MouseTouchpad.GeneralView : Gtk.Grid {
     public Backend.MouseSettings mouse_settings { get; construct; }
 
+    private Granite.Widgets.ModeButton primary_button_switcher;
+
     public GeneralView (Backend.MouseSettings mouse_settings) {
         Object (mouse_settings: mouse_settings);
     }
@@ -34,7 +36,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         var mouse_right = new Gtk.Image.from_icon_name ("mouse-right-symbolic", Gtk.IconSize.DND);
         mouse_right.tooltip_text = _("Right");
 
-        var primary_button_switcher = new Granite.Widgets.ModeButton ();
+        primary_button_switcher = new Granite.Widgets.ModeButton ();
         primary_button_switcher.halign = Gtk.Align.START;
         primary_button_switcher.margin_bottom = 18;
         primary_button_switcher.width_request = 256;
@@ -53,12 +55,19 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
             primary_button_switcher.append (mouse_right);
             primary_button_switcher.append (mouse_left);
 
-            mouse_settings.bind_property (
-                "left-handed",
-                primary_button_switcher,
-                "selected",
-                BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE | BindingFlags.INVERT_BOOLEAN
-            );
+            update_rtl_modebutton ();
+
+            mouse_settings.notify["left-handed"].connect (() => {
+                update_rtl_modebutton ();
+            });
+
+            primary_button_switcher.mode_changed.connect (() => {
+                if (primary_button_switcher.selected == 0) {
+                    mouse_settings.left_handed = true;
+                } else {
+                    mouse_settings.left_handed = false;
+                }
+            });
         }
 
 
@@ -138,6 +147,14 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         hold_switch.bind_property ("active", hold_length_label, "sensitive", BindingFlags.SYNC_CREATE);
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
+    }
+
+    private void update_rtl_modebutton () {
+        if (mouse_settings.left_handed) {
+            primary_button_switcher.selected = 0;
+        } else {
+            primary_button_switcher.selected = 1;
+        }
     }
 
     private void on_primary_paste_switch_changed (Gtk.Switch switch, GLib.Settings xsettings) {
