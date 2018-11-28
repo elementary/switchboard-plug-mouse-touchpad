@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 16:11-0800\n"
-"PO-Revision-Date: 2018-10-17 00:07+0000\n"
+"PO-Revision-Date: 2018-11-28 14:28+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt_BR/>\n"
@@ -56,20 +56,19 @@ msgstr "Colar com clique do meio"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Clique secundário de longa pressão"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr ""
+msgstr "Duração do clique de longa duração"
 
 #: src/Plug.vala:117 src/Plug.vala:121
 msgid "Pointer speed"
 msgstr "Velocidade do cursor"
 
 #: src/Plug.vala:118
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Aceleração do cursor:"
+msgstr "Aceleração do cursor"
 
 #: src/Plug.vala:119 src/Plug.vala:125
 msgid "Natural scrolling"
@@ -109,15 +108,17 @@ msgstr "Quando pressionado o botão crlt, a posição do cursor será revelada"
 
 #: src/Views/General.vala:83
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Toque secundário de longa pressão:"
 
 #: src/Views/General.vala:89
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
+"Pressionando e soltando por um tempo maior o botão principal fará um clique "
+"secundário."
 
 #: src/Views/General.vala:94
 msgid "Long-press length:"
-msgstr ""
+msgstr "Duração do toque de longa duração:"
 
 #: src/Views/General.vala:109
 msgid "Reveal pointer:"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 16:11-0800\n"
-"PO-Revision-Date: 2018-10-16 00:57+0000\n"
+"PO-Revision-Date: 2018-11-28 12:54+0000\n"
 "Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/it/>\n"
@@ -56,20 +56,19 @@ msgstr "Incollare con un clic centrale"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Clic secondario lungo"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr ""
+msgstr "Durata del clic lungo"
 
 #: src/Plug.vala:117 src/Plug.vala:121
 msgid "Pointer speed"
 msgstr "Velocità del puntatore"
 
 #: src/Plug.vala:118
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Accelerazione del puntatore:"
+msgstr "Accelerazione del puntatore"
 
 #: src/Plug.vala:119 src/Plug.vala:125
 msgid "Natural scrolling"
@@ -109,15 +108,15 @@ msgstr "Premere il pulsante control evidenzierà la posizione del puntatore"
 
 #: src/Views/General.vala:83
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Clic secondario lungo:"
 
 #: src/Views/General.vala:89
 msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
+msgstr "Un clic lungo del bottone primario attiva li clic secondario."
 
 #: src/Views/General.vala:94
 msgid "Long-press length:"
-msgstr ""
+msgstr "Durata del clic lungo:"
 
 #: src/Views/General.vala:109
 msgid "Reveal pointer:"
