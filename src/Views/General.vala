@@ -105,7 +105,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         var keypad_pointer_adjustment = new Gtk.Adjustment (0, 0, 500, 10, 10, 10);
 
-        var pointer_speed_label = new SettingLabel (_("Pointer speed:"));
+        var pointer_speed_label = new SettingLabel (_("Keypad pointer speed:"));
         pointer_speed_label.margin_bottom = 7;
 
         var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, keypad_pointer_adjustment);
