@@ -72,6 +72,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         var locate_pointer_help = new Gtk.Label (_("Pressing the control key will highlight the position of the pointer"));
         locate_pointer_help.margin_bottom = 18;
+        locate_pointer_help.wrap = true;
         locate_pointer_help.xalign = 0;
         locate_pointer_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
@@ -82,6 +83,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         var hold_help = new Gtk.Label (_("Long-pressing and releasing the primary button will secondary click."));
         hold_help.margin_bottom = 6;
+        hold_help.wrap = true;
         hold_help.xalign = 0;
         hold_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
@@ -110,6 +112,11 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.add_mark (10, Gtk.PositionType.BOTTOM, null);
 
+        var pointer_speed_help = new Gtk.Label (_("Use a numeric keypad to control the mouse pointer. Note that this disables both levels of keys on your keypad."));
+        pointer_speed_help.wrap = true;
+        pointer_speed_help.xalign = 0;
+        pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+
         row_spacing = 6;
         column_spacing = 12;
 
@@ -127,6 +134,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         attach (keypad_pointer_switch, 1, 8);
         attach (pointer_speed_label, 0, 9);
         attach (pointer_speed_scale, 1, 9);
+        attach (pointer_speed_help, 1, 10);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
         if (xsettings_schema != null) {
@@ -136,6 +144,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
             var primary_paste_help = new Gtk.Label (_("Middle or three-finger clicking on an input will paste any selected text"));
             primary_paste_help.margin_bottom = 18;
+            primary_paste_help.wrap = true;
             primary_paste_help.xalign = 0;
             primary_paste_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
