@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-26 15:55-0800\n"
+"POT-Creation-Date: 2018-11-27 16:11-0800\n"
 "PO-Revision-Date: 2018-03-26 01:22+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/"
@@ -20,124 +20,124 @@ msgstr ""
 "X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
-#: src/Plug.vala:39
+#: src/Plug.vala:43
 msgid "Mouse & Touchpad"
 msgstr "滑鼠和觸控板"
 
-#: src/Plug.vala:40
+#: src/Plug.vala:44
 msgid "Configure mouse and touchpad"
 msgstr "調整滑鼠和觸控板設定"
 
-#: src/Plug.vala:56
+#: src/Plug.vala:63
 msgid "General"
 msgstr "一般"
 
-#: src/Plug.vala:57 src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111
-#: src/Plug.vala:112
+#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Mouse"
 msgstr "滑鼠"
 
-#: src/Plug.vala:58 src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115
-#: src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
+#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
 msgid "Touchpad"
 msgstr "觸控板"
 
-#: src/Plug.vala:103
+#: src/Plug.vala:110
 #, fuzzy
 msgid "Primary button"
 msgstr "主按鍵："
 
-#: src/Plug.vala:104
+#: src/Plug.vala:111
 #, fuzzy
 msgid "Reveal pointer"
 msgstr "揭示指標："
 
-#: src/Plug.vala:105 src/Plug.vala:108
+#: src/Plug.vala:112 src/Plug.vala:115
 #, fuzzy
 msgid "Middle click paste"
 msgstr "中鍵點按貼上："
 
-#: src/Plug.vala:106
+#: src/Plug.vala:113
 msgid "Long-press secondary click"
 msgstr ""
 
-#: src/Plug.vala:107
+#: src/Plug.vala:114
 msgid "Long-press length"
 msgstr ""
 
-#: src/Plug.vala:110 src/Plug.vala:114
+#: src/Plug.vala:117 src/Plug.vala:121
 #, fuzzy
 msgid "Pointer speed"
 msgstr "指標速度："
 
-#: src/Plug.vala:111
+#: src/Plug.vala:118
 #, fuzzy
 msgid "Pointer acceleration"
 msgstr "指標加速度："
 
-#: src/Plug.vala:112 src/Plug.vala:118
+#: src/Plug.vala:119 src/Plug.vala:125
 #, fuzzy
 msgid "Natural scrolling"
 msgstr "自然捲動："
 
-#: src/Plug.vala:115
+#: src/Plug.vala:122
 #, fuzzy
 msgid "Tap to click"
 msgstr "輕觸表示點擊："
 
-#: src/Plug.vala:116
+#: src/Plug.vala:123
 #, fuzzy
 msgid "Physical clicking"
 msgstr "實體點擊："
 
-#: src/Plug.vala:117
+#: src/Plug.vala:124
 #, fuzzy
 msgid "Scrolling"
 msgstr "捲動："
 
-#: src/Plug.vala:119
+#: src/Plug.vala:126
 #, fuzzy
 msgid "Disable while typing"
 msgstr "打字時停用："
 
 #: src/Views/General.vala:30
-msgid "Left"
-msgstr "左"
-
-#: src/Views/General.vala:31
-msgid "Right"
-msgstr "右"
-
-#: src/Views/General.vala:40
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "按下 Ctl 鍵可以突顯指標的位置"
-
-#: src/Views/General.vala:42
-msgid "Long-press secondary click:"
-msgstr ""
-
-#: src/Views/General.vala:51
-msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
-
-#: src/Views/General.vala:53
-msgid "Long-press length:"
-msgstr ""
-
-#: src/Views/General.vala:64
 msgid "Primary button:"
 msgstr "主按鍵："
 
-#: src/Views/General.vala:66
+#: src/Views/General.vala:34
+msgid "Left"
+msgstr "左"
+
+#: src/Views/General.vala:37
+msgid "Right"
+msgstr "右"
+
+#: src/Views/General.vala:78
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "按下 Ctl 鍵可以突顯指標的位置"
+
+#: src/Views/General.vala:83
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Views/General.vala:89
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Views/General.vala:94
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Views/General.vala:109
 msgid "Reveal pointer:"
 msgstr "揭示指標："
 
-#: src/Views/General.vala:84
+#: src/Views/General.vala:124
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr "滑鼠中鍵或三指點按輸入可貼上所選取的文字"
 
-#: src/Views/General.vala:86
+#: src/Views/General.vala:128
 msgid "Middle click paste:"
 msgstr "中鍵點按貼上："
 

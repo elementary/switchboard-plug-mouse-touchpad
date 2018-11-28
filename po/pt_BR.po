@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-26 15:55-0800\n"
+"POT-Creation-Date: 2018-11-27 16:11-0800\n"
 "PO-Revision-Date: 2018-10-17 00:07+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
@@ -20,117 +20,117 @@ msgstr ""
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
-#: src/Plug.vala:39
+#: src/Plug.vala:43
 msgid "Mouse & Touchpad"
 msgstr "Mouse e Touchpad"
 
-#: src/Plug.vala:40
+#: src/Plug.vala:44
 msgid "Configure mouse and touchpad"
 msgstr "Configurar o mouse e o touchpad"
 
-#: src/Plug.vala:56
+#: src/Plug.vala:63
 msgid "General"
 msgstr "Geral"
 
-#: src/Plug.vala:57 src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111
-#: src/Plug.vala:112
+#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Mouse"
 msgstr "Mouse"
 
-#: src/Plug.vala:58 src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115
-#: src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
+#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
 msgid "Touchpad"
 msgstr "Touchpad"
 
-#: src/Plug.vala:103
+#: src/Plug.vala:110
 msgid "Primary button"
 msgstr "Botão principal"
 
-#: src/Plug.vala:104
+#: src/Plug.vala:111
 msgid "Reveal pointer"
 msgstr "Revelar o cursor"
 
-#: src/Plug.vala:105 src/Plug.vala:108
+#: src/Plug.vala:112 src/Plug.vala:115
 msgid "Middle click paste"
 msgstr "Colar com clique do meio"
 
-#: src/Plug.vala:106
+#: src/Plug.vala:113
 msgid "Long-press secondary click"
 msgstr ""
 
-#: src/Plug.vala:107
+#: src/Plug.vala:114
 msgid "Long-press length"
 msgstr ""
 
-#: src/Plug.vala:110 src/Plug.vala:114
+#: src/Plug.vala:117 src/Plug.vala:121
 msgid "Pointer speed"
 msgstr "Velocidade do cursor"
 
-#: src/Plug.vala:111
+#: src/Plug.vala:118
 #, fuzzy
 msgid "Pointer acceleration"
 msgstr "Aceleração do cursor:"
 
-#: src/Plug.vala:112 src/Plug.vala:118
+#: src/Plug.vala:119 src/Plug.vala:125
 msgid "Natural scrolling"
 msgstr "Rolagem natural"
 
-#: src/Plug.vala:115
+#: src/Plug.vala:122
 msgid "Tap to click"
 msgstr "Toque para clicar"
 
-#: src/Plug.vala:116
+#: src/Plug.vala:123
 msgid "Physical clicking"
 msgstr "Clique físico"
 
-#: src/Plug.vala:117
+#: src/Plug.vala:124
 msgid "Scrolling"
 msgstr "Rolagem"
 
-#: src/Plug.vala:119
+#: src/Plug.vala:126
 msgid "Disable while typing"
 msgstr "Desativar ao digitar"
 
 #: src/Views/General.vala:30
-msgid "Left"
-msgstr "Esquerda"
-
-#: src/Views/General.vala:31
-msgid "Right"
-msgstr "Direita"
-
-#: src/Views/General.vala:40
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Quando pressionado o botão crlt, a posição do cursor será revelada"
-
-#: src/Views/General.vala:42
-msgid "Long-press secondary click:"
-msgstr ""
-
-#: src/Views/General.vala:51
-msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
-
-#: src/Views/General.vala:53
-msgid "Long-press length:"
-msgstr ""
-
-#: src/Views/General.vala:64
 msgid "Primary button:"
 msgstr "Botão principal:"
 
-#: src/Views/General.vala:66
+#: src/Views/General.vala:34
+msgid "Left"
+msgstr "Esquerda"
+
+#: src/Views/General.vala:37
+msgid "Right"
+msgstr "Direita"
+
+#: src/Views/General.vala:78
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Quando pressionado o botão crlt, a posição do cursor será revelada"
+
+#: src/Views/General.vala:83
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Views/General.vala:89
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Views/General.vala:94
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Views/General.vala:109
 msgid "Reveal pointer:"
 msgstr "Revelar o cursor:"
 
-#: src/Views/General.vala:84
+#: src/Views/General.vala:124
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Clicando no meio ou com três dedos em uma entrada, você colará qualquer "
 "texto selecionado"
 
-#: src/Views/General.vala:86
+#: src/Views/General.vala:128
 msgid "Middle click paste:"
 msgstr "Colagem de clique do meio:"
 

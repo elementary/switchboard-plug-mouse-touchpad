@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-26 15:55-0800\n"
+"POT-Creation-Date: 2018-11-27 16:11-0800\n"
 "PO-Revision-Date: 2016-02-23 20:47+0000\n"
 "Last-Translator: momit rahman <momitrahman@gmail.com>\n"
 "Language-Team: Bengali <bn@li.org>\n"
@@ -18,120 +18,120 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 "X-Generator: Launchpad (build 18326)\n"
 
-#: src/Plug.vala:39
+#: src/Plug.vala:43
 msgid "Mouse & Touchpad"
 msgstr "মাউস ও টাচপ্যাড"
 
-#: src/Plug.vala:40
+#: src/Plug.vala:44
 msgid "Configure mouse and touchpad"
 msgstr ""
 
-#: src/Plug.vala:56
+#: src/Plug.vala:63
 msgid "General"
 msgstr "সাধারন"
 
-#: src/Plug.vala:57 src/Plug.vala:109 src/Plug.vala:110 src/Plug.vala:111
-#: src/Plug.vala:112
+#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Mouse"
 msgstr "মাউস"
 
-#: src/Plug.vala:58 src/Plug.vala:113 src/Plug.vala:114 src/Plug.vala:115
-#: src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
+#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
 msgid "Touchpad"
 msgstr "টাচপ্যাড"
 
-#: src/Plug.vala:103
+#: src/Plug.vala:110
 msgid "Primary button"
 msgstr ""
 
-#: src/Plug.vala:104
+#: src/Plug.vala:111
 #, fuzzy
 msgid "Reveal pointer"
 msgstr "মাউসের পইন্টার দেখানঃ"
 
-#: src/Plug.vala:105 src/Plug.vala:108
+#: src/Plug.vala:112 src/Plug.vala:115
 msgid "Middle click paste"
 msgstr ""
 
-#: src/Plug.vala:106
+#: src/Plug.vala:113
 msgid "Long-press secondary click"
 msgstr ""
 
-#: src/Plug.vala:107
+#: src/Plug.vala:114
 msgid "Long-press length"
 msgstr ""
 
-#: src/Plug.vala:110 src/Plug.vala:114
+#: src/Plug.vala:117 src/Plug.vala:121
 #, fuzzy
 msgid "Pointer speed"
 msgstr "পয়েন্টারের গতি:"
 
-#: src/Plug.vala:111
+#: src/Plug.vala:118
 #, fuzzy
 msgid "Pointer acceleration"
 msgstr "পয়েন্টারের গতি:"
 
-#: src/Plug.vala:112 src/Plug.vala:118
+#: src/Plug.vala:119 src/Plug.vala:125
 #, fuzzy
 msgid "Natural scrolling"
 msgstr "সাধারন ভাবে উপরে নিচে নেওয়াঃ"
 
-#: src/Plug.vala:115
+#: src/Plug.vala:122
 #, fuzzy
 msgid "Tap to click"
 msgstr "ক্লিক করতে টোকা দেনঃ"
 
-#: src/Plug.vala:116
+#: src/Plug.vala:123
 msgid "Physical clicking"
 msgstr ""
 
-#: src/Plug.vala:117
+#: src/Plug.vala:124
 #, fuzzy
 msgid "Scrolling"
 msgstr "উপরে নিচে করাঃ"
 
-#: src/Plug.vala:119
+#: src/Plug.vala:126
 msgid "Disable while typing"
 msgstr ""
 
 #: src/Views/General.vala:30
-msgid "Left"
-msgstr "বামে"
-
-#: src/Views/General.vala:31
-msgid "Right"
-msgstr "ডানে"
-
-#: src/Views/General.vala:40
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "কন্ট্রোল কী চেপে ধরলে মাউসের পইন্টারের অবস্থান তুলে ধরবে"
-
-#: src/Views/General.vala:42
-msgid "Long-press secondary click:"
-msgstr ""
-
-#: src/Views/General.vala:51
-msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
-
-#: src/Views/General.vala:53
-msgid "Long-press length:"
-msgstr ""
-
-#: src/Views/General.vala:64
 msgid "Primary button:"
 msgstr ""
 
-#: src/Views/General.vala:66
+#: src/Views/General.vala:34
+msgid "Left"
+msgstr "বামে"
+
+#: src/Views/General.vala:37
+msgid "Right"
+msgstr "ডানে"
+
+#: src/Views/General.vala:78
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "কন্ট্রোল কী চেপে ধরলে মাউসের পইন্টারের অবস্থান তুলে ধরবে"
+
+#: src/Views/General.vala:83
+msgid "Long-press secondary click:"
+msgstr ""
+
+#: src/Views/General.vala:89
+msgid "Long-pressing and releasing the primary button will secondary click."
+msgstr ""
+
+#: src/Views/General.vala:94
+msgid "Long-press length:"
+msgstr ""
+
+#: src/Views/General.vala:109
 msgid "Reveal pointer:"
 msgstr "মাউসের পইন্টার দেখানঃ"
 
-#: src/Views/General.vala:84
+#: src/Views/General.vala:124
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 
-#: src/Views/General.vala:86
+#: src/Views/General.vala:128
 msgid "Middle click paste:"
 msgstr ""
 
