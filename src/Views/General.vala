@@ -113,6 +113,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         pointer_speed_scale.add_mark (10, Gtk.PositionType.BOTTOM, null);
 
         var pointer_speed_help = new Gtk.Label (_("Use a numeric keypad to control the mouse pointer. Note that this disables both levels of keys on your keypad."));
+        pointer_speed_help.margin_bottom = 6;
         pointer_speed_help.wrap = true;
         pointer_speed_help.xalign = 0;
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
@@ -132,9 +133,9 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         attach (locate_pointer_help, 1, 7);
         attach (new SettingLabel (_("Control pointer using keypad:")), 0, 8);
         attach (keypad_pointer_switch, 1, 8);
-        attach (pointer_speed_label, 0, 9);
-        attach (pointer_speed_scale, 1, 9);
-        attach (pointer_speed_help, 1, 10);
+        attach (pointer_speed_help, 1, 9);
+        attach (pointer_speed_label, 0, 10);
+        attach (pointer_speed_scale, 1, 10);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
         if (xsettings_schema != null) {
