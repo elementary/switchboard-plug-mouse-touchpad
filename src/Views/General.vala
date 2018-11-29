@@ -112,7 +112,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.add_mark (10, Gtk.PositionType.BOTTOM, null);
 
-        var pointer_speed_help = new Gtk.Label (_("Use a numeric keypad to control the mouse pointer. Note that this disables both levels of keys on your keypad."));
+        var pointer_speed_help = new Gtk.Label (_("This disables both levels of keys on the numeric keypad."));
         pointer_speed_help.margin_bottom = 6;
         pointer_speed_help.wrap = true;
         pointer_speed_help.xalign = 0;
