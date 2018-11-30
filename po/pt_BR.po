@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 16:11-0800\n"
-"PO-Revision-Date: 2018-11-28 14:28+0000\n"
+"PO-Revision-Date: 2018-11-30 06:55+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt_BR/>\n"
@@ -60,7 +60,7 @@ msgstr "Clique secundário de longa pressão"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr "Duração do clique de longa duração"
+msgstr "Duração do toque de longa duração"
 
 #: src/Plug.vala:117 src/Plug.vala:121
 msgid "Pointer speed"
