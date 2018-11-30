@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 16:11-0800\n"
+"POT-Creation-Date: 2018-11-30 11:43-0800\n"
 "PO-Revision-Date: 2018-11-27 03:09+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
@@ -102,34 +102,47 @@ msgstr "左"
 msgid "Right"
 msgstr "右"
 
-#: src/Views/General.vala:78
+#: src/Views/General.vala:73
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Ctrl キーを押すとポインターの位置がハイライトされます"
 
-#: src/Views/General.vala:83
+#: src/Views/General.vala:79
 msgid "Long-press secondary click:"
 msgstr "長押しで右クリック："
 
-#: src/Views/General.vala:89
+#: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr "主ボタンを長押しして離すことで右クリックになります。"
 
-#: src/Views/General.vala:94
+#: src/Views/General.vala:90
 msgid "Long-press length:"
 msgstr "長押しの長さ："
 
-#: src/Views/General.vala:109
+#: src/Views/General.vala:108
+#, fuzzy
+msgid "Keypad pointer speed:"
+msgstr "ポインターの速度："
+
+#: src/Views/General.vala:115
+msgid "This disables both levels of keys on the numeric keypad."
+msgstr ""
+
+#: src/Views/General.vala:131
 msgid "Reveal pointer:"
 msgstr "ポインターのハイライト："
 
-#: src/Views/General.vala:124
+#: src/Views/General.vala:134
+msgid "Control pointer using keypad:"
+msgstr ""
+
+#: src/Views/General.vala:146
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "入力欄の上で中クリックまたは 3 本指のタップをすると、選択されたテキストを貼り"
 "付けます"
 
-#: src/Views/General.vala:128
+#: src/Views/General.vala:152
 msgid "Middle click paste:"
 msgstr "中クリックで貼り付け："
 
