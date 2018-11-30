@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 16:11-0800\n"
-"PO-Revision-Date: 2018-10-15 21:46+0000\n"
+"PO-Revision-Date: 2018-11-29 09:15+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/he/>\n"
@@ -55,20 +55,19 @@ msgstr "הדבקה עם כפתור אמצעי"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "לחיצה ארוכה על כפתור משני"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr ""
+msgstr "משך לחיצה ארוכה"
 
 #: src/Plug.vala:117 src/Plug.vala:121
 msgid "Pointer speed"
 msgstr "מהירות המצביע"
 
 #: src/Plug.vala:118
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "האצת סמן:"
+msgstr "האצת סמן"
 
 #: src/Plug.vala:119 src/Plug.vala:125
 msgid "Natural scrolling"
@@ -108,15 +107,15 @@ msgstr "לחיצה על המקש Ctrl תדגיש את מיקום הסמן"
 
 #: src/Views/General.vala:83
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "לחיצה ארוכה על כפתור משני:"
 
 #: src/Views/General.vala:89
 msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
+msgstr "לחיצה ארוכה ושחרור הכפתור העיקרי יגרום ללחיצה משנית."
 
 #: src/Views/General.vala:94
 msgid "Long-press length:"
-msgstr ""
+msgstr "משך לחיצה ארוכה:"
 
 #: src/Views/General.vala:109
 msgid "Reveal pointer:"
