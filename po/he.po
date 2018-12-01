@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-11-29 09:15+0000\n"
+"PO-Revision-Date: 2018-12-01 06:00+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/he/>\n"
@@ -118,13 +118,12 @@ msgid "Long-press length:"
 msgstr "משך לחיצה ארוכה:"
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
-msgstr "מהירות הסמן:"
+msgstr "מהירות הסמן בלוח הנומרי:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "פעולה זו משביתה את שתי רמות המקשים במקלדת הנומרית."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -132,7 +131,7 @@ msgstr "חשיפת הסמן:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "שליטה בסמן בעזרת הלוח הנומרי:"
 
 #: src/Views/General.vala:146
 msgid ""
