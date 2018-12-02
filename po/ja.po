@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-12-01 01:18+0000\n"
+"PO-Revision-Date: 2018-12-02 06:39+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -92,7 +92,7 @@ msgstr "タイピング中は無効にする"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
-msgstr "主ボタン："
+msgstr "主ボタン:"
 
 #: src/Views/General.vala:34
 msgid "Left"
@@ -108,7 +108,7 @@ msgstr "Ctrl キーを押すとポインターの位置がハイライトされ�
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr "長押しで右クリック："
+msgstr "長押しで右クリック:"
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
@@ -116,11 +116,11 @@ msgstr "主ボタンを長押しして離すことで右クリックになりま
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
-msgstr "長押しの長さ："
+msgstr "長押しの長さ:"
 
 #: src/Views/General.vala:108
 msgid "Keypad pointer speed:"
-msgstr "キーパッドを使用したポインターの速度："
+msgstr "キーパッドを使用したポインターの速度:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
@@ -128,11 +128,11 @@ msgstr "これはテンキーパッドの両方のレベルのキーを無効に
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
-msgstr "ポインターのハイライト："
+msgstr "ポインターのハイライト:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr "キーパッドを使用してポインターを制御："
+msgstr "キーパッドを使用してポインターを制御:"
 
 #: src/Views/General.vala:146
 msgid ""
@@ -143,7 +143,7 @@ msgstr ""
 
 #: src/Views/General.vala:152
 msgid "Middle click paste:"
-msgstr "中クリックで貼り付け："
+msgstr "中クリックで貼り付け:"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
 msgid "Hardware default"
@@ -159,15 +159,15 @@ msgstr "適応"
 
 #: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
 msgid "Pointer speed:"
-msgstr "ポインターの速度："
+msgstr "ポインターの速度:"
 
 #: src/Views/Mouse.vala:54
 msgid "Pointer acceleration:"
-msgstr "ポインターの加速："
+msgstr "ポインターの加速:"
 
 #: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
 msgid "Natural scrolling:"
-msgstr "ナチュラルスクロール："
+msgstr "ナチュラルスクロール:"
 
 #: src/Views/Touchpad.vala:49
 msgid "Multitouch"
@@ -191,16 +191,16 @@ msgstr "無効"
 
 #: src/Views/Touchpad.vala:78
 msgid "Tap to click:"
-msgstr "タップでクリック動作："
+msgstr "タップでクリック動作:"
 
 #: src/Views/Touchpad.vala:80
 msgid "Physical clicking:"
-msgstr "物理クリックポタン："
+msgstr "物理クリックポタン:"
 
 #: src/Views/Touchpad.vala:83
 msgid "Scrolling:"
-msgstr "スクロール："
+msgstr "スクロール:"
 
 #: src/Views/Touchpad.vala:87
 msgid "Disable while typing:"
-msgstr "タイピング中は無効にする："
+msgstr "タイピング中は無効にする:"
