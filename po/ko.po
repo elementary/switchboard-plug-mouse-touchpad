@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-11-27 06:40+0000\n"
+"PO-Revision-Date: 2018-12-02 09:55+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ko/>\n"
@@ -119,13 +119,12 @@ msgid "Long-press length:"
 msgstr "길게 누르기 시간:"
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
-msgstr "포인터 속도:"
+msgstr "키패드 포인터 속도:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "숫자 키패드에 있는 두 레벨의 키를 모두 비활성화합니다."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -133,7 +132,7 @@ msgstr "포인터 표시:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "키패드로 포인터 조종하기:"
 
 #: src/Views/General.vala:146
 msgid ""
