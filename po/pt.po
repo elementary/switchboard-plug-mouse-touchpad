@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-11-28 10:11+0000\n"
+"PO-Revision-Date: 2018-12-03 12:27+0000\n"
 "Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt/>\n"
@@ -119,13 +119,12 @@ msgid "Long-press length:"
 msgstr "Duração do clique longo:"
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
-msgstr "Velocidade do ponteiro:"
+msgstr "Velocidade do ponteiro do teclado:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "Desativa os dois níveis de teclas no teclado numérico."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -133,7 +132,7 @@ msgstr "Revelar ponteiro:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Controlar ponteiro através do teclado:"
 
 #: src/Views/General.vala:146
 msgid ""
