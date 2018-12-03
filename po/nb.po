@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-07-22 12:06+0000\n"
-"Last-Translator: Nils K <slx@nilsk.net>\n"
+"PO-Revision-Date: 2018-12-05 19:34+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/nb/>\n"
 "Language: nb\n"
@@ -59,11 +59,11 @@ msgstr "Midtklikk-innliming:"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Langtrykkingssekundærklikk"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr ""
+msgstr "Langtrykkingsvarighet:"
 
 #: src/Plug.vala:117 src/Plug.vala:121
 #, fuzzy
@@ -118,15 +118,15 @@ msgstr "Ved å trykke på Ctrl-tasten vil pekerens posisjon markeres"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Langtrykkingssekundærklikk:"
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
+msgstr "Langtrykking og utløsing av av hovedknappen vil sekundærklikke."
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
-msgstr ""
+msgstr "Langtrykksvarighet:"
 
 #: src/Views/General.vala:108
 #, fuzzy
@@ -135,15 +135,16 @@ msgstr "Pekerhastighet:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "Dette skrur av begge nivåene for taster på nummertastefeltet."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
 msgstr "Avslør peker:"
 
 #: src/Views/General.vala:134
+#, fuzzy
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Kontroller peker ved bruk av nummertastefeltet:"
 
 #: src/Views/General.vala:146
 msgid ""
