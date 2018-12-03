@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-11-27 16:51+0000\n"
+"PO-Revision-Date: 2018-12-03 08:04+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://weblate.elementary.io/"
 "projects/switchboard/switchboard-plug-mouse-touchpad/en_GB/>\n"
@@ -118,13 +118,12 @@ msgid "Long-press length:"
 msgstr "Long-press length:"
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
-msgstr "Pointer speed:"
+msgstr "Keypad pointer speed:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "This disables both levels of keys on the numeric keypad."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -132,7 +131,7 @@ msgstr "Reveal pointer:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Control pointer using keypad:"
 
 #: src/Views/General.vala:146
 msgid ""
