@@ -121,19 +121,22 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         attach (primary_button_label, 0, 0);
         attach (primary_button_switcher, 1, 0, 3);
+
         attach (hold_label, 0, 1);
-        attach (hold_switch, 1, 1, 3);
-        attach (hold_help, 1, 2, 3);
+        attach (hold_switch, 1, 1);
         attach (hold_length_label, 2, 1);
         attach (hold_scale, 3, 1);
+        attach (hold_help, 1, 2, 3);
+
         attach (new SettingLabel (_("Reveal pointer:")), 0, 6);
         attach (reveal_pointer_switch, 1, 6, 3);
         attach (locate_pointer_help, 1, 7, 3);
+
         attach (new SettingLabel (_("Control pointer using keypad:")), 0, 8);
-        attach (keypad_pointer_switch, 1, 8, 3);
-        attach (pointer_speed_help, 1, 9, 3);
+        attach (keypad_pointer_switch, 1, 8);
         attach (pointer_speed_label, 2, 8);
         attach (pointer_speed_scale, 3, 8);
+        attach (pointer_speed_help, 1, 9, 3);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
         if (xsettings_schema != null) {
