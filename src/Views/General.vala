@@ -116,27 +116,6 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         pointer_speed_help.xalign = 0;
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        var reveal_pointer_switch = new Gtk.Switch ();
-        reveal_pointer_switch.halign = Gtk.Align.START;
-
-        var keypad_pointer_switch = new Gtk.Switch ();
-        keypad_pointer_switch.halign = Gtk.Align.START;
-
-        var keypad_pointer_adjustment = new Gtk.Adjustment (0, 0, 500, 10, 10, 10);
-
-        var pointer_speed_label = new SettingLabel (_("Keypad pointer speed:"));
-        pointer_speed_label.margin_bottom = 7;
-
-        var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, keypad_pointer_adjustment);
-        pointer_speed_scale.draw_value = false;
-        pointer_speed_scale.add_mark (10, Gtk.PositionType.BOTTOM, null);
-
-        var pointer_speed_help = new Gtk.Label (_("This disables both levels of keys on the numeric keypad."));
-        pointer_speed_help.margin_bottom = 6;
-        pointer_speed_help.wrap = true;
-        pointer_speed_help.xalign = 0;
-        pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
-
         row_spacing = 6;
         column_spacing = 12;
 
