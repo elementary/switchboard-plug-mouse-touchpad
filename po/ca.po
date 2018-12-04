@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 16:11-0800\n"
-"PO-Revision-Date: 2018-11-27 17:56+0000\n"
+"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"PO-Revision-Date: 2018-12-03 16:37+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ca/>\n"
@@ -102,36 +102,48 @@ msgstr "Esquerra"
 msgid "Right"
 msgstr "Dreta"
 
-#: src/Views/General.vala:78
+#: src/Views/General.vala:73
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Prémer la tecla de control realçarà la posició del punter."
 
-#: src/Views/General.vala:83
+#: src/Views/General.vala:79
 msgid "Long-press secondary click:"
 msgstr "Clic secundari per a la pressió d'estona:"
 
-#: src/Views/General.vala:89
+#: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
 "Prémer durant un temps llarg i deixar anar el botó primari significarà un "
 "clic secundari."
 
-#: src/Views/General.vala:94
+#: src/Views/General.vala:90
 msgid "Long-press length:"
 msgstr "Durada de la pressió d'estona:"
 
-#: src/Views/General.vala:109
+#: src/Views/General.vala:108
+msgid "Keypad pointer speed:"
+msgstr "Velocitat del punter del teclat:"
+
+#: src/Views/General.vala:115
+msgid "This disables both levels of keys on the numeric keypad."
+msgstr "Això inhabilita ambdós nivells de tecles del teclat numèric."
+
+#: src/Views/General.vala:131
 msgid "Reveal pointer:"
 msgstr "Revela el punter:"
 
-#: src/Views/General.vala:124
+#: src/Views/General.vala:134
+msgid "Control pointer using keypad:"
+msgstr "Control del punter amb el teclat numèric:"
+
+#: src/Views/General.vala:146
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Clicar amb el botó del mig o fer un toc amb tres dits servirà per enganxar "
 "qualsevol text seleccionat."
 
-#: src/Views/General.vala:128
+#: src/Views/General.vala:152
 msgid "Middle click paste:"
 msgstr "Enganxar amb el botó del mig:"
 
