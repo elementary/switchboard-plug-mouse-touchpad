@@ -19,7 +19,7 @@
 
 public class MouseTouchpad.MouseView : Gtk.Grid {
     construct {
-        var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1.1, 0.1, 0.1, 0.1);
+        var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0.1, 0);
 
         var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, pointer_speed_adjustment);
         pointer_speed_scale.draw_value = false;
