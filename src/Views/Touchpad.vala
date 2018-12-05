@@ -18,8 +18,6 @@
  */
 
 public class MouseTouchpad.TouchpadView : Gtk.Grid {
-    private Gtk.Switch click_method_switch;
-
     public Backend.TouchpadSettings touchpad_settings { get; construct; }
 
     public TouchpadView (Backend.TouchpadSettings touchpad_settings) {
@@ -27,17 +25,19 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
     }
 
     construct {
+        var glib_settings = new GLib.Settings ("org.gnome.desktop.peripherals.touchpad");
+
         var disable_while_typing_switch = new Gtk.Switch ();
         disable_while_typing_switch.halign = Gtk.Align.START;
 
         var tap_to_click_switch = new Gtk.Switch ();
         tap_to_click_switch.halign = Gtk.Align.START;
 
-        click_method_switch = new Gtk.Switch ();
+        var click_method_switch = new Gtk.Switch ();
         click_method_switch.halign = Gtk.Align.START;
         click_method_switch.valign = Gtk.Align.CENTER;
 
-        if (touchpad_settings.click_method == "none") {
+        if (glib_settings.get_enum ("click-method").to_string () == "none") {
             click_method_switch.active = false;
         } else {
             click_method_switch.active = true;
@@ -53,8 +53,9 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
             click_method_combobox.active_id = "default";
         }
 
-        var pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
-        pointer_speed_scale.adjustment.value = touchpad_settings.speed;
+        var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0.1, 0.1);
+
+        var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, pointer_speed_adjustment);
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
@@ -97,8 +98,6 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
             }
         });
 
-        var glib_settings = new GLib.Settings ("org.gnome.desktop.peripherals.touchpad");
-
         if (!glib_settings.get_boolean ("edge-scrolling-enabled") && !glib_settings.get_boolean ("two-finger-scrolling-enabled")) {
             scrolling_combobox.active_id = "disabled";
         } else if (glib_settings.get_boolean ("two-finger-scrolling-enabled")) {
@@ -130,13 +129,6 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
         });
 
         touchpad_settings.bind_property (
-            "tap-to-click",
-            tap_to_click_switch,
-            "state",
-            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
-        );
-
-        touchpad_settings.bind_property (
             "click-method",
             click_method_combobox,
             "active-id",
@@ -144,27 +136,10 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
             click_method_transform_func
         );
 
-        pointer_speed_scale.adjustment.bind_property (
-            "value",
-            touchpad_settings,
-            "speed",
-            BindingFlags.SYNC_CREATE,
-            pointer_speed_scale_transform_func
-        );
-
-        touchpad_settings.bind_property (
-            "natural-scroll",
-            natural_scrolling_switch,
-            "state",
-            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
-        );
-
-        touchpad_settings.bind_property (
-            "disable-while-typing",
-            disable_while_typing_switch,
-            "state",
-            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
-        );
+        glib_settings.bind ("disable-while-typing", disable_while_typing_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        glib_settings.bind ("natural-scroll", natural_scrolling_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        glib_settings.bind ("speed", pointer_speed_adjustment, "value", GLib.SettingsBindFlags.DEFAULT);
+        glib_settings.bind ("tap-to-click", tap_to_click_switch, "active", GLib.SettingsBindFlags.DEFAULT);
     }
 
     private bool click_method_transform_func (Binding binding, Value source_value, ref Value target_value) {
@@ -173,13 +148,6 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
         }
 
         target_value = source_value;
-        return true;
-    }
-
-    private bool pointer_speed_scale_transform_func (Binding binding, Value source_value, ref Value target_value) {
-        double val = source_value.get_double ();
-        target_value.set_double (val);
-
         return true;
     }
 }
