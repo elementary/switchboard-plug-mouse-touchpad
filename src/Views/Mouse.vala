@@ -18,19 +18,13 @@
  */
 
 public class MouseTouchpad.MouseView : Gtk.Grid {
-    public Backend.MouseSettings mouse_settings { get; construct; }
-
-    public MouseView (Backend.MouseSettings mouse_settings) {
-        Object (mouse_settings: mouse_settings);
-    }
-
     construct {
-        var pointer_speed_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, -1, 1, 0.1);
-        pointer_speed_scale.adjustment.value = mouse_settings.speed;
-        pointer_speed_scale.digits = 2;
+        var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0.1, 0.1);
+
+        var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, pointer_speed_adjustment);
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.hexpand = true;
-        pointer_speed_scale.set_size_request (160, -1);
+        pointer_speed_scale.width_request = 160;
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
 
         var accel_profile_default = new Gtk.RadioButton.with_label (null, _("Hardware default"));
@@ -53,21 +47,8 @@ public class MouseTouchpad.MouseView : Gtk.Grid {
         attach (natural_scrolling_switch, 1, 4);
 
         var settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
-
-        pointer_speed_scale.adjustment.bind_property (
-            "value",
-            mouse_settings,
-            "speed",
-            BindingFlags.SYNC_CREATE,
-            pointer_speed_scale_transform_func
-        );
-
-        mouse_settings.bind_property (
-            "natural-scroll",
-            natural_scrolling_switch,
-            "state",
-            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
-        );
+        settings.bind ("natural-scroll", natural_scrolling_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        settings.bind ("speed", pointer_speed_adjustment, "value", GLib.SettingsBindFlags.DEFAULT);
 
         switch (settings.get_enum ("accel-profile")) {
             case 1:
@@ -94,12 +75,4 @@ public class MouseTouchpad.MouseView : Gtk.Grid {
             settings.set_enum ("accel-profile", 2);
         });
     }
-
-    private bool pointer_speed_scale_transform_func (Binding binding, Value source_value, ref Value target_value) {
-        double val = (double)source_value.get_double ();
-        target_value.set_double (val);
-
-        return true;
-    }
 }
-
