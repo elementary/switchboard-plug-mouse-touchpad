@@ -53,7 +53,7 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
             click_method_combobox.active_id = "default";
         }
 
-        var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0.1, 0.1);
+        var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0, 0);
 
         var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, pointer_speed_adjustment);
         pointer_speed_scale.digits = 2;
