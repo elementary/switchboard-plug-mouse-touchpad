@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-10-16 16:41+0000\n"
+"PO-Revision-Date: 2018-12-05 19:34+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fi/>\n"
@@ -67,9 +67,8 @@ msgid "Pointer speed"
 msgstr "Osoittimen nopeus"
 
 #: src/Plug.vala:118
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Osoittimen kiihtyvyys:"
+msgstr "Osoittimen kiihtyvyys"
 
 #: src/Plug.vala:119 src/Plug.vala:125
 msgid "Natural scrolling"
