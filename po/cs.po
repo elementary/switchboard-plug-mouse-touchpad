@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-10-18 06:58+0000\n"
-"Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
+"PO-Revision-Date: 2018-12-13 14:31+0000\n"
+"Last-Translator: Daniel Zvir <zvir.daniel@seznam.cz>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/cs/>\n"
 "Language: cs\n"
@@ -56,20 +56,19 @@ msgstr "Vkládání prostředním tlačítkem"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Sekundární kliknutí podržením"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr ""
+msgstr "Délka podržení"
 
 #: src/Plug.vala:117 src/Plug.vala:121
 msgid "Pointer speed"
 msgstr "Rychlost kurzoru"
 
 #: src/Plug.vala:118
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Zrychlení kurzoru:"
+msgstr "Zrychlení kurzoru"
 
 #: src/Plug.vala:119 src/Plug.vala:125
 msgid "Natural scrolling"
@@ -109,24 +108,23 @@ msgstr "Stisknutí klávesy Control zvýrazní pozici ukazatele"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Sekundární kliknutí podržením:"
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
+msgstr "Podržení a upuštění primárního tlačítka provede sekundární kliknutí."
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
-msgstr ""
+msgstr "Délka podržení:"
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
 msgstr "Rychlost kurzoru:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "Toto deaktivuje obě úrovně kláves na numerické klávesnici."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -134,7 +132,7 @@ msgstr "Zvýraznit kurzor:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Ovládání ukazatele klávesami"
 
 #: src/Views/General.vala:146
 msgid ""
