@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-12-13 14:31+0000\n"
+"PO-Revision-Date: 2018-12-17 15:07+0000\n"
 "Last-Translator: Daniel Zvir <zvir.daniel@seznam.cz>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/cs/>\n"
@@ -80,7 +80,7 @@ msgstr "Kliknutí klepnutím"
 
 #: src/Plug.vala:123
 msgid "Physical clicking"
-msgstr "Fyzické klikání"
+msgstr "Klikání tlačítky"
 
 #: src/Plug.vala:124
 msgid "Scrolling"
@@ -132,7 +132,7 @@ msgstr "Zvýraznit kurzor:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr "Ovládání ukazatele klávesami"
+msgstr "Ovládání ukazatele klávesami:"
 
 #: src/Views/General.vala:146
 msgid ""
@@ -195,7 +195,7 @@ msgstr "Kliknutí klepnutím:"
 
 #: src/Views/Touchpad.vala:80
 msgid "Physical clicking:"
-msgstr "Fyzické klikání:"
+msgstr "Klikání tlačítky:"
 
 #: src/Views/Touchpad.vala:83
 msgid "Scrolling:"
