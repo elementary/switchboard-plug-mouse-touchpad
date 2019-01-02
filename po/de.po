@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2019-01-02 20:53+0000\n"
+"PO-Revision-Date: 2019-01-03 00:04+0000\n"
 "Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/de/>\n"
@@ -44,7 +44,7 @@ msgstr "Tastfeld"
 
 #: src/Plug.vala:110
 msgid "Primary button"
-msgstr "Haupttaste"
+msgstr "Primärtaste"
 
 #: src/Plug.vala:111
 msgid "Reveal pointer"
@@ -56,7 +56,7 @@ msgstr "Einfügen bei Mittelklick"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr "Gedrückthalten als Sekundär-Klick"
+msgstr "Gedrückthalten Sekundär-Klick"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
@@ -92,7 +92,7 @@ msgstr "Deaktivieren während der Eingabe"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
-msgstr "Haupttaste:"
+msgstr "Primärtaste:"
 
 #: src/Views/General.vala:34
 msgid "Left"
@@ -104,16 +104,17 @@ msgstr "Rechts"
 
 #: src/Views/General.vala:73
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Drücken der Strg-Taste hebt die Position des Mauszeigers hervor"
+msgstr "Drücken der Strg-Taste hebt die Position des Zeigers hervor"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr "Gedrückthalten als Sekundärklick:"
+msgstr "Gedrückthalten bewirkt Sekundär-Klick:"
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
-"Gedrückthalten und wieder Loslassen der Primärtaste ergibt Sekundärklick."
+"Das Gedrückthalten und wieder Loslassen der Primärtaste bewirkt einen "
+"Sekundär-Klick."
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
@@ -121,7 +122,7 @@ msgstr "Gedrückthalten Zeitdauer:"
 
 #: src/Views/General.vala:108
 msgid "Keypad pointer speed:"
-msgstr "Zeigergeschwindigkeit bei Nummernblock:"
+msgstr "Nummernblock Zeigergeschwindigkeit:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
@@ -196,7 +197,7 @@ msgstr "Tipp auf das Tastfeld bewirkt Klick:"
 
 #: src/Views/Touchpad.vala:80
 msgid "Physical clicking:"
-msgstr "Klicken:"
+msgstr "Physisches Klicken:"
 
 #: src/Views/Touchpad.vala:83
 msgid "Scrolling:"
