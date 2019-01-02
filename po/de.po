@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-08-25 00:03+0000\n"
+"PO-Revision-Date: 2019-01-02 20:53+0000\n"
 "Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/de/>\n"
@@ -43,62 +43,52 @@ msgid "Touchpad"
 msgstr "Tastfeld"
 
 #: src/Plug.vala:110
-#, fuzzy
 msgid "Primary button"
-msgstr "Haupttaste:"
+msgstr "Haupttaste"
 
 #: src/Plug.vala:111
-#, fuzzy
 msgid "Reveal pointer"
-msgstr "Mauszeiger hervorheben:"
+msgstr "Mauszeiger hervorheben"
 
 #: src/Plug.vala:112 src/Plug.vala:115
-#, fuzzy
 msgid "Middle click paste"
-msgstr "Einfügen bei Mittelklick:"
+msgstr "Einfügen bei Mittelklick"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Gedrückthalten als Sekundär-Klick"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr ""
+msgstr "Gedrückthalten Zeitdauer"
 
 #: src/Plug.vala:117 src/Plug.vala:121
-#, fuzzy
 msgid "Pointer speed"
-msgstr "Zeigergeschwindigkeit:"
+msgstr "Zeigergeschwindigkeit"
 
 #: src/Plug.vala:118
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Zeigerbeschleunigung:"
+msgstr "Zeigerbeschleunigung"
 
 #: src/Plug.vala:119 src/Plug.vala:125
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "Natürliches Scrollen:"
+msgstr "Natürliches Scrollen"
 
 #: src/Plug.vala:122
-#, fuzzy
 msgid "Tap to click"
-msgstr "Tipp auf das Tastfeld bewirkt Klick:"
+msgstr "Tipp auf das Tastfeld bewirkt Klick"
 
 #: src/Plug.vala:123
-#, fuzzy
 msgid "Physical clicking"
-msgstr "Klicken:"
+msgstr "Physisches Klicken"
 
 #: src/Plug.vala:124
-#, fuzzy
 msgid "Scrolling"
-msgstr "Scrollen:"
+msgstr "Scrollen"
 
 #: src/Plug.vala:126
-#, fuzzy
 msgid "Disable while typing"
-msgstr "Deaktivieren während der Eingabe:"
+msgstr "Deaktivieren während der Eingabe"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -118,24 +108,25 @@ msgstr "Drücken der Strg-Taste hebt die Position des Mauszeigers hervor"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Gedrückthalten als Sekundärklick:"
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
+"Gedrückthalten und wieder Loslassen der Primärtaste ergibt Sekundärklick."
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
-msgstr ""
+msgstr "Gedrückthalten Zeitdauer:"
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
-msgstr "Zeigergeschwindigkeit:"
+msgstr "Zeigergeschwindigkeit bei Nummernblock:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
 msgstr ""
+"Dadurch werden beide Ebenen der Tasten auf dem Nummernblock deaktiviert."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -143,7 +134,7 @@ msgstr "Mauszeiger hervorheben:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Zeiger mit dem Nummernblock steuern:"
 
 #: src/Views/General.vala:146
 msgid ""
