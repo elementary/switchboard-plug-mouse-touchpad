@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-11-27 23:20+0000\n"
+"PO-Revision-Date: 2019-01-02 00:10+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pl/>\n"
@@ -109,7 +109,7 @@ msgstr "Naciśnięcie przycisku kontrolnego zaznaczy pozycję wskaźnika"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Długie przytrzymanie kliknięcia prawym przyciskiem myszy:"
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
@@ -117,12 +117,11 @@ msgstr ""
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
-msgstr ""
+msgstr "Długość długiego przytrzymania:"
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
-msgstr "Szybkość wskaźnika:"
+msgstr "Szybkość wskaźnika klawiatury numerycznej:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
@@ -134,7 +133,7 @@ msgstr "Pokaż wskaźnik:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Wskaźnik kontrolny podczas używania klawiatury numerycznej:"
 
 #: src/Views/General.vala:146
 msgid ""

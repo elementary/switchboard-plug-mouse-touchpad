@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-11-28 12:54+0000\n"
-"Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
+"PO-Revision-Date: 2018-12-12 22:04+0000\n"
+"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/it/>\n"
 "Language: it\n"
@@ -52,15 +52,15 @@ msgstr "Rivela puntatore"
 
 #: src/Plug.vala:112 src/Plug.vala:115
 msgid "Middle click paste"
-msgstr "Incollare con un clic centrale"
+msgstr "Incolla con un click centrale"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr "Clic secondario lungo"
+msgstr "Click secondario lungo"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr "Durata del clic lungo"
+msgstr "Durata del click lungo"
 
 #: src/Plug.vala:117 src/Plug.vala:121
 msgid "Pointer speed"
@@ -80,7 +80,7 @@ msgstr "Tocca per cliccare"
 
 #: src/Plug.vala:123
 msgid "Physical clicking"
-msgstr "Clic fisico"
+msgstr "Click fisico"
 
 #: src/Plug.vala:124
 msgid "Scrolling"
@@ -88,7 +88,7 @@ msgstr "Scorrimento"
 
 #: src/Plug.vala:126
 msgid "Disable while typing"
-msgstr "Disattivare durante la digitazione"
+msgstr "Disattiva durante la digitazione"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -96,11 +96,11 @@ msgstr "Pulsante principale:"
 
 #: src/Views/General.vala:34
 msgid "Left"
-msgstr "Sinistra"
+msgstr "Sinistro"
 
 #: src/Views/General.vala:37
 msgid "Right"
-msgstr "Destra"
+msgstr "Destro"
 
 #: src/Views/General.vala:73
 msgid "Pressing the control key will highlight the position of the pointer"
@@ -108,20 +108,21 @@ msgstr "Premere il pulsante control evidenzierà la posizione del puntatore"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr "Clic secondario lungo:"
+msgstr "Click secondario lungo:"
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr "Un clic lungo del bottone primario attiva li clic secondario."
+msgstr ""
+"La pressione prolungata e il rilascio del pulsante principale induce il "
+"click secondario."
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
-msgstr "Durata del clic lungo:"
+msgstr "Durata del click lungo:"
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
-msgstr "Velocità del puntatore:"
+msgstr "Velocità del puntatore con il tastierino numerico:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
@@ -133,17 +134,17 @@ msgstr "Rivela puntatore:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Controlla il puntatore utilizzando il tastierino numerico:"
 
 #: src/Views/General.vala:146
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
-"Un clic centrale o con tre dita su di un campo incollerà il testo selezionato"
+"Un click centrale o con tre dita su un campo incollerà il testo selezionato"
 
 #: src/Views/General.vala:152
 msgid "Middle click paste:"
-msgstr "Incollare con un clic centrale:"
+msgstr "Incolla con un click centrale:"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
 msgid "Hardware default"
@@ -203,4 +204,4 @@ msgstr "Scorrimento:"
 
 #: src/Views/Touchpad.vala:87
 msgid "Disable while typing:"
-msgstr "Disattivare mentre si sta digitando:"
+msgstr "Disattiva durante la digitazione:"

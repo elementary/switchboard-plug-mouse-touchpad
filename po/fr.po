@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-11-20 09:07+0000\n"
+"PO-Revision-Date: 2018-12-11 07:08+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
@@ -56,20 +56,19 @@ msgstr "Coller avec le clic du milieu"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Appuyer longuement pour le clic secondaire"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr ""
+msgstr "Durée de l'appui long"
 
 #: src/Plug.vala:117 src/Plug.vala:121
 msgid "Pointer speed"
 msgstr "Vitesse du pointeur"
 
 #: src/Plug.vala:118
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Accélération du pointeur :"
+msgstr "Accélération du pointeur"
 
 #: src/Plug.vala:119 src/Plug.vala:125
 msgid "Natural scrolling"
@@ -110,24 +109,25 @@ msgstr ""
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Appuyer longuement pour le clic secondaire :"
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
+"Appuyer longuement et relâcher le bouton principal effectuera un clic "
+"secondaire."
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
-msgstr ""
+msgstr "Durée de l'appui long :"
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
-msgstr "Vitesse du pointeur :"
+msgstr "Vitesse du pointeur du clavier numérique :"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "Ceci désactive les deux niveaux de touches sur le pavé numérique."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -135,7 +135,7 @@ msgstr "Révéler la position du pointeur :"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Contrôler le pointeur en utilisant le pavé numérique :"
 
 #: src/Views/General.vala:146
 msgid ""

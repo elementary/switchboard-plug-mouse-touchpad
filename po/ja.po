@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-12-02 06:39+0000\n"
+"PO-Revision-Date: 2018-12-19 00:08+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -26,7 +26,7 @@ msgstr "マウスとタッチパッド"
 
 #: src/Plug.vala:44
 msgid "Configure mouse and touchpad"
-msgstr "マウスとタッチパッドの設定をします"
+msgstr "マウスとタッチパッドを設定します"
 
 #: src/Plug.vala:63
 msgid "General"
@@ -48,7 +48,7 @@ msgstr "主ボタン"
 
 #: src/Plug.vala:111
 msgid "Reveal pointer"
-msgstr "ポインターのハイライト"
+msgstr "ポインターをハイライト"
 
 #: src/Plug.vala:112 src/Plug.vala:115
 msgid "Middle click paste"
@@ -56,7 +56,7 @@ msgstr "中クリックで貼り付け"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr "長押しで右クリック"
+msgstr "長押しで副ボタンクリック"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
@@ -72,15 +72,15 @@ msgstr "ポインターの加速"
 
 #: src/Plug.vala:119 src/Plug.vala:125
 msgid "Natural scrolling"
-msgstr "スクロールを逆にする"
+msgstr "ナチュラルスクロール"
 
 #: src/Plug.vala:122
 msgid "Tap to click"
-msgstr "タップでクリック動作"
+msgstr "タップでクリック"
 
 #: src/Plug.vala:123
 msgid "Physical clicking"
-msgstr "物理クリックポタン"
+msgstr "物理ボタンのクリック"
 
 #: src/Plug.vala:124
 msgid "Scrolling"
@@ -104,15 +104,15 @@ msgstr "右"
 
 #: src/Views/General.vala:73
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Ctrl キーを押すとポインターの位置がハイライトされます"
+msgstr "Ctrl キーを押すと、ポインターの位置がハイライトされます"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr "長押しで右クリック:"
+msgstr "長押しで副ボタンクリック:"
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr "主ボタンを長押しして離すことで右クリックになります。"
+msgstr "主ボタンを長押しして離すと、副ボタンをクリックしたことになります。"
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
@@ -128,7 +128,7 @@ msgstr "これはテンキーパッドの両方のレベルのキーを無効に
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
-msgstr "ポインターのハイライト:"
+msgstr "ポインターをハイライト:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
@@ -179,7 +179,7 @@ msgstr "タッチパッドの領域"
 
 #: src/Views/Touchpad.vala:63
 msgid "Two-finger"
-msgstr "二本指"
+msgstr "2 本指"
 
 #: src/Views/Touchpad.vala:64
 msgid "Edge"
@@ -191,11 +191,11 @@ msgstr "無効"
 
 #: src/Views/Touchpad.vala:78
 msgid "Tap to click:"
-msgstr "タップでクリック動作:"
+msgstr "タップでクリック:"
 
 #: src/Views/Touchpad.vala:80
 msgid "Physical clicking:"
-msgstr "物理クリックポタン:"
+msgstr "物理クリック:"
 
 #: src/Views/Touchpad.vala:83
 msgid "Scrolling:"
