@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-12-03 12:27+0000\n"
-"Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
+"PO-Revision-Date: 2019-01-10 00:07+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt/>\n"
 "Language: pt\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/Plug.vala:43
 msgid "Mouse & Touchpad"
-msgstr "Rato e Touchpad"
+msgstr "Rato & Touchpad"
 
 #: src/Plug.vala:44
 msgid "Configure mouse and touchpad"
@@ -44,7 +44,7 @@ msgstr "Touchpad"
 
 #: src/Plug.vala:110
 msgid "Primary button"
-msgstr "Botão primário"
+msgstr "Botão principal"
 
 #: src/Plug.vala:111
 msgid "Reveal pointer"
