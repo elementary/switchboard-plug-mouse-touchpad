@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-10-29 03:00+0000\n"
+"PO-Revision-Date: 2019-01-14 13:11+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
@@ -56,20 +56,19 @@ msgstr "中键粘贴："
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "长按二级点击"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
-msgstr ""
+msgstr "长按时长"
 
 #: src/Plug.vala:117 src/Plug.vala:121
 msgid "Pointer speed"
 msgstr "指针速度："
 
 #: src/Plug.vala:118
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "指针加速："
+msgstr "指针加速"
 
 #: src/Plug.vala:119 src/Plug.vala:125
 msgid "Natural scrolling"
@@ -109,24 +108,23 @@ msgstr "按住 Ctrl 键时高亮指针所在位置"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "长按二级点击："
 
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
-msgstr ""
+msgstr "长按并放开主按键将激活二级点击。"
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
-msgstr ""
+msgstr "长按时长："
 
 #: src/Views/General.vala:108
-#, fuzzy
 msgid "Keypad pointer speed:"
-msgstr "指针速度："
+msgstr "指针速度"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "这会禁用数字键盘上所有等级的按键。"
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -134,7 +132,7 @@ msgstr "显示指针："
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "使用键盘控制指针："
 
 #: src/Views/General.vala:146
 msgid ""
