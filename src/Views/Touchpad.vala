@@ -74,7 +74,7 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
         var disable_with_mouse_switch = new Gtk.Switch ();
         disable_with_mouse_switch.halign = Gtk.Align.START;
 
-        if (glib_settings.get_enum ("send-events") == 2) {
+        if (glib_settings.get_string ("send-events") == "disabled-on-external-mouse") {
             disable_with_mouse_switch.active = true;
         } else {
             disable_with_mouse_switch.active = false;
@@ -149,9 +149,9 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
 
         disable_with_mouse_switch.notify["active"].connect (() => {
             if (disable_with_mouse_switch.active) {
-                glib_settings.set_enum ("send-events", 2);
+                glib_settings.set_string ("send-events", "disabled-on-external-mouse");
             } else {
-                glib_settings.set_enum ("send-events", 0);
+                glib_settings.set_string ("send-events", "enabled");
             }
         });
 
