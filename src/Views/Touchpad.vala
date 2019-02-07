@@ -71,6 +71,15 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
         var natural_scrolling_switch = new Gtk.Switch ();
         natural_scrolling_switch.halign = Gtk.Align.START;
 
+        var disable_with_mouse_switch = new Gtk.Switch ();
+        disable_with_mouse_switch.halign = Gtk.Align.START;
+
+        if (glib_settings.get_enum ("send-events") == 2) {
+            disable_with_mouse_switch.active = true;
+        } else {
+            disable_with_mouse_switch.active = false;
+        }
+
         row_spacing = 12;
         column_spacing = 12;
 
@@ -87,6 +96,8 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
         attach (natural_scrolling_switch, 1, 4);
         attach (new SettingLabel (_("Disable while typing:")), 0, 5);
         attach (disable_while_typing_switch, 1, 5);
+        attach (new SettingLabel (_("Disable when mouse is connected:")), 0, 6);
+        attach (disable_with_mouse_switch, 1, 6);
 
         click_method_switch.bind_property ("active", click_method_combobox, "sensitive", BindingFlags.SYNC_CREATE);
 
@@ -135,6 +146,14 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
             BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE,
             click_method_transform_func
         );
+
+        disable_with_mouse_switch.notify["active"].connect (() => {
+            if (disable_with_mouse_switch.active) {
+                glib_settings.set_enum ("send-events", 2);
+            } else {
+                glib_settings.set_enum ("send-events", 0);
+            }
+        });
 
         glib_settings.bind ("disable-while-typing", disable_while_typing_switch, "active", GLib.SettingsBindFlags.DEFAULT);
         glib_settings.bind ("natural-scroll", natural_scrolling_switch, "active", GLib.SettingsBindFlags.DEFAULT);
