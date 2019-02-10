@@ -85,7 +85,7 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
         attach (scrolling_combobox, 1, 3, 2, 1);
         attach (new SettingLabel (_("Natural scrolling:")), 0, 4);
         attach (natural_scrolling_switch, 1, 4);
-        attach (new SettingLabel (_("Disable while typing:")), 0, 5);
+        attach (new SettingLabel (_("Ignore while typing:")), 0, 5);
         attach (disable_while_typing_switch, 1, 5);
 
         click_method_switch.bind_property ("active", click_method_combobox, "sensitive", BindingFlags.SYNC_CREATE);
