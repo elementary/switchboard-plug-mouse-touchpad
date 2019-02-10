@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"POT-Creation-Date: 2019-02-10 14:04-0800\n"
 "PO-Revision-Date: 2019-01-15 00:06+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.elementary.io/projects/"
@@ -143,27 +143,27 @@ msgstr "中键或三指点击将会粘贴选中文本"
 msgid "Middle click paste:"
 msgstr "中键粘贴："
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "硬件默认"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "无"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "自适应的"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
 msgid "Pointer speed:"
 msgstr "指针速度："
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "指针加速："
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
 msgid "Natural scrolling:"
 msgstr "自然滚动："
 
@@ -175,30 +175,31 @@ msgstr "多指触控"
 msgid "Touchpad areas"
 msgstr "面板区域"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "双指滚动"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "边缘滚动"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "已禁用"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:79
 msgid "Tap to click:"
 msgstr "轻触点击："
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:81
 msgid "Physical clicking:"
 msgstr "物理点击："
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:84
 msgid "Scrolling:"
 msgstr "滚动设置："
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:88
+#, fuzzy
+msgid "Ignore while typing:"
 msgstr "输入时禁用："

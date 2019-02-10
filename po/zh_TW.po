@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"POT-Creation-Date: 2019-02-10 14:04-0800\n"
 "PO-Revision-Date: 2018-03-26 01:22+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/"
@@ -154,27 +154,27 @@ msgstr "滑鼠中鍵或三指點按輸入可貼上所選取的文字"
 msgid "Middle click paste:"
 msgstr "中鍵點按貼上："
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "硬體預設值"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "無"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "適應性"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
 msgid "Pointer speed:"
 msgstr "指標速度："
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "指標加速度："
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
 msgid "Natural scrolling:"
 msgstr "自然捲動："
 
@@ -186,30 +186,31 @@ msgstr "多點觸控"
 msgid "Touchpad areas"
 msgstr "觸控板區塊"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "兩指"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "邊緣"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "已停用"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:79
 msgid "Tap to click:"
 msgstr "輕觸表示點擊："
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:81
 msgid "Physical clicking:"
 msgstr "實體點擊："
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:84
 msgid "Scrolling:"
 msgstr "捲動："
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:88
+#, fuzzy
+msgid "Ignore while typing:"
 msgstr "打字時停用："

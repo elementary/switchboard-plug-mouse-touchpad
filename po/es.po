@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"POT-Creation-Date: 2019-02-10 14:04-0800\n"
 "PO-Revision-Date: 2018-03-27 00:02+0000\n"
 "Last-Translator: Alain M. <alain23@protonmail.com>\n"
 "Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard/"
@@ -156,27 +156,27 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Hacer clic con el botón central:"
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "Hardware por defecto"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "Ninguno"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "Adaptado"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
 msgid "Pointer speed:"
 msgstr "Velocidad del puntero:"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "Aceleración del puntero:"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
 msgid "Natural scrolling:"
 msgstr "Desplazamiento natural:"
 
@@ -188,30 +188,31 @@ msgstr "Multitáctil"
 msgid "Touchpad areas"
 msgstr "Áreas del panel táctil"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "Dos dedos"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "Borde"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "Desactivado"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:79
 msgid "Tap to click:"
 msgstr "Toque para hacer clic:"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:81
 msgid "Physical clicking:"
 msgstr "Clic físico:"
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:84
 msgid "Scrolling:"
 msgstr "Desplazamiento:"
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:88
+#, fuzzy
+msgid "Ignore while typing:"
 msgstr "Deshabilitar mientras tipea:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"POT-Creation-Date: 2019-02-10 14:04-0800\n"
 "PO-Revision-Date: 2018-12-07 05:37+0000\n"
 "Last-Translator: Veli-Pekka Samuli Finnilä <vpf@tuta.io>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
@@ -126,7 +126,8 @@ msgstr "Numeronäppäimistöosoittimen nopeus:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr "Tämä kytkee pois päältä numeronäppäimistön molempien tasojen näppäimet."
+msgstr ""
+"Tämä kytkee pois päältä numeronäppäimistön molempien tasojen näppäimet."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -147,27 +148,27 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Liittäminen keskimmäistä napsauttamalla:"
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "Laitteiston oletus"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "Ei mitään"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "Sopeutuva"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
 msgid "Pointer speed:"
 msgstr "Osoittimen nopeus:"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "Osoittimen kiihtyvyys:"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
 msgid "Natural scrolling:"
 msgstr "Luonnollinen vieritys:"
 
@@ -179,30 +180,31 @@ msgstr "Monikosketus"
 msgid "Touchpad areas"
 msgstr "Kosketuslevyn alueet"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "Kaksi sormea"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "Reuna"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "Pois käytöstä"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:79
 msgid "Tap to click:"
 msgstr "Napsautus napauttamalla:"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:81
 msgid "Physical clicking:"
 msgstr "Fyysinen napsautus:"
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:84
 msgid "Scrolling:"
 msgstr "Vieritys:"
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:88
+#, fuzzy
+msgid "Ignore while typing:"
 msgstr "Poista käytöstä kirjoittaessa:"

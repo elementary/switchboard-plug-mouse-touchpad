@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"POT-Creation-Date: 2019-02-10 14:04-0800\n"
 "PO-Revision-Date: 2018-11-05 23:44+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/switchboard/"
@@ -147,27 +147,27 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Zalijepi srednjim klikom:"
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "Standard hardvera"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "Nijedno"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "Prilagodljivo"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
 msgid "Pointer speed:"
 msgstr "Brzina kursora:"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "Ubrzanje kursora:"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
 msgid "Natural scrolling:"
 msgstr "Prirodno skrolanje:"
 
@@ -179,30 +179,31 @@ msgstr "Multitouch"
 msgid "Touchpad areas"
 msgstr "Područja dodirne ploče"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "S dva prsta"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "Rub"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "Deaktivirano"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:79
 msgid "Tap to click:"
 msgstr "Dodirni za klik:"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:81
 msgid "Physical clicking:"
 msgstr "Fizičko klikanje:"
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:84
 msgid "Scrolling:"
 msgstr "Skrolanje:"
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:88
+#, fuzzy
+msgid "Ignore while typing:"
 msgstr "Deaktiviraj tokom kucanja teksta:"
