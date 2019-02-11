@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-10 14:04-0800\n"
-"PO-Revision-Date: 2019-02-11 05:49+0000\n"
+"PO-Revision-Date: 2019-02-12 00:06+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -88,7 +88,7 @@ msgstr "スクロール"
 
 #: src/Plug.vala:126
 msgid "Disable while typing"
-msgstr "タイピング中は無効にする"
+msgstr "文字入力中は無効にする"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
