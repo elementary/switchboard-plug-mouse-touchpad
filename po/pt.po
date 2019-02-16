@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-10 14:04-0800\n"
+"POT-Creation-Date: 2019-02-16 10:59-0800\n"
 "PO-Revision-Date: 2019-02-11 14:47+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
@@ -157,7 +157,7 @@ msgstr "Nenhuma"
 msgid "Adaptive"
 msgstr "Adaptativo"
 
-#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Velocidade do ponteiro:"
 
@@ -165,7 +165,7 @@ msgstr "Velocidade do ponteiro:"
 msgid "Pointer acceleration:"
 msgstr "Aceleração do ponteiro:"
 
-#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Deslocação natural:"
 
@@ -189,18 +189,22 @@ msgstr "Margem"
 msgid "Disabled"
 msgstr "Desativado"
 
-#: src/Views/Touchpad.vala:79
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "Tocar para clicar:"
 
-#: src/Views/Touchpad.vala:81
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "Clique físico:"
 
-#: src/Views/Touchpad.vala:84
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "Deslocação:"
 
-#: src/Views/Touchpad.vala:88
+#: src/Views/Touchpad.vala:97
 msgid "Ignore while typing:"
 msgstr "Desativar ao escrever:"
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
+msgstr ""

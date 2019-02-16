@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-10 14:04-0800\n"
+"POT-Creation-Date: 2019-02-16 10:59-0800\n"
 "PO-Revision-Date: 2018-12-17 15:07+0000\n"
 "Last-Translator: Daniel Zvir <zvir.daniel@seznam.cz>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
@@ -157,7 +157,7 @@ msgstr "Žádný"
 msgid "Adaptive"
 msgstr "Adaptivní"
 
-#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Rychlost kurzoru:"
 
@@ -165,7 +165,7 @@ msgstr "Rychlost kurzoru:"
 msgid "Pointer acceleration:"
 msgstr "Zrychlení kurzoru:"
 
-#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Přirozené posouvání:"
 
@@ -189,19 +189,23 @@ msgstr "Okraj"
 msgid "Disabled"
 msgstr "Vypnuto"
 
-#: src/Views/Touchpad.vala:79
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "Kliknutí klepnutím:"
 
-#: src/Views/Touchpad.vala:81
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "Klikání tlačítky:"
 
-#: src/Views/Touchpad.vala:84
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "Posouvání:"
 
-#: src/Views/Touchpad.vala:88
+#: src/Views/Touchpad.vala:97
 #, fuzzy
 msgid "Ignore while typing:"
 msgstr "Deaktivovat při psaní:"
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
+msgstr ""

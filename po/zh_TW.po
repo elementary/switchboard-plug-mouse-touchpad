@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-10 14:04-0800\n"
+"POT-Creation-Date: 2019-02-16 10:59-0800\n"
 "PO-Revision-Date: 2018-03-26 01:22+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/"
@@ -166,7 +166,7 @@ msgstr "無"
 msgid "Adaptive"
 msgstr "適應性"
 
-#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "指標速度："
 
@@ -174,7 +174,7 @@ msgstr "指標速度："
 msgid "Pointer acceleration:"
 msgstr "指標加速度："
 
-#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "自然捲動："
 
@@ -198,19 +198,23 @@ msgstr "邊緣"
 msgid "Disabled"
 msgstr "已停用"
 
-#: src/Views/Touchpad.vala:79
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "輕觸表示點擊："
 
-#: src/Views/Touchpad.vala:81
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "實體點擊："
 
-#: src/Views/Touchpad.vala:84
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "捲動："
 
-#: src/Views/Touchpad.vala:88
+#: src/Views/Touchpad.vala:97
 #, fuzzy
 msgid "Ignore while typing:"
 msgstr "打字時停用："
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
+msgstr ""

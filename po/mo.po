@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-10 14:04-0800\n"
+"POT-Creation-Date: 2019-02-16 10:59-0800\n"
 "PO-Revision-Date: 2018-05-27 19:09+0000\n"
 "Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
 "Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard/"
@@ -167,7 +167,7 @@ msgstr "Nici unul"
 msgid "Adaptive"
 msgstr "Adaptivă"
 
-#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Viteza indicatorului:"
 
@@ -175,7 +175,7 @@ msgstr "Viteza indicatorului:"
 msgid "Pointer acceleration:"
 msgstr "Accelerarea indicatoarelor:"
 
-#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Deplasare naturală:"
 
@@ -199,19 +199,23 @@ msgstr "Margine"
 msgid "Disabled"
 msgstr "Dezactivat"
 
-#: src/Views/Touchpad.vala:79
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "Atingeți pentru a da clic pe:"
 
-#: src/Views/Touchpad.vala:81
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "Apăsarea fizică:"
 
-#: src/Views/Touchpad.vala:84
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "Deplasare:"
 
-#: src/Views/Touchpad.vala:88
+#: src/Views/Touchpad.vala:97
 #, fuzzy
 msgid "Ignore while typing:"
 msgstr "Dezactivați în timp ce tastați:"
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
+msgstr ""

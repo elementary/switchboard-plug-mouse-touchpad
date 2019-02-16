@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-10 14:04-0800\n"
+"POT-Creation-Date: 2019-02-16 10:59-0800\n"
 "PO-Revision-Date: 2016-06-20 22:28+0000\n"
 "Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -161,7 +161,7 @@ msgstr ""
 msgid "Adaptive"
 msgstr ""
 
-#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:77
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Kursori kiirus:"
 
@@ -170,7 +170,7 @@ msgstr "Kursori kiirus:"
 msgid "Pointer acceleration:"
 msgstr "Kursori kiirus:"
 
-#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:86
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Loomulik kerimine:"
 
@@ -194,18 +194,22 @@ msgstr "Servas"
 msgid "Disabled"
 msgstr "Keelatud"
 
-#: src/Views/Touchpad.vala:79
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "Koputamisel klõpsu tegemine:"
 
-#: src/Views/Touchpad.vala:81
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "Füüsiline klõps:"
 
-#: src/Views/Touchpad.vala:84
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "Kerimine:"
 
-#: src/Views/Touchpad.vala:88
+#: src/Views/Touchpad.vala:97
 msgid "Ignore while typing:"
+msgstr ""
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
 msgstr ""
