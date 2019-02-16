@@ -113,6 +113,8 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Long-press length")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Control pointer using keypad")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Keypad pointer speed")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Mouse")), "mouse");
         search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer speed")), "mouse");
         search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer acceleration")), "mouse");
@@ -123,7 +125,8 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Physical clicking")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Scrolling")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Natural scrolling")), "touchpad");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Disable while typing")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore while typing")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore when mouse is connected")), "touchpad");
         return search_results;
     }
 
