@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-10 14:04-0800\n"
-"PO-Revision-Date: 2018-03-27 00:02+0000\n"
-"Last-Translator: Alain M. <alain23@protonmail.com>\n"
+"PO-Revision-Date: 2019-02-12 00:06+0000\n"
+"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -59,7 +59,7 @@ msgstr "Hacer clic con el botón central:"
 
 #: src/Plug.vala:113
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Pulsación secundaria prolongada"
 
 #: src/Plug.vala:114
 msgid "Long-press length"
@@ -118,11 +118,14 @@ msgstr "Al pulsar la tecla de control se mostrará la posición del puntero"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Pulsación secundaria prolongada:"
 
 #: src/Views/General.vala:84
+#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
+"Presionando prolongadamente y soltando el botón primario se hará clic "
+"secundario."
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
@@ -135,7 +138,7 @@ msgstr "Velocidad del puntero:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "Esto deshabilita ambos niveles de teclas en el teclado numérico."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -143,7 +146,7 @@ msgstr "Mostrar puntero:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Control del puntero mediante teclado:"
 
 #: src/Views/General.vala:146
 msgid ""

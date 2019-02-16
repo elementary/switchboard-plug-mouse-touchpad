@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-10 14:04-0800\n"
-"PO-Revision-Date: 2018-12-02 09:55+0000\n"
+"PO-Revision-Date: 2019-02-16 10:31+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ko/>\n"
@@ -200,6 +200,5 @@ msgid "Scrolling:"
 msgstr "스크롤:"
 
 #: src/Views/Touchpad.vala:88
-#, fuzzy
 msgid "Ignore while typing:"
 msgstr "타이핑할 땐 끄기:"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-10 14:04-0800\n"
-"PO-Revision-Date: 2019-01-25 00:01+0000\n"
+"PO-Revision-Date: 2019-02-11 14:47+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt/>\n"
@@ -202,6 +202,5 @@ msgid "Scrolling:"
 msgstr "Deslocação:"
 
 #: src/Views/Touchpad.vala:88
-#, fuzzy
 msgid "Ignore while typing:"
 msgstr "Desativar ao escrever:"
