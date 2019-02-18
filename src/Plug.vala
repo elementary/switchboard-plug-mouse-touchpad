@@ -109,7 +109,6 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
         search_results.set ("%s → %s".printf (display_name, _("Primary button")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "general");
-        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Long-press length")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "general");
