@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-18 11:17-0800\n"
-"PO-Revision-Date: 2019-02-17 02:14+0000\n"
+"PO-Revision-Date: 2019-02-23 07:37+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/he/>\n"
@@ -63,14 +63,12 @@ msgid "Middle click paste"
 msgstr "הדבקה עם כפתור אמצעי"
 
 #: src/Plug.vala:115
-#, fuzzy
 msgid "Control pointer using keypad"
-msgstr "שליטה בסמן בעזרת הלוח הנומרי:"
+msgstr "שליטה בסמן בעזרת הלוח הנומרי"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Keypad pointer speed"
-msgstr "מהירות הסמן בלוח הנומרי:"
+msgstr "מהירות הסמן בלוח הנומרי"
 
 #: src/Plug.vala:118 src/Plug.vala:122
 msgid "Pointer speed"
@@ -97,14 +95,12 @@ msgid "Scrolling"
 msgstr "גלילה"
 
 #: src/Plug.vala:127
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "התעלמות בעת הקלדה:"
+msgstr "התעלמות בעת הקלדה"
 
 #: src/Plug.vala:128
-#, fuzzy
 msgid "Ignore when mouse is connected"
-msgstr "להתעלם כשהעכבר מחובר:"
+msgstr "להתעלם כשהעכבר מחובר"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
