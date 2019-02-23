@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-18 11:17-0800\n"
-"PO-Revision-Date: 2019-02-17 04:00+0000\n"
+"PO-Revision-Date: 2019-02-23 23:17+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt_BR/>\n"
@@ -64,14 +64,12 @@ msgid "Middle click paste"
 msgstr "Colar com clique do meio"
 
 #: src/Plug.vala:115
-#, fuzzy
 msgid "Control pointer using keypad"
-msgstr "Controle do ponteiro usando o teclado:"
+msgstr "Controle do ponteiro usando o teclado"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Keypad pointer speed"
-msgstr "Velocidade do ponteiro do teclado:"
+msgstr "Velocidade do ponteiro do teclado"
 
 #: src/Plug.vala:118 src/Plug.vala:122
 msgid "Pointer speed"
@@ -98,14 +96,12 @@ msgid "Scrolling"
 msgstr "Rolagem"
 
 #: src/Plug.vala:127
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "Ignorar enquanto digitar:"
+msgstr "Ignorar enquanto digitar"
 
 #: src/Plug.vala:128
-#, fuzzy
 msgid "Ignore when mouse is connected"
-msgstr "Ignore quando o mouse estiver conectado:"
+msgstr "Ignore quando o mouse estiver conectado"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
