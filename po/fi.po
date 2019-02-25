@@ -226,11 +226,4 @@ msgstr "Poista käytöstä kirjoittaessa:"
 
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
-<<<<<<< HEAD
 msgstr "Poista käytöstä kun hiiri on yhdistetty:"
-=======
-msgstr ""
-
-#~ msgid "Disable while typing"
-#~ msgstr "Poista käytöstä kirjoittaessa"
->>>>>>> c969483ed1b57a8ce07bf8364ac49fb3b5b1b724

@@ -226,11 +226,4 @@ msgstr "Ignorer lors de la frappe :"
 
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
-<<<<<<< HEAD
 msgstr "Ignorer lorsque la souris est connectée :"
-=======
-msgstr ""
-
-#~ msgid "Disable while typing"
-#~ msgstr "Désactiver lors de la frappe"
->>>>>>> c969483ed1b57a8ce07bf8364ac49fb3b5b1b724
