@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-18 11:17-0800\n"
-"PO-Revision-Date: 2019-02-09 10:51+0000\n"
+"PO-Revision-Date: 2019-02-28 04:39+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
-"Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
+"Language-Team: Polish <http://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.4\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -65,14 +65,12 @@ msgid "Middle click paste"
 msgstr "Wklejenie poprzez kliknięcie środkowym przyciskiem"
 
 #: src/Plug.vala:115
-#, fuzzy
 msgid "Control pointer using keypad"
-msgstr "Wskaźnik kontrolny podczas używania klawiatury numerycznej:"
+msgstr "Wskaźnik kontrolny podczas używania klawiatury numerycznej"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Keypad pointer speed"
-msgstr "Szybkość wskaźnika klawiatury numerycznej:"
+msgstr "Szybkość wskaźnika klawiatury numerycznej"
 
 #: src/Plug.vala:118 src/Plug.vala:122
 msgid "Pointer speed"
@@ -99,13 +97,12 @@ msgid "Scrolling"
 msgstr "Przewijanie"
 
 #: src/Plug.vala:127
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "Wyłącz podczas pisania:"
+msgstr "Wyłącz podczas pisania"
 
 #: src/Plug.vala:128
 msgid "Ignore when mouse is connected"
-msgstr ""
+msgstr "Ignoruj, gdy podłączona jest myszka"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -221,13 +218,12 @@ msgid "Scrolling:"
 msgstr "Przewijanie:"
 
 #: src/Views/Touchpad.vala:97
-#, fuzzy
 msgid "Ignore while typing:"
-msgstr "Wyłącz podczas pisania:"
+msgstr "Ignoruj podczas pisania:"
 
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
-msgstr ""
+msgstr "Ignoruj, gdy podłączona jest myszka:"
 
 #~ msgid "Disable while typing"
 #~ msgstr "Wyłącz podczas pisania"
