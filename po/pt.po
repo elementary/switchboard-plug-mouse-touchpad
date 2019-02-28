@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-18 11:17-0800\n"
-"PO-Revision-Date: 2019-02-19 22:02+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Portuguese <https://weblate.elementary.io/projects/"
-"switchboard/switchboard-plug-mouse-touchpad/pt/>\n"
+"PO-Revision-Date: 2019-02-28 04:39+0000\n"
+"Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
+"Language-Team: Portuguese <http://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.4\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -64,14 +64,12 @@ msgid "Middle click paste"
 msgstr "Colar com botão do meio"
 
 #: src/Plug.vala:115
-#, fuzzy
 msgid "Control pointer using keypad"
-msgstr "Controlar ponteiro através do teclado:"
+msgstr "Controlar ponteiro através do teclado"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Keypad pointer speed"
-msgstr "Velocidade do ponteiro do teclado:"
+msgstr "Velocidade do ponteiro do teclado"
 
 #: src/Plug.vala:118 src/Plug.vala:122
 msgid "Pointer speed"
@@ -98,13 +96,12 @@ msgid "Scrolling"
 msgstr "Deslocação"
 
 #: src/Plug.vala:127
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "Desativar ao escrever:"
+msgstr "Desativar ao escrever"
 
 #: src/Plug.vala:128
 msgid "Ignore when mouse is connected"
-msgstr ""
+msgstr "Ignorar quando o rato estiver ligado"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
