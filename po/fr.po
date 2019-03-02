@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-18 11:17-0800\n"
-"PO-Revision-Date: 2019-02-19 22:24+0000\n"
+"PO-Revision-Date: 2019-03-03 12:26+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
+"Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.4\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -64,12 +64,10 @@ msgid "Middle click paste"
 msgstr "Coller avec le clic du milieu"
 
 #: src/Plug.vala:115
-#, fuzzy
 msgid "Control pointer using keypad"
 msgstr "Contrôler le pointeur en utilisant le pavé numérique :"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Keypad pointer speed"
 msgstr "Vitesse du pointeur du clavier numérique :"
 
@@ -98,13 +96,12 @@ msgid "Scrolling"
 msgstr "Défilement"
 
 #: src/Plug.vala:127
-#, fuzzy
 msgid "Ignore while typing"
 msgstr "Ignorer lors de la frappe :"
 
 #: src/Plug.vala:128
 msgid "Ignore when mouse is connected"
-msgstr ""
+msgstr "Ignorer lorsqu'une souris est connectée"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
