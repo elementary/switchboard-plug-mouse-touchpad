@@ -82,20 +82,18 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         hold_switch.halign = Gtk.Align.START;
 
         var hold_help = new Gtk.Label (_("Long-pressing and releasing the primary button will secondary click."));
-        hold_help.margin_bottom = 6;
+        hold_help.margin_bottom = 18;
         hold_help.wrap = true;
         hold_help.xalign = 0;
         hold_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        var hold_length_label = new SettingLabel (_("Long-press length:"));
-        hold_length_label.margin_bottom = 18;
+        var hold_length_label = new SettingLabel (_("Length:"));
 
         var hold_scale = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, 0.5, 2.0, 0.1);
         hold_scale.draw_value = false;
         hold_scale.hexpand = true;
-        hold_scale.margin_bottom = 10;
         hold_scale.width_request = 160;
-        hold_scale.add_mark (1.2, Gtk.PositionType.BOTTOM, null);
+        hold_scale.add_mark (1.2, Gtk.PositionType.TOP, null);
 
         var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
@@ -105,15 +103,15 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         var keypad_pointer_adjustment = new Gtk.Adjustment (0, 0, 500, 10, 10, 10);
 
-        var pointer_speed_label = new SettingLabel (_("Keypad pointer speed:"));
-        pointer_speed_label.margin_bottom = 7;
+        var pointer_speed_label = new SettingLabel (_("Speed:"));
 
         var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, keypad_pointer_adjustment);
         pointer_speed_scale.draw_value = false;
-        pointer_speed_scale.add_mark (10, Gtk.PositionType.BOTTOM, null);
+        pointer_speed_scale.add_mark (10, Gtk.PositionType.TOP, null);
 
         var pointer_speed_help = new Gtk.Label (_("This disables both levels of keys on the numeric keypad."));
-        pointer_speed_help.margin_bottom = 6;
+        pointer_speed_help.margin_bottom = 18;
+
         pointer_speed_help.wrap = true;
         pointer_speed_help.xalign = 0;
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
@@ -122,26 +120,28 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         column_spacing = 12;
 
         attach (primary_button_label, 0, 0);
-        attach (primary_button_switcher, 1, 0, 2, 1);
+        attach (primary_button_switcher, 1, 0, 3);
+
         attach (hold_label, 0, 1);
         attach (hold_switch, 1, 1);
-        attach (hold_help, 1, 2);
-        attach (hold_length_label, 0, 3);
-        attach (hold_scale, 1, 3);
+        attach (hold_length_label, 2, 1);
+        attach (hold_scale, 3, 1);
+        attach (hold_help, 1, 2, 3);
+
         attach (new SettingLabel (_("Reveal pointer:")), 0, 6);
-        attach (reveal_pointer_switch, 1, 6);
-        attach (locate_pointer_help, 1, 7);
+        attach (reveal_pointer_switch, 1, 6, 3);
+        attach (locate_pointer_help, 1, 7, 3);
+
         attach (new SettingLabel (_("Control pointer using keypad:")), 0, 8);
         attach (keypad_pointer_switch, 1, 8);
-        attach (pointer_speed_help, 1, 9);
-        attach (pointer_speed_label, 0, 10);
-        attach (pointer_speed_scale, 1, 10);
+        attach (pointer_speed_label, 2, 8);
+        attach (pointer_speed_scale, 3, 8);
+        attach (pointer_speed_help, 1, 9, 3);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
         if (xsettings_schema != null) {
             var primary_paste_switch = new Gtk.Switch ();
             primary_paste_switch.halign = Gtk.Align.START;
-            primary_paste_switch.margin_end = 8;
 
             var primary_paste_help = new Gtk.Label (_("Middle or three-finger clicking on an input will paste any selected text"));
             primary_paste_help.margin_bottom = 18;
@@ -151,7 +151,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
             attach (new SettingLabel (_("Middle click paste:")), 0, 4);
             attach (primary_paste_switch, 1, 4);
-            attach (primary_paste_help, 1, 5);
+            attach (primary_paste_help, 1, 5, 3);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
             primary_paste_switch.notify["active"].connect (() => on_primary_paste_switch_changed (primary_paste_switch, xsettings));
