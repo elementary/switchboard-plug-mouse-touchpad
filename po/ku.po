@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"POT-Creation-Date: 2019-02-18 11:17-0800\n"
 "PO-Revision-Date: 2018-02-11 00:08+0000\n"
 "Last-Translator: Rokar <mail@rokar.de>\n"
 "Language-Team: Kurdish <https://weblate.elementary.io/projects/switchboard/"
@@ -32,13 +32,14 @@ msgstr ""
 msgid "General"
 msgstr "Giştî"
 
-#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119
+#: src/Plug.vala:64 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "Mouse"
 msgstr "Mişk"
 
-#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
+#: src/Plug.vala:65 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
+#: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
+#: src/Plug.vala:128
 msgid "Touchpad"
 msgstr "Cîpêk"
 
@@ -50,46 +51,59 @@ msgstr ""
 msgid "Reveal pointer"
 msgstr ""
 
-#: src/Plug.vala:112 src/Plug.vala:115
-msgid "Middle click paste"
-msgstr ""
-
-#: src/Plug.vala:113
+#: src/Plug.vala:112
 msgid "Long-press secondary click"
 msgstr ""
 
-#: src/Plug.vala:114
+#: src/Plug.vala:113
 msgid "Long-press length"
 msgstr ""
 
-#: src/Plug.vala:117 src/Plug.vala:121
+#: src/Plug.vala:114
+msgid "Middle click paste"
+msgstr ""
+
+#: src/Plug.vala:115
+msgid "Control pointer using keypad"
+msgstr ""
+
+#: src/Plug.vala:116
+#, fuzzy
+msgid "Keypad pointer speed"
+msgstr "Leza nîşankerê:"
+
+#: src/Plug.vala:118 src/Plug.vala:122
 #, fuzzy
 msgid "Pointer speed"
 msgstr "Leza nîşankerê:"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 #, fuzzy
 msgid "Pointer acceleration"
 msgstr "Leza nîşankerê:"
 
-#: src/Plug.vala:119 src/Plug.vala:125
+#: src/Plug.vala:120 src/Plug.vala:126
 msgid "Natural scrolling"
 msgstr ""
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 msgid "Tap to click"
 msgstr ""
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 msgid "Physical clicking"
 msgstr ""
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Scrolling"
 msgstr ""
 
-#: src/Plug.vala:126
-msgid "Disable while typing"
+#: src/Plug.vala:127
+msgid "Ignore while typing"
+msgstr ""
+
+#: src/Plug.vala:128
+msgid "Ignore when mouse is connected"
 msgstr ""
 
 #: src/Views/General.vala:30
@@ -146,28 +160,28 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr ""
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr ""
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr ""
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr ""
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Leza nîşankerê:"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 #, fuzzy
 msgid "Pointer acceleration:"
 msgstr "Leza nîşankerê:"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr ""
 
@@ -179,30 +193,34 @@ msgstr ""
 msgid "Touchpad areas"
 msgstr ""
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "du-tilî"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "Sînor"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "Na çalak"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:97
+msgid "Ignore while typing:"
+msgstr ""
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
 msgstr ""

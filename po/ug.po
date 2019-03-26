@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"POT-Creation-Date: 2019-02-18 11:17-0800\n"
 "PO-Revision-Date: 2016-12-18 05:20+0000\n"
 "Last-Translator: aliyusup <Unknown>\n"
 "Language-Team: Uyghur <ug@li.org>\n"
@@ -30,13 +30,14 @@ msgstr "مائۇس ۋە تەگتاختىنى تەڭشەش"
 msgid "General"
 msgstr "ئادەتتىكى"
 
-#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119
+#: src/Plug.vala:64 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "Mouse"
 msgstr "مائۇس"
 
-#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
+#: src/Plug.vala:65 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
+#: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
+#: src/Plug.vala:128
 msgid "Touchpad"
 msgstr "تەگتاختا"
 
@@ -50,50 +51,63 @@ msgstr "ئاساسىي كۇنۇپكا"
 msgid "Reveal pointer"
 msgstr "كۆرسىتىش سترېلكىسى"
 
-#: src/Plug.vala:112 src/Plug.vala:115
-msgid "Middle click paste"
-msgstr ""
-
-#: src/Plug.vala:113
+#: src/Plug.vala:112
 msgid "Long-press secondary click"
 msgstr ""
 
-#: src/Plug.vala:114
+#: src/Plug.vala:113
 msgid "Long-press length"
 msgstr ""
 
-#: src/Plug.vala:117 src/Plug.vala:121
+#: src/Plug.vala:114
+msgid "Middle click paste"
+msgstr ""
+
+#: src/Plug.vala:115
+msgid "Control pointer using keypad"
+msgstr ""
+
+#: src/Plug.vala:116
+#, fuzzy
+msgid "Keypad pointer speed"
+msgstr "مائۇس سترېلكىسى سۈرئىتى"
+
+#: src/Plug.vala:118 src/Plug.vala:122
 #, fuzzy
 msgid "Pointer speed"
 msgstr "مائۇس سترېلكىسى سۈرئىتى"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 #, fuzzy
 msgid "Pointer acceleration"
 msgstr "مائۇس سترېلكىسى سۈرئىتى"
 
-#: src/Plug.vala:119 src/Plug.vala:125
+#: src/Plug.vala:120 src/Plug.vala:126
 #, fuzzy
 msgid "Natural scrolling"
 msgstr "تەبىئىي سىيرىلىش"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 #, fuzzy
 msgid "Tap to click"
 msgstr "يىنىك بېسىش"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 #, fuzzy
 msgid "Physical clicking"
 msgstr "تەگتاختا كۇنۇپكىسى"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 #, fuzzy
 msgid "Scrolling"
 msgstr "يانغالتەك"
 
-#: src/Plug.vala:126
-msgid "Disable while typing"
+#: src/Plug.vala:127
+msgid "Ignore while typing"
+msgstr ""
+
+#: src/Plug.vala:128
+msgid "Ignore when mouse is connected"
 msgstr ""
 
 #: src/Views/General.vala:30
@@ -150,28 +164,28 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr ""
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "قاتتىق دىتال ئەسلى ھالىتى"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr ""
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr ""
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "مائۇس سترېلكىسى سۈرئىتى"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 #, fuzzy
 msgid "Pointer acceleration:"
 msgstr "مائۇس سترېلكىسى سۈرئىتى"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "تەبىئىي سىيرىلىش"
 
@@ -183,30 +197,34 @@ msgstr "كۆپ بارماق"
 msgid "Touchpad areas"
 msgstr "تەگتاختا رايونى"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "قوش بارماق"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "گىرۋەك"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "چەكلەنگەن"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "يىنىك بېسىش"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "تەگتاختا كۇنۇپكىسى"
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "يانغالتەك"
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:97
+msgid "Ignore while typing:"
+msgstr ""
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
 msgstr ""

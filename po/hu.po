@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"POT-Creation-Date: 2019-02-18 11:17-0800\n"
 "PO-Revision-Date: 2018-06-15 00:11+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard/"
@@ -32,13 +32,14 @@ msgstr "Egér és touchpad beállítása"
 msgid "General"
 msgstr "Álatlános"
 
-#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119
+#: src/Plug.vala:64 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "Mouse"
 msgstr "Egér"
 
-#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
+#: src/Plug.vala:65 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
+#: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
+#: src/Plug.vala:128
 msgid "Touchpad"
 msgstr "Touchpad"
 
@@ -52,53 +53,66 @@ msgstr "Elsődleges gomb:"
 msgid "Reveal pointer"
 msgstr "Mutató kiemelése:"
 
-#: src/Plug.vala:112 src/Plug.vala:115
+#: src/Plug.vala:112
+msgid "Long-press secondary click"
+msgstr ""
+
+#: src/Plug.vala:113
+msgid "Long-press length"
+msgstr ""
+
+#: src/Plug.vala:114
 #, fuzzy
 msgid "Middle click paste"
 msgstr "Középső gombos beillesztés:"
 
-#: src/Plug.vala:113
-msgid "Long-press secondary click"
+#: src/Plug.vala:115
+msgid "Control pointer using keypad"
 msgstr ""
 
-#: src/Plug.vala:114
-msgid "Long-press length"
-msgstr ""
+#: src/Plug.vala:116
+#, fuzzy
+msgid "Keypad pointer speed"
+msgstr "Mutató sebessége:"
 
-#: src/Plug.vala:117 src/Plug.vala:121
+#: src/Plug.vala:118 src/Plug.vala:122
 #, fuzzy
 msgid "Pointer speed"
 msgstr "Mutató sebessége:"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 #, fuzzy
 msgid "Pointer acceleration"
 msgstr "Mutató gyorsítása:"
 
-#: src/Plug.vala:119 src/Plug.vala:125
+#: src/Plug.vala:120 src/Plug.vala:126
 #, fuzzy
 msgid "Natural scrolling"
 msgstr "Természetes görgetés:"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 #, fuzzy
 msgid "Tap to click"
 msgstr "Koppintás a kattintáshoz:"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 #, fuzzy
 msgid "Physical clicking"
 msgstr "Fizikai kattintás:"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 #, fuzzy
 msgid "Scrolling"
 msgstr "Görgetés:"
 
-#: src/Plug.vala:126
+#: src/Plug.vala:127
 #, fuzzy
-msgid "Disable while typing"
+msgid "Ignore while typing"
 msgstr "Kikapcsolás gépelés közben:"
+
+#: src/Plug.vala:128
+msgid "Ignore when mouse is connected"
+msgstr ""
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -156,27 +170,27 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Középső gombos beillesztés:"
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "Alapértelmezett hardver"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "Nincs"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "Adaptív"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Mutató sebessége:"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "Mutató gyorsítása:"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Természetes görgetés:"
 
@@ -188,30 +202,39 @@ msgstr "Multi-touch"
 msgid "Touchpad areas"
 msgstr "Touchpad területek"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "Két ujjal"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "Szélen"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "Kikapcsolva"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "Koppintás a kattintáshoz:"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "Fizikai kattintás:"
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "Görgetés:"
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:97
+#, fuzzy
+msgid "Ignore while typing:"
 msgstr "Kikapcsolás gépelés közben:"
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Disable while typing"
+#~ msgstr "Kikapcsolás gépelés közben:"

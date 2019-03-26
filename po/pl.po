@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2019-01-02 00:10+0000\n"
+"POT-Creation-Date: 2019-02-18 11:17-0800\n"
+"PO-Revision-Date: 2019-02-28 04:39+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
-"Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
+"Language-Team: Polish <http://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.4\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -33,13 +33,14 @@ msgstr "Skonfiguruj myszkę i panel dotykowy"
 msgid "General"
 msgstr "Ogólne"
 
-#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119
+#: src/Plug.vala:64 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "Mouse"
 msgstr "Myszka"
 
-#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
+#: src/Plug.vala:65 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
+#: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
+#: src/Plug.vala:128
 msgid "Touchpad"
 msgstr "Panel dotykowy"
 
@@ -51,45 +52,57 @@ msgstr "Główny przycisk"
 msgid "Reveal pointer"
 msgstr "Pokaż wskaźnik"
 
-#: src/Plug.vala:112 src/Plug.vala:115
-msgid "Middle click paste"
-msgstr "Wklejenie poprzez kliknięcie środkowym przyciskiem"
-
-#: src/Plug.vala:113
+#: src/Plug.vala:112
 msgid "Long-press secondary click"
 msgstr "Długie przytrzymanie kliknięcia prawym przyciskiem myszy"
 
-#: src/Plug.vala:114
+#: src/Plug.vala:113
 msgid "Long-press length"
 msgstr "Długość długiego przytrzymania"
 
-#: src/Plug.vala:117 src/Plug.vala:121
+#: src/Plug.vala:114
+msgid "Middle click paste"
+msgstr "Wklejenie poprzez kliknięcie środkowym przyciskiem"
+
+#: src/Plug.vala:115
+msgid "Control pointer using keypad"
+msgstr "Wskaźnik kontrolny podczas używania klawiatury numerycznej"
+
+#: src/Plug.vala:116
+msgid "Keypad pointer speed"
+msgstr "Szybkość wskaźnika klawiatury numerycznej"
+
+#: src/Plug.vala:118 src/Plug.vala:122
 msgid "Pointer speed"
 msgstr "Szybkość wskaźnika"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Pointer acceleration"
 msgstr "Przyspieszenie wskaźnika"
 
-#: src/Plug.vala:119 src/Plug.vala:125
+#: src/Plug.vala:120 src/Plug.vala:126
 msgid "Natural scrolling"
 msgstr "Przewijanie naturalne"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 msgid "Tap to click"
 msgstr "Stuknij, aby kliknąć"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 msgid "Physical clicking"
 msgstr "Fizyczne kliknięcie"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Scrolling"
 msgstr "Przewijanie"
 
-#: src/Plug.vala:126
-msgid "Disable while typing"
+#: src/Plug.vala:127
+msgid "Ignore while typing"
 msgstr "Wyłącz podczas pisania"
+
+#: src/Plug.vala:128
+msgid "Ignore when mouse is connected"
+msgstr "Ignoruj, gdy podłączona jest myszka"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -114,6 +127,8 @@ msgstr "Długie przytrzymanie kliknięcia prawym przyciskiem myszy:"
 #: src/Views/General.vala:84
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
+"Długie przytrzymanie i odpuszczenie głównego przycisku myszy będzie jak "
+"podwójne kliknięcie."
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
@@ -125,7 +140,7 @@ msgstr "Szybkość wskaźnika klawiatury numerycznej:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "Wyłączy to oba poziomy przycisków na klawiaturze numerycznej."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -146,27 +161,27 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Wklejenie poprzez kliknięcie środkowym przyciskiem:"
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "Domyślne sprzętowe"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "Brak"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "Adaptacyjny"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Szybkość wskaźnika:"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "Przyspieszenie wskaźnika:"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Przewijanie normalne:"
 
@@ -178,30 +193,37 @@ msgstr "Wielodotykowy"
 msgid "Touchpad areas"
 msgstr "Obszary gładzika"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "Dwoma palcami"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "Krawędź"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "Wyłączone"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "Stuknij, aby kilknąć:"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "Fizyczne kliknięcie:"
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "Przewijanie:"
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
-msgstr "Wyłącz podczas pisania:"
+#: src/Views/Touchpad.vala:97
+msgid "Ignore while typing:"
+msgstr "Ignoruj podczas pisania:"
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
+msgstr "Ignoruj, gdy podłączona jest myszka:"
+
+#~ msgid "Disable while typing"
+#~ msgstr "Wyłącz podczas pisania"

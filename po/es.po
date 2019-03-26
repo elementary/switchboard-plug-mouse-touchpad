@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-03-27 00:02+0000\n"
-"Last-Translator: Alain M. <alain23@protonmail.com>\n"
+"POT-Creation-Date: 2019-02-18 11:17-0800\n"
+"PO-Revision-Date: 2019-02-12 00:06+0000\n"
+"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -32,13 +32,14 @@ msgstr "Configurar ratón y panel táctil"
 msgid "General"
 msgstr "General"
 
-#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119
+#: src/Plug.vala:64 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "Mouse"
 msgstr "Ratón"
 
-#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
+#: src/Plug.vala:65 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
+#: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
+#: src/Plug.vala:128
 msgid "Touchpad"
 msgstr "Panel táctil"
 
@@ -52,53 +53,67 @@ msgstr "Botón primario:"
 msgid "Reveal pointer"
 msgstr "Mostrar puntero:"
 
-#: src/Plug.vala:112 src/Plug.vala:115
+#: src/Plug.vala:112
+msgid "Long-press secondary click"
+msgstr "Pulsación secundaria prolongada"
+
+#: src/Plug.vala:113
+msgid "Long-press length"
+msgstr ""
+
+#: src/Plug.vala:114
 #, fuzzy
 msgid "Middle click paste"
 msgstr "Hacer clic con el botón central:"
 
-#: src/Plug.vala:113
-msgid "Long-press secondary click"
-msgstr ""
+#: src/Plug.vala:115
+#, fuzzy
+msgid "Control pointer using keypad"
+msgstr "Control del puntero mediante teclado:"
 
-#: src/Plug.vala:114
-msgid "Long-press length"
-msgstr ""
+#: src/Plug.vala:116
+#, fuzzy
+msgid "Keypad pointer speed"
+msgstr "Velocidad del puntero:"
 
-#: src/Plug.vala:117 src/Plug.vala:121
+#: src/Plug.vala:118 src/Plug.vala:122
 #, fuzzy
 msgid "Pointer speed"
 msgstr "Velocidad del puntero:"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 #, fuzzy
 msgid "Pointer acceleration"
 msgstr "Aceleración del puntero:"
 
-#: src/Plug.vala:119 src/Plug.vala:125
+#: src/Plug.vala:120 src/Plug.vala:126
 #, fuzzy
 msgid "Natural scrolling"
 msgstr "Desplazamiento natural:"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 #, fuzzy
 msgid "Tap to click"
 msgstr "Toque para hacer clic:"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 #, fuzzy
 msgid "Physical clicking"
 msgstr "Clic físico:"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 #, fuzzy
 msgid "Scrolling"
 msgstr "Desplazamiento:"
 
-#: src/Plug.vala:126
+#: src/Plug.vala:127
 #, fuzzy
-msgid "Disable while typing"
+msgid "Ignore while typing"
 msgstr "Deshabilitar mientras tipea:"
+
+#: src/Plug.vala:128
+msgid "Ignore when mouse is connected"
+msgstr ""
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -118,11 +133,14 @@ msgstr "Al pulsar la tecla de control se mostrará la posición del puntero"
 
 #: src/Views/General.vala:79
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Pulsación secundaria prolongada:"
 
 #: src/Views/General.vala:84
+#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr ""
+"Presionando prolongadamente y soltando el botón primario se hará clic "
+"secundario."
 
 #: src/Views/General.vala:90
 msgid "Long-press length:"
@@ -135,7 +153,7 @@ msgstr "Velocidad del puntero:"
 
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
-msgstr ""
+msgstr "Esto deshabilita ambos niveles de teclas en el teclado numérico."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -143,7 +161,7 @@ msgstr "Mostrar puntero:"
 
 #: src/Views/General.vala:134
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Control del puntero mediante teclado:"
 
 #: src/Views/General.vala:146
 msgid ""
@@ -156,27 +174,27 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Hacer clic con el botón central:"
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "Hardware por defecto"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "Ninguno"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "Adaptado"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Velocidad del puntero:"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "Aceleración del puntero:"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Desplazamiento natural:"
 
@@ -188,30 +206,39 @@ msgstr "Multitáctil"
 msgid "Touchpad areas"
 msgstr "Áreas del panel táctil"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "Dos dedos"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "Borde"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "Desactivado"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "Toque para hacer clic:"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "Clic físico:"
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "Desplazamiento:"
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:97
+#, fuzzy
+msgid "Ignore while typing:"
 msgstr "Deshabilitar mientras tipea:"
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Disable while typing"
+#~ msgstr "Deshabilitar mientras tipea:"

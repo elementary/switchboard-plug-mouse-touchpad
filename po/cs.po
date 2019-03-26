@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
+"POT-Creation-Date: 2019-02-18 11:17-0800\n"
 "PO-Revision-Date: 2018-12-17 15:07+0000\n"
 "Last-Translator: Daniel Zvir <zvir.daniel@seznam.cz>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
@@ -32,13 +32,14 @@ msgstr "Nastavujte myš a touchpad"
 msgid "General"
 msgstr "Obecné"
 
-#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119
+#: src/Plug.vala:64 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "Mouse"
 msgstr "Myš"
 
-#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
+#: src/Plug.vala:65 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
+#: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
+#: src/Plug.vala:128
 msgid "Touchpad"
 msgstr "Touchpad"
 
@@ -50,45 +51,60 @@ msgstr "Primární tlačítko"
 msgid "Reveal pointer"
 msgstr "Zvýraznit kurzor"
 
-#: src/Plug.vala:112 src/Plug.vala:115
-msgid "Middle click paste"
-msgstr "Vkládání prostředním tlačítkem"
-
-#: src/Plug.vala:113
+#: src/Plug.vala:112
 msgid "Long-press secondary click"
 msgstr "Sekundární kliknutí podržením"
 
-#: src/Plug.vala:114
+#: src/Plug.vala:113
 msgid "Long-press length"
 msgstr "Délka podržení"
 
-#: src/Plug.vala:117 src/Plug.vala:121
+#: src/Plug.vala:114
+msgid "Middle click paste"
+msgstr "Vkládání prostředním tlačítkem"
+
+#: src/Plug.vala:115
+#, fuzzy
+msgid "Control pointer using keypad"
+msgstr "Ovládání ukazatele klávesami:"
+
+#: src/Plug.vala:116
+#, fuzzy
+msgid "Keypad pointer speed"
+msgstr "Rychlost kurzoru:"
+
+#: src/Plug.vala:118 src/Plug.vala:122
 msgid "Pointer speed"
 msgstr "Rychlost kurzoru"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Pointer acceleration"
 msgstr "Zrychlení kurzoru"
 
-#: src/Plug.vala:119 src/Plug.vala:125
+#: src/Plug.vala:120 src/Plug.vala:126
 msgid "Natural scrolling"
 msgstr "Přirozené posouvání"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 msgid "Tap to click"
 msgstr "Kliknutí klepnutím"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 msgid "Physical clicking"
 msgstr "Klikání tlačítky"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Scrolling"
 msgstr "Posouvání"
 
-#: src/Plug.vala:126
-msgid "Disable while typing"
-msgstr "Deaktivovat při psaní"
+#: src/Plug.vala:127
+#, fuzzy
+msgid "Ignore while typing"
+msgstr "Deaktivovat při psaní:"
+
+#: src/Plug.vala:128
+msgid "Ignore when mouse is connected"
+msgstr ""
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -145,27 +161,27 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Vkládání prostředním tlačítkem:"
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "Výchozí pro hardware"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "Žádný"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "Adaptivní"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Rychlost kurzoru:"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "Zrychlení kurzoru:"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Přirozené posouvání:"
 
@@ -177,30 +193,38 @@ msgstr "Vícedotykový"
 msgid "Touchpad areas"
 msgstr "Dotykové oblasti"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "Dvěma prsty"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "Okraj"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "Vypnuto"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "Kliknutí klepnutím:"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "Klikání tlačítky:"
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "Posouvání:"
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
+#: src/Views/Touchpad.vala:97
+#, fuzzy
+msgid "Ignore while typing:"
 msgstr "Deaktivovat při psaní:"
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
+msgstr ""
+
+#~ msgid "Disable while typing"
+#~ msgstr "Deaktivovat při psaní"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 11:43-0800\n"
-"PO-Revision-Date: 2018-12-03 22:56+0000\n"
+"POT-Creation-Date: 2019-02-18 11:17-0800\n"
+"PO-Revision-Date: 2019-02-23 15:26+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/lt/>\n"
@@ -33,13 +33,14 @@ msgstr "Konfigūruoti pelę ir jutiklinį kilimėlį"
 msgid "General"
 msgstr "Bendra"
 
-#: src/Plug.vala:64 src/Plug.vala:116 src/Plug.vala:117 src/Plug.vala:118
-#: src/Plug.vala:119
+#: src/Plug.vala:64 src/Plug.vala:117 src/Plug.vala:118 src/Plug.vala:119
+#: src/Plug.vala:120
 msgid "Mouse"
 msgstr "Pelė"
 
-#: src/Plug.vala:65 src/Plug.vala:120 src/Plug.vala:121 src/Plug.vala:122
-#: src/Plug.vala:123 src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126
+#: src/Plug.vala:65 src/Plug.vala:121 src/Plug.vala:122 src/Plug.vala:123
+#: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
+#: src/Plug.vala:128
 msgid "Touchpad"
 msgstr "Jutiklinis kilimėlis"
 
@@ -51,45 +52,57 @@ msgstr "Pirminis mygtukas"
 msgid "Reveal pointer"
 msgstr "Parodyti rodyklę"
 
-#: src/Plug.vala:112 src/Plug.vala:115
-msgid "Middle click paste"
-msgstr "Įdėti, spustelėjus vidurinį mygtuką"
-
-#: src/Plug.vala:113
+#: src/Plug.vala:112
 msgid "Long-press secondary click"
 msgstr "Antrinis spustelėjimas ilguoju paspaudimu"
 
-#: src/Plug.vala:114
+#: src/Plug.vala:113
 msgid "Long-press length"
 msgstr "Ilgojo paspaudimo trukmė"
 
-#: src/Plug.vala:117 src/Plug.vala:121
+#: src/Plug.vala:114
+msgid "Middle click paste"
+msgstr "Įdėti, spustelėjus vidurinį mygtuką"
+
+#: src/Plug.vala:115
+msgid "Control pointer using keypad"
+msgstr "Valdyti rodyklę, naudojant pagalbinę klaviatūrą"
+
+#: src/Plug.vala:116
+msgid "Keypad pointer speed"
+msgstr "Pagalbinės klaviatūros rodyklės greitis"
+
+#: src/Plug.vala:118 src/Plug.vala:122
 msgid "Pointer speed"
 msgstr "Rodyklės greitis"
 
-#: src/Plug.vala:118
+#: src/Plug.vala:119
 msgid "Pointer acceleration"
 msgstr "Rodyklės pagreitis"
 
-#: src/Plug.vala:119 src/Plug.vala:125
+#: src/Plug.vala:120 src/Plug.vala:126
 msgid "Natural scrolling"
 msgstr "Natūralus slinkimas"
 
-#: src/Plug.vala:122
+#: src/Plug.vala:123
 msgid "Tap to click"
 msgstr "Bakstelėti, norint spustelėti"
 
-#: src/Plug.vala:123
+#: src/Plug.vala:124
 msgid "Physical clicking"
 msgstr "Fizinis spustelėjimas"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:125
 msgid "Scrolling"
 msgstr "Slinkimas"
 
-#: src/Plug.vala:126
-msgid "Disable while typing"
-msgstr "Išjungti, renkant tekstą"
+#: src/Plug.vala:127
+msgid "Ignore while typing"
+msgstr "Nepaisyti, renkant tekstą"
+
+#: src/Plug.vala:128
+msgid "Ignore when mouse is connected"
+msgstr "Nepaisyti, kai yra prijungta pelė"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -148,27 +161,27 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Įdėti, spustelėjus vidurinį mygtuką:"
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:48
+#: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
 msgstr "Pagal aparatinės įrangos numatymą"
 
-#: src/Views/Mouse.vala:39
+#: src/Views/Mouse.vala:31
 msgid "None"
 msgstr "Nėra"
 
-#: src/Views/Mouse.vala:40
+#: src/Views/Mouse.vala:32
 msgid "Adaptive"
 msgstr "Adaptyvus"
 
-#: src/Views/Mouse.vala:52 src/Views/Touchpad.vala:76
+#: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
 msgstr "Rodyklės greitis:"
 
-#: src/Views/Mouse.vala:54
+#: src/Views/Mouse.vala:42
 msgid "Pointer acceleration:"
 msgstr "Rodyklės pagreitis:"
 
-#: src/Views/Mouse.vala:56 src/Views/Touchpad.vala:85
+#: src/Views/Mouse.vala:46 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Natūralus slinkimas:"
 
@@ -180,30 +193,37 @@ msgstr "Daugiataškis"
 msgid "Touchpad areas"
 msgstr "Jutiklinio kilimėlio sritys"
 
-#: src/Views/Touchpad.vala:63
+#: src/Views/Touchpad.vala:64
 msgid "Two-finger"
 msgstr "Dviem pirštais"
 
-#: src/Views/Touchpad.vala:64
+#: src/Views/Touchpad.vala:65
 msgid "Edge"
 msgstr "Kraštuose"
 
-#: src/Views/Touchpad.vala:65
+#: src/Views/Touchpad.vala:66
 msgid "Disabled"
 msgstr "Išjungta"
 
-#: src/Views/Touchpad.vala:78
+#: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
 msgstr "Bakstelėti, norint spustelėti:"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:90
 msgid "Physical clicking:"
 msgstr "Fizinis spustelėjimas:"
 
-#: src/Views/Touchpad.vala:83
+#: src/Views/Touchpad.vala:93
 msgid "Scrolling:"
 msgstr "Slinkimas:"
 
-#: src/Views/Touchpad.vala:87
-msgid "Disable while typing:"
-msgstr "Išjungti, renkant tekstą:"
+#: src/Views/Touchpad.vala:97
+msgid "Ignore while typing:"
+msgstr "Nepaisyti, renkant tekstą:"
+
+#: src/Views/Touchpad.vala:99
+msgid "Ignore when mouse is connected:"
+msgstr "Nepaisyti, kai yra prijungta pelė:"
+
+#~ msgid "Disable while typing"
+#~ msgstr "Išjungti, renkant tekstą"
