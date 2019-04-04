@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-18 11:17-0800\n"
-"PO-Revision-Date: 2019-01-15 00:06+0000\n"
+"PO-Revision-Date: 2019-04-05 11:52+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
-"Language-Team: Chinese (Simplified) <https://weblate.elementary.io/projects/"
+"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.5.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -64,14 +64,12 @@ msgid "Middle click paste"
 msgstr "中键粘贴"
 
 #: src/Plug.vala:115
-#, fuzzy
 msgid "Control pointer using keypad"
-msgstr "使用键盘控制指针："
+msgstr "使用键盘控制指针"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Keypad pointer speed"
-msgstr "指针速度："
+msgstr "指针速度"
 
 #: src/Plug.vala:118 src/Plug.vala:122
 msgid "Pointer speed"
@@ -98,13 +96,12 @@ msgid "Scrolling"
 msgstr "滚动设置"
 
 #: src/Plug.vala:127
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "输入时禁用："
+msgstr "输入时禁用"
 
 #: src/Plug.vala:128
 msgid "Ignore when mouse is connected"
-msgstr ""
+msgstr "已接入鼠标时忽略"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -216,13 +213,12 @@ msgid "Scrolling:"
 msgstr "滚动设置："
 
 #: src/Views/Touchpad.vala:97
-#, fuzzy
 msgid "Ignore while typing:"
 msgstr "输入时禁用："
 
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
-msgstr ""
+msgstr "已接入鼠标时忽略："
 
 #~ msgid "Disable while typing"
 #~ msgstr "输入时禁用"
