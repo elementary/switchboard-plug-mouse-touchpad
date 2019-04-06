@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-18 11:17-0800\n"
-"PO-Revision-Date: 2019-04-05 11:52+0000\n"
+"PO-Revision-Date: 2019-04-08 19:53+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
@@ -65,7 +65,7 @@ msgstr "Orta tıklama ile yapıştır"
 
 #: src/Plug.vala:115
 msgid "Control pointer using keypad"
-msgstr "İşaretçiyi tuş takımı ile kontrol et"
+msgstr "İşaretçiyi tuş takımını kullanarak kontrol et"
 
 #: src/Plug.vala:116
 msgid "Keypad pointer speed"
@@ -166,7 +166,7 @@ msgstr "Donanım varsayılanı"
 
 #: src/Views/Mouse.vala:31
 msgid "None"
-msgstr "Hiçbiri"
+msgstr "Yok"
 
 #: src/Views/Mouse.vala:32
 msgid "Adaptive"
