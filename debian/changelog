@@ -1,3 +1,9 @@
+switchboard-plug-mouse-touchpad (2.2.0) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <codygarver@gmail.com>  Wed, 10 Apr 2019 22:47:58 -0500
+
 switchboard-plug-mouse-touchpad (2.1.4) bionic; urgency=medium
 
   * New upstream release.
