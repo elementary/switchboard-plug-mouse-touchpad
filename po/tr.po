@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-18 11:17-0800\n"
-"PO-Revision-Date: 2019-04-08 19:53+0000\n"
+"PO-Revision-Date: 2019-04-12 18:25+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
@@ -202,7 +202,7 @@ msgstr "Kenar"
 
 #: src/Views/Touchpad.vala:66
 msgid "Disabled"
-msgstr "Devre Dışı"
+msgstr "Devre dışı bırakıldı"
 
 #: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
