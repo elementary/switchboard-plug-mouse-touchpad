@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-18 11:17-0800\n"
+"POT-Creation-Date: 2019-06-26 22:45+0200\n"
 "PO-Revision-Date: 2019-02-23 23:17+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
@@ -130,14 +130,14 @@ msgstr ""
 "secundário."
 
 #: src/Views/General.vala:90
-msgid "Long-press length:"
-msgstr "Duração do toque de longa duração:"
+msgid "Length:"
+msgstr ""
 
-#: src/Views/General.vala:108
-msgid "Keypad pointer speed:"
-msgstr "Velocidade do ponteiro do teclado:"
+#: src/Views/General.vala:106
+msgid "Speed:"
+msgstr ""
 
-#: src/Views/General.vala:115
+#: src/Views/General.vala:112
 msgid "This disables both levels of keys on the numeric keypad."
 msgstr "Desativa os dois níveis de teclas no teclado numérico."
 
@@ -145,7 +145,7 @@ msgstr "Desativa os dois níveis de teclas no teclado numérico."
 msgid "Reveal pointer:"
 msgstr "Revelar o cursor:"
 
-#: src/Views/General.vala:134
+#: src/Views/General.vala:135
 msgid "Control pointer using keypad:"
 msgstr "Controle do ponteiro usando o teclado:"
 
@@ -223,6 +223,12 @@ msgstr "Ignorar enquanto digitar:"
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
 msgstr "Ignore quando o mouse estiver conectado:"
+
+#~ msgid "Long-press length:"
+#~ msgstr "Duração do toque de longa duração:"
+
+#~ msgid "Keypad pointer speed:"
+#~ msgstr "Velocidade do ponteiro do teclado:"
 
 #~ msgid "Disable while typing"
 #~ msgstr "Desativar ao digitar"

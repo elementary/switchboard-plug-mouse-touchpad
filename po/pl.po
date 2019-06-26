@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-18 11:17-0800\n"
+"POT-Creation-Date: 2019-06-26 22:45+0200\n"
 "PO-Revision-Date: 2019-02-28 04:39+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <http://weblate.elementary.io/projects/switchboard/"
@@ -131,14 +131,14 @@ msgstr ""
 "podwójne kliknięcie."
 
 #: src/Views/General.vala:90
-msgid "Long-press length:"
-msgstr "Długość długiego przytrzymania:"
+msgid "Length:"
+msgstr ""
 
-#: src/Views/General.vala:108
-msgid "Keypad pointer speed:"
-msgstr "Szybkość wskaźnika klawiatury numerycznej:"
+#: src/Views/General.vala:106
+msgid "Speed:"
+msgstr ""
 
-#: src/Views/General.vala:115
+#: src/Views/General.vala:112
 msgid "This disables both levels of keys on the numeric keypad."
 msgstr "Wyłączy to oba poziomy przycisków na klawiaturze numerycznej."
 
@@ -146,7 +146,7 @@ msgstr "Wyłączy to oba poziomy przycisków na klawiaturze numerycznej."
 msgid "Reveal pointer:"
 msgstr "Pokaż wskaźnik:"
 
-#: src/Views/General.vala:134
+#: src/Views/General.vala:135
 msgid "Control pointer using keypad:"
 msgstr "Wskaźnik kontrolny podczas używania klawiatury numerycznej:"
 
@@ -224,6 +224,12 @@ msgstr "Ignoruj podczas pisania:"
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
 msgstr "Ignoruj, gdy podłączona jest myszka:"
+
+#~ msgid "Long-press length:"
+#~ msgstr "Długość długiego przytrzymania:"
+
+#~ msgid "Keypad pointer speed:"
+#~ msgstr "Szybkość wskaźnika klawiatury numerycznej:"
 
 #~ msgid "Disable while typing"
 #~ msgstr "Wyłącz podczas pisania"

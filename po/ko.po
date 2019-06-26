@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-18 11:17-0800\n"
+"POT-Creation-Date: 2019-06-26 22:45+0200\n"
 "PO-Revision-Date: 2019-02-28 04:39+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <http://weblate.elementary.io/projects/switchboard/"
@@ -128,14 +128,14 @@ msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr "실행 버튼을 길게 눌렀다 놓으면 보조 클릭 기능을 합니다."
 
 #: src/Views/General.vala:90
-msgid "Long-press length:"
-msgstr "길게 누르기 시간:"
+msgid "Length:"
+msgstr ""
 
-#: src/Views/General.vala:108
-msgid "Keypad pointer speed:"
-msgstr "키패드 포인터 속도:"
+#: src/Views/General.vala:106
+msgid "Speed:"
+msgstr ""
 
-#: src/Views/General.vala:115
+#: src/Views/General.vala:112
 msgid "This disables both levels of keys on the numeric keypad."
 msgstr "숫자 키패드에 있는 두 레벨의 키를 모두 비활성화합니다."
 
@@ -143,7 +143,7 @@ msgstr "숫자 키패드에 있는 두 레벨의 키를 모두 비활성화합�
 msgid "Reveal pointer:"
 msgstr "포인터 표시:"
 
-#: src/Views/General.vala:134
+#: src/Views/General.vala:135
 msgid "Control pointer using keypad:"
 msgstr "키패드로 포인터 조종하기:"
 
@@ -219,6 +219,12 @@ msgstr "타이핑할 땐 끄기:"
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
 msgstr "마우스를 연결하면 끄기:"
+
+#~ msgid "Long-press length:"
+#~ msgstr "길게 누르기 시간:"
+
+#~ msgid "Keypad pointer speed:"
+#~ msgstr "키패드 포인터 속도:"
 
 #~ msgid "Disable while typing"
 #~ msgstr "타이핑할 땐 끄기"

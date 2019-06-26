@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-18 11:17-0800\n"
+"POT-Creation-Date: 2019-06-26 22:45+0200\n"
 "PO-Revision-Date: 2019-04-05 11:52+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -128,14 +128,14 @@ msgid "Long-pressing and releasing the primary button will secondary click."
 msgstr "长按并放开主按键将激活二级点击。"
 
 #: src/Views/General.vala:90
-msgid "Long-press length:"
-msgstr "长按时长："
+msgid "Length:"
+msgstr ""
 
-#: src/Views/General.vala:108
-msgid "Keypad pointer speed:"
-msgstr "指针速度："
+#: src/Views/General.vala:106
+msgid "Speed:"
+msgstr ""
 
-#: src/Views/General.vala:115
+#: src/Views/General.vala:112
 msgid "This disables both levels of keys on the numeric keypad."
 msgstr "这会禁用数字键盘上所有等级的按键。"
 
@@ -143,7 +143,7 @@ msgstr "这会禁用数字键盘上所有等级的按键。"
 msgid "Reveal pointer:"
 msgstr "显示指针："
 
-#: src/Views/General.vala:134
+#: src/Views/General.vala:135
 msgid "Control pointer using keypad:"
 msgstr "使用键盘控制指针："
 
@@ -219,6 +219,12 @@ msgstr "输入时禁用："
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
 msgstr "已接入鼠标时忽略："
+
+#~ msgid "Long-press length:"
+#~ msgstr "长按时长："
+
+#~ msgid "Keypad pointer speed:"
+#~ msgstr "指针速度："
 
 #~ msgid "Disable while typing"
 #~ msgstr "输入时禁用"

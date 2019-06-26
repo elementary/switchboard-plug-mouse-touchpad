@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-18 11:17-0800\n"
+"POT-Creation-Date: 2019-06-26 22:45+0200\n"
 "PO-Revision-Date: 2018-12-12 22:04+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
@@ -133,14 +133,14 @@ msgstr ""
 "click secondario."
 
 #: src/Views/General.vala:90
-msgid "Long-press length:"
-msgstr "Durata del click lungo:"
+msgid "Length:"
+msgstr ""
 
-#: src/Views/General.vala:108
-msgid "Keypad pointer speed:"
-msgstr "Velocità del puntatore con il tastierino numerico:"
+#: src/Views/General.vala:106
+msgid "Speed:"
+msgstr ""
 
-#: src/Views/General.vala:115
+#: src/Views/General.vala:112
 msgid "This disables both levels of keys on the numeric keypad."
 msgstr ""
 
@@ -148,7 +148,7 @@ msgstr ""
 msgid "Reveal pointer:"
 msgstr "Rivela puntatore:"
 
-#: src/Views/General.vala:134
+#: src/Views/General.vala:135
 msgid "Control pointer using keypad:"
 msgstr "Controlla il puntatore utilizzando il tastierino numerico:"
 
@@ -226,6 +226,12 @@ msgstr "Disattiva durante la digitazione:"
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
 msgstr ""
+
+#~ msgid "Long-press length:"
+#~ msgstr "Durata del click lungo:"
+
+#~ msgid "Keypad pointer speed:"
+#~ msgstr "Velocità del puntatore con il tastierino numerico:"
 
 #~ msgid "Disable while typing"
 #~ msgstr "Disattiva durante la digitazione"
