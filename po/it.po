@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-18 11:17-0800\n"
-"PO-Revision-Date: 2018-12-12 22:04+0000\n"
+"PO-Revision-Date: 2019-07-02 14:46+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
-"Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
+"Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-03-03 06:05+0000\n"
 
 #: src/Plug.vala:43
@@ -64,12 +64,10 @@ msgid "Middle click paste"
 msgstr "Incolla con un click centrale"
 
 #: src/Plug.vala:115
-#, fuzzy
 msgid "Control pointer using keypad"
 msgstr "Controlla il puntatore utilizzando il tastierino numerico:"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Keypad pointer speed"
 msgstr "Velocità del puntatore con il tastierino numerico:"
 
@@ -98,13 +96,12 @@ msgid "Scrolling"
 msgstr "Scorrimento"
 
 #: src/Plug.vala:127
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "Disattiva durante la digitazione:"
+msgstr "Disabilita durante la digitazione:"
 
 #: src/Plug.vala:128
 msgid "Ignore when mouse is connected"
-msgstr ""
+msgstr "Disabilita quando il mouse è connesso:"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -143,6 +140,7 @@ msgstr "Velocità del puntatore con il tastierino numerico:"
 #: src/Views/General.vala:115
 msgid "This disables both levels of keys on the numeric keypad."
 msgstr ""
+"Questo disabiliterà entrambi i livelli di tasti del tastierino numerico."
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -219,13 +217,12 @@ msgid "Scrolling:"
 msgstr "Scorrimento:"
 
 #: src/Views/Touchpad.vala:97
-#, fuzzy
 msgid "Ignore while typing:"
-msgstr "Disattiva durante la digitazione:"
+msgstr "Disabilita durante la digitazione:"
 
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
-msgstr ""
+msgstr "Ignora quando il mouse è connesso:"
 
 #~ msgid "Disable while typing"
 #~ msgstr "Disattiva durante la digitazione"
