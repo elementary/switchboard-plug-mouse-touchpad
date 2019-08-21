@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:45+0200\n"
-"PO-Revision-Date: 2019-02-11 00:10+0000\n"
+"PO-Revision-Date: 2019-08-23 22:22+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@posteo.net>\n"
-"Language-Team: English (United Kingdom) <https://weblate.elementary.io/"
-"projects/switchboard/switchboard-plug-mouse-touchpad/en_GB/>\n"
+"Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
+"switchboard/switchboard-plug-mouse-touchpad/en_GB/>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/Plug.vala:43
 msgid "Mouse & Touchpad"
@@ -63,14 +63,12 @@ msgid "Middle click paste"
 msgstr "Middle click paste"
 
 #: src/Plug.vala:115
-#, fuzzy
 msgid "Control pointer using keypad"
-msgstr "Control pointer using keypad:"
+msgstr "Control pointer using keypad"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Keypad pointer speed"
-msgstr "Keypad pointer speed:"
+msgstr "Keypad pointer speed"
 
 #: src/Plug.vala:118 src/Plug.vala:122
 msgid "Pointer speed"
@@ -97,13 +95,12 @@ msgid "Scrolling"
 msgstr "Scrolling"
 
 #: src/Plug.vala:127
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "Ignore while typing:"
+msgstr "Ignore while typing"
 
 #: src/Plug.vala:128
 msgid "Ignore when mouse is connected"
-msgstr ""
+msgstr "Ignore when mouse is connected"
 
 #: src/Views/General.vala:30
 msgid "Primary button:"
@@ -131,11 +128,11 @@ msgstr "Long-pressing and releasing the primary button will secondary click."
 
 #: src/Views/General.vala:90
 msgid "Length:"
-msgstr ""
+msgstr "Length:"
 
 #: src/Views/General.vala:106
 msgid "Speed:"
-msgstr ""
+msgstr "Speed:"
 
 #: src/Views/General.vala:112
 msgid "This disables both levels of keys on the numeric keypad."
@@ -221,7 +218,7 @@ msgstr "Ignore while typing:"
 
 #: src/Views/Touchpad.vala:99
 msgid "Ignore when mouse is connected:"
-msgstr ""
+msgstr "Ignore when mouse is connected:"
 
 #~ msgid "Long-press length:"
 #~ msgstr "Long-press length:"
