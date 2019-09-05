@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:45+0200\n"
-"PO-Revision-Date: 2018-03-05 23:53+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-09-06 15:22+0000\n"
+"Last-Translator: Daniel <riesp@protonmail.com>\n"
+"Language-Team: Galician <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/Plug.vala:43
 msgid "Mouse & Touchpad"
@@ -194,7 +197,7 @@ msgstr ""
 
 #: src/Views/Touchpad.vala:66
 msgid "Disabled"
-msgstr ""
+msgstr "Desactivado"
 
 #: src/Views/Touchpad.vala:88
 msgid "Tap to click:"
