@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:45+0200\n"
-"PO-Revision-Date: 2019-09-06 15:22+0000\n"
+"PO-Revision-Date: 2019-09-12 14:22+0000\n"
 "Last-Translator: Daniel <riesp@protonmail.com>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/gl/>\n"
@@ -161,7 +161,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:31
 msgid "None"
-msgstr ""
+msgstr "Ningún"
 
 #: src/Views/Mouse.vala:32
 msgid "Adaptive"
