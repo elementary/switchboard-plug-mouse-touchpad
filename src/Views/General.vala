@@ -81,7 +81,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         var hold_switch = new Gtk.Switch ();
         hold_switch.halign = Gtk.Align.START;
 
-        var hold_help = new Gtk.Label (_("Long-pressing and releasing the primary button will secondary click."));
+        var hold_help = new Gtk.Label (_("Long-pressing and releasing the primary button will secondary click"));
         hold_help.margin_bottom = 18;
         hold_help.wrap = true;
         hold_help.xalign = 0;
@@ -109,7 +109,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.add_mark (10, Gtk.PositionType.TOP, null);
 
-        var pointer_speed_help = new Gtk.Label (_("This disables both levels of keys on the numeric keypad."));
+        var pointer_speed_help = new Gtk.Label (_("This disables both levels of keys on the numeric keypad"));
         pointer_speed_help.margin_bottom = 18;
 
         pointer_speed_help.wrap = true;
