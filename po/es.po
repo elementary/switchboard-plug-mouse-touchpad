@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:45+0200\n"
+"POT-Creation-Date: 2019-09-13 17:48-0600\n"
 "PO-Revision-Date: 2019-02-12 00:06+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard/"
@@ -137,7 +137,7 @@ msgstr "Pulsación secundaria prolongada:"
 
 #: src/Views/General.vala:84
 #, fuzzy
-msgid "Long-pressing and releasing the primary button will secondary click."
+msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Presionando prolongadamente y soltando el botón primario se hará clic "
 "secundario."
@@ -151,7 +151,8 @@ msgid "Speed:"
 msgstr ""
 
 #: src/Views/General.vala:112
-msgid "This disables both levels of keys on the numeric keypad."
+#, fuzzy
+msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Esto deshabilita ambos niveles de teclas en el teclado numérico."
 
 #: src/Views/General.vala:131

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:45+0200\n"
+"POT-Creation-Date: 2019-09-13 17:48-0600\n"
 "PO-Revision-Date: 2016-11-02 16:53+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -131,7 +131,7 @@ msgid "Long-press secondary click:"
 msgstr ""
 
 #: src/Views/General.vala:84
-msgid "Long-pressing and releasing the primary button will secondary click."
+msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 
 #: src/Views/General.vala:90
@@ -143,7 +143,7 @@ msgid "Speed:"
 msgstr ""
 
 #: src/Views/General.vala:112
-msgid "This disables both levels of keys on the numeric keypad."
+msgid "This disables both levels of keys on the numeric keypad"
 msgstr ""
 
 #: src/Views/General.vala:131

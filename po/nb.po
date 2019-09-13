@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-18 11:17-0800\n"
+"POT-Creation-Date: 2019-09-13 17:48-0600\n"
 "PO-Revision-Date: 2019-06-27 14:11+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -137,7 +137,8 @@ msgid "Long-press secondary click:"
 msgstr "Langtrykkingssekundærklikk:"
 
 #: src/Views/General.vala:84
-msgid "Long-pressing and releasing the primary button will secondary click."
+#, fuzzy
+msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr "Langtrykking og utløsing av av hovedknappen vil sekundærklikke."
 
 #: src/Views/General.vala:90
@@ -149,7 +150,8 @@ msgid "Speed:"
 msgstr ""
 
 #: src/Views/General.vala:112
-msgid "This disables both levels of keys on the numeric keypad."
+#, fuzzy
+msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Dette skrur av begge nivåene for taster på nummertastefeltet."
 
 #: src/Views/General.vala:131
