@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 17:48-0600\n"
-"PO-Revision-Date: 2019-08-30 21:22+0000\n"
+"PO-Revision-Date: 2019-09-18 13:23+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/eo/>\n"
@@ -124,10 +124,9 @@ msgid "Long-press secondary click:"
 msgstr "Long-prema duaranga klako:"
 
 #: src/Views/General.vala:84
-#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
-"Long-premo kaj poste malteno de la ĉefa butono funkcias kiel duaranga klako."
+"Post longa premo de la ĉefa musbutono, malpremo funkcias kiel duaranga klako"
 
 #: src/Views/General.vala:90
 msgid "Length:"
@@ -138,9 +137,8 @@ msgid "Speed:"
 msgstr "Rapido:"
 
 #: src/Views/General.vala:112
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Tio malfunkciigas ambaŭ klavajn nivelojn ĉe la ciferklavaro."
+msgstr "Tio malebligas ĉian uzadon de la ciferklavaraj klavoj"
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
