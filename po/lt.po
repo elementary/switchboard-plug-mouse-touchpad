@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 17:48-0600\n"
-"PO-Revision-Date: 2019-08-29 17:22+0000\n"
+"PO-Revision-Date: 2019-09-18 13:23+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/lt/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 "X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-02-17 06:05+0000\n"
 
@@ -125,11 +125,10 @@ msgid "Long-press secondary click:"
 msgstr "Antrinis spustelėjimas ilguoju paspaudimu:"
 
 #: src/Views/General.vala:84
-#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Ilgai paspaudus ir atleidus pirminį mygtuką bus atliktas antrinio "
-"spustelėjimo veiksmas."
+"spustelėjimo veiksmas"
 
 #: src/Views/General.vala:90
 msgid "Length:"
@@ -140,9 +139,8 @@ msgid "Speed:"
 msgstr "Greitis:"
 
 #: src/Views/General.vala:112
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Tai klaviatūros skaitmenų srityje išjungia abu klavišų lygius."
+msgstr "Tai klaviatūros skaitmenų srityje išjungia abu klavišų lygius"
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
