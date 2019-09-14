@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 17:48-0600\n"
-"PO-Revision-Date: 2019-08-29 17:22+0000\n"
+"PO-Revision-Date: 2019-09-18 13:23+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pt/>\n"
@@ -124,9 +124,9 @@ msgid "Long-press secondary click:"
 msgstr "Clique secundário longo:"
 
 #: src/Views/General.vala:84
-#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
-msgstr "Premir o botão primário longamente executa o clique secundário."
+msgstr ""
+"Premir e soltar o botão primário prolongadamente executa o clique secundário"
 
 #: src/Views/General.vala:90
 msgid "Length:"
@@ -137,9 +137,8 @@ msgid "Speed:"
 msgstr "Velocidade:"
 
 #: src/Views/General.vala:112
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Desativa os dois níveis de teclas no teclado numérico."
+msgstr "Isto desativa os dois níveis de teclas no teclado numérico"
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
