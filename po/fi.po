@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 17:48-0600\n"
-"PO-Revision-Date: 2019-09-02 20:22+0000\n"
+"PO-Revision-Date: 2019-09-18 13:22+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fi/>\n"
@@ -124,11 +124,10 @@ msgid "Long-press secondary click:"
 msgstr "Kakkospainike pitkällä painalluksella:"
 
 #: src/Views/General.vala:84
-#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Ykköspainikkeen pitkä pohjassapito ja irtipäästö tuottaa kakkospainikkeen "
-"napsautuksen."
+"napsautuksen"
 
 #: src/Views/General.vala:90
 msgid "Length:"
@@ -139,10 +138,8 @@ msgid "Speed:"
 msgstr "Nopeus:"
 
 #: src/Views/General.vala:112
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr ""
-"Tämä kytkee pois päältä numeronäppäimistön molempien tasojen näppäimet."
+msgstr "Tämä kytkee pois päältä numeronäppäimistön molempien tasojen näppäimet"
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
