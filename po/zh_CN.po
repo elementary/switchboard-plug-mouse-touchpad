@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 17:48-0600\n"
-"PO-Revision-Date: 2019-08-29 17:22+0000\n"
+"PO-Revision-Date: 2019-09-18 13:23+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
@@ -124,22 +124,20 @@ msgid "Long-press secondary click:"
 msgstr "长按二级点击："
 
 #: src/Views/General.vala:84
-#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
-msgstr "长按并放开主按键将激活二级点击。"
+msgstr "长按并放开主按键将激活二级点击"
 
 #: src/Views/General.vala:90
 msgid "Length:"
-msgstr ""
+msgstr "时长："
 
 #: src/Views/General.vala:106
 msgid "Speed:"
 msgstr "速度："
 
 #: src/Views/General.vala:112
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "这会禁用数字键盘上所有等级的按键。"
+msgstr "这会禁用数字键盘上所有等级的按键"
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
