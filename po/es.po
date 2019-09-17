@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 17:48-0600\n"
-"PO-Revision-Date: 2019-02-12 00:06+0000\n"
-"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
-"Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2019-09-18 13:23+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -136,24 +136,22 @@ msgid "Long-press secondary click:"
 msgstr "Pulsación secundaria prolongada:"
 
 #: src/Views/General.vala:84
-#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
-"Presionando prolongadamente y soltando el botón primario se hará clic "
-"secundario."
+"Presionar prolongadamente y soltar el botón primario equivaldrá a una "
+"pulsación secundaria"
 
 #: src/Views/General.vala:90
 msgid "Length:"
-msgstr ""
+msgstr "Duración:"
 
 #: src/Views/General.vala:106
 msgid "Speed:"
-msgstr ""
+msgstr "Velocidad:"
 
 #: src/Views/General.vala:112
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Esto deshabilita ambos niveles de teclas en el teclado numérico."
+msgstr "Esto desactiva ambos niveles de teclas en el teclado numérico"
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
@@ -167,16 +165,16 @@ msgstr "Control del puntero mediante teclado:"
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
-"El clic con el botón del medio o con tres dedos en una entrada pegará "
-"cualquier texto seleccionado"
+"Una pulsación central o con tres dedos en un campo de entrada pegará el "
+"texto que haya seleccionado"
 
 #: src/Views/General.vala:152
 msgid "Middle click paste:"
-msgstr "Hacer clic con el botón central:"
+msgstr "Pegado mediante pulsación central:"
 
 #: src/Views/Mouse.vala:30 src/Views/Touchpad.vala:48
 msgid "Hardware default"
-msgstr "Hardware por defecto"
+msgstr "Valor predeterminado del hardware"
 
 #: src/Views/Mouse.vala:31
 msgid "None"
@@ -184,7 +182,7 @@ msgstr "Ninguno"
 
 #: src/Views/Mouse.vala:32
 msgid "Adaptive"
-msgstr "Adaptado"
+msgstr "Adaptable"
 
 #: src/Views/Mouse.vala:40 src/Views/Touchpad.vala:86
 msgid "Pointer speed:"
