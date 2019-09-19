@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 17:48-0600\n"
-"PO-Revision-Date: 2019-08-23 22:22+0000\n"
+"PO-Revision-Date: 2019-09-20 17:23+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
@@ -124,11 +124,10 @@ msgid "Long-press secondary click:"
 msgstr "İkincil tıklama için basılı tutun:"
 
 #: src/Views/General.vala:84
-#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Birincil düğmeye uzun basıldığında ve bırakıldığında ikincil tıklama "
-"gerçekleşir."
+"gerçekleşir"
 
 #: src/Views/General.vala:90
 msgid "Length:"
@@ -139,10 +138,9 @@ msgid "Speed:"
 msgstr "Hız:"
 
 #: src/Views/General.vala:112
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr ""
-"Bu, sayısal tuş takımındaki her iki tuş seviyesini de devre dışı bırakır."
+"Bu, sayısal tuş takımındaki her iki tuş seviyesini de devre dışı bırakır"
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
