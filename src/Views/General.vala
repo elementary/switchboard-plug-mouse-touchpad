@@ -138,7 +138,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         attach (pointer_speed_scale, 3, 8);
         attach (pointer_speed_help, 1, 9, 3);
 
-        var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", false);
+        var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", true);
         if (xsettings_schema != null) {
             var primary_paste_switch = new Gtk.Switch ();
             primary_paste_switch.halign = Gtk.Align.START;
