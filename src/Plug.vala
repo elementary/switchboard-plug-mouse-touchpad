@@ -128,7 +128,11 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Scrolling")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Natural scrolling")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore while typing")), "touchpad");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore when mouse is connected")), "touchpad"); // vala-lint=line-length
+        search_results.set ("%s → %s → %s".printf (display_name,
+                                                    _("Touchpad"),
+                                                    _("Ignore when mouse is connected")),
+                                                    "touchpad"
+                                                );
         return search_results;
     }
 
