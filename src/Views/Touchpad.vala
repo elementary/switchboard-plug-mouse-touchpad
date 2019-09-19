@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2011-2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -109,7 +109,9 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
             }
         });
 
-        if (!glib_settings.get_boolean ("edge-scrolling-enabled") && !glib_settings.get_boolean ("two-finger-scrolling-enabled")) {
+        if (!glib_settings.get_boolean ("edge-scrolling-enabled") &&
+            !glib_settings.get_boolean ("two-finger-scrolling-enabled")
+        ) {
             scrolling_combobox.active_id = "disabled";
         } else if (glib_settings.get_boolean ("two-finger-scrolling-enabled")) {
             scrolling_combobox.active_id = "two-finger-scrolling";
@@ -155,10 +157,30 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
             }
         });
 
-        glib_settings.bind ("disable-while-typing", disable_while_typing_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-        glib_settings.bind ("natural-scroll", natural_scrolling_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-        glib_settings.bind ("speed", pointer_speed_adjustment, "value", GLib.SettingsBindFlags.DEFAULT);
-        glib_settings.bind ("tap-to-click", tap_to_click_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        glib_settings.bind (
+            "disable-while-typing",
+            disable_while_typing_switch,
+            "active",
+            GLib.SettingsBindFlags.DEFAULT
+        );
+        glib_settings.bind (
+            "natural-scroll",
+            natural_scrolling_switch,
+            "active",
+            GLib.SettingsBindFlags.DEFAULT
+        );
+        glib_settings.bind (
+            "speed",
+            pointer_speed_adjustment,
+            "value",
+            GLib.SettingsBindFlags.DEFAULT
+        );
+        glib_settings.bind (
+            "tap-to-click",
+            tap_to_click_switch,
+            "active",
+            GLib.SettingsBindFlags.DEFAULT
+        );
     }
 
     private bool click_method_transform_func (Binding binding, Value source_value, ref Value target_value) {
@@ -170,4 +192,3 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
         return true;
     }
 }
-

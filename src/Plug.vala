@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2011-2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -106,7 +106,10 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     /* 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior") */
     public override async Gee.TreeMap<string, string> search (string search) {
-        var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
+        var search_results = new Gee.TreeMap<string, string> (
+            (GLib.CompareDataFunc<string>)strcmp,
+            (Gee.EqualDataFunc<string>)str_equal
+        );
         search_results.set ("%s → %s".printf (display_name, _("Primary button")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "general");
@@ -125,7 +128,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Scrolling")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Natural scrolling")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore while typing")), "touchpad");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore when mouse is connected")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore when mouse is connected")), "touchpad"); // vala-lint=line-length
         return search_results;
     }
 
@@ -142,4 +145,3 @@ public Switchboard.Plug get_plug (Module module) {
 
     return plug;
 }
-

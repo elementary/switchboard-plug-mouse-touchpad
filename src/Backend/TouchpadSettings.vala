@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2011-2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -24,4 +24,3 @@ public class MouseTouchpad.Backend.TouchpadSettings : Granite.Services.Settings 
         base ("org.gnome.desktop.peripherals.touchpad");
     }
 }
-
