@@ -116,6 +116,20 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         pointer_speed_help.xalign = 0;
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
+        var double_click_speed_adjustment = new Gtk.Adjustment (400, 300, 1500, 0.1, 0.1, 0.1);
+
+        var double_click_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, double_click_speed_adjustment);
+        double_click_speed_scale.draw_value = false;
+        double_click_speed_scale.add_mark (400, Gtk.PositionType.TOP, null);
+        double_click_speed_scale.width_request = 250;
+
+        var double_click_speed_help = new Gtk.Label (_("This adjusts double click speed of the pointer"));
+        double_click_speed_help.margin_bottom = 18;
+
+        double_click_speed_help.wrap = true;
+        double_click_speed_help.xalign = 0;
+        double_click_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+
         row_spacing = 6;
         column_spacing = 12;
 
@@ -137,6 +151,10 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         attach (pointer_speed_label, 2, 8);
         attach (pointer_speed_scale, 3, 8);
         attach (pointer_speed_help, 1, 9, 3);
+
+        attach (new SettingLabel (_("Double Click Speed:")), 0, 10);
+        attach (double_click_speed_scale, 1, 10);
+        attach (double_click_speed_help, 1, 11, 3);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", true);
         if (xsettings_schema != null) {
@@ -164,6 +182,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         var daemon_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
         daemon_settings.bind ("locate-pointer", reveal_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        daemon_settings.bind ("double-click", double_click_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
 
         var a11y_mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
         a11y_mouse_settings.bind ("secondary-click-enabled", hold_switch, "active", GLib.SettingsBindFlags.DEFAULT);
