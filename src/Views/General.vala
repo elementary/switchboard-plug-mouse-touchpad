@@ -161,9 +161,9 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
             attach (primary_paste_help, 1, 5, 3);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
-            primary_paste_switch.notify["active"].connect (() => on_primary_paste_switch_changed (
-                primary_paste_switch, xsettings)
-            );
+            primary_paste_switch.notify["active"].connect (() => {
+                on_primary_paste_switch_changed (primary_paste_switch, xsettings);
+            });
 
             var current_value = xsettings.get_value ("overrides").lookup_value (
                 "Gtk/EnablePrimaryPaste",
