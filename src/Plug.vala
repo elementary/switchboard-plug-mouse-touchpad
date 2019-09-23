@@ -106,7 +106,10 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     /* 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior") */
     public override async Gee.TreeMap<string, string> search (string search) {
-        var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
+        var search_results = new Gee.TreeMap<string, string> (
+            (GLib.CompareDataFunc<string>)strcmp,
+            (Gee.EqualDataFunc<string>)str_equal
+        );
         search_results.set ("%s → %s".printf (display_name, _("Primary button")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "general");
@@ -142,4 +145,3 @@ public Switchboard.Plug get_plug (Module module) {
 
     return plug;
 }
-
