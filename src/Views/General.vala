@@ -70,7 +70,9 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
             });
         }
 
-        var locate_pointer_help = new Gtk.Label (_("Pressing the control key will highlight the position of the pointer"));
+        var locate_pointer_help = new Gtk.Label (
+            _("Pressing the control key will highlight the position of the pointer")
+        );
         locate_pointer_help.margin_bottom = 18;
         locate_pointer_help.wrap = true;
         locate_pointer_help.xalign = 0;
@@ -156,12 +158,18 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         attach (double_click_speed_scale, 1, 10);
         attach (double_click_speed_help, 1, 11, 3);
 
-        var xsettings_schema = SettingsSchemaSource.get_default ().lookup ("org.gnome.settings-daemon.plugins.xsettings", true);
+        var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
+            "org.gnome.settings-daemon.plugins.xsettings",
+            true
+        );
+
         if (xsettings_schema != null) {
             var primary_paste_switch = new Gtk.Switch ();
             primary_paste_switch.halign = Gtk.Align.START;
 
-            var primary_paste_help = new Gtk.Label (_("Middle or three-finger clicking on an input will paste any selected text"));
+            var primary_paste_help = new Gtk.Label (
+                _("Middle or three-finger clicking on an input will paste any selected text")
+            );
             primary_paste_help.margin_bottom = 18;
             primary_paste_help.wrap = true;
             primary_paste_help.xalign = 0;
@@ -172,9 +180,14 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
             attach (primary_paste_help, 1, 5, 3);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
-            primary_paste_switch.notify["active"].connect (() => on_primary_paste_switch_changed (primary_paste_switch, xsettings));
+            primary_paste_switch.notify["active"].connect (() => {
+                on_primary_paste_switch_changed (primary_paste_switch, xsettings);
+            });
 
-            var current_value = xsettings.get_value ("overrides").lookup_value ("Gtk/EnablePrimaryPaste", VariantType.INT32);
+            var current_value = xsettings.get_value ("overrides").lookup_value (
+                "Gtk/EnablePrimaryPaste",
+                VariantType.INT32
+            );
             if (current_value != null) {
                 primary_paste_switch.active = current_value.get_int32 () == 1;
             }
@@ -185,17 +198,47 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         daemon_settings.bind ("double-click", double_click_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
 
         var a11y_mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
-        a11y_mouse_settings.bind ("secondary-click-enabled", hold_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-        a11y_mouse_settings.bind ("secondary-click-time", hold_scale.adjustment, "value", GLib.SettingsBindFlags.DEFAULT);
+        a11y_mouse_settings.bind (
+            "secondary-click-enabled",
+            hold_switch,
+            "active",
+            GLib.SettingsBindFlags.DEFAULT
+        );
+        a11y_mouse_settings.bind (
+            "secondary-click-time",
+            hold_scale.adjustment,
+            "value",
+            GLib.SettingsBindFlags.DEFAULT
+        );
 
         hold_switch.bind_property ("active", hold_length_label, "sensitive", BindingFlags.SYNC_CREATE);
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
 
         var a11y_keyboard_settings = new GLib.Settings ("org.gnome.desktop.a11y.keyboard");
-        a11y_keyboard_settings.bind ("mousekeys-enable", keypad_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-        a11y_keyboard_settings.bind ("mousekeys-max-speed", keypad_pointer_adjustment, "value", SettingsBindFlags.DEFAULT);
-        a11y_keyboard_settings.bind ("mousekeys-enable", pointer_speed_scale, "sensitive", SettingsBindFlags.GET);
-        a11y_keyboard_settings.bind ("mousekeys-enable", pointer_speed_label, "sensitive", SettingsBindFlags.GET);
+        a11y_keyboard_settings.bind (
+            "mousekeys-enable",
+            keypad_pointer_switch,
+            "active",
+            GLib.SettingsBindFlags.DEFAULT
+        );
+        a11y_keyboard_settings.bind (
+            "mousekeys-max-speed",
+            keypad_pointer_adjustment,
+            "value",
+            SettingsBindFlags.DEFAULT
+        );
+        a11y_keyboard_settings.bind (
+            "mousekeys-enable",
+            pointer_speed_scale,
+            "sensitive",
+            SettingsBindFlags.GET
+        );
+        a11y_keyboard_settings.bind (
+            "mousekeys-enable",
+            pointer_speed_label,
+            "sensitive",
+            SettingsBindFlags.GET
+        );
     }
 
     private void update_rtl_modebutton () {
@@ -215,4 +258,3 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         xsettings.set_value ("overrides", overrides);
     }
 }
-

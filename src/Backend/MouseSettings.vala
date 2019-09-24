@@ -24,4 +24,3 @@ public class MouseTouchpad.Backend.MouseSettings : Granite.Services.Settings {
         base ("org.gnome.desktop.peripherals.mouse");
     }
 }
-

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-13 17:48-0600\n"
-"PO-Revision-Date: 2019-08-29 17:22+0000\n"
+"PO-Revision-Date: 2019-09-22 19:23+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -124,9 +124,8 @@ msgid "Long-press secondary click:"
 msgstr "長押しで副ボタンクリック:"
 
 #: src/Views/General.vala:84
-#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
-msgstr "主ボタンを長押しして離すと、副ボタンをクリックしたことになります。"
+msgstr "主ボタンを長押しして離すと、副ボタンをクリックしたことになります"
 
 #: src/Views/General.vala:90
 msgid "Length:"
@@ -137,9 +136,8 @@ msgid "Speed:"
 msgstr "速度:"
 
 #: src/Views/General.vala:112
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "これはテンキーパッドの両方のレベルのキーを無効にします。"
+msgstr "これはテンキーパッドの両方のレベルのキーを無効にします"
 
 #: src/Views/General.vala:131
 msgid "Reveal pointer:"
