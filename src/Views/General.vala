@@ -118,32 +118,55 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         pointer_speed_help.xalign = 0;
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
+        var double_click_speed_adjustment = new Gtk.Adjustment (400, 100, 1000, 0.1, 0.1, 0.1);
+
+        var double_click_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, double_click_speed_adjustment);
+        double_click_speed_scale.draw_value = false;
+        double_click_speed_scale.add_mark (400, Gtk.PositionType.TOP, null);
+        double_click_speed_scale.width_request = 250;
+
+        var double_click_speed_help = new Gtk.Label (_("How quickly two clicks in a row will be treated as a double-click"));
+        double_click_speed_help.margin_bottom = 18;
+
+        double_click_speed_help.wrap = true;
+        double_click_speed_help.xalign = 0;
+        double_click_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+
         row_spacing = 6;
         column_spacing = 12;
 
-        attach (primary_button_label, 0, 0);
-        attach (primary_button_switcher, 1, 0, 3);
+        attach (new Granite.HeaderLabel (_("Clicking")), 0, 0);
 
-        attach (hold_label, 0, 1);
-        attach (hold_switch, 1, 1);
-        attach (hold_length_label, 2, 1);
-        attach (hold_scale, 3, 1);
-        attach (hold_help, 1, 2, 3);
+        attach (primary_button_label, 0, 1);
+        attach (primary_button_switcher, 1, 1, 3);
 
-        attach (new SettingLabel (_("Reveal pointer:")), 0, 6);
-        attach (reveal_pointer_switch, 1, 6, 3);
-        attach (locate_pointer_help, 1, 7, 3);
+        attach (new SettingLabel (_("Double-click speed:")), 0, 2);
+        attach (double_click_speed_scale, 1, 2, 3);
+        attach (double_click_speed_help, 1, 3, 3);
 
-        attach (new SettingLabel (_("Control pointer using keypad:")), 0, 8);
-        attach (keypad_pointer_switch, 1, 8);
-        attach (pointer_speed_label, 2, 8);
-        attach (pointer_speed_scale, 3, 8);
-        attach (pointer_speed_help, 1, 9, 3);
+        attach (hold_label, 0, 4);
+        attach (hold_switch, 1, 4);
+        attach (hold_length_label, 2, 4);
+        attach (hold_scale, 3, 4);
+        attach (hold_help, 1, 5, 3);
+
+        attach (new Granite.HeaderLabel (_("Pointing")), 0, 8);
+
+        attach (new SettingLabel (_("Reveal pointer:")), 0, 9);
+        attach (reveal_pointer_switch, 1, 9, 3);
+        attach (locate_pointer_help, 1, 10, 3);
+
+        attach (new SettingLabel (_("Control pointer using keypad:")), 0, 11);
+        attach (keypad_pointer_switch, 1, 11);
+        attach (pointer_speed_label, 2, 11);
+        attach (pointer_speed_scale, 3, 11);
+        attach (pointer_speed_help, 1, 12, 3);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
             "org.gnome.settings-daemon.plugins.xsettings",
             true
         );
+
         if (xsettings_schema != null) {
             var primary_paste_switch = new Gtk.Switch ();
             primary_paste_switch.halign = Gtk.Align.START;
@@ -156,9 +179,9 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
             primary_paste_help.xalign = 0;
             primary_paste_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-            attach (new SettingLabel (_("Middle click paste:")), 0, 4);
-            attach (primary_paste_switch, 1, 4);
-            attach (primary_paste_help, 1, 5, 3);
+            attach (new SettingLabel (_("Middle click paste:")), 0, 6);
+            attach (primary_paste_switch, 1, 6);
+            attach (primary_paste_help, 1, 7, 3);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
             primary_paste_switch.notify["active"].connect (() => {
@@ -176,6 +199,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
 
         var daemon_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
         daemon_settings.bind ("locate-pointer", reveal_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        daemon_settings.bind ("double-click", double_click_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
 
         var a11y_mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
         a11y_mouse_settings.bind (
