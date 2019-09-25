@@ -17,13 +17,18 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.ClickingView : Gtk.Grid {
+public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
     public Backend.MouseSettings mouse_settings { get; construct; }
 
     private Granite.Widgets.ModeButton primary_button_switcher;
 
     public ClickingView (Backend.MouseSettings mouse_settings) {
-        Object (mouse_settings: mouse_settings);
+        Object (
+            header: _("Behavior"),
+            icon_name: "io.elementary.switchboard.mouse-touchpad-clicking",
+            title: _("Clicking"),
+            mouse_settings: mouse_settings
+        );
     }
 
     construct {
@@ -103,21 +108,20 @@ public class MouseTouchpad.ClickingView : Gtk.Grid {
         double_click_speed_help.xalign = 0;
         double_click_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        row_spacing = 6;
-        column_spacing = 12;
+        content_area.row_spacing = 6;
 
-        attach (primary_button_label, 0, 0);
-        attach (primary_button_switcher, 1, 0, 3);
+        content_area.attach (primary_button_label, 0, 0);
+        content_area.attach (primary_button_switcher, 1, 0, 3);
 
-        attach (new SettingLabel (_("Double-click speed:")), 0, 1);
-        attach (double_click_speed_scale, 1, 1, 3);
-        attach (double_click_speed_help, 1, 2, 3);
+        content_area.attach (new SettingLabel (_("Double-click speed:")), 0, 1);
+        content_area.attach (double_click_speed_scale, 1, 1, 3);
+        content_area.attach (double_click_speed_help, 1, 2, 3);
 
-        attach (hold_label, 0, 3);
-        attach (hold_switch, 1, 3);
-        attach (hold_length_label, 2, 3);
-        attach (hold_scale, 3, 3);
-        attach (hold_help, 1, 4, 3);
+        content_area.attach (hold_label, 0, 3);
+        content_area.attach (hold_switch, 1, 3);
+        content_area.attach (hold_length_label, 2, 3);
+        content_area.attach (hold_scale, 3, 3);
+       content_area. attach (hold_help, 1, 4, 3);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
             "org.gnome.settings-daemon.plugins.xsettings",
@@ -136,9 +140,9 @@ public class MouseTouchpad.ClickingView : Gtk.Grid {
             primary_paste_help.xalign = 0;
             primary_paste_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-            attach (new SettingLabel (_("Middle click paste:")), 0, 5);
-            attach (primary_paste_switch, 1, 5);
-            attach (primary_paste_help, 1, 6, 3);
+            content_area.attach (new SettingLabel (_("Middle click paste:")), 0, 5);
+            content_area.attach (primary_paste_switch, 1, 5);
+            content_area.attach (primary_paste_help, 1, 6, 3);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
             primary_paste_switch.notify["active"].connect (() => {

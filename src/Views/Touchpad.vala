@@ -17,11 +17,15 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.TouchpadView : Gtk.Grid {
+public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
     public Backend.TouchpadSettings touchpad_settings { get; construct; }
 
     public TouchpadView (Backend.TouchpadSettings touchpad_settings) {
-        Object (touchpad_settings: touchpad_settings);
+        Object (
+            icon_name: "input-touchpad",
+            title: _("Touchpad"),
+            touchpad_settings: touchpad_settings
+        );
     }
 
     construct {
@@ -80,24 +84,21 @@ public class MouseTouchpad.TouchpadView : Gtk.Grid {
             disable_with_mouse_switch.active = false;
         }
 
-        row_spacing = 12;
-        column_spacing = 12;
-
-        attach (new SettingLabel (_("Pointer speed:")), 0, 0);
-        attach (pointer_speed_scale, 1, 0, 2, 1);
-        attach (new SettingLabel (_("Tap to click:")), 0, 1);
-        attach (tap_to_click_switch, 1, 1);
-        attach (new SettingLabel (_("Physical clicking:")), 0, 2);
-        attach (click_method_switch, 1, 2);
-        attach (click_method_combobox, 2, 2);
-        attach (new SettingLabel (_("Scrolling:")), 0, 3);
-        attach (scrolling_combobox, 1, 3, 2, 1);
-        attach (new SettingLabel (_("Natural scrolling:")), 0, 4);
-        attach (natural_scrolling_switch, 1, 4);
-        attach (new SettingLabel (_("Ignore while typing:")), 0, 5);
-        attach (disable_while_typing_switch, 1, 5);
-        attach (new SettingLabel (_("Ignore when mouse is connected:")), 0, 6);
-        attach (disable_with_mouse_switch, 1, 6);
+        content_area.attach (new SettingLabel (_("Pointer speed:")), 0, 0);
+        content_area.attach (pointer_speed_scale, 1, 0, 2, 1);
+        content_area.attach (new SettingLabel (_("Tap to click:")), 0, 1);
+        content_area.attach (tap_to_click_switch, 1, 1);
+        content_area.attach (new SettingLabel (_("Physical clicking:")), 0, 2);
+        content_area.attach (click_method_switch, 1, 2);
+        content_area.attach (click_method_combobox, 2, 2);
+        content_area.attach (new SettingLabel (_("Scrolling:")), 0, 3);
+        content_area.attach (scrolling_combobox, 1, 3, 2, 1);
+        content_area.attach (new SettingLabel (_("Natural scrolling:")), 0, 4);
+        content_area.attach (natural_scrolling_switch, 1, 4);
+        content_area.attach (new SettingLabel (_("Ignore while typing:")), 0, 5);
+        content_area.attach (disable_while_typing_switch, 1, 5);
+        content_area.attach (new SettingLabel (_("Ignore when mouse is connected:")), 0, 6);
+        content_area.attach (disable_with_mouse_switch, 1, 6);
 
         click_method_switch.bind_property ("active", click_method_combobox, "sensitive", BindingFlags.SYNC_CREATE);
 

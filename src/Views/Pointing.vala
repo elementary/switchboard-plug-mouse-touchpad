@@ -17,7 +17,14 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.PointingView : Gtk.Grid {
+public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
+    public PointingView () {
+        Object (
+            icon_name: "mouse-touchpad-pointing",
+            title: _("Pointing")
+        );
+    }
+
     construct {
         var locate_pointer_help = new Gtk.Label (
             _("Pressing the control key will highlight the position of the pointer")
@@ -44,22 +51,21 @@ public class MouseTouchpad.PointingView : Gtk.Grid {
 
         var pointer_speed_help = new Gtk.Label (_("This disables both levels of keys on the numeric keypad"));
 
+        content_area.row_spacing = 6;
+
         pointer_speed_help.wrap = true;
         pointer_speed_help.xalign = 0;
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        row_spacing = 6;
-        column_spacing = 12;
+        content_area.attach (new SettingLabel (_("Reveal pointer:")), 0, 0);
+        content_area.attach (reveal_pointer_switch, 1, 0, 3);
+        content_area.attach (locate_pointer_help, 1, 1, 3);
 
-        attach (new SettingLabel (_("Reveal pointer:")), 0, 0);
-        attach (reveal_pointer_switch, 1, 0, 3);
-        attach (locate_pointer_help, 1, 1, 3);
-
-        attach (new SettingLabel (_("Control pointer using keypad:")), 0, 2);
-        attach (keypad_pointer_switch, 1, 2);
-        attach (pointer_speed_label, 2, 2);
-        attach (pointer_speed_scale, 3, 2);
-        attach (pointer_speed_help, 1, 3, 3);
+        content_area.attach (new SettingLabel (_("Control pointer using keypad:")), 0, 2);
+        content_area.attach (keypad_pointer_switch, 1, 2);
+        content_area.attach (pointer_speed_label, 2, 2);
+        content_area.attach (pointer_speed_scale, 3, 2);
+        content_area.attach (pointer_speed_help, 1, 3, 3);
 
         var daemon_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
         daemon_settings.bind ("locate-pointer", reveal_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);

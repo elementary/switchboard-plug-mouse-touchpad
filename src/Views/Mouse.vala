@@ -17,7 +17,15 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.MouseView : Gtk.Grid {
+public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
+    public MouseView () {
+        Object (
+            header: _("Devices"),
+            icon_name: "input-mouse",
+            title: _("Mouse")
+        );
+    }
+
     construct {
         var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0, 0);
 
@@ -34,17 +42,14 @@ public class MouseTouchpad.MouseView : Gtk.Grid {
         var natural_scrolling_switch = new Gtk.Switch ();
         natural_scrolling_switch.halign = Gtk.Align.START;
 
-        row_spacing = 12;
-        column_spacing = 12;
-
-        attach (new SettingLabel (_("Pointer speed:")), 0, 0);
-        attach (pointer_speed_scale, 1, 0);
-        attach (new SettingLabel (_("Pointer acceleration:")), 0, 1);
-        attach (accel_profile_default, 1, 1);
-        attach (accel_profile_flat, 1, 2);
-        attach (accel_profile_adaptive, 1, 3);
-        attach (new SettingLabel (_("Natural scrolling:")), 0, 4);
-        attach (natural_scrolling_switch, 1, 4);
+        content_area.attach (new SettingLabel (_("Pointer speed:")), 0, 0);
+        content_area.attach (pointer_speed_scale, 1, 0);
+        content_area.attach (new SettingLabel (_("Pointer acceleration:")), 0, 1);
+        content_area.attach (accel_profile_default, 1, 1);
+        content_area.attach (accel_profile_flat, 1, 2);
+        content_area.attach (accel_profile_adaptive, 1, 3);
+        content_area.attach (new SettingLabel (_("Natural scrolling:")), 0, 4);
+        content_area.attach (natural_scrolling_switch, 1, 4);
 
         var settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
         settings.bind ("natural-scroll", natural_scrolling_switch, "active", GLib.SettingsBindFlags.DEFAULT);
