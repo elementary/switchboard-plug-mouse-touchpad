@@ -31,9 +31,11 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     public Plug () {
         var settings = new Gee.TreeMap<string, string?> (null, null);
+        settings.set ("input/pointer/clicking", "clicking");
         settings.set ("input/pointer/mouse", "mouse");
+        settings.set ("input/pointer/pointing", "pointing");
         settings.set ("input/pointer/touch", "touchpad");
-        settings.set ("input/pointer", "general");
+        settings.set ("input/pointer", "clicking");
         // deprecated
         settings.set ("input/mouse", null);
         settings.set ("input/touch", "touchpad");
@@ -94,9 +96,6 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     public override void search_callback (string location) {
         switch (location) {
-            case "clicking":
-                stack.set_visible_child_name ("clicking");
-                break;
             case "mouse":
                 stack.set_visible_child_name ("mouse");
                 break;
@@ -105,6 +104,10 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
                 break;
             case "touchpad":
                 stack.set_visible_child_name ("touchpad");
+                break;
+            case "clicking":
+            default:
+                stack.set_visible_child_name ("clicking");
                 break;
         }
     }
