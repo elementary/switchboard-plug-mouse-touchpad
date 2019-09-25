@@ -22,7 +22,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
     private Backend.TouchpadSettings touchpad_settings;
 
     private Gtk.Stack stack;
-    private Gtk.ScrolledWindow scrolled;
+    private Gtk.Paned hpaned;
 
     private ClickingView clicking_view;
     private MouseView mouse_view;
@@ -51,7 +51,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
     }
 
     public override Gtk.Widget get_widget () {
-        if (scrolled == null) {
+        if (hpaned == null) {
             load_settings ();
 
             weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
@@ -63,29 +63,20 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             touchpad_view = new TouchpadView (touchpad_settings);
 
             stack = new Gtk.Stack ();
-            stack.margin = 12;
-            stack.add_titled (clicking_view, "clicking", _("Clicking"));
-            stack.add_titled (pointing_view, "pointing", _("Pointing"));
-            stack.add_titled (mouse_view, "mouse", _("Mouse"));
-            stack.add_titled (touchpad_view, "touchpad", _("Touchpad"));
+            stack.add_named (clicking_view, "clicking");
+            stack.add_named (pointing_view, "pointing");
+            stack.add_named (mouse_view, "mouse");
+            stack.add_named (touchpad_view, "touchpad");
 
-            var switcher = new Gtk.StackSwitcher ();
-            switcher.halign = Gtk.Align.CENTER;
-            switcher.homogeneous = true;
-            switcher.margin = 12;
-            switcher.stack = stack;
+            var switcher = new Granite.SettingsSidebar (stack);
 
-            var main_grid = new Gtk.Grid ();
-            main_grid.halign = Gtk.Align.CENTER;
-            main_grid.attach (switcher, 0, 0);
-            main_grid.attach (stack, 0, 1);
-
-            scrolled = new Gtk.ScrolledWindow (null, null);
-            scrolled.add (main_grid);
-            scrolled.show_all ();
+            hpaned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
+            hpaned.pack1 (switcher, false, false);
+            hpaned.add (stack);
+            hpaned.show_all ();
         }
 
-        return scrolled;
+        return hpaned;
     }
 
     public override void shown () {
