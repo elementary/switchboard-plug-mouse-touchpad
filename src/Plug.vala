@@ -110,6 +110,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             (GLib.CompareDataFunc<string>)strcmp,
             (Gee.EqualDataFunc<string>)str_equal
         );
+        search_results.set ("%s → %s".printf (display_name, _("Double-click speed")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Primary button")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "general");
         search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "general");
