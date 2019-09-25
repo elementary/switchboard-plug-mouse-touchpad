@@ -24,8 +24,9 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
     private Gtk.Stack stack;
     private Gtk.ScrolledWindow scrolled;
 
-    private GeneralView general_view;
+    private ClickingView clicking_view;
     private MouseView mouse_view;
+    private PointingView pointing_view;
     private TouchpadView touchpad_view;
 
     public Plug () {
@@ -54,13 +55,15 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
             default_theme.add_resource_path ("/io/elementary/switchboard/mouse-touchpad");
 
-            general_view = new GeneralView (mouse_settings);
+            clicking_view = new ClickingView (mouse_settings);
             mouse_view = new MouseView ();
+            pointing_view = new PointingView ();
             touchpad_view = new TouchpadView (touchpad_settings);
 
             stack = new Gtk.Stack ();
             stack.margin = 12;
-            stack.add_titled (general_view, "general", _("General"));
+            stack.add_titled (clicking_view, "clicking", _("Clicking"));
+            stack.add_titled (pointing_view, "pointing", _("Pointing"));
             stack.add_titled (mouse_view, "mouse", _("Mouse"));
             stack.add_titled (touchpad_view, "touchpad", _("Touchpad"));
 
@@ -91,15 +94,17 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     public override void search_callback (string location) {
         switch (location) {
+            case "clicking":
+                stack.set_visible_child_name ("clicking");
+                break;
             case "mouse":
                 stack.set_visible_child_name ("mouse");
                 break;
+            case "pointing":
+                stack.set_visible_child_name ("pointing");
+                break;
             case "touchpad":
                 stack.set_visible_child_name ("touchpad");
-                break;
-            case "general":
-            default:
-                stack.set_visible_child_name ("general");
                 break;
         }
     }
@@ -110,18 +115,23 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             (GLib.CompareDataFunc<string>)strcmp,
             (Gee.EqualDataFunc<string>)str_equal
         );
-        search_results.set ("%s → %s".printf (display_name, _("Double-click speed")), "general");
-        search_results.set ("%s → %s".printf (display_name, _("Primary button")), "general");
-        search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "general");
-        search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "general");
-        search_results.set ("%s → %s".printf (display_name, _("Long-press length")), "general");
-        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "general");
-        search_results.set ("%s → %s".printf (display_name, _("Control pointer using keypad")), "general");
-        search_results.set ("%s → %s".printf (display_name, _("Keypad pointer speed")), "general");
+        search_results.set ("%s → %s".printf (display_name, _("Clicking")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Double-click speed")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Primary button")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Long-press length")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "clicking");
+
         search_results.set ("%s → %s".printf (display_name, _("Mouse")), "mouse");
         search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer speed")), "mouse");
         search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer acceleration")), "mouse");
         search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Natural scrolling")), "mouse");
+
+        search_results.set ("%s → %s".printf (display_name, _("Pointing")), "pointing");
+        search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "pointing");
+        search_results.set ("%s → %s".printf (display_name, _("Control pointer using keypad")), "pointing");
+        search_results.set ("%s → %s".printf (display_name, _("Keypad pointer speed")), "pointing");
+
         search_results.set ("%s → %s".printf (display_name, _("Touchpad")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Pointer speed")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Tap to click")), "touchpad");
