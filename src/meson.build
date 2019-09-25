@@ -2,8 +2,9 @@ plug_files = files(
     'Plug.vala',
     'Backend/MouseSettings.vala',
     'Backend/TouchpadSettings.vala',
-    'Views/General.vala',
+    'Views/Clicking.vala',
     'Views/Mouse.vala',
+    'Views/Pointing.vala',
     'Views/Touchpad.vala',
     'Widgets/SettingLabel.vala',
 )
