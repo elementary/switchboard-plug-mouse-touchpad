@@ -118,7 +118,7 @@ public class MouseTouchpad.GeneralView : Gtk.Grid {
         pointer_speed_help.xalign = 0;
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        var double_click_speed_adjustment = new Gtk.Adjustment (400, 300, 1500, 0.1, 0.1, 0.1);
+        var double_click_speed_adjustment = new Gtk.Adjustment (400, 100, 1000, 0.1, 0.1, 0.1);
 
         var double_click_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, double_click_speed_adjustment);
         double_click_speed_scale.draw_value = false;
