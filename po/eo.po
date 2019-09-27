@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2019-09-18 13:23+0000\n"
+"PO-Revision-Date: 2019-09-28 19:23+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/eo/>\n"
@@ -30,11 +30,11 @@ msgstr "Agordi muson kaj tuŝplaton"
 
 #: src/Plug.vala:112 src/Views/Clicking.vala:29
 msgid "Clicking"
-msgstr ""
+msgstr "Klakanta"
 
 #: src/Plug.vala:113
 msgid "Double-click speed"
-msgstr ""
+msgstr "Rapideco de duobla klako"
 
 #: src/Plug.vala:114
 msgid "Primary button"
@@ -71,7 +71,7 @@ msgstr "Rulumado malsupren malsupron"
 
 #: src/Plug.vala:124 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Indikilo"
 
 #: src/Plug.vala:125
 msgid "Reveal pointer"
@@ -113,7 +113,7 @@ msgstr "Ignori dum muso konektata"
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "Konduto"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -142,11 +142,11 @@ msgstr "Daŭro:"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "Kiom rapide du sinsekvaj klakoj konsideriĝu kiel duobla klako"
 
 #: src/Views/Clicking.vala:116
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Rapideco de duobla klako:"
 
 #: src/Views/Clicking.vala:136
 msgid ""
@@ -159,7 +159,7 @@ msgstr "Mez-klaka algluo:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Aparatoj"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
