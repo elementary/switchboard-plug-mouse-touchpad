@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2019-09-22 19:23+0000\n"
+"PO-Revision-Date: 2019-10-01 20:23+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/mr/>\n"
@@ -29,11 +29,11 @@ msgstr "माउस आणि टचपॅड कॉन्फिगर कर�
 
 #: src/Plug.vala:112 src/Views/Clicking.vala:29
 msgid "Clicking"
-msgstr ""
+msgstr "क्लिक करत आहे"
 
 #: src/Plug.vala:113
 msgid "Double-click speed"
-msgstr ""
+msgstr "डबल क्लिकचा वेग"
 
 #: src/Plug.vala:114
 msgid "Primary button"
@@ -70,7 +70,7 @@ msgstr "नैसर्गिक स्क्रोलिंग"
 
 #: src/Plug.vala:124 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "पॉइंटिंग"
 
 #: src/Plug.vala:125
 msgid "Reveal pointer"
@@ -112,7 +112,7 @@ msgstr "माउस जोडल्यास दुर्लक्ष करा
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "वर्तन"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -140,11 +140,11 @@ msgstr "कालावधी:"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "सलग दोन क्लिक किती द्रुतपणे डबल-क्लिक म्हणून मानले जातील"
 
 #: src/Views/Clicking.vala:116
 msgid "Double-click speed:"
-msgstr ""
+msgstr "डबल क्लिकचा वेग:"
 
 #: src/Views/Clicking.vala:136
 msgid ""
@@ -157,7 +157,7 @@ msgstr "मध्य क्लिक पेस्ट:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "उपकरण"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
