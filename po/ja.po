@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2019-09-22 19:23+0000\n"
+"PO-Revision-Date: 2019-10-02 20:39+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -30,11 +30,11 @@ msgstr "マウスとタッチパッドを設定します"
 
 #: src/Plug.vala:112 src/Views/Clicking.vala:29
 msgid "Clicking"
-msgstr ""
+msgstr "クリック"
 
 #: src/Plug.vala:113
 msgid "Double-click speed"
-msgstr ""
+msgstr "ダブルクリックの速度"
 
 #: src/Plug.vala:114
 msgid "Primary button"
@@ -71,7 +71,7 @@ msgstr "ナチュラルスクロール"
 
 #: src/Plug.vala:124 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "ポインティング"
 
 #: src/Plug.vala:125
 msgid "Reveal pointer"
@@ -113,7 +113,7 @@ msgstr "マウス接続時は無効にする"
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "動作"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -141,11 +141,11 @@ msgstr "長さ:"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "連続した 2 回のクリックがダブルクリックとして認識される速度のしきい値"
 
 #: src/Views/Clicking.vala:116
 msgid "Double-click speed:"
-msgstr ""
+msgstr "ダブルクリックの速度:"
 
 #: src/Views/Clicking.vala:136
 msgid ""
@@ -160,7 +160,7 @@ msgstr "中クリックで貼り付け:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "デバイス"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
