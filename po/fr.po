@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2019-03-03 12:26+0000\n"
+"PO-Revision-Date: 2019-10-05 09:23+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.4\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:46
@@ -30,11 +30,11 @@ msgstr "Configurer la souris et le pavé tactile"
 
 #: src/Plug.vala:112 src/Views/Clicking.vala:29
 msgid "Clicking"
-msgstr ""
+msgstr "Clic"
 
 #: src/Plug.vala:113
 msgid "Double-click speed"
-msgstr ""
+msgstr "Vitesse du double-clic"
 
 #: src/Plug.vala:114
 msgid "Primary button"
@@ -71,7 +71,7 @@ msgstr "Défilement naturel"
 
 #: src/Plug.vala:124 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Pointeur"
 
 #: src/Plug.vala:125
 msgid "Reveal pointer"
@@ -113,7 +113,7 @@ msgstr "Ignorer lorsqu'une souris est connectée"
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "Comportement"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -132,23 +132,24 @@ msgid "Long-press secondary click:"
 msgstr "Appuyer longuement pour le clic secondaire :"
 
 #: src/Views/Clicking.vala:83
-#, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Appuyer longuement et relâcher le bouton principal effectuera un clic "
-"secondaire."
+"secondaire"
 
 #: src/Views/Clicking.vala:89
 msgid "Length:"
-msgstr ""
+msgstr "Longueur :"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
+"En combien de temps deux clics consécutifs seront traités comme un double-"
+"clic"
 
 #: src/Views/Clicking.vala:116
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Vitesse du double-clic :"
 
 #: src/Views/Clicking.vala:136
 msgid ""
@@ -163,7 +164,7 @@ msgstr "Collage avec clic du milieu :"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Périphériques"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
@@ -196,12 +197,11 @@ msgstr ""
 
 #: src/Views/Pointing.vala:45
 msgid "Speed:"
-msgstr ""
+msgstr "Vitesse :"
 
 #: src/Views/Pointing.vala:52
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Ceci désactive les deux niveaux de touches sur le pavé numérique."
+msgstr "Ceci désactive les deux niveaux de touches du pavé numérique"
 
 #: src/Views/Pointing.vala:60
 msgid "Reveal pointer:"
