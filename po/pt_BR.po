@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2019-09-18 13:23+0000\n"
+"PO-Revision-Date: 2019-10-05 09:23+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/pt_BR/>\n"
@@ -30,11 +30,11 @@ msgstr "Configurar mouse e touchpad"
 
 #: src/Plug.vala:112 src/Views/Clicking.vala:29
 msgid "Clicking"
-msgstr ""
+msgstr "Clicando"
 
 #: src/Plug.vala:113
 msgid "Double-click speed"
-msgstr ""
+msgstr "Velocidade de duplo clique"
 
 #: src/Plug.vala:114
 msgid "Primary button"
@@ -71,7 +71,7 @@ msgstr "Rolagem natural"
 
 #: src/Plug.vala:124 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Apontando"
 
 #: src/Plug.vala:125
 msgid "Reveal pointer"
@@ -113,7 +113,7 @@ msgstr "Ignore quando o mouse estiver conectado"
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "Comportamento"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -144,10 +144,12 @@ msgstr "Comprimento:"
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
+"A rapidez com que dois cliques consecutivos serão tratados como um clique "
+"duplo"
 
 #: src/Views/Clicking.vala:116
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Velocidade de duplo clique:"
 
 #: src/Views/Clicking.vala:136
 msgid ""
@@ -162,7 +164,7 @@ msgstr "Colagem de clique do meio:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Dispositivos"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
