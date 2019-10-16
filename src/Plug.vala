@@ -18,7 +18,6 @@
  */
 
 public class MouseTouchpad.Plug : Switchboard.Plug {
-    private Backend.MouseSettings mouse_settings;
     private Backend.TouchpadSettings touchpad_settings;
 
     private Gtk.Stack stack;
@@ -52,12 +51,12 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     public override Gtk.Widget get_widget () {
         if (hpaned == null) {
-            load_settings ();
+            touchpad_settings = new Backend.TouchpadSettings ();
 
             weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
             default_theme.add_resource_path ("/io/elementary/switchboard/mouse-touchpad");
 
-            clicking_view = new ClickingView (mouse_settings);
+            clicking_view = new ClickingView ();
             mouse_view = new MouseView ();
             pointing_view = new PointingView ();
             touchpad_view = new TouchpadView (touchpad_settings);
@@ -135,11 +134,6 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore while typing")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore when mouse is connected")), "touchpad");
         return search_results;
-    }
-
-    private void load_settings () {
-        mouse_settings = new Backend.MouseSettings ();
-        touchpad_settings = new Backend.TouchpadSettings ();
     }
 }
 

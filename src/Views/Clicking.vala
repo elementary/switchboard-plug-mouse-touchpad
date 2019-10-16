@@ -18,20 +18,20 @@
  */
 
 public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
-    public Backend.MouseSettings mouse_settings { get; construct; }
-
+    private GLib.Settings mouse_settings;
     private Granite.Widgets.ModeButton primary_button_switcher;
 
-    public ClickingView (Backend.MouseSettings mouse_settings) {
+    public ClickingView () {
         Object (
             header: _("Behavior"),
             icon_name: "mouse-touchpad-clicking",
-            title: _("Clicking"),
-            mouse_settings: mouse_settings
+            title: _("Clicking")
         );
     }
 
     construct {
+        mouse_settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
+
         var primary_button_label = new SettingLabel (_("Primary button:"));
         primary_button_label.margin_bottom = 18;
 
@@ -50,11 +50,11 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             primary_button_switcher.append (mouse_left);
             primary_button_switcher.append (mouse_right);
 
-            mouse_settings.bind_property (
+            mouse_settings.bind (
                 "left-handed",
                 primary_button_switcher,
                 "selected",
-                BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE
+                GLib.SettingsBindFlags.DEFAULT
             );
         } else {
             primary_button_switcher.append (mouse_right);
@@ -62,15 +62,15 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
             update_rtl_modebutton ();
 
-            mouse_settings.notify["left-handed"].connect (() => {
+            mouse_settings.changed["left-handed"].connect (() => {
                 update_rtl_modebutton ();
             });
 
             primary_button_switcher.mode_changed.connect (() => {
                 if (primary_button_switcher.selected == 0) {
-                    mouse_settings.left_handed = true;
+                    mouse_settings.set_boolean ("left-handed", true);
                 } else {
-                    mouse_settings.left_handed = false;
+                    mouse_settings.set_boolean ("left-handed", false);
                 }
             });
         }
@@ -180,7 +180,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
     }
 
     private void update_rtl_modebutton () {
-        if (mouse_settings.left_handed) {
+        if (mouse_settings.get_boolean ("left-handed")) {
             primary_button_switcher.selected = 0;
         } else {
             primary_button_switcher.selected = 1;
