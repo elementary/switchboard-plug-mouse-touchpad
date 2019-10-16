@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2018-10-24 22:10+0000\n"
-"Last-Translator: Eri Hidayat <eriwhidayat@gmail.com>\n"
-"Language-Team: Indonesian <https://weblate.elementary.io/projects/"
-"switchboard/switchboard-plug-mouse-touchpad/id/>\n"
+"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Indonesian <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/Plug.vala:46
 msgid "Mouse & Touchpad"
@@ -157,7 +157,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Perangkat"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
