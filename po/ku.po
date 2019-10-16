@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2018-02-11 00:08+0000\n"
-"Last-Translator: Rokar <mail@rokar.de>\n"
-"Language-Team: Kurdish <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Kurdish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ku/>\n"
 "Language: ku\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:46
@@ -116,7 +116,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "Tevger"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -161,7 +161,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Amûr"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
@@ -169,7 +169,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:39
 msgid "None"
-msgstr ""
+msgstr "Tu yek"
 
 #: src/Views/Mouse.vala:40
 msgid "Adaptive"
@@ -194,7 +194,7 @@ msgstr ""
 
 #: src/Views/Pointing.vala:45
 msgid "Speed:"
-msgstr ""
+msgstr "Lez:"
 
 #: src/Views/Pointing.vala:52
 msgid "This disables both levels of keys on the numeric keypad"
