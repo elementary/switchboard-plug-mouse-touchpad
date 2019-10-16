@@ -8,15 +8,18 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2016-08-09 20:18+0000\n"
-"Last-Translator: yavinfour <anjelo.passionist@gmail.com>\n"
-"Language-Team: Tagalog <tl@li.org>\n"
+"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Tagalog <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/tl/>\n"
 "Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 "
+"|| n % 10 == 6 || n % 10 == 9);\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: src/Plug.vala:46
 msgid "Mouse & Touchpad"
@@ -163,7 +166,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Mga Aparato"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
@@ -171,7 +174,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:39
 msgid "None"
-msgstr ""
+msgstr "Wala"
 
 #: src/Views/Mouse.vala:40
 msgid "Adaptive"
@@ -179,7 +182,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:87
 msgid "Pointer speed:"
-msgstr "Bilis ng pointer"
+msgstr "Bilis ng pointer:"
 
 #: src/Views/Mouse.vala:47
 #, fuzzy
@@ -204,7 +207,7 @@ msgstr ""
 
 #: src/Views/Pointing.vala:60
 msgid "Reveal pointer:"
-msgstr "Ipakita ang Pointer"
+msgstr "Ipakita ang Pointer:"
 
 #: src/Views/Pointing.vala:64
 msgid "Control pointer using keypad:"

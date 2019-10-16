@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2018-10-16 09:19+0000\n"
-"Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
-"Language-Team: Danish <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-03-22 07:14+0000\n"
 
 #: src/Plug.vala:46
@@ -116,7 +116,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "Adfærd"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -161,7 +161,7 @@ msgstr "Mellem-klik indsæt:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Enheder"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
@@ -193,7 +193,7 @@ msgstr "Ved at trykke på Ctrl-tasten fremhæves markørens position"
 
 #: src/Views/Pointing.vala:45
 msgid "Speed:"
-msgstr ""
+msgstr "Hastighed:"
 
 #: src/Views/Pointing.vala:52
 msgid "This disables both levels of keys on the numeric keypad"

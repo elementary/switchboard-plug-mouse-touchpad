@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2018-05-27 19:09+0000\n"
-"Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
-"Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Moldovan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/mo/>\n"
 "Language: mo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/Plug.vala:46
 msgid "Mouse & Touchpad"
@@ -123,7 +123,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "Comportament"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -170,7 +170,7 @@ msgstr "Faceți clic cu butonul central:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Dispozitive"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
@@ -202,7 +202,7 @@ msgstr "Apăsând tasta de control se va evidenția poziția indicatorului"
 
 #: src/Views/Pointing.vala:45
 msgid "Speed:"
-msgstr ""
+msgstr "Viteză:"
 
 #: src/Views/Pointing.vala:52
 msgid "This disables both levels of keys on the numeric keypad"
