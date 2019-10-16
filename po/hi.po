@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2018-03-05 23:53+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Hindi <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/Plug.vala:46
 msgid "Mouse & Touchpad"
@@ -154,7 +157,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "उपकरण"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
@@ -218,7 +221,7 @@ msgstr ""
 
 #: src/Views/Touchpad.vala:70
 msgid "Disabled"
-msgstr ""
+msgstr "निष्क्रिय"
 
 #: src/Views/Touchpad.vala:89
 msgid "Tap to click:"

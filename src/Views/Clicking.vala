@@ -24,7 +24,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
     public ClickingView () {
         Object (
             header: _("Behavior"),
-            icon_name: "io.elementary.switchboard.mouse-touchpad-clicking",
+            icon_name: "mouse-touchpad-clicking",
             title: _("Clicking")
         );
     }

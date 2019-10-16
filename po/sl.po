@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2018-07-09 20:57+0000\n"
-"Last-Translator: Jernej Virag <jernej@virag.si>\n"
-"Language-Team: Slovenian <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.0.1\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:46
@@ -125,7 +125,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "Vedenje"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -171,7 +171,7 @@ msgstr "Prilepi s srednjim klikom:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Naprave"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
@@ -203,7 +203,7 @@ msgstr "Tipka Ctrl bo pokazala miškin kazalec"
 
 #: src/Views/Pointing.vala:45
 msgid "Speed:"
-msgstr ""
+msgstr "Hitrost:"
 
 #: src/Views/Pointing.vala:52
 msgid "This disables both levels of keys on the numeric keypad"

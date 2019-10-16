@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-25 16:26-0700\n"
-"PO-Revision-Date: 2018-06-04 00:09+0000\n"
-"Last-Translator: Andrej Gálet <andrejgalet@gmail.com>\n"
-"Language-Team: Slovak <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:46
@@ -117,7 +117,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:27
 msgid "Behavior"
-msgstr ""
+msgstr "Správanie"
 
 #: src/Views/Clicking.vala:35
 msgid "Primary button:"
@@ -162,7 +162,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Zariadenia"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
 msgid "Hardware default"
@@ -170,7 +170,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:39
 msgid "None"
-msgstr ""
+msgstr "Žiadne"
 
 #: src/Views/Mouse.vala:40
 msgid "Adaptive"
@@ -195,7 +195,7 @@ msgstr "Stlačením ovládacieho tlačidla upozorniť na pozíciu kurzora"
 
 #: src/Views/Pointing.vala:45
 msgid "Speed:"
-msgstr ""
+msgstr "Rýchlosť:"
 
 #: src/Views/Pointing.vala:52
 msgid "This disables both levels of keys on the numeric keypad"
