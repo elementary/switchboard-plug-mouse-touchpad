@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:45+0200\n"
+"POT-Creation-Date: 2019-11-05 16:50+0000\n"
 "PO-Revision-Date: 2019-05-16 09:14+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -26,3 +26,19 @@ msgstr ""
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
 msgstr "配置鼠标和触控板"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
+msgid "New Sidebar navigation"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
+msgid "Fix middle click not appearing"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
+msgid "Add Double-Click speed"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
+msgid "Updated translations"
+msgstr ""
