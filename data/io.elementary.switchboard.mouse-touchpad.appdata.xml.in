@@ -4,19 +4,31 @@
   <extends>io.elementary.switchboard</extends>
   <name>Mouse &amp; Touchpad Settings</name>
   <summary>Configure mouse and touchpad</summary>
+  <releases>
+    <release version="2.3.0" date="2019-11-05" urgency="medium">
+      <description>
+        <ul>
+          <li>New Sidebar navigation</li>
+          <li>Fix middle click not appearing</li>
+          <li>Add Double-Click speed</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
   <screenshots>
-      <screenshot type="default">
-          <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-clicking.png</image>
-      </screenshot>
-      <screenshot type="default">
-          <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-pointing.png</image>
-      </screenshot>
-      <screenshot>
-          <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-mouse.png</image>
-      </screenshot>
-      <screenshot>
-          <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-touchpad.png</image>
-      </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-clicking.png</image>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-pointing.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-mouse.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-touchpad.png</image>
+    </screenshot>
   </screenshots>
   <url type="homepage">https://elementary.io</url>
   <url type="bugtracker">https://github.com/elementary/switchboard-plug-mouse-touchpad/issues</url>
