@@ -5,7 +5,7 @@
   <name>Mouse &amp; Touchpad Settings</name>
   <summary>Configure mouse and touchpad</summary>
   <releases>
-    <release version="2.3.0" date="2019-11-05" urgency="medium">
+    <release version="2.3.0" date="2019-11-15" urgency="medium">
       <description>
         <ul>
           <li>New Sidebar navigation</li>
