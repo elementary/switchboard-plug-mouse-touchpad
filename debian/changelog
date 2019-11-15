@@ -1,3 +1,37 @@
+switchboard-plug-mouse-touchpad (2.3.0) bionic; urgency=medium
+
+  * Release 2.3.0 (#108)
+  * Update translation template
+  * POTFILES: Remove MouseSettings
+  * AppData: Add releases data (#107)
+  * Add Release to Actions
+  * Add Gettext Updates to Actions
+  * Remove in-tree packaging (#102)
+  * Clicking: Use GLib.Settings (#99)
+  * Add szl to languages
+  * Remove unused languages
+  * Don't install clicking icon (#100)
+  * run installation in CI (#97)
+  * Update translation files
+  * Update README.md
+  * Switch to a sidebar nav (#95)
+  * Break General into Clicking and Pointing views (#94)
+  * Add double click speed setting from a11y (#91)
+  * Add Lint to CI (#93)
+  * Use GitHub CI (#92)
+  * Lint src (#90)
+  * Delete CODE_OF_CONDUCT.md
+  * Delete FUNDING.yml
+  * Fix Middle click setting not showing up (#89)
+  * Update translation files
+  * Remove period from tooltip labels. (#87)
+  * build: fix install path for switchboard plug (#86)
+  * Plug: Change code name to RDNN
+  * Add Silesian and update translation template
+  * Create FUNDING.yml
+
+ -- elementary OS Team <builds@elementary.io>  Fri, 15 Nov 2019 22:42:03 +0000
+
 switchboard-plug-mouse-touchpad (2.2.0) bionic; urgency=medium
 
   * New upstream release.
