@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-05 16:50+0000\n"
-"PO-Revision-Date: 2019-11-11 12:24+0000\n"
+"PO-Revision-Date: 2019-11-16 17:24+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/es/>\n"
@@ -29,15 +29,15 @@ msgstr "Configurar ratón y panel táctil"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
 msgid "New Sidebar navigation"
-msgstr ""
+msgstr "Nueva barra lateral de navegación"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 msgid "Fix middle click not appearing"
-msgstr ""
+msgstr "Corrección del clic central que no aparece"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
 msgid "Add Double-Click speed"
-msgstr ""
+msgstr "Añadir velocidad de doble clic"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 msgid "Updated translations"
