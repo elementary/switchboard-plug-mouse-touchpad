@@ -24,6 +24,5 @@ public class SettingLabel : Gtk.Label {
 
     construct {
         halign = Gtk.Align.END;
-        margin_start = 12;
     }
 }

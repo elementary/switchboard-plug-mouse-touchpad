@@ -3,7 +3,12 @@
   <gresource prefix="/io/elementary/switchboard/mouse-touchpad">
     <file alias="mouse-left-symbolic.svg" compressed="true" preprocess="xml-stripblanks">mouse-left-symbolic.svg</file>
     <file alias="mouse-right-symbolic.svg" compressed="true" preprocess="xml-stripblanks">mouse-right-symbolic.svg</file>
-    <file alias="mouse-touchpad-pointing.svg" compressed="true" preprocess="xml-stripblanks">pointing.svg</file>
+    <file alias="16x16/categories/mouse-touchpad-pointing.svg" compressed="true" preprocess="xml-stripblanks">pointing/16.svg</file>
+    <file alias="16x16@2/categories/mouse-touchpad-pointing.svg" compressed="true" preprocess="xml-stripblanks">pointing/16.svg</file>
+    <file alias="32x32/categories/mouse-touchpad-pointing.svg" compressed="true" preprocess="xml-stripblanks">pointing/32.svg</file>
+    <file alias="32x32@2/categories/mouse-touchpad-pointing.svg" compressed="true" preprocess="xml-stripblanks">pointing/32.svg</file>
+    <file alias="48x48/categories/mouse-touchpad-pointing.svg" compressed="true" preprocess="xml-stripblanks">pointing/48.svg</file>
+    <file alias="48x48@2/categories/mouse-touchpad-pointing.svg" compressed="true" preprocess="xml-stripblanks">pointing/48.svg</file>
     <file alias="32x32/categories/mouse-touchpad-clicking.svg" compressed="true" preprocess="xml-stripblanks">clicking/32.svg</file>
     <file alias="32x32@2/categories/mouse-touchpad-clicking.svg" compressed="true" preprocess="xml-stripblanks">clicking/32.svg</file>
     <file alias="48x48/categories/mouse-touchpad-clicking.svg" compressed="true" preprocess="xml-stripblanks">clicking/48.svg</file>
