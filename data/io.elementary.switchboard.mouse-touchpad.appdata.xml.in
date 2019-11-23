@@ -5,6 +5,14 @@
   <name>Mouse &amp; Touchpad Settings</name>
   <summary>Configure mouse and touchpad</summary>
   <releases>
+    <release version="2.4.0" date="2019-11-22" urgency="medium">
+      <description>
+        <ul>
+          <li>Add Pointer size setting</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.3.0" date="2019-11-15" urgency="medium">
       <description>
         <ul>
