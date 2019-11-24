@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-05 16:50+0000\n"
-"PO-Revision-Date: 2019-05-16 09:14+0000\n"
+"PO-Revision-Date: 2019-11-25 10:25+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/mr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
@@ -29,16 +29,16 @@ msgstr "माउस आणि टचपॅड कॉन्फिगर कर�
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
 msgid "New Sidebar navigation"
-msgstr ""
+msgstr "नवीन साइडबार नेव्हिगेशन"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 msgid "Fix middle click not appearing"
-msgstr ""
+msgstr "मध्यम क्लिक दिसत नसल्याचे संबंधित समस्येचे निराकरण करा"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
 msgid "Add Double-Click speed"
-msgstr ""
+msgstr "डबल-क्लिक गती जोडा"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 msgid "Updated translations"
-msgstr ""
+msgstr "अद्ययावत भाषांतर"
