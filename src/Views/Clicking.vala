@@ -50,12 +50,19 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             primary_button_switcher.append (mouse_left);
             primary_button_switcher.append (mouse_right);
 
-            mouse_settings.bind (
-                "left-handed",
-                primary_button_switcher,
-                "selected",
-                GLib.SettingsBindFlags.DEFAULT
-            );
+            update_ltr_modebutton ();
+
+            mouse_settings.changed["left-handed"].connect (() => {
+                update_ltr_modebutton ();
+            });
+
+            primary_button_switcher.mode_changed.connect (() => {
+                if (primary_button_switcher.selected == 0) {
+                    mouse_settings.set_boolean ("left-handed", false);
+                } else {
+                    mouse_settings.set_boolean ("left-handed", true);
+                }
+            });
         } else {
             primary_button_switcher.append (mouse_right);
             primary_button_switcher.append (mouse_left);
@@ -177,6 +184,14 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         hold_switch.bind_property ("active", hold_length_label, "sensitive", BindingFlags.SYNC_CREATE);
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
+    }
+
+    private void update_ltr_modebutton () {
+        if (mouse_settings.get_boolean ("left-handed")) {
+            primary_button_switcher.selected = 1;
+        } else {
+            primary_button_switcher.selected = 0;
+        }
     }
 
     private void update_rtl_modebutton () {
