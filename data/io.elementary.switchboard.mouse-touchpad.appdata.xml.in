@@ -5,7 +5,7 @@
   <name>Mouse &amp; Touchpad Settings</name>
   <summary>Configure mouse and touchpad</summary>
   <releases>
-    <release version="2.3.1" date="2019-11-26" urgency="medium">
+    <release version="2.3.1" date="2019-11-29" urgency="medium">
       <description>
         <ul>
           <li>Fix an issue where primary button selection doesn't apply in left-to-right languages</li>
