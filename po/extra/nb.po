@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-05 16:50+0000\n"
+"POT-Creation-Date: 2019-11-29 18:23+0000\n"
 "PO-Revision-Date: 2019-06-27 14:11+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -28,17 +28,24 @@ msgid "Configure mouse and touchpad"
 msgstr "Sett opp mus og pekeflate"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
-msgid "New Sidebar navigation"
+msgid ""
+"Fix an issue where primary button selection doesn't apply in left-to-right "
+"languages"
 msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
+msgid "Updated translations"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
+msgid "New Sidebar navigation"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Fix middle click not appearing"
 msgstr ""
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
 msgid "Add Double-Click speed"
-msgstr ""
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
-msgid "Updated translations"
 msgstr ""
