@@ -50,29 +50,42 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             primary_button_switcher.append (mouse_left);
             primary_button_switcher.append (mouse_right);
 
-            mouse_settings.bind (
+            mouse_settings.bind_with_mapping (
                 "left-handed",
                 primary_button_switcher,
                 "selected",
-                GLib.SettingsBindFlags.DEFAULT
+                GLib.SettingsBindFlags.DEFAULT,
+                (value, variant) => {
+                    GLib.return_val_if_fail (variant.is_of_type (GLib.VariantType.BOOLEAN), false);
+                    value.set_int (variant.get_boolean () ? 1 : 0);
+                    return true;
+                },
+                (value, expected_type) => {
+                    GLib.return_val_if_fail (expected_type.equal (GLib.VariantType.BOOLEAN), null);
+                    return new GLib.Variant.boolean (value.get_int () == 1);
+                },
+                null, null
             );
         } else {
             primary_button_switcher.append (mouse_right);
             primary_button_switcher.append (mouse_left);
 
-            update_rtl_modebutton ();
-
-            mouse_settings.changed["left-handed"].connect (() => {
-                update_rtl_modebutton ();
-            });
-
-            primary_button_switcher.mode_changed.connect (() => {
-                if (primary_button_switcher.selected == 0) {
-                    mouse_settings.set_boolean ("left-handed", true);
-                } else {
-                    mouse_settings.set_boolean ("left-handed", false);
-                }
-            });
+            mouse_settings.bind_with_mapping (
+                "left-handed",
+                primary_button_switcher,
+                "selected",
+                GLib.SettingsBindFlags.DEFAULT,
+                (value, variant) => {
+                    GLib.return_val_if_fail (variant.is_of_type (GLib.VariantType.BOOLEAN), false);
+                    value.set_int (variant.get_boolean () ? 0 : 1);
+                    return true;
+                },
+                (value, expected_type) => {
+                    GLib.return_val_if_fail (expected_type.equal (GLib.VariantType.BOOLEAN), null);
+                    return new GLib.Variant.boolean (value.get_int () == 0);
+                },
+                null, null
+            );
         }
 
         var hold_label = new SettingLabel (_("Long-press secondary click:"));
@@ -121,7 +134,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         content_area.attach (hold_switch, 1, 3);
         content_area.attach (hold_length_label, 2, 3);
         content_area.attach (hold_scale, 3, 3);
-       content_area. attach (hold_help, 1, 4, 3);
+        content_area. attach (hold_help, 1, 4, 3);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
             "org.gnome.settings-daemon.plugins.xsettings",
@@ -177,14 +190,6 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         hold_switch.bind_property ("active", hold_length_label, "sensitive", BindingFlags.SYNC_CREATE);
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
-    }
-
-    private void update_rtl_modebutton () {
-        if (mouse_settings.get_boolean ("left-handed")) {
-            primary_button_switcher.selected = 0;
-        } else {
-            primary_button_switcher.selected = 1;
-        }
     }
 
     private void on_primary_paste_switch_changed (Gtk.Switch switch, GLib.Settings xsettings) {
