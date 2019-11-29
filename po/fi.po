@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-05 16:50+0000\n"
+"POT-Creation-Date: 2019-11-29 18:23+0000\n"
 "PO-Revision-Date: 2019-11-05 13:24+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -127,38 +127,38 @@ msgstr "Vasen"
 msgid "Right"
 msgstr "Oikea"
 
-#: src/Views/Clicking.vala:78
+#: src/Views/Clicking.vala:91
 msgid "Long-press secondary click:"
 msgstr "Kakkospainike pitkällä painalluksella:"
 
-#: src/Views/Clicking.vala:83
+#: src/Views/Clicking.vala:96
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Ykköspainikkeen pitkä pohjassapito ja irtipäästö tuottaa kakkospainikkeen "
 "napsautuksen"
 
-#: src/Views/Clicking.vala:89
+#: src/Views/Clicking.vala:102
 msgid "Length:"
 msgstr "Kesto:"
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:117
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Kuinka nopeasti peräkkäin tehtäviä napsautuksia kohdellaan "
 "kaksoisnapsautuksena"
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:129
 msgid "Double-click speed:"
 msgstr "Kaksoisnapsauttamisen nopeus:"
 
-#: src/Views/Clicking.vala:136
+#: src/Views/Clicking.vala:149
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Keskimmäisen tai kolmen sormen napsautus syötekentässä liittää minkä tahansa "
 "valitun tekstin"
 
-#: src/Views/Clicking.vala:143
+#: src/Views/Clicking.vala:156
 msgid "Middle click paste:"
 msgstr "Liittäminen keskimmäistä napsauttamalla:"
 

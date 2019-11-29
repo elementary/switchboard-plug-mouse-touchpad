@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-05 16:50+0000\n"
+"POT-Creation-Date: 2019-11-29 18:23+0000\n"
 "PO-Revision-Date: 2019-10-01 20:23+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -126,32 +126,32 @@ msgstr "डावा"
 msgid "Right"
 msgstr "उजवा"
 
-#: src/Views/Clicking.vala:78
+#: src/Views/Clicking.vala:91
 msgid "Long-press secondary click:"
 msgstr "दुय्यम क्लिक दीर्घ-दाब:"
 
-#: src/Views/Clicking.vala:83
+#: src/Views/Clicking.vala:96
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr "प्राथमिक बटण दीर्घ-दाबून आणि सोडल्यास दुय्यम क्लिक होईल"
 
-#: src/Views/Clicking.vala:89
+#: src/Views/Clicking.vala:102
 msgid "Length:"
 msgstr "कालावधी:"
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:117
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "सलग दोन क्लिक किती द्रुतपणे डबल-क्लिक म्हणून मानले जातील"
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:129
 msgid "Double-click speed:"
 msgstr "डबल क्लिकचा वेग:"
 
-#: src/Views/Clicking.vala:136
+#: src/Views/Clicking.vala:149
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr "इनपुटवरील मध्य किंवा तीन-बोटांनी क्लिक केल्याने कोणताही निवडलेला मजकूर पेस्ट करेल"
 
-#: src/Views/Clicking.vala:143
+#: src/Views/Clicking.vala:156
 msgid "Middle click paste:"
 msgstr "मध्य क्लिक पेस्ट:"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-05 16:50+0000\n"
+"POT-Creation-Date: 2019-11-29 18:23+0000\n"
 "PO-Revision-Date: 2019-11-11 12:24+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
@@ -28,17 +28,24 @@ msgid "Configure mouse and touchpad"
 msgstr "Agordi muson kaj tuŝplaton"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
+msgid ""
+"Fix an issue where primary button selection doesn't apply in left-to-right "
+"languages"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
+msgid "Updated translations"
+msgstr "Ĝisdatigitaj tradukoj"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
 msgid "New Sidebar navigation"
 msgstr "Nova flankobreta foliumado"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Fix middle click not appearing"
 msgstr "Ripari neaperantan mezklakon"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
 msgid "Add Double-Click speed"
 msgstr "Aldoni duobla-klakan rapidon"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
-msgid "Updated translations"
-msgstr "Ĝisdatigitaj tradukoj"

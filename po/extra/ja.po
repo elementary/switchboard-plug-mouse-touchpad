@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-05 16:50+0000\n"
+"POT-Creation-Date: 2019-11-29 18:23+0000\n"
 "PO-Revision-Date: 2019-11-07 18:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -28,17 +28,24 @@ msgid "Configure mouse and touchpad"
 msgstr "マウスとタッチパッドを設定します"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
+msgid ""
+"Fix an issue where primary button selection doesn't apply in left-to-right "
+"languages"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
+msgid "Updated translations"
+msgstr "翻訳の更新"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
 msgid "New Sidebar navigation"
 msgstr "新しいサイドバーのナビゲーション"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Fix middle click not appearing"
 msgstr "中クリックの設定が表示されない問題を修正"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
 msgid "Add Double-Click speed"
 msgstr "ダブルクリックの速度の設定を追加"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
-msgid "Updated translations"
-msgstr "翻訳の更新"
