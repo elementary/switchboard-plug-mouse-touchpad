@@ -18,9 +18,6 @@
  */
 
 public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
-    private GLib.Settings mouse_settings;
-    private Granite.Widgets.ModeButton primary_button_switcher;
-
     public ClickingView () {
         Object (
             header: _("Behavior"),
@@ -30,7 +27,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
     }
 
     construct {
-        mouse_settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
+        var mouse_settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
 
         var primary_button_label = new SettingLabel (_("Primary button:"));
         primary_button_label.margin_bottom = 18;
@@ -41,7 +38,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         var mouse_right = new Gtk.Image.from_icon_name ("mouse-right-symbolic", Gtk.IconSize.DND);
         mouse_right.tooltip_text = _("Right");
 
-        primary_button_switcher = new Granite.Widgets.ModeButton ();
+        var primary_button_switcher = new Granite.Widgets.ModeButton ();
         primary_button_switcher.halign = Gtk.Align.START;
         primary_button_switcher.margin_bottom = 18;
         primary_button_switcher.width_request = 256;
