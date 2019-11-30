@@ -18,8 +18,6 @@
  */
 
 public class MouseTouchpad.Plug : Switchboard.Plug {
-    private Backend.TouchpadSettings touchpad_settings;
-
     private Gtk.Stack stack;
     private Gtk.Paned hpaned;
 
@@ -51,15 +49,13 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     public override Gtk.Widget get_widget () {
         if (hpaned == null) {
-            touchpad_settings = new Backend.TouchpadSettings ();
-
             weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
             default_theme.add_resource_path ("/io/elementary/switchboard/mouse-touchpad");
 
             clicking_view = new ClickingView ();
             mouse_view = new MouseView ();
             pointing_view = new PointingView ();
-            touchpad_view = new TouchpadView (touchpad_settings);
+            touchpad_view = new TouchpadView ();
 
             stack = new Gtk.Stack ();
             stack.add_named (clicking_view, "clicking");
