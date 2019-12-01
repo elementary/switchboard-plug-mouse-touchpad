@@ -1,3 +1,12 @@
+switchboard-plug-mouse-touchpad (2.3.1) bionic; urgency=medium
+
+  * Release 2.3.1 (#114)
+  * Clicking: Lessen scope (#116)
+  * Update translation template
+  * Clicking: Fix issue with LTR primary button selection (#112)
+
+ -- elementary OS Team <builds@elementary.io>  Sun, 01 Dec 2019 21:56:00 +0000
+
 switchboard-plug-mouse-touchpad (2.3.0) bionic; urgency=medium
 
   * Release 2.3.0 (#108)
