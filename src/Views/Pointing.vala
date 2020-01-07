@@ -61,31 +61,28 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         pointer_speed_help.xalign = 0;
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        var cursor_size_adjustment = new Gtk.Adjustment (0, 16, 48, 8, 8, 8);
+        var cursor_size_24 = new Gtk.RadioButton (null);
+        cursor_size_24.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing", Gtk.IconSize.LARGE_TOOLBAR);
+        cursor_size_24.tooltip_text = _("Small");
 
-        var cursor_image_small = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing", Gtk.IconSize.MENU);
-        cursor_image_small.margin_end = 12;
+        var cursor_size_32 = new Gtk.RadioButton.from_widget (cursor_size_24);
+        cursor_size_32.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing", Gtk.IconSize.DND);
+        cursor_size_32.tooltip_text = _("Medium");
 
-        var cursor_size_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, cursor_size_adjustment);
-        cursor_size_scale.draw_value = false;
-        cursor_size_scale.has_origin = false;
-        cursor_size_scale.hexpand = true;
-        cursor_size_scale.margin_top = 7;
-        cursor_size_scale.add_mark (24, Gtk.PositionType.BOTTOM, null);
-        cursor_size_scale.add_mark (32, Gtk.PositionType.BOTTOM, null);
-
-        var cursor_image_large = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing", Gtk.IconSize.DIALOG);
+        var cursor_size_48 = new Gtk.RadioButton.from_widget (cursor_size_24);
+        cursor_size_48.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing", Gtk.IconSize.DIALOG);
+        cursor_size_48.tooltip_text = _("Large");
 
         var cursor_size_grid = new Gtk.Grid ();
-        cursor_size_grid.valign = Gtk.Align.CENTER;
-        cursor_size_grid.add (cursor_image_small);
-        cursor_size_grid.add (cursor_size_scale);
+        cursor_size_grid.column_spacing = 48;
+        cursor_size_grid.add (cursor_size_24);
+        cursor_size_grid.add (cursor_size_32);
+        cursor_size_grid.add (cursor_size_48);
 
         content_area.row_spacing = 6;
 
         content_area.attach (new SettingLabel (_("Pointer size:")), 0, 0);
         content_area.attach (cursor_size_grid, 1, 0, 3);
-        content_area.attach (cursor_image_large, 4, 0);
 
         content_area.attach (reveal_pointer_label, 0, 1);
         content_area.attach (reveal_pointer_switch, 1, 1, 3);
@@ -127,11 +124,28 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         );
 
         var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
-        interface_settings.bind (
-            "cursor-size",
-            cursor_size_adjustment,
-            "value",
-            SettingsBindFlags.DEFAULT
-        );
+
+        switch (interface_settings.get_int ("cursor-size")) {
+            case 32:
+                cursor_size_32.active = true;
+                break;
+            case 48:
+                cursor_size_48.active = true;
+                break;
+            default:
+                cursor_size_24.active = true;
+        }
+
+        cursor_size_24.toggled.connect (() => {
+            interface_settings.set_int ("cursor-size", 24);
+        });
+
+        cursor_size_32.toggled.connect (() => {
+            interface_settings.set_int ("cursor-size", 32);
+        });
+
+        cursor_size_48.toggled.connect (() => {
+            interface_settings.set_int ("cursor-size", 48);
+        });
     }
 }
