@@ -1,5 +1,4 @@
 src/Plug.vala
-src/Backend/TouchpadSettings.vala
 src/Views/Clicking.vala
 src/Views/Mouse.vala
 src/Views/Pointing.vala

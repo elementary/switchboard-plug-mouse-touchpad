@@ -5,10 +5,18 @@
   <name>Mouse &amp; Touchpad Settings</name>
   <summary>Configure mouse and touchpad</summary>
   <releases>
-    <release version="2.4.0" date="2019-11-22" urgency="medium">
+    <release version="2.4.0" date="2020-01-07" urgency="medium">
       <description>
         <ul>
           <li>Add Pointer size setting</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.3.1" date="2019-11-30" urgency="medium">
+      <description>
+        <ul>
+          <li>Fix an issue where primary button selection doesn't apply in left-to-right languages</li>
           <li>Updated translations</li>
         </ul>
       </description>

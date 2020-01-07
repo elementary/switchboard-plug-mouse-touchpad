@@ -18,13 +18,10 @@
  */
 
 public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
-    public Backend.TouchpadSettings touchpad_settings { get; construct; }
-
-    public TouchpadView (Backend.TouchpadSettings touchpad_settings) {
+    public TouchpadView () {
         Object (
             icon_name: "input-touchpad",
-            title: _("Touchpad"),
-            touchpad_settings: touchpad_settings
+            title: _("Touchpad")
         );
     }
 
@@ -104,9 +101,9 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
 
         click_method_switch.notify["active"].connect (() => {
             if (click_method_switch.active) {
-                touchpad_settings.click_method = click_method_combobox.active_id;
+                glib_settings.set_enum ("click-method", click_method_combobox.active);
             } else {
-                touchpad_settings.click_method = "none";
+                glib_settings.set_enum ("click-method", 1);
             }
         });
 
@@ -142,12 +139,11 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             natural_scrolling_switch.sensitive = active_text != "disabled";
         });
 
-        touchpad_settings.bind_property (
+        glib_settings.bind (
             "click-method",
             click_method_combobox,
             "active-id",
-            BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE,
-            click_method_transform_func
+            GLib.SettingsBindFlags.DEFAULT
         );
 
         disable_with_mouse_switch.notify["active"].connect (() => {
@@ -182,14 +178,5 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             "active",
             GLib.SettingsBindFlags.DEFAULT
         );
-    }
-
-    private bool click_method_transform_func (Binding binding, Value source_value, ref Value target_value) {
-        if (touchpad_settings.click_method == "none") {
-            return false;
-        }
-
-        target_value = source_value;
-        return true;
     }
 }

@@ -7,18 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-05 16:50+0000\n"
-"PO-Revision-Date: 2019-10-16 16:28+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"POT-Creation-Date: 2019-11-29 18:23+0000\n"
+"PO-Revision-Date: 2019-12-19 13:07+0000\n"
+"Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.7.1\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:45
@@ -31,16 +31,15 @@ msgstr "Nastavitve miške in sledilne ploščice"
 
 #: src/Plug.vala:111 src/Views/Clicking.vala:28
 msgid "Clicking"
-msgstr ""
+msgstr "Klikanje"
 
 #: src/Plug.vala:112
 msgid "Double-click speed"
-msgstr ""
+msgstr "Hitrost dvoklika:"
 
 #: src/Plug.vala:113
-#, fuzzy
 msgid "Primary button"
-msgstr "Primarni gumb:"
+msgstr "Primarni gumb"
 
 #: src/Plug.vala:114
 msgid "Long-press secondary click"
@@ -51,9 +50,8 @@ msgid "Long-press length"
 msgstr ""
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Middle click paste"
-msgstr "Prilepi s srednjim klikom:"
+msgstr "Prilepi s srednjim klikom"
 
 #: src/Plug.vala:118 src/Plug.vala:119 src/Plug.vala:120 src/Plug.vala:121
 #: src/Views/Mouse.vala:25
@@ -61,28 +59,24 @@ msgid "Mouse"
 msgstr "Miška"
 
 #: src/Plug.vala:119 src/Plug.vala:129
-#, fuzzy
 msgid "Pointer speed"
-msgstr "Hitrost kazalca:"
+msgstr "Hitrost kazalca"
 
 #: src/Plug.vala:120
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Pospešek kazalca:"
+msgstr "Pospešek kazalca"
 
 #: src/Plug.vala:121 src/Plug.vala:133
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "Naravno drsenje:"
+msgstr "Naravno drsenje"
 
 #: src/Plug.vala:123 src/Views/Pointing.vala:24
 msgid "Pointing"
 msgstr ""
 
 #: src/Plug.vala:124
-#, fuzzy
 msgid "Reveal pointer"
-msgstr "Pokaži miškin kazalec:"
+msgstr "Pokaži kazalec"
 
 #: src/Plug.vala:125
 msgid "Control pointer using keypad"
@@ -139,33 +133,33 @@ msgstr "Levo"
 msgid "Right"
 msgstr "Desno"
 
-#: src/Views/Clicking.vala:78
+#: src/Views/Clicking.vala:91
 msgid "Long-press secondary click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:83
+#: src/Views/Clicking.vala:96
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 
-#: src/Views/Clicking.vala:89
+#: src/Views/Clicking.vala:102
 msgid "Length:"
-msgstr ""
+msgstr "Dolžina:"
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:117
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:129
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Hitrost dvoklika:"
 
-#: src/Views/Clicking.vala:136
+#: src/Views/Clicking.vala:149
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Srednji ali tri-prstni klik na vnosno vrstico bo prilepil izbrano besedilo"
 
-#: src/Views/Clicking.vala:143
+#: src/Views/Clicking.vala:156
 msgid "Middle click paste:"
 msgstr "Prilepi s srednjim klikom:"
 
@@ -250,9 +244,8 @@ msgid "Scrolling:"
 msgstr "Drsenje:"
 
 #: src/Views/Touchpad.vala:98
-#, fuzzy
 msgid "Ignore while typing:"
-msgstr "Izklopi med tipkanjem:"
+msgstr "Ignoriraj med tipkanjem:"
 
 #: src/Views/Touchpad.vala:100
 msgid "Ignore when mouse is connected:"

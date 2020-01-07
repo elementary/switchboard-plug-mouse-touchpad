@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-05 16:50+0000\n"
+"POT-Creation-Date: 2019-11-29 18:23+0000\n"
 "PO-Revision-Date: 2019-10-05 09:23+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -127,38 +127,38 @@ msgstr "Gauche"
 msgid "Right"
 msgstr "Droit"
 
-#: src/Views/Clicking.vala:78
+#: src/Views/Clicking.vala:91
 msgid "Long-press secondary click:"
 msgstr "Appuyer longuement pour le clic secondaire :"
 
-#: src/Views/Clicking.vala:83
+#: src/Views/Clicking.vala:96
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Appuyer longuement et relâcher le bouton principal effectuera un clic "
 "secondaire"
 
-#: src/Views/Clicking.vala:89
+#: src/Views/Clicking.vala:102
 msgid "Length:"
 msgstr "Longueur :"
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:117
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "En combien de temps deux clics consécutifs seront traités comme un double-"
 "clic"
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:129
 msgid "Double-click speed:"
 msgstr "Vitesse du double-clic :"
 
-#: src/Views/Clicking.vala:136
+#: src/Views/Clicking.vala:149
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Un clic du milieu ou avec trois doigts sur une entrée collera n'importe quel "
 "texte sélectionné"
 
-#: src/Views/Clicking.vala:143
+#: src/Views/Clicking.vala:156
 msgid "Middle click paste:"
 msgstr "Collage avec clic du milieu :"
 

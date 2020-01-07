@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-05 16:50+0000\n"
-"PO-Revision-Date: 2019-09-28 19:23+0000\n"
+"POT-Creation-Date: 2019-11-29 18:23+0000\n"
+"PO-Revision-Date: 2019-11-29 00:24+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pt/>\n"
@@ -30,7 +30,7 @@ msgstr "Configurar o rato e o touchpad"
 
 #: src/Plug.vala:111 src/Views/Clicking.vala:28
 msgid "Clicking"
-msgstr "Clicando"
+msgstr "Clicar"
 
 #: src/Plug.vala:112
 msgid "Double-click speed"
@@ -71,7 +71,7 @@ msgstr "Deslocação natural"
 
 #: src/Plug.vala:123 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr "Apontando"
+msgstr "Apontar"
 
 #: src/Plug.vala:124
 msgid "Reveal pointer"
@@ -127,36 +127,36 @@ msgstr "Esquerda"
 msgid "Right"
 msgstr "Direita"
 
-#: src/Views/Clicking.vala:78
+#: src/Views/Clicking.vala:91
 msgid "Long-press secondary click:"
 msgstr "Clique secundário longo:"
 
-#: src/Views/Clicking.vala:83
+#: src/Views/Clicking.vala:96
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Premir e soltar o botão primário prolongadamente executa o clique secundário"
 
-#: src/Views/Clicking.vala:89
+#: src/Views/Clicking.vala:102
 msgid "Length:"
 msgstr "Comprimento:"
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:117
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Quão rapidamente dois cliques numa linha serão tratados como um duplo clique"
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:129
 msgid "Double-click speed:"
 msgstr "Velocidade de duplo clique:"
 
-#: src/Views/Clicking.vala:136
+#: src/Views/Clicking.vala:149
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Clique com botão do meio ou três dedos numa entrada irá colar qualquer texto "
 "selecionado"
 
-#: src/Views/Clicking.vala:143
+#: src/Views/Clicking.vala:156
 msgid "Middle click paste:"
 msgstr "Colar com botão do meio:"
 
@@ -174,7 +174,7 @@ msgstr "Nenhuma"
 
 #: src/Views/Mouse.vala:40
 msgid "Adaptive"
-msgstr "Adaptativo"
+msgstr "Adaptável"
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:87
 msgid "Pointer speed:"
