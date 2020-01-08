@@ -62,15 +62,15 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
         var cursor_size_24 = new Gtk.RadioButton (null);
-        cursor_size_24.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing", Gtk.IconSize.LARGE_TOOLBAR);
+        cursor_size_24.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
         cursor_size_24.tooltip_text = _("Small");
 
         var cursor_size_32 = new Gtk.RadioButton.from_widget (cursor_size_24);
-        cursor_size_32.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing", Gtk.IconSize.DND);
+        cursor_size_32.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.DND);
         cursor_size_32.tooltip_text = _("Medium");
 
         var cursor_size_48 = new Gtk.RadioButton.from_widget (cursor_size_24);
-        cursor_size_48.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing", Gtk.IconSize.DIALOG);
+        cursor_size_48.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.DIALOG);
         cursor_size_48.tooltip_text = _("Large");
 
         var cursor_size_grid = new Gtk.Grid ();
