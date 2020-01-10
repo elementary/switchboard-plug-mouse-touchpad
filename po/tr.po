@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-10 09:59+0000\n"
-"PO-Revision-Date: 2019-09-28 19:23+0000\n"
+"PO-Revision-Date: 2020-01-10 19:23+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -207,21 +207,19 @@ msgstr ""
 
 #: src/Views/Pointing.vala:66
 msgid "Small"
-msgstr ""
+msgstr "Küçük"
 
 #: src/Views/Pointing.vala:70
 msgid "Medium"
-msgstr ""
+msgstr "Orta"
 
 #: src/Views/Pointing.vala:74
 msgid "Large"
-msgstr ""
+msgstr "Büyük"
 
 #: src/Views/Pointing.vala:84
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "İşaretçi hızı:"
+msgstr "İşaretçi boyutu:"
 
 #: src/Views/Pointing.vala:91
 msgid "Control pointer using keypad:"
