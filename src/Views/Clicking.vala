@@ -79,10 +79,28 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         var double_click_speed_help = new Gtk.Label (_("How quickly two clicks in a row will be treated as a double-click"));
         double_click_speed_help.margin_bottom = 18;
-
         double_click_speed_help.wrap = true;
         double_click_speed_help.xalign = 0;
         double_click_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+
+        var hover_click_label = new SettingLabel (_("Hover click:"));
+
+        var hover_click_switch = new Gtk.Switch ();
+        hover_click_switch.halign = Gtk.Align.START;
+
+        var hover_click_delay_label = new Gtk.Label (_("Delay:"));
+        hover_click_delay_label.halign = Gtk.Align.END;
+
+        var hover_click_adjustment = new Gtk.Adjustment (0, 0, 3, 0.1, 0.1, 0.1);
+
+        var hover_click_delay_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, hover_click_adjustment);
+        hover_click_delay_scale.add_mark (1.2, Gtk.PositionType.TOP, null);
+        hover_click_delay_scale.draw_value = false;
+
+        var hover_click_help = new Gtk.Label (_("Automatically click when the pointer remains still"));
+        hover_click_help.wrap = true;
+        hover_click_help.xalign = 0;
+        hover_click_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
         content_area.row_spacing = 6;
 
@@ -97,7 +115,13 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         content_area.attach (hold_switch, 1, 3);
         content_area.attach (hold_length_label, 2, 3);
         content_area.attach (hold_scale, 3, 3);
-        content_area. attach (hold_help, 1, 4, 3);
+        content_area.attach (hold_help, 1, 4, 3);
+
+        content_area.attach (hover_click_label, 0, 7);
+        content_area.attach (hover_click_switch, 1, 7);
+        content_area.attach (hover_click_delay_label, 2, 7);
+        content_area.attach (hover_click_delay_scale, 3, 7);
+        content_area.attach (hover_click_help, 1, 8, 3);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
             "org.gnome.settings-daemon.plugins.xsettings",
@@ -150,6 +174,11 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             "value",
             GLib.SettingsBindFlags.DEFAULT
         );
+
+        a11y_mouse_settings.bind ("dwell-click-enabled", hover_click_delay_label, "sensitive", SettingsBindFlags.GET);
+        a11y_mouse_settings.bind ("dwell-click-enabled", hover_click_delay_scale, "sensitive", SettingsBindFlags.GET);
+        a11y_mouse_settings.bind ("dwell-click-enabled", hover_click_switch, "active", SettingsBindFlags.DEFAULT);
+        a11y_mouse_settings.bind ("dwell-time", hover_click_adjustment, "value", SettingsBindFlags.DEFAULT);
 
         hold_switch.bind_property ("active", hold_length_label, "sensitive", BindingFlags.SYNC_CREATE);
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
