@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-10 09:59+0000\n"
-"PO-Revision-Date: 2019-11-07 18:25+0000\n"
+"PO-Revision-Date: 2020-01-10 19:24+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
@@ -29,7 +29,7 @@ msgstr "マウスとタッチパッドを設定します"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
 msgid "Add Pointer size setting"
-msgstr ""
+msgstr "ポインターサイズの設定を追加"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
@@ -41,7 +41,7 @@ msgstr "翻訳の更新"
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
-msgstr ""
+msgstr "左横書き言語の環境において主ボタンの選択が適用されない問題を修正"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
 msgid "New Sidebar navigation"
