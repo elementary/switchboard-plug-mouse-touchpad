@@ -27,62 +27,28 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
     }
 
     construct {
-        var mouse_settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
-
         var primary_button_label = new SettingLabel (_("Primary button:"));
         primary_button_label.margin_bottom = 18;
 
-        var mouse_left = new Gtk.Image.from_icon_name ("mouse-left-symbolic", Gtk.IconSize.DND);
+        var mouse_left = new Gtk.RadioButton (null);
+        mouse_left.image = new Gtk.Image.from_icon_name ("mouse-left-symbolic", Gtk.IconSize.DND);
         mouse_left.tooltip_text = _("Left");
 
-        var mouse_right = new Gtk.Image.from_icon_name ("mouse-right-symbolic", Gtk.IconSize.DND);
+        var mouse_right = new Gtk.RadioButton.from_widget (mouse_left);
+        mouse_right.image = new Gtk.Image.from_icon_name ("mouse-right-symbolic", Gtk.IconSize.DND);
         mouse_right.tooltip_text = _("Right");
 
-        var primary_button_switcher = new Granite.Widgets.ModeButton ();
+        var primary_button_switcher = new Gtk.Grid ();
         primary_button_switcher.halign = Gtk.Align.START;
         primary_button_switcher.margin_bottom = 18;
-        primary_button_switcher.width_request = 256;
+        primary_button_switcher.column_spacing = 24;
 
         if (Gtk.StateFlags.DIR_LTR in get_state_flags ()) {
-            primary_button_switcher.append (mouse_left);
-            primary_button_switcher.append (mouse_right);
-
-            mouse_settings.bind_with_mapping (
-                "left-handed",
-                primary_button_switcher,
-                "selected",
-                GLib.SettingsBindFlags.DEFAULT,
-                (value, variant) => {
-                    GLib.return_val_if_fail (variant.is_of_type (GLib.VariantType.BOOLEAN), false);
-                    value.set_int (variant.get_boolean () ? 1 : 0);
-                    return true;
-                },
-                (value, expected_type) => {
-                    GLib.return_val_if_fail (expected_type.equal (GLib.VariantType.BOOLEAN), null);
-                    return new GLib.Variant.boolean (value.get_int () == 1);
-                },
-                null, null
-            );
+            primary_button_switcher.add (mouse_left);
+            primary_button_switcher.add (mouse_right);
         } else {
-            primary_button_switcher.append (mouse_right);
-            primary_button_switcher.append (mouse_left);
-
-            mouse_settings.bind_with_mapping (
-                "left-handed",
-                primary_button_switcher,
-                "selected",
-                GLib.SettingsBindFlags.DEFAULT,
-                (value, variant) => {
-                    GLib.return_val_if_fail (variant.is_of_type (GLib.VariantType.BOOLEAN), false);
-                    value.set_int (variant.get_boolean () ? 0 : 1);
-                    return true;
-                },
-                (value, expected_type) => {
-                    GLib.return_val_if_fail (expected_type.equal (GLib.VariantType.BOOLEAN), null);
-                    return new GLib.Variant.boolean (value.get_int () == 0);
-                },
-                null, null
-            );
+            primary_button_switcher.add (mouse_right);
+            primary_button_switcher.add (mouse_left);
         }
 
         var hold_label = new SettingLabel (_("Long-press secondary click:"));
@@ -187,6 +153,25 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         hold_switch.bind_property ("active", hold_length_label, "sensitive", BindingFlags.SYNC_CREATE);
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
+
+        var mouse_settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
+        if (mouse_settings.get_boolean ("left-handed")) {
+            mouse_right.active = true;
+        } else {
+            mouse_left.active = true;
+        }
+
+        mouse_left.button_release_event.connect (() => {
+            mouse_settings.set_boolean ("left-handed", false);
+            mouse_left.active = true;
+            return Gdk.EVENT_STOP;
+        });
+
+        mouse_right.button_release_event.connect (() => {
+            mouse_settings.set_boolean ("left-handed", true);
+            mouse_right.active = true;
+            return Gdk.EVENT_STOP;
+        });
     }
 
     private void on_primary_paste_switch_changed (Gtk.Switch switch, GLib.Settings xsettings) {

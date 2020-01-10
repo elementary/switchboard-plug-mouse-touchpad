@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 09:59+0000\n"
-"PO-Revision-Date: 2019-10-01 20:23+0000\n"
+"POT-Creation-Date: 2020-01-10 19:38+0000\n"
+"PO-Revision-Date: 2020-01-10 19:24+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -115,11 +115,11 @@ msgstr "Ignora'l quan hi hagi un ratolí connectat"
 msgid "Behavior"
 msgstr "Comportament"
 
-#: src/Views/Clicking.vala:32
+#: src/Views/Clicking.vala:30
 msgid "Primary button:"
 msgstr "Botó primari:"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:35
 msgid "Left"
 msgstr "Esquerra"
 
@@ -127,36 +127,36 @@ msgstr "Esquerra"
 msgid "Right"
 msgstr "Dreta"
 
-#: src/Views/Clicking.vala:88
+#: src/Views/Clicking.vala:54
 msgid "Long-press secondary click:"
 msgstr "Clic secundari per a la pressió d'estona:"
 
-#: src/Views/Clicking.vala:93
+#: src/Views/Clicking.vala:59
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Prémer durant un temps llarg i deixar anar el botó primari significarà un "
 "clic secundari."
 
-#: src/Views/Clicking.vala:99
+#: src/Views/Clicking.vala:65
 msgid "Length:"
 msgstr "Llargada:"
 
-#: src/Views/Clicking.vala:114
+#: src/Views/Clicking.vala:80
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "L'interval entre dos clics seguits que es tractarà com a clic doble."
 
-#: src/Views/Clicking.vala:126
+#: src/Views/Clicking.vala:92
 msgid "Double-click speed:"
 msgstr "Velocitat del clic doble:"
 
-#: src/Views/Clicking.vala:146
+#: src/Views/Clicking.vala:112
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Clicar amb el botó del mig o fer un toc amb tres dits servirà per enganxar "
 "qualsevol text seleccionat."
 
-#: src/Views/Clicking.vala:153
+#: src/Views/Clicking.vala:119
 msgid "Middle click paste:"
 msgstr "Enganxa amb el botó del mig:"
 
@@ -206,21 +206,19 @@ msgstr "Això inhabilita ambdós nivells de tecles del teclat numèric."
 
 #: src/Views/Pointing.vala:66
 msgid "Small"
-msgstr ""
+msgstr "petita"
 
 #: src/Views/Pointing.vala:70
 msgid "Medium"
-msgstr ""
+msgstr "mitjana"
 
 #: src/Views/Pointing.vala:74
 msgid "Large"
-msgstr ""
+msgstr "grossa"
 
 #: src/Views/Pointing.vala:84
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "Velocitat del punter:"
+msgstr "Mida del punter:"
 
 #: src/Views/Pointing.vala:91
 msgid "Control pointer using keypad:"

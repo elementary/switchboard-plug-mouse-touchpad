@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 09:59+0000\n"
+"POT-Creation-Date: 2020-01-10 19:38+0000\n"
 "PO-Revision-Date: 2018-04-05 14:35+0000\n"
 "Last-Translator: Shawn <syst3mfailur3@gmail.com>\n"
 "Language-Team: English (Canada) <https://weblate.elementary.io/projects/"
@@ -126,11 +126,11 @@ msgstr ""
 msgid "Behavior"
 msgstr ""
 
-#: src/Views/Clicking.vala:32
+#: src/Views/Clicking.vala:30
 msgid "Primary button:"
 msgstr "Primary button:"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:35
 msgid "Left"
 msgstr "Left"
 
@@ -138,33 +138,33 @@ msgstr "Left"
 msgid "Right"
 msgstr "Right"
 
-#: src/Views/Clicking.vala:88
+#: src/Views/Clicking.vala:54
 msgid "Long-press secondary click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:93
+#: src/Views/Clicking.vala:59
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 
-#: src/Views/Clicking.vala:99
+#: src/Views/Clicking.vala:65
 msgid "Length:"
 msgstr ""
 
-#: src/Views/Clicking.vala:114
+#: src/Views/Clicking.vala:80
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:126
+#: src/Views/Clicking.vala:92
 msgid "Double-click speed:"
 msgstr ""
 
-#: src/Views/Clicking.vala:146
+#: src/Views/Clicking.vala:112
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Middle or three-finger clicking on an input will paste any selected text"
 
-#: src/Views/Clicking.vala:153
+#: src/Views/Clicking.vala:119
 msgid "Middle click paste:"
 msgstr "Middle click paste:"
 
