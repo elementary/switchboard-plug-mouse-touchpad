@@ -34,11 +34,16 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         locate_pointer_help.xalign = 0;
         locate_pointer_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
+        var reveal_pointer_label = new SettingLabel (_("Reveal pointer:"));
+        reveal_pointer_label.margin_top = 18;
+
         var reveal_pointer_switch = new Gtk.Switch ();
         reveal_pointer_switch.halign = Gtk.Align.START;
+        reveal_pointer_switch.margin_top = 18;
 
         var keypad_pointer_switch = new Gtk.Switch ();
         keypad_pointer_switch.halign = Gtk.Align.START;
+        keypad_pointer_switch.valign = Gtk.Align.CENTER;
 
         var keypad_pointer_adjustment = new Gtk.Adjustment (0, 0, 500, 10, 10, 10);
 
@@ -47,25 +52,47 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, keypad_pointer_adjustment);
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.hexpand = true;
-        pointer_speed_scale.add_mark (10, Gtk.PositionType.TOP, null);
+        pointer_speed_scale.margin_top = 7;
+        pointer_speed_scale.add_mark (10, Gtk.PositionType.BOTTOM, null);
 
         var pointer_speed_help = new Gtk.Label (_("This disables both levels of keys on the numeric keypad"));
-
-        content_area.row_spacing = 6;
 
         pointer_speed_help.wrap = true;
         pointer_speed_help.xalign = 0;
         pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        content_area.attach (new SettingLabel (_("Reveal pointer:")), 0, 0);
-        content_area.attach (reveal_pointer_switch, 1, 0, 3);
-        content_area.attach (locate_pointer_help, 1, 1, 3);
+        var cursor_size_24 = new Gtk.RadioButton (null);
+        cursor_size_24.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
+        cursor_size_24.tooltip_text = _("Small");
 
-        content_area.attach (new SettingLabel (_("Control pointer using keypad:")), 0, 2);
-        content_area.attach (keypad_pointer_switch, 1, 2);
-        content_area.attach (pointer_speed_label, 2, 2);
-        content_area.attach (pointer_speed_scale, 3, 2);
-        content_area.attach (pointer_speed_help, 1, 3, 3);
+        var cursor_size_32 = new Gtk.RadioButton.from_widget (cursor_size_24);
+        cursor_size_32.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.DND);
+        cursor_size_32.tooltip_text = _("Medium");
+
+        var cursor_size_48 = new Gtk.RadioButton.from_widget (cursor_size_24);
+        cursor_size_48.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.DIALOG);
+        cursor_size_48.tooltip_text = _("Large");
+
+        var cursor_size_grid = new Gtk.Grid ();
+        cursor_size_grid.column_spacing = 48;
+        cursor_size_grid.add (cursor_size_24);
+        cursor_size_grid.add (cursor_size_32);
+        cursor_size_grid.add (cursor_size_48);
+
+        content_area.row_spacing = 6;
+
+        content_area.attach (new SettingLabel (_("Pointer size:")), 0, 0);
+        content_area.attach (cursor_size_grid, 1, 0, 3);
+
+        content_area.attach (reveal_pointer_label, 0, 1);
+        content_area.attach (reveal_pointer_switch, 1, 1, 3);
+        content_area.attach (locate_pointer_help, 1, 2, 3);
+
+        content_area.attach (new SettingLabel (_("Control pointer using keypad:")), 0, 3);
+        content_area.attach (keypad_pointer_switch, 1, 3);
+        content_area.attach (pointer_speed_label, 2, 3);
+        content_area.attach (pointer_speed_scale, 3, 3);
+        content_area.attach (pointer_speed_help, 1, 4, 3);
 
         var daemon_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
         daemon_settings.bind ("locate-pointer", reveal_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);
@@ -95,5 +122,30 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
             "sensitive",
             SettingsBindFlags.GET
         );
+
+        var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
+
+        switch (interface_settings.get_int ("cursor-size")) {
+            case 32:
+                cursor_size_32.active = true;
+                break;
+            case 48:
+                cursor_size_48.active = true;
+                break;
+            default:
+                cursor_size_24.active = true;
+        }
+
+        cursor_size_24.toggled.connect (() => {
+            interface_settings.set_int ("cursor-size", 24);
+        });
+
+        cursor_size_32.toggled.connect (() => {
+            interface_settings.set_int ("cursor-size", 32);
+        });
+
+        cursor_size_48.toggled.connect (() => {
+            interface_settings.set_int ("cursor-size", 48);
+        });
     }
 }
