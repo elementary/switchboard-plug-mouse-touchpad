@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2011-2020 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -74,7 +74,7 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
             true
         );
 
-        if (reveal_pointer_schema != null) {
+        if (reveal_pointer_schema != null && "locate-pointer" in reveal_pointer_schema.list_keys ()) {
             var locate_pointer_help = new Gtk.Label (
                 _("Pressing the control key will highlight the position of the pointer")
             );
