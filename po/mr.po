@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 19:38+0000\n"
+"POT-Creation-Date: 2020-01-10 22:51+0000\n"
 "PO-Revision-Date: 2019-10-01 20:23+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -183,41 +183,41 @@ msgstr "पॉइंटर प्रवेग:"
 msgid "Natural scrolling:"
 msgstr "नैसर्गिक स्क्रोलिंग:"
 
-#: src/Views/Pointing.vala:30
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "कंट्रोल की दाबून पॉईन्टरची स्थिती ठळक होईल"
-
-#: src/Views/Pointing.vala:37
-msgid "Reveal pointer:"
-msgstr "पॉइंटर दाखवा:"
-
-#: src/Views/Pointing.vala:50
+#: src/Views/Pointing.vala:35
 msgid "Speed:"
 msgstr "वेग:"
 
-#: src/Views/Pointing.vala:58
+#: src/Views/Pointing.vala:43
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "हे अंकीय कीपॅडवरील की दोन्ही स्तर अक्षम करते"
 
-#: src/Views/Pointing.vala:66
+#: src/Views/Pointing.vala:51
 msgid "Small"
 msgstr ""
 
-#: src/Views/Pointing.vala:70
+#: src/Views/Pointing.vala:55
 msgid "Medium"
 msgstr ""
 
-#: src/Views/Pointing.vala:74
+#: src/Views/Pointing.vala:59
 msgid "Large"
 msgstr ""
 
-#: src/Views/Pointing.vala:84
+#: src/Views/Pointing.vala:69
 #, fuzzy
 #| msgid "Pointer speed:"
 msgid "Pointer size:"
 msgstr "पॉइंटर स्पीड:"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:79
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "कंट्रोल की दाबून पॉईन्टरची स्थिती ठळक होईल"
+
+#: src/Views/Pointing.vala:86
+msgid "Reveal pointer:"
+msgstr "पॉइंटर दाखवा:"
+
+#: src/Views/Pointing.vala:101
 msgid "Control pointer using keypad:"
 msgstr "कीपॅड वापरुन पॉइंटर नियंत्रित करा:"
 

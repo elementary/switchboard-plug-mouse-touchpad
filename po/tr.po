@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 19:38+0000\n"
+"POT-Creation-Date: 2020-01-10 22:51+0000\n"
 "PO-Revision-Date: 2020-01-10 19:23+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -188,40 +188,40 @@ msgstr "İşaretçi hızlandırması:"
 msgid "Natural scrolling:"
 msgstr "Doğal kaydırma:"
 
-#: src/Views/Pointing.vala:30
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Ctrl tuşuna basılması, işaretçinin konumunu vurgulayacaktır"
-
-#: src/Views/Pointing.vala:37
-msgid "Reveal pointer:"
-msgstr "İşaretçiyi göster:"
-
-#: src/Views/Pointing.vala:50
+#: src/Views/Pointing.vala:35
 msgid "Speed:"
 msgstr "Hız:"
 
-#: src/Views/Pointing.vala:58
+#: src/Views/Pointing.vala:43
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr ""
 "Bu, sayısal tuş takımındaki her iki tuş seviyesini de devre dışı bırakır"
 
-#: src/Views/Pointing.vala:66
+#: src/Views/Pointing.vala:51
 msgid "Small"
 msgstr "Küçük"
 
-#: src/Views/Pointing.vala:70
+#: src/Views/Pointing.vala:55
 msgid "Medium"
 msgstr "Orta"
 
-#: src/Views/Pointing.vala:74
+#: src/Views/Pointing.vala:59
 msgid "Large"
 msgstr "Büyük"
 
-#: src/Views/Pointing.vala:84
+#: src/Views/Pointing.vala:69
 msgid "Pointer size:"
 msgstr "İşaretçi boyutu:"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:79
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Ctrl tuşuna basılması, işaretçinin konumunu vurgulayacaktır"
+
+#: src/Views/Pointing.vala:86
+msgid "Reveal pointer:"
+msgstr "İşaretçiyi göster:"
+
+#: src/Views/Pointing.vala:101
 msgid "Control pointer using keypad:"
 msgstr "İşaretçiyi tuş takımı ile kontrol et:"
 

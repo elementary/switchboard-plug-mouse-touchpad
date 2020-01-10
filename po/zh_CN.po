@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 19:38+0000\n"
+"POT-Creation-Date: 2020-01-10 22:51+0000\n"
 "PO-Revision-Date: 2019-12-20 16:09+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -184,41 +184,41 @@ msgstr "指针加速："
 msgid "Natural scrolling:"
 msgstr "自然滚动："
 
-#: src/Views/Pointing.vala:30
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "按住 Ctrl 键时高亮指针所在位置"
-
-#: src/Views/Pointing.vala:37
-msgid "Reveal pointer:"
-msgstr "显示指针："
-
-#: src/Views/Pointing.vala:50
+#: src/Views/Pointing.vala:35
 msgid "Speed:"
 msgstr "速度："
 
-#: src/Views/Pointing.vala:58
+#: src/Views/Pointing.vala:43
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "这会禁用数字键盘上所有等级的按键"
 
-#: src/Views/Pointing.vala:66
+#: src/Views/Pointing.vala:51
 msgid "Small"
 msgstr ""
 
-#: src/Views/Pointing.vala:70
+#: src/Views/Pointing.vala:55
 msgid "Medium"
 msgstr ""
 
-#: src/Views/Pointing.vala:74
+#: src/Views/Pointing.vala:59
 msgid "Large"
 msgstr ""
 
-#: src/Views/Pointing.vala:84
+#: src/Views/Pointing.vala:69
 #, fuzzy
 #| msgid "Pointer speed:"
 msgid "Pointer size:"
 msgstr "指针速度："
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:79
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "按住 Ctrl 键时高亮指针所在位置"
+
+#: src/Views/Pointing.vala:86
+msgid "Reveal pointer:"
+msgstr "显示指针："
+
+#: src/Views/Pointing.vala:101
 msgid "Control pointer using keypad:"
 msgstr "使用键盘控制指针："
 
