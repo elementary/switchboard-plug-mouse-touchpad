@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 09:59+0000\n"
+"POT-Creation-Date: 2020-01-10 19:38+0000\n"
 "PO-Revision-Date: 2019-10-16 16:28+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
@@ -116,11 +116,11 @@ msgstr "Ignoruj, gdy podłączona jest myszka"
 msgid "Behavior"
 msgstr "Zachowanie"
 
-#: src/Views/Clicking.vala:32
+#: src/Views/Clicking.vala:30
 msgid "Primary button:"
 msgstr "Główny przycisk:"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:35
 msgid "Left"
 msgstr "Lewy"
 
@@ -128,37 +128,37 @@ msgstr "Lewy"
 msgid "Right"
 msgstr "Prawy"
 
-#: src/Views/Clicking.vala:88
+#: src/Views/Clicking.vala:54
 msgid "Long-press secondary click:"
 msgstr "Długie przytrzymanie kliknięcia prawym przyciskiem myszy:"
 
-#: src/Views/Clicking.vala:93
+#: src/Views/Clicking.vala:59
 #, fuzzy
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Długie przytrzymanie i odpuszczenie głównego przycisku myszy będzie jak "
 "podwójne kliknięcie."
 
-#: src/Views/Clicking.vala:99
+#: src/Views/Clicking.vala:65
 msgid "Length:"
 msgstr ""
 
-#: src/Views/Clicking.vala:114
+#: src/Views/Clicking.vala:80
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:126
+#: src/Views/Clicking.vala:92
 msgid "Double-click speed:"
 msgstr ""
 
-#: src/Views/Clicking.vala:146
+#: src/Views/Clicking.vala:112
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Kliknięcie środkowym przyciskiem lub trzema palcami na wejściu wklei dowolny "
 "zaznaczony tekst"
 
-#: src/Views/Clicking.vala:153
+#: src/Views/Clicking.vala:119
 msgid "Middle click paste:"
 msgstr "Wklejenie poprzez kliknięcie środkowym przyciskiem:"
 

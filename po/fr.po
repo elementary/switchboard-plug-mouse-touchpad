@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 09:59+0000\n"
+"POT-Creation-Date: 2020-01-10 19:38+0000\n"
 "PO-Revision-Date: 2019-10-05 09:23+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -115,11 +115,11 @@ msgstr "Ignorer lorsqu'une souris est connectée"
 msgid "Behavior"
 msgstr "Comportement"
 
-#: src/Views/Clicking.vala:32
+#: src/Views/Clicking.vala:30
 msgid "Primary button:"
 msgstr "Bouton principal :"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:35
 msgid "Left"
 msgstr "Gauche"
 
@@ -127,38 +127,38 @@ msgstr "Gauche"
 msgid "Right"
 msgstr "Droit"
 
-#: src/Views/Clicking.vala:88
+#: src/Views/Clicking.vala:54
 msgid "Long-press secondary click:"
 msgstr "Appuyer longuement pour le clic secondaire :"
 
-#: src/Views/Clicking.vala:93
+#: src/Views/Clicking.vala:59
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Appuyer longuement et relâcher le bouton principal effectuera un clic "
 "secondaire"
 
-#: src/Views/Clicking.vala:99
+#: src/Views/Clicking.vala:65
 msgid "Length:"
 msgstr "Longueur :"
 
-#: src/Views/Clicking.vala:114
+#: src/Views/Clicking.vala:80
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "En combien de temps deux clics consécutifs seront traités comme un double-"
 "clic"
 
-#: src/Views/Clicking.vala:126
+#: src/Views/Clicking.vala:92
 msgid "Double-click speed:"
 msgstr "Vitesse du double-clic :"
 
-#: src/Views/Clicking.vala:146
+#: src/Views/Clicking.vala:112
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Un clic du milieu ou avec trois doigts sur une entrée collera n'importe quel "
 "texte sélectionné"
 
-#: src/Views/Clicking.vala:153
+#: src/Views/Clicking.vala:119
 msgid "Middle click paste:"
 msgstr "Collage avec clic du milieu :"
 
