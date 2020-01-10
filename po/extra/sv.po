@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 18:23+0000\n"
+"POT-Creation-Date: 2020-01-10 09:59+0000\n"
 "PO-Revision-Date: 2019-10-16 16:28+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
@@ -28,24 +28,29 @@ msgid "Configure mouse and touchpad"
 msgstr "Ställ in mus och pekplatta"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
+msgid "Add Pointer size setting"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:30
+msgid "Updated translations"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr ""
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
-msgid "Updated translations"
-msgstr ""
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
 msgid "New Sidebar navigation"
 msgstr ""
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
 msgid "Fix middle click not appearing"
 msgstr ""
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:29
 msgid "Add Double-Click speed"
 msgstr ""
