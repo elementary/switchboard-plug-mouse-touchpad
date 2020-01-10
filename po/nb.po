@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 19:38+0000\n"
+"POT-Creation-Date: 2020-01-10 22:51+0000\n"
 "PO-Revision-Date: 2019-06-27 14:11+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -198,42 +198,42 @@ msgstr "Pekerhastighet:"
 msgid "Natural scrolling:"
 msgstr "Naturlig rulling:"
 
-#: src/Views/Pointing.vala:30
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Ved å trykke på Ctrl-tasten vil pekerens posisjon markeres"
-
-#: src/Views/Pointing.vala:37
-msgid "Reveal pointer:"
-msgstr "Avslør peker:"
-
-#: src/Views/Pointing.vala:50
+#: src/Views/Pointing.vala:35
 msgid "Speed:"
 msgstr ""
 
-#: src/Views/Pointing.vala:58
+#: src/Views/Pointing.vala:43
 #, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Dette skrur av begge nivåene for taster på nummertastefeltet."
 
-#: src/Views/Pointing.vala:66
+#: src/Views/Pointing.vala:51
 msgid "Small"
 msgstr ""
 
-#: src/Views/Pointing.vala:70
+#: src/Views/Pointing.vala:55
 msgid "Medium"
 msgstr ""
 
-#: src/Views/Pointing.vala:74
+#: src/Views/Pointing.vala:59
 msgid "Large"
 msgstr ""
 
-#: src/Views/Pointing.vala:84
+#: src/Views/Pointing.vala:69
 #, fuzzy
 #| msgid "Pointer speed:"
 msgid "Pointer size:"
 msgstr "Pekerhastighet:"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:79
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "Ved å trykke på Ctrl-tasten vil pekerens posisjon markeres"
+
+#: src/Views/Pointing.vala:86
+msgid "Reveal pointer:"
+msgstr "Avslør peker:"
+
+#: src/Views/Pointing.vala:101
 #, fuzzy
 msgid "Control pointer using keypad:"
 msgstr "Kontroller peker ved bruk av nummertastefeltet:"
