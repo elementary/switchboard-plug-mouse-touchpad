@@ -9,6 +9,7 @@
       <description>
         <ul>
           <li>Add Pointer size setting</li>
+          <li>Also listen to secondary button clicks when selecting Primary Button</li>
           <li>Updated translations</li>
         </ul>
       </description>

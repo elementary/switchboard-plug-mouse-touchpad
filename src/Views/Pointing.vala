@@ -74,7 +74,7 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         cursor_size_48.tooltip_text = _("Large");
 
         var cursor_size_grid = new Gtk.Grid ();
-        cursor_size_grid.column_spacing = 48;
+        cursor_size_grid.column_spacing = 24;
         cursor_size_grid.add (cursor_size_24);
         cursor_size_grid.add (cursor_size_32);
         cursor_size_grid.add (cursor_size_48);

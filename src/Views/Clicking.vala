@@ -41,7 +41,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         var primary_button_switcher = new Gtk.Grid ();
         primary_button_switcher.halign = Gtk.Align.START;
         primary_button_switcher.margin_bottom = 18;
-        primary_button_switcher.column_spacing = 32;
+        primary_button_switcher.column_spacing = 24;
 
         if (Gtk.StateFlags.DIR_LTR in get_state_flags ()) {
             primary_button_switcher.add (mouse_left);
