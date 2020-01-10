@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 18:23+0000\n"
+"POT-Creation-Date: 2020-01-10 09:59+0000\n"
 "PO-Revision-Date: 2019-10-05 09:23+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -20,145 +20,145 @@ msgstr ""
 "X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
-#: src/Plug.vala:45
+#: src/Plug.vala:43
 msgid "Mouse & Touchpad"
 msgstr "Souris & Pavé tactile"
 
-#: src/Plug.vala:46
+#: src/Plug.vala:44
 msgid "Configure mouse and touchpad"
 msgstr "Configurer la souris et le pavé tactile"
 
-#: src/Plug.vala:111 src/Views/Clicking.vala:28
+#: src/Plug.vala:107 src/Views/Clicking.vala:25
 msgid "Clicking"
 msgstr "Clic"
 
-#: src/Plug.vala:112
+#: src/Plug.vala:108
 msgid "Double-click speed"
 msgstr "Vitesse du double-clic"
 
-#: src/Plug.vala:113
+#: src/Plug.vala:109
 msgid "Primary button"
 msgstr "Bouton principal"
 
-#: src/Plug.vala:114
+#: src/Plug.vala:110
 msgid "Long-press secondary click"
 msgstr "Appuyer longuement pour le clic secondaire"
 
-#: src/Plug.vala:115
+#: src/Plug.vala:111
 msgid "Long-press length"
 msgstr "Durée de l'appui long"
 
-#: src/Plug.vala:116
+#: src/Plug.vala:112
 msgid "Middle click paste"
 msgstr "Coller avec le clic du milieu"
 
-#: src/Plug.vala:118 src/Plug.vala:119 src/Plug.vala:120 src/Plug.vala:121
+#: src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116 src/Plug.vala:117
 #: src/Views/Mouse.vala:25
 msgid "Mouse"
 msgstr "Souris"
 
-#: src/Plug.vala:119 src/Plug.vala:129
+#: src/Plug.vala:115 src/Plug.vala:125
 msgid "Pointer speed"
 msgstr "Vitesse du pointeur"
 
-#: src/Plug.vala:120
+#: src/Plug.vala:116
 msgid "Pointer acceleration"
 msgstr "Accélération du pointeur"
 
-#: src/Plug.vala:121 src/Plug.vala:133
+#: src/Plug.vala:117 src/Plug.vala:129
 msgid "Natural scrolling"
 msgstr "Défilement naturel"
 
-#: src/Plug.vala:123 src/Views/Pointing.vala:24
+#: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
 msgstr "Pointeur"
 
-#: src/Plug.vala:124
+#: src/Plug.vala:120
 msgid "Reveal pointer"
 msgstr "Révéler la position du pointeur"
 
-#: src/Plug.vala:125
+#: src/Plug.vala:121
 msgid "Control pointer using keypad"
 msgstr "Contrôler le pointeur en utilisant le pavé numérique :"
 
-#: src/Plug.vala:126
+#: src/Plug.vala:122
 msgid "Keypad pointer speed"
 msgstr "Vitesse du pointeur du clavier numérique :"
 
+#: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
-#: src/Plug.vala:132 src/Plug.vala:133 src/Plug.vala:134 src/Plug.vala:135
-#: src/Views/Touchpad.vala:26
+#: src/Views/Touchpad.vala:24
 msgid "Touchpad"
 msgstr "Pavé tactile"
 
-#: src/Plug.vala:130
+#: src/Plug.vala:126
 msgid "Tap to click"
 msgstr "Taper pour cliquer"
 
-#: src/Plug.vala:131
+#: src/Plug.vala:127
 msgid "Physical clicking"
 msgstr "Clic physique"
 
-#: src/Plug.vala:132
+#: src/Plug.vala:128
 msgid "Scrolling"
 msgstr "Défilement"
 
-#: src/Plug.vala:134
+#: src/Plug.vala:130
 msgid "Ignore while typing"
 msgstr "Ignorer lors de la frappe :"
 
-#: src/Plug.vala:135
+#: src/Plug.vala:131
 msgid "Ignore when mouse is connected"
 msgstr "Ignorer lorsqu'une souris est connectée"
 
-#: src/Views/Clicking.vala:26
+#: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "Comportement"
 
-#: src/Views/Clicking.vala:35
+#: src/Views/Clicking.vala:32
 msgid "Primary button:"
 msgstr "Bouton principal :"
 
-#: src/Views/Clicking.vala:39
+#: src/Views/Clicking.vala:36
 msgid "Left"
 msgstr "Gauche"
 
-#: src/Views/Clicking.vala:42
+#: src/Views/Clicking.vala:39
 msgid "Right"
 msgstr "Droit"
 
-#: src/Views/Clicking.vala:91
+#: src/Views/Clicking.vala:88
 msgid "Long-press secondary click:"
 msgstr "Appuyer longuement pour le clic secondaire :"
 
-#: src/Views/Clicking.vala:96
+#: src/Views/Clicking.vala:93
 msgid "Long-pressing and releasing the primary button will secondary click"
 msgstr ""
 "Appuyer longuement et relâcher le bouton principal effectuera un clic "
 "secondaire"
 
-#: src/Views/Clicking.vala:102
+#: src/Views/Clicking.vala:99
 msgid "Length:"
 msgstr "Longueur :"
 
-#: src/Views/Clicking.vala:117
+#: src/Views/Clicking.vala:114
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "En combien de temps deux clics consécutifs seront traités comme un double-"
 "clic"
 
-#: src/Views/Clicking.vala:129
+#: src/Views/Clicking.vala:126
 msgid "Double-click speed:"
 msgstr "Vitesse du double-clic :"
 
-#: src/Views/Clicking.vala:149
+#: src/Views/Clicking.vala:146
 msgid ""
 "Middle or three-finger clicking on an input will paste any selected text"
 msgstr ""
 "Un clic du milieu ou avec trois doigts sur une entrée collera n'importe quel "
 "texte sélectionné"
 
-#: src/Views/Clicking.vala:156
+#: src/Views/Clicking.vala:153
 msgid "Middle click paste:"
 msgstr "Collage avec clic du milieu :"
 
@@ -166,7 +166,7 @@ msgstr "Collage avec clic du milieu :"
 msgid "Devices"
 msgstr "Périphériques"
 
-#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:52
+#: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:49
 msgid "Hardware default"
 msgstr "Clic matériel"
 
@@ -178,7 +178,7 @@ msgstr "Aucun"
 msgid "Adaptive"
 msgstr "Adaptative"
 
-#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:87
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:84
 msgid "Pointer speed:"
 msgstr "Vitesse du pointeur :"
 
@@ -186,7 +186,7 @@ msgstr "Vitesse du pointeur :"
 msgid "Pointer acceleration:"
 msgstr "Accélération du pointeur :"
 
-#: src/Views/Mouse.vala:51 src/Views/Touchpad.vala:96
+#: src/Views/Mouse.vala:51 src/Views/Touchpad.vala:93
 msgid "Natural scrolling:"
 msgstr "Défilement naturel :"
 
@@ -195,59 +195,77 @@ msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 "L'appui sur la touche contrôle mettra en valeur la position du pointeur"
 
-#: src/Views/Pointing.vala:45
-msgid "Speed:"
-msgstr "Vitesse :"
-
-#: src/Views/Pointing.vala:52
-msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Ceci désactive les deux niveaux de touches du pavé numérique"
-
-#: src/Views/Pointing.vala:60
+#: src/Views/Pointing.vala:37
 msgid "Reveal pointer:"
 msgstr "Révéler la position du pointeur :"
 
-#: src/Views/Pointing.vala:64
+#: src/Views/Pointing.vala:50
+msgid "Speed:"
+msgstr "Vitesse :"
+
+#: src/Views/Pointing.vala:58
+msgid "This disables both levels of keys on the numeric keypad"
+msgstr "Ceci désactive les deux niveaux de touches du pavé numérique"
+
+#: src/Views/Pointing.vala:66
+msgid "Small"
+msgstr ""
+
+#: src/Views/Pointing.vala:70
+msgid "Medium"
+msgstr ""
+
+#: src/Views/Pointing.vala:74
+msgid "Large"
+msgstr ""
+
+#: src/Views/Pointing.vala:84
+#, fuzzy
+#| msgid "Pointer speed:"
+msgid "Pointer size:"
+msgstr "Vitesse du pointeur :"
+
+#: src/Views/Pointing.vala:91
 msgid "Control pointer using keypad:"
 msgstr "Contrôler le pointeur en utilisant le pavé numérique :"
 
-#: src/Views/Touchpad.vala:53
+#: src/Views/Touchpad.vala:50
 msgid "Multitouch"
 msgstr "Multitouch"
 
-#: src/Views/Touchpad.vala:54
+#: src/Views/Touchpad.vala:51
 msgid "Touchpad areas"
 msgstr "Zone du pavé tactile"
 
-#: src/Views/Touchpad.vala:68
+#: src/Views/Touchpad.vala:65
 msgid "Two-finger"
 msgstr "À deux doigts"
 
-#: src/Views/Touchpad.vala:69
+#: src/Views/Touchpad.vala:66
 msgid "Edge"
 msgstr "Bord"
 
-#: src/Views/Touchpad.vala:70
+#: src/Views/Touchpad.vala:67
 msgid "Disabled"
 msgstr "Désactivé"
 
-#: src/Views/Touchpad.vala:89
+#: src/Views/Touchpad.vala:86
 msgid "Tap to click:"
 msgstr "Taper pour cliquer :"
 
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:88
 msgid "Physical clicking:"
 msgstr "Clic physique :"
 
-#: src/Views/Touchpad.vala:94
+#: src/Views/Touchpad.vala:91
 msgid "Scrolling:"
 msgstr "Défilement :"
 
-#: src/Views/Touchpad.vala:98
+#: src/Views/Touchpad.vala:95
 msgid "Ignore while typing:"
 msgstr "Ignorer lors de la frappe :"
 
-#: src/Views/Touchpad.vala:100
+#: src/Views/Touchpad.vala:97
 msgid "Ignore when mouse is connected:"
 msgstr "Ignorer lorsque la souris est connectée :"
 
