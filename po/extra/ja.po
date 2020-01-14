@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 19:38+0000\n"
+"POT-Creation-Date: 2020-01-14 23:26+0000\n"
 "PO-Revision-Date: 2020-01-10 19:24+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -28,7 +28,9 @@ msgid "Configure mouse and touchpad"
 msgstr "マウスとタッチパッドを設定します"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
-msgid "Add Pointer size setting"
+#, fuzzy
+#| msgid "Add Pointer size setting"
+msgid "Add Dwell Click and Pointer size settings"
 msgstr "ポインターサイズの設定を追加"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12

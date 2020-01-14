@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-10 19:38+0000\n"
+"POT-Creation-Date: 2020-01-14 23:26+0000\n"
 "PO-Revision-Date: 2019-11-27 20:25+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/mouse-"
@@ -28,7 +28,7 @@ msgid "Configure mouse and touchpad"
 msgstr "הגדרת עכבר ומשטח מגע"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
-msgid "Add Pointer size setting"
+msgid "Add Dwell Click and Pointer size settings"
 msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
