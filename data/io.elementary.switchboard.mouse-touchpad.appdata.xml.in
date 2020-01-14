@@ -8,7 +8,7 @@
     <release version="2.4.0" date="2020-01-07" urgency="medium">
       <description>
         <ul>
-          <li>Add Hover Click and Pointer size settings</li>
+          <li>Add Dwell Click and Pointer size settings</li>
           <li>Also listen to secondary button clicks when selecting Primary Button</li>
           <li>Updated translations</li>
         </ul>
