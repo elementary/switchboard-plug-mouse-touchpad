@@ -72,6 +72,11 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         var hold_units_label = new Gtk.Label (_("seconds"));
 
+        var hold_spin_grid = new Gtk.Grid ();
+        hold_spin_grid.column_spacing = 6;
+        hold_spin_grid.add (hold_spinbutton);
+        hold_spin_grid.add (hold_units_label);
+
         var double_click_speed_adjustment = new Gtk.Adjustment (400, 100, 1000, 0.1, 0.1, 0.1);
 
         var double_click_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, double_click_speed_adjustment);
@@ -98,6 +103,11 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         var dwell_click_units_label = new Gtk.Label (_("seconds"));
 
+        var dwell_click_spin_grid = new Gtk.Grid ();
+        dwell_click_spin_grid.column_spacing = 6;
+        dwell_click_spin_grid.add (dwell_click_spinbutton);
+        dwell_click_spin_grid.add (dwell_click_units_label);
+
         var dwell_click_help = new Gtk.Label (_("Hold the pointer still to automatically click"));
         dwell_click_help.margin_bottom = 18;
         dwell_click_help.wrap = true;
@@ -116,15 +126,13 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         content_area.attach (new SettingLabel (_("Dwell click:")), 0, 3);
         content_area.attach (dwell_click_switch, 1, 3);
         content_area.attach (dwell_click_delay_scale, 2, 3);
-        content_area.attach (dwell_click_spinbutton, 3, 3);
-        content_area.attach (dwell_click_units_label, 4, 3);
+        content_area.attach (dwell_click_spin_grid, 3, 3);
         content_area.attach (dwell_click_help, 1, 4, 4);
 
         content_area.attach (new SettingLabel (_("Long-press secondary click:")), 0, 5);
         content_area.attach (hold_switch, 1, 5);
         content_area.attach (hold_scale, 2, 5);
-        content_area.attach (hold_spinbutton, 3, 5);
-        content_area.attach (hold_units_label, 4, 5);
+        content_area.attach (hold_spin_grid, 3, 5);
         content_area.attach (hold_help, 1, 6, 4);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
@@ -180,14 +188,12 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         );
 
         a11y_mouse_settings.bind ("dwell-click-enabled", dwell_click_delay_scale, "sensitive", SettingsBindFlags.GET);
-        a11y_mouse_settings.bind ("dwell-click-enabled", dwell_click_spinbutton, "sensitive", SettingsBindFlags.GET);
-        a11y_mouse_settings.bind ("dwell-click-enabled", dwell_click_units_label, "sensitive", SettingsBindFlags.GET);
+        a11y_mouse_settings.bind ("dwell-click-enabled", dwell_click_spin_grid, "sensitive", SettingsBindFlags.GET);
         a11y_mouse_settings.bind ("dwell-click-enabled", dwell_click_switch, "active", SettingsBindFlags.DEFAULT);
         a11y_mouse_settings.bind ("dwell-time", dwell_click_adjustment, "value", SettingsBindFlags.DEFAULT);
 
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
-        hold_switch.bind_property ("active", hold_spinbutton, "sensitive", BindingFlags.SYNC_CREATE);
-        hold_switch.bind_property ("active", hold_units_label, "sensitive", BindingFlags.SYNC_CREATE);
+        hold_switch.bind_property ("active", hold_spin_grid, "sensitive", BindingFlags.SYNC_CREATE);
 
         var mouse_settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
         if (mouse_settings.get_boolean ("left-handed")) {
