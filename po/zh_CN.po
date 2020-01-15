@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-14 23:26+0000\n"
-"PO-Revision-Date: 2019-12-20 16:09+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"PO-Revision-Date: 2020-01-15 16:19+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -30,11 +30,11 @@ msgstr "配置鼠标和触控板"
 
 #: src/Plug.vala:107 src/Views/Clicking.vala:25
 msgid "Clicking"
-msgstr ""
+msgstr "点击"
 
 #: src/Plug.vala:108
 msgid "Double-click speed"
-msgstr ""
+msgstr "双击速度"
 
 #: src/Plug.vala:109
 msgid "Primary button"
@@ -71,7 +71,7 @@ msgstr "自然滚动"
 
 #: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "指针"
 
 #: src/Plug.vala:120
 msgid "Reveal pointer"
@@ -121,11 +121,11 @@ msgstr "主按键："
 
 #: src/Views/Clicking.vala:35
 msgid "Left"
-msgstr "左键"
+msgstr "左声道"
 
 #: src/Views/Clicking.vala:39
 msgid "Right"
-msgstr "右键"
+msgstr "右声道"
 
 #: src/Views/Clicking.vala:57
 #, fuzzy
@@ -135,11 +135,11 @@ msgstr "长按并放开主按键将激活二级点击"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
 msgid "seconds"
-msgstr ""
+msgstr "秒"
 
 #: src/Views/Clicking.vala:82
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "双击判定间隔的长短"
 
 #: src/Views/Clicking.vala:101
 msgid "Hold the pointer still to automatically click"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:112
 msgid "Double-click speed:"
-msgstr ""
+msgstr "双击速度："
 
 #: src/Views/Clicking.vala:116
 msgid "Dwell click:"
