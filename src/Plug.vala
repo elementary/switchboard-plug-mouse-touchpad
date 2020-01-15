@@ -106,9 +106,9 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         );
         search_results.set ("%s → %s".printf (display_name, _("Clicking")), "clicking");
         search_results.set ("%s → %s".printf (display_name, _("Double-click speed")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Dwell click")), "clicking");
         search_results.set ("%s → %s".printf (display_name, _("Primary button")), "clicking");
         search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "clicking");
-        search_results.set ("%s → %s".printf (display_name, _("Long-press length")), "clicking");
         search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "clicking");
 
         search_results.set ("%s → %s".printf (display_name, _("Mouse")), "mouse");
@@ -117,9 +117,9 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Natural scrolling")), "mouse");
 
         search_results.set ("%s → %s".printf (display_name, _("Pointing")), "pointing");
+        search_results.set ("%s → %s".printf (display_name, _("Pointer size")), "pointing");
         search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "pointing");
         search_results.set ("%s → %s".printf (display_name, _("Control pointer using keypad")), "pointing");
-        search_results.set ("%s → %s".printf (display_name, _("Keypad pointer speed")), "pointing");
 
         search_results.set ("%s → %s".printf (display_name, _("Touchpad")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Pointer speed")), "touchpad");
