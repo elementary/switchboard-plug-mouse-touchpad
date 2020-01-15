@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-14 23:26+0000\n"
-"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -80,12 +80,11 @@ msgstr "Mauszeiger hervorheben"
 #: src/Plug.vala:121
 #, fuzzy
 msgid "Control pointer using keypad"
-msgstr "Zeiger mit dem Nummernblock steuern:"
+msgstr "Zeiger mit dem Nummernblock steuern"
 
 #: src/Plug.vala:122
-#, fuzzy
 msgid "Keypad pointer speed"
-msgstr "Nummernblock Zeigergeschwindigkeit:"
+msgstr "Nummernblock Zeigergeschwindigkeit"
 
 #: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
@@ -139,7 +138,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
 msgid "seconds"
-msgstr ""
+msgstr "Sekunden"
 
 #: src/Views/Clicking.vala:82
 msgid "How quickly two clicks in a row will be treated as a double-click"
