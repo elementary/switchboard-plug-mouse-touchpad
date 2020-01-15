@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-14 23:26+0000\n"
-"PO-Revision-Date: 2019-06-27 14:11+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2020-01-15 16:19+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/nb/>\n"
 "Language: nb\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:41+0000\n"
 
 #: src/Plug.vala:43
@@ -47,7 +47,7 @@ msgstr "Langtrykkingssekundærklikk"
 
 #: src/Plug.vala:111
 msgid "Long-press length"
-msgstr "Langtrykkingsvarighet:"
+msgstr "Langtrykkingsvarighet"
 
 #: src/Plug.vala:112
 #, fuzzy
@@ -126,7 +126,7 @@ msgstr "Ignorer når mus er koblet til:"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
-msgstr ""
+msgstr "Oppførsel"
 
 #: src/Views/Clicking.vala:30
 msgid "Primary button:"
@@ -147,7 +147,7 @@ msgstr "Langtrykking og utløsing av av hovedknappen vil sekundærklikke."
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
 msgid "seconds"
-msgstr ""
+msgstr "sekund"
 
 #: src/Views/Clicking.vala:82
 msgid "How quickly two clicks in a row will be treated as a double-click"
@@ -182,7 +182,7 @@ msgstr "Midtklikk-innliming:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Enheter"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:49
 msgid "Hardware default"
@@ -210,7 +210,7 @@ msgstr "Naturlig rulling:"
 
 #: src/Views/Pointing.vala:35
 msgid "Speed:"
-msgstr ""
+msgstr "Hastighet:"
 
 #: src/Views/Pointing.vala:43
 #, fuzzy
