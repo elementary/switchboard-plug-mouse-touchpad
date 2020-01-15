@@ -8,15 +8,18 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-14 23:26+0000\n"
-"PO-Revision-Date: 2017-02-19 14:31+0000\n"
-"Last-Translator: neiron13 <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2020-01-15 16:19+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-20 06:00+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: src/Plug.vala:43
 msgid "Mouse & Touchpad"
@@ -120,7 +123,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
-msgstr ""
+msgstr "Поведінка"
 
 #: src/Views/Clicking.vala:30
 msgid "Primary button:"
@@ -140,7 +143,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
 msgid "seconds"
-msgstr ""
+msgstr "секунди"
 
 #: src/Views/Clicking.vala:82
 msgid "How quickly two clicks in a row will be treated as a double-click"
@@ -172,7 +175,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Пристрої"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:49
 msgid "Hardware default"
@@ -180,7 +183,7 @@ msgstr "Типові апаратні засоби"
 
 #: src/Views/Mouse.vala:39
 msgid "None"
-msgstr ""
+msgstr "Немає"
 
 #: src/Views/Mouse.vala:40
 msgid "Adaptive"
@@ -188,7 +191,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:84
 msgid "Pointer speed:"
-msgstr "Швидкість вказівника"
+msgstr "Швидкість вказівника:"
 
 #: src/Views/Mouse.vala:47
 #, fuzzy
@@ -197,11 +200,11 @@ msgstr "Швидкість вказівника"
 
 #: src/Views/Mouse.vala:51 src/Views/Touchpad.vala:93
 msgid "Natural scrolling:"
-msgstr "Природне прокручування"
+msgstr "Природне прокручування:"
 
 #: src/Views/Pointing.vala:35
 msgid "Speed:"
-msgstr ""
+msgstr "Швидкість:"
 
 #: src/Views/Pointing.vala:43
 msgid "This disables both levels of keys on the numeric keypad"
@@ -259,7 +262,7 @@ msgstr "Вимкнена"
 
 #: src/Views/Touchpad.vala:86
 msgid "Tap to click:"
-msgstr "Натиск для клацання"
+msgstr "Натиск для клацання:"
 
 #: src/Views/Touchpad.vala:88
 msgid "Physical clicking:"
