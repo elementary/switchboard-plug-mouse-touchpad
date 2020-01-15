@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-14 23:26+0000\n"
+"POT-Creation-Date: 2020-01-15 16:20+0000\n"
 "PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
@@ -38,16 +38,16 @@ msgid "Double-click speed"
 msgstr ""
 
 #: src/Plug.vala:109
+msgid "Dwell click"
+msgstr ""
+
+#: src/Plug.vala:110
 msgid "Primary button"
 msgstr "Основная клавиша"
 
-#: src/Plug.vala:110
+#: src/Plug.vala:111
 msgid "Long-press secondary click"
 msgstr "Вторичный щелчок"
-
-#: src/Plug.vala:111
-msgid "Long-press length"
-msgstr "Время удержания"
 
 #: src/Plug.vala:112
 msgid "Middle click paste"
@@ -75,16 +75,18 @@ msgid "Pointing"
 msgstr ""
 
 #: src/Plug.vala:120
+#, fuzzy
+#| msgid "Pointer speed:"
+msgid "Pointer size"
+msgstr "Скорость указателя:"
+
+#: src/Plug.vala:121
 msgid "Reveal pointer"
 msgstr "Выделять указатель"
 
-#: src/Plug.vala:121
+#: src/Plug.vala:122
 msgid "Control pointer using keypad"
 msgstr "Управление указателем с помощью клавиатуры"
-
-#: src/Plug.vala:122
-msgid "Keypad pointer speed"
-msgstr "Скорость указателя"
 
 #: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
@@ -133,31 +135,31 @@ msgstr "Правая"
 msgid "Long-press and release the primary button to secondary click"
 msgstr "Длительное нажатие основной клавиши активирует вторичный щелчок."
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
+#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
 msgstr "сек"
 
-#: src/Views/Clicking.vala:82
+#: src/Views/Clicking.vala:87
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:101
+#: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:112
+#: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
 msgstr ""
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:126
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:123
+#: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Вторичный щелчок:"
 
-#: src/Views/Clicking.vala:140
+#: src/Views/Clicking.vala:148
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
@@ -166,7 +168,7 @@ msgstr ""
 "Нажатие средней клавиши или нажатие тремя пальцами будет осуществлять "
 "вставку выделенного текста"
 
-#: src/Views/Clicking.vala:147
+#: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "Вставка средней клавишей:"
 
@@ -276,6 +278,12 @@ msgstr "Отключить во время печати:"
 #: src/Views/Touchpad.vala:97
 msgid "Ignore when mouse is connected:"
 msgstr "Отключить при подключении мыши:"
+
+#~ msgid "Long-press length"
+#~ msgstr "Время удержания"
+
+#~ msgid "Keypad pointer speed"
+#~ msgstr "Скорость указателя"
 
 #~ msgid "General"
 #~ msgstr "Общие"

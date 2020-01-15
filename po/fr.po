@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-14 23:26+0000\n"
+"POT-Creation-Date: 2020-01-15 16:20+0000\n"
 "PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -37,16 +37,18 @@ msgid "Double-click speed"
 msgstr "Vitesse du double-clic"
 
 #: src/Plug.vala:109
+#, fuzzy
+#| msgid "Dwell click:"
+msgid "Dwell click"
+msgstr "Clic prolongé :"
+
+#: src/Plug.vala:110
 msgid "Primary button"
 msgstr "Bouton principal"
 
-#: src/Plug.vala:110
+#: src/Plug.vala:111
 msgid "Long-press secondary click"
 msgstr "Appuyer longuement pour le clic secondaire"
-
-#: src/Plug.vala:111
-msgid "Long-press length"
-msgstr "Durée de l'appui long"
 
 #: src/Plug.vala:112
 msgid "Middle click paste"
@@ -74,16 +76,18 @@ msgid "Pointing"
 msgstr "Pointeur"
 
 #: src/Plug.vala:120
+#, fuzzy
+#| msgid "Pointer size:"
+msgid "Pointer size"
+msgstr "Taille du pointeur :"
+
+#: src/Plug.vala:121
 msgid "Reveal pointer"
 msgstr "Révéler la position du pointeur"
 
-#: src/Plug.vala:121
+#: src/Plug.vala:122
 msgid "Control pointer using keypad"
 msgstr "Contrôler le pointeur en utilisant le pavé numérique :"
-
-#: src/Plug.vala:122
-msgid "Keypad pointer speed"
-msgstr "Vitesse du pointeur du clavier numérique :"
 
 #: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
@@ -133,39 +137,39 @@ msgstr ""
 "Appuyer longuement et relâcher le bouton principal effectuera un clic "
 "secondaire"
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
+#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
 msgstr "secondes"
 
-#: src/Views/Clicking.vala:82
+#: src/Views/Clicking.vala:87
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "En combien de temps deux clics consécutifs seront traités comme un double-"
 "clic"
 
-#: src/Views/Clicking.vala:101
+#: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
 msgstr "Maintenez le pointeur jusqu'au clic automatique"
 
-#: src/Views/Clicking.vala:112
+#: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
 msgstr "Vitesse du double-clic :"
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:126
 msgid "Dwell click:"
 msgstr "Clic prolongé :"
 
-#: src/Views/Clicking.vala:123
+#: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Appuyer longuement pour le clic secondaire :"
 
-#: src/Views/Clicking.vala:140
+#: src/Views/Clicking.vala:148
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Un clic du bouton central ou avec trois doigts sur un champ collera le texte "
 "sélectionné"
 
-#: src/Views/Clicking.vala:147
+#: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "Collage avec clic du milieu :"
 
@@ -273,6 +277,12 @@ msgstr "Ignorer lors de la frappe :"
 #: src/Views/Touchpad.vala:97
 msgid "Ignore when mouse is connected:"
 msgstr "Ignorer lorsque la souris est connectée :"
+
+#~ msgid "Long-press length"
+#~ msgstr "Durée de l'appui long"
+
+#~ msgid "Keypad pointer speed"
+#~ msgstr "Vitesse du pointeur du clavier numérique :"
 
 #~ msgid "Length:"
 #~ msgstr "Longueur :"

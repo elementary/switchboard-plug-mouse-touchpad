@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-14 23:26+0000\n"
+"POT-Creation-Date: 2020-01-15 16:20+0000\n"
 "PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
@@ -37,16 +37,16 @@ msgid "Double-click speed"
 msgstr ""
 
 #: src/Plug.vala:109
+msgid "Dwell click"
+msgstr ""
+
+#: src/Plug.vala:110
 msgid "Primary button"
 msgstr "Primärtaste"
 
-#: src/Plug.vala:110
+#: src/Plug.vala:111
 msgid "Long-press secondary click"
 msgstr "Gedrückthalten Sekundär-Klick"
-
-#: src/Plug.vala:111
-msgid "Long-press length"
-msgstr "Gedrückthalten Zeitdauer"
 
 #: src/Plug.vala:112
 msgid "Middle click paste"
@@ -74,17 +74,19 @@ msgid "Pointing"
 msgstr ""
 
 #: src/Plug.vala:120
+#, fuzzy
+#| msgid "Pointer speed:"
+msgid "Pointer size"
+msgstr "Zeigergeschwindigkeit:"
+
+#: src/Plug.vala:121
 msgid "Reveal pointer"
 msgstr "Mauszeiger hervorheben"
 
-#: src/Plug.vala:121
+#: src/Plug.vala:122
 #, fuzzy
 msgid "Control pointer using keypad"
 msgstr "Zeiger mit dem Nummernblock steuern"
-
-#: src/Plug.vala:122
-msgid "Keypad pointer speed"
-msgstr "Nummernblock Zeigergeschwindigkeit"
 
 #: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
@@ -136,31 +138,31 @@ msgstr ""
 "Das Gedrückthalten und wieder Loslassen der Primärtaste bewirkt einen "
 "Sekundär-Klick."
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
+#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
 msgstr "Sekunden"
 
-#: src/Views/Clicking.vala:82
+#: src/Views/Clicking.vala:87
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:101
+#: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:112
+#: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
 msgstr ""
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:126
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:123
+#: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Gedrückthalten bewirkt Sekundär-Klick:"
 
-#: src/Views/Clicking.vala:140
+#: src/Views/Clicking.vala:148
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
@@ -168,7 +170,7 @@ msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Mittel- oder Drei-Finger-Klick auf eine Eingabezeile fügt markierten Text ein"
 
-#: src/Views/Clicking.vala:147
+#: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "Einfügen bei Mittelklick:"
 
@@ -280,6 +282,12 @@ msgstr "Deaktivieren während der Eingabe:"
 #: src/Views/Touchpad.vala:97
 msgid "Ignore when mouse is connected:"
 msgstr "Bei angeschlossener Maus ignorieren:"
+
+#~ msgid "Long-press length"
+#~ msgstr "Gedrückthalten Zeitdauer"
+
+#~ msgid "Keypad pointer speed"
+#~ msgstr "Nummernblock Zeigergeschwindigkeit"
 
 #~ msgid "General"
 #~ msgstr "Allgemein"

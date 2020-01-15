@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-14 23:26+0000\n"
+"POT-Creation-Date: 2020-01-15 16:20+0000\n"
 "PO-Revision-Date: 2019-10-16 16:28+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -36,16 +36,16 @@ msgid "Double-click speed"
 msgstr ""
 
 #: src/Plug.vala:109
+msgid "Dwell click"
+msgstr ""
+
+#: src/Plug.vala:110
 msgid "Primary button"
 msgstr "Primary button"
 
-#: src/Plug.vala:110
+#: src/Plug.vala:111
 msgid "Long-press secondary click"
 msgstr "Long-press secondary click"
-
-#: src/Plug.vala:111
-msgid "Long-press length"
-msgstr "Long-press length"
 
 #: src/Plug.vala:112
 msgid "Middle click paste"
@@ -73,16 +73,18 @@ msgid "Pointing"
 msgstr ""
 
 #: src/Plug.vala:120
+#, fuzzy
+#| msgid "Pointer speed:"
+msgid "Pointer size"
+msgstr "Pointer speed:"
+
+#: src/Plug.vala:121
 msgid "Reveal pointer"
 msgstr "Reveal pointer"
 
-#: src/Plug.vala:121
+#: src/Plug.vala:122
 msgid "Control pointer using keypad"
 msgstr "Control pointer using keypad"
-
-#: src/Plug.vala:122
-msgid "Keypad pointer speed"
-msgstr "Keypad pointer speed"
 
 #: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
@@ -132,31 +134,31 @@ msgstr "Right"
 msgid "Long-press and release the primary button to secondary click"
 msgstr "Long-pressing and releasing the primary button will secondary click"
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
+#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
 msgstr ""
 
-#: src/Views/Clicking.vala:82
+#: src/Views/Clicking.vala:87
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:101
+#: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:112
+#: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
 msgstr ""
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:126
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:123
+#: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Long-press secondary click:"
 
-#: src/Views/Clicking.vala:140
+#: src/Views/Clicking.vala:148
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
@@ -164,7 +166,7 @@ msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Middle or three-finger clicking on an input will paste any selected text"
 
-#: src/Views/Clicking.vala:147
+#: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "Middle click paste:"
 
@@ -273,6 +275,12 @@ msgstr "Ignore while typing:"
 #: src/Views/Touchpad.vala:97
 msgid "Ignore when mouse is connected:"
 msgstr "Ignore when mouse is connected:"
+
+#~ msgid "Long-press length"
+#~ msgstr "Long-press length"
+
+#~ msgid "Keypad pointer speed"
+#~ msgstr "Keypad pointer speed"
 
 #~ msgid "Length:"
 #~ msgstr "Length:"

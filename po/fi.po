@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-14 23:26+0000\n"
+"POT-Creation-Date: 2020-01-15 16:20+0000\n"
 "PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -37,16 +37,16 @@ msgid "Double-click speed"
 msgstr "Kaksoisnapsauttamisen nopeus"
 
 #: src/Plug.vala:109
+msgid "Dwell click"
+msgstr ""
+
+#: src/Plug.vala:110
 msgid "Primary button"
 msgstr "Ensisijainen painike"
 
-#: src/Plug.vala:110
+#: src/Plug.vala:111
 msgid "Long-press secondary click"
 msgstr "Kakkospainike pitkällä painalluksella"
-
-#: src/Plug.vala:111
-msgid "Long-press length"
-msgstr "Pitkän painalluksen pituus"
 
 #: src/Plug.vala:112
 msgid "Middle click paste"
@@ -74,16 +74,18 @@ msgid "Pointing"
 msgstr "Osoittaminen"
 
 #: src/Plug.vala:120
+#, fuzzy
+#| msgid "Pointer speed:"
+msgid "Pointer size"
+msgstr "Osoittimen nopeus:"
+
+#: src/Plug.vala:121
 msgid "Reveal pointer"
 msgstr "Korosta osoitin"
 
-#: src/Plug.vala:121
+#: src/Plug.vala:122
 msgid "Control pointer using keypad"
 msgstr "Hallitse osoitinta numeronäppäimistöllä"
-
-#: src/Plug.vala:122
-msgid "Keypad pointer speed"
-msgstr "Numeronäppäimistöosoittimen nopeus"
 
 #: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
@@ -135,33 +137,33 @@ msgstr ""
 "Ykköspainikkeen pitkä pohjassapito ja irtipäästö tuottaa kakkospainikkeen "
 "napsautuksen"
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
+#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
 msgstr "sekuntia"
 
-#: src/Views/Clicking.vala:82
+#: src/Views/Clicking.vala:87
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Kuinka nopeasti peräkkäin tehtäviä napsautuksia kohdellaan "
 "kaksoisnapsautuksena"
 
-#: src/Views/Clicking.vala:101
+#: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:112
+#: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
 msgstr "Kaksoisnapsauttamisen nopeus:"
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:126
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:123
+#: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Kakkospainike pitkällä painalluksella:"
 
-#: src/Views/Clicking.vala:140
+#: src/Views/Clicking.vala:148
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
@@ -170,7 +172,7 @@ msgstr ""
 "Keskimmäisen tai kolmen sormen napsautus syötekentässä liittää minkä tahansa "
 "valitun tekstin"
 
-#: src/Views/Clicking.vala:147
+#: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "Liittäminen keskimmäistä napsauttamalla:"
 
@@ -279,6 +281,12 @@ msgstr "Poista käytöstä kirjoittaessa:"
 #: src/Views/Touchpad.vala:97
 msgid "Ignore when mouse is connected:"
 msgstr "Poista käytöstä kun hiiri on yhdistetty:"
+
+#~ msgid "Long-press length"
+#~ msgstr "Pitkän painalluksen pituus"
+
+#~ msgid "Keypad pointer speed"
+#~ msgstr "Numeronäppäimistöosoittimen nopeus"
 
 #~ msgid "Length:"
 #~ msgstr "Kesto:"
