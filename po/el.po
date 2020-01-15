@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-14 23:26+0000\n"
-"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Greek <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/el/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -30,7 +30,7 @@ msgstr "Ρύθμιση ποντικιού και touchpad"
 
 #: src/Plug.vala:107 src/Views/Clicking.vala:25
 msgid "Clicking"
-msgstr ""
+msgstr "Κάνοντας κλικ"
 
 #: src/Plug.vala:108
 msgid "Double-click speed"
@@ -84,7 +84,7 @@ msgstr "Εμφάνιση δείκτη:"
 
 #: src/Plug.vala:121
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "Έλεγχος δείκτη χρησιμοποιώντας το πληκτρολόγιο"
 
 #: src/Plug.vala:122
 #, fuzzy
@@ -114,11 +114,11 @@ msgstr "Κύλιση:"
 
 #: src/Plug.vala:130
 msgid "Ignore while typing"
-msgstr ""
+msgstr "Αγνόηση κατά την πληκτρολόγηση"
 
 #: src/Plug.vala:131
 msgid "Ignore when mouse is connected"
-msgstr ""
+msgstr "Αγνόηση όταν το ποντίκι είναι συνδεδεμένο"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -142,7 +142,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
 msgid "seconds"
-msgstr ""
+msgstr "δευτερόλεπτα"
 
 #: src/Views/Clicking.vala:82
 msgid "How quickly two clicks in a row will be treated as a double-click"
