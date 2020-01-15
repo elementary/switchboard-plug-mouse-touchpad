@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-14 23:26+0000\n"
-"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Uyghur <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ug/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -126,7 +126,7 @@ msgstr "ھەركەت"
 
 #: src/Views/Clicking.vala:30
 msgid "Primary button:"
-msgstr "ئاساسىي كۇنۇپكا"
+msgstr "ئاساسىي كۇنۇپكا:"
 
 #: src/Views/Clicking.vala:35
 msgid "Left"
@@ -142,7 +142,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
 msgid "seconds"
-msgstr ""
+msgstr "سىكۇنت"
 
 #: src/Views/Clicking.vala:82
 msgid "How quickly two clicks in a row will be treated as a double-click"
@@ -190,7 +190,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:84
 msgid "Pointer speed:"
-msgstr "مائۇس سترېلكىسى سۈرئىتى"
+msgstr "مائۇس سترېلكىسى سۈرئىتى:"
 
 #: src/Views/Mouse.vala:47
 #, fuzzy
@@ -199,7 +199,7 @@ msgstr "مائۇس سترېلكىسى سۈرئىتى"
 
 #: src/Views/Mouse.vala:51 src/Views/Touchpad.vala:93
 msgid "Natural scrolling:"
-msgstr "تەبىئىي سىيرىلىش"
+msgstr "تەبىئىي سىيرىلىش:"
 
 #: src/Views/Pointing.vala:35
 msgid "Speed:"
@@ -233,7 +233,7 @@ msgstr "Ctrl كۇنۇپكىسىنى باسسىڭىز مائۇس ئىستېرلك
 
 #: src/Views/Pointing.vala:86
 msgid "Reveal pointer:"
-msgstr "كۆرسىتىش سترېلكىسى"
+msgstr "كۆرسىتىش سترېلكىسى:"
 
 #: src/Views/Pointing.vala:101
 msgid "Control pointer using keypad:"
@@ -261,15 +261,15 @@ msgstr "چەكلەنگەن"
 
 #: src/Views/Touchpad.vala:86
 msgid "Tap to click:"
-msgstr "يىنىك بېسىش"
+msgstr "يىنىك بېسىش:"
 
 #: src/Views/Touchpad.vala:88
 msgid "Physical clicking:"
-msgstr "تەگتاختا كۇنۇپكىسى"
+msgstr "تەگتاختا كۇنۇپكىسى:"
 
 #: src/Views/Touchpad.vala:91
 msgid "Scrolling:"
-msgstr "يانغالتەك"
+msgstr "يانغالتەك:"
 
 #: src/Views/Touchpad.vala:95
 msgid "Ignore while typing:"
