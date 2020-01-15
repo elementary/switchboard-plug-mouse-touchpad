@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-14 23:26+0000\n"
-"PO-Revision-Date: 2019-10-16 16:28+0000\n"
+"PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Latvian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/lv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/Plug.vala:43
 msgid "Mouse & Touchpad"
@@ -132,7 +132,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:99
 msgid "seconds"
-msgstr ""
+msgstr "sekundes"
 
 #: src/Views/Clicking.vala:82
 msgid "How quickly two clicks in a row will be treated as a double-click"
