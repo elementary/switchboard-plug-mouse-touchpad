@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-15 16:20+0000\n"
-"PO-Revision-Date: 2020-01-15 16:19+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-01-19 13:08+0000\n"
+"Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
 "Language: tr\n"
@@ -74,10 +74,8 @@ msgid "Pointing"
 msgstr "İşaretçi"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer size:"
 msgid "Pointer size"
-msgstr "İşaretçi boyutu:"
+msgstr "İşaretçi boyutu"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
@@ -130,12 +128,8 @@ msgid "Right"
 msgstr "Sağ"
 
 #: src/Views/Clicking.vala:57
-#, fuzzy
-#| msgid "Long-pressing and releasing the primary button will secondary click"
 msgid "Long-press and release the primary button to secondary click"
-msgstr ""
-"Birincil düğmeye uzun basıldığında ve bırakıldığında ikincil tıklama "
-"gerçekleşir"
+msgstr "İkincil tıklama için birincil düğmeye uzun basın ve bırakın"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -148,7 +142,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Otomatik olarak tıklamak için işaretçiyi hareketsiz tutun"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
@@ -163,12 +157,10 @@ msgid "Long-press secondary click:"
 msgstr "İkincil tıklama için basılı tutun:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
-"Bir giriş alanına orta veya üç parmakla tıklamak seçili metni yapıştırır"
+"Seçili metni yapıştırmak için giriş alanına orta tuşla veya üç parmak ile "
+"tıklayın"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
