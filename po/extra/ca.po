@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-14 23:26+0000\n"
-"PO-Revision-Date: 2020-01-10 19:24+0000\n"
+"PO-Revision-Date: 2020-01-19 13:08+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/ca/>\n"
@@ -28,14 +28,14 @@ msgid "Configure mouse and touchpad"
 msgstr "Configureu el ratolí i el ratolí tàctil."
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
-#, fuzzy
-#| msgid "Add Pointer size setting"
 msgid "Add Dwell Click and Pointer size settings"
-msgstr "Addició de la configuració de la mida del punter"
+msgstr "Addició de la configuració del clic en aturar-s'hi"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
+"També es tenen en compte els clics del botó secundari quan se selecciona el "
+"botó primari."
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
