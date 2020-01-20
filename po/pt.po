@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-15 16:20+0000\n"
-"PO-Revision-Date: 2020-01-15 16:19+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-01-21 17:08+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pt/>\n"
 "Language: pt\n"
@@ -38,7 +38,7 @@ msgstr "Velocidade de duplo clique"
 
 #: src/Plug.vala:109
 msgid "Dwell click"
-msgstr ""
+msgstr "Clique de permanência"
 
 #: src/Plug.vala:110
 msgid "Primary button"
@@ -74,10 +74,8 @@ msgid "Pointing"
 msgstr "Apontar"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "Velocidade do ponteiro:"
+msgstr "Tamanho do ponteiro"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
@@ -130,11 +128,9 @@ msgid "Right"
 msgstr "Direita"
 
 #: src/Views/Clicking.vala:57
-#, fuzzy
-#| msgid "Long-pressing and releasing the primary button will secondary click"
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
-"Premir e soltar o botão primário prolongadamente executa o clique secundário"
+"Premir e soltar o botão principal prolongadamente para o clique secundário"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -147,7 +143,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Mantenha o ponteiro imóvel para clicar automaticamente"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
@@ -155,19 +151,16 @@ msgstr "Velocidade de duplo clique:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr ""
+msgstr "Clique de permanência:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Clique secundário longo:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
-"Clique com botão do meio ou três dedos numa entrada irá colar qualquer texto "
+"Clique com botão do meio ou com três dedos numa entrada para colar o texto "
 "selecionado"
 
 #: src/Views/Clicking.vala:155
@@ -212,21 +205,19 @@ msgstr "Isto desativa os dois níveis de teclas no teclado numérico"
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "Pequeno"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "Médio"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #: src/Views/Pointing.vala:69
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "Velocidade do ponteiro:"
+msgstr "Tamanho do ponteiro:"
 
 #: src/Views/Pointing.vala:79
 msgid "Pressing the control key will highlight the position of the pointer"
