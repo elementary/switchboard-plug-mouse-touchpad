@@ -1,7 +1,7 @@
 project(
     'mouse-touchpad',
     'vala', 'c',
-    version: '2.3.1'
+    version: '2.4.0'
 )
 
 gettext_name = meson.project_name() + '-plug'
