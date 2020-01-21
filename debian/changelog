@@ -1,3 +1,31 @@
+switchboard-plug-mouse-touchpad (2.4.0) bionic; urgency=medium
+
+  * Release 2.4.0 (#131)
+  * Clicking: Remove extra width requests and fix grid widths (#130)
+  * Update translation files
+  * Update translation template
+  * Plug: update search results (#129)
+  * Clicking: Reduce space between spinbutton and units (#128)
+  * Update translation files
+  * Update translation files
+  * Update translation template
+  * Clicking: Add Dwell Click (#127)
+  * Update translation files
+  * Update translation template
+  * Pointing: Check for existence of pointer reveal setting (#124)
+  * Update translation files
+  * Update translation files
+  * Update translation template
+  * Update metadata (#126)
+  * Clicking: Listen to both buttons for primary selection (#125)
+  * Update translation files
+  * Update translation files
+  * Update translation template
+  * Pointing: Add pointer size (#110)
+  * Replace Granite.Services.Settings with GLib.Settings (#115)
+
+ -- elementary OS Team <builds@elementary.io>  Tue, 21 Jan 2020 20:01:20 +0000
+
 switchboard-plug-mouse-touchpad (2.3.1) bionic; urgency=medium
 
   * Release 2.3.1 (#114)
