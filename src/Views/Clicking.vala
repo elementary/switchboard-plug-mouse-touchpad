@@ -65,7 +65,6 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         var hold_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, hold_scale_adjustment);
         hold_scale.draw_value = false;
         hold_scale.hexpand = true;
-        hold_scale.width_request = 160;
         hold_scale.add_mark (1.2, Gtk.PositionType.TOP, null);
 
         var hold_spinbutton = new Gtk.SpinButton (hold_scale_adjustment, 1, 1);
@@ -82,7 +81,6 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         var double_click_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, double_click_speed_adjustment);
         double_click_speed_scale.draw_value = false;
         double_click_speed_scale.add_mark (400, Gtk.PositionType.TOP, null);
-        double_click_speed_scale.width_request = 250;
 
         var double_click_speed_help = new Gtk.Label (_("How quickly two clicks in a row will be treated as a double-click"));
         double_click_speed_help.margin_bottom = 18;
@@ -117,23 +115,23 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         content_area.row_spacing = 6;
 
         content_area.attach (primary_button_label, 0, 0);
-        content_area.attach (primary_button_switcher, 1, 0, 4);
+        content_area.attach (primary_button_switcher, 1, 0, 3);
 
         content_area.attach (new SettingLabel (_("Double-click speed:")), 0, 1);
-        content_area.attach (double_click_speed_scale, 1, 1, 4);
-        content_area.attach (double_click_speed_help, 1, 2, 4);
+        content_area.attach (double_click_speed_scale, 1, 1, 3);
+        content_area.attach (double_click_speed_help, 1, 2, 3);
 
         content_area.attach (new SettingLabel (_("Dwell click:")), 0, 3);
         content_area.attach (dwell_click_switch, 1, 3);
         content_area.attach (dwell_click_delay_scale, 2, 3);
         content_area.attach (dwell_click_spin_grid, 3, 3);
-        content_area.attach (dwell_click_help, 1, 4, 4);
+        content_area.attach (dwell_click_help, 1, 4, 3);
 
         content_area.attach (new SettingLabel (_("Long-press secondary click:")), 0, 5);
         content_area.attach (hold_switch, 1, 5);
         content_area.attach (hold_scale, 2, 5);
         content_area.attach (hold_spin_grid, 3, 5);
-        content_area.attach (hold_help, 1, 6, 4);
+        content_area.attach (hold_help, 1, 6, 3);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
             "org.gnome.settings-daemon.plugins.xsettings",
@@ -154,7 +152,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
             content_area.attach (new SettingLabel (_("Middle click paste:")), 0, 7);
             content_area.attach (primary_paste_switch, 1, 7);
-            content_area.attach (primary_paste_help, 1, 8, 4);
+            content_area.attach (primary_paste_help, 1, 8, 3);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
             primary_paste_switch.notify["active"].connect (() => {
