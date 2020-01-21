@@ -5,7 +5,7 @@
   <name>Mouse &amp; Touchpad Settings</name>
   <summary>Configure mouse and touchpad</summary>
   <releases>
-    <release version="2.4.0" date="2020-01-07" urgency="medium">
+    <release version="2.4.0" date="2020-01-21" urgency="medium">
       <description>
         <ul>
           <li>Add Dwell Click and Pointer size settings</li>
