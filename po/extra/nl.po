@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-14 23:26+0000\n"
-"PO-Revision-Date: 2020-01-12 19:07+0000\n"
-"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/mouse-"
-"touchpad-plug-extra/nl/>\n"
+"PO-Revision-Date: 2020-01-19 13:08+0000\n"
+"Last-Translator: Ruben Sibon <rubenjs@webricolage.nl>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
+"mouse-touchpad-plug-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,8 +28,6 @@ msgid "Configure mouse and touchpad"
 msgstr "Configureer muis en touchpad"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
-#, fuzzy
-#| msgid "Add Pointer size setting"
 msgid "Add Dwell Click and Pointer size settings"
 msgstr "Een instelling voor de grootte van de aanwijzer toegevoegd"
 

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-15 16:20+0000\n"
-"PO-Revision-Date: 2020-01-15 16:19+0000\n"
+"PO-Revision-Date: 2020-01-19 13:08+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
@@ -37,10 +37,8 @@ msgid "Double-click speed"
 msgstr "Vitesse du double-clic"
 
 #: src/Plug.vala:109
-#, fuzzy
-#| msgid "Dwell click:"
 msgid "Dwell click"
-msgstr "Clic prolongé :"
+msgstr "Clic prolongé"
 
 #: src/Plug.vala:110
 msgid "Primary button"
@@ -76,10 +74,8 @@ msgid "Pointing"
 msgstr "Pointeur"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer size:"
 msgid "Pointer size"
-msgstr "Taille du pointeur :"
+msgstr "Taille du pointeur"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
