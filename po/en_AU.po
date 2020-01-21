@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 16:20+0000\n"
+"POT-Creation-Date: 2020-01-21 20:01+0000\n"
 "PO-Revision-Date: 2018-03-05 23:53+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -140,31 +140,31 @@ msgstr "Right"
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:72 src/Views/Clicking.vala:102
 msgid "seconds"
 msgstr ""
 
-#: src/Views/Clicking.vala:87
+#: src/Views/Clicking.vala:85
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:111
+#: src/Views/Clicking.vala:109
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:122
+#: src/Views/Clicking.vala:120
 msgid "Double-click speed:"
 msgstr ""
 
-#: src/Views/Clicking.vala:126
+#: src/Views/Clicking.vala:124
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:132
+#: src/Views/Clicking.vala:130
 msgid "Long-press secondary click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:148
+#: src/Views/Clicking.vala:146
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
@@ -172,7 +172,7 @@ msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Middle or three-finger clicking on an input will paste any selected text"
 
-#: src/Views/Clicking.vala:155
+#: src/Views/Clicking.vala:153
 msgid "Middle click paste:"
 msgstr "Middle click paste:"
 

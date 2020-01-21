@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 16:20+0000\n"
+"POT-Creation-Date: 2020-01-21 20:01+0000\n"
 "PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -134,38 +134,38 @@ msgstr "오른쪽"
 msgid "Long-press and release the primary button to secondary click"
 msgstr "실행 버튼을 길게 눌렀다 놓으면 보조 클릭 기능을 합니다."
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:72 src/Views/Clicking.vala:102
 msgid "seconds"
 msgstr "초"
 
-#: src/Views/Clicking.vala:87
+#: src/Views/Clicking.vala:85
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:111
+#: src/Views/Clicking.vala:109
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:122
+#: src/Views/Clicking.vala:120
 msgid "Double-click speed:"
 msgstr ""
 
-#: src/Views/Clicking.vala:126
+#: src/Views/Clicking.vala:124
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:132
+#: src/Views/Clicking.vala:130
 msgid "Long-press secondary click:"
 msgstr "길게 누르기로 보조 클릭:"
 
-#: src/Views/Clicking.vala:148
+#: src/Views/Clicking.vala:146
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "가운데 또는 세 손가락으로 입력을 클릭하면 선택한 텍스트가 붙여집니다"
 
-#: src/Views/Clicking.vala:155
+#: src/Views/Clicking.vala:153
 msgid "Middle click paste:"
 msgstr "가운데 클릭 붙여 넣기:"
 

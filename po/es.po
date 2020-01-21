@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 16:20+0000\n"
+"POT-Creation-Date: 2020-01-21 20:01+0000\n"
 "PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
@@ -137,31 +137,31 @@ msgstr ""
 "Presionar prolongadamente y soltar el botón primario equivaldrá a una "
 "pulsación secundaria"
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:72 src/Views/Clicking.vala:102
 msgid "seconds"
 msgstr "segundos"
 
-#: src/Views/Clicking.vala:87
+#: src/Views/Clicking.vala:85
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Rapidez con la que dos clics seguidos se tratarán como un doble clic"
 
-#: src/Views/Clicking.vala:111
+#: src/Views/Clicking.vala:109
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:122
+#: src/Views/Clicking.vala:120
 msgid "Double-click speed:"
 msgstr "Velocidad de doble clic:"
 
-#: src/Views/Clicking.vala:126
+#: src/Views/Clicking.vala:124
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:132
+#: src/Views/Clicking.vala:130
 msgid "Long-press secondary click:"
 msgstr "Pulsación secundaria prolongada:"
 
-#: src/Views/Clicking.vala:148
+#: src/Views/Clicking.vala:146
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
@@ -170,7 +170,7 @@ msgstr ""
 "Una pulsación central o con tres dedos en un campo de entrada pegará el "
 "texto que haya seleccionado"
 
-#: src/Views/Clicking.vala:155
+#: src/Views/Clicking.vala:153
 msgid "Middle click paste:"
 msgstr "Pegado mediante pulsación central:"
 

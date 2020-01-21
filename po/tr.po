@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 16:20+0000\n"
+"POT-Creation-Date: 2020-01-21 20:01+0000\n"
 "PO-Revision-Date: 2020-01-19 13:08+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -131,38 +131,38 @@ msgstr "Sağ"
 msgid "Long-press and release the primary button to secondary click"
 msgstr "İkincil tıklama için birincil düğmeye uzun basın ve bırakın"
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:72 src/Views/Clicking.vala:102
 msgid "seconds"
 msgstr "saniye"
 
-#: src/Views/Clicking.vala:87
+#: src/Views/Clicking.vala:85
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Hangi hızdaki art arda iki tıklamanın, çift tıklama olarak kabul edileceği"
 
-#: src/Views/Clicking.vala:111
+#: src/Views/Clicking.vala:109
 msgid "Hold the pointer still to automatically click"
 msgstr "Otomatik olarak tıklamak için işaretçiyi hareketsiz tutun"
 
-#: src/Views/Clicking.vala:122
+#: src/Views/Clicking.vala:120
 msgid "Double-click speed:"
 msgstr "Çift tıklama hızı:"
 
-#: src/Views/Clicking.vala:126
+#: src/Views/Clicking.vala:124
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:132
+#: src/Views/Clicking.vala:130
 msgid "Long-press secondary click:"
 msgstr "İkincil tıklama için basılı tutun:"
 
-#: src/Views/Clicking.vala:148
+#: src/Views/Clicking.vala:146
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Seçili metni yapıştırmak için giriş alanına orta tuşla veya üç parmak ile "
 "tıklayın"
 
-#: src/Views/Clicking.vala:155
+#: src/Views/Clicking.vala:153
 msgid "Middle click paste:"
 msgstr "Orta tıklama ile yapıştır:"
 

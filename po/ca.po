@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-15 16:20+0000\n"
+"POT-Creation-Date: 2020-01-21 20:01+0000\n"
 "PO-Revision-Date: 2020-01-19 13:08+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -133,37 +133,37 @@ msgstr ""
 "Mantingueu premut uns segons i deixeu anar el botó primari per fer un clic "
 "secundari."
 
-#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:72 src/Views/Clicking.vala:102
 msgid "seconds"
 msgstr "segons"
 
-#: src/Views/Clicking.vala:87
+#: src/Views/Clicking.vala:85
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "L'interval entre dos clics seguits que es tractarà com a clic doble."
 
-#: src/Views/Clicking.vala:111
+#: src/Views/Clicking.vala:109
 msgid "Hold the pointer still to automatically click"
 msgstr "Mantingueu el punter quiet per clicar automàticament"
 
-#: src/Views/Clicking.vala:122
+#: src/Views/Clicking.vala:120
 msgid "Double-click speed:"
 msgstr "Velocitat del clic doble:"
 
-#: src/Views/Clicking.vala:126
+#: src/Views/Clicking.vala:124
 msgid "Dwell click:"
 msgstr "Clic en aturar-s'hi:"
 
-#: src/Views/Clicking.vala:132
+#: src/Views/Clicking.vala:130
 msgid "Long-press secondary click:"
 msgstr "Clic secundari per a la pressió d'estona:"
 
-#: src/Views/Clicking.vala:148
+#: src/Views/Clicking.vala:146
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Cliqueu amb el botó del mig o feu un toc amb tres dits per enganxar text "
 "seleccionat."
 
-#: src/Views/Clicking.vala:155
+#: src/Views/Clicking.vala:153
 msgid "Middle click paste:"
 msgstr "Enganxa amb el botó del mig:"
 
