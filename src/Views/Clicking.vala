@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2011-2020 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -53,6 +53,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         var hold_switch = new Gtk.Switch ();
         hold_switch.halign = Gtk.Align.START;
+        hold_switch.valign = Gtk.Align.CENTER;
 
         var hold_help = new Gtk.Label (_("Long-press and release the primary button to secondary click"));
         hold_help.margin_bottom = 18;
@@ -90,6 +91,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         var dwell_click_switch = new Gtk.Switch ();
         dwell_click_switch.halign = Gtk.Align.START;
+        dwell_click_switch.valign = Gtk.Align.CENTER;
 
         var dwell_click_adjustment = new Gtk.Adjustment (0, 0.5, 3, 0.1, 0.1, 0.1);
 
