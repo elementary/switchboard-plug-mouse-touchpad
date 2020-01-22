@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-21 20:01+0000\n"
-"PO-Revision-Date: 2019-11-25 10:25+0000\n"
+"PO-Revision-Date: 2020-01-23 03:23+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/mr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
@@ -29,19 +29,19 @@ msgstr "माउस आणि टचपॅड कॉन्फिगर कर�
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:10
 msgid "New features:"
-msgstr ""
+msgstr "नवीन वैशिष्ट्ये :"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 msgid "Add Dwell Click and Pointer size settings"
-msgstr ""
+msgstr "डवेल क्लिक आणि पॉइंटर आकार सेटिंग्ज जोडा"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 msgid "Other updates:"
-msgstr ""
+msgstr "इतर अद्यतने:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
 msgid "Also listen to secondary button clicks when selecting Primary Button"
-msgstr ""
+msgstr "प्राथमिक बटण निवडताना दुय्यम बटण क्लिक देखील ऐका"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:17
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
@@ -54,6 +54,8 @@ msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr ""
+"डाव्या-ते-उजवी भाषांमध्ये प्राथमिक बटण निवड लागू होत नाही अशा समस्येचे निरा"
+"करण करा"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
 msgid "New Sidebar navigation"
