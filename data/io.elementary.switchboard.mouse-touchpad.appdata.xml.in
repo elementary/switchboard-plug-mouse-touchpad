@@ -5,6 +5,14 @@
   <name>Mouse &amp; Touchpad Settings</name>
   <summary>Configure mouse and touchpad</summary>
   <releases>
+    <release version="2.4.1" date="2020-01-21" urgency="medium">
+      <description>
+        <ul>
+          <li>Fix stretched switches when using large text</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.4.0" date="2020-01-21" urgency="medium">
       <description>
         <p>New features:</p>
