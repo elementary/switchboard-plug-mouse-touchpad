@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 20:01+0000\n"
+"POT-Creation-Date: 2020-01-23 03:25+0000\n"
 "PO-Revision-Date: 2020-01-23 03:23+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -27,31 +27,36 @@ msgstr "Paràmetres del ratolí i del ratolí tàctil"
 msgid "Configure mouse and touchpad"
 msgstr "Configureu el ratolí i el ratolí tàctil."
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:10
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
+msgid "Fix stretched switches when using large text"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:43
+msgid "Updated translations"
+msgstr "Traduccions actualitzades"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "New features:"
 msgstr "Característiques noves:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Add Dwell Click and Pointer size settings"
 msgstr "Addició de la configuració del clic en aturar-s'hi"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
 msgid "Other updates:"
 msgstr "Altres actualitzacions:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
 "També es tenen en compte els clics del botó secundari quan se selecciona el "
 "botó primari."
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:17
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:35
-msgid "Updated translations"
-msgstr "Traduccions actualitzades"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
@@ -59,14 +64,14 @@ msgstr ""
 "Correcció de la selecció del botó primari que no s'aplica a llengües "
 "d'esquerra a dreta"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
 msgid "New Sidebar navigation"
 msgstr "Nova barra de navegació lateral"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
 msgid "Fix middle click not appearing"
 msgstr "Correcció del clic del mig, que no hi era."
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:34
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
 msgid "Add Double-Click speed"
 msgstr "Addició de la velocitat del doble clic"
