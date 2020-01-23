@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 20:01+0000\n"
+"POT-Creation-Date: 2020-01-23 03:25+0000\n"
 "PO-Revision-Date: 2020-01-21 17:08+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
@@ -127,43 +127,43 @@ msgstr "Esquerda"
 msgid "Right"
 msgstr "Direita"
 
-#: src/Views/Clicking.vala:57
+#: src/Views/Clicking.vala:58
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Premir e soltar o botão principal prolongadamente para o clique secundário"
 
-#: src/Views/Clicking.vala:72 src/Views/Clicking.vala:102
+#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
 msgstr "segundos"
 
-#: src/Views/Clicking.vala:85
+#: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Quão rapidamente dois cliques numa linha serão tratados como um duplo clique"
 
-#: src/Views/Clicking.vala:109
+#: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
 msgstr "Mantenha o ponteiro imóvel para clicar automaticamente"
 
-#: src/Views/Clicking.vala:120
+#: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
 msgstr "Velocidade de duplo clique:"
 
-#: src/Views/Clicking.vala:124
+#: src/Views/Clicking.vala:126
 msgid "Dwell click:"
 msgstr "Clique de permanência:"
 
-#: src/Views/Clicking.vala:130
+#: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Clique secundário longo:"
 
-#: src/Views/Clicking.vala:146
+#: src/Views/Clicking.vala:148
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Clique com botão do meio ou com três dedos numa entrada para colar o texto "
 "selecionado"
 
-#: src/Views/Clicking.vala:153
+#: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "Colar com botão do meio:"
 

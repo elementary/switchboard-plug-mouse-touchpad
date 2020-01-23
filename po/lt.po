@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 20:01+0000\n"
+"POT-Creation-Date: 2020-01-23 03:25+0000\n"
 "PO-Revision-Date: 2020-01-15 16:19+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
@@ -130,7 +130,7 @@ msgstr "Kairysis"
 msgid "Right"
 msgstr "Dešinysis"
 
-#: src/Views/Clicking.vala:57
+#: src/Views/Clicking.vala:58
 #, fuzzy
 #| msgid "Long-pressing and releasing the primary button will secondary click"
 msgid "Long-press and release the primary button to secondary click"
@@ -138,32 +138,32 @@ msgstr ""
 "Ilgai paspaudus ir atleidus pirminį mygtuką bus atliktas antrinio "
 "spustelėjimo veiksmas"
 
-#: src/Views/Clicking.vala:72 src/Views/Clicking.vala:102
+#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
 msgstr "sek."
 
-#: src/Views/Clicking.vala:85
+#: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Kaip greitai du spustelėjimai iš eilės bus laikomi dvikarčiu spustelėjimu"
 
-#: src/Views/Clicking.vala:109
+#: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:120
+#: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
 msgstr "Dvikarčio spustelėjimo greitis:"
 
-#: src/Views/Clicking.vala:124
+#: src/Views/Clicking.vala:126
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:130
+#: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Antrinis spustelėjimas ilguoju paspaudimu:"
 
-#: src/Views/Clicking.vala:146
+#: src/Views/Clicking.vala:148
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
@@ -172,7 +172,7 @@ msgstr ""
 "Spustelėjus viduriniuoju pelės mygtuku ar bakstelėjus trimis pirštais į "
 "įvesties lauką, bus įdėtas bet koks pažymėtas tekstas"
 
-#: src/Views/Clicking.vala:153
+#: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "Įdėti, spustelėjus vidurinį mygtuką:"
 

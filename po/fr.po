@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 20:01+0000\n"
+"POT-Creation-Date: 2020-01-23 03:25+0000\n"
 "PO-Revision-Date: 2020-01-19 13:08+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -127,45 +127,45 @@ msgstr "Gauche"
 msgid "Right"
 msgstr "Droit"
 
-#: src/Views/Clicking.vala:57
+#: src/Views/Clicking.vala:58
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Appuyer longuement et relâcher le bouton principal effectuera un clic "
 "secondaire"
 
-#: src/Views/Clicking.vala:72 src/Views/Clicking.vala:102
+#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
 msgstr "secondes"
 
-#: src/Views/Clicking.vala:85
+#: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "En combien de temps deux clics consécutifs seront traités comme un double-"
 "clic"
 
-#: src/Views/Clicking.vala:109
+#: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
 msgstr "Maintenez le pointeur jusqu'au clic automatique"
 
-#: src/Views/Clicking.vala:120
+#: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
 msgstr "Vitesse du double-clic :"
 
-#: src/Views/Clicking.vala:124
+#: src/Views/Clicking.vala:126
 msgid "Dwell click:"
 msgstr "Clic prolongé :"
 
-#: src/Views/Clicking.vala:130
+#: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Appuyer longuement pour le clic secondaire :"
 
-#: src/Views/Clicking.vala:146
+#: src/Views/Clicking.vala:148
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Un clic du bouton central ou avec trois doigts sur un champ collera le texte "
 "sélectionné"
 
-#: src/Views/Clicking.vala:153
+#: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "Collage avec clic du milieu :"
 

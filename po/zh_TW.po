@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 20:01+0000\n"
+"POT-Creation-Date: 2020-01-23 03:25+0000\n"
 "PO-Revision-Date: 2019-10-16 16:28+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -139,42 +139,42 @@ msgstr "左"
 msgid "Right"
 msgstr "右"
 
-#: src/Views/Clicking.vala:57
+#: src/Views/Clicking.vala:58
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 
-#: src/Views/Clicking.vala:72 src/Views/Clicking.vala:102
+#: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
 msgstr ""
 
-#: src/Views/Clicking.vala:85
+#: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:109
+#: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:120
+#: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
 msgstr ""
 
-#: src/Views/Clicking.vala:124
+#: src/Views/Clicking.vala:126
 msgid "Dwell click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:130
+#: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr ""
 
-#: src/Views/Clicking.vala:146
+#: src/Views/Clicking.vala:148
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "滑鼠中鍵或三指點按輸入可貼上所選取的文字"
 
-#: src/Views/Clicking.vala:153
+#: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "中鍵點按貼上："
 
