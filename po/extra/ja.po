@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-01-19 13:08+0000\n"
+"PO-Revision-Date: 2020-01-25 15:08+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/ja/>\n"
@@ -29,7 +29,7 @@ msgstr "マウスとタッチパッドを設定します"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
 msgid "Fix stretched switches when using large text"
-msgstr ""
+msgstr "フォントサイズが大きい場合にスイッチが平たくつぶれて表示される問題を修正"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
@@ -40,7 +40,7 @@ msgstr "翻訳の更新"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "New features:"
-msgstr ""
+msgstr "新機能:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Add Dwell Click and Pointer size settings"
@@ -48,7 +48,7 @@ msgstr "ポインターのホバーによるクリックとポインターサイ
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
 msgid "Other updates:"
-msgstr ""
+msgstr "そのほかのアップデート:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
 msgid "Also listen to secondary button clicks when selecting Primary Button"
