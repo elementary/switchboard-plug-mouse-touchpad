@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2019-12-24 22:07+0000\n"
+"PO-Revision-Date: 2020-01-27 20:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/sl/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
@@ -30,7 +30,7 @@ msgstr "Nastavitve miške in sledilne ploščice"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
 msgid "Fix stretched switches when using large text"
-msgstr ""
+msgstr "Popravljena raztegnjena stikala ob uporabi velikega besedila"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
@@ -41,7 +41,7 @@ msgstr "Posodobljeni prevodi"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "New features:"
-msgstr ""
+msgstr "Nove zmožnosti:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Add Dwell Click and Pointer size settings"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
 msgid "Other updates:"
-msgstr ""
+msgstr "Druge posodobitve:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
 msgid "Also listen to secondary button clicks when selecting Primary Button"
@@ -63,12 +63,12 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
 msgid "New Sidebar navigation"
-msgstr ""
+msgstr "Nova navigacija s stransko vrstico"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
 msgid "Fix middle click not appearing"
-msgstr ""
+msgstr "Popravljen neviden srednji klik"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
 msgid "Add Double-Click speed"
-msgstr ""
+msgstr "Dodana hitrost dvoklika"
