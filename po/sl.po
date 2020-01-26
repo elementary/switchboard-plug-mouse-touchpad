@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-01-15 16:19+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-01-27 20:08+0000\n"
+"Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
@@ -72,13 +72,11 @@ msgstr "Naravno drsenje"
 
 #: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Kazanje"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "Hitrost kazalca:"
+msgstr "Velikost kazalca"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
@@ -86,7 +84,7 @@ msgstr "Pokaži kazalec"
 
 #: src/Plug.vala:122
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "Upravljanje kazalca s številčnico"
 
 #: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
@@ -95,28 +93,24 @@ msgid "Touchpad"
 msgstr "Sledilna ploščica"
 
 #: src/Plug.vala:126
-#, fuzzy
 msgid "Tap to click"
-msgstr "Dotik ploščice za klik:"
+msgstr "Dotik ploščice za klik"
 
 #: src/Plug.vala:127
-#, fuzzy
 msgid "Physical clicking"
-msgstr "Sekundarni klik:"
+msgstr "Fizično klikanje"
 
 #: src/Plug.vala:128
-#, fuzzy
 msgid "Scrolling"
-msgstr "Drsenje:"
+msgstr "Drsenje"
 
 #: src/Plug.vala:130
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "Izklopi med tipkanjem:"
+msgstr "Izklopi med tipkanjem"
 
 #: src/Plug.vala:131
 msgid "Ignore when mouse is connected"
-msgstr ""
+msgstr "Izklopi ko je povezana miška"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -136,7 +130,7 @@ msgstr "Desno"
 
 #: src/Views/Clicking.vala:58
 msgid "Long-press and release the primary button to secondary click"
-msgstr ""
+msgstr "Dolg pritisk in popustitev primarnega gumba za sekundarni klik"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -144,11 +138,11 @@ msgstr "sekund"
 
 #: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "Kako hitro bosta dva zaporedna klika obravnavana kot dvoklik"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Držite kazalec na miru za samodejni klik"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
@@ -212,25 +206,23 @@ msgstr ""
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "Majhen"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "Srednji"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "Velik"
 
 #: src/Views/Pointing.vala:69
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "Hitrost kazalca:"
+msgstr "Velikost kazalca:"
 
 #: src/Views/Pointing.vala:79
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Tipka Ctrl bo pokazala miškin kazalec"
+msgstr "Tipka Ctrl bo poudarila miškin kazalec"
 
 #: src/Views/Pointing.vala:86
 msgid "Reveal pointer:"
@@ -238,7 +230,7 @@ msgstr "Pokaži miškin kazalec:"
 
 #: src/Views/Pointing.vala:101
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Upravljaj kazalec s številčnico:"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -266,7 +258,7 @@ msgstr "Dotik ploščice za klik:"
 
 #: src/Views/Touchpad.vala:88
 msgid "Physical clicking:"
-msgstr "Sekundarni klik:"
+msgstr "Fizično klikanje:"
 
 #: src/Views/Touchpad.vala:91
 msgid "Scrolling:"
@@ -278,7 +270,7 @@ msgstr "Ignoriraj med tipkanjem:"
 
 #: src/Views/Touchpad.vala:97
 msgid "Ignore when mouse is connected:"
-msgstr ""
+msgstr "Izklopi ko je povezana miška:"
 
 #, fuzzy
 #~ msgid "Keypad pointer speed"
