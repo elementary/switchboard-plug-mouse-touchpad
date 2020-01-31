@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2019-11-22 03:25+0000\n"
+"PO-Revision-Date: 2020-02-01 02:08+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "switchboard/mouse-touchpad-plug-extra/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
@@ -29,7 +29,7 @@ msgstr "Configurar mouse e touchpad"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
 msgid "Fix stretched switches when using large text"
-msgstr ""
+msgstr "Corrigir opções esticadas ao usar texto grande"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
@@ -40,25 +40,28 @@ msgstr "Traduções atualizadas"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "New features:"
-msgstr ""
+msgstr "Novas funcionalidades:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Add Dwell Click and Pointer size settings"
-msgstr ""
+msgstr "Adicionar configurações de tamanho de clique de permanência e ponteiro"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
 msgid "Other updates:"
-msgstr ""
+msgstr "Outras atualizações:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
+"Ouvir também os cliques do botão secundário ao selecionar o botão Principal"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr ""
+"Correção de um problema em que a seleção do botão principal não se aplica "
+"nos idiomas da esquerda para a direita"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
 msgid "New Sidebar navigation"
