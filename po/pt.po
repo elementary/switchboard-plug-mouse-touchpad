@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-01-21 17:08+0000\n"
+"PO-Revision-Date: 2020-02-06 23:08+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pt/>\n"
@@ -34,7 +34,7 @@ msgstr "Clicar"
 
 #: src/Plug.vala:108
 msgid "Double-click speed"
-msgstr "Velocidade de duplo clique"
+msgstr "Velocidade do duplo clique"
 
 #: src/Plug.vala:109
 msgid "Dwell click"
@@ -46,7 +46,7 @@ msgstr "Botão principal"
 
 #: src/Plug.vala:111
 msgid "Long-press secondary click"
-msgstr "Clique secundário longo"
+msgstr "Clique secundário de pressão longa"
 
 #: src/Plug.vala:112
 msgid "Middle click paste"
@@ -59,11 +59,11 @@ msgstr "Rato"
 
 #: src/Plug.vala:115 src/Plug.vala:125
 msgid "Pointer speed"
-msgstr "Velocidade do ponteiro"
+msgstr "Velocidade do cursor"
 
 #: src/Plug.vala:116
 msgid "Pointer acceleration"
-msgstr "Aceleração do ponteiro"
+msgstr "Aceleração do cursor"
 
 #: src/Plug.vala:117 src/Plug.vala:129
 msgid "Natural scrolling"
@@ -71,19 +71,19 @@ msgstr "Deslocação natural"
 
 #: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr "Apontar"
+msgstr "Cursor"
 
 #: src/Plug.vala:120
 msgid "Pointer size"
-msgstr "Tamanho do ponteiro"
+msgstr "Tamanho do cursor"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
-msgstr "Revelar ponteiro"
+msgstr "Revelar cursor"
 
 #: src/Plug.vala:122
 msgid "Control pointer using keypad"
-msgstr "Controlar ponteiro através do teclado"
+msgstr "Controlar o cursor através do teclado"
 
 #: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
@@ -109,7 +109,7 @@ msgstr "Desativar ao escrever"
 
 #: src/Plug.vala:131
 msgid "Ignore when mouse is connected"
-msgstr "Ignorar quando o rato estiver ligado"
+msgstr "Ignorar quando o rato estiver conectado"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -117,7 +117,7 @@ msgstr "Comportamento"
 
 #: src/Views/Clicking.vala:30
 msgid "Primary button:"
-msgstr "Botão primário:"
+msgstr "Botão principal:"
 
 #: src/Views/Clicking.vala:35
 msgid "Left"
@@ -143,11 +143,11 @@ msgstr ""
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr "Mantenha o ponteiro imóvel para clicar automaticamente"
+msgstr "Manter o cursor imóvel para clicar automaticamente"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr "Velocidade de duplo clique:"
+msgstr "Velocidade do duplo clique:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
@@ -155,7 +155,7 @@ msgstr "Clique de permanência:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
-msgstr "Clique secundário longo:"
+msgstr "Clique secundário de pressão longa:"
 
 #: src/Views/Clicking.vala:148
 msgid "Middle or three-finger click on an input to paste selected text"
@@ -173,7 +173,7 @@ msgstr "Dispositivos"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:49
 msgid "Hardware default"
-msgstr "Predefinições de hardware"
+msgstr "Predefinição do equipamento"
 
 #: src/Views/Mouse.vala:39
 msgid "None"
@@ -185,11 +185,11 @@ msgstr "Adaptável"
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:84
 msgid "Pointer speed:"
-msgstr "Velocidade do ponteiro:"
+msgstr "Velocidade do cursor:"
 
 #: src/Views/Mouse.vala:47
 msgid "Pointer acceleration:"
-msgstr "Aceleração do ponteiro:"
+msgstr "Aceleração do cursor:"
 
 #: src/Views/Mouse.vala:51 src/Views/Touchpad.vala:93
 msgid "Natural scrolling:"
@@ -217,23 +217,23 @@ msgstr "Grande"
 
 #: src/Views/Pointing.vala:69
 msgid "Pointer size:"
-msgstr "Tamanho do ponteiro:"
+msgstr "Tamanho do cursor:"
 
 #: src/Views/Pointing.vala:79
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Carregar na tecla Control revela a posição do ponteiro"
+msgstr "Carregar na tecla control revela a posição do cursor"
 
 #: src/Views/Pointing.vala:86
 msgid "Reveal pointer:"
-msgstr "Revelar ponteiro:"
+msgstr "Revelar cursor:"
 
 #: src/Views/Pointing.vala:101
 msgid "Control pointer using keypad:"
-msgstr "Controlar ponteiro através do teclado:"
+msgstr "Controlar cursor através do teclado:"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
-msgstr "Multitoque"
+msgstr "Multi-toque"
 
 #: src/Views/Touchpad.vala:51
 msgid "Touchpad areas"
