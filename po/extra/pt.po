@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-01-29 18:08+0000\n"
+"PO-Revision-Date: 2020-02-06 23:08+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/pt/>\n"
@@ -44,7 +44,7 @@ msgstr "Novas funcionalidades:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Add Dwell Click and Pointer size settings"
-msgstr "Adicionar definições de tamanho de clique de permanência e ponteiro"
+msgstr "Adiciona definições de tamanho do clique de permanência e cursor"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
 msgid "Other updates:"
@@ -53,14 +53,14 @@ msgstr "Outras atualizações:"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
-"Ouvir também os cliques do botão secundário ao selecionar o botão Principal"
+"Ouça também os cliques do botão secundário ao selecionar o botão principal"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr ""
-"Corrige um problema em que a selecção do botão principal não se aplica nos "
+"Corrige um problema em que a seleção do botão principal não se aplica nos "
 "idiomas da esquerda para a direita"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
