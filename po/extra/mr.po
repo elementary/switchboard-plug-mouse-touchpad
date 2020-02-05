@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-01-23 03:23+0000\n"
+"PO-Revision-Date: 2020-02-06 23:08+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/mr/>\n"
@@ -29,7 +29,7 @@ msgstr "माउस आणि टचपॅड कॉन्फिगर कर�
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
 msgid "Fix stretched switches when using large text"
-msgstr ""
+msgstr "मोठा मजकूर वापरताना ताणलेल्या स्विचशी संबंधित समस्यांचे निराकरण करा"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
