@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-01-15 16:19+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-02-06 23:08+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/mr/>\n"
 "Language: mr\n"
@@ -37,7 +37,7 @@ msgstr "डबल क्लिकचा वेग"
 
 #: src/Plug.vala:109
 msgid "Dwell click"
-msgstr ""
+msgstr "ड्वेल क्लिक"
 
 #: src/Plug.vala:110
 msgid "Primary button"
@@ -73,10 +73,8 @@ msgid "Pointing"
 msgstr "पॉइंटिंग"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "पॉइंटर स्पीड:"
+msgstr "पॉईंटर आकार"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
