@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-02-06 23:08+0000\n"
+"PO-Revision-Date: 2020-02-09 21:16+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/mr/>\n"
@@ -127,10 +127,8 @@ msgid "Right"
 msgstr "उजवा"
 
 #: src/Views/Clicking.vala:58
-#, fuzzy
-#| msgid "Long-pressing and releasing the primary button will secondary click"
 msgid "Long-press and release the primary button to secondary click"
-msgstr "प्राथमिक बटण दीर्घ-दाबून आणि सोडल्यास दुय्यम क्लिक होईल"
+msgstr "दुय्यम क्लिक करण्यासाठी प्राथमिक बटण दीर्घकाळ दाबा आणि सोडा"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -142,7 +140,7 @@ msgstr "सलग दोन क्लिक किती द्रुतपण�
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "आपोआप क्लिक करण्यासाठी पॉईंटर स्थिर ठेवा"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
@@ -150,18 +148,15 @@ msgstr "डबल क्लिकचा वेग:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr ""
+msgstr "ड्वेल क्लिक:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "दुय्यम क्लिक दीर्घ-दाब:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
-msgstr "इनपुटवरील मध्य किंवा तीन-बोटांनी क्लिक केल्याने कोणताही निवडलेला मजकूर पेस्ट करेल"
+msgstr "निवडलेला मजकूर पेस्ट करण्यासाठी इनपुटवर मध्यम किंवा तीन-बोट क्लिक करा"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
@@ -205,21 +200,19 @@ msgstr "हे अंकीय कीपॅडवरील की दोन्�
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "लहान"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "मध्यम"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "मोठा"
 
 #: src/Views/Pointing.vala:69
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "पॉइंटर स्पीड:"
+msgstr "पॉईंटर आकार:"
 
 #: src/Views/Pointing.vala:79
 msgid "Pressing the control key will highlight the position of the pointer"
