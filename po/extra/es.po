@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2019-11-16 17:24+0000\n"
+"PO-Revision-Date: 2020-02-14 17:08+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
@@ -40,25 +40,29 @@ msgstr "Traducciones actualizadas"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "New features:"
-msgstr ""
+msgstr "Nuevas características:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Add Dwell Click and Pointer size settings"
-msgstr ""
+msgstr "Añadir configuración de tamaño de clic y puntero"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
 msgid "Other updates:"
-msgstr ""
+msgstr "Otras actualizaciones:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
+"Escuchar también los clics del botón secundario al seleccionar el botón "
+"primario"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr ""
+"Solución de un problema en el que la selección del botón principal no se "
+"aplica en los idiomas de izquierda a derecha"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
 msgid "New Sidebar navigation"
