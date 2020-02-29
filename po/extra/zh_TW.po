@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2019-05-16 09:14+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-03-01 14:09+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "switchboard/mouse-touchpad-plug-extra/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
-msgstr ""
+msgstr "滑鼠和觸控板設定"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
@@ -36,7 +36,7 @@ msgstr ""
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:43
 msgid "Updated translations"
-msgstr ""
+msgstr "翻譯更新"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "New features:"
