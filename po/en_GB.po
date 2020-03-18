@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2019-10-16 16:28+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-03-19 19:09+0000\n"
+"Last-Translator: Ciarán Ainsworth <ciaranainsworth@posteo.net>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/en_GB/>\n"
 "Language: en_GB\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/Plug.vala:43
 msgid "Mouse & Touchpad"
@@ -29,15 +29,15 @@ msgstr "Configure mouse and touchpad"
 
 #: src/Plug.vala:107 src/Views/Clicking.vala:25
 msgid "Clicking"
-msgstr ""
+msgstr "Clicking"
 
 #: src/Plug.vala:108
 msgid "Double-click speed"
-msgstr ""
+msgstr "Double-click speed"
 
 #: src/Plug.vala:109
 msgid "Dwell click"
-msgstr ""
+msgstr "Dwell click"
 
 #: src/Plug.vala:110
 msgid "Primary button"
@@ -70,13 +70,11 @@ msgstr "Natural scrolling"
 
 #: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Pointing"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "Pointer speed:"
+msgstr "Pointer size"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
@@ -129,42 +127,36 @@ msgid "Right"
 msgstr "Right"
 
 #: src/Views/Clicking.vala:58
-#, fuzzy
-#| msgid "Long-pressing and releasing the primary button will secondary click"
 msgid "Long-press and release the primary button to secondary click"
-msgstr "Long-pressing and releasing the primary button will secondary click"
+msgstr "Long-press and release the primary button to secondary click"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
-msgstr ""
+msgstr "seconds"
 
 #: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "How quickly two clicks in a row will be treated as a double-click"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Hold the pointer still to automatically click"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Double-click speed:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr ""
+msgstr "Dwell click:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Long-press secondary click:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
-msgstr ""
-"Middle or three-finger clicking on an input will paste any selected text"
+msgstr "Middle or three-finger click on an input to paste selected text"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
@@ -208,21 +200,19 @@ msgstr "This disables both levels of keys on the numeric keypad"
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "Small"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "Large"
 
 #: src/Views/Pointing.vala:69
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "Pointer speed:"
+msgstr "Pointer size:"
 
 #: src/Views/Pointing.vala:79
 msgid "Pressing the control key will highlight the position of the pointer"
