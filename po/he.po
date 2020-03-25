@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-01-15 16:19+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-03-26 23:09+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/he/>\n"
 "Language: he\n"
@@ -29,15 +29,15 @@ msgstr "הגדרת עכבר ומשטח מגע"
 
 #: src/Plug.vala:107 src/Views/Clicking.vala:25
 msgid "Clicking"
-msgstr ""
+msgstr "לחיצה"
 
 #: src/Plug.vala:108
 msgid "Double-click speed"
-msgstr ""
+msgstr "מהירות לחיצה כפולה"
 
 #: src/Plug.vala:109
 msgid "Dwell click"
-msgstr ""
+msgstr "השהיית לחיצה"
 
 #: src/Plug.vala:110
 msgid "Primary button"
@@ -70,13 +70,11 @@ msgstr "גלילה טבעית"
 
 #: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "הצבעה"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "מהירות הסמן:"
+msgstr "גודל סמן"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
@@ -129,9 +127,8 @@ msgid "Right"
 msgstr "ימני"
 
 #: src/Views/Clicking.vala:58
-#, fuzzy
 msgid "Long-press and release the primary button to secondary click"
-msgstr "לחיצה ארוכה ושחרור הכפתור העיקרי יגרום ללחיצה משנית."
+msgstr "לחיצה ארוכה ושחרור הכפתור העיקרי תגרום ללחיצה משנית"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -139,30 +136,27 @@ msgstr "שניות"
 
 #: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "כמה מהר שתי לחיצות ברצף ייחשבו ללחיצה כפולה"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "להחזיק את הסמן במקום כדי ללחוץ אוטומטית"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr ""
+msgstr "מהירות לחיצה כפולה:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr ""
+msgstr "לחיצה מושהית:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "לחיצה ארוכה על כפתור משני:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
-msgstr "לחיצה אמצעית או עם שלוש אצבעות על שדה קלט תדביק טקסט כלשהו שנבחר"
+msgstr "לחיצה אמצעית או עם שלוש אצבעות על שדה קלט כדי להדביק טקסט נבחר"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
@@ -201,27 +195,24 @@ msgid "Speed:"
 msgstr "מהירות:"
 
 #: src/Views/Pointing.vala:43
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "פעולה זו משביתה את שתי רמות המקשים במקלדת הנומרית."
+msgstr "פעולה זו משביתה את שתי רמות המקשים במקלדת הנומרית"
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "קטן"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "בינוני"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "גדול"
 
 #: src/Views/Pointing.vala:69
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "מהירות הסמן:"
+msgstr "גודל הסמן:"
 
 #: src/Views/Pointing.vala:79
 msgid "Pressing the control key will highlight the position of the pointer"
