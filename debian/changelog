@@ -1,3 +1,16 @@
+switchboard-plug-mouse-touchpad (2.4.1) bionic; urgency=medium
+
+  * Release 2.4.1 (#138)
+  * Update translation files
+  * Update translation files
+  * Update translation template
+  * Clicking: Valign switches (#133)
+  * Update translation files
+  * Update translation files
+  * Update translation template
+
+ -- elementary OS Team <builds@elementary.io>  Wed, 08 Apr 2020 20:17:49 +0000
+
 switchboard-plug-mouse-touchpad (2.4.0) bionic; urgency=medium
 
   * Release 2.4.0 (#131)
