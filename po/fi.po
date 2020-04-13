@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-02-22 14:09+0000\n"
+"PO-Revision-Date: 2020-04-14 14:10+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fi/>\n"
@@ -162,13 +162,10 @@ msgid "Long-press secondary click:"
 msgstr "Kakkospainike pitkällä painalluksella:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
-"Keskimmäisen tai kolmen sormen napsautus syötekentässä liittää minkä tahansa "
-"valitun tekstin"
+"Keskimmäisen tai kolmen sormen napsautus syötekentässä liittää valitun "
+"tekstin"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
