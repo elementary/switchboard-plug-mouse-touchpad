@@ -4,6 +4,8 @@
   <extends>io.elementary.switchboard</extends>
   <name>Mouse &amp; Touchpad Settings</name>
   <summary>Configure mouse and touchpad</summary>
+  <icon type="stock">preferences-desktop-peripherals</icon>
+  <translation type="gettext">mouse-touchpad-plug</translation>
   <releases>
     <release version="2.4.1" date="2020-04-08" urgency="medium">
       <description>
