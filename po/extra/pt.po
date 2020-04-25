@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-02-06 23:08+0000\n"
+"PO-Revision-Date: 2020-04-26 15:10+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/pt/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
-msgstr "Definições do Rato &amp; Touchpad"
+msgstr "Definições do Rato e Touchpad"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
