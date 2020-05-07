@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-01-15 16:19+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-05-08 15:10+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/cs/>\n"
 "Language: cs\n"
@@ -26,15 +26,15 @@ msgstr "Myš a touchpad"
 
 #: src/Plug.vala:44
 msgid "Configure mouse and touchpad"
-msgstr "Nastavujte myš a touchpad"
+msgstr "Konfigurovat myš a touchpad"
 
 #: src/Plug.vala:107 src/Views/Clicking.vala:25
 msgid "Clicking"
-msgstr ""
+msgstr "Klikání"
 
 #: src/Plug.vala:108
 msgid "Double-click speed"
-msgstr ""
+msgstr "Rychlost dvojkliku"
 
 #: src/Plug.vala:109
 msgid "Dwell click"
@@ -71,7 +71,7 @@ msgstr "Přirozené posouvání"
 
 #: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Kurzor"
 
 #: src/Plug.vala:120
 #, fuzzy
@@ -140,7 +140,7 @@ msgstr "sekundy"
 
 #: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "Jak rychle za sebou musí dvě kliknutí být, aby vyvolaly dvojklik"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
@@ -148,7 +148,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Rychlost dvojkliku:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
@@ -204,9 +204,8 @@ msgid "Speed:"
 msgstr "Rychlost:"
 
 #: src/Views/Pointing.vala:43
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Toto deaktivuje obě úrovně kláves na numerické klávesnici."
+msgstr "Toto nastavení deaktivuje obě úrovně kláves na numerické klávesnici."
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
