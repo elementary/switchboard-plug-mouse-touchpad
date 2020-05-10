@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-02-14 17:08+0000\n"
-"Last-Translator: Daniel R. <riesp@pm.me>\n"
+"PO-Revision-Date: 2020-05-11 20:10+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/es/>\n"
 "Language: es\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
-msgstr "Ajustes de ratón y panel táctil"
+msgstr "Configuración de ratón y panel táctil"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
@@ -29,7 +29,7 @@ msgstr "Configurar ratón y panel táctil"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
 msgid "Fix stretched switches when using large text"
-msgstr ""
+msgstr "Se corrigieron los interruptores estirados al utilizar texto grande"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
@@ -44,7 +44,9 @@ msgstr "Nuevas características:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Add Dwell Click and Pointer size settings"
-msgstr "Añadir configuración de tamaño de clic y puntero"
+msgstr ""
+"Se añadieron opciones para la pulsación de permanencia y el tamaño del "
+"puntero"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
 msgid "Other updates:"
@@ -53,8 +55,8 @@ msgstr "Otras actualizaciones:"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
-"Escuchar también los clics del botón secundario al seleccionar el botón "
-"primario"
+"Se detectan asimismo las pulsaciones con el botón secundario mientras se "
+"selecciona el botón primario"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
 msgid ""
@@ -70,8 +72,8 @@ msgstr "Nueva barra lateral de navegación"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
 msgid "Fix middle click not appearing"
-msgstr "Corrección del clic central que no aparece"
+msgstr "Corrección de la pulsación central que no aparece"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
 msgid "Add Double-Click speed"
-msgstr "Añadir velocidad de doble clic"
+msgstr "Adición de Velocidad de pulsación doble"
