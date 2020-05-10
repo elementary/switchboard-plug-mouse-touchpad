@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-05-08 15:10+0000\n"
+"PO-Revision-Date: 2020-05-11 20:10+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/cs/>\n"
@@ -38,7 +38,7 @@ msgstr "Rychlost dvojkliku"
 
 #: src/Plug.vala:109
 msgid "Dwell click"
-msgstr ""
+msgstr "Kliknutí posečkáním"
 
 #: src/Plug.vala:110
 msgid "Primary button"
@@ -74,10 +74,8 @@ msgid "Pointing"
 msgstr "Kurzor"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "Rychlost kurzoru:"
+msgstr "Velikost ukazatele"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
@@ -130,9 +128,8 @@ msgid "Right"
 msgstr "Pravé"
 
 #: src/Views/Clicking.vala:58
-#, fuzzy
 msgid "Long-press and release the primary button to secondary click"
-msgstr "Podržení a upuštění primárního tlačítka provede sekundární kliknutí."
+msgstr "Podržení a upuštění primárního tlačítka provede sekundární kliknutí"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -144,7 +141,7 @@ msgstr "Jak rychle za sebou musí dvě kliknutí být, aby vyvolaly dvojklik"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Nepohybováním kurzorem dojde k automatickému kliknutí"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
@@ -152,16 +149,13 @@ msgstr "Rychlost dvojkliku:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr ""
+msgstr "Kliknutí posečkáním:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Sekundární kliknutí podržením:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Kliknutí prostředním tlačítkem nebo třemi prsty na vstup vloží jakýkoli "
@@ -205,25 +199,23 @@ msgstr "Rychlost:"
 
 #: src/Views/Pointing.vala:43
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Toto nastavení deaktivuje obě úrovně kláves na numerické klávesnici."
+msgstr "Toto nastavení deaktivuje obě úrovně kláves na numerické klávesnici"
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "Malé"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "Střední"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "Velké"
 
 #: src/Views/Pointing.vala:69
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "Rychlost kurzoru:"
+msgstr "Velikost kurzoru:"
 
 #: src/Views/Pointing.vala:79
 msgid "Pressing the control key will highlight the position of the pointer"
