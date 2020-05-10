@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-02-14 17:08+0000\n"
-"Last-Translator: Daniel R. <riesp@pm.me>\n"
+"PO-Revision-Date: 2020-05-11 20:10+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/es/>\n"
 "Language: es\n"
@@ -38,7 +38,7 @@ msgstr "Velocidad de pulsación doble"
 
 #: src/Plug.vala:109
 msgid "Dwell click"
-msgstr ""
+msgstr "Pulsación de permanencia"
 
 #: src/Plug.vala:110
 msgid "Primary button"
@@ -151,7 +151,7 @@ msgstr "Velocidad de doble clic:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr ""
+msgstr "Pulsación de permanencia:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
