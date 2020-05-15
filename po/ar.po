@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2019-08-26 05:22+0000\n"
+"PO-Revision-Date: 2020-05-15 12:45+0000\n"
 "Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ar/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/Plug.vala:43
 msgid "Mouse & Touchpad"
@@ -121,11 +121,11 @@ msgstr ""
 
 #: src/Views/Clicking.vala:35
 msgid "Left"
-msgstr ""
+msgstr "يسار"
 
 #: src/Views/Clicking.vala:39
 msgid "Right"
-msgstr ""
+msgstr "يمين"
 
 #: src/Views/Clicking.vala:58
 msgid "Long-press and release the primary button to secondary click"
