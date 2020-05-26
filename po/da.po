@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-01-15 16:19+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-05-27 12:11+0000\n"
+"Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/da/>\n"
 "Language: da\n"
@@ -30,15 +30,15 @@ msgstr "Konfigurer mus og touchpad"
 
 #: src/Plug.vala:107 src/Views/Clicking.vala:25
 msgid "Clicking"
-msgstr ""
+msgstr "Klikning"
 
 #: src/Plug.vala:108
 msgid "Double-click speed"
-msgstr ""
+msgstr "Dobbeltklik hastighed"
 
 #: src/Plug.vala:109
 msgid "Dwell click"
-msgstr ""
+msgstr "Dvæle klik"
 
 #: src/Plug.vala:110
 msgid "Primary button"
@@ -46,7 +46,7 @@ msgstr "Primærknap"
 
 #: src/Plug.vala:111
 msgid "Long-press secondary click"
-msgstr ""
+msgstr "Langt tryk på sekundært klik"
 
 #: src/Plug.vala:112
 msgid "Middle click paste"
@@ -62,9 +62,8 @@ msgid "Pointer speed"
 msgstr "Markørhastighed"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Markør acceleration:"
+msgstr "Markør acceleration"
 
 #: src/Plug.vala:117 src/Plug.vala:129
 msgid "Natural scrolling"
@@ -72,13 +71,11 @@ msgstr "Naturlig scrolling"
 
 #: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Pegning"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "Markørhastighed:"
+msgstr "Markør størrelse"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
@@ -86,7 +83,7 @@ msgstr "Fremhæv markør"
 
 #: src/Plug.vala:122
 msgid "Control pointer using keypad"
-msgstr ""
+msgstr "Kontroller markøren ved hjælp af tastaturet"
 
 #: src/Plug.vala:124 src/Plug.vala:125 src/Plug.vala:126 src/Plug.vala:127
 #: src/Plug.vala:128 src/Plug.vala:129 src/Plug.vala:130 src/Plug.vala:131
@@ -107,13 +104,12 @@ msgid "Scrolling"
 msgstr "Scrolling"
 
 #: src/Plug.vala:130
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "Deaktiver mens du skriver:"
+msgstr "Ignorer mens der skrives"
 
 #: src/Plug.vala:131
 msgid "Ignore when mouse is connected"
-msgstr ""
+msgstr "Ignorer når en mus er tilsluttet"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -133,7 +129,7 @@ msgstr "Højre"
 
 #: src/Views/Clicking.vala:58
 msgid "Long-press and release the primary button to secondary click"
-msgstr ""
+msgstr "Hold den primære knap nede for sekundært klik"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -141,28 +137,25 @@ msgstr "sekunder"
 
 #: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "Hvor hurtigt to klik i træk behandles som et dobbeltklik"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Hold markøren i ro for automatisk klik"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Dobbeltklik hastighed:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr ""
+msgstr "Dvale klik:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
-msgstr ""
+msgstr "Lang-tryk sekundært klik:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Mellem- eller trefingers klik på et input vil indsætte markeret tekst"
 
@@ -204,25 +197,23 @@ msgstr "Hastighed:"
 
 #: src/Views/Pointing.vala:43
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr ""
+msgstr "Dette deaktiverer begge niveauer af taster på det numeriske tastatur"
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "Lille"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "Mellem"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "Stor"
 
 #: src/Views/Pointing.vala:69
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "Markørhastighed:"
+msgstr "Markør størrelse:"
 
 #: src/Views/Pointing.vala:79
 msgid "Pressing the control key will highlight the position of the pointer"
@@ -234,7 +225,7 @@ msgstr "Fremhæv markør:"
 
 #: src/Views/Pointing.vala:101
 msgid "Control pointer using keypad:"
-msgstr ""
+msgstr "Kontroller markøren ved hjælp af tastaturet:"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -266,16 +257,15 @@ msgstr "Fysisk klik:"
 
 #: src/Views/Touchpad.vala:91
 msgid "Scrolling:"
-msgstr "Scrolling:"
+msgstr "Rulning:"
 
 #: src/Views/Touchpad.vala:95
-#, fuzzy
 msgid "Ignore while typing:"
-msgstr "Deaktiver mens du skriver:"
+msgstr "Ignorer mens der skrives:"
 
 #: src/Views/Touchpad.vala:97
 msgid "Ignore when mouse is connected:"
-msgstr ""
+msgstr "Ignorer når en mus er tilsluttet:"
 
 #, fuzzy
 #~ msgid "Keypad pointer speed"
