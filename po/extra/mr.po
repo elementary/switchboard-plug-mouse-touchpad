@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-23 03:25+0000\n"
+"POT-Creation-Date: 2020-05-28 18:42+0000\n"
 "PO-Revision-Date: 2020-02-06 23:08+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -27,48 +27,49 @@ msgstr "माऊस &amp; टचपॅड सेटिंग्ज"
 msgid "Configure mouse and touchpad"
 msgstr "माउस आणि टचपॅड कॉन्फिगर करा"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:11
-msgid "Fix stretched switches when using large text"
-msgstr "मोठा मजकूर वापरताना ताणलेल्या स्विचशी संबंधित समस्यांचे निराकरण करा"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:43
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:34
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:52
 msgid "Updated translations"
 msgstr "अद्ययावत भाषांतर"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
+msgid "Fix stretched switches when using large text"
+msgstr "मोठा मजकूर वापरताना ताणलेल्या स्विचशी संबंधित समस्यांचे निराकरण करा"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
 msgid "New features:"
 msgstr "नवीन वैशिष्ट्ये :"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:29
 msgid "Add Dwell Click and Pointer size settings"
 msgstr "डवेल क्लिक आणि पॉइंटर आकार सेटिंग्ज जोडा"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:22
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:31
 msgid "Other updates:"
 msgstr "इतर अद्यतने:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr "प्राथमिक बटण निवडताना दुय्यम बटण क्लिक देखील ऐका"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr ""
 "डाव्या-ते-उजवी भाषांमध्ये प्राथमिक बटण निवड लागू होत नाही अशा समस्येचे निराकरण करा"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
 msgid "New Sidebar navigation"
 msgstr "नवीन साइडबार नेव्हिगेशन"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:50
 msgid "Fix middle click not appearing"
 msgstr "मध्यम क्लिक दिसत नसल्याचे संबंधित समस्येचे निराकरण करा"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:51
 msgid "Add Double-Click speed"
 msgstr "डबल-क्लिक गती जोडा"
