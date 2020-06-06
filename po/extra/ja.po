@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-28 18:42+0000\n"
-"PO-Revision-Date: 2020-01-25 15:08+0000\n"
+"PO-Revision-Date: 2020-06-08 10:11+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/ja/>\n"
@@ -37,8 +37,7 @@ msgstr "翻訳の更新"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Fix stretched switches when using large text"
-msgstr ""
-"フォントサイズが大きい場合にスイッチが平たくつぶれて表示される問題を修正"
+msgstr "フォントサイズが大きい場合にスイッチが平たくつぶれて表示される不具合を修正"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
 msgid "New features:"
@@ -60,7 +59,7 @@ msgstr "主ボタンの選択をする際に副ボタンでのクリックも検
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
-msgstr "左横書き言語の環境において主ボタンの選択が適用されない問題を修正"
+msgstr "左横書き言語の環境において主ボタンの選択が適用されない不具合を修正"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
 msgid "New Sidebar navigation"
@@ -68,7 +67,7 @@ msgstr "新しいサイドバーのナビゲーション"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:50
 msgid "Fix middle click not appearing"
-msgstr "中クリックの設定が表示されない問題を修正"
+msgstr "中クリックの設定が表示されない不具合を修正"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:51
 msgid "Add Double-Click speed"
