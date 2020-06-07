@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-23 03:25+0000\n"
-"PO-Revision-Date: 2020-05-29 15:23+0000\n"
+"PO-Revision-Date: 2020-06-08 10:11+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/cs/>\n"
@@ -42,11 +42,11 @@ msgstr "Kliknutí posečkáním"
 
 #: src/Plug.vala:110
 msgid "Primary button"
-msgstr "Primární tlačítko"
+msgstr "Levé tlačítko"
 
 #: src/Plug.vala:111
 msgid "Long-press secondary click"
-msgstr "Sekundární kliknutí podržením"
+msgstr "Kliknutí pravým tlačítkem podržením levého"
 
 #: src/Plug.vala:112
 msgid "Middle click paste"
@@ -59,11 +59,11 @@ msgstr "Myš"
 
 #: src/Plug.vala:115 src/Plug.vala:125
 msgid "Pointer speed"
-msgstr "Rychlost kurzoru"
+msgstr "Rychlost ukazatele"
 
 #: src/Plug.vala:116
 msgid "Pointer acceleration"
-msgstr "Zrychlení kurzoru"
+msgstr "Zrychlení ukazatele"
 
 #: src/Plug.vala:117 src/Plug.vala:129
 msgid "Natural scrolling"
@@ -71,7 +71,7 @@ msgstr "Přirozené posouvání"
 
 #: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr "Kurzor"
+msgstr "Ukazatel"
 
 #: src/Plug.vala:120
 msgid "Pointer size"
@@ -79,7 +79,7 @@ msgstr "Velikost ukazatele"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
-msgstr "Zvýraznit kurzor"
+msgstr "Zvýraznit ukazatel"
 
 #: src/Plug.vala:122
 msgid "Control pointer using keypad"
@@ -117,7 +117,7 @@ msgstr "Chování"
 
 #: src/Views/Clicking.vala:30
 msgid "Primary button:"
-msgstr "Primární tlačítko:"
+msgstr "Levé tlačítko:"
 
 #: src/Views/Clicking.vala:35
 msgid "Left"
@@ -129,7 +129,8 @@ msgstr "Pravé"
 
 #: src/Views/Clicking.vala:58
 msgid "Long-press and release the primary button to secondary click"
-msgstr "Podržení a upuštění primárního tlačítka provede sekundární kliknutí"
+msgstr ""
+"Podržení a uvolnění primárního tlačítka provede kliknutí pravým tlačítkem"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -141,7 +142,7 @@ msgstr "Jak rychle za sebou musí dvě kliknutí být, aby vyvolaly dvojklik"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr "Nepohybováním kurzorem dojde k automatickému kliknutí"
+msgstr "Nepohybováním ukazatelem dojde k automatickému kliknutí"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
@@ -183,11 +184,11 @@ msgstr "Adaptivní"
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:84
 msgid "Pointer speed:"
-msgstr "Rychlost kurzoru:"
+msgstr "Rychlost ukazatele:"
 
 #: src/Views/Mouse.vala:47
 msgid "Pointer acceleration:"
-msgstr "Zrychlení kurzoru:"
+msgstr "Zrychlení ukazatele:"
 
 #: src/Views/Mouse.vala:51 src/Views/Touchpad.vala:93
 msgid "Natural scrolling:"
@@ -203,7 +204,7 @@ msgstr "Toto nastavení deaktivuje obě úrovně kláves na numerické klávesni
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr "Malé"
+msgstr "Malá"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
@@ -211,11 +212,11 @@ msgstr "Střední"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr "Velké"
+msgstr "Velká"
 
 #: src/Views/Pointing.vala:69
 msgid "Pointer size:"
-msgstr "Velikost kurzoru:"
+msgstr "Velikost ukazatele:"
 
 #: src/Views/Pointing.vala:79
 msgid "Pressing the control key will highlight the position of the pointer"
@@ -223,7 +224,7 @@ msgstr "Stisknutí klávesy Control zvýrazní pozici ukazatele"
 
 #: src/Views/Pointing.vala:86
 msgid "Reveal pointer:"
-msgstr "Zvýraznit kurzor:"
+msgstr "Zvýraznit ukazatel:"
 
 #: src/Views/Pointing.vala:101
 msgid "Control pointer using keypad:"
