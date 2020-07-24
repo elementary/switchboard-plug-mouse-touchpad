@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-28 18:42+0000\n"
-"PO-Revision-Date: 2020-05-29 15:23+0000\n"
+"PO-Revision-Date: 2020-07-25 16:12+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/fr/>\n"
@@ -51,7 +51,7 @@ msgstr "Ajout du clic prolongé et des paramètres de taille du pointeur"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:31
 msgid "Other updates:"
-msgstr "Autres mises à jour :"
+msgstr "Autres mises à jour :"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
 msgid "Also listen to secondary button clicks when selecting Primary Button"
