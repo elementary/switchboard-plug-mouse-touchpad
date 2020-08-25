@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-23 03:25+0000\n"
+"POT-Creation-Date: 2020-08-25 18:35+0000\n"
 "PO-Revision-Date: 2020-01-19 13:08+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -212,20 +212,20 @@ msgstr "Middel"
 msgid "Large"
 msgstr "Groot"
 
-#: src/Views/Pointing.vala:69
-msgid "Pointer size:"
-msgstr "Grootte van de aanwijzer:"
-
-#: src/Views/Pointing.vala:79
+#: src/Views/Pointing.vala:68
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 "Houd de Control-toets ingedrukt om de positie van de aanwijzer te laten zien"
 
-#: src/Views/Pointing.vala:86
+#: src/Views/Pointing.vala:76
 msgid "Reveal pointer:"
 msgstr "Aanwijzer opsporen:"
 
-#: src/Views/Pointing.vala:101
+#: src/Views/Pointing.vala:87
+msgid "Pointer size:"
+msgstr "Grootte van de aanwijzer:"
+
+#: src/Views/Pointing.vala:94
 msgid "Control pointer using keypad:"
 msgstr "Bestuur de cursor met behulp van het keypad:"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-23 03:25+0000\n"
+"POT-Creation-Date: 2020-08-25 18:35+0000\n"
 "PO-Revision-Date: 2019-10-16 16:28+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -226,21 +226,21 @@ msgstr ""
 msgid "Large"
 msgstr ""
 
-#: src/Views/Pointing.vala:69
+#: src/Views/Pointing.vala:68
+msgid "Pressing the control key will highlight the position of the pointer"
+msgstr "按下 Ctl 鍵可以突顯指標的位置"
+
+#: src/Views/Pointing.vala:76
+msgid "Reveal pointer:"
+msgstr "揭示指標："
+
+#: src/Views/Pointing.vala:87
 #, fuzzy
 #| msgid "Pointer speed:"
 msgid "Pointer size:"
 msgstr "指標速度："
 
-#: src/Views/Pointing.vala:79
-msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "按下 Ctl 鍵可以突顯指標的位置"
-
-#: src/Views/Pointing.vala:86
-msgid "Reveal pointer:"
-msgstr "揭示指標："
-
-#: src/Views/Pointing.vala:101
+#: src/Views/Pointing.vala:94
 msgid "Control pointer using keypad:"
 msgstr ""
 
