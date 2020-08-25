@@ -64,39 +64,32 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         cursor_size_grid.add (cursor_size_32);
         cursor_size_grid.add (cursor_size_48);
 
+        var locate_pointer_help = new Gtk.Label (
+            _("Pressing the control key will highlight the position of the pointer")
+        ) {
+            margin_bottom = 18,
+            wrap = true,
+            xalign = 0
+        };
+        locate_pointer_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+
+        var reveal_pointer_label = new SettingLabel (_("Reveal pointer:")) {
+            margin_top = 18
+        };
+
+        var reveal_pointer_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            margin_top = 18
+        };
+
         content_area.row_spacing = 6;
 
         content_area.attach (new SettingLabel (_("Pointer size:")), 0, 0);
         content_area.attach (cursor_size_grid, 1, 0, 3);
 
-        var reveal_pointer_schema = SettingsSchemaSource.get_default ().lookup (
-            "org.gnome.settings-daemon.peripherals.mouse",
-            true
-        );
-
-        if (reveal_pointer_schema != null && "locate-pointer" in reveal_pointer_schema.list_keys ()) {
-            var locate_pointer_help = new Gtk.Label (
-                _("Pressing the control key will highlight the position of the pointer")
-            );
-            locate_pointer_help.margin_bottom = 18;
-            locate_pointer_help.wrap = true;
-            locate_pointer_help.xalign = 0;
-            locate_pointer_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
-
-            var reveal_pointer_label = new SettingLabel (_("Reveal pointer:"));
-            reveal_pointer_label.margin_top = 18;
-
-            var reveal_pointer_switch = new Gtk.Switch ();
-            reveal_pointer_switch.halign = Gtk.Align.START;
-            reveal_pointer_switch.margin_top = 18;
-
-            content_area.attach (reveal_pointer_label, 0, 1);
-            content_area.attach (reveal_pointer_switch, 1, 1, 3);
-            content_area.attach (locate_pointer_help, 1, 2, 3);
-
-            var daemon_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
-            daemon_settings.bind ("locate-pointer", reveal_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-        }
+        content_area.attach (reveal_pointer_label, 0, 1);
+        content_area.attach (reveal_pointer_switch, 1, 1, 3);
+        content_area.attach (locate_pointer_help, 1, 2, 3);
 
         content_area.attach (new SettingLabel (_("Control pointer using keypad:")), 0, 3);
         content_area.attach (keypad_pointer_switch, 1, 3);
@@ -131,6 +124,7 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         );
 
         var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
+        interface_settings.bind ("locate-pointer", reveal_pointer_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
         switch (interface_settings.get_int ("cursor-size")) {
             case 32:
