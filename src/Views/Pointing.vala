@@ -64,8 +64,10 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         cursor_size_grid.add (cursor_size_32);
         cursor_size_grid.add (cursor_size_48);
 
+        var mutter_setings = new GLib.Settings ("org.gnome.mutter");
+        var reveal_key = Granite.accel_to_string (mutter_setings.get_string ("locate-pointer-key"));
         var locate_pointer_help = new Gtk.Label (
-            _("Pressing the control key will highlight the position of the pointer")
+            _("Pressing “%s” will highlight the position of the pointer").printf (reveal_key)
         ) {
             margin_bottom = 18,
             wrap = true,
