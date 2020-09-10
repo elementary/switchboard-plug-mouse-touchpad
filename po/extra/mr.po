@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-28 18:42+0000\n"
-"PO-Revision-Date: 2020-02-06 23:08+0000\n"
+"PO-Revision-Date: 2020-09-11 00:34+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/mr/>\n"
@@ -41,7 +41,7 @@ msgstr "मोठा मजकूर वापरताना ताणलेल
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
 msgid "New features:"
-msgstr "नवीन वैशिष्ट्ये :"
+msgstr "नवीन वैशिष्ट्ये:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:29
 msgid "Add Dwell Click and Pointer size settings"
