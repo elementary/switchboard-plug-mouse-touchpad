@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 18:35+0000\n"
-"PO-Revision-Date: 2020-09-19 01:14+0000\n"
+"PO-Revision-Date: 2020-09-24 16:44+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/uk/>\n"
@@ -27,7 +27,7 @@ msgstr "Миша і сенсорна панель"
 
 #: src/Plug.vala:44
 msgid "Configure mouse and touchpad"
-msgstr "Налаштування миші і сенсорної панелі"
+msgstr "Налаштувати мишу та сенсорну панель"
 
 #: src/Plug.vala:107 src/Views/Clicking.vala:25
 msgid "Clicking"
@@ -42,9 +42,8 @@ msgid "Dwell click"
 msgstr ""
 
 #: src/Plug.vala:110
-#, fuzzy
 msgid "Primary button"
-msgstr "Основна кнопка:"
+msgstr "Основна кнопка"
 
 #: src/Plug.vala:111
 msgid "Long-press secondary click"
@@ -57,20 +56,17 @@ msgstr ""
 #: src/Plug.vala:114 src/Plug.vala:115 src/Plug.vala:116 src/Plug.vala:117
 #: src/Views/Mouse.vala:25
 msgid "Mouse"
-msgstr "Мишка"
+msgstr "Миша"
 
 #: src/Plug.vala:115 src/Plug.vala:125
-#, fuzzy
 msgid "Pointer speed"
 msgstr "Швидкість вказівника"
 
 #: src/Plug.vala:116
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "Швидкість вказівника"
+msgstr "Прискорення вказівника"
 
 #: src/Plug.vala:117 src/Plug.vala:129
-#, fuzzy
 msgid "Natural scrolling"
 msgstr "Природне прокручування"
 
@@ -79,10 +75,8 @@ msgid "Pointing"
 msgstr ""
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "Швидкість вказівника"
+msgstr "Розмір вказівника"
 
 #: src/Plug.vala:121
 #, fuzzy
