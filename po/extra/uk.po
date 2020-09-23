@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-28 18:42+0000\n"
-"PO-Revision-Date: 2020-09-17 00:14+0000\n"
+"PO-Revision-Date: 2020-09-24 16:44+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/uk/>\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
-msgstr ""
+msgstr "Параметри миші та сенсорної панелі"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
-msgstr "Налаштування миші і сенсорної панелі"
+msgstr "Налаштувати мишу та сенсорну панель"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
@@ -38,11 +38,11 @@ msgstr "Оновлено переклади"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Fix stretched switches when using large text"
-msgstr ""
+msgstr "Виправлено розтягнуті перемикачі коли застосовано великий текст"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
 msgid "New features:"
-msgstr ""
+msgstr "Нові функції:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:29
 msgid "Add Dwell Click and Pointer size settings"
