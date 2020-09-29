@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-28 18:42+0000\n"
-"PO-Revision-Date: 2020-09-24 16:44+0000\n"
+"PO-Revision-Date: 2020-09-30 13:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/uk/>\n"
@@ -46,30 +46,33 @@ msgstr "Нові функції:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:29
 msgid "Add Dwell Click and Pointer size settings"
-msgstr ""
+msgstr "Додано налаштування розміру вказівника та швидкості натискання"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:31
 msgid "Other updates:"
-msgstr ""
+msgstr "Інші оновлення:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
+"Виправлено виявлення натискань на вторинну кнопку при виборі основної кнопки"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr ""
+"Виправлено проблему, коли вибір основної кнопки не застосовується для мов "
+"зліва направо"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
 msgid "New Sidebar navigation"
-msgstr ""
+msgstr "Нова бічна панель переходів"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:50
 msgid "Fix middle click not appearing"
-msgstr ""
+msgstr "Виправлено, що натискання середньою клавішею не з'являється"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:51
 msgid "Add Double-Click speed"
-msgstr ""
+msgstr "Додано швидкість подвійного натискання"
