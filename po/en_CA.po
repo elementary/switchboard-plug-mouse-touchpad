@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 18:35+0000\n"
-"PO-Revision-Date: 2018-04-05 14:35+0000\n"
-"Last-Translator: Shawn <syst3mfailur3@gmail.com>\n"
-"Language-Team: English (Canada) <https://weblate.elementary.io/projects/"
+"PO-Revision-Date: 2020-10-01 23:14+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: English (Canada) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/en_CA/>\n"
 "Language: en_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:43
@@ -125,7 +125,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
-msgstr ""
+msgstr "Behaviour"
 
 #: src/Views/Clicking.vala:30
 msgid "Primary button:"
@@ -145,7 +145,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
-msgstr ""
+msgstr "seconds"
 
 #: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
@@ -181,7 +181,7 @@ msgstr "Middle click paste:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "Devices"
 
 #: src/Views/Mouse.vala:38 src/Views/Touchpad.vala:49
 msgid "Hardware default"
@@ -209,7 +209,7 @@ msgstr "Natural scrolling:"
 
 #: src/Views/Pointing.vala:35
 msgid "Speed:"
-msgstr ""
+msgstr "Speed:"
 
 #: src/Views/Pointing.vala:43
 msgid "This disables both levels of keys on the numeric keypad"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "Small"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
@@ -225,7 +225,7 @@ msgstr ""
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "Large"
 
 #: src/Views/Pointing.vala:68
 msgid "Pressing the control key will highlight the position of the pointer"
