@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 18:35+0000\n"
-"PO-Revision-Date: 2020-01-15 16:19+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-10-01 23:15+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/sv/>\n"
 "Language: sv\n"
@@ -210,7 +210,7 @@ msgstr ""
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "Liten"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
@@ -218,7 +218,7 @@ msgstr ""
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "Stor"
 
 #: src/Views/Pointing.vala:68
 msgid "Pressing the control key will highlight the position of the pointer"
