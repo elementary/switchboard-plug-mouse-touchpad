@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 18:35+0000\n"
-"PO-Revision-Date: 2018-03-05 23:53+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-01 23:15+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Tamil <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-mouse-touchpad/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/Plug.vala:43
 msgid "Mouse & Touchpad"
@@ -205,7 +208,7 @@ msgstr ""
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr ""
+msgstr "பெரிய"
 
 #: src/Views/Pointing.vala:68
 msgid "Pressing the control key will highlight the position of the pointer"
