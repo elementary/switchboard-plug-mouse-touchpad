@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-28 18:42+0000\n"
-"PO-Revision-Date: 2019-07-02 14:46+0000\n"
+"PO-Revision-Date: 2020-10-24 12:15+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
@@ -33,42 +33,48 @@ msgstr "Configura il mouse e il touchpad"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:52
 msgid "Updated translations"
-msgstr ""
+msgstr "Traduzioni aggiornate"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Fix stretched switches when using large text"
 msgstr ""
+"Correggere gli interruttori allungati quando si utilizza testo di grandi "
+"dimensioni"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
 msgid "New features:"
-msgstr ""
+msgstr "Nuove funzionalità:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:29
 msgid "Add Dwell Click and Pointer size settings"
-msgstr ""
+msgstr "Aggiunge le impostazioni di clic automatico e dimensione del puntatore"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:31
 msgid "Other updates:"
-msgstr ""
+msgstr "Altri aggiornamenti:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
+"Ascolta anche i clic del pulsante secondario quando si seleziona il pulsante "
+"principale"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr ""
+"Risolve un problema in cui la selezione del pulsante principale non si "
+"applica nelle lingue da sinistra a destra"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
 msgid "New Sidebar navigation"
-msgstr ""
+msgstr "Nuova navigazione basata su un menu laterale"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:50
 msgid "Fix middle click not appearing"
-msgstr ""
+msgstr "Risolto il problema con il clic centrale che non veniva visualizzato"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:51
 msgid "Add Double-Click speed"
-msgstr ""
+msgstr "Aggiunta la velocità del doppio clic"
