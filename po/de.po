@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 18:35+0000\n"
-"PO-Revision-Date: 2020-10-01 23:14+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-10-27 06:15+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/de/>\n"
 "Language: de\n"
@@ -30,15 +30,16 @@ msgstr "Maus und Tastfeld einrichten"
 
 #: src/Plug.vala:107 src/Views/Clicking.vala:25
 msgid "Clicking"
-msgstr ""
+msgstr "Klicken"
 
 #: src/Plug.vala:108
 msgid "Double-click speed"
-msgstr ""
+msgstr "Doppelklickgeschwindigkeit"
 
 #: src/Plug.vala:109
+#, fuzzy
 msgid "Dwell click"
-msgstr ""
+msgstr "Dwell-Klick"
 
 #: src/Plug.vala:110
 msgid "Primary button"
@@ -46,7 +47,7 @@ msgstr "Primärtaste"
 
 #: src/Plug.vala:111
 msgid "Long-press secondary click"
-msgstr "Gedrückthalten Sekundär-Klick"
+msgstr "Sekundärklick nach langem Drücken"
 
 #: src/Plug.vala:112
 msgid "Middle click paste"
@@ -67,24 +68,21 @@ msgstr "Zeigerbeschleunigung"
 
 #: src/Plug.vala:117 src/Plug.vala:129
 msgid "Natural scrolling"
-msgstr "Natürliches Scrollen"
+msgstr "Natürlicher Bildlauf"
 
 #: src/Plug.vala:119 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Zeigen"
 
 #: src/Plug.vala:120
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "Zeigergeschwindigkeit:"
+msgstr "Zeigergrö0e"
 
 #: src/Plug.vala:121
 msgid "Reveal pointer"
 msgstr "Mauszeiger hervorheben"
 
 #: src/Plug.vala:122
-#, fuzzy
 msgid "Control pointer using keypad"
 msgstr "Zeiger mit dem Nummernblock steuern"
 
@@ -104,12 +102,11 @@ msgstr "Physisches Klicken"
 
 #: src/Plug.vala:128
 msgid "Scrolling"
-msgstr "Scrollen"
+msgstr "Bildlauf"
 
 #: src/Plug.vala:130
-#, fuzzy
 msgid "Ignore while typing"
-msgstr "Deaktivieren während der Eingabe:"
+msgstr "Bei Texteingabe deaktivieren"
 
 #: src/Plug.vala:131
 msgid "Ignore when mouse is connected"
@@ -135,8 +132,7 @@ msgstr "Rechts"
 #, fuzzy
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
-"Das Gedrückthalten und wieder Loslassen der Primärtaste bewirkt einen "
-"Sekundär-Klick."
+"Primärtaste lange drücken und dann loslassen bewirkt einen Sekundärklick."
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -147,28 +143,28 @@ msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
 #: src/Views/Clicking.vala:111
+#, fuzzy
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Zeiger ruhig halten, um automatisch zu klicken"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Doppelklickgeschwindigkeit:"
 
 #: src/Views/Clicking.vala:126
+#, fuzzy
 msgid "Dwell click:"
-msgstr ""
+msgstr "Dwell-Klick:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Gedrückthalten bewirkt Sekundär-Klick:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
-"Mittel- oder Drei-Finger-Klick auf eine Eingabezeile fügt markierten Text ein"
+"Mittel- oder Drei-Finger-Klick in einen Eingabebereich fügt Text aus "
+"Zwischenablage ein"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
@@ -218,7 +214,7 @@ msgstr "Klein"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "Mittel"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
@@ -233,10 +229,8 @@ msgid "Reveal pointer:"
 msgstr "Mauszeiger hervorheben:"
 
 #: src/Views/Pointing.vala:87
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "Zeigergeschwindigkeit:"
+msgstr "Zeigergröße:"
 
 #: src/Views/Pointing.vala:94
 msgid "Control pointer using keypad:"
@@ -275,9 +269,8 @@ msgid "Scrolling:"
 msgstr "Scrollen:"
 
 #: src/Views/Touchpad.vala:95
-#, fuzzy
 msgid "Ignore while typing:"
-msgstr "Deaktivieren während der Eingabe:"
+msgstr "Bei Texteingabe deaktivieren:"
 
 #: src/Views/Touchpad.vala:97
 msgid "Ignore when mouse is connected:"
