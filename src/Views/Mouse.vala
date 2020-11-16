@@ -33,6 +33,7 @@ public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.hexpand = true;
         pointer_speed_scale.width_request = 160;
+        pointer_speed_scale.add_mark (0, Gtk.PositionType.TOP, null);
         for (double x = -0.75; x < 1; x += 0.25) {
             pointer_speed_scale.add_mark (x, Gtk.PositionType.BOTTOM, null);
         }
