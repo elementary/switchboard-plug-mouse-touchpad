@@ -33,9 +33,9 @@ public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
         pointer_speed_scale.draw_value = false;
         pointer_speed_scale.hexpand = true;
         pointer_speed_scale.width_request = 160;
-        pointer_speed_scale.add_mark (0, Gtk.PositionType.TOP, null);
+        pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
         for (double x = -0.75; x < 1; x += 0.25) {
-            pointer_speed_scale.add_mark (x, Gtk.PositionType.BOTTOM, null);
+            pointer_speed_scale.add_mark (x, Gtk.PositionType.TOP, null);
         }
 
         var accel_profile_default = new Gtk.RadioButton.with_label (null, _("Hardware default"));

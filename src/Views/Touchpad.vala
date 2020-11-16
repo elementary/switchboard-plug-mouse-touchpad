@@ -59,9 +59,9 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, pointer_speed_adjustment);
         pointer_speed_scale.digits = 2;
         pointer_speed_scale.draw_value = false;
-        pointer_speed_scale.add_mark (0, Gtk.PositionType.TOP, null);
+        pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
         for (double x = -0.75; x < 1; x += 0.25) {
-            pointer_speed_scale.add_mark (x, Gtk.PositionType.BOTTOM, null);
+            pointer_speed_scale.add_mark (x, Gtk.PositionType.TOP, null);
         }
 
         var scrolling_combobox = new Gtk.ComboBoxText ();
