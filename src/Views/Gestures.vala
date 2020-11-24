@@ -38,7 +38,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         multitasking_view_combobox.hexpand = true;
         multitasking_view_combobox.append ("three-fingers", _("Swipe up with three fingers"));
         multitasking_view_combobox.append ("four-fingers", _("Swipe up with four fingers"));
-        
+
         // Switch between desktops
         var change_desktop_label = new SettingLabel (_("Switch Workspaces:"));
 
