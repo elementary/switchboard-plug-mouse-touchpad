@@ -4,6 +4,7 @@ plug_files = files(
     'Views/Mouse.vala',
     'Views/Pointing.vala',
     'Views/Touchpad.vala',
+    'Views/Gestures.vala',
     'Widgets/SettingLabel.vala',
 )
 
