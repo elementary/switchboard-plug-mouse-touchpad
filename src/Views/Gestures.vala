@@ -20,7 +20,7 @@
 public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     public GesturesView () {
         Object (
-            icon_name: "input-touchpad-gesture",
+            icon_name: "mouse-touchpad-gestures",
             title: _("Gestures")
         );
     }
@@ -31,8 +31,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         // Multitasking View
         var multitasking_view_label = new SettingLabel (_("Multitasking View:"));
 
-        var multitasking_view_switch = new Gtk.Switch ();
-        multitasking_view_switch.halign = Gtk.Align.START;
+        var multitasking_view_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
 
         var multitasking_view_combobox = new Gtk.ComboBoxText ();
         multitasking_view_combobox.hexpand = true;
@@ -42,8 +44,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         // Switch between desktops
         var change_desktop_label = new SettingLabel (_("Switch Workspaces:"));
 
-        var change_desktop_switch = new Gtk.Switch ();
-        change_desktop_switch.halign = Gtk.Align.START;
+        var change_desktop_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
 
         var change_desktop_combobox = new Gtk.ComboBoxText ();
         change_desktop_combobox.hexpand = true;
@@ -53,8 +57,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         // Maximize or restore a window
         var maximize_label = new SettingLabel (_("Maximize Window:"));
 
-        var maximize_switch = new Gtk.Switch ();
-        maximize_switch.halign = Gtk.Align.START;
+        var maximize_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
 
         var maximize_combobox = new Gtk.ComboBoxText ();
         maximize_combobox.hexpand = true;
@@ -64,8 +70,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         // Tile a window
         var tile_label = new SettingLabel (_("Tile Window:"));
 
-        var tile_switch = new Gtk.Switch ();
-        tile_switch.halign = Gtk.Align.START;
+        var tile_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
 
         var tile_combobox = new Gtk.ComboBoxText ();
         tile_combobox.hexpand = true;
@@ -88,5 +96,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         content_area.attach (tile_label, 0, 3);
         content_area.attach (tile_switch, 1, 3);
         content_area.attach (tile_combobox, 2, 3);
+
+        multitasking_view_switch.bind_property ("active", multitasking_view_combobox, "sensitive", BindingFlags.SYNC_CREATE);
+        change_desktop_switch.bind_property ("active", change_desktop_combobox, "sensitive", BindingFlags.SYNC_CREATE);
+        maximize_switch.bind_property ("active", maximize_combobox, "sensitive", BindingFlags.SYNC_CREATE);
+        tile_switch.bind_property ("active", tile_combobox, "sensitive", BindingFlags.SYNC_CREATE);
     }
 }
