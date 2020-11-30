@@ -9,6 +9,7 @@ You'll need the following dependencies:
 
 * libswitchboard-2.0-dev
 * libgranite-dev
+* libxml2-dev
 * meson
 * valac
 
