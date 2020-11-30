@@ -32,6 +32,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     private Gtk.Switch tile_switch;
     private Gtk.ComboBoxText tile_combobox;
 
+    private GLib.Settings glib_settings = new GLib.Settings ("io.elementary.desktop.wm.gestures");
     private ToucheggConfig touchegg_config = new ToucheggConfig ();
 
     public GesturesView () {
@@ -108,6 +109,9 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     }
 
     private void update_ui () {
+        multitasking_switch.state = glib_settings.get_boolean ("multitasking");
+        multitasking_combobox.active = (glib_settings.get_int ("multitasking-fingers") == 3) ? 0 : 1;
+
         // Maximize or restore a window
         maximize_label.sensitive = !touchegg_config.errors;
         maximize_switch.sensitive = !touchegg_config.errors;
@@ -115,7 +119,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
 
         maximize_switch.state = touchegg_config.maximize_configured;
         maximize_combobox.active = (touchegg_config.maximize_fingers == 4) ? 1 : 0;
-        
+
         // Tile a window
         tile_label.sensitive = !touchegg_config.errors;
         tile_switch.sensitive = !touchegg_config.errors;
