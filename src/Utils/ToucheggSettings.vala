@@ -24,17 +24,39 @@ using Xml.XPath;
 /**
  * Utility class to configure Touchégg based gestures.
  */
-public class MouseTouchpad.ToucheggConfig : GLib.Object {
+public class MouseTouchpad.ToucheggSettings : GLib.Object {
     public bool errors { get; private set; default = false; }
 
-    public bool maximize_configured { get; private set; default = false; }
+    public bool maximize_enabled { get; private set; default = false; }
     public int maximize_fingers { get; private set; default = -1; }
 
-    public bool tile_configured { get; private set; default = false; }
+    public bool tile_enabled { get; private set; default = false; }
     public int tile_fingers { get; private set; default = -1; }
 
-    public ToucheggConfig () {
+    public ToucheggSettings () {
         parse_config ();
+    }
+
+    public void set_maximize_settings (bool enabled, int fingers) {
+        if (errors) {
+            return;
+        }
+
+        // TODO (José Expósito) Update Touchégg settings
+
+        maximize_enabled = enabled;
+        maximize_fingers = fingers;
+    }
+
+    public void set_tile_settings (bool enabled, int fingers) {
+        if (errors) {
+            return;
+        }
+
+        // TODO (José Expósito) Update Touchégg settings
+
+        tile_enabled = enabled;
+        tile_fingers = fingers;
     }
 
     private string get_system_config_path () {
@@ -81,14 +103,14 @@ public class MouseTouchpad.ToucheggConfig : GLib.Object {
         string maximize_xpath = "//application[@name=\"All\"]/gesture/action[@type=\"MAXIMIZE_RESTORE_WINDOW\"]/..";
         maximize_fingers = get_configured_fingers (ctx, maximize_xpath);
         if (maximize_fingers != -1) {
-            maximize_configured = true;
+            maximize_enabled = true;
         }
 
         // Tile window action
         string tile_xpath = "//application[@name=\"All\"]/gesture/action[@type=\"TILE_WINDOW\"]/..";
         tile_fingers = get_configured_fingers (ctx, tile_xpath);
         if (tile_fingers != -1) {
-            tile_configured = true;
+            tile_enabled = true;
         }
 
         delete doc;

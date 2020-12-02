@@ -6,7 +6,7 @@ plug_files = files(
     'Views/Touchpad.vala',
     'Views/Gestures.vala',
     'Widgets/SettingLabel.vala',
-    'Utils/ToucheggConfig.vala',
+    'Utils/ToucheggSettings.vala',
 )
 
 switchboard_dep = dependency('switchboard-2.0')
