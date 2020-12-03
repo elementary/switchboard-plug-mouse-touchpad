@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2011-2020 elementary, Inc. (https://elementary.io)
+ *               2020 José Expósito <jose.exposito89@gmail.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -128,7 +129,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         maximize_combobox.changed.connect (() => update_comboboxes (maximize_combobox));
         maximize_switch.state_set.connect (() => {
             int fingers = int.parse (maximize_combobox.get_active_id ());
-            save_combobox_settings(maximize_combobox, fingers);
+            save_combobox_settings (maximize_combobox, fingers);
             update_ui ();
         });
 
@@ -136,7 +137,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         tile_combobox.changed.connect (() => update_comboboxes (tile_combobox));
         tile_switch.state_set.connect (() => {
             int fingers = int.parse (tile_combobox.get_active_id ());
-            save_combobox_settings(tile_combobox, fingers);
+            save_combobox_settings (tile_combobox, fingers);
             update_ui ();
         });
     }
@@ -144,12 +145,12 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     private void update_comboboxes (Gtk.ComboBoxText combobox) {
         string selection = combobox.get_active_id ();
         int fingers = int.parse (selection);
-        
+
         var linked_combobox = get_linked_combobox (combobox);
         var linked_fingers = (fingers == 3) ? 4 : 3;
 
         save_combobox_settings (combobox, fingers);
-        if (linked_combobox.get_active_id() == selection) {
+        if (linked_combobox.get_active_id () == selection) {
             save_combobox_settings (linked_combobox, linked_fingers);
         }
 
@@ -160,11 +161,11 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         if (combobox == multitasking_combobox) {
             return maximize_combobox;
         }
-        
+
         if (combobox == workspaces_combobox) {
             return tile_combobox;
         }
-        
+
         if (combobox == maximize_combobox) {
             return multitasking_combobox;
         }
@@ -182,12 +183,12 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
             glib_settings.set_int ("multitasking-gesture-fingers", fingers);
             return;
         }
-        
+
         if (combobox == workspaces_combobox) {
             glib_settings.set_int ("workspaces-gesture-fingers", fingers);
             return;
         }
-        
+
         if (combobox == maximize_combobox) {
             bool enabled = maximize_switch.active;
             touchegg_settings.set_maximize_settings (enabled, fingers);
@@ -202,26 +203,49 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     }
 
     private void update_ui () {
-        multitasking_switch.state = glib_settings.get_boolean ("multitasking-gesture-enabled");
-        multitasking_combobox.active = (glib_settings.get_int ("multitasking-gesture-fingers") == 3) ? 0 : 1;
+        // Read the current settings
+        bool multitasking_enabled = glib_settings.get_boolean ("multitasking-gesture-enabled");
+        int multitasking_fingers = glib_settings.get_int ("multitasking-gesture-fingers");
 
-        workspaces_switch.state = glib_settings.get_boolean ("workspaces-gesture-enabled");
-        workspaces_combobox.active = (glib_settings.get_int ("workspaces-gesture-fingers") == 3) ? 0 : 1;
+        bool workspaces_enabled = glib_settings.get_boolean ("workspaces-gesture-enabled");
+        int workspaces_fingers = glib_settings.get_int ("workspaces-gesture-fingers");
+
+        bool maximize_enabled = touchegg_settings.maximize_enabled;
+        int maximize_fingers = touchegg_settings.maximize_fingers;
+
+        bool tile_enabled = touchegg_settings.tile_enabled;
+        int tile_fingers = touchegg_settings.tile_fingers;
+
+        // Multitasking
+        multitasking_switch.state = multitasking_enabled;
+        multitasking_combobox.active = (multitasking_fingers == 3) ? 0 : 1;
+
+        // Workspaces
+        workspaces_switch.state = workspaces_enabled;
+        workspaces_combobox.active = (workspaces_fingers == 3) ? 0 : 1;
 
         // Maximize or restore a window
         maximize_label.sensitive = !touchegg_settings.errors;
         maximize_switch.sensitive = !touchegg_settings.errors;
-        maximize_combobox.sensitive = !touchegg_settings.errors && touchegg_settings.maximize_enabled;
+        maximize_combobox.sensitive = !touchegg_settings.errors && maximize_enabled;
 
-        maximize_switch.state = touchegg_settings.maximize_enabled;
-        maximize_combobox.active = (touchegg_settings.maximize_fingers == 4) ? 1 : 0;
+        maximize_switch.state = maximize_enabled;
+        if (maximize_enabled) {
+            maximize_combobox.active = (maximize_fingers == 3) ? 0 : 1;
+        } else {
+            maximize_combobox.active = (multitasking_fingers == 3) ? 1 : 0;
+        }
 
         // Tile a window
         tile_label.sensitive = !touchegg_settings.errors;
         tile_switch.sensitive = !touchegg_settings.errors;
-        tile_combobox.sensitive = !touchegg_settings.errors && touchegg_settings.tile_enabled;
+        tile_combobox.sensitive = !touchegg_settings.errors && tile_enabled;
 
-        tile_switch.state = touchegg_settings.tile_enabled;
-        tile_combobox.active = (touchegg_settings.tile_fingers == 4) ? 1 : 0;
+        tile_switch.state = tile_enabled;
+        if (tile_enabled) {
+            tile_combobox.active = (tile_fingers == 3) ? 0 : 1;
+        } else {
+            tile_combobox.active = (workspaces_fingers == 3) ? 1 : 0;
+        }
     }
 }
