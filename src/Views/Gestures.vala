@@ -33,8 +33,8 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     private Gtk.Switch tile_switch;
     private Gtk.ComboBoxText tile_combobox;
 
-    private GLib.Settings glib_settings = new GLib.Settings ("io.elementary.desktop.wm.gestures");
-    private ToucheggSettings touchegg_settings = new ToucheggSettings ();
+    private GLib.Settings glib_settings;
+    private ToucheggSettings touchegg_settings;
 
     public GesturesView () {
         Object (
@@ -44,6 +44,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     }
 
     construct {
+        glib_settings = new GLib.Settings ("io.elementary.desktop.wm.gestures");
+        touchegg_settings = new ToucheggSettings ();
+        touchegg_settings.parse_config ();
+
         // Multitasking View
         var multitasking_label = new SettingLabel (_("Multitasking View:"));
 

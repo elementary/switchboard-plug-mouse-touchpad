@@ -33,17 +33,24 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
     public bool tile_enabled { get; private set; default = false; }
     public int tile_fingers { get; private set; default = -1; }
 
-    private string system_config_path = Path.build_filename (GLib.Path.DIR_SEPARATOR_S, "usr", "share", "touchegg", "touchegg.conf");
-    private string user_config_dir_path = Path.build_filename (GLib.Environment.get_home_dir (), ".config", "touchegg");
-    private string user_config_path = Path.build_filename (GLib.Environment.get_home_dir (), ".config", "touchegg", "touchegg.conf");
+    private string system_config_path;
+    private string user_config_dir_path;
+    private string user_config_path;
 
     private const string SETTINGS_XPATH = "//application[@name=\"All\"]";
     private const string MAXIMIZE_XPATH = "//application[@name=\"All\"]/gesture/action[@type=\"MAXIMIZE_RESTORE_WINDOW\"]/..";
     private const string TILE_XPATH = "//application[@name=\"All\"]/gesture/action[@type=\"TILE_WINDOW\"]/..";
 
-
     public ToucheggSettings () {
-        parse_config ();
+        system_config_path = Path.build_filename (GLib.Path.DIR_SEPARATOR_S, "usr", "share", "touchegg", "touchegg.conf");
+        user_config_dir_path = Path.build_filename (GLib.Environment.get_home_dir (), ".config", "touchegg");
+        user_config_path = Path.build_filename (GLib.Environment.get_home_dir (), ".config", "touchegg", "touchegg.conf");
+    }
+
+    public bool is_installed () {
+        bool config_installed = File.new_for_path (system_config_path).query_exists ();
+        var gala_schema = SettingsSchemaSource.get_default ().lookup ("io.elementary.desktop.wm.gestures", false);
+        return config_installed && (gala_schema != null);
     }
 
     public void set_maximize_settings (bool enabled, int fingers) {
@@ -72,12 +79,10 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
     }
 
     private bool user_config_exists () {
-        string path = user_config_path;
-        File file = File.new_for_path (path);
-        return file.query_exists ();
+        return File.new_for_path (user_config_path).query_exists ();
     }
 
-    private void parse_config () {
+    public void parse_config () {
         Xml.Doc* doc = null;
 
         try {
@@ -87,7 +92,7 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
             doc = Parser.parse_file (config_path);
 
             if (doc == null) {
-                throw new GLib.IOError.FAILED (@"Error parsing config \"$(config_path)\"");
+                throw new GLib.IOError.FAILED ("Error parsing config: %s", config_path);
             }
 
             Context ctx = new Context (doc);
@@ -109,7 +114,7 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
 
             errors = false;
         } catch (GLib.Error e) {
-            warning (@"Error parsing Touchégg config: $(e.message)");
+            warning ("Error parsing Touchégg config: %s", e.message);
             errors = true;
         } finally {
             if (doc != null) {
@@ -159,7 +164,7 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
             doc = Parser.parse_file (config_path);
 
             if (doc == null) {
-                throw new GLib.IOError.FAILED (@"Error parsing config \"$(config_path)\"");
+                throw new GLib.IOError.FAILED ("Error parsing config: %s", config_path);
             }
 
             Context ctx = new Context (doc);
@@ -172,7 +177,7 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
             if (enabled) {
                 Xml.XPath.Object* obj = ctx.eval_expression (SETTINGS_XPATH);
                 if (obj == null) {
-                    throw new GLib.IOError.FAILED (@"XPath $(SETTINGS_XPATH) not found");
+                    throw new GLib.IOError.FAILED ("XPath %s not found", SETTINGS_XPATH);
                 }
 
                 if (obj->nodesetval != null && obj->nodesetval->item (0) != null) {
@@ -188,7 +193,7 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
             doc->save_file (config_path);
             errors = false;
         } catch (GLib.Error e) {
-            warning (@"Error saving Touchégg config: $(e.message)");
+            warning ("Error saving Touchégg config: %s", e.message);
             errors = true;
         } finally {
             if (doc != null) {
@@ -220,13 +225,13 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
     private static void append_xml (Xml.Node* node, string xml) throws GLib.IOError.FAILED {
         Xml.Doc* doc = Parser.read_memory (xml, xml.length);
         if (doc == null) {
-            throw new GLib.IOError.FAILED (@"Error parsing XML string: \"$(xml)\"");
+            throw new GLib.IOError.FAILED ("Error parsing XML string: %s", xml);
         }
 
         Xml.Node* root = doc->get_root_element ()->doc_copy (node->doc, 1);
         if (root == null) {
             delete doc;
-            throw new GLib.IOError.FAILED (@"Error getting root element of XML string: \"$(xml)\"");
+            throw new GLib.IOError.FAILED ("Error getting root element of XML string: %s", xml);
         }
 
         node->add_child (root);
@@ -234,34 +239,34 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
     }
 
     private static string build_maximize_xml (int fingers) {
-        return @"
-            <gesture type=\"SWIPE\" fingers=\"$(fingers)\" direction=\"UP\">
+        return "
+            <gesture type=\"SWIPE\" fingers=\"%d\" direction=\"UP\">
                 <action type=\"MAXIMIZE_RESTORE_WINDOW\">
                     <animate>true</animate>
                 </action>
             </gesture>
-        ";
+        ".printf (fingers);
     }
 
     private static string build_tile_left_xml (int fingers) {
-        return @"
-            <gesture type=\"SWIPE\" fingers=\"$(fingers)\" direction=\"LEFT\">
+        return "
+            <gesture type=\"SWIPE\" fingers=\"%d\" direction=\"LEFT\">
                 <action type=\"TILE_WINDOW\">
                     <direction>left</direction>
                     <animate>true</animate>
                 </action>
             </gesture>
-        ";
+        ".printf (fingers);
     }
 
     private static string build_tile_right_xml (int fingers) {
-        return @"
-            <gesture type=\"SWIPE\" fingers=\"$(fingers)\" direction=\"RIGHT\">
+        return "
+            <gesture type=\"SWIPE\" fingers=\"%d\" direction=\"RIGHT\">
                 <action type=\"TILE_WINDOW\">
                 <direction>right</direction>
                 <animate>true</animate>
                 </action>
             </gesture>
-        ";
+        ".printf (fingers);
     }
 }
