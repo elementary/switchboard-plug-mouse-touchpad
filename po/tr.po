@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 01:02+0000\n"
-"PO-Revision-Date: 2020-04-12 11:10+0000\n"
-"Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
+"PO-Revision-Date: 2020-12-18 06:56+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
 "Language: tr\n"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: src/Plug.vala:151
 msgid "Multitasking View"
-msgstr ""
+msgstr "Çoklu Görev Görünümü"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
