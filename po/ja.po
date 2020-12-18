@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2020-12-18 06:55+0000\n"
+"PO-Revision-Date: 2020-12-19 11:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -188,47 +188,39 @@ msgstr "中クリックで貼り付け:"
 
 #. Multitasking View
 #: src/Views/Gestures.vala:52
-#, fuzzy
-#| msgid "Multitasking View"
 msgid "Multitasking View:"
-msgstr "マルチタスク画面"
+msgstr "マルチタスク画面:"
 
 #: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
 msgid "Swipe up with three fingers"
-msgstr ""
+msgstr "3本指で上にスワイプ"
 
 #: src/Views/Gestures.vala:62 src/Views/Gestures.vala:88
 msgid "Swipe up with four fingers"
-msgstr ""
+msgstr "4本指で上にスワイプ"
 
 #. Switch between desktops
 #: src/Views/Gestures.vala:65
-#, fuzzy
-#| msgid "Switch Workspaces"
 msgid "Switch Workspaces:"
-msgstr "ワークスペースを切り替え"
+msgstr "ワークスペースを切り替え:"
 
 #: src/Views/Gestures.vala:74 src/Views/Gestures.vala:100
 msgid "Swipe left or right with three fingers"
-msgstr ""
+msgstr "3本指で左右にスワイプ"
 
 #: src/Views/Gestures.vala:75 src/Views/Gestures.vala:101
 msgid "Swipe left or right with four fingers"
-msgstr ""
+msgstr "4本指で左右にスワイプ"
 
 #. Maximize or restore a window
 #: src/Views/Gestures.vala:78
-#, fuzzy
-#| msgid "Maximize Window"
 msgid "Maximize Window:"
-msgstr "ウィンドウを最大化"
+msgstr "ウィンドウを最大化:"
 
 #. Tile a window
 #: src/Views/Gestures.vala:91
-#, fuzzy
-#| msgid "Tile Window"
 msgid "Tile Window:"
-msgstr "ウィンドウを並べる"
+msgstr "ウィンドウを並べる:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
