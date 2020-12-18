@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2020-12-18 06:56+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-12-19 11:16+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-02-20 06:00+0000\n"
 
@@ -115,7 +115,7 @@ msgstr "Вимикати, якщо під'єднано мишу"
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
 #: src/Plug.vala:154 src/Views/Gestures.vala:42
 msgid "Gestures"
-msgstr ""
+msgstr "Жести"
 
 #: src/Plug.vala:151
 msgid "Multitasking View"
@@ -123,15 +123,15 @@ msgstr "Багатозадачне подання"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "Перемкнути робочий простір"
 
 #: src/Plug.vala:153
 msgid "Maximize Window"
-msgstr ""
+msgstr "Розгорнути вікно"
 
 #: src/Plug.vala:154
 msgid "Tile Window"
-msgstr ""
+msgstr "Мозаїчні вікна"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -190,41 +190,39 @@ msgstr "Вставити натисканням середньої кнопки:
 
 #. Multitasking View
 #: src/Views/Gestures.vala:52
-#, fuzzy
-#| msgid "Multitasking View"
 msgid "Multitasking View:"
-msgstr "Багатозадачне подання"
+msgstr "Багатозадачне подання:"
 
 #: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
 msgid "Swipe up with three fingers"
-msgstr ""
+msgstr "Провести трьома пальцями вгору"
 
 #: src/Views/Gestures.vala:62 src/Views/Gestures.vala:88
 msgid "Swipe up with four fingers"
-msgstr ""
+msgstr "Провести чотирма пальцями вгору"
 
 #. Switch between desktops
 #: src/Views/Gestures.vala:65
 msgid "Switch Workspaces:"
-msgstr ""
+msgstr "Перемкнути робочі простори:"
 
 #: src/Views/Gestures.vala:74 src/Views/Gestures.vala:100
 msgid "Swipe left or right with three fingers"
-msgstr ""
+msgstr "Провести трьома пальцями ліворуч або праворуч"
 
 #: src/Views/Gestures.vala:75 src/Views/Gestures.vala:101
 msgid "Swipe left or right with four fingers"
-msgstr ""
+msgstr "Провести чотирма пальцями ліворуч або праворуч"
 
 #. Maximize or restore a window
 #: src/Views/Gestures.vala:78
 msgid "Maximize Window:"
-msgstr ""
+msgstr "Розгорнути вікно:"
 
 #. Tile a window
 #: src/Views/Gestures.vala:91
 msgid "Tile Window:"
-msgstr ""
+msgstr "Мозаїчне вікно:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
