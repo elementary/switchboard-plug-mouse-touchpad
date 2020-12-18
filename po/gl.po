@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 01:02+0000\n"
-"PO-Revision-Date: 2020-10-01 23:14+0000\n"
+"PO-Revision-Date: 2020-12-18 06:56+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/gl/>\n"
@@ -117,7 +117,7 @@ msgstr ""
 
 #: src/Plug.vala:151
 msgid "Multitasking View"
-msgstr ""
+msgstr "Vista multitarefa"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
