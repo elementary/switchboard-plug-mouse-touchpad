@@ -4,7 +4,9 @@ plug_files = files(
     'Views/Mouse.vala',
     'Views/Pointing.vala',
     'Views/Touchpad.vala',
+    'Views/Gestures.vala',
     'Widgets/SettingLabel.vala',
+    'Utils/ToucheggSettings.vala',
 )
 
 switchboard_dep = dependency('switchboard-2.0')
@@ -20,6 +22,7 @@ shared_module(
         dependency('gobject-2.0'),
         dependency('granite'),
         dependency('gtk+-3.0'),
+        dependency('libxml-2.0'),
         switchboard_dep
     ],
     install: true,

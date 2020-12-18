@@ -17,5 +17,9 @@
     <file alias="32x32@2/categories/mouse-touchpad-clicking.svg" compressed="true" preprocess="xml-stripblanks">clicking/32.svg</file>
     <file alias="48x48/categories/mouse-touchpad-clicking.svg" compressed="true" preprocess="xml-stripblanks">clicking/48.svg</file>
     <file alias="48x48@2/categories/mouse-touchpad-clicking.svg" compressed="true" preprocess="xml-stripblanks">clicking/48.svg</file>
+    <file alias="32x32@2/categories/mouse-touchpad-gestures.svg" compressed="true" preprocess="xml-stripblanks">gestures/32.svg</file>
+    <file alias="32x32/categories/mouse-touchpad-gestures.svg" compressed="true" preprocess="xml-stripblanks">gestures/32.svg</file>
+    <file alias="48x48@2/categories/mouse-touchpad-gestures.svg" compressed="true" preprocess="xml-stripblanks">gestures/48.svg</file>
+    <file alias="48x48/categories/mouse-touchpad-gestures.svg" compressed="true" preprocess="xml-stripblanks">gestures/48.svg</file>
   </gresource>
 </gresources>

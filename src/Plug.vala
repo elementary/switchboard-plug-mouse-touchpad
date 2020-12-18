@@ -25,6 +25,12 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
     private MouseView mouse_view;
     private PointingView pointing_view;
     private TouchpadView touchpad_view;
+    private GesturesView gestures_view;
+    private bool show_gestures_view;
+
+    construct {
+        show_gestures_view = new ToucheggSettings ().is_installed ();
+    }
 
     public Plug () {
         var settings = new Gee.TreeMap<string, string?> (null, null);
@@ -32,6 +38,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         settings.set ("input/pointer/mouse", "mouse");
         settings.set ("input/pointer/pointing", "pointing");
         settings.set ("input/pointer/touch", "touchpad");
+        settings.set ("input/pointer/gestures", "gestures");
         settings.set ("input/pointer", "clicking");
         // deprecated
         settings.set ("input/mouse", null);
@@ -60,6 +67,12 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             stack = new Gtk.Stack ();
             stack.add_named (clicking_view, "clicking");
             stack.add_named (pointing_view, "pointing");
+
+            if (show_gestures_view) {
+                gestures_view = new GesturesView ();
+                stack.add_named (gestures_view, "gestures");
+            }
+
             stack.add_named (mouse_view, "mouse");
             stack.add_named (touchpad_view, "touchpad");
 
@@ -90,6 +103,9 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
                 break;
             case "touchpad":
                 stack.set_visible_child_name ("touchpad");
+                break;
+            case "gestures":
+                stack.set_visible_child_name ("gestures");
                 break;
             case "clicking":
             default:
@@ -129,6 +145,15 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Natural scrolling")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore while typing")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore when mouse is connected")), "touchpad");
+
+        if (show_gestures_view) {
+            search_results.set ("%s → %s".printf (display_name, _("Gestures")), "gestures");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Gestures"), _("Multitasking View")), "gestures");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Gestures"), _("Switch Workspaces")), "gestures");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Gestures"), _("Maximize Window")), "gestures");
+            search_results.set ("%s → %s → %s".printf (display_name, _("Gestures"), _("Tile Window")), "gestures");
+        }
+
         return search_results;
     }
 }
