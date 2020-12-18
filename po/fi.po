@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-18 01:02+0000\n"
+"POT-Creation-Date: 2020-12-18 06:56+0000\n"
 "PO-Revision-Date: 2020-12-18 06:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -112,7 +112,7 @@ msgid "Ignore when mouse is connected"
 msgstr "Poista käytöstä kun hiiri on yhdistetty"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Plug.vala:154
+#: src/Plug.vala:154 src/Views/Gestures.vala:42
 msgid "Gestures"
 msgstr ""
 
@@ -191,6 +191,44 @@ msgstr ""
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
 msgstr "Liittäminen keskimmäistä napsauttamalla:"
+
+#. Multitasking View
+#: src/Views/Gestures.vala:52
+#, fuzzy
+#| msgid "Multitasking View"
+msgid "Multitasking View:"
+msgstr "Moniajonäkymä"
+
+#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
+msgid "Swipe up with three fingers"
+msgstr ""
+
+#: src/Views/Gestures.vala:62 src/Views/Gestures.vala:88
+msgid "Swipe up with four fingers"
+msgstr ""
+
+#. Switch between desktops
+#: src/Views/Gestures.vala:65
+msgid "Switch Workspaces:"
+msgstr ""
+
+#: src/Views/Gestures.vala:74 src/Views/Gestures.vala:100
+msgid "Swipe left or right with three fingers"
+msgstr ""
+
+#: src/Views/Gestures.vala:75 src/Views/Gestures.vala:101
+msgid "Swipe left or right with four fingers"
+msgstr ""
+
+#. Maximize or restore a window
+#: src/Views/Gestures.vala:78
+msgid "Maximize Window:"
+msgstr ""
+
+#. Tile a window
+#: src/Views/Gestures.vala:91
+msgid "Tile Window:"
+msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
