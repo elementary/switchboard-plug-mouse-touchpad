@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 01:02+0000\n"
-"PO-Revision-Date: 2020-01-19 13:08+0000\n"
+"PO-Revision-Date: 2020-12-18 06:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -114,23 +114,23 @@ msgstr "マウス接続時は無効にする"
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
 #: src/Plug.vala:154
 msgid "Gestures"
-msgstr ""
+msgstr "ジェスチャー"
 
 #: src/Plug.vala:151
 msgid "Multitasking View"
-msgstr ""
+msgstr "マルチタスク画面"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "ワークスペースを切り替え"
 
 #: src/Plug.vala:153
 msgid "Maximize Window"
-msgstr ""
+msgstr "ウィンドウを最大化"
 
 #: src/Plug.vala:154
 msgid "Tile Window"
-msgstr ""
+msgstr "ウィンドウを並べる"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
