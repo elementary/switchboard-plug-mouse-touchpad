@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2020-12-18 06:57+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-12-19 11:16+0000\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -105,7 +105,7 @@ msgstr "滚动设置"
 
 #: src/Plug.vala:146
 msgid "Ignore while typing"
-msgstr "输入时禁用"
+msgstr "键盘输入时禁用"
 
 #: src/Plug.vala:147
 msgid "Ignore when mouse is connected"
@@ -114,7 +114,7 @@ msgstr "接入鼠标时忽略"
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
 #: src/Plug.vala:154 src/Views/Gestures.vala:42
 msgid "Gestures"
-msgstr ""
+msgstr "手势控制"
 
 #: src/Plug.vala:151
 msgid "Multitasking View"
@@ -122,15 +122,15 @@ msgstr "多任务视图"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "切换工作区"
 
 #: src/Plug.vala:153
 msgid "Maximize Window"
-msgstr ""
+msgstr "窗口最大化"
 
 #: src/Plug.vala:154
 msgid "Tile Window"
-msgstr ""
+msgstr "窗口分屏"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -142,11 +142,11 @@ msgstr "主按键："
 
 #: src/Views/Clicking.vala:35
 msgid "Left"
-msgstr "左声道"
+msgstr "左键"
 
 #: src/Views/Clicking.vala:39
 msgid "Right"
-msgstr "右声道"
+msgstr "右键"
 
 #: src/Views/Clicking.vala:58
 msgid "Long-press and release the primary button to secondary click"
@@ -193,34 +193,34 @@ msgstr "多任务视图"
 
 #: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
 msgid "Swipe up with three fingers"
-msgstr ""
+msgstr "三指上滑"
 
 #: src/Views/Gestures.vala:62 src/Views/Gestures.vala:88
 msgid "Swipe up with four fingers"
-msgstr ""
+msgstr "四指上滑"
 
 #. Switch between desktops
 #: src/Views/Gestures.vala:65
 msgid "Switch Workspaces:"
-msgstr ""
+msgstr "切换工作区："
 
 #: src/Views/Gestures.vala:74 src/Views/Gestures.vala:100
 msgid "Swipe left or right with three fingers"
-msgstr ""
+msgstr "三指左右滑动"
 
 #: src/Views/Gestures.vala:75 src/Views/Gestures.vala:101
 msgid "Swipe left or right with four fingers"
-msgstr ""
+msgstr "四指左右滑动"
 
 #. Maximize or restore a window
 #: src/Views/Gestures.vala:78
 msgid "Maximize Window:"
-msgstr ""
+msgstr "窗口最大化："
 
 #. Tile a window
 #: src/Views/Gestures.vala:91
 msgid "Tile Window:"
-msgstr ""
+msgstr "窗口分屏："
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -320,7 +320,7 @@ msgstr "滚动设置："
 
 #: src/Views/Touchpad.vala:98
 msgid "Ignore while typing:"
-msgstr "输入时禁用："
+msgstr "键盘输入时禁用："
 
 #: src/Views/Touchpad.vala:100
 msgid "Ignore when mouse is connected:"
