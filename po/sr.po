@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2020-12-19 11:16+0000\n"
+"PO-Revision-Date: 2020-12-23 07:16+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/sr/>\n"
@@ -167,7 +167,7 @@ msgstr "Задржите показивач све до аутоматског �
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr "Брзина двоклика"
+msgstr "Брзина двоклика:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
@@ -285,7 +285,7 @@ msgstr "Величина показивача:"
 
 #: src/Views/Pointing.vala:94
 msgid "Control pointer using keypad:"
-msgstr "Управљајте показивачем користећи тастатуру"
+msgstr "Управљај показивачем користећи тастатуру:"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
