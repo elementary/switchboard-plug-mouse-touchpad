@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2020-12-18 06:57+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-12-24 21:16+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/mr/>\n"
 "Language: mr\n"
@@ -113,7 +113,7 @@ msgstr "माउस जोडल्यास दुर्लक्ष करा
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
 #: src/Plug.vala:154 src/Views/Gestures.vala:42
 msgid "Gestures"
-msgstr ""
+msgstr "जेश्चर"
 
 #: src/Plug.vala:151
 msgid "Multitasking View"
@@ -121,15 +121,15 @@ msgstr "मल्टीटास्किंग दृश्य"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "वर्कस्पेसेस स्विच करा"
 
 #: src/Plug.vala:153
 msgid "Maximize Window"
-msgstr ""
+msgstr "विंडो मोठी करा"
 
 #: src/Plug.vala:154
 msgid "Tile Window"
-msgstr ""
+msgstr "विंडो टाइल करा"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -185,41 +185,39 @@ msgstr "मध्य क्लिक पेस्ट:"
 
 #. Multitasking View
 #: src/Views/Gestures.vala:52
-#, fuzzy
-#| msgid "Multitasking View"
 msgid "Multitasking View:"
-msgstr "मल्टीटास्किंग दृश्य"
+msgstr "मल्टीटास्किंग दृश्य:"
 
 #: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
 msgid "Swipe up with three fingers"
-msgstr ""
+msgstr "तीन बोटांनी स्वाइप करा"
 
 #: src/Views/Gestures.vala:62 src/Views/Gestures.vala:88
 msgid "Swipe up with four fingers"
-msgstr ""
+msgstr "चार बोटांनी स्वाइप करा"
 
 #. Switch between desktops
 #: src/Views/Gestures.vala:65
 msgid "Switch Workspaces:"
-msgstr ""
+msgstr "वर्कस्पेसेस स्विच करा:"
 
 #: src/Views/Gestures.vala:74 src/Views/Gestures.vala:100
 msgid "Swipe left or right with three fingers"
-msgstr ""
+msgstr "तीन बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
 
 #: src/Views/Gestures.vala:75 src/Views/Gestures.vala:101
 msgid "Swipe left or right with four fingers"
-msgstr ""
+msgstr "चार बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
 
 #. Maximize or restore a window
 #: src/Views/Gestures.vala:78
 msgid "Maximize Window:"
-msgstr ""
+msgstr "विंडो मोठी करा:"
 
 #. Tile a window
 #: src/Views/Gestures.vala:91
 msgid "Tile Window:"
-msgstr ""
+msgstr "डो टाइल करा:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
