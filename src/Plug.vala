@@ -151,7 +151,6 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             search_results.set ("%s → %s → %s".printf (display_name, _("Gestures"), _("Multitasking View")), "gestures");
             search_results.set ("%s → %s → %s".printf (display_name, _("Gestures"), _("Switch Workspaces")), "gestures");
             search_results.set ("%s → %s → %s".printf (display_name, _("Gestures"), _("Maximize Window")), "gestures");
-            search_results.set ("%s → %s → %s".printf (display_name, _("Gestures"), _("Tile Window")), "gestures");
         }
 
         return search_results;

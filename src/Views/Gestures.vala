@@ -29,10 +29,6 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     private Gtk.Switch maximize_switch;
     private Gtk.ComboBoxText maximize_combobox;
 
-    private SettingLabel tile_label;
-    private Gtk.Switch tile_switch;
-    private Gtk.ComboBoxText tile_combobox;
-
     private GLib.Settings glib_settings;
     private ToucheggSettings touchegg_settings;
 
@@ -87,19 +83,6 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         maximize_combobox.append ("3", _("Swipe up with three fingers"));
         maximize_combobox.append ("4", _("Swipe up with four fingers"));
 
-        // Tile a window
-        tile_label = new SettingLabel (_("Tile Window:"));
-
-        tile_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
-
-        tile_combobox = new Gtk.ComboBoxText ();
-        tile_combobox.hexpand = true;
-        tile_combobox.append ("3", _("Swipe left or right with three fingers"));
-        tile_combobox.append ("4", _("Swipe left or right with four fingers"));
-
         // Place the widgets
         content_area.attach (multitasking_label, 0, 0);
         content_area.attach (multitasking_switch, 1, 0);
@@ -112,10 +95,6 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         content_area.attach (maximize_label, 0, 2);
         content_area.attach (maximize_switch, 1, 2);
         content_area.attach (maximize_combobox, 2, 2);
-
-        content_area.attach (tile_label, 0, 3);
-        content_area.attach (tile_switch, 1, 3);
-        content_area.attach (tile_combobox, 2, 3);
 
         // Show the configuration
         update_ui ();
@@ -136,14 +115,6 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
             save_combobox_settings (maximize_combobox, fingers);
             update_ui ();
         });
-
-        tile_switch.bind_property ("active", tile_combobox, "sensitive", BindingFlags.SYNC_CREATE);
-        tile_combobox.changed.connect (() => update_comboboxes (tile_combobox));
-        tile_switch.state_set.connect (() => {
-            int fingers = int.parse (tile_combobox.get_active_id ());
-            save_combobox_settings (tile_combobox, fingers);
-            update_ui ();
-        });
     }
 
     private void update_comboboxes (Gtk.ComboBoxText combobox) {
@@ -154,7 +125,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         var linked_fingers = (fingers == 3) ? 4 : 3;
 
         save_combobox_settings (combobox, fingers);
-        if (linked_combobox.get_active_id () == selection) {
+        if (linked_combobox != null && linked_combobox.get_active_id () == selection) {
             save_combobox_settings (linked_combobox, linked_fingers);
         }
 
@@ -166,19 +137,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
             return maximize_combobox;
         }
 
-        if (combobox == workspaces_combobox) {
-            return tile_combobox;
-        }
-
         if (combobox == maximize_combobox) {
             return multitasking_combobox;
         }
 
-        if (combobox == tile_combobox) {
-            return workspaces_combobox;
-        }
-
-        // Unreachable
         return null;
     }
 
@@ -198,12 +160,6 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
             touchegg_settings.set_maximize_settings (enabled, fingers);
             return;
         }
-
-        if (combobox == tile_combobox) {
-            bool enabled = tile_switch.active;
-            touchegg_settings.set_tile_settings (enabled, fingers);
-            return;
-        }
     }
 
     private void update_ui () {
@@ -216,9 +172,6 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
 
         bool maximize_enabled = touchegg_settings.maximize_enabled;
         int maximize_fingers = touchegg_settings.maximize_fingers;
-
-        bool tile_enabled = touchegg_settings.tile_enabled;
-        int tile_fingers = touchegg_settings.tile_fingers;
 
         // Multitasking
         multitasking_switch.state = multitasking_enabled;
@@ -238,18 +191,6 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
             maximize_combobox.active = (maximize_fingers == 3) ? 0 : 1;
         } else {
             maximize_combobox.active = (multitasking_fingers == 3) ? 1 : 0;
-        }
-
-        // Tile a window
-        tile_label.sensitive = !touchegg_settings.errors;
-        tile_switch.sensitive = !touchegg_settings.errors;
-        tile_combobox.sensitive = !touchegg_settings.errors && tile_enabled;
-
-        tile_switch.state = tile_enabled;
-        if (tile_enabled) {
-            tile_combobox.active = (tile_fingers == 3) ? 0 : 1;
-        } else {
-            tile_combobox.active = (workspaces_fingers == 3) ? 1 : 0;
         }
     }
 }
