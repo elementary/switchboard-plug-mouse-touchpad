@@ -30,16 +30,12 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
     public bool maximize_enabled { get; private set; default = false; }
     public int maximize_fingers { get; private set; default = -1; }
 
-    public bool tile_enabled { get; private set; default = false; }
-    public int tile_fingers { get; private set; default = -1; }
-
     private string system_config_path;
     private string user_config_dir_path;
     private string user_config_path;
 
     private const string SETTINGS_XPATH = "//application[@name=\"All\"]";
     private const string MAXIMIZE_XPATH = "//application[@name=\"All\"]/gesture/action[@type=\"MAXIMIZE_RESTORE_WINDOW\"]/..";
-    private const string TILE_XPATH = "//application[@name=\"All\"]/gesture/action[@type=\"TILE_WINDOW\"]/..";
 
     public ToucheggSettings () {
         system_config_path = Path.build_filename (GLib.Path.DIR_SEPARATOR_S, "usr", "share", "touchegg", "touchegg.conf");
@@ -62,19 +58,6 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
             maximize_fingers = fingers;
         } else {
             maximize_enabled = false;
-        }
-    }
-
-    public void set_tile_settings (bool enabled, int fingers) {
-        string tile_left_xml = build_tile_left_xml (fingers);
-        string tile_right_xml = build_tile_right_xml (fingers);
-        save_config (TILE_XPATH, enabled, {tile_left_xml, tile_right_xml});
-
-        if (!errors) {
-            tile_enabled = enabled;
-            tile_fingers = fingers;
-        } else {
-            tile_enabled = false;
         }
     }
 
@@ -104,12 +87,6 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
             maximize_fingers = get_configured_fingers (ctx, MAXIMIZE_XPATH);
             if (maximize_fingers != -1) {
                 maximize_enabled = true;
-            }
-
-            // Tile window action
-            tile_fingers = get_configured_fingers (ctx, TILE_XPATH);
-            if (tile_fingers != -1) {
-                tile_enabled = true;
             }
 
             errors = false;
@@ -243,28 +220,6 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
             <gesture type=\"SWIPE\" fingers=\"%d\" direction=\"UP\">
                 <action type=\"MAXIMIZE_RESTORE_WINDOW\">
                     <animate>true</animate>
-                </action>
-            </gesture>
-        ".printf (fingers);
-    }
-
-    private static string build_tile_left_xml (int fingers) {
-        return "
-            <gesture type=\"SWIPE\" fingers=\"%d\" direction=\"LEFT\">
-                <action type=\"TILE_WINDOW\">
-                    <direction>left</direction>
-                    <animate>true</animate>
-                </action>
-            </gesture>
-        ".printf (fingers);
-    }
-
-    private static string build_tile_right_xml (int fingers) {
-        return "
-            <gesture type=\"SWIPE\" fingers=\"%d\" direction=\"RIGHT\">
-                <action type=\"TILE_WINDOW\">
-                <direction>right</direction>
-                <animate>true</animate>
                 </action>
             </gesture>
         ".printf (fingers);
