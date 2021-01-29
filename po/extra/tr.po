@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-28 18:42+0000\n"
-"PO-Revision-Date: 2021-01-29 11:39+0000\n"
-"Last-Translator: noyana <noyana@gmail.com>\n"
+"PO-Revision-Date: 2021-01-29 13:54+0000\n"
+"Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/tr/>\n"
 "Language: tr\n"
@@ -37,7 +37,7 @@ msgstr "Çeviriler güncellendi"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Fix stretched switches when using large text"
-msgstr "Büyük metin kullanırken genişleyen anahtarları düzeltir"
+msgstr "Büyük metin kullanırken genişleyen anahtarlar düzeltildi"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
 msgid "New features:"
