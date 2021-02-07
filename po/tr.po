@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2020-12-19 11:16+0000\n"
+"PO-Revision-Date: 2021-02-07 13:42+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:50
@@ -194,11 +194,11 @@ msgstr "Çoklu Görev Görünümü:"
 
 #: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
 msgid "Swipe up with three fingers"
-msgstr "Üç parmağınızla yukarı doğru hızla çekin"
+msgstr "Üç parmağınızla yukarı doğru hızla kaydırın"
 
 #: src/Views/Gestures.vala:62 src/Views/Gestures.vala:88
 msgid "Swipe up with four fingers"
-msgstr "Dört parmağınızla yukarı doğru hızla çekin"
+msgstr "Dört parmağınızla yukarı doğru hızla kaydırın"
 
 #. Switch between desktops
 #: src/Views/Gestures.vala:65
@@ -207,11 +207,11 @@ msgstr "Çalışma Alanlarını Değiştir:"
 
 #: src/Views/Gestures.vala:74 src/Views/Gestures.vala:100
 msgid "Swipe left or right with three fingers"
-msgstr "Üç parmağınızla sola veya sağa doğru çekin"
+msgstr "Üç parmağınızla sola veya sağa doğru kaydırın"
 
 #: src/Views/Gestures.vala:75 src/Views/Gestures.vala:101
 msgid "Swipe left or right with four fingers"
-msgstr "Dört parmağınızla sola veya sağa doğru çekin"
+msgstr "Dört parmağınızla sola veya sağa doğru kaydırın"
 
 #. Maximize or restore a window
 #: src/Views/Gestures.vala:78
