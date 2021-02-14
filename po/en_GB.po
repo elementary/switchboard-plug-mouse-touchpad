@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2020-12-18 06:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-02-14 15:23+0000\n"
+"Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/en_GB/>\n"
 "Language: en_GB\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/Plug.vala:50
 msgid "Mouse & Touchpad"
@@ -113,7 +113,7 @@ msgstr "Ignore when mouse is connected"
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
 #: src/Plug.vala:154 src/Views/Gestures.vala:42
 msgid "Gestures"
-msgstr ""
+msgstr "Gestures"
 
 #: src/Plug.vala:151
 msgid "Multitasking View"
@@ -121,15 +121,15 @@ msgstr "Multitasking View"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "Switch Workspaces"
 
 #: src/Plug.vala:153
 msgid "Maximize Window"
-msgstr ""
+msgstr "Maximise Window"
 
 #: src/Plug.vala:154
 msgid "Tile Window"
-msgstr ""
+msgstr "Tile Window"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -185,41 +185,39 @@ msgstr "Middle click paste:"
 
 #. Multitasking View
 #: src/Views/Gestures.vala:52
-#, fuzzy
-#| msgid "Multitasking View"
 msgid "Multitasking View:"
-msgstr "Multitasking View"
+msgstr "Multitasking View:"
 
 #: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
 msgid "Swipe up with three fingers"
-msgstr ""
+msgstr "Swipe up with three fingers"
 
 #: src/Views/Gestures.vala:62 src/Views/Gestures.vala:88
 msgid "Swipe up with four fingers"
-msgstr ""
+msgstr "Swipe up with four fingers"
 
 #. Switch between desktops
 #: src/Views/Gestures.vala:65
 msgid "Switch Workspaces:"
-msgstr ""
+msgstr "Switch Workspaces:"
 
 #: src/Views/Gestures.vala:74 src/Views/Gestures.vala:100
 msgid "Swipe left or right with three fingers"
-msgstr ""
+msgstr "Swipe left or right with three fingers"
 
 #: src/Views/Gestures.vala:75 src/Views/Gestures.vala:101
 msgid "Swipe left or right with four fingers"
-msgstr ""
+msgstr "Swipe left or right with four fingers"
 
 #. Maximize or restore a window
 #: src/Views/Gestures.vala:78
 msgid "Maximize Window:"
-msgstr ""
+msgstr "Maximise Window:"
 
 #. Tile a window
 #: src/Views/Gestures.vala:91
 msgid "Tile Window:"
-msgstr ""
+msgstr "Tile Window:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
