@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2020-12-18 06:56+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-02-17 13:39+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:50
@@ -114,7 +114,7 @@ msgstr "Ignorar cuando el ratón está conectado"
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
 #: src/Plug.vala:154 src/Views/Gestures.vala:42
 msgid "Gestures"
-msgstr ""
+msgstr "Gestos"
 
 #: src/Plug.vala:151
 msgid "Multitasking View"
@@ -122,15 +122,15 @@ msgstr "Vista multitarea"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "Cambiar de área de trabajo"
 
 #: src/Plug.vala:153
 msgid "Maximize Window"
-msgstr ""
+msgstr "Maximizar ventana"
 
 #: src/Plug.vala:154
 msgid "Tile Window"
-msgstr ""
+msgstr "Ventana en mosaico"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -190,41 +190,39 @@ msgstr "Pegado mediante pulsación central:"
 
 #. Multitasking View
 #: src/Views/Gestures.vala:52
-#, fuzzy
-#| msgid "Multitasking View"
 msgid "Multitasking View:"
-msgstr "Vista multitarea"
+msgstr "Vista multitarea:"
 
 #: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
 msgid "Swipe up with three fingers"
-msgstr ""
+msgstr "Deslizar tres dedos hacia arriba"
 
 #: src/Views/Gestures.vala:62 src/Views/Gestures.vala:88
 msgid "Swipe up with four fingers"
-msgstr ""
+msgstr "Deslizar cuatro dedos hacia arriba"
 
 #. Switch between desktops
 #: src/Views/Gestures.vala:65
 msgid "Switch Workspaces:"
-msgstr ""
+msgstr "Cambiar de área de trabajo:"
 
 #: src/Views/Gestures.vala:74 src/Views/Gestures.vala:100
 msgid "Swipe left or right with three fingers"
-msgstr ""
+msgstr "Deslizar tres dedos hacia la izquierda o la derecha"
 
 #: src/Views/Gestures.vala:75 src/Views/Gestures.vala:101
 msgid "Swipe left or right with four fingers"
-msgstr ""
+msgstr "Deslizar cuatro dedos hacia la izquierda o la derecha"
 
 #. Maximize or restore a window
 #: src/Views/Gestures.vala:78
 msgid "Maximize Window:"
-msgstr ""
+msgstr "Maximizar ventana:"
 
 #. Tile a window
 #: src/Views/Gestures.vala:91
 msgid "Tile Window:"
-msgstr ""
+msgstr "Ventana en mosaico:"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -268,7 +266,7 @@ msgstr "Pequeño"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr "Medio"
+msgstr "Mediano"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
@@ -276,11 +274,11 @@ msgstr "Grande"
 
 #: src/Views/Pointing.vala:68
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "Al pulsar la tecla de control se mostrará la posición del puntero"
+msgstr "Al presionar la tecla Control se resaltará la posición del puntero"
 
 #: src/Views/Pointing.vala:76
 msgid "Reveal pointer:"
-msgstr "Mostrar puntero:"
+msgstr "Revelar puntero:"
 
 #: src/Views/Pointing.vala:87
 msgid "Pointer size:"
@@ -324,11 +322,11 @@ msgstr "Desplazamiento:"
 
 #: src/Views/Touchpad.vala:98
 msgid "Ignore while typing:"
-msgstr "Ignorar mientras escribe:"
+msgstr "Ignorar al teclear:"
 
 #: src/Views/Touchpad.vala:100
 msgid "Ignore when mouse is connected:"
-msgstr "Ignorar cuando el ratón está conectado:"
+msgstr "Ignorar al conectar un ratón:"
 
 #~ msgid "Long-press length"
 #~ msgstr "Longitud de pulsación larga"
