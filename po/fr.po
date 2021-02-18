@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2020-12-19 11:16+0000\n"
-"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
+"PO-Revision-Date: 2021-02-18 20:23+0000\n"
+"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:50
@@ -50,7 +50,7 @@ msgstr "Appuyer longuement pour le clic secondaire"
 
 #: src/Plug.vala:128
 msgid "Middle click paste"
-msgstr "Coller avec le clic du milieu"
+msgstr "Coller avec le clic central"
 
 #: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
 #: src/Views/Mouse.vala:25
@@ -83,7 +83,7 @@ msgstr "Révéler la position du pointeur"
 
 #: src/Plug.vala:138
 msgid "Control pointer using keypad"
-msgstr "Contrôler le pointeur en utilisant le pavé numérique :"
+msgstr "Contrôler le pointeur en utilisant le pavé numérique"
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
@@ -105,7 +105,7 @@ msgstr "Défilement"
 
 #: src/Plug.vala:146
 msgid "Ignore while typing"
-msgstr "Ignorer lors de la frappe :"
+msgstr "Ignorer lors de la frappe"
 
 #: src/Plug.vala:147
 msgid "Ignore when mouse is connected"
@@ -183,12 +183,12 @@ msgstr "Appuyer longuement pour le clic secondaire :"
 #: src/Views/Clicking.vala:148
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
-"Un clic du bouton central ou avec trois doigts sur un champ collera le texte "
+"Un clic central ou avec trois doigts sur un champ collera le texte "
 "sélectionné"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
-msgstr "Collage avec clic du milieu :"
+msgstr "Collage avec clic central :"
 
 #. Multitasking View
 #: src/Views/Gestures.vala:52
@@ -293,7 +293,7 @@ msgstr "Contrôler le pointeur en utilisant le pavé numérique :"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
-msgstr "Multitouch"
+msgstr "Multi-touch"
 
 #: src/Views/Touchpad.vala:51
 msgid "Touchpad areas"
