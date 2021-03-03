@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-18 06:56+0000\n"
-"PO-Revision-Date: 2021-02-09 20:16+0000\n"
+"PO-Revision-Date: 2021-03-03 11:48+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fi/>\n"
@@ -38,7 +38,7 @@ msgstr "Kaksoisnapsauttamisen nopeus"
 
 #: src/Plug.vala:125
 msgid "Dwell click"
-msgstr ""
+msgstr "Napsautus kohdistamalla"
 
 #: src/Plug.vala:126
 msgid "Primary button"
@@ -149,12 +149,10 @@ msgid "Right"
 msgstr "Oikea"
 
 #: src/Views/Clicking.vala:58
-#, fuzzy
-#| msgid "Long-pressing and releasing the primary button will secondary click"
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
-"Ykköspainikkeen pitkä pohjassapito ja irtipäästö tuottaa kakkospainikkeen "
-"napsautuksen"
+"Ensisijaisen painikkeen pitkä pohjassapito ja irtipäästö tuottaa "
+"toissijaisen painikkeen napsautuksen"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -176,7 +174,7 @@ msgstr "Kaksoisnapsauttamisen nopeus:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr ""
+msgstr "Napsautus kohdistamalla:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
