@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-18 06:56+0000\n"
+"POT-Creation-Date: 2021-03-19 17:14+0000\n"
 "PO-Revision-Date: 2020-12-18 06:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Greek <https://l10n.elementary.io/projects/switchboard/"
@@ -122,7 +122,7 @@ msgid "Ignore when mouse is connected"
 msgstr "Αγνόηση όταν το ποντίκι είναι συνδεδεμένο"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Plug.vala:154 src/Views/Gestures.vala:42
+#: src/Views/Gestures.vala:38
 msgid "Gestures"
 msgstr ""
 
@@ -136,10 +136,6 @@ msgstr ""
 
 #: src/Plug.vala:153
 msgid "Maximize Window"
-msgstr ""
-
-#: src/Plug.vala:154
-msgid "Tile Window"
 msgstr ""
 
 #: src/Views/Clicking.vala:23
@@ -195,41 +191,36 @@ msgid "Middle click paste:"
 msgstr ""
 
 #. Multitasking View
-#: src/Views/Gestures.vala:52
+#: src/Views/Gestures.vala:48
 #, fuzzy
 #| msgid "Multitasking View"
 msgid "Multitasking View:"
 msgstr "Θέαση πολυδιεργασίας"
 
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
+#: src/Views/Gestures.vala:57 src/Views/Gestures.vala:83
 msgid "Swipe up with three fingers"
 msgstr ""
 
-#: src/Views/Gestures.vala:62 src/Views/Gestures.vala:88
+#: src/Views/Gestures.vala:58 src/Views/Gestures.vala:84
 msgid "Swipe up with four fingers"
 msgstr ""
 
 #. Switch between desktops
-#: src/Views/Gestures.vala:65
-msgid "Switch Workspaces:"
+#: src/Views/Gestures.vala:61
+msgid "Switch Workspace:"
 msgstr ""
 
-#: src/Views/Gestures.vala:74 src/Views/Gestures.vala:100
+#: src/Views/Gestures.vala:70
 msgid "Swipe left or right with three fingers"
 msgstr ""
 
-#: src/Views/Gestures.vala:75 src/Views/Gestures.vala:101
+#: src/Views/Gestures.vala:71
 msgid "Swipe left or right with four fingers"
 msgstr ""
 
 #. Maximize or restore a window
-#: src/Views/Gestures.vala:78
+#: src/Views/Gestures.vala:74
 msgid "Maximize Window:"
-msgstr ""
-
-#. Tile a window
-#: src/Views/Gestures.vala:91
-msgid "Tile Window:"
 msgstr ""
 
 #: src/Views/Mouse.vala:23
