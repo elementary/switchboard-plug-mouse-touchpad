@@ -58,7 +58,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         multitasking_combobox.append ("4", _("Swipe up with four fingers"));
 
         // Switch between desktops
-        var workspaces_label = new SettingLabel (_("Switch Workspaces:"));
+        var workspaces_label = new SettingLabel (_("Switch Workspace:"));
 
         workspaces_switch = new Gtk.Switch () {
             halign = Gtk.Align.START,
