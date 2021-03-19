@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-19 17:14+0000\n"
-"PO-Revision-Date: 2021-01-25 21:59+0000\n"
+"PO-Revision-Date: 2021-03-19 23:27+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/uk/>\n"
@@ -199,10 +199,8 @@ msgstr "Провести чотирма пальцями вгору"
 
 #. Switch between desktops
 #: src/Views/Gestures.vala:61
-#, fuzzy
-#| msgid "Switch Workspaces:"
 msgid "Switch Workspace:"
-msgstr "Перемкнути робочі простори:"
+msgstr "Перемкнути робочий простір:"
 
 #: src/Views/Gestures.vala:70
 msgid "Swipe left or right with three fingers"
