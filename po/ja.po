@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-19 17:14+0000\n"
-"PO-Revision-Date: 2020-12-19 11:16+0000\n"
+"PO-Revision-Date: 2021-03-20 12:28+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:50
@@ -197,8 +197,6 @@ msgstr "4本指で上にスワイプ"
 
 #. Switch between desktops
 #: src/Views/Gestures.vala:61
-#, fuzzy
-#| msgid "Switch Workspaces:"
 msgid "Switch Workspace:"
 msgstr "ワークスペースを切り替え:"
 
