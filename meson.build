@@ -17,6 +17,10 @@ add_project_arguments(
     language:'c'
 )
 
+if get_option('gnome_40')
+    add_project_arguments(['--define', 'HAS_GNOME_40'], language: 'vala')
+endif
+
 icon_res = gnome.compile_resources(
     'icon-resources',
     join_paths('data', 'io.elementary.switchboard.' + meson.project_name() + '.gresource.xml'),
