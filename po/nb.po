@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-19 17:14+0000\n"
-"PO-Revision-Date: 2021-03-19 05:27+0000\n"
+"PO-Revision-Date: 2021-03-20 20:01+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/nb/>\n"
@@ -37,8 +37,9 @@ msgid "Double-click speed"
 msgstr "Dobbeltklikkingshastighet"
 
 #: src/Plug.vala:125
+#, fuzzy
 msgid "Dwell click"
-msgstr ""
+msgstr "Hvilke-klikk"
 
 #: src/Plug.vala:126
 #, fuzzy
@@ -133,11 +134,11 @@ msgstr "Fleroppgavevisning"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "Bytt arbeidsområder"
 
 #: src/Plug.vala:153
 msgid "Maximize Window"
-msgstr ""
+msgstr "Maksimer vindu"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -165,31 +166,30 @@ msgid "seconds"
 msgstr "sekund"
 
 #: src/Views/Clicking.vala:86
+#, fuzzy
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "Hvor raskt to klikk på rad skal behandles som dobbeltklikk"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Hold pekeren i ro for å klikke automatisk"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Dobbeltklikkingshastighet:"
 
 #: src/Views/Clicking.vala:126
+#, fuzzy
 msgid "Dwell click:"
-msgstr ""
+msgstr "Hvile-klikk"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Langtrykkingssekundærklikk:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
-msgstr "Midt- eller tre-fingerklikk på inndata vil lime inn enhver valgt tekst"
+msgstr "Midt- eller tre-fingerklikk på inndata limer inn valgt tekst"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
@@ -270,7 +270,7 @@ msgstr "Lite"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "Middels"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
