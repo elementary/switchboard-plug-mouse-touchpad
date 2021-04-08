@@ -87,7 +87,7 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             halign = Gtk.Align.START
         };
 
-        var disable_label = new SettingLabel (_("Disable:")) {
+        var disable_label = new SettingLabel (_("Ignore:")) {
             margin_top = 24
         };
 
