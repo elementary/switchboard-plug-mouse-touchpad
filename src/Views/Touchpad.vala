@@ -44,21 +44,26 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             pointer_speed_scale.add_mark (x, Gtk.PositionType.TOP, null);
         }
 
-        default_click_method_radio = new Gtk.RadioButton.with_label (null, _("Hardware default")) {
-            halign = Gtk.Align.START
+        default_click_method_radio = new Gtk.RadioButton.with_label (null, _("Hardware default"));
+
+        multitouch_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Multitouch"));
+
+        areas_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Touchpad areas"));
+
+        disabled_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("None"));
+
+        var click_method_label = new SettingLabel (_("Physical clicking:")) {
+            margin_top = 24
         };
 
-        multitouch_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Multitouch")) {
-            halign = Gtk.Align.START
+        var click_method_grid = new Gtk.Grid () {
+            column_spacing = 12,
+            margin_top = 24
         };
-
-        areas_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Touchpad areas")) {
-            halign = Gtk.Align.START
-        };
-
-        disabled_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("None")) {
-            halign = Gtk.Align.START
-        };
+        click_method_grid.add (default_click_method_radio);
+        click_method_grid.add (multitouch_click_method_radio);
+        click_method_grid.add (areas_click_method_radio);
+        click_method_grid.add (disabled_click_method_radio);
 
         var tap_to_click_switch = new Gtk.Switch () {
             halign = Gtk.Align.START
@@ -106,11 +111,8 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
 
         content_area.attach (new SettingLabel (_("Pointer speed:")), 0, 0);
         content_area.attach (pointer_speed_scale, 1, 0);
-        content_area.attach (new SettingLabel (_("Physical clicking:")), 0, 1);
-        content_area.attach (default_click_method_radio, 1, 1);
-        content_area.attach (multitouch_click_method_radio, 1, 2);
-        content_area.attach (areas_click_method_radio, 1, 3);
-        content_area.attach (disabled_click_method_radio, 1, 4);
+        content_area.attach (click_method_label, 0, 1);
+        content_area.attach (click_method_grid, 1, 1, 2 );
         content_area.attach (new SettingLabel (_("Tap to click:")), 0, 5);
         content_area.attach (tap_to_click_switch, 1, 5);
         content_area.attach (scroll_method_label, 0, 6);
