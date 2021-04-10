@@ -29,6 +29,9 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     private Gtk.Switch maximize_switch;
     private Gtk.ComboBoxText maximize_combobox;
 
+    private Gtk.Switch zoom_switch;
+    private Gtk.ComboBoxText zoom_combobox;
+
     private GLib.Settings glib_settings;
     private ToucheggSettings touchegg_settings;
 
@@ -83,6 +86,19 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         maximize_combobox.append ("3", _("Swipe up with three fingers"));
         maximize_combobox.append ("4", _("Swipe up with four fingers"));
 
+        // Zoom
+        var zoom_label = new SettingLabel (_("Zoom:"));
+
+        zoom_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
+
+        zoom_combobox = new Gtk.ComboBoxText ();
+        zoom_combobox.hexpand = true;
+        zoom_combobox.append ("3", _("Pinch in or out with three fingers"));
+        zoom_combobox.append ("4", _("Pinch in or out with four fingers"));
+
         // Place the widgets
         content_area.attach (multitasking_label, 0, 0);
         content_area.attach (multitasking_switch, 1, 0);
@@ -95,6 +111,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         content_area.attach (maximize_label, 0, 2);
         content_area.attach (maximize_switch, 1, 2);
         content_area.attach (maximize_combobox, 2, 2);
+
+        content_area.attach (zoom_label, 0, 3);
+        content_area.attach (zoom_switch, 1, 3);
+        content_area.attach (zoom_combobox, 2, 3);
 
         // Show the configuration
         update_ui ();
@@ -115,6 +135,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
             save_combobox_settings (maximize_combobox, fingers);
             update_ui ();
         });
+
+        glib_settings.bind ("zoom-gesture-enabled", zoom_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        zoom_switch.bind_property ("active", zoom_combobox, "sensitive", BindingFlags.SYNC_CREATE);
+        zoom_combobox.changed.connect (() => update_comboboxes (zoom_combobox));
     }
 
     private void update_comboboxes (Gtk.ComboBoxText combobox) {
@@ -160,6 +184,11 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
             touchegg_settings.set_maximize_settings (enabled, fingers);
             return;
         }
+
+        if (combobox == zoom_combobox) {
+            glib_settings.set_int ("zoom-gesture-fingers", fingers);
+            return;
+        }
     }
 
     private void update_ui () {
@@ -172,6 +201,9 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
 
         bool maximize_enabled = touchegg_settings.maximize_enabled;
         int maximize_fingers = touchegg_settings.maximize_fingers;
+
+        bool zoom_enabled = glib_settings.get_boolean ("zoom-gesture-enabled");
+        int zoom_fingers = glib_settings.get_int ("zoom-gesture-fingers");
 
         // Multitasking
         multitasking_switch.state = multitasking_enabled;
@@ -192,5 +224,9 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         } else {
             maximize_combobox.active = (multitasking_fingers == 3) ? 1 : 0;
         }
+
+        // Zoom
+        zoom_switch.state = zoom_enabled;
+        zoom_combobox.active = (zoom_fingers == 3) ? 0 : 1;
     }
 }
