@@ -139,6 +139,22 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             GLib.SettingsBindFlags.DEFAULT
         );
 
+        glib_settings.bind_with_mapping (
+            "send-events", disable_with_mouse_check, "active", GLib.SettingsBindFlags.DEFAULT,
+            (value, variant, user_data) => {
+                value.set_boolean (variant.get_string () == "disabled-on-external-mouse");
+                return true;
+            },
+            (value, expected_type, user_data) => {
+                if (value.get_boolean ()) {
+                    return new Variant ("s", "disabled-on-external-mouse");
+                } else {
+                    return new Variant ("s", "enabled");
+                }
+            },
+            null, null
+        );
+
         update_click_method ();
         glib_settings.changed["click-method"].connect (update_click_method);
 
@@ -182,22 +198,6 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             glib_settings.set_boolean ("two-finger-scrolling-enabled", false);
             return Gdk.EVENT_PROPAGATE;
         });
-
-        glib_settings.bind_with_mapping (
-            "send-events", disable_with_mouse_check, "active", GLib.SettingsBindFlags.DEFAULT,
-			(value, variant, user_data) => {
-		        value.set_boolean (variant.get_string () == "disabled-on-external-mouse");
-				return true;
-			},
-			(value, expected_type, user_data) => {
-                if (value.get_boolean ()) {
-                    return new Variant ("s", "disabled-on-external-mouse");
-                } else {
-                    return new Variant ("s", "enabled");
-                }
-			},
-			null, null
-		);
 
         var two_finger_scrolling = glib_settings.get_boolean ("two-finger-scrolling-enabled");
         if (!glib_settings.get_boolean ("edge-scrolling-enabled") && !two_finger_scrolling) {
