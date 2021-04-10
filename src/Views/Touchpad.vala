@@ -183,12 +183,6 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             return Gdk.EVENT_PROPAGATE;
         });
 
-
-        SettingsBindGetMappingShared convert_seconds_to_minutes = (ret, val) => {
-            ret = val.get_int32 () / 60;
-            return true;
-        };
-
         glib_settings.bind_with_mapping (
             "send-events", disable_with_mouse_check, "active", GLib.SettingsBindFlags.DEFAULT,
 			(value, variant, user_data) => {
