@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-10 19:38+0000\n"
-"PO-Revision-Date: 2021-03-19 23:27+0000\n"
+"PO-Revision-Date: 2021-04-10 20:16+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/uk/>\n"
@@ -218,19 +218,15 @@ msgstr "Розгорнути вікно:"
 #. Zoom
 #: src/Views/Gestures.vala:90
 msgid "Zoom:"
-msgstr ""
+msgstr "Масштаб:"
 
 #: src/Views/Gestures.vala:99
-#, fuzzy
-#| msgid "Swipe left or right with three fingers"
 msgid "Pinch in or out with three fingers"
-msgstr "Провести трьома пальцями ліворуч або праворуч"
+msgstr "Зведіть або розведіть трьома пальцями"
 
 #: src/Views/Gestures.vala:100
-#, fuzzy
-#| msgid "Swipe left or right with four fingers"
 msgid "Pinch in or out with four fingers"
-msgstr "Провести чотирма пальцями ліворуч або праворуч"
+msgstr "Зведіть або розведіть чотирма пальцями"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
