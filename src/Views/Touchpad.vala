@@ -190,7 +190,7 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         };
 
         glib_settings.bind_with_mapping (
-        "send-events", disable_with_mouse_check, "active", GLib.SettingsBindFlags.DEFAULT,
+            "send-events", disable_with_mouse_check, "active", GLib.SettingsBindFlags.DEFAULT,
 			(value, variant, user_data) => {
 		        value.set_boolean (variant.get_string () == "disabled-on-external-mouse");
 				return true;
