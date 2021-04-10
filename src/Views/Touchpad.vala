@@ -103,11 +103,11 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         content_area.attach (new SettingLabel (_("Pointer speed:")), 0, 0);
         content_area.attach (pointer_speed_scale, 1, 0);
         content_area.attach (click_method_label, 0, 1);
-        content_area.attach (click_method_grid, 1, 1, 2 );
+        content_area.attach (click_method_grid, 1, 1);
         content_area.attach (new SettingLabel (_("Tap to click:")), 0, 5);
         content_area.attach (tap_to_click_switch, 1, 5);
         content_area.attach (scroll_method_label, 0, 6);
-        content_area.attach (scroll_method_grid, 1, 6, 2);
+        content_area.attach (scroll_method_grid, 1, 6);
         content_area.attach (natural_scrolling_label, 0, 9);
         content_area.attach (natural_scrolling_switch, 1, 9);
         content_area.attach (disable_label, 0, 10);
