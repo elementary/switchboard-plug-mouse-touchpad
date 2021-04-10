@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-19 17:14+0000\n"
-"PO-Revision-Date: 2021-03-20 14:23+0000\n"
+"POT-Creation-Date: 2021-04-10 19:38+0000\n"
+"PO-Revision-Date: 2021-04-10 20:16+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/es/>\n"
@@ -112,7 +112,7 @@ msgid "Ignore when mouse is connected"
 msgstr "Ignorar cuando el ratón está conectado"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:38
+#: src/Views/Gestures.vala:41
 msgid "Gestures"
 msgstr "Gestos"
 
@@ -185,35 +185,52 @@ msgid "Middle click paste:"
 msgstr "Pegado mediante pulsación central:"
 
 #. Multitasking View
-#: src/Views/Gestures.vala:48
+#: src/Views/Gestures.vala:51
 msgid "Multitasking View:"
 msgstr "Vista multitarea:"
 
-#: src/Views/Gestures.vala:57 src/Views/Gestures.vala:83
+#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
 msgid "Swipe up with three fingers"
 msgstr "Deslizar tres dedos hacia arriba"
 
-#: src/Views/Gestures.vala:58 src/Views/Gestures.vala:84
+#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
 msgid "Swipe up with four fingers"
 msgstr "Deslizar cuatro dedos hacia arriba"
 
 #. Switch between desktops
-#: src/Views/Gestures.vala:61
+#: src/Views/Gestures.vala:64
 msgid "Switch Workspace:"
 msgstr "Cambiar de área de trabajo:"
 
-#: src/Views/Gestures.vala:70
+#: src/Views/Gestures.vala:73
 msgid "Swipe left or right with three fingers"
 msgstr "Deslizar tres dedos hacia la izquierda o la derecha"
 
-#: src/Views/Gestures.vala:71
+#: src/Views/Gestures.vala:74
 msgid "Swipe left or right with four fingers"
 msgstr "Deslizar cuatro dedos hacia la izquierda o la derecha"
 
 #. Maximize or restore a window
-#: src/Views/Gestures.vala:74
+#: src/Views/Gestures.vala:77
 msgid "Maximize Window:"
 msgstr "Maximizar ventana:"
+
+#. Zoom
+#: src/Views/Gestures.vala:90
+msgid "Zoom:"
+msgstr "Zoom:"
+
+#: src/Views/Gestures.vala:99
+#, fuzzy
+#| msgid "Swipe left or right with three fingers"
+msgid "Pinch in or out with three fingers"
+msgstr "Deslizar tres dedos hacia la izquierda o la derecha"
+
+#: src/Views/Gestures.vala:100
+#, fuzzy
+#| msgid "Swipe left or right with four fingers"
+msgid "Pinch in or out with four fingers"
+msgstr "Deslizar cuatro dedos hacia la izquierda o la derecha"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
