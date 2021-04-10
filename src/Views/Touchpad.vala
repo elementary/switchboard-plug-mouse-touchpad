@@ -70,8 +70,20 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             margin_top = 24
         };
 
-        var two_finger_scroll_radio = new Gtk.RadioButton.with_label (null, _("Two-finger"));
-        var edge_scroll_radio = new Gtk.RadioButton.with_label_from_widget (two_finger_scroll_radio, _("Edge"));
+        var two_finger_scroll_radio = new Gtk.RadioButton.with_label (null, _("Two-finger")) {
+            always_show_image = true,
+            image_position = Gtk.PositionType.TOP,
+            image = new Gtk.Image.from_icon_name ("touchpad-scroll-two-finger-symbolic", Gtk.IconSize.DND)
+        };
+        two_finger_scroll_radio.get_style_context ().add_class ("image-button");
+
+        var edge_scroll_radio = new Gtk.RadioButton.with_label_from_widget (two_finger_scroll_radio, _("Edge")) {
+            always_show_image = true,
+            image_position = Gtk.PositionType.TOP,
+            image = new Gtk.Image.from_icon_name ("touchpad-scroll-edge-symbolic", Gtk.IconSize.DND)
+        };
+        edge_scroll_radio.get_style_context ().add_class ("image-button");
+
 
         var scroll_method_grid = new Gtk.Grid () {
             column_spacing = 12,
