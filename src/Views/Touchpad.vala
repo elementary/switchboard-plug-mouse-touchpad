@@ -68,18 +68,21 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             margin_top = 24
         };
 
-        var two_finger_scroll_radio = new Gtk.RadioButton.with_label (null, _("Two-finger")) {
-            halign = Gtk.Align.START,
+        var two_finger_scroll_radio = new Gtk.RadioButton.with_label (null, _("Two-finger"));
+
+        var edge_scroll_radio = new Gtk.RadioButton.with_label_from_widget (two_finger_scroll_radio, _("Edge"));
+
+        var scroll_method_grid = new Gtk.Grid () {
+            column_spacing = 12,
             margin_top = 24
         };
+        scroll_method_grid.add (two_finger_scroll_radio);
+        scroll_method_grid.add (edge_scroll_radio);
 
-        var edge_scroll_radio = new Gtk.RadioButton.with_label_from_widget (two_finger_scroll_radio, _("Edge")) {
-            halign = Gtk.Align.START
-        };
-
-        var disabled_scroll_radio = new Gtk.RadioButton.with_label_from_widget (two_finger_scroll_radio, _("None")) {
-            halign = Gtk.Align.START
-        };
+        /* This exists so that users can select another option if scrolling is
+         * disabled from another interface like dconf or Terminal
+         */
+        var disabled_scroll_radio = new Gtk.RadioButton.from_widget (two_finger_scroll_radio);
 
         var natural_scrolling_label = new SettingLabel (_("Natural scrolling:"));
 
@@ -111,9 +114,7 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         content_area.attach (new SettingLabel (_("Tap to click:")), 0, 5);
         content_area.attach (tap_to_click_switch, 1, 5);
         content_area.attach (scroll_method_label, 0, 6);
-        content_area.attach (two_finger_scroll_radio, 1, 6);
-        content_area.attach (edge_scroll_radio, 1, 7);
-        content_area.attach (disabled_scroll_radio, 1, 8);
+        content_area.attach (scroll_method_grid, 1, 6, 2);
         content_area.attach (natural_scrolling_label, 0, 9);
         content_area.attach (natural_scrolling_switch, 1, 9);
         content_area.attach (disable_label, 0, 10);
@@ -174,21 +175,7 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             return Gdk.EVENT_PROPAGATE;
         });
 
-        var two_finger_scrolling = glib_settings.get_boolean ("two-finger-scrolling-enabled");
-        if (!glib_settings.get_boolean ("edge-scrolling-enabled") && !two_finger_scrolling) {
-            disabled_scroll_radio.active = true;
-        } else if (two_finger_scrolling) {
-            two_finger_scroll_radio.active = true;
-        } else {
-            edge_scroll_radio.active = true;
-        }
-
         disabled_scroll_radio.toggled.connect (() => {
-            if (disabled_scroll_radio.active) {
-                glib_settings.set_boolean ("edge-scrolling-enabled", false);
-                glib_settings.set_boolean ("two-finger-scrolling-enabled", false);
-            }
-
             natural_scrolling_label.sensitive = !disabled_scroll_radio.active;
             natural_scrolling_switch.sensitive = !disabled_scroll_radio.active;
         });
@@ -212,6 +199,15 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
                 glib_settings.set_string ("send-events", "enabled");
             }
         });
+
+        var two_finger_scrolling = glib_settings.get_boolean ("two-finger-scrolling-enabled");
+        if (!glib_settings.get_boolean ("edge-scrolling-enabled") && !two_finger_scrolling) {
+            disabled_scroll_radio.active = true;
+        } else if (two_finger_scrolling) {
+            two_finger_scroll_radio.active = true;
+        } else {
+            edge_scroll_radio.active = true;
+        }
     }
 
     private void update_click_method () {
