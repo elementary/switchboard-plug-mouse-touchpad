@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-19 17:14+0000\n"
+"POT-Creation-Date: 2021-04-10 19:38+0000\n"
 "PO-Revision-Date: 2021-03-19 23:27+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -113,7 +113,7 @@ msgid "Ignore when mouse is connected"
 msgstr "Вимикати, якщо під'єднано мишу"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:38
+#: src/Views/Gestures.vala:41
 msgid "Gestures"
 msgstr "Жести"
 
@@ -185,35 +185,52 @@ msgid "Middle click paste:"
 msgstr "Вставити натисканням середньої кнопки:"
 
 #. Multitasking View
-#: src/Views/Gestures.vala:48
+#: src/Views/Gestures.vala:51
 msgid "Multitasking View:"
 msgstr "Багатозадачне подання:"
 
-#: src/Views/Gestures.vala:57 src/Views/Gestures.vala:83
+#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
 msgid "Swipe up with three fingers"
 msgstr "Провести трьома пальцями вгору"
 
-#: src/Views/Gestures.vala:58 src/Views/Gestures.vala:84
+#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
 msgid "Swipe up with four fingers"
 msgstr "Провести чотирма пальцями вгору"
 
 #. Switch between desktops
-#: src/Views/Gestures.vala:61
+#: src/Views/Gestures.vala:64
 msgid "Switch Workspace:"
 msgstr "Перемкнути робочий простір:"
 
-#: src/Views/Gestures.vala:70
+#: src/Views/Gestures.vala:73
 msgid "Swipe left or right with three fingers"
 msgstr "Провести трьома пальцями ліворуч або праворуч"
 
-#: src/Views/Gestures.vala:71
+#: src/Views/Gestures.vala:74
 msgid "Swipe left or right with four fingers"
 msgstr "Провести чотирма пальцями ліворуч або праворуч"
 
 #. Maximize or restore a window
-#: src/Views/Gestures.vala:74
+#: src/Views/Gestures.vala:77
 msgid "Maximize Window:"
 msgstr "Розгорнути вікно:"
+
+#. Zoom
+#: src/Views/Gestures.vala:90
+msgid "Zoom:"
+msgstr ""
+
+#: src/Views/Gestures.vala:99
+#, fuzzy
+#| msgid "Swipe left or right with three fingers"
+msgid "Pinch in or out with three fingers"
+msgstr "Провести трьома пальцями ліворуч або праворуч"
+
+#: src/Views/Gestures.vala:100
+#, fuzzy
+#| msgid "Swipe left or right with four fingers"
+msgid "Pinch in or out with four fingers"
+msgstr "Провести чотирма пальцями ліворуч або праворуч"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
