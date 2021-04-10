@@ -45,11 +45,8 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         }
 
         default_click_method_radio = new Gtk.RadioButton.with_label (null, _("Hardware default"));
-
         multitouch_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Multitouch"));
-
         areas_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Touchpad areas"));
-
         disabled_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("None"));
 
         var click_method_label = new SettingLabel (_("Physical clicking:")) {
@@ -74,7 +71,6 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         };
 
         var two_finger_scroll_radio = new Gtk.RadioButton.with_label (null, _("Two-finger"));
-
         var edge_scroll_radio = new Gtk.RadioButton.with_label_from_widget (two_finger_scroll_radio, _("Edge"));
 
         var scroll_method_grid = new Gtk.Grid () {
@@ -83,11 +79,6 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         };
         scroll_method_grid.add (two_finger_scroll_radio);
         scroll_method_grid.add (edge_scroll_radio);
-
-        /* This exists so that users can select another option if scrolling is
-         * disabled from another interface like dconf or Terminal
-         */
-        var disabled_scroll_radio = new Gtk.RadioButton.from_widget (two_finger_scroll_radio);
 
         var natural_scrolling_label = new SettingLabel (_("Natural scrolling:"));
 
@@ -177,6 +168,10 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             return Gdk.EVENT_PROPAGATE;
         });
 
+        /* This exists so that users can select another option if scrolling is
+         * disabled from another interface like dconf or Terminal
+         */
+        var disabled_scroll_radio = new Gtk.RadioButton.from_widget (two_finger_scroll_radio);
         disabled_scroll_radio.toggled.connect (() => {
             natural_scrolling_label.sensitive = !disabled_scroll_radio.active;
             natural_scrolling_switch.sensitive = !disabled_scroll_radio.active;
