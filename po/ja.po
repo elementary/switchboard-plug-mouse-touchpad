@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-10 19:38+0000\n"
-"PO-Revision-Date: 2021-03-20 12:28+0000\n"
+"PO-Revision-Date: 2021-04-11 02:12+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -216,19 +216,15 @@ msgstr "ウィンドウを最大化:"
 #. Zoom
 #: src/Views/Gestures.vala:90
 msgid "Zoom:"
-msgstr ""
+msgstr "拡大:"
 
 #: src/Views/Gestures.vala:99
-#, fuzzy
-#| msgid "Swipe left or right with three fingers"
 msgid "Pinch in or out with three fingers"
-msgstr "3本指で左右にスワイプ"
+msgstr "3本指でピンチイン／ピンチアウト"
 
 #: src/Views/Gestures.vala:100
-#, fuzzy
-#| msgid "Swipe left or right with four fingers"
 msgid "Pinch in or out with four fingers"
-msgstr "4本指で左右にスワイプ"
+msgstr "4本指でピンチイン／ピンチアウト"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
