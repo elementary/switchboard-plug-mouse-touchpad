@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-10 19:38+0000\n"
-"PO-Revision-Date: 2021-03-20 14:23+0000\n"
+"PO-Revision-Date: 2021-04-11 14:57+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/de/>\n"
@@ -174,7 +174,7 @@ msgstr "Klick durch Verweilen:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
-msgstr "Gedrückthalten bewirkt Sekundär-Klick:"
+msgstr "Gedrückthalten bewirkt Sekundärklick:"
 
 #: src/Views/Clicking.vala:148
 msgid "Middle or three-finger click on an input to paste selected text"
@@ -220,19 +220,15 @@ msgstr "Fenster maximieren:"
 #. Zoom
 #: src/Views/Gestures.vala:90
 msgid "Zoom:"
-msgstr ""
+msgstr "Vergrößern/verkleinern:"
 
 #: src/Views/Gestures.vala:99
-#, fuzzy
-#| msgid "Swipe left or right with three fingers"
 msgid "Pinch in or out with three fingers"
-msgstr "Mit drei Fingern nach links oder rechts wischen"
+msgstr "Drei Finger zusammenziehen oder spreizen"
 
 #: src/Views/Gestures.vala:100
-#, fuzzy
-#| msgid "Swipe left or right with four fingers"
 msgid "Pinch in or out with four fingers"
-msgstr "Mit vier Fingern nach links oder rechts wischen"
+msgstr "Vier Finger zusammenziehen oder spreizen"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -260,7 +256,7 @@ msgstr "Zeigerbeschleunigung:"
 
 #: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:96
 msgid "Natural scrolling:"
-msgstr "Natürliches Scrollen:"
+msgstr "Natürlicher Bildlauf:"
 
 #: src/Views/Pointing.vala:35
 msgid "Speed:"
@@ -304,7 +300,7 @@ msgstr "Multi-Touch"
 
 #: src/Views/Touchpad.vala:51
 msgid "Touchpad areas"
-msgstr "Tastfeld-Bereiche"
+msgstr "Tastfeldbereiche"
 
 #: src/Views/Touchpad.vala:68
 msgid "Two-finger"
