@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 19:38+0000\n"
+"POT-Creation-Date: 2021-04-13 20:38+0000\n"
 "PO-Revision-Date: 2021-04-11 14:57+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
@@ -87,7 +87,7 @@ msgstr "Zeiger mit dem Nummernblock steuern"
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:24
+#: src/Views/Touchpad.vala:30
 msgid "Touchpad"
 msgstr "Tastfeld"
 
@@ -234,11 +234,11 @@ msgstr "Vier Finger zusammenziehen oder spreizen"
 msgid "Devices"
 msgstr "Geräte"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:49
+#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
 msgid "Hardware default"
 msgstr "Gerätestandard"
 
-#: src/Views/Mouse.vala:42
+#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
 msgid "None"
 msgstr "Keine"
 
@@ -246,7 +246,7 @@ msgstr "Keine"
 msgid "Adaptive"
 msgstr "Adaptiv"
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:87
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
 msgid "Pointer speed:"
 msgstr "Zeigergeschwindigkeit:"
 
@@ -254,7 +254,7 @@ msgstr "Zeigergeschwindigkeit:"
 msgid "Pointer acceleration:"
 msgstr "Zeigerbeschleunigung:"
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:96
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Natürlicher Bildlauf:"
 
@@ -294,45 +294,61 @@ msgstr "Zeigergröße:"
 msgid "Control pointer using keypad:"
 msgstr "Zeiger mit dem Nummernblock steuern:"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:48
 msgid "Multitouch"
 msgstr "Multi-Touch"
 
-#: src/Views/Touchpad.vala:51
+#: src/Views/Touchpad.vala:49
 msgid "Touchpad areas"
 msgstr "Tastfeldbereiche"
 
-#: src/Views/Touchpad.vala:68
-msgid "Two-finger"
-msgstr "Zwei-Finger"
-
-#: src/Views/Touchpad.vala:69
-msgid "Edge"
-msgstr "Rand"
-
-#: src/Views/Touchpad.vala:70
-msgid "Disabled"
-msgstr "Deaktiviert"
-
-#: src/Views/Touchpad.vala:89
-msgid "Tap to click:"
-msgstr "Tipp auf das Tastfeld bewirkt Klick:"
-
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:52
 msgid "Physical clicking:"
 msgstr "Physisches Klicken:"
 
-#: src/Views/Touchpad.vala:94
-msgid "Scrolling:"
-msgstr "Scrollen:"
+#: src/Views/Touchpad.vala:69
+msgid "Scroll method:"
+msgstr ""
 
-#: src/Views/Touchpad.vala:98
-msgid "Ignore while typing:"
-msgstr "Bei Texteingabe deaktivieren:"
+#: src/Views/Touchpad.vala:73
+msgid "Two-finger"
+msgstr "Zwei-Finger"
 
-#: src/Views/Touchpad.vala:100
-msgid "Ignore when mouse is connected:"
-msgstr "Bei angeschlossener Maus ignorieren:"
+#: src/Views/Touchpad.vala:80
+msgid "Edge"
+msgstr "Rand"
+
+#: src/Views/Touchpad.vala:101
+msgid "Ignore:"
+msgstr ""
+
+#: src/Views/Touchpad.vala:105
+#, fuzzy
+#| msgid "Ignore while typing"
+msgid "While typing"
+msgstr "Bei Texteingabe deaktivieren"
+
+#: src/Views/Touchpad.vala:106
+#, fuzzy
+#| msgid "Ignore when mouse is connected"
+msgid "When mouse is connected"
+msgstr "Bei angeschlossener Maus ignorieren"
+
+#: src/Views/Touchpad.vala:119
+msgid "Tap to click:"
+msgstr "Tipp auf das Tastfeld bewirkt Klick:"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktiviert"
+
+#~ msgid "Scrolling:"
+#~ msgstr "Scrollen:"
+
+#~ msgid "Ignore while typing:"
+#~ msgstr "Bei Texteingabe deaktivieren:"
+
+#~ msgid "Ignore when mouse is connected:"
+#~ msgstr "Bei angeschlossener Maus ignorieren:"
 
 #~ msgid "Tile Window"
 #~ msgstr "Fenster kacheln"

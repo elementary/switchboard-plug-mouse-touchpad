@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 19:38+0000\n"
+"POT-Creation-Date: 2021-04-13 20:38+0000\n"
 "PO-Revision-Date: 2021-03-22 23:23+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -87,7 +87,7 @@ msgstr "Controla el punter amb el teclat numèric"
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:24
+#: src/Views/Touchpad.vala:30
 msgid "Touchpad"
 msgstr "Ratolí tàctil"
 
@@ -236,11 +236,11 @@ msgstr "Es fa lliscar cap a l'esquerra o la dreta amb quatre dits"
 msgid "Devices"
 msgstr "Dispositius"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:49
+#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
 msgid "Hardware default"
 msgstr "Per defecte del maquinari"
 
-#: src/Views/Mouse.vala:42
+#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
 msgid "None"
 msgstr "Cap"
 
@@ -248,7 +248,7 @@ msgstr "Cap"
 msgid "Adaptive"
 msgstr "Adaptatiu"
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:87
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
 msgid "Pointer speed:"
 msgstr "Velocitat del punter:"
 
@@ -256,7 +256,7 @@ msgstr "Velocitat del punter:"
 msgid "Pointer acceleration:"
 msgstr "Acceleració del punter:"
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:96
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Desplaçament natural:"
 
@@ -296,45 +296,61 @@ msgstr "Mida del punter:"
 msgid "Control pointer using keypad:"
 msgstr "Control del punter amb el teclat numèric:"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:48
 msgid "Multitouch"
 msgstr "Multitàctil"
 
-#: src/Views/Touchpad.vala:51
+#: src/Views/Touchpad.vala:49
 msgid "Touchpad areas"
 msgstr "Àrees del ratolí tàctil"
 
-#: src/Views/Touchpad.vala:68
-msgid "Two-finger"
-msgstr "Dos dits"
-
-#: src/Views/Touchpad.vala:69
-msgid "Edge"
-msgstr "Vora"
-
-#: src/Views/Touchpad.vala:70
-msgid "Disabled"
-msgstr "Inhabilitat"
-
-#: src/Views/Touchpad.vala:89
-msgid "Tap to click:"
-msgstr "Toc per fer clic:"
-
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:52
 msgid "Physical clicking:"
 msgstr "Clíc físic:"
 
-#: src/Views/Touchpad.vala:94
-msgid "Scrolling:"
-msgstr "Desplaçament:"
+#: src/Views/Touchpad.vala:69
+msgid "Scroll method:"
+msgstr ""
 
-#: src/Views/Touchpad.vala:98
-msgid "Ignore while typing:"
-msgstr "Ignora'l mentre s'escriu:"
+#: src/Views/Touchpad.vala:73
+msgid "Two-finger"
+msgstr "Dos dits"
 
-#: src/Views/Touchpad.vala:100
-msgid "Ignore when mouse is connected:"
-msgstr "Ignora'l quan hi hagi un ratolí connectat:"
+#: src/Views/Touchpad.vala:80
+msgid "Edge"
+msgstr "Vora"
+
+#: src/Views/Touchpad.vala:101
+msgid "Ignore:"
+msgstr ""
+
+#: src/Views/Touchpad.vala:105
+#, fuzzy
+#| msgid "Ignore while typing"
+msgid "While typing"
+msgstr "Ignora'l mentre s'escrigui"
+
+#: src/Views/Touchpad.vala:106
+#, fuzzy
+#| msgid "Ignore when mouse is connected"
+msgid "When mouse is connected"
+msgstr "Ignora'l quan hi hagi un ratolí connectat"
+
+#: src/Views/Touchpad.vala:119
+msgid "Tap to click:"
+msgstr "Toc per fer clic:"
+
+#~ msgid "Disabled"
+#~ msgstr "Inhabilitat"
+
+#~ msgid "Scrolling:"
+#~ msgstr "Desplaçament:"
+
+#~ msgid "Ignore while typing:"
+#~ msgstr "Ignora'l mentre s'escriu:"
+
+#~ msgid "Ignore when mouse is connected:"
+#~ msgstr "Ignora'l quan hi hagi un ratolí connectat:"
 
 #~ msgid "Tile Window"
 #~ msgstr "Finestra en mosaic"

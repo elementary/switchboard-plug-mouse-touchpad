@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 19:38+0000\n"
+"POT-Creation-Date: 2021-04-13 20:38+0000\n"
 "PO-Revision-Date: 2021-01-25 07:22+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -87,7 +87,7 @@ msgstr "数字键盘控制指针"
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:24
+#: src/Views/Touchpad.vala:30
 msgid "Touchpad"
 msgstr "触控板"
 
@@ -234,11 +234,11 @@ msgstr "四指左右滑动"
 msgid "Devices"
 msgstr "设备"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:49
+#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
 msgid "Hardware default"
 msgstr "硬件默认"
 
-#: src/Views/Mouse.vala:42
+#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
 msgid "None"
 msgstr "无"
 
@@ -246,7 +246,7 @@ msgstr "无"
 msgid "Adaptive"
 msgstr "自适应的"
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:87
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
 msgid "Pointer speed:"
 msgstr "指针速度："
 
@@ -254,7 +254,7 @@ msgstr "指针速度："
 msgid "Pointer acceleration:"
 msgstr "指针加速："
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:96
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "自然滚动："
 
@@ -294,45 +294,61 @@ msgstr "指针尺寸："
 msgid "Control pointer using keypad:"
 msgstr "数字键盘控制指针："
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:48
 msgid "Multitouch"
 msgstr "多指触控"
 
-#: src/Views/Touchpad.vala:51
+#: src/Views/Touchpad.vala:49
 msgid "Touchpad areas"
 msgstr "面板区域"
 
-#: src/Views/Touchpad.vala:68
-msgid "Two-finger"
-msgstr "双指滚动"
-
-#: src/Views/Touchpad.vala:69
-msgid "Edge"
-msgstr "边缘滚动"
-
-#: src/Views/Touchpad.vala:70
-msgid "Disabled"
-msgstr "已禁用"
-
-#: src/Views/Touchpad.vala:89
-msgid "Tap to click:"
-msgstr "轻触点击："
-
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:52
 msgid "Physical clicking:"
 msgstr "物理点击："
 
-#: src/Views/Touchpad.vala:94
-msgid "Scrolling:"
-msgstr "滚动设置："
+#: src/Views/Touchpad.vala:69
+msgid "Scroll method:"
+msgstr ""
 
-#: src/Views/Touchpad.vala:98
-msgid "Ignore while typing:"
-msgstr "键盘输入时禁用："
+#: src/Views/Touchpad.vala:73
+msgid "Two-finger"
+msgstr "双指滚动"
 
-#: src/Views/Touchpad.vala:100
-msgid "Ignore when mouse is connected:"
-msgstr "接入鼠标时忽略："
+#: src/Views/Touchpad.vala:80
+msgid "Edge"
+msgstr "边缘滚动"
+
+#: src/Views/Touchpad.vala:101
+msgid "Ignore:"
+msgstr ""
+
+#: src/Views/Touchpad.vala:105
+#, fuzzy
+#| msgid "Ignore while typing"
+msgid "While typing"
+msgstr "键盘输入时禁用"
+
+#: src/Views/Touchpad.vala:106
+#, fuzzy
+#| msgid "Ignore when mouse is connected"
+msgid "When mouse is connected"
+msgstr "接入鼠标时忽略"
+
+#: src/Views/Touchpad.vala:119
+msgid "Tap to click:"
+msgstr "轻触点击："
+
+#~ msgid "Disabled"
+#~ msgstr "已禁用"
+
+#~ msgid "Scrolling:"
+#~ msgstr "滚动设置："
+
+#~ msgid "Ignore while typing:"
+#~ msgstr "键盘输入时禁用："
+
+#~ msgid "Ignore when mouse is connected:"
+#~ msgstr "接入鼠标时忽略："
 
 #~ msgid "Tile Window"
 #~ msgstr "窗口分屏"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 19:38+0000\n"
+"POT-Creation-Date: 2021-04-13 20:38+0000\n"
 "PO-Revision-Date: 2020-12-18 06:56+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Croatian <https://l10n.elementary.io/projects/switchboard/"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:24
+#: src/Views/Touchpad.vala:30
 msgid "Touchpad"
 msgstr "Dodirnik"
 
@@ -241,11 +241,11 @@ msgstr ""
 msgid "Devices"
 msgstr "Uređaji"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:49
+#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
 msgid "Hardware default"
 msgstr "Zadani hardver"
 
-#: src/Views/Mouse.vala:42
+#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
 msgid "None"
 msgstr "Nijedna"
 
@@ -253,7 +253,7 @@ msgstr "Nijedna"
 msgid "Adaptive"
 msgstr ""
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:87
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
 msgid "Pointer speed:"
 msgstr "Brzina pokazivača:"
 
@@ -262,7 +262,7 @@ msgstr "Brzina pokazivača:"
 msgid "Pointer acceleration:"
 msgstr "Brzina pokazivača:"
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:96
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Prirodno pomicanje:"
 
@@ -304,45 +304,51 @@ msgstr "Brzina pokazivača:"
 msgid "Control pointer using keypad:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:48
 msgid "Multitouch"
 msgstr "Višestruki dodir"
 
-#: src/Views/Touchpad.vala:51
+#: src/Views/Touchpad.vala:49
 msgid "Touchpad areas"
 msgstr "Područja dodirnika"
 
-#: src/Views/Touchpad.vala:68
-msgid "Two-finger"
-msgstr "Dva prsta"
-
-#: src/Views/Touchpad.vala:69
-msgid "Edge"
-msgstr "Rubom"
-
-#: src/Views/Touchpad.vala:70
-msgid "Disabled"
-msgstr "Onemogućeno"
-
-#: src/Views/Touchpad.vala:89
-msgid "Tap to click:"
-msgstr "Dodir za klik:"
-
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:52
 msgid "Physical clicking:"
 msgstr "Fizički klik:"
 
-#: src/Views/Touchpad.vala:94
-msgid "Scrolling:"
-msgstr "Pomicanje:"
-
-#: src/Views/Touchpad.vala:98
-msgid "Ignore while typing:"
+#: src/Views/Touchpad.vala:69
+msgid "Scroll method:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:100
-msgid "Ignore when mouse is connected:"
+#: src/Views/Touchpad.vala:73
+msgid "Two-finger"
+msgstr "Dva prsta"
+
+#: src/Views/Touchpad.vala:80
+msgid "Edge"
+msgstr "Rubom"
+
+#: src/Views/Touchpad.vala:101
+msgid "Ignore:"
 msgstr ""
+
+#: src/Views/Touchpad.vala:105
+msgid "While typing"
+msgstr ""
+
+#: src/Views/Touchpad.vala:106
+msgid "When mouse is connected"
+msgstr ""
+
+#: src/Views/Touchpad.vala:119
+msgid "Tap to click:"
+msgstr "Dodir za klik:"
+
+#~ msgid "Disabled"
+#~ msgstr "Onemogućeno"
+
+#~ msgid "Scrolling:"
+#~ msgstr "Pomicanje:"
 
 #, fuzzy
 #~ msgid "Keypad pointer speed"

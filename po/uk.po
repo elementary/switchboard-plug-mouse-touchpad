@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 19:38+0000\n"
+"POT-Creation-Date: 2021-04-13 20:38+0000\n"
 "PO-Revision-Date: 2021-04-10 20:16+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -88,7 +88,7 @@ msgstr "Управління вказівником за допомогою кл
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:24
+#: src/Views/Touchpad.vala:30
 msgid "Touchpad"
 msgstr "Сенсорна панель"
 
@@ -232,11 +232,11 @@ msgstr "Зведіть або розведіть чотирма пальцями
 msgid "Devices"
 msgstr "Пристрої"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:49
+#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
 msgid "Hardware default"
 msgstr "Типові апаратні засоби"
 
-#: src/Views/Mouse.vala:42
+#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
 msgid "None"
 msgstr "Немає"
 
@@ -244,7 +244,7 @@ msgstr "Немає"
 msgid "Adaptive"
 msgstr "Прилаштовувана"
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:87
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
 msgid "Pointer speed:"
 msgstr "Швидкість вказівника:"
 
@@ -252,7 +252,7 @@ msgstr "Швидкість вказівника:"
 msgid "Pointer acceleration:"
 msgstr "Прискорення вказівника:"
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:96
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Природне прокручування:"
 
@@ -292,45 +292,61 @@ msgstr "Розмір вказівника:"
 msgid "Control pointer using keypad:"
 msgstr "Управління вказівником за допомогою клавіатури:"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:48
 msgid "Multitouch"
 msgstr "Мультитач"
 
-#: src/Views/Touchpad.vala:51
+#: src/Views/Touchpad.vala:49
 msgid "Touchpad areas"
 msgstr "Зони сенсорної панелі"
 
-#: src/Views/Touchpad.vala:68
-msgid "Two-finger"
-msgstr "Два пальці"
-
-#: src/Views/Touchpad.vala:69
-msgid "Edge"
-msgstr "Край"
-
-#: src/Views/Touchpad.vala:70
-msgid "Disabled"
-msgstr "Вимкнено"
-
-#: src/Views/Touchpad.vala:89
-msgid "Tap to click:"
-msgstr "Торкання для натискання:"
-
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:52
 msgid "Physical clicking:"
 msgstr "Фізичне натискання:"
 
-#: src/Views/Touchpad.vala:94
-msgid "Scrolling:"
-msgstr "Прокрутка:"
+#: src/Views/Touchpad.vala:69
+msgid "Scroll method:"
+msgstr ""
 
-#: src/Views/Touchpad.vala:98
-msgid "Ignore while typing:"
-msgstr "Вимикати під час введення:"
+#: src/Views/Touchpad.vala:73
+msgid "Two-finger"
+msgstr "Два пальці"
 
-#: src/Views/Touchpad.vala:100
-msgid "Ignore when mouse is connected:"
-msgstr "Вимикати, якщо під'єднано мишу:"
+#: src/Views/Touchpad.vala:80
+msgid "Edge"
+msgstr "Край"
+
+#: src/Views/Touchpad.vala:101
+msgid "Ignore:"
+msgstr ""
+
+#: src/Views/Touchpad.vala:105
+#, fuzzy
+#| msgid "Ignore while typing"
+msgid "While typing"
+msgstr "Вимикати на час набору тексту"
+
+#: src/Views/Touchpad.vala:106
+#, fuzzy
+#| msgid "Ignore when mouse is connected"
+msgid "When mouse is connected"
+msgstr "Вимикати, якщо під'єднано мишу"
+
+#: src/Views/Touchpad.vala:119
+msgid "Tap to click:"
+msgstr "Торкання для натискання:"
+
+#~ msgid "Disabled"
+#~ msgstr "Вимкнено"
+
+#~ msgid "Scrolling:"
+#~ msgstr "Прокрутка:"
+
+#~ msgid "Ignore while typing:"
+#~ msgstr "Вимикати під час введення:"
+
+#~ msgid "Ignore when mouse is connected:"
+#~ msgstr "Вимикати, якщо під'єднано мишу:"
 
 #~ msgid "Tile Window"
 #~ msgstr "Мозаїчні вікна"

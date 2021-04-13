@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 19:38+0000\n"
+"POT-Creation-Date: 2021-04-13 20:38+0000\n"
 "PO-Revision-Date: 2020-12-18 06:57+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Tagalog <https://l10n.elementary.io/projects/switchboard/"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:24
+#: src/Views/Touchpad.vala:30
 msgid "Touchpad"
 msgstr "Touchpad"
 
@@ -239,11 +239,11 @@ msgstr ""
 msgid "Devices"
 msgstr "Mga Aparato"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:49
+#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
 msgid "Hardware default"
 msgstr ""
 
-#: src/Views/Mouse.vala:42
+#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
 msgid "None"
 msgstr "Wala"
 
@@ -251,7 +251,7 @@ msgstr "Wala"
 msgid "Adaptive"
 msgstr ""
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:87
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
 msgid "Pointer speed:"
 msgstr "Bilis ng pointer:"
 
@@ -260,7 +260,7 @@ msgstr "Bilis ng pointer:"
 msgid "Pointer acceleration:"
 msgstr "Bilis ng pointer"
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:96
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Natural na pag-iscrol:"
 
@@ -302,45 +302,51 @@ msgstr "Bilis ng pointer:"
 msgid "Control pointer using keypad:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:48
 msgid "Multitouch"
 msgstr "Multitouch"
 
-#: src/Views/Touchpad.vala:51
+#: src/Views/Touchpad.vala:49
 msgid "Touchpad areas"
 msgstr ""
 
-#: src/Views/Touchpad.vala:68
-msgid "Two-finger"
-msgstr "Dalawahang-daliri"
-
-#: src/Views/Touchpad.vala:69
-msgid "Edge"
-msgstr "Gilid"
-
-#: src/Views/Touchpad.vala:70
-msgid "Disabled"
-msgstr "Hindi pinagana"
-
-#: src/Views/Touchpad.vala:89
-msgid "Tap to click:"
-msgstr "I-tap para ma-click:"
-
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:52
 msgid "Physical clicking:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:94
-msgid "Scrolling:"
-msgstr "Pag-iiscrol:"
-
-#: src/Views/Touchpad.vala:98
-msgid "Ignore while typing:"
+#: src/Views/Touchpad.vala:69
+msgid "Scroll method:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:100
-msgid "Ignore when mouse is connected:"
+#: src/Views/Touchpad.vala:73
+msgid "Two-finger"
+msgstr "Dalawahang-daliri"
+
+#: src/Views/Touchpad.vala:80
+msgid "Edge"
+msgstr "Gilid"
+
+#: src/Views/Touchpad.vala:101
+msgid "Ignore:"
 msgstr ""
+
+#: src/Views/Touchpad.vala:105
+msgid "While typing"
+msgstr ""
+
+#: src/Views/Touchpad.vala:106
+msgid "When mouse is connected"
+msgstr ""
+
+#: src/Views/Touchpad.vala:119
+msgid "Tap to click:"
+msgstr "I-tap para ma-click:"
+
+#~ msgid "Disabled"
+#~ msgstr "Hindi pinagana"
+
+#~ msgid "Scrolling:"
+#~ msgstr "Pag-iiscrol:"
 
 #, fuzzy
 #~ msgid "Keypad pointer speed"

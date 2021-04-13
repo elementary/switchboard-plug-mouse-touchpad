@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 19:38+0000\n"
+"POT-Creation-Date: 2021-04-13 20:38+0000\n"
 "PO-Revision-Date: 2020-12-24 21:16+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -86,7 +86,7 @@ msgstr "कीपॅड वापरुन पॉइंटर नियंत्
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:24
+#: src/Views/Touchpad.vala:30
 msgid "Touchpad"
 msgstr "टचपॅड"
 
@@ -233,11 +233,11 @@ msgstr "चार बोटांनी डावीकडे किंवा �
 msgid "Devices"
 msgstr "उपकरण"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:49
+#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
 msgid "Hardware default"
 msgstr "हार्डवेअर डीफॉल्ट"
 
-#: src/Views/Mouse.vala:42
+#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
 msgid "None"
 msgstr "काहीही नाही"
 
@@ -245,7 +245,7 @@ msgstr "काहीही नाही"
 msgid "Adaptive"
 msgstr "अनुकूल"
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:87
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
 msgid "Pointer speed:"
 msgstr "पॉइंटर स्पीड:"
 
@@ -253,7 +253,7 @@ msgstr "पॉइंटर स्पीड:"
 msgid "Pointer acceleration:"
 msgstr "पॉइंटर प्रवेग:"
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:96
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "नैसर्गिक स्क्रोलिंग:"
 
@@ -293,45 +293,61 @@ msgstr "पॉईंटर आकार:"
 msgid "Control pointer using keypad:"
 msgstr "कीपॅड वापरुन पॉइंटर नियंत्रित करा:"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:48
 msgid "Multitouch"
 msgstr "मल्टीटॉच"
 
-#: src/Views/Touchpad.vala:51
+#: src/Views/Touchpad.vala:49
 msgid "Touchpad areas"
 msgstr "टचपॅड क्षेत्रे"
 
-#: src/Views/Touchpad.vala:68
-msgid "Two-finger"
-msgstr "दोन-बोटांनी"
-
-#: src/Views/Touchpad.vala:69
-msgid "Edge"
-msgstr "काठ"
-
-#: src/Views/Touchpad.vala:70
-msgid "Disabled"
-msgstr "अक्षम"
-
-#: src/Views/Touchpad.vala:89
-msgid "Tap to click:"
-msgstr "क्लिक करण्यासाठी टॅप करा:"
-
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:52
 msgid "Physical clicking:"
 msgstr "नैसर्गिक क्लिक:"
 
-#: src/Views/Touchpad.vala:94
-msgid "Scrolling:"
-msgstr "स्क्रोलिंग:"
+#: src/Views/Touchpad.vala:69
+msgid "Scroll method:"
+msgstr ""
 
-#: src/Views/Touchpad.vala:98
-msgid "Ignore while typing:"
-msgstr "टाइप करताना दुर्लक्ष करा:"
+#: src/Views/Touchpad.vala:73
+msgid "Two-finger"
+msgstr "दोन-बोटांनी"
 
-#: src/Views/Touchpad.vala:100
-msgid "Ignore when mouse is connected:"
-msgstr "माउस कनेक्ट केलेले असताना दुर्लक्ष करा:"
+#: src/Views/Touchpad.vala:80
+msgid "Edge"
+msgstr "काठ"
+
+#: src/Views/Touchpad.vala:101
+msgid "Ignore:"
+msgstr ""
+
+#: src/Views/Touchpad.vala:105
+#, fuzzy
+#| msgid "Ignore while typing"
+msgid "While typing"
+msgstr "टाइप करताना दुर्लक्ष करा"
+
+#: src/Views/Touchpad.vala:106
+#, fuzzy
+#| msgid "Ignore when mouse is connected"
+msgid "When mouse is connected"
+msgstr "माउस जोडल्यास दुर्लक्ष करा"
+
+#: src/Views/Touchpad.vala:119
+msgid "Tap to click:"
+msgstr "क्लिक करण्यासाठी टॅप करा:"
+
+#~ msgid "Disabled"
+#~ msgstr "अक्षम"
+
+#~ msgid "Scrolling:"
+#~ msgstr "स्क्रोलिंग:"
+
+#~ msgid "Ignore while typing:"
+#~ msgstr "टाइप करताना दुर्लक्ष करा:"
+
+#~ msgid "Ignore when mouse is connected:"
+#~ msgstr "माउस कनेक्ट केलेले असताना दुर्लक्ष करा:"
 
 #~ msgid "Tile Window"
 #~ msgstr "विंडो टाइल करा"

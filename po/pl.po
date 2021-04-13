@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-10 19:38+0000\n"
+"POT-Creation-Date: 2021-04-13 20:38+0000\n"
 "PO-Revision-Date: 2020-12-18 06:57+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
@@ -90,7 +90,7 @@ msgstr "Wskaźnik kontrolny podczas używania klawiatury numerycznej"
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:24
+#: src/Views/Touchpad.vala:30
 msgid "Touchpad"
 msgstr "Panel dotykowy"
 
@@ -241,11 +241,11 @@ msgstr ""
 msgid "Devices"
 msgstr "Urządzenia"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:49
+#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
 msgid "Hardware default"
 msgstr "Domyślne sprzętowe"
 
-#: src/Views/Mouse.vala:42
+#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
 msgid "None"
 msgstr "Brak"
 
@@ -253,7 +253,7 @@ msgstr "Brak"
 msgid "Adaptive"
 msgstr "Adaptacyjny"
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:87
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
 msgid "Pointer speed:"
 msgstr "Szybkość wskaźnika:"
 
@@ -261,7 +261,7 @@ msgstr "Szybkość wskaźnika:"
 msgid "Pointer acceleration:"
 msgstr "Przyspieszenie wskaźnika:"
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:96
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
 msgid "Natural scrolling:"
 msgstr "Przewijanie normalne:"
 
@@ -304,45 +304,61 @@ msgstr "Szybkość wskaźnika:"
 msgid "Control pointer using keypad:"
 msgstr "Wskaźnik kontrolny podczas używania klawiatury numerycznej:"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:48
 msgid "Multitouch"
 msgstr "Wielodotykowy"
 
-#: src/Views/Touchpad.vala:51
+#: src/Views/Touchpad.vala:49
 msgid "Touchpad areas"
 msgstr "Obszary gładzika"
 
-#: src/Views/Touchpad.vala:68
-msgid "Two-finger"
-msgstr "Dwoma palcami"
-
-#: src/Views/Touchpad.vala:69
-msgid "Edge"
-msgstr "Krawędź"
-
-#: src/Views/Touchpad.vala:70
-msgid "Disabled"
-msgstr "Wyłączone"
-
-#: src/Views/Touchpad.vala:89
-msgid "Tap to click:"
-msgstr "Stuknij, aby kilknąć:"
-
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:52
 msgid "Physical clicking:"
 msgstr "Fizyczne kliknięcie:"
 
-#: src/Views/Touchpad.vala:94
-msgid "Scrolling:"
-msgstr "Przewijanie:"
+#: src/Views/Touchpad.vala:69
+msgid "Scroll method:"
+msgstr ""
 
-#: src/Views/Touchpad.vala:98
-msgid "Ignore while typing:"
-msgstr "Ignoruj podczas pisania:"
+#: src/Views/Touchpad.vala:73
+msgid "Two-finger"
+msgstr "Dwoma palcami"
 
-#: src/Views/Touchpad.vala:100
-msgid "Ignore when mouse is connected:"
-msgstr "Ignoruj, gdy podłączona jest myszka:"
+#: src/Views/Touchpad.vala:80
+msgid "Edge"
+msgstr "Krawędź"
+
+#: src/Views/Touchpad.vala:101
+msgid "Ignore:"
+msgstr ""
+
+#: src/Views/Touchpad.vala:105
+#, fuzzy
+#| msgid "Ignore while typing"
+msgid "While typing"
+msgstr "Wyłącz podczas pisania"
+
+#: src/Views/Touchpad.vala:106
+#, fuzzy
+#| msgid "Ignore when mouse is connected"
+msgid "When mouse is connected"
+msgstr "Ignoruj, gdy podłączona jest myszka"
+
+#: src/Views/Touchpad.vala:119
+msgid "Tap to click:"
+msgstr "Stuknij, aby kilknąć:"
+
+#~ msgid "Disabled"
+#~ msgstr "Wyłączone"
+
+#~ msgid "Scrolling:"
+#~ msgstr "Przewijanie:"
+
+#~ msgid "Ignore while typing:"
+#~ msgstr "Ignoruj podczas pisania:"
+
+#~ msgid "Ignore when mouse is connected:"
+#~ msgstr "Ignoruj, gdy podłączona jest myszka:"
 
 #~ msgid "Long-press length"
 #~ msgstr "Długość długiego przytrzymania"
