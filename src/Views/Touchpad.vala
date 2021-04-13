@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2018 elementary, Inc. (https://elementary.io)
+ * Copyright 2011-2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -18,6 +18,12 @@
  */
 
 public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
+    private GLib.Settings glib_settings;
+    private Gtk.RadioButton areas_click_method_radio;
+    private Gtk.RadioButton default_click_method_radio;
+    private Gtk.RadioButton disabled_click_method_radio;
+    private Gtk.RadioButton multitouch_click_method_radio;
+
     public TouchpadView () {
         Object (
             icon_name: "input-touchpad",
@@ -26,140 +32,103 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
     }
 
     construct {
-        var glib_settings = new GLib.Settings ("org.gnome.desktop.peripherals.touchpad");
-
-        var disable_while_typing_switch = new Gtk.Switch ();
-        disable_while_typing_switch.halign = Gtk.Align.START;
-
-        var tap_to_click_switch = new Gtk.Switch ();
-        tap_to_click_switch.halign = Gtk.Align.START;
-
-        var click_method_switch = new Gtk.Switch ();
-        click_method_switch.halign = Gtk.Align.START;
-        click_method_switch.valign = Gtk.Align.CENTER;
-
-        if (glib_settings.get_enum ("click-method").to_string () == "none") {
-            click_method_switch.active = false;
-        } else {
-            click_method_switch.active = true;
-        }
-
-        var click_method_combobox = new Gtk.ComboBoxText ();
-        click_method_combobox.hexpand = true;
-        click_method_combobox.append ("default", _("Hardware default"));
-        click_method_combobox.append ("fingers", _("Multitouch"));
-        click_method_combobox.append ("areas", _("Touchpad areas"));
-
-        if (click_method_combobox.active_id == null ) {
-            click_method_combobox.active_id = "default";
-        }
-
         var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0, 0);
 
-        var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, pointer_speed_adjustment);
-        pointer_speed_scale.digits = 2;
-        pointer_speed_scale.draw_value = false;
+        var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, pointer_speed_adjustment) {
+            digits = 2,
+            draw_value = false,
+            hexpand = true
+        };
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
         for (double x = -0.75; x < 1; x += 0.25) {
             pointer_speed_scale.add_mark (x, Gtk.PositionType.TOP, null);
         }
 
-        var scrolling_combobox = new Gtk.ComboBoxText ();
-        scrolling_combobox.append ("two-finger-scrolling", _("Two-finger"));
-        scrolling_combobox.append ("edge-scrolling", _("Edge"));
-        scrolling_combobox.append ("disabled", _("Disabled"));
+        default_click_method_radio = new Gtk.RadioButton.with_label (null, _("Hardware default"));
+        multitouch_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Multitouch"));
+        areas_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Touchpad areas"));
+        disabled_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("None"));
 
-        var horizontal_scrolling_switch = new Gtk.Switch ();
-        horizontal_scrolling_switch.halign = Gtk.Align.START;
+        var click_method_label = new SettingLabel (_("Physical clicking:")) {
+            margin_top = 24
+        };
 
-        var natural_scrolling_switch = new Gtk.Switch ();
-        natural_scrolling_switch.halign = Gtk.Align.START;
+        var click_method_grid = new Gtk.Grid () {
+            column_spacing = 12,
+            margin_top = 24
+        };
+        click_method_grid.add (default_click_method_radio);
+        click_method_grid.add (multitouch_click_method_radio);
+        click_method_grid.add (areas_click_method_radio);
+        click_method_grid.add (disabled_click_method_radio);
 
-        var disable_with_mouse_switch = new Gtk.Switch ();
-        disable_with_mouse_switch.halign = Gtk.Align.START;
+        var tap_to_click_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START
+        };
 
-        if (glib_settings.get_string ("send-events") == "disabled-on-external-mouse") {
-            disable_with_mouse_switch.active = true;
-        } else {
-            disable_with_mouse_switch.active = false;
-        }
+        var scroll_method_label = new SettingLabel (_("Scroll method:")) {
+            margin_top = 24
+        };
+
+        var two_finger_scroll_radio = new Gtk.RadioButton.with_label (null, _("Two-finger")) {
+            always_show_image = true,
+            image_position = Gtk.PositionType.TOP,
+            image = new Gtk.Image.from_icon_name ("touchpad-scroll-two-finger-symbolic", Gtk.IconSize.DND)
+        };
+        two_finger_scroll_radio.get_style_context ().add_class ("image-button");
+
+        var edge_scroll_radio = new Gtk.RadioButton.with_label_from_widget (two_finger_scroll_radio, _("Edge")) {
+            always_show_image = true,
+            image_position = Gtk.PositionType.TOP,
+            image = new Gtk.Image.from_icon_name ("touchpad-scroll-edge-symbolic", Gtk.IconSize.DND)
+        };
+        edge_scroll_radio.get_style_context ().add_class ("image-button");
+
+
+        var scroll_method_grid = new Gtk.Grid () {
+            column_spacing = 12,
+            margin_top = 24
+        };
+        scroll_method_grid.add (two_finger_scroll_radio);
+        scroll_method_grid.add (edge_scroll_radio);
+
+        var natural_scrolling_label = new SettingLabel (_("Natural scrolling:"));
+
+        var natural_scrolling_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START
+        };
+
+        var disable_label = new SettingLabel (_("Ignore:")) {
+            margin_top = 24
+        };
+
+        var disable_while_typing_check = new Gtk.CheckButton.with_label (_("While typing"));
+        var disable_with_mouse_check = new Gtk.CheckButton.with_label (_("When mouse is connected"));
+
+        var disable_grid = new Gtk.Grid () {
+            column_spacing = 12,
+            margin_top = 24
+        };
+        disable_grid.add (disable_while_typing_check);
+        disable_grid.add (disable_with_mouse_check);
 
         content_area.attach (new SettingLabel (_("Pointer speed:")), 0, 0);
-        content_area.attach (pointer_speed_scale, 1, 0, 2, 1);
-        content_area.attach (new SettingLabel (_("Tap to click:")), 0, 1);
-        content_area.attach (tap_to_click_switch, 1, 1);
-        content_area.attach (new SettingLabel (_("Physical clicking:")), 0, 2);
-        content_area.attach (click_method_switch, 1, 2);
-        content_area.attach (click_method_combobox, 2, 2);
-        content_area.attach (new SettingLabel (_("Scrolling:")), 0, 3);
-        content_area.attach (scrolling_combobox, 1, 3, 2, 1);
-        content_area.attach (new SettingLabel (_("Natural scrolling:")), 0, 4);
+        content_area.attach (pointer_speed_scale, 1, 0);
+        content_area.attach (click_method_label, 0, 1);
+        content_area.attach (click_method_grid, 1, 1);
+        content_area.attach (new SettingLabel (_("Tap to click:")), 0, 2);
+        content_area.attach (tap_to_click_switch, 1, 2);
+        content_area.attach (scroll_method_label, 0, 3);
+        content_area.attach (scroll_method_grid, 1, 3);
+        content_area.attach (natural_scrolling_label, 0, 4);
         content_area.attach (natural_scrolling_switch, 1, 4);
-        content_area.attach (new SettingLabel (_("Ignore while typing:")), 0, 5);
-        content_area.attach (disable_while_typing_switch, 1, 5);
-        content_area.attach (new SettingLabel (_("Ignore when mouse is connected:")), 0, 6);
-        content_area.attach (disable_with_mouse_switch, 1, 6);
+        content_area.attach (disable_label, 0, 5);
+        content_area.attach (disable_grid, 1, 5);
 
-        click_method_switch.bind_property ("active", click_method_combobox, "sensitive", BindingFlags.SYNC_CREATE);
-
-        click_method_switch.notify["active"].connect (() => {
-            if (click_method_switch.active) {
-                glib_settings.set_enum ("click-method", click_method_combobox.active);
-            } else {
-                glib_settings.set_enum ("click-method", 1);
-            }
-        });
-
-        if (!glib_settings.get_boolean ("edge-scrolling-enabled") &&
-            !glib_settings.get_boolean ("two-finger-scrolling-enabled")
-        ) {
-            scrolling_combobox.active_id = "disabled";
-        } else if (glib_settings.get_boolean ("two-finger-scrolling-enabled")) {
-            scrolling_combobox.active_id = "two-finger-scrolling";
-        } else {
-            scrolling_combobox.active_id = "edge-scrolling";
-        }
-
-        scrolling_combobox.changed.connect (() => {
-            string active_text = scrolling_combobox.get_active_id ();
-
-            switch (active_text) {
-                case "disabled":
-                    glib_settings.set_boolean ("edge-scrolling-enabled", false);
-                    glib_settings.set_boolean ("two-finger-scrolling-enabled", false);
-                    break;
-                case "two-finger-scrolling":
-                    glib_settings.set_boolean ("edge-scrolling-enabled", false);
-                    glib_settings.set_boolean ("two-finger-scrolling-enabled", true);
-                    break;
-                case "edge-scrolling":
-                    glib_settings.set_boolean ("edge-scrolling-enabled", true);
-                    glib_settings.set_boolean ("two-finger-scrolling-enabled", false);
-                    break;
-            }
-
-            horizontal_scrolling_switch.sensitive = active_text != "disabled";
-            natural_scrolling_switch.sensitive = active_text != "disabled";
-        });
-
-        glib_settings.bind (
-            "click-method",
-            click_method_combobox,
-            "active-id",
-            GLib.SettingsBindFlags.DEFAULT
-        );
-
-        disable_with_mouse_switch.notify["active"].connect (() => {
-            if (disable_with_mouse_switch.active) {
-                glib_settings.set_string ("send-events", "disabled-on-external-mouse");
-            } else {
-                glib_settings.set_string ("send-events", "enabled");
-            }
-        });
-
+        glib_settings = new GLib.Settings ("org.gnome.desktop.peripherals.touchpad");
         glib_settings.bind (
             "disable-while-typing",
-            disable_while_typing_switch,
+            disable_while_typing_check,
             "active",
             GLib.SettingsBindFlags.DEFAULT
         );
@@ -181,5 +150,91 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             "active",
             GLib.SettingsBindFlags.DEFAULT
         );
+
+        glib_settings.bind_with_mapping (
+            "send-events", disable_with_mouse_check, "active", GLib.SettingsBindFlags.DEFAULT,
+            (value, variant, user_data) => {
+                value.set_boolean (variant.get_string () == "disabled-on-external-mouse");
+                return true;
+            },
+            (value, expected_type, user_data) => {
+                if (value.get_boolean ()) {
+                    return new Variant ("s", "disabled-on-external-mouse");
+                } else {
+                    return new Variant ("s", "enabled");
+                }
+            },
+            null, null
+        );
+
+        update_click_method ();
+        glib_settings.changed["click-method"].connect (update_click_method);
+
+        default_click_method_radio.button_release_event.connect (() => {
+            glib_settings.set_string ("click-method", "default");
+            return Gdk.EVENT_PROPAGATE;
+        });
+
+        multitouch_click_method_radio.button_release_event.connect (() => {
+            glib_settings.set_string ("click-method", "fingers");
+            return Gdk.EVENT_PROPAGATE;
+        });
+
+        areas_click_method_radio.button_release_event.connect (() => {
+            glib_settings.set_string ("click-method", "areas");
+            return Gdk.EVENT_PROPAGATE;
+        });
+
+        disabled_click_method_radio.button_release_event.connect (() => {
+            glib_settings.set_string ("click-method", "none");
+            return Gdk.EVENT_PROPAGATE;
+        });
+
+        /* This exists so that users can select another option if scrolling is
+         * disabled from another interface like dconf or Terminal
+         */
+        var disabled_scroll_radio = new Gtk.RadioButton.from_widget (two_finger_scroll_radio);
+        disabled_scroll_radio.toggled.connect (() => {
+            natural_scrolling_label.sensitive = !disabled_scroll_radio.active;
+            natural_scrolling_switch.sensitive = !disabled_scroll_radio.active;
+        });
+
+        two_finger_scroll_radio.button_release_event.connect (() => {
+            glib_settings.set_boolean ("edge-scrolling-enabled", false);
+            glib_settings.set_boolean ("two-finger-scrolling-enabled", true);
+            return Gdk.EVENT_PROPAGATE;
+        });
+
+        edge_scroll_radio.button_release_event.connect (() => {
+            glib_settings.set_boolean ("edge-scrolling-enabled", true);
+            glib_settings.set_boolean ("two-finger-scrolling-enabled", false);
+            return Gdk.EVENT_PROPAGATE;
+        });
+
+        var two_finger_scrolling = glib_settings.get_boolean ("two-finger-scrolling-enabled");
+        if (!glib_settings.get_boolean ("edge-scrolling-enabled") && !two_finger_scrolling) {
+            disabled_scroll_radio.active = true;
+        } else if (two_finger_scrolling) {
+            two_finger_scroll_radio.active = true;
+        } else {
+            edge_scroll_radio.active = true;
+        }
+    }
+
+    private void update_click_method () {
+        switch (glib_settings.get_string ("click-method")) {
+            case "fingers":
+                multitouch_click_method_radio.active = true;
+                break;
+            case "areas":
+                areas_click_method_radio.active = true;
+                break;
+            case "none":
+                disabled_click_method_radio.active = true;
+                break;
+            default:
+                default_click_method_radio.active = true;
+                break;
+        }
     }
 }
