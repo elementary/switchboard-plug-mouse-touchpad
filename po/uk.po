@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 20:38+0000\n"
-"PO-Revision-Date: 2021-04-10 20:16+0000\n"
+"PO-Revision-Date: 2021-04-13 21:56+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/uk/>\n"
@@ -306,31 +306,27 @@ msgstr "Фізичне натискання:"
 
 #: src/Views/Touchpad.vala:69
 msgid "Scroll method:"
-msgstr ""
+msgstr "Спосіб прокрутки:"
 
 #: src/Views/Touchpad.vala:73
 msgid "Two-finger"
-msgstr "Два пальці"
+msgstr "Двома пальцями"
 
 #: src/Views/Touchpad.vala:80
 msgid "Edge"
-msgstr "Край"
+msgstr "За край"
 
 #: src/Views/Touchpad.vala:101
 msgid "Ignore:"
-msgstr ""
+msgstr "Нехтувати:"
 
 #: src/Views/Touchpad.vala:105
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Вимикати на час набору тексту"
+msgstr "Під час введення тексту"
 
 #: src/Views/Touchpad.vala:106
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Вимикати, якщо під'єднано мишу"
+msgstr "Коли під'єднано мишу"
 
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
