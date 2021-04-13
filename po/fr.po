@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-10 19:38+0000\n"
-"PO-Revision-Date: 2021-03-20 10:51+0000\n"
+"PO-Revision-Date: 2021-04-11 18:45+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
@@ -220,19 +220,15 @@ msgstr "Agrandir la fenêtre :"
 #. Zoom
 #: src/Views/Gestures.vala:90
 msgid "Zoom:"
-msgstr ""
+msgstr "Zoom :"
 
 #: src/Views/Gestures.vala:99
-#, fuzzy
-#| msgid "Swipe left or right with three fingers"
 msgid "Pinch in or out with three fingers"
-msgstr "Défiler vers la gauche ou vers la droite avec trois doigts"
+msgstr "Pincer vers l'intérieur ou l'extérieur avec trois doigts"
 
 #: src/Views/Gestures.vala:100
-#, fuzzy
-#| msgid "Swipe left or right with four fingers"
 msgid "Pinch in or out with four fingers"
-msgstr "Défiler vers la gauche ou la droite avec quatre doigts"
+msgstr "Pincez vers l'intérieur ou l'extérieur avec quatre doigts"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
