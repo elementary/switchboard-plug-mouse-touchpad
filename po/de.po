@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 20:38+0000\n"
-"PO-Revision-Date: 2021-04-11 14:57+0000\n"
+"PO-Revision-Date: 2021-04-14 01:35+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/de/>\n"
@@ -308,7 +308,7 @@ msgstr "Physisches Klicken:"
 
 #: src/Views/Touchpad.vala:69
 msgid "Scroll method:"
-msgstr ""
+msgstr "Bildlaufmethode:"
 
 #: src/Views/Touchpad.vala:73
 msgid "Two-finger"
@@ -320,19 +320,15 @@ msgstr "Rand"
 
 #: src/Views/Touchpad.vala:101
 msgid "Ignore:"
-msgstr ""
+msgstr "Ignorieren:"
 
 #: src/Views/Touchpad.vala:105
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Bei Texteingabe deaktivieren"
+msgstr "Bei Texteingabe"
 
 #: src/Views/Touchpad.vala:106
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Bei angeschlossener Maus ignorieren"
+msgstr "Bei angeschlossener Maus"
 
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
