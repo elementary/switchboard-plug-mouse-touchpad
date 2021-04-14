@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 20:38+0000\n"
-"PO-Revision-Date: 2021-04-11 14:57+0000\n"
+"PO-Revision-Date: 2021-04-14 07:56+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pt/>\n"
@@ -262,7 +262,7 @@ msgstr "Velocidade:"
 
 #: src/Views/Pointing.vala:43
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Isto desativa os dois níveis de teclas no teclado numérico"
+msgstr "Isto desativa ambos os níveis de teclas no teclado numérico"
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
@@ -306,7 +306,7 @@ msgstr "Clique físico:"
 
 #: src/Views/Touchpad.vala:69
 msgid "Scroll method:"
-msgstr ""
+msgstr "Método de rolagem:"
 
 #: src/Views/Touchpad.vala:73
 msgid "Two-finger"
@@ -318,19 +318,15 @@ msgstr "Margem"
 
 #: src/Views/Touchpad.vala:101
 msgid "Ignore:"
-msgstr ""
+msgstr "Ignorar:"
 
 #: src/Views/Touchpad.vala:105
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Desativar ao escrever"
+msgstr "Enquanto escreve"
 
 #: src/Views/Touchpad.vala:106
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Ignorar quando o rato está ligado"
+msgstr "Quando o rato está ligado"
 
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
