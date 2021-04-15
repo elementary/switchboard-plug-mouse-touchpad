@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 20:38+0000\n"
-"PO-Revision-Date: 2021-04-14 19:55+0000\n"
+"PO-Revision-Date: 2021-04-15 09:13+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
@@ -217,7 +217,7 @@ msgstr "Pencereye Ekranı Kaplat:"
 #. Zoom
 #: src/Views/Gestures.vala:90
 msgid "Zoom:"
-msgstr ""
+msgstr "Yakınlaştır:"
 
 #: src/Views/Gestures.vala:99
 msgid "Pinch in or out with three fingers"
@@ -306,7 +306,7 @@ msgstr "Fiziksel tıklama:"
 
 #: src/Views/Touchpad.vala:69
 msgid "Scroll method:"
-msgstr ""
+msgstr "Kaydırma yöntemi:"
 
 #: src/Views/Touchpad.vala:73
 msgid "Two-finger"
@@ -318,7 +318,7 @@ msgstr "Kenar"
 
 #: src/Views/Touchpad.vala:101
 msgid "Ignore:"
-msgstr ""
+msgstr "Yoksay:"
 
 #: src/Views/Touchpad.vala:105
 msgid "While typing"
