@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 20:38+0000\n"
-"PO-Revision-Date: 2021-04-08 01:00+0000\n"
+"PO-Revision-Date: 2021-04-15 01:48+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ru/>\n"
@@ -326,16 +326,12 @@ msgid "Ignore:"
 msgstr ""
 
 #: src/Views/Touchpad.vala:105
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Отключить во время печати"
+msgstr "Во время ввода текста"
 
 #: src/Views/Touchpad.vala:106
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Отключить при подключении мыши"
+msgstr "При подключении мыши"
 
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
