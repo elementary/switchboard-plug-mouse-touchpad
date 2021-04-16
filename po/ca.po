@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-13 20:38+0000\n"
-"PO-Revision-Date: 2021-03-22 23:23+0000\n"
+"PO-Revision-Date: 2021-04-16 11:03+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ca/>\n"
@@ -218,19 +218,15 @@ msgstr "Maximitza la finestra:"
 #. Zoom
 #: src/Views/Gestures.vala:90
 msgid "Zoom:"
-msgstr ""
+msgstr "Ampliació:"
 
 #: src/Views/Gestures.vala:99
-#, fuzzy
-#| msgid "Swipe left or right with three fingers"
 msgid "Pinch in or out with three fingers"
-msgstr "Es fa lliscar cap a l'esquerra o la dreta amb tres dits"
+msgstr "Feu un pessic cap a dins o fora amb tres dits."
 
 #: src/Views/Gestures.vala:100
-#, fuzzy
-#| msgid "Swipe left or right with four fingers"
 msgid "Pinch in or out with four fingers"
-msgstr "Es fa lliscar cap a l'esquerra o la dreta amb quatre dits"
+msgstr "Feu un pessic cap a dins o fora amb quatre dits."
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -310,7 +306,7 @@ msgstr "Clíc físic:"
 
 #: src/Views/Touchpad.vala:69
 msgid "Scroll method:"
-msgstr ""
+msgstr "Mètode de desplaçament:"
 
 #: src/Views/Touchpad.vala:73
 msgid "Two-finger"
@@ -322,19 +318,15 @@ msgstr "Vora"
 
 #: src/Views/Touchpad.vala:101
 msgid "Ignore:"
-msgstr ""
+msgstr "Ignora:"
 
 #: src/Views/Touchpad.vala:105
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Ignora'l mentre s'escrigui"
+msgstr "Mentre s'escrigui"
 
 #: src/Views/Touchpad.vala:106
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Ignora'l quan hi hagi un ratolí connectat"
+msgstr "Quan hi hagi un ratolí connectat"
 
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
