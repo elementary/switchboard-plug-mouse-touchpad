@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2011-2020 elementary, Inc. (https://elementary.io)
- *               2020 José Expósito <jose.exposito89@gmail.com>
+ * Copyright 2011-2021 elementary, Inc. (https://elementary.io)
+ *           2020 José Expósito <jose.exposito89@gmail.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -19,19 +19,6 @@
  */
 
 public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
-    private Gtk.Switch multitasking_switch;
-    private Gtk.ComboBoxText multitasking_combobox;
-
-    private Gtk.Switch workspaces_switch;
-    private Gtk.ComboBoxText workspaces_combobox;
-
-    private SettingLabel maximize_label;
-    private Gtk.Switch maximize_switch;
-    private Gtk.ComboBoxText maximize_combobox;
-
-    private Gtk.Switch zoom_switch;
-    private Gtk.ComboBoxText zoom_combobox;
-
     private GLib.Settings glib_settings;
     private ToucheggSettings touchegg_settings;
 
@@ -43,190 +30,101 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     }
 
     construct {
+        var horizontal_swipe_header = new Granite.HeaderLabel (_("Swipe Horizontally"));
+
+        var three_swipe_horizontal_label = new SettingLabel (_("Three fingers:"));
+
+        var three_swipe_horizontal_combo = new Gtk.ComboBoxText () {
+            hexpand = true
+        };
+        three_swipe_horizontal_combo.append ("none", _("Do nothing"));
+        three_swipe_horizontal_combo.append ("switch-to-workspace", _("Switch to workspace"));
+
+        var four_swipe_horizontal_label = new SettingLabel (_("Four fingers:"));
+
+        var four_swipe_horizontal_combo = new Gtk.ComboBoxText ();
+        four_swipe_horizontal_combo.append ("none", _("Do nothing"));
+        four_swipe_horizontal_combo.append ("switch-to-workspace", _("Switch to workspace"));
+
+        var swipe_up_header = new Granite.HeaderLabel (_("Swipe Up")) {
+            margin_top = 12
+        };
+
+        var three_swipe_up_label = new SettingLabel (_("Three fingers:"));
+
+        var three_swipe_up_combo = new Gtk.ComboBoxText ();
+        three_swipe_up_combo.append ("none", _("Do nothing"));
+        three_swipe_up_combo.append ("multitasking-view", _("Multitasking View"));
+        three_swipe_up_combo.append ("toggle-maximized", _("Toggle maximized"));
+
+        var four_swipe_up_label = new SettingLabel (_("Four fingers:"));
+
+        var four_swipe_up_combo = new Gtk.ComboBoxText ();
+        four_swipe_up_combo.append ("none", _("Do nothing"));
+        four_swipe_up_combo.append ("multitasking-view", _("Multitasking View"));
+        four_swipe_up_combo.append ("toggle-maximized", _("Toggle maximized"));
+
+        var pinch_header = new Granite.HeaderLabel (_("Pinch")) {
+            margin_top = 12
+        };
+
+        var three_pinch_label = new SettingLabel (_("Three fingers:"));
+
+        var three_pinch_combo = new Gtk.ComboBoxText ();
+        three_pinch_combo.append ("none", _("Do nothing"));
+        three_pinch_combo.append ("zoom", _("Zoom"));
+
+        var four_pinch_label = new SettingLabel (_("Four fingers:"));
+
+        var four_pinch_combo = new Gtk.ComboBoxText ();
+        four_pinch_combo.append ("none", _("Do nothing"));
+        four_pinch_combo.append ("zoom", _("Zoom"));
+
+        content_area.attach (horizontal_swipe_header, 0, 0, 2);
+        content_area.attach (three_swipe_horizontal_label, 0, 1);
+        content_area.attach (three_swipe_horizontal_combo, 1, 1);
+        content_area.attach (four_swipe_horizontal_label, 0, 2);
+        content_area.attach (four_swipe_horizontal_combo, 1, 2);
+        content_area.attach (swipe_up_header, 0, 3, 2);
+        content_area.attach (three_swipe_up_label, 0, 4);
+        content_area.attach (three_swipe_up_combo, 1, 4);
+        content_area.attach (four_swipe_up_label, 0, 5);
+        content_area.attach (four_swipe_up_combo, 1, 5);
+        content_area.attach (pinch_header, 0, 6, 2);
+        content_area.attach (three_pinch_label, 0, 7);
+        content_area.attach (three_pinch_combo, 1, 7);
+        content_area.attach (four_pinch_label, 0, 8);
+        content_area.attach (four_pinch_combo, 1, 8);
+
         glib_settings = new GLib.Settings ("io.elementary.desktop.wm.gestures");
+        glib_settings.bind ("three-finger-swipe-horizontal", three_swipe_horizontal_combo, "active-id", GLib.SettingsBindFlags.DEFAULT);
+        glib_settings.bind ("four-finger-swipe-horizontal", four_swipe_horizontal_combo, "active-id", GLib.SettingsBindFlags.DEFAULT);
+        glib_settings.bind ("three-finger-swipe-up", three_swipe_up_combo, "active-id", GLib.SettingsBindFlags.DEFAULT);
+        glib_settings.bind ("four-finger-swipe-up", four_swipe_up_combo, "active-id", GLib.SettingsBindFlags.DEFAULT);
+        glib_settings.bind ("three-finger-pinch", three_pinch_combo, "active-id", GLib.SettingsBindFlags.DEFAULT);
+        glib_settings.bind ("four-finger-pinch", four_pinch_combo, "active-id", GLib.SettingsBindFlags.DEFAULT);
+
         touchegg_settings = new ToucheggSettings ();
         touchegg_settings.parse_config ();
 
-        // Multitasking View
-        var multitasking_label = new SettingLabel (_("Multitasking View:"));
+        touchegg_settings.set_maximize_settings (
+            glib_settings.get_string ("three-finger-swipe-up") == "toggle-maximized", 3
+        );
 
-        multitasking_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
+        touchegg_settings.set_maximize_settings (
+            glib_settings.get_string ("four-finger-swipe-up") == "toggle-maximized", 4
+        );
 
-        multitasking_combobox = new Gtk.ComboBoxText ();
-        multitasking_combobox.hexpand = true;
-        multitasking_combobox.append ("3", _("Swipe up with three fingers"));
-        multitasking_combobox.append ("4", _("Swipe up with four fingers"));
-
-        // Switch between desktops
-        var workspaces_label = new SettingLabel (_("Switch Workspace:"));
-
-        workspaces_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
-
-        workspaces_combobox = new Gtk.ComboBoxText ();
-        workspaces_combobox.hexpand = true;
-        workspaces_combobox.append ("3", _("Swipe left or right with three fingers"));
-        workspaces_combobox.append ("4", _("Swipe left or right with four fingers"));
-
-        // Maximize or restore a window
-        maximize_label = new SettingLabel (_("Maximize Window:"));
-
-        maximize_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
-
-        maximize_combobox = new Gtk.ComboBoxText ();
-        maximize_combobox.hexpand = true;
-        maximize_combobox.append ("3", _("Swipe up with three fingers"));
-        maximize_combobox.append ("4", _("Swipe up with four fingers"));
-
-        // Zoom
-        var zoom_label = new SettingLabel (_("Zoom:"));
-
-        zoom_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
-
-        zoom_combobox = new Gtk.ComboBoxText ();
-        zoom_combobox.hexpand = true;
-        zoom_combobox.append ("3", _("Pinch in or out with three fingers"));
-        zoom_combobox.append ("4", _("Pinch in or out with four fingers"));
-
-        // Place the widgets
-        content_area.attach (multitasking_label, 0, 0);
-        content_area.attach (multitasking_switch, 1, 0);
-        content_area.attach (multitasking_combobox, 2, 0);
-
-        content_area.attach (workspaces_label, 0, 1);
-        content_area.attach (workspaces_switch, 1, 1);
-        content_area.attach (workspaces_combobox, 2, 1);
-
-        content_area.attach (maximize_label, 0, 2);
-        content_area.attach (maximize_switch, 1, 2);
-        content_area.attach (maximize_combobox, 2, 2);
-
-        content_area.attach (zoom_label, 0, 3);
-        content_area.attach (zoom_switch, 1, 3);
-        content_area.attach (zoom_combobox, 2, 3);
-
-        // Show the configuration
-        update_ui ();
-
-        // Bind the setting listeners
-        glib_settings.bind ("multitasking-gesture-enabled", multitasking_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-        multitasking_switch.bind_property ("active", multitasking_combobox, "sensitive", BindingFlags.SYNC_CREATE);
-        multitasking_combobox.changed.connect (() => update_comboboxes (multitasking_combobox));
-
-        glib_settings.bind ("workspaces-gesture-enabled", workspaces_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-        workspaces_switch.bind_property ("active", workspaces_combobox, "sensitive", BindingFlags.SYNC_CREATE);
-        workspaces_combobox.changed.connect (() => update_comboboxes (workspaces_combobox));
-
-        maximize_switch.bind_property ("active", maximize_combobox, "sensitive", BindingFlags.SYNC_CREATE);
-        maximize_combobox.changed.connect (() => update_comboboxes (maximize_combobox));
-        maximize_switch.state_set.connect (() => {
-            int fingers = int.parse (maximize_combobox.get_active_id ());
-            save_combobox_settings (maximize_combobox, fingers);
-            update_ui ();
+        glib_settings.changed["three-finger-swipe-up"].connect (() => {
+            touchegg_settings.set_maximize_settings (
+                glib_settings.get_string ("three-finger-swipe-up") == "toggle-maximized", 3
+            );
         });
 
-        glib_settings.bind ("zoom-gesture-enabled", zoom_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-        zoom_switch.bind_property ("active", zoom_combobox, "sensitive", BindingFlags.SYNC_CREATE);
-        zoom_combobox.changed.connect (() => update_comboboxes (zoom_combobox));
-    }
-
-    private void update_comboboxes (Gtk.ComboBoxText combobox) {
-        string selection = combobox.get_active_id ();
-        int fingers = int.parse (selection);
-
-        var linked_combobox = get_linked_combobox (combobox);
-        var linked_fingers = (fingers == 3) ? 4 : 3;
-
-        save_combobox_settings (combobox, fingers);
-        if (linked_combobox != null && linked_combobox.get_active_id () == selection) {
-            save_combobox_settings (linked_combobox, linked_fingers);
-        }
-
-        update_ui ();
-    }
-
-    private Gtk.ComboBoxText? get_linked_combobox (Gtk.ComboBoxText combobox) {
-        if (combobox == multitasking_combobox) {
-            return maximize_combobox;
-        }
-
-        if (combobox == maximize_combobox) {
-            return multitasking_combobox;
-        }
-
-        return null;
-    }
-
-    private void save_combobox_settings (Gtk.ComboBoxText combobox, int fingers) {
-        if (combobox == multitasking_combobox) {
-            glib_settings.set_int ("multitasking-gesture-fingers", fingers);
-            return;
-        }
-
-        if (combobox == workspaces_combobox) {
-            glib_settings.set_int ("workspaces-gesture-fingers", fingers);
-            return;
-        }
-
-        if (combobox == maximize_combobox) {
-            bool enabled = maximize_switch.active;
-            touchegg_settings.set_maximize_settings (enabled, fingers);
-            return;
-        }
-
-        if (combobox == zoom_combobox) {
-            glib_settings.set_int ("zoom-gesture-fingers", fingers);
-            return;
-        }
-    }
-
-    private void update_ui () {
-        // Read the current settings
-        bool multitasking_enabled = glib_settings.get_boolean ("multitasking-gesture-enabled");
-        int multitasking_fingers = glib_settings.get_int ("multitasking-gesture-fingers");
-
-        bool workspaces_enabled = glib_settings.get_boolean ("workspaces-gesture-enabled");
-        int workspaces_fingers = glib_settings.get_int ("workspaces-gesture-fingers");
-
-        bool maximize_enabled = touchegg_settings.maximize_enabled;
-        int maximize_fingers = touchegg_settings.maximize_fingers;
-
-        bool zoom_enabled = glib_settings.get_boolean ("zoom-gesture-enabled");
-        int zoom_fingers = glib_settings.get_int ("zoom-gesture-fingers");
-
-        // Multitasking
-        multitasking_switch.state = multitasking_enabled;
-        multitasking_combobox.active = (multitasking_fingers == 3) ? 0 : 1;
-
-        // Workspaces
-        workspaces_switch.state = workspaces_enabled;
-        workspaces_combobox.active = (workspaces_fingers == 3) ? 0 : 1;
-
-        // Maximize or restore a window
-        maximize_label.sensitive = !touchegg_settings.errors;
-        maximize_switch.sensitive = !touchegg_settings.errors;
-        maximize_combobox.sensitive = !touchegg_settings.errors && maximize_enabled;
-
-        maximize_switch.state = maximize_enabled;
-        if (maximize_enabled) {
-            maximize_combobox.active = (maximize_fingers == 3) ? 0 : 1;
-        } else {
-            maximize_combobox.active = (multitasking_fingers == 3) ? 1 : 0;
-        }
-
-        // Zoom
-        zoom_switch.state = zoom_enabled;
-        zoom_combobox.active = (zoom_fingers == 3) ? 0 : 1;
+        glib_settings.changed["four-finger-swipe-up"].connect (() => {
+            touchegg_settings.set_maximize_settings (
+                glib_settings.get_string ("four-finger-swipe-up") == "toggle-maximized", 4
+            );
+        });
     }
 }
