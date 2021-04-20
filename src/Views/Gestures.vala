@@ -30,6 +30,9 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     }
 
     construct {
+        touchegg_settings = new ToucheggSettings ();
+        touchegg_settings.parse_config ();
+
         var horizontal_swipe_header = new Granite.HeaderLabel (_("Swipe Horizontally"));
 
         var three_swipe_horizontal_label = new SettingLabel (_("Three fingers:"));
@@ -55,14 +58,18 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         var three_swipe_up_combo = new Gtk.ComboBoxText ();
         three_swipe_up_combo.append ("none", _("Do nothing"));
         three_swipe_up_combo.append ("multitasking-view", _("Multitasking View"));
-        three_swipe_up_combo.append ("toggle-maximized", _("Toggle maximized"));
+        if (!touchegg_settings.errors) {
+            three_swipe_up_combo.append ("toggle-maximized", _("Toggle maximized"));
+        }
 
         var four_swipe_up_label = new SettingLabel (_("Four fingers:"));
 
         var four_swipe_up_combo = new Gtk.ComboBoxText ();
         four_swipe_up_combo.append ("none", _("Do nothing"));
         four_swipe_up_combo.append ("multitasking-view", _("Multitasking View"));
-        four_swipe_up_combo.append ("toggle-maximized", _("Toggle maximized"));
+        if (!touchegg_settings.errors) {
+            four_swipe_up_combo.append ("toggle-maximized", _("Toggle maximized"));
+        }
 
         var pinch_header = new Granite.HeaderLabel (_("Pinch")) {
             margin_top = 12
@@ -104,27 +111,31 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         glib_settings.bind ("three-finger-pinch", three_pinch_combo, "active-id", GLib.SettingsBindFlags.DEFAULT);
         glib_settings.bind ("four-finger-pinch", four_pinch_combo, "active-id", GLib.SettingsBindFlags.DEFAULT);
 
-        touchegg_settings = new ToucheggSettings ();
-        touchegg_settings.parse_config ();
-
-        touchegg_settings.set_maximize_settings (
-            glib_settings.get_string ("three-finger-swipe-up") == "toggle-maximized", 3
-        );
-
-        touchegg_settings.set_maximize_settings (
-            glib_settings.get_string ("four-finger-swipe-up") == "toggle-maximized", 4
-        );
-
-        glib_settings.changed["three-finger-swipe-up"].connect (() => {
+        if (!touchegg_settings.errors) {
             touchegg_settings.set_maximize_settings (
                 glib_settings.get_string ("three-finger-swipe-up") == "toggle-maximized", 3
             );
-        });
 
-        glib_settings.changed["four-finger-swipe-up"].connect (() => {
             touchegg_settings.set_maximize_settings (
                 glib_settings.get_string ("four-finger-swipe-up") == "toggle-maximized", 4
             );
+        }
+
+
+        glib_settings.changed["three-finger-swipe-up"].connect (() => {
+            if (!touchegg_settings.errors) {
+                touchegg_settings.set_maximize_settings (
+                    glib_settings.get_string ("three-finger-swipe-up") == "toggle-maximized", 3
+                );
+            }
+        });
+
+        glib_settings.changed["four-finger-swipe-up"].connect (() => {
+            if (!touchegg_settings.errors) {
+                touchegg_settings.set_maximize_settings (
+                    glib_settings.get_string ("four-finger-swipe-up") == "toggle-maximized", 4
+                );
+            }
         });
     }
 }
