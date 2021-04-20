@@ -86,32 +86,6 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
         }
     }
 
-    private static int get_configured_fingers (Context ctx, string xpath_expression) {
-        int fingers = -1;
-
-        Xml.XPath.Object* obj = ctx.eval_expression (xpath_expression);
-        if (obj != null) {
-            if (obj->nodesetval != null && obj->nodesetval->item (0) != null) {
-                Xml.Node* node = obj->nodesetval->item (0);
-                bool found = false;
-                Xml.Attr* attr = node->properties;
-
-                while (!found || attr != null) {
-                    if (attr->name == "fingers") {
-                        fingers = int.parse (attr->children->content);
-                        found = true;
-                    }
-
-                    attr = attr->next;
-                }
-            }
-
-            delete obj;
-        }
-
-        return fingers;
-    }
-
     private void save_config (string xpath_expression, bool enabled, string[] xml_settings) {
         Xml.Doc* doc = null;
 
