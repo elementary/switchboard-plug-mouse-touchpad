@@ -27,15 +27,13 @@ using Xml.XPath;
 public class MouseTouchpad.ToucheggSettings : GLib.Object {
     public bool errors { get; private set; default = false; }
 
-    public bool maximize_enabled { get; private set; default = false; }
-    public int maximize_fingers { get; private set; default = -1; }
-
     private string system_config_path;
     private string user_config_dir_path;
     private string user_config_path;
 
     private const string SETTINGS_XPATH = "//application[@name=\"All\"]";
-    private const string MAXIMIZE_XPATH = "//application[@name=\"All\"]/gesture/action[@type=\"MAXIMIZE_RESTORE_WINDOW\"]/..";
+    private const string MAXIMIZE_3_XPATH = "//application[@name=\"All\"]/gesture[@fingers=\"3\"]/action[@type=\"MAXIMIZE_RESTORE_WINDOW\"]/..";
+    private const string MAXIMIZE_4_XPATH = "//application[@name=\"All\"]/gesture[@fingers=\"4\"]/action[@type=\"MAXIMIZE_RESTORE_WINDOW\"]/..";
 
     public ToucheggSettings () {
         system_config_path = Path.build_filename (GLib.Path.DIR_SEPARATOR_S, "usr", "share", "touchegg", "touchegg.conf");
@@ -51,14 +49,8 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
 
     public void set_maximize_settings (bool enabled, int fingers) {
         string xml_settings = build_maximize_xml (fingers);
-        save_config (MAXIMIZE_XPATH, enabled, {xml_settings});
-
-        if (!errors) {
-            maximize_enabled = enabled;
-            maximize_fingers = fingers;
-        } else {
-            maximize_enabled = false;
-        }
+        string xpath = (fingers == 3) ? MAXIMIZE_3_XPATH : MAXIMIZE_4_XPATH;
+        save_config (xpath, enabled, {xml_settings});
     }
 
     private bool user_config_exists () {
@@ -83,12 +75,6 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
                 throw new GLib.IOError.FAILED ("Error creating XPath context");
             }
 
-            // Maximize/restore window action
-            maximize_fingers = get_configured_fingers (ctx, MAXIMIZE_XPATH);
-            if (maximize_fingers != -1) {
-                maximize_enabled = true;
-            }
-
             errors = false;
         } catch (GLib.Error e) {
             warning ("Error parsing Touchégg config: %s", e.message);
@@ -98,32 +84,6 @@ public class MouseTouchpad.ToucheggSettings : GLib.Object {
                 delete doc;
             }
         }
-    }
-
-    private static int get_configured_fingers (Context ctx, string xpath_expression) {
-        int fingers = -1;
-
-        Xml.XPath.Object* obj = ctx.eval_expression (xpath_expression);
-        if (obj != null) {
-            if (obj->nodesetval != null && obj->nodesetval->item (0) != null) {
-                Xml.Node* node = obj->nodesetval->item (0);
-                bool found = false;
-                Xml.Attr* attr = node->properties;
-
-                while (!found || attr != null) {
-                    if (attr->name == "fingers") {
-                        fingers = int.parse (attr->children->content);
-                        found = true;
-                    }
-
-                    attr = attr->next;
-                }
-            }
-
-            delete obj;
-        }
-
-        return fingers;
     }
 
     private void save_config (string xpath_expression, bool enabled, string[] xml_settings) {
