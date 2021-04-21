@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-21 15:45+0000\n"
-"PO-Revision-Date: 2020-12-18 06:57+0000\n"
+"PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Uyghur <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ug/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:50
@@ -203,7 +203,7 @@ msgstr ""
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
 #: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
 msgid "Do nothing"
-msgstr ""
+msgstr "ھېچنىمە قىلمىدى"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 msgid "Switch to workspace"
@@ -226,7 +226,7 @@ msgstr ""
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
-msgstr ""
+msgstr "كىچىكلىتىش"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
