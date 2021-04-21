@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/uk/>\n"
 "Language: uk\n"
@@ -197,7 +197,7 @@ msgstr "Трьома пальцями:"
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
 #: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
 msgid "Do nothing"
-msgstr ""
+msgstr "Нічого не робити"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 msgid "Switch to workspace"
@@ -217,10 +217,8 @@ msgid "Pinch"
 msgstr "Зведення пальців"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
-#, fuzzy
-#| msgid "Zoom:"
 msgid "Zoom"
-msgstr "Масштаб:"
+msgstr "Збільшити"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
