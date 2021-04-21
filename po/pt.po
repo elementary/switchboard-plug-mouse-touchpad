@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pt/>\n"
 "Language: pt\n"
@@ -197,7 +197,7 @@ msgstr "Três dedos:"
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
 #: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
 msgid "Do nothing"
-msgstr ""
+msgstr "Não fazer nada"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 msgid "Switch to workspace"
@@ -217,10 +217,8 @@ msgid "Pinch"
 msgstr "Pinch"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
-#, fuzzy
-#| msgid "Zoom:"
 msgid "Zoom"
-msgstr "Zoom:"
+msgstr "Ampliado"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
