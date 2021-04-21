@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-13 20:38+0000\n"
+"POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2021-03-03 11:48+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -112,11 +112,11 @@ msgid "Ignore when mouse is connected"
 msgstr "Poista käytöstä kun hiiri on yhdistetty"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:41
+#: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Eleet"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:151 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
 msgstr "Moniajonäkymä"
 
@@ -186,55 +186,49 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Liittäminen keskimmäistä napsauttamalla:"
 
-#. Multitasking View
-#: src/Views/Gestures.vala:51
-msgid "Multitasking View:"
-msgstr "Moniajonäkymä:"
-
-#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
-msgid "Swipe up with three fingers"
-msgstr "Pyyhkäise ylös kolmella sormella"
-
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
-msgid "Swipe up with four fingers"
-msgstr "Pyyhkäise ylös neljällä sormella"
-
-#. Switch between desktops
-#: src/Views/Gestures.vala:64
-#, fuzzy
-#| msgid "Switch Workspaces:"
-msgid "Switch Workspace:"
-msgstr "Vaihda työtiloja:"
-
-#: src/Views/Gestures.vala:73
-msgid "Swipe left or right with three fingers"
-msgstr "Pyyhkäise vasemmalle tai oikealle kolmella sormella"
-
-#: src/Views/Gestures.vala:74
-msgid "Swipe left or right with four fingers"
-msgstr "Pyyhkäise vasemmalle tai oikealle neljällä sormella"
-
-#. Maximize or restore a window
-#: src/Views/Gestures.vala:77
-msgid "Maximize Window:"
-msgstr "Suurenna ikkuna:"
-
-#. Zoom
-#: src/Views/Gestures.vala:90
-msgid "Zoom:"
+#: src/Views/Gestures.vala:30
+msgid "Swipe Horizontally"
 msgstr ""
 
-#: src/Views/Gestures.vala:99
-#, fuzzy
-#| msgid "Swipe left or right with three fingers"
-msgid "Pinch in or out with three fingers"
-msgstr "Pyyhkäise vasemmalle tai oikealle kolmella sormella"
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:66
+msgid "Three fingers:"
+msgstr ""
 
-#: src/Views/Gestures.vala:100
+#: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
+#: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
+#: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
+msgid "Do nothing"
+msgstr ""
+
+#: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 #, fuzzy
-#| msgid "Swipe left or right with four fingers"
-msgid "Pinch in or out with four fingers"
-msgstr "Pyyhkäise vasemmalle tai oikealle neljällä sormella"
+#| msgid "Switch Workspaces"
+msgid "Switch to workspace"
+msgstr "Vaihda työtilojen välillä"
+
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:72
+#, fuzzy
+#| msgid "Two-finger"
+msgid "Four fingers:"
+msgstr "Kaksi sormea"
+
+#: src/Views/Gestures.vala:46
+msgid "Swipe Up"
+msgstr ""
+
+#: src/Views/Gestures.vala:62
+msgid "Pinch"
+msgstr ""
+
+#: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
+msgid "Zoom"
+msgstr ""
+
+#: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
+msgid "Toggle maximized"
+msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -343,6 +337,39 @@ msgstr "Poista käytöstä kun hiiri on yhdistetty"
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
 msgstr "Napsautus napauttamalla:"
+
+#~ msgid "Multitasking View:"
+#~ msgstr "Moniajonäkymä:"
+
+#~ msgid "Swipe up with three fingers"
+#~ msgstr "Pyyhkäise ylös kolmella sormella"
+
+#~ msgid "Swipe up with four fingers"
+#~ msgstr "Pyyhkäise ylös neljällä sormella"
+
+#, fuzzy
+#~| msgid "Switch Workspaces:"
+#~ msgid "Switch Workspace:"
+#~ msgstr "Vaihda työtiloja:"
+
+#~ msgid "Swipe left or right with three fingers"
+#~ msgstr "Pyyhkäise vasemmalle tai oikealle kolmella sormella"
+
+#~ msgid "Swipe left or right with four fingers"
+#~ msgstr "Pyyhkäise vasemmalle tai oikealle neljällä sormella"
+
+#~ msgid "Maximize Window:"
+#~ msgstr "Suurenna ikkuna:"
+
+#, fuzzy
+#~| msgid "Swipe left or right with three fingers"
+#~ msgid "Pinch in or out with three fingers"
+#~ msgstr "Pyyhkäise vasemmalle tai oikealle kolmella sormella"
+
+#, fuzzy
+#~| msgid "Swipe left or right with four fingers"
+#~ msgid "Pinch in or out with four fingers"
+#~ msgstr "Pyyhkäise vasemmalle tai oikealle neljällä sormella"
 
 #~ msgid "Disabled"
 #~ msgstr "Pois käytöstä"

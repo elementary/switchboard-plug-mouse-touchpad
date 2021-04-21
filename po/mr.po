@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-13 20:38+0000\n"
+"POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2020-12-24 21:16+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -111,11 +111,11 @@ msgid "Ignore when mouse is connected"
 msgstr "माउस जोडल्यास दुर्लक्ष करा"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:41
+#: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "जेश्चर"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:151 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
 msgstr "मल्टीटास्किंग दृश्य"
 
@@ -179,55 +179,49 @@ msgstr "निवडलेला मजकूर पेस्ट करण्य
 msgid "Middle click paste:"
 msgstr "मध्य क्लिक पेस्ट:"
 
-#. Multitasking View
-#: src/Views/Gestures.vala:51
-msgid "Multitasking View:"
-msgstr "मल्टीटास्किंग दृश्य:"
-
-#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
-msgid "Swipe up with three fingers"
-msgstr "तीन बोटांनी स्वाइप करा"
-
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
-msgid "Swipe up with four fingers"
-msgstr "चार बोटांनी स्वाइप करा"
-
-#. Switch between desktops
-#: src/Views/Gestures.vala:64
-#, fuzzy
-#| msgid "Switch Workspaces:"
-msgid "Switch Workspace:"
-msgstr "वर्कस्पेसेस स्विच करा:"
-
-#: src/Views/Gestures.vala:73
-msgid "Swipe left or right with three fingers"
-msgstr "तीन बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
-
-#: src/Views/Gestures.vala:74
-msgid "Swipe left or right with four fingers"
-msgstr "चार बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
-
-#. Maximize or restore a window
-#: src/Views/Gestures.vala:77
-msgid "Maximize Window:"
-msgstr "विंडो मोठी करा:"
-
-#. Zoom
-#: src/Views/Gestures.vala:90
-msgid "Zoom:"
+#: src/Views/Gestures.vala:30
+msgid "Swipe Horizontally"
 msgstr ""
 
-#: src/Views/Gestures.vala:99
-#, fuzzy
-#| msgid "Swipe left or right with three fingers"
-msgid "Pinch in or out with three fingers"
-msgstr "तीन बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:66
+msgid "Three fingers:"
+msgstr ""
 
-#: src/Views/Gestures.vala:100
+#: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
+#: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
+#: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
+msgid "Do nothing"
+msgstr ""
+
+#: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 #, fuzzy
-#| msgid "Swipe left or right with four fingers"
-msgid "Pinch in or out with four fingers"
-msgstr "चार बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
+#| msgid "Switch Workspaces"
+msgid "Switch to workspace"
+msgstr "वर्कस्पेसेस स्विच करा"
+
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:72
+#, fuzzy
+#| msgid "Two-finger"
+msgid "Four fingers:"
+msgstr "दोन-बोटांनी"
+
+#: src/Views/Gestures.vala:46
+msgid "Swipe Up"
+msgstr ""
+
+#: src/Views/Gestures.vala:62
+msgid "Pinch"
+msgstr ""
+
+#: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
+msgid "Zoom"
+msgstr ""
+
+#: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
+msgid "Toggle maximized"
+msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -336,6 +330,39 @@ msgstr "माउस जोडल्यास दुर्लक्ष करा
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
 msgstr "क्लिक करण्यासाठी टॅप करा:"
+
+#~ msgid "Multitasking View:"
+#~ msgstr "मल्टीटास्किंग दृश्य:"
+
+#~ msgid "Swipe up with three fingers"
+#~ msgstr "तीन बोटांनी स्वाइप करा"
+
+#~ msgid "Swipe up with four fingers"
+#~ msgstr "चार बोटांनी स्वाइप करा"
+
+#, fuzzy
+#~| msgid "Switch Workspaces:"
+#~ msgid "Switch Workspace:"
+#~ msgstr "वर्कस्पेसेस स्विच करा:"
+
+#~ msgid "Swipe left or right with three fingers"
+#~ msgstr "तीन बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
+
+#~ msgid "Swipe left or right with four fingers"
+#~ msgstr "चार बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
+
+#~ msgid "Maximize Window:"
+#~ msgstr "विंडो मोठी करा:"
+
+#, fuzzy
+#~| msgid "Swipe left or right with three fingers"
+#~ msgid "Pinch in or out with three fingers"
+#~ msgstr "तीन बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
+
+#, fuzzy
+#~| msgid "Swipe left or right with four fingers"
+#~ msgid "Pinch in or out with four fingers"
+#~ msgstr "चार बोटांनी डावीकडे किंवा उजवीकडे स्वाइप करा"
 
 #~ msgid "Disabled"
 #~ msgstr "अक्षम"

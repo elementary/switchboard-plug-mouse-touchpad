@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-13 20:38+0000\n"
+"POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2018-03-05 23:53+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -109,11 +109,11 @@ msgid "Ignore when mouse is connected"
 msgstr ""
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:41
+#: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr ""
 
-#: src/Plug.vala:151
+#: src/Plug.vala:151 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
 msgstr ""
 
@@ -177,48 +177,44 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr ""
 
-#. Multitasking View
-#: src/Views/Gestures.vala:51
-msgid "Multitasking View:"
+#: src/Views/Gestures.vala:30
+msgid "Swipe Horizontally"
 msgstr ""
 
-#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
-msgid "Swipe up with three fingers"
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:66
+msgid "Three fingers:"
 msgstr ""
 
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
-msgid "Swipe up with four fingers"
+#: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
+#: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
+#: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
+msgid "Do nothing"
 msgstr ""
 
-#. Switch between desktops
-#: src/Views/Gestures.vala:64
-msgid "Switch Workspace:"
+#: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
+msgid "Switch to workspace"
 msgstr ""
 
-#: src/Views/Gestures.vala:73
-msgid "Swipe left or right with three fingers"
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:72
+msgid "Four fingers:"
 msgstr ""
 
-#: src/Views/Gestures.vala:74
-msgid "Swipe left or right with four fingers"
+#: src/Views/Gestures.vala:46
+msgid "Swipe Up"
 msgstr ""
 
-#. Maximize or restore a window
-#: src/Views/Gestures.vala:77
-msgid "Maximize Window:"
+#: src/Views/Gestures.vala:62
+msgid "Pinch"
 msgstr ""
 
-#. Zoom
-#: src/Views/Gestures.vala:90
-msgid "Zoom:"
+#: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
+msgid "Zoom"
 msgstr ""
 
-#: src/Views/Gestures.vala:99
-msgid "Pinch in or out with three fingers"
-msgstr ""
-
-#: src/Views/Gestures.vala:100
-msgid "Pinch in or out with four fingers"
+#: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
+msgid "Toggle maximized"
 msgstr ""
 
 #: src/Views/Mouse.vala:23

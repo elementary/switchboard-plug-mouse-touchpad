@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-13 20:38+0000\n"
+"POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2021-04-14 01:35+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
@@ -112,11 +112,11 @@ msgid "Ignore when mouse is connected"
 msgstr "Bei angeschlossener Maus ignorieren"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:41
+#: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Gesten"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:151 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
 msgstr "Arbeitsflächenübersicht"
 
@@ -186,49 +186,51 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Einfügen bei Mittelklick:"
 
-#. Multitasking View
-#: src/Views/Gestures.vala:51
-msgid "Multitasking View:"
-msgstr "Arbeitsflächenübersicht:"
+#: src/Views/Gestures.vala:30
+msgid "Swipe Horizontally"
+msgstr ""
 
-#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
-msgid "Swipe up with three fingers"
-msgstr "Mit drei Fingern aufwärts wischen"
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:66
+msgid "Three fingers:"
+msgstr ""
 
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
-msgid "Swipe up with four fingers"
-msgstr "Mit vier Fingern aufwärts wischen"
+#: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
+#: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
+#: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
+msgid "Do nothing"
+msgstr ""
 
-#. Switch between desktops
-#: src/Views/Gestures.vala:64
-msgid "Switch Workspace:"
-msgstr "Arbeitsfläche wechseln:"
+#: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
+#, fuzzy
+#| msgid "Switch Workspaces"
+msgid "Switch to workspace"
+msgstr "Arbeitsflächen wechseln"
 
-#: src/Views/Gestures.vala:73
-msgid "Swipe left or right with three fingers"
-msgstr "Mit drei Fingern nach links oder rechts wischen"
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:72
+#, fuzzy
+#| msgid "Two-finger"
+msgid "Four fingers:"
+msgstr "Zwei-Finger"
 
-#: src/Views/Gestures.vala:74
-msgid "Swipe left or right with four fingers"
-msgstr "Mit vier Fingern nach links oder rechts wischen"
+#: src/Views/Gestures.vala:46
+msgid "Swipe Up"
+msgstr ""
 
-#. Maximize or restore a window
-#: src/Views/Gestures.vala:77
-msgid "Maximize Window:"
-msgstr "Fenster maximieren:"
+#: src/Views/Gestures.vala:62
+msgid "Pinch"
+msgstr ""
 
-#. Zoom
-#: src/Views/Gestures.vala:90
-msgid "Zoom:"
+#: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
+#, fuzzy
+#| msgid "Zoom:"
+msgid "Zoom"
 msgstr "Vergrößern/verkleinern:"
 
-#: src/Views/Gestures.vala:99
-msgid "Pinch in or out with three fingers"
-msgstr "Drei Finger zusammenziehen oder spreizen"
-
-#: src/Views/Gestures.vala:100
-msgid "Pinch in or out with four fingers"
-msgstr "Vier Finger zusammenziehen oder spreizen"
+#: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
+msgid "Toggle maximized"
+msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -333,6 +335,33 @@ msgstr "Bei angeschlossener Maus"
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
 msgstr "Tipp auf das Tastfeld bewirkt Klick:"
+
+#~ msgid "Multitasking View:"
+#~ msgstr "Arbeitsflächenübersicht:"
+
+#~ msgid "Swipe up with three fingers"
+#~ msgstr "Mit drei Fingern aufwärts wischen"
+
+#~ msgid "Swipe up with four fingers"
+#~ msgstr "Mit vier Fingern aufwärts wischen"
+
+#~ msgid "Switch Workspace:"
+#~ msgstr "Arbeitsfläche wechseln:"
+
+#~ msgid "Swipe left or right with three fingers"
+#~ msgstr "Mit drei Fingern nach links oder rechts wischen"
+
+#~ msgid "Swipe left or right with four fingers"
+#~ msgstr "Mit vier Fingern nach links oder rechts wischen"
+
+#~ msgid "Maximize Window:"
+#~ msgstr "Fenster maximieren:"
+
+#~ msgid "Pinch in or out with three fingers"
+#~ msgstr "Drei Finger zusammenziehen oder spreizen"
+
+#~ msgid "Pinch in or out with four fingers"
+#~ msgstr "Vier Finger zusammenziehen oder spreizen"
 
 #~ msgid "Disabled"
 #~ msgstr "Deaktiviert"

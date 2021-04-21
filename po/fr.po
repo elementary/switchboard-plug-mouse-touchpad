@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-13 20:38+0000\n"
+"POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2021-04-16 11:03+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -112,11 +112,11 @@ msgid "Ignore when mouse is connected"
 msgstr "Ignorer lorsqu'une souris est connectée"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:41
+#: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Gestes"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:151 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
 msgstr "Vue multitâche"
 
@@ -186,49 +186,51 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Collage avec clic central :"
 
-#. Multitasking View
-#: src/Views/Gestures.vala:51
-msgid "Multitasking View:"
-msgstr "Vue multitâche :"
+#: src/Views/Gestures.vala:30
+msgid "Swipe Horizontally"
+msgstr ""
 
-#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
-msgid "Swipe up with three fingers"
-msgstr "Défiler vers le haut avec trois doigt"
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:66
+msgid "Three fingers:"
+msgstr ""
 
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
-msgid "Swipe up with four fingers"
-msgstr "Défiler vers le haut avec quatre doigts"
+#: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
+#: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
+#: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
+msgid "Do nothing"
+msgstr ""
 
-#. Switch between desktops
-#: src/Views/Gestures.vala:64
-msgid "Switch Workspace:"
-msgstr "Passer d'un espace de travail à un autre :"
+#: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
+#, fuzzy
+#| msgid "Switch Workspaces"
+msgid "Switch to workspace"
+msgstr "Passer d'un espace de travail à un autre"
 
-#: src/Views/Gestures.vala:73
-msgid "Swipe left or right with three fingers"
-msgstr "Défiler vers la gauche ou vers la droite avec trois doigts"
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:72
+#, fuzzy
+#| msgid "Two-finger"
+msgid "Four fingers:"
+msgstr "À deux doigts"
 
-#: src/Views/Gestures.vala:74
-msgid "Swipe left or right with four fingers"
-msgstr "Défiler vers la gauche ou la droite avec quatre doigts"
+#: src/Views/Gestures.vala:46
+msgid "Swipe Up"
+msgstr ""
 
-#. Maximize or restore a window
-#: src/Views/Gestures.vala:77
-msgid "Maximize Window:"
-msgstr "Agrandir la fenêtre :"
+#: src/Views/Gestures.vala:62
+msgid "Pinch"
+msgstr ""
 
-#. Zoom
-#: src/Views/Gestures.vala:90
-msgid "Zoom:"
+#: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
+#, fuzzy
+#| msgid "Zoom:"
+msgid "Zoom"
 msgstr "Zoom :"
 
-#: src/Views/Gestures.vala:99
-msgid "Pinch in or out with three fingers"
-msgstr "Pincer vers l'intérieur ou l'extérieur avec trois doigts"
-
-#: src/Views/Gestures.vala:100
-msgid "Pinch in or out with four fingers"
-msgstr "Pincez vers l'intérieur ou l'extérieur avec quatre doigts"
+#: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
+msgid "Toggle maximized"
+msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -334,6 +336,33 @@ msgstr "Lorsqu'une souris est connectée"
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
 msgstr "Taper pour cliquer :"
+
+#~ msgid "Multitasking View:"
+#~ msgstr "Vue multitâche :"
+
+#~ msgid "Swipe up with three fingers"
+#~ msgstr "Défiler vers le haut avec trois doigt"
+
+#~ msgid "Swipe up with four fingers"
+#~ msgstr "Défiler vers le haut avec quatre doigts"
+
+#~ msgid "Switch Workspace:"
+#~ msgstr "Passer d'un espace de travail à un autre :"
+
+#~ msgid "Swipe left or right with three fingers"
+#~ msgstr "Défiler vers la gauche ou vers la droite avec trois doigts"
+
+#~ msgid "Swipe left or right with four fingers"
+#~ msgstr "Défiler vers la gauche ou la droite avec quatre doigts"
+
+#~ msgid "Maximize Window:"
+#~ msgstr "Agrandir la fenêtre :"
+
+#~ msgid "Pinch in or out with three fingers"
+#~ msgstr "Pincer vers l'intérieur ou l'extérieur avec trois doigts"
+
+#~ msgid "Pinch in or out with four fingers"
+#~ msgstr "Pincez vers l'intérieur ou l'extérieur avec quatre doigts"
 
 #~ msgid "Disabled"
 #~ msgstr "Désactivé"

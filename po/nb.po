@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-13 20:38+0000\n"
+"POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2021-03-20 20:01+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -124,11 +124,11 @@ msgid "Ignore when mouse is connected"
 msgstr "Ignorer når mus er koblet til:"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:41
+#: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Håndvendinger"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:151 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
 msgstr "Fleroppgavevisning"
 
@@ -195,54 +195,49 @@ msgstr "Midt- eller tre-fingerklikk på inndata limer inn valgt tekst"
 msgid "Middle click paste:"
 msgstr "Midtklikk-innliming:"
 
-#. Multitasking View
-#: src/Views/Gestures.vala:51
-msgid "Multitasking View:"
-msgstr "Fleroppgavevisning:"
-
-#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
-msgid "Swipe up with three fingers"
-msgstr "Dra oppover med tre fingre"
-
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
-msgid "Swipe up with four fingers"
-msgstr "Dra oppover med fire fingre"
-
-#. Switch between desktops
-#: src/Views/Gestures.vala:64
-#, fuzzy
-msgid "Switch Workspace:"
-msgstr "Bytt arbeidsområde:"
-
-#: src/Views/Gestures.vala:73
-msgid "Swipe left or right with three fingers"
-msgstr "Dra til venstre eller høyre med tre fingre"
-
-#: src/Views/Gestures.vala:74
-msgid "Swipe left or right with four fingers"
-msgstr "Dra til venstre eller høyre med fire fingre"
-
-#. Maximize or restore a window
-#: src/Views/Gestures.vala:77
-msgid "Maximize Window:"
-msgstr "Maksimer vindu:"
-
-#. Zoom
-#: src/Views/Gestures.vala:90
-msgid "Zoom:"
+#: src/Views/Gestures.vala:30
+msgid "Swipe Horizontally"
 msgstr ""
 
-#: src/Views/Gestures.vala:99
-#, fuzzy
-#| msgid "Swipe left or right with three fingers"
-msgid "Pinch in or out with three fingers"
-msgstr "Dra til venstre eller høyre med tre fingre"
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:66
+msgid "Three fingers:"
+msgstr ""
 
-#: src/Views/Gestures.vala:100
+#: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
+#: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
+#: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
+msgid "Do nothing"
+msgstr ""
+
+#: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 #, fuzzy
-#| msgid "Swipe left or right with four fingers"
-msgid "Pinch in or out with four fingers"
-msgstr "Dra til venstre eller høyre med fire fingre"
+#| msgid "Switch Workspaces"
+msgid "Switch to workspace"
+msgstr "Bytt arbeidsområder"
+
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:72
+#, fuzzy
+#| msgid "Two-finger"
+msgid "Four fingers:"
+msgstr "To-finger"
+
+#: src/Views/Gestures.vala:46
+msgid "Swipe Up"
+msgstr ""
+
+#: src/Views/Gestures.vala:62
+msgid "Pinch"
+msgstr ""
+
+#: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
+msgid "Zoom"
+msgstr ""
+
+#: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
+msgid "Toggle maximized"
+msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -351,6 +346,38 @@ msgstr "Ignorer når mus er koblet til:"
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
 msgstr "Kort trykk for å klikke:"
+
+#~ msgid "Multitasking View:"
+#~ msgstr "Fleroppgavevisning:"
+
+#~ msgid "Swipe up with three fingers"
+#~ msgstr "Dra oppover med tre fingre"
+
+#~ msgid "Swipe up with four fingers"
+#~ msgstr "Dra oppover med fire fingre"
+
+#, fuzzy
+#~ msgid "Switch Workspace:"
+#~ msgstr "Bytt arbeidsområde:"
+
+#~ msgid "Swipe left or right with three fingers"
+#~ msgstr "Dra til venstre eller høyre med tre fingre"
+
+#~ msgid "Swipe left or right with four fingers"
+#~ msgstr "Dra til venstre eller høyre med fire fingre"
+
+#~ msgid "Maximize Window:"
+#~ msgstr "Maksimer vindu:"
+
+#, fuzzy
+#~| msgid "Swipe left or right with three fingers"
+#~ msgid "Pinch in or out with three fingers"
+#~ msgstr "Dra til venstre eller høyre med tre fingre"
+
+#, fuzzy
+#~| msgid "Swipe left or right with four fingers"
+#~ msgid "Pinch in or out with four fingers"
+#~ msgstr "Dra til venstre eller høyre med fire fingre"
 
 #~ msgid "Disabled"
 #~ msgstr "Slått av"

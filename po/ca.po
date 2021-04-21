@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-13 20:38+0000\n"
+"POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2021-04-16 11:03+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -112,11 +112,11 @@ msgid "Ignore when mouse is connected"
 msgstr "Ignora'l quan hi hagi un ratolí connectat"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:41
+#: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Gestos"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:151 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
 msgstr "Vista de multitasca"
 
@@ -184,49 +184,51 @@ msgstr ""
 msgid "Middle click paste:"
 msgstr "Enganxa amb el botó del mig:"
 
-#. Multitasking View
-#: src/Views/Gestures.vala:51
-msgid "Multitasking View:"
-msgstr "Vista de multitasca:"
+#: src/Views/Gestures.vala:30
+msgid "Swipe Horizontally"
+msgstr ""
 
-#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
-msgid "Swipe up with three fingers"
-msgstr "Es fa lliscar amunt amb tres dits"
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:66
+msgid "Three fingers:"
+msgstr ""
 
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
-msgid "Swipe up with four fingers"
-msgstr "Es fa lliscar amunt amb quatre dits"
+#: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
+#: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
+#: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
+msgid "Do nothing"
+msgstr ""
 
-#. Switch between desktops
-#: src/Views/Gestures.vala:64
-msgid "Switch Workspace:"
-msgstr "Canvi d'espai de treball:"
+#: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
+#, fuzzy
+#| msgid "Switch Workspaces"
+msgid "Switch to workspace"
+msgstr "Canvia d'espai de treball"
 
-#: src/Views/Gestures.vala:73
-msgid "Swipe left or right with three fingers"
-msgstr "Es fa lliscar cap a l'esquerra o la dreta amb tres dits"
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:72
+#, fuzzy
+#| msgid "Two-finger"
+msgid "Four fingers:"
+msgstr "Dos dits"
 
-#: src/Views/Gestures.vala:74
-msgid "Swipe left or right with four fingers"
-msgstr "Es fa lliscar cap a l'esquerra o la dreta amb quatre dits"
+#: src/Views/Gestures.vala:46
+msgid "Swipe Up"
+msgstr ""
 
-#. Maximize or restore a window
-#: src/Views/Gestures.vala:77
-msgid "Maximize Window:"
-msgstr "Maximitza la finestra:"
+#: src/Views/Gestures.vala:62
+msgid "Pinch"
+msgstr ""
 
-#. Zoom
-#: src/Views/Gestures.vala:90
-msgid "Zoom:"
+#: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
+#, fuzzy
+#| msgid "Zoom:"
+msgid "Zoom"
 msgstr "Ampliació:"
 
-#: src/Views/Gestures.vala:99
-msgid "Pinch in or out with three fingers"
-msgstr "Feu un pessic cap a dins o fora amb tres dits."
-
-#: src/Views/Gestures.vala:100
-msgid "Pinch in or out with four fingers"
-msgstr "Feu un pessic cap a dins o fora amb quatre dits."
+#: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
+msgid "Toggle maximized"
+msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -331,6 +333,33 @@ msgstr "Quan hi hagi un ratolí connectat"
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
 msgstr "Toc per fer clic:"
+
+#~ msgid "Multitasking View:"
+#~ msgstr "Vista de multitasca:"
+
+#~ msgid "Swipe up with three fingers"
+#~ msgstr "Es fa lliscar amunt amb tres dits"
+
+#~ msgid "Swipe up with four fingers"
+#~ msgstr "Es fa lliscar amunt amb quatre dits"
+
+#~ msgid "Switch Workspace:"
+#~ msgstr "Canvi d'espai de treball:"
+
+#~ msgid "Swipe left or right with three fingers"
+#~ msgstr "Es fa lliscar cap a l'esquerra o la dreta amb tres dits"
+
+#~ msgid "Swipe left or right with four fingers"
+#~ msgstr "Es fa lliscar cap a l'esquerra o la dreta amb quatre dits"
+
+#~ msgid "Maximize Window:"
+#~ msgstr "Maximitza la finestra:"
+
+#~ msgid "Pinch in or out with three fingers"
+#~ msgstr "Feu un pessic cap a dins o fora amb tres dits."
+
+#~ msgid "Pinch in or out with four fingers"
+#~ msgstr "Feu un pessic cap a dins o fora amb quatre dits."
 
 #~ msgid "Disabled"
 #~ msgstr "Inhabilitat"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-13 20:38+0000\n"
+"POT-Creation-Date: 2021-04-21 15:45+0000\n"
 "PO-Revision-Date: 2021-04-07 15:37+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -111,11 +111,11 @@ msgid "Ignore when mouse is connected"
 msgstr "Ignore when mouse is connected"
 
 #: src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153
-#: src/Views/Gestures.vala:41
+#: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Gestures"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:151 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
 msgstr "Multitasking View"
 
@@ -179,53 +179,49 @@ msgstr "Middle or three-finger click on an input to paste selected text"
 msgid "Middle click paste:"
 msgstr "Middle click paste:"
 
-#. Multitasking View
-#: src/Views/Gestures.vala:51
-msgid "Multitasking View:"
-msgstr "Multitasking View:"
-
-#: src/Views/Gestures.vala:60 src/Views/Gestures.vala:86
-msgid "Swipe up with three fingers"
-msgstr "Swipe up with three fingers"
-
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:87
-msgid "Swipe up with four fingers"
-msgstr "Swipe up with four fingers"
-
-#. Switch between desktops
-#: src/Views/Gestures.vala:64
-msgid "Switch Workspace:"
-msgstr "Switch Workspace:"
-
-#: src/Views/Gestures.vala:73
-msgid "Swipe left or right with three fingers"
-msgstr "Swipe left or right with three fingers"
-
-#: src/Views/Gestures.vala:74
-msgid "Swipe left or right with four fingers"
-msgstr "Swipe left or right with four fingers"
-
-#. Maximize or restore a window
-#: src/Views/Gestures.vala:77
-msgid "Maximize Window:"
-msgstr "Maximise Window:"
-
-#. Zoom
-#: src/Views/Gestures.vala:90
-msgid "Zoom:"
+#: src/Views/Gestures.vala:30
+msgid "Swipe Horizontally"
 msgstr ""
 
-#: src/Views/Gestures.vala:99
-#, fuzzy
-#| msgid "Swipe left or right with three fingers"
-msgid "Pinch in or out with three fingers"
-msgstr "Swipe left or right with three fingers"
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:66
+msgid "Three fingers:"
+msgstr ""
 
-#: src/Views/Gestures.vala:100
+#: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
+#: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
+#: src/Views/Gestures.vala:69 src/Views/Gestures.vala:75
+msgid "Do nothing"
+msgstr ""
+
+#: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 #, fuzzy
-#| msgid "Swipe left or right with four fingers"
-msgid "Pinch in or out with four fingers"
-msgstr "Swipe left or right with four fingers"
+#| msgid "Switch Workspaces"
+msgid "Switch to workspace"
+msgstr "Switch Workspaces"
+
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:72
+#, fuzzy
+#| msgid "Two-finger"
+msgid "Four fingers:"
+msgstr "Two-finger"
+
+#: src/Views/Gestures.vala:46
+msgid "Swipe Up"
+msgstr ""
+
+#: src/Views/Gestures.vala:62
+msgid "Pinch"
+msgstr ""
+
+#: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
+msgid "Zoom"
+msgstr ""
+
+#: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
+msgid "Toggle maximized"
+msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -334,6 +330,37 @@ msgstr "Ignore when mouse is connected"
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
 msgstr "Tap to click:"
+
+#~ msgid "Multitasking View:"
+#~ msgstr "Multitasking View:"
+
+#~ msgid "Swipe up with three fingers"
+#~ msgstr "Swipe up with three fingers"
+
+#~ msgid "Swipe up with four fingers"
+#~ msgstr "Swipe up with four fingers"
+
+#~ msgid "Switch Workspace:"
+#~ msgstr "Switch Workspace:"
+
+#~ msgid "Swipe left or right with three fingers"
+#~ msgstr "Swipe left or right with three fingers"
+
+#~ msgid "Swipe left or right with four fingers"
+#~ msgstr "Swipe left or right with four fingers"
+
+#~ msgid "Maximize Window:"
+#~ msgstr "Maximise Window:"
+
+#, fuzzy
+#~| msgid "Swipe left or right with three fingers"
+#~ msgid "Pinch in or out with three fingers"
+#~ msgstr "Swipe left or right with three fingers"
+
+#, fuzzy
+#~| msgid "Swipe left or right with four fingers"
+#~ msgid "Pinch in or out with four fingers"
+#~ msgstr "Swipe left or right with four fingers"
 
 #~ msgid "Disabled"
 #~ msgstr "Disabled"
