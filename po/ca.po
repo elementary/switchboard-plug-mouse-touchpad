@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-21 15:45+0000\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-04-22 19:27+0000\n"
+"Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ca/>\n"
 "Language: ca\n"
@@ -186,12 +186,12 @@ msgstr "Enganxa amb el botó del mig:"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
-msgstr ""
+msgstr "Lliscament horitzontal"
 
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
 msgid "Three fingers:"
-msgstr ""
+msgstr "Tres dits:"
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
@@ -200,25 +200,21 @@ msgid "Do nothing"
 msgstr "No facis res"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
-#, fuzzy
-#| msgid "Switch Workspaces"
 msgid "Switch to workspace"
 msgstr "Canvia d'espai de treball"
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
-#, fuzzy
-#| msgid "Two-finger"
 msgid "Four fingers:"
-msgstr "Dos dits"
+msgstr "Quatre dits:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
-msgstr ""
+msgstr "Lliscament amunt"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
-msgstr ""
+msgstr "Pessigada"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
@@ -226,7 +222,7 @@ msgstr "Ampliat"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
-msgstr ""
+msgstr "Commuta la maximització"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
