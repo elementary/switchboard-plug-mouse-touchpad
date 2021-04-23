@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-21 15:45+0000\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-04-24 01:16+0000\n"
+"Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/en_GB/>\n"
 "Language: en_GB\n"
@@ -181,12 +181,12 @@ msgstr "Middle click paste:"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
-msgstr ""
+msgstr "Swipe Horizontally"
 
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
 msgid "Three fingers:"
-msgstr ""
+msgstr "Three fingers:"
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
@@ -195,25 +195,21 @@ msgid "Do nothing"
 msgstr "Do nothing"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
-#, fuzzy
-#| msgid "Switch Workspaces"
 msgid "Switch to workspace"
-msgstr "Switch Workspaces"
+msgstr "Switch to workspace"
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
-#, fuzzy
-#| msgid "Two-finger"
 msgid "Four fingers:"
-msgstr "Two-finger"
+msgstr "Four fingers:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
-msgstr ""
+msgstr "Swipe Up"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
-msgstr ""
+msgstr "Pinch"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
@@ -221,7 +217,7 @@ msgstr "Zoom"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
-msgstr ""
+msgstr "Toggle maximised"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -301,7 +297,7 @@ msgstr "Physical clicking:"
 
 #: src/Views/Touchpad.vala:69
 msgid "Scroll method:"
-msgstr ""
+msgstr "Scroll method:"
 
 #: src/Views/Touchpad.vala:73
 msgid "Two-finger"
@@ -313,19 +309,15 @@ msgstr "Edge"
 
 #: src/Views/Touchpad.vala:101
 msgid "Ignore:"
-msgstr ""
+msgstr "Ignore:"
 
 #: src/Views/Touchpad.vala:105
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Ignore while typing"
+msgstr "While typing"
 
 #: src/Views/Touchpad.vala:106
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Ignore when mouse is connected"
+msgstr "When mouse is connected"
 
 #: src/Views/Touchpad.vala:119
 msgid "Tap to click:"
