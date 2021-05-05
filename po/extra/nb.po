@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-21 15:45+0000\n"
-"PO-Revision-Date: 2019-06-27 14:11+0000\n"
+"PO-Revision-Date: 2021-05-06 14:05+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/mouse-touchpad-plug-extra/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
@@ -33,7 +33,7 @@ msgstr "Sett opp mus og pekeflate"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:52
 msgid "Updated translations"
-msgstr ""
+msgstr "Oppdaterte oversettelser"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Fix stretched switches when using large text"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
 msgid "New features:"
-msgstr ""
+msgstr "Nye funksjoner:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:29
 msgid "Add Dwell Click and Pointer size settings"
