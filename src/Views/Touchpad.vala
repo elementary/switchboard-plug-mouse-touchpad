@@ -20,9 +20,8 @@
 public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
     private GLib.Settings glib_settings;
     private Gtk.RadioButton areas_click_method_radio;
-    private Gtk.RadioButton default_click_method_radio;
-    private Gtk.RadioButton disabled_click_method_radio;
     private Gtk.RadioButton multitouch_click_method_radio;
+    private Gtk.RadioButton other_click_method_radio;
 
     public TouchpadView () {
         Object (
@@ -44,12 +43,21 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             pointer_speed_scale.add_mark (x, Gtk.PositionType.TOP, null);
         }
 
-        default_click_method_radio = new Gtk.RadioButton.with_label (null, _("Hardware default"));
-        multitouch_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Multitouch"));
-        areas_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("Touchpad areas"));
-        disabled_click_method_radio = new Gtk.RadioButton.with_label_from_widget (default_click_method_radio, _("None"));
+        multitouch_click_method_radio = new Gtk.RadioButton.with_label (null, _("Multitouch")) {
+            always_show_image = true,
+            image_position = Gtk.PositionType.TOP,
+            image = new Gtk.Image.from_icon_name ("touchpad-click-multitouch-symbolic", Gtk.IconSize.DND)
+        };
+        multitouch_click_method_radio.get_style_context ().add_class ("image-button");
 
-        var click_method_label = new SettingLabel (_("Physical clicking:")) {
+        areas_click_method_radio = new Gtk.RadioButton.with_label_from_widget (multitouch_click_method_radio, _("Areas")) {
+            always_show_image = true,
+            image_position = Gtk.PositionType.TOP,
+            image = new Gtk.Image.from_icon_name ("touchpad-click-areas-symbolic", Gtk.IconSize.DND)
+        };
+        areas_click_method_radio.get_style_context ().add_class ("image-button");
+
+        var click_method_label = new SettingLabel (_("Physical secondary clicking:")) {
             margin_top = 24
         };
 
@@ -57,10 +65,8 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             column_spacing = 12,
             margin_top = 24
         };
-        click_method_grid.add (default_click_method_radio);
         click_method_grid.add (multitouch_click_method_radio);
         click_method_grid.add (areas_click_method_radio);
-        click_method_grid.add (disabled_click_method_radio);
 
         var tap_to_click_switch = new Gtk.Switch () {
             halign = Gtk.Align.START
@@ -167,13 +173,13 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             null, null
         );
 
+        /* This exists so that users can select another option if clicking is
+         * set from another interface like dconf or Terminal
+         */
+        other_click_method_radio = new Gtk.RadioButton.from_widget (multitouch_click_method_radio);
+
         update_click_method ();
         glib_settings.changed["click-method"].connect (update_click_method);
-
-        default_click_method_radio.button_release_event.connect (() => {
-            glib_settings.set_string ("click-method", "default");
-            return Gdk.EVENT_PROPAGATE;
-        });
 
         multitouch_click_method_radio.button_release_event.connect (() => {
             glib_settings.set_string ("click-method", "fingers");
@@ -182,11 +188,6 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
 
         areas_click_method_radio.button_release_event.connect (() => {
             glib_settings.set_string ("click-method", "areas");
-            return Gdk.EVENT_PROPAGATE;
-        });
-
-        disabled_click_method_radio.button_release_event.connect (() => {
-            glib_settings.set_string ("click-method", "none");
             return Gdk.EVENT_PROPAGATE;
         });
 
@@ -229,11 +230,8 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             case "areas":
                 areas_click_method_radio.active = true;
                 break;
-            case "none":
-                disabled_click_method_radio.active = true;
-                break;
             default:
-                default_click_method_radio.active = true;
+                other_click_method_radio.active = true;
                 break;
         }
     }
