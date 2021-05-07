@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-21 15:45+0000\n"
+"POT-Creation-Date: 2021-05-07 23:59+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Albanian <https://l10n.elementary.io/projects/switchboard/"
@@ -86,7 +86,7 @@ msgstr ""
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:30
+#: src/Views/Touchpad.vala:29
 msgid "Touchpad"
 msgstr ""
 
@@ -223,11 +223,11 @@ msgstr ""
 msgid "Devices"
 msgstr "Pajisjet"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
+#: src/Views/Mouse.vala:41
 msgid "Hardware default"
 msgstr ""
 
-#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
+#: src/Views/Mouse.vala:42
 msgid "None"
 msgstr "Asnjë"
 
@@ -235,7 +235,7 @@ msgstr "Asnjë"
 msgid "Adaptive"
 msgstr ""
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:121
 msgid "Pointer speed:"
 msgstr ""
 
@@ -243,7 +243,7 @@ msgstr ""
 msgid "Pointer acceleration:"
 msgstr ""
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:101
 msgid "Natural scrolling:"
 msgstr ""
 
@@ -283,43 +283,43 @@ msgstr ""
 msgid "Control pointer using keypad:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:48
+#: src/Views/Touchpad.vala:46
 msgid "Multitouch"
 msgstr ""
 
-#: src/Views/Touchpad.vala:49
-msgid "Touchpad areas"
+#: src/Views/Touchpad.vala:53
+msgid "Areas"
 msgstr ""
 
-#: src/Views/Touchpad.vala:52
-msgid "Physical clicking:"
+#: src/Views/Touchpad.vala:60
+msgid "Physical secondary clicking:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:69
+#: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:73
+#: src/Views/Touchpad.vala:79
 msgid "Two-finger"
 msgstr ""
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:86
 msgid "Edge"
 msgstr ""
 
-#: src/Views/Touchpad.vala:101
+#: src/Views/Touchpad.vala:107
 msgid "Ignore:"
 msgstr ""
 
-#: src/Views/Touchpad.vala:105
+#: src/Views/Touchpad.vala:111
 msgid "While typing"
 msgstr ""
 
-#: src/Views/Touchpad.vala:106
+#: src/Views/Touchpad.vala:112
 msgid "When mouse is connected"
 msgstr ""
 
-#: src/Views/Touchpad.vala:119
+#: src/Views/Touchpad.vala:125
 msgid "Tap to click:"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-21 15:45+0000\n"
+"POT-Creation-Date: 2021-05-07 23:59+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
@@ -87,7 +87,7 @@ msgstr "Controlar o cursor através do teclado"
 
 #: src/Plug.vala:140 src/Plug.vala:141 src/Plug.vala:142 src/Plug.vala:143
 #: src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147
-#: src/Views/Touchpad.vala:30
+#: src/Views/Touchpad.vala:29
 msgid "Touchpad"
 msgstr "Touchpad"
 
@@ -228,11 +228,11 @@ msgstr "Alternar para maximizado"
 msgid "Devices"
 msgstr "Dispositivos"
 
-#: src/Views/Mouse.vala:41 src/Views/Touchpad.vala:47
+#: src/Views/Mouse.vala:41
 msgid "Hardware default"
 msgstr "Predefinição do equipamento"
 
-#: src/Views/Mouse.vala:42 src/Views/Touchpad.vala:50
+#: src/Views/Mouse.vala:42
 msgid "None"
 msgstr "Nenhuma"
 
@@ -240,7 +240,7 @@ msgstr "Nenhuma"
 msgid "Adaptive"
 msgstr "Adaptável"
 
-#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:115
+#: src/Views/Mouse.vala:48 src/Views/Touchpad.vala:121
 msgid "Pointer speed:"
 msgstr "Velocidade do cursor:"
 
@@ -248,7 +248,7 @@ msgstr "Velocidade do cursor:"
 msgid "Pointer acceleration:"
 msgstr "Aceleração do cursor:"
 
-#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:95
+#: src/Views/Mouse.vala:54 src/Views/Touchpad.vala:101
 msgid "Natural scrolling:"
 msgstr "Deslocação natural:"
 
@@ -288,45 +288,50 @@ msgstr "Tamanho do cursor:"
 msgid "Control pointer using keypad:"
 msgstr "Controlar cursor através do teclado:"
 
-#: src/Views/Touchpad.vala:48
+#: src/Views/Touchpad.vala:46
 msgid "Multitouch"
 msgstr "Multi-toque"
 
-#: src/Views/Touchpad.vala:49
-msgid "Touchpad areas"
-msgstr "Áreas do touchpad"
+#: src/Views/Touchpad.vala:53
+msgid "Areas"
+msgstr ""
 
-#: src/Views/Touchpad.vala:52
-msgid "Physical clicking:"
+#: src/Views/Touchpad.vala:60
+#, fuzzy
+#| msgid "Physical clicking:"
+msgid "Physical secondary clicking:"
 msgstr "Clique físico:"
 
-#: src/Views/Touchpad.vala:69
+#: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
 msgstr "Método de rolagem:"
 
-#: src/Views/Touchpad.vala:73
+#: src/Views/Touchpad.vala:79
 msgid "Two-finger"
 msgstr "Dois dedos"
 
-#: src/Views/Touchpad.vala:80
+#: src/Views/Touchpad.vala:86
 msgid "Edge"
 msgstr "Margem"
 
-#: src/Views/Touchpad.vala:101
+#: src/Views/Touchpad.vala:107
 msgid "Ignore:"
 msgstr "Ignorar:"
 
-#: src/Views/Touchpad.vala:105
+#: src/Views/Touchpad.vala:111
 msgid "While typing"
 msgstr "Enquanto escreve"
 
-#: src/Views/Touchpad.vala:106
+#: src/Views/Touchpad.vala:112
 msgid "When mouse is connected"
 msgstr "Quando o rato está ligado"
 
-#: src/Views/Touchpad.vala:119
+#: src/Views/Touchpad.vala:125
 msgid "Tap to click:"
 msgstr "Tocar para clicar:"
+
+#~ msgid "Touchpad areas"
+#~ msgstr "Áreas do touchpad"
 
 #~ msgid "Multitasking View:"
 #~ msgstr "Vista de Tarefas:"
