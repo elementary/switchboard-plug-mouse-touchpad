@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/io/elementary/switchboard/mouse-touchpad">
-    <file alias="mouse-left-symbolic.svg" compressed="true" preprocess="xml-stripblanks">mouse-left-symbolic.svg</file>
-    <file alias="mouse-right-symbolic.svg" compressed="true" preprocess="xml-stripblanks">mouse-right-symbolic.svg</file>
-    <file alias="touchpad-scroll-edge-symbolic.svg" compressed="true" preprocess="xml-stripblanks">touchpad-scroll-edge-symbolic.svg</file>
-    <file alias="touchpad-scroll-two-finger-symbolic.svg" compressed="true" preprocess="xml-stripblanks">touchpad-scroll-two-finger-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">mouse-left-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">mouse-right-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">touchpad-click-areas-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">touchpad-click-multitouch-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">touchpad-scroll-edge-symbolic.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">touchpad-scroll-two-finger-symbolic.svg</file>
     <file alias="24x24/categories/mouse-touchpad-pointing-symbolic.svg" compressed="true" preprocess="xml-stripblanks">pointing/24-symbolic.svg</file>
     <file alias="24x24@2/categories/mouse-touchpad-pointing-symbolic.svg" compressed="true" preprocess="xml-stripblanks">pointing/24-symbolic.svg</file>
     <file alias="32x32/categories/mouse-touchpad-pointing.svg" compressed="true" preprocess="xml-stripblanks">pointing/32.svg</file>
