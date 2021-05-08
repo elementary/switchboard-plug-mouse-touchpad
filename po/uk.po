@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-07 23:59+0000\n"
-"PO-Revision-Date: 2021-05-08 00:14+0000\n"
+"PO-Revision-Date: 2021-05-08 00:15+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/uk/>\n"
@@ -297,10 +297,8 @@ msgid "Areas"
 msgstr "Ділянки"
 
 #: src/Views/Touchpad.vala:60
-#, fuzzy
-#| msgid "Physical clicking:"
 msgid "Physical secondary clicking:"
-msgstr "Фізичне натискання:"
+msgstr "Фізичне вторинне натискання:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
