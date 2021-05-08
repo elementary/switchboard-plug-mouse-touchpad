@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-07 23:59+0000\n"
-"PO-Revision-Date: 2021-04-22 19:27+0000\n"
+"PO-Revision-Date: 2021-05-08 22:27+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/de/>\n"
@@ -154,7 +154,6 @@ msgid "seconds"
 msgstr "Sekunden"
 
 #: src/Views/Clicking.vala:86
-#, fuzzy
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Wie schnell zwei Klicks aufeinander folgen müssen, um als Doppelklick "
@@ -215,13 +214,12 @@ msgid "Swipe Up"
 msgstr "Aufwärts wischen"
 
 #: src/Views/Gestures.vala:62
-#, fuzzy
 msgid "Pinch"
 msgstr "Spreizen oder zusammenziehen"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
-msgstr "Vergrößern/verkleinern:"
+msgstr "Vergrößern/verkleinern"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
@@ -297,13 +295,11 @@ msgstr "Multi-Touch"
 
 #: src/Views/Touchpad.vala:53
 msgid "Areas"
-msgstr ""
+msgstr "Bereiche"
 
 #: src/Views/Touchpad.vala:60
-#, fuzzy
-#| msgid "Physical clicking:"
 msgid "Physical secondary clicking:"
-msgstr "Physisches Klicken:"
+msgstr "Physisches Sekundärklicken:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
