@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-07 23:59+0000\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-05-10 20:45+0000\n"
+"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/es/>\n"
 "Language: es\n"
@@ -186,12 +186,12 @@ msgstr "Pegado mediante pulsación central:"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
-msgstr ""
+msgstr "Deslizar horizontalmente"
 
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
 msgid "Three fingers:"
-msgstr ""
+msgstr "Tres dedos:"
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
@@ -214,11 +214,11 @@ msgstr "Dos dedos"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
-msgstr ""
+msgstr "Deslizar hacia arriba"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
-msgstr ""
+msgstr "Pellizcar"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
@@ -298,7 +298,7 @@ msgstr "Multitáctil"
 
 #: src/Views/Touchpad.vala:53
 msgid "Areas"
-msgstr ""
+msgstr "Áreas"
 
 #: src/Views/Touchpad.vala:60
 #, fuzzy
@@ -308,7 +308,7 @@ msgstr "Clic físico:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
-msgstr ""
+msgstr "Método de desplazamiento:"
 
 #: src/Views/Touchpad.vala:79
 msgid "Two-finger"
@@ -320,7 +320,7 @@ msgstr "Borde"
 
 #: src/Views/Touchpad.vala:107
 msgid "Ignore:"
-msgstr ""
+msgstr "Ignorar:"
 
 #: src/Views/Touchpad.vala:111
 #, fuzzy
