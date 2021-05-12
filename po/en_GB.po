@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-07 23:59+0000\n"
-"PO-Revision-Date: 2021-04-24 01:16+0000\n"
+"PO-Revision-Date: 2021-05-12 17:18+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/en_GB/>\n"
@@ -289,13 +289,11 @@ msgstr "Multitouch"
 
 #: src/Views/Touchpad.vala:53
 msgid "Areas"
-msgstr ""
+msgstr "Areas"
 
 #: src/Views/Touchpad.vala:60
-#, fuzzy
-#| msgid "Physical clicking:"
 msgid "Physical secondary clicking:"
-msgstr "Physical clicking:"
+msgstr "Physical secondary clicking:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
