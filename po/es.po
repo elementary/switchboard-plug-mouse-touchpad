@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-07 23:59+0000\n"
-"PO-Revision-Date: 2021-05-19 03:38+0000\n"
+"PO-Revision-Date: 2021-05-19 09:24+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/es/>\n"
@@ -50,7 +50,7 @@ msgstr "Pulsación secundaria prolongada"
 
 #: src/Plug.vala:128
 msgid "Middle click paste"
-msgstr "Clic central para pegar"
+msgstr "Pulsación central para pegar"
 
 #: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
 #: src/Views/Mouse.vala:25
@@ -97,7 +97,7 @@ msgstr "Toque para hacer clic"
 
 #: src/Plug.vala:143
 msgid "Physical clicking"
-msgstr "Clic físico"
+msgstr "Pulsación física"
 
 #: src/Plug.vala:144
 msgid "Scrolling"
@@ -156,7 +156,9 @@ msgstr "segundos"
 
 #: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr "Rapidez con la que dos clics seguidos se tratarán como un doble clic"
+msgstr ""
+"Rapidez con la que dos pulsaciones seguidas se interpretarán como una "
+"pulsación doble"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
@@ -164,7 +166,7 @@ msgstr "Mantener el puntero quieto para hacer clic automáticamente"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr "Velocidad de doble clic:"
+msgstr "Velocidad de doble pulsación:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
@@ -200,8 +202,6 @@ msgid "Do nothing"
 msgstr "No hacer nada"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
-#, fuzzy
-#| msgid "Switch Workspaces"
 msgid "Switch to workspace"
 msgstr "Cambiar de área de trabajo"
 
@@ -220,11 +220,11 @@ msgstr "Pellizcar"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
-msgstr "Ampliado"
+msgstr "Escala"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
-msgstr ""
+msgstr "Alternar maximización"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -299,10 +299,8 @@ msgid "Areas"
 msgstr "Áreas"
 
 #: src/Views/Touchpad.vala:60
-#, fuzzy
-#| msgid "Physical clicking:"
 msgid "Physical secondary clicking:"
-msgstr "Clic físico:"
+msgstr "Pulsación secundaria física:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
@@ -321,20 +319,16 @@ msgid "Ignore:"
 msgstr "Ignorar:"
 
 #: src/Views/Touchpad.vala:111
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Ignorar mientras escribe"
+msgstr "Mientras se escribe"
 
 #: src/Views/Touchpad.vala:112
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Ignorar cuando el ratón está conectado"
+msgstr "Cuando se conecte un ratón"
 
 #: src/Views/Touchpad.vala:125
 msgid "Tap to click:"
-msgstr "Toque para hacer clic:"
+msgstr "Pulsación mediante toque:"
 
 #~ msgid "Touchpad areas"
 #~ msgstr "Áreas del panel táctil"
