@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-07 23:59+0000\n"
 "PO-Revision-Date: 2021-05-22 06:34+0000\n"
-"Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
+"Last-Translator: Chengyu Liu <wer5lcy@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -315,10 +315,8 @@ msgid "Ignore:"
 msgstr "忽略触控输入:"
 
 #: src/Views/Touchpad.vala:111
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "键盘输入时禁用"
+msgstr "打字时"
 
 #: src/Views/Touchpad.vala:112
 #, fuzzy
