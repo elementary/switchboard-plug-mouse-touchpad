@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-07 23:59+0000\n"
-"PO-Revision-Date: 2021-05-13 11:04+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"PO-Revision-Date: 2021-05-22 06:34+0000\n"
+"Last-Translator: Chengyu Liu <wer5lcy@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -182,12 +182,12 @@ msgstr "中键粘贴："
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
-msgstr ""
+msgstr "水平滑动"
 
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
 msgid "Three fingers:"
-msgstr ""
+msgstr "三指触控:"
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
@@ -208,11 +208,11 @@ msgstr "四指触控："
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
-msgstr ""
+msgstr "向上滑动"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
-msgstr ""
+msgstr "捏合"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
@@ -220,7 +220,7 @@ msgstr "缩放"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
-msgstr ""
+msgstr "切换窗口最大化"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -292,7 +292,7 @@ msgstr "多指触控"
 
 #: src/Views/Touchpad.vala:53
 msgid "Areas"
-msgstr ""
+msgstr "区域"
 
 #: src/Views/Touchpad.vala:60
 #, fuzzy
@@ -302,7 +302,7 @@ msgstr "物理点击："
 
 #: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
-msgstr ""
+msgstr "滚动方式:"
 
 #: src/Views/Touchpad.vala:79
 msgid "Two-finger"
