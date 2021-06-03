@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-07 23:59+0000\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-06-03 09:13+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/nb/>\n"
 "Language: nb\n"
@@ -197,12 +197,12 @@ msgstr "Midtklikk-innliming:"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
-msgstr ""
+msgstr "Dra vannrett"
 
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
 msgid "Three fingers:"
-msgstr ""
+msgstr "Tre fingre:"
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
@@ -211,25 +211,21 @@ msgid "Do nothing"
 msgstr "Ikke gjør noe"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
-#, fuzzy
-#| msgid "Switch Workspaces"
 msgid "Switch to workspace"
-msgstr "Bytt arbeidsområder"
+msgstr "Bytt arbeidsområde"
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
-#, fuzzy
-#| msgid "Two-finger"
 msgid "Four fingers:"
-msgstr "To-finger"
+msgstr "Fire fingre:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
-msgstr ""
+msgstr "Dra oppover"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
-msgstr ""
+msgstr "Knip"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
@@ -237,7 +233,7 @@ msgstr "Forstørret"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
-msgstr ""
+msgstr "Veksle maksimering"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -311,17 +307,15 @@ msgstr "Flerberøring"
 
 #: src/Views/Touchpad.vala:53
 msgid "Areas"
-msgstr ""
+msgstr "Områder"
 
 #: src/Views/Touchpad.vala:60
-#, fuzzy
-#| msgid "Physical clicking:"
 msgid "Physical secondary clicking:"
-msgstr "Fysisk klikking:"
+msgstr "Fysisk sekundær klikking:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
-msgstr ""
+msgstr "Rullemetode:"
 
 #: src/Views/Touchpad.vala:79
 msgid "Two-finger"
@@ -333,17 +327,16 @@ msgstr "Kant"
 
 #: src/Views/Touchpad.vala:107
 msgid "Ignore:"
-msgstr ""
+msgstr "Ignorer:"
 
 #: src/Views/Touchpad.vala:111
 #, fuzzy
 msgid "While typing"
-msgstr "Skru av mens du skriver:"
+msgstr "Mens du skriver"
 
 #: src/Views/Touchpad.vala:112
-#, fuzzy
 msgid "When mouse is connected"
-msgstr "Ignorer når mus er koblet til:"
+msgstr "Når mus er tilkoblet"
 
 #: src/Views/Touchpad.vala:125
 msgid "Tap to click:"
