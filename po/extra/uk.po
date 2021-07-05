@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-07 23:59+0000\n"
-"PO-Revision-Date: 2021-07-03 16:14+0000\n"
+"PO-Revision-Date: 2021-07-05 13:54+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/uk/>\n"
@@ -26,7 +26,7 @@ msgstr "Налаштування миші та сенсорної панелі"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
-msgstr "Налаштувати мишу та сенсорну панель"
+msgstr "Налаштування миші та сенсорної панелі"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
