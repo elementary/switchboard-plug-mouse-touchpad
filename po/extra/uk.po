@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-07-15 01:01+0000\n"
+"PO-Revision-Date: 2021-07-15 23:09+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/uk/>\n"
@@ -36,23 +36,19 @@ msgstr "Нові можливості:"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
 msgid "Multitouch gesture options"
-msgstr ""
+msgstr "Багатофункціональні жести"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
-#, fuzzy
-#| msgid "Other updates:"
 msgid "Minor updates:"
-msgstr "Інші оновлення:"
+msgstr "Незначні оновлення:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "Add more snap points to pointer speed sliders"
-msgstr ""
+msgstr "Додано більше точок охоплення для вказівників швидкого гортання"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
-#, fuzzy
-#| msgid "Mouse &amp; Touchpad Settings"
 msgid "Redesigned touchpad settings"
-msgstr "Налаштування миші та сенсорної панелі"
+msgstr "Перероблені налаштування сенсорної панелі"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
