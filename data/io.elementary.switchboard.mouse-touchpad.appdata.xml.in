@@ -9,6 +9,11 @@
   <releases>
     <release version="6.0.0" date="2021-07-15" urgency="medium">
       <description>
+        <p>New features:</p>
+        <ul>
+          <li>Multitouch gesture options</li>
+        </ul>
+        <p>Minor updates:</p>
         <ul>
           <li>Add more snap points to pointer speed sliders</li>
           <li>Multitouch gesture options</li>
@@ -70,6 +75,9 @@
     </screenshot>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-pointing.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-gestures.png</image>
     </screenshot>
     <screenshot>
       <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/master/data/screenshot-mouse.png</image>
