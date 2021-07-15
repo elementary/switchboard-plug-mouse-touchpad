@@ -1,3 +1,24 @@
+switchboard-plug-mouse-touchpad (6.0.0) bionic; urgency=medium
+
+  * Release 6.0.0 (#183)
+  * Update translation files
+  * Update translation template
+  * Touchpad: Remove extra secondary clicking options, illustrate (#175)
+  * Gestures: Use new gsettings schemas (#173)
+  * TouchpadView: Use radios and checks (#168)
+  * Add settings for the zoom gesture added in Gala (#169)
+  * adapt to GSettings schema changes in GNOME 40 (#167)
+  * Spelling: Switch workspace: (#166)
+  * LINGUAS: sort, remove en_US
+  * Remove tile window gesture settings (#162)
+  * Update POTFILES (#159)
+  * Settings for multi-touch gestures (#157)
+  * Add more markers to the pointer speed scale (#154)
+  * Actions/Release: Update release name to odin
+  * Pointing: Update for latest GSD/Mutter changes (#151)
+
+ -- elementary OS Team <builds@elementary.io>  Thu, 15 Jul 2021 22:06:36 +0000
+
 switchboard-plug-mouse-touchpad (2.4.2) bionic; urgency=medium
 
   * Release 2.4.2 (#148)
