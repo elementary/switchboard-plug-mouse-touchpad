@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-07 23:59+0000\n"
+"POT-Creation-Date: 2021-07-15 22:06+0000\n"
 "PO-Revision-Date: 2020-01-25 15:08+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/mouse-"
@@ -27,38 +27,61 @@ msgstr "Muis &amp; Touchpad Instellingen"
 msgid "Configure mouse and touchpad"
 msgstr "Configureer muis en touchpad"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:13
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:34
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:52
+msgid "New features:"
+msgstr "Nieuwe functies:"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
+msgid "Multitouch gesture options"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
+#, fuzzy
+#| msgid "Other updates:"
+msgid "Minor updates:"
+msgstr "Andere updates:"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
+msgid "Add more snap points to pointer speed sliders"
+msgstr ""
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
+#, fuzzy
+#| msgid "Mouse &amp; Touchpad Settings"
+msgid "Redesigned touchpad settings"
+msgstr "Muis &amp; Touchpad Instellingen"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:36
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:57
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:67
 msgid "Updated translations"
 msgstr "Bijgewerkte vertalingen"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:35
 msgid "Fix stretched switches when using large text"
 msgstr ""
 "Een probleem opgelost met uitgestrekte schakelaars bij gebruik van grote "
 "tekst"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
-msgid "New features:"
-msgstr "Nieuwe functies:"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:29
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:44
 msgid "Add Dwell Click and Pointer size settings"
 msgstr "Een instelling voor de grootte van de aanwijzer toegevoegd"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:31
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:46
 msgid "Other updates:"
 msgstr "Andere updates:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:48
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
 "Reageer ook op secundaire knop kliks bij het selecteren van Primaire Knop"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:56
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
@@ -66,14 +89,14 @@ msgstr ""
 "Een probleem opgelost waarbij de primaire knop selectie niet werkte bij "
 "links naar rechts talen"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:64
 msgid "New Sidebar navigation"
 msgstr "Nieuwe zijbalk navigatie"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:50
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:65
 msgid "Fix middle click not appearing"
 msgstr "Probleem opgelost met niet verschijnende midden klik"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:51
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:66
 msgid "Add Double-Click speed"
 msgstr "Dubbelklik snelheid toegevoegd"
