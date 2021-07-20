@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-03-14 14:49+0000\n"
-"Last-Translator: Uwe S <saabisto@gmx.de>\n"
-"Language-Team: German <https://l10n.elementary.io/projects/switchboard/mouse-"
-"touchpad-plug-extra/de/>\n"
+"PO-Revision-Date: 2021-07-20 18:18+0000\n"
+"Last-Translator: supaeasy <ismo+github@wolffson.ch>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
+"mouse-touchpad-plug-extra/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
-msgstr ""
+msgstr "Maus- und Touchpad-Einstellungen"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
@@ -30,7 +30,7 @@ msgstr "Maus und Tastfeld einrichten"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
 msgid "New features:"
-msgstr ""
+msgstr "Neue Funktionen:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
@@ -39,7 +39,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
 msgid "Minor updates:"
-msgstr ""
+msgstr "Kleinere Aktualisierungen:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "Add more snap points to pointer speed sliders"
