@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-07-21 04:50+0000\n"
+"PO-Revision-Date: 2021-07-21 14:31+0000\n"
 "Last-Translator: supaeasy <ismo+github@wolffson.ch>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/de/>\n"
@@ -43,11 +43,11 @@ msgstr "Kleinere Aktualisierungen:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "Add more snap points to pointer speed sliders"
-msgstr ""
+msgstr "Mehr Einrastpunkte zum Slider für Mauszeigergeschwindigkeit hinzugefügt"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
 msgid "Redesigned touchpad settings"
-msgstr ""
+msgstr "Neu designte Touchpad Einstellungen"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
@@ -61,33 +61,39 @@ msgstr "Aktualisierte Übersetzungen"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:35
 msgid "Fix stretched switches when using large text"
 msgstr ""
+"Verzogene Schalter repariert, die auftraten, wenn zu grosser Text verwendet "
+"wurde"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:44
 msgid "Add Dwell Click and Pointer size settings"
-msgstr ""
+msgstr "Einstellungen für Verweil-Klicken und Mauszeigergrößen hinzugefügt"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:46
 msgid "Other updates:"
-msgstr ""
+msgstr "Weitere Aktualisierungen:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:48
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
+"Auch Klicks auf sekundäre Buttons beachten wenn der primäre Button gewählt "
+"ist"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:56
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr ""
+"Fehler behoben, bei dem die Anwahl des Primär-Buttons nicht in von rechts "
+"nach links gelesenen Sprachen funktionierte"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:64
 msgid "New Sidebar navigation"
-msgstr ""
+msgstr "Neue Sidebar-Navigation"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:65
 msgid "Fix middle click not appearing"
-msgstr ""
+msgstr "Fehler behoben, bei dem der Mittelklick nicht berücksichtigt wurde"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:66
 msgid "Add Double-Click speed"
-msgstr ""
+msgstr "Doppelklickgeschwindigkeit hinzufügen"
