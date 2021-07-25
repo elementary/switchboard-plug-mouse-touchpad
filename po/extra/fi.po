@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-07-24 17:19+0000\n"
+"PO-Revision-Date: 2021-07-25 12:42+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/fi/>\n"
@@ -30,7 +30,7 @@ msgstr "Määritä hiiren ja kosketuslevyn toiminta"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
 msgid "New features:"
-msgstr ""
+msgstr "Uudet ominaisuudet:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
@@ -70,7 +70,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:46
 msgid "Other updates:"
-msgstr ""
+msgstr "Muut päivitykset:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:48
 msgid "Also listen to secondary button clicks when selecting Primary Button"
