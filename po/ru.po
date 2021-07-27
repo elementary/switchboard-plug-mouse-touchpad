@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
 "PO-Revision-Date: 2021-07-27 11:19+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"Last-Translator: Deleted User <noreply+2851@weblate.org>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ru/>\n"
 "Language: ru\n"
@@ -265,7 +265,7 @@ msgstr "Маленький"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "Средний"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
@@ -280,10 +280,8 @@ msgid "Reveal pointer:"
 msgstr "Выделять указатель:"
 
 #: src/Views/Pointing.vala:87
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "Скорость указателя:"
+msgstr "Размер указателя:"
 
 #: src/Views/Pointing.vala:94
 msgid "Control pointer using keypad:"
@@ -295,17 +293,15 @@ msgstr "Мультитач"
 
 #: src/Views/Touchpad.vala:53
 msgid "Areas"
-msgstr ""
+msgstr "Области"
 
 #: src/Views/Touchpad.vala:60
-#, fuzzy
-#| msgid "Physical clicking:"
 msgid "Physical secondary clicking:"
-msgstr "Метод физических нажатий:"
+msgstr "Физическое вторичное нажатие:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
-msgstr ""
+msgstr "Способ прокрутки:"
 
 #: src/Views/Touchpad.vala:79
 msgid "Two-finger"
@@ -317,7 +313,7 @@ msgstr "По краю"
 
 #: src/Views/Touchpad.vala:107
 msgid "Ignore:"
-msgstr ""
+msgstr "Игнорировать:"
 
 #: src/Views/Touchpad.vala:111
 msgid "While typing"
