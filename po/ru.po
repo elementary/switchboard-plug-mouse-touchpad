@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-07-24 02:10+0000\n"
-"Last-Translator: Vsevolod <sevauserg.com@gmail.com>\n"
+"PO-Revision-Date: 2021-07-27 11:19+0000\n"
+"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ru/>\n"
 "Language: ru\n"
@@ -155,11 +155,11 @@ msgstr "секунды"
 
 #: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
-msgstr ""
+msgstr "Какую скорость двух нажатий подряд считать за двойное нажатие"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Удерживайте указатель неподвижным для автоматического нажатия"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
@@ -174,13 +174,10 @@ msgid "Long-press secondary click:"
 msgstr "Вторичный щелчок:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
-"Нажатие средней клавиши или нажатие тремя пальцами будет осуществлять "
-"вставку выделенного текста"
+"Нажатие средней клавиши или косание тремя пальцами, чтобы вставить "
+"выделенный текст"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
@@ -312,7 +309,7 @@ msgstr ""
 
 #: src/Views/Touchpad.vala:79
 msgid "Two-finger"
-msgstr "Двухпальцевая"
+msgstr "Двумя пальцами"
 
 #: src/Views/Touchpad.vala:86
 msgid "Edge"
