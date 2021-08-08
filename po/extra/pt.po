@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-07-19 19:06+0000\n"
+"PO-Revision-Date: 2021-08-08 14:22+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/pt/>\n"
@@ -35,7 +35,7 @@ msgstr "Novas funcionalidades:"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
 msgid "Multitouch gesture options"
-msgstr ""
+msgstr "Opções de gestos multi-toque"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
 msgid "Minor updates:"
@@ -44,12 +44,12 @@ msgstr "Pequenas atualizações:"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 msgid "Add more snap points to pointer speed sliders"
 msgstr ""
+"Adiciona mais pontos de ajuste aos controlo deslizantes de velocidade do "
+"cursor"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
-#, fuzzy
-#| msgid "Mouse &amp; Touchpad Settings"
 msgid "Redesigned touchpad settings"
-msgstr "Definições do Rato e Touchpad"
+msgstr "Definições do painel tátil redesenhadas"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
