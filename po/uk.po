@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-07-05 13:54+0000\n"
+"PO-Revision-Date: 2021-08-11 16:59+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/uk/>\n"
@@ -102,7 +102,7 @@ msgstr "Фізичне натискання"
 
 #: src/Plug.vala:144
 msgid "Scrolling"
-msgstr "Прокрутка"
+msgstr "Прокручування"
 
 #: src/Plug.vala:146
 msgid "Ignore while typing"
@@ -302,7 +302,7 @@ msgstr "Фізичне вторинне натискання:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Scroll method:"
-msgstr "Спосіб прокрутки:"
+msgstr "Спосіб прокручування:"
 
 #: src/Views/Touchpad.vala:79
 msgid "Two-finger"
