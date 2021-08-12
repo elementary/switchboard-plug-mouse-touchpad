@@ -33,6 +33,9 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
     }
 
     public Plug () {
+        GLib.Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+        GLib.Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+
         var settings = new Gee.TreeMap<string, string?> (null, null);
         settings.set ("input/pointer/clicking", "clicking");
         settings.set ("input/pointer/mouse", "mouse");
