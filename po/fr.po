@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-05-10 20:45+0000\n"
+"PO-Revision-Date: 2021-08-12 17:07+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/Plug.vala:50
 msgid "Mouse & Touchpad"
-msgstr "Souris & Pavé tactile"
+msgstr "Souris et Pavé tactile"
 
 #: src/Plug.vala:51
 msgid "Configure mouse and touchpad"
