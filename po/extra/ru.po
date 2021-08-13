@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
 "PO-Revision-Date: 2021-08-14 00:25+0000\n"
-"Last-Translator: Nikita Kharchenko <m4r5hdev@gmail.com>\n"
+"Last-Translator: DartDeaDia <DartDeaDia@protonmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/ru/>\n"
 "Language: ru\n"
@@ -47,10 +47,8 @@ msgid "Add more snap points to pointer speed sliders"
 msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
-#, fuzzy
-#| msgid "Mouse &amp; Touchpad Settings"
 msgid "Redesigned touchpad settings"
-msgstr "Параметры Мыши и сенсорной панели"
+msgstr "Изменён дизайн параметров сенсорной панели"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
@@ -68,6 +66,7 @@ msgstr "Исправление растянутых переключателей
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:44
 msgid "Add Dwell Click and Pointer size settings"
 msgstr ""
+"Добавлены параметры для Автонажатия при наведении курсора и Размера указателя"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:46
 msgid "Other updates:"
