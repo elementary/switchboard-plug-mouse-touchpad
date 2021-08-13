@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
 "PO-Revision-Date: 2021-08-14 01:28+0000\n"
-"Last-Translator: asdffdsdaf <useruseruser1233211@gmail.com>\n"
+"Last-Translator: DartDeaDia <DartDeaDia@protonmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ru/>\n"
 "Language: ru\n"
@@ -39,7 +39,7 @@ msgstr "Скорость двойного нажатия"
 
 #: src/Plug.vala:125
 msgid "Dwell click"
-msgstr "Щелчок по таймауту"
+msgstr "Автонажатие при наведении курсора"
 
 #: src/Plug.vala:126
 msgid "Primary button"
@@ -167,7 +167,7 @@ msgstr "Скорость двойного нажатия:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr "Нажатие при наведении курсора:"
+msgstr "Автонажатие при наведении курсора:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
@@ -185,7 +185,7 @@ msgstr "Вставка средней клавишей:"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
-msgstr ""
+msgstr "Проведение по горизонтали"
 
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
@@ -200,7 +200,7 @@ msgstr "Ничего не делать"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 msgid "Switch to workspace"
-msgstr ""
+msgstr "Переключиться на рабочее пространство"
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
@@ -209,11 +209,11 @@ msgstr "Четыре пальца:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
-msgstr ""
+msgstr "Проведение вверх"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
-msgstr ""
+msgstr "Сведение пальцев"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
