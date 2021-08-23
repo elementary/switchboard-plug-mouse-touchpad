@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-08-14 15:23+0000\n"
-"Last-Translator: DartDeaDia <DartDeaDia@protonmail.com>\n"
+"PO-Revision-Date: 2021-08-23 19:38+0000\n"
+"Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/ru/>\n"
 "Language: ru\n"
@@ -26,7 +26,7 @@ msgstr "Параметры Мыши и сенсорной панели"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
-msgstr "Настройка клавиатуры и тачпада"
+msgstr "Настройка клавиатуры и сенсорной панели"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
