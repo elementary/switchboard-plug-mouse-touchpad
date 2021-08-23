@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-08-23 14:23+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/sk/>\n"
 "Language: sk\n"
@@ -123,7 +123,7 @@ msgstr ""
 
 #: src/Plug.vala:151 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
-msgstr "Zobrazenie viacerých aplikácii"
+msgstr "Paralelné zobrazenie"
 
 #: src/Plug.vala:152
 msgid "Switch Workspaces"
@@ -266,7 +266,7 @@ msgstr ""
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
-msgstr ""
+msgstr "Malá"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
@@ -274,7 +274,7 @@ msgstr ""
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
-msgstr "Veľké"
+msgstr "Veľká"
 
 #: src/Views/Pointing.vala:68
 msgid "Pressing the control key will highlight the position of the pointer"
