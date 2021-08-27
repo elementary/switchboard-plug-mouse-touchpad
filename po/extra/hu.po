@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:06+0000\n"
-"PO-Revision-Date: 2021-08-27 00:42+0000\n"
+"PO-Revision-Date: 2021-08-27 08:04+0000\n"
 "Last-Translator: Sziráki Bálint <blntsziraki@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/hu/>\n"
@@ -56,7 +56,7 @@ msgstr ""
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:57
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:67
 msgid "Updated translations"
-msgstr ""
+msgstr "Frissített fordítások"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:35
 msgid "Fix stretched switches when using large text"
