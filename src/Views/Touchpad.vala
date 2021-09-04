@@ -72,23 +72,15 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             halign = Gtk.Align.START
         };
 
-        var tap_and_drag_switch = new Gtk.Switch () {
+        var tap_and_drag_check = new Gtk.CheckButton.with_label (_("Double-tap and move to drag")) {
             halign = Gtk.Align.START
         };
 
-        var tap_label = new SettingLabel (_("Tap:")) {
-            margin_top = 24
+        var tap_grid = new Gtk.Grid () {
+            column_spacing = 12
         };
-
-        var disable_while_typing_check = new Gtk.CheckButton.with_label (_("While typing"));
-        var disable_with_mouse_check = new Gtk.CheckButton.with_label (_("When mouse is connected"));
-
-        var disable_grid = new Gtk.Grid () {
-            column_spacing = 12,
-            margin_top = 24
-        };
-        disable_grid.add (disable_while_typing_check);
-        disable_grid.add (disable_with_mouse_check);
+        tap_grid.add (tap_to_click_switch);
+        tap_grid.add (tap_and_drag_check);
 
         var scroll_method_label = new SettingLabel (_("Scroll method:")) {
             margin_top = 24
@@ -140,15 +132,13 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         content_area.attach (click_method_label, 0, 1);
         content_area.attach (click_method_grid, 1, 1);
         content_area.attach (new SettingLabel (_("Tap to click:")), 0, 2);
-        content_area.attach (tap_to_click_switch, 1, 2);
-        content_area.attach (new SettingLabel (_("Tap and drag:")), 0, 3);
-        content_area.attach (tap_and_drag_switch, 1, 3);
-        content_area.attach (scroll_method_label, 0, 4);
-        content_area.attach (scroll_method_grid, 1, 4);
-        content_area.attach (natural_scrolling_label, 0, 5);
-        content_area.attach (natural_scrolling_switch, 1, 5);
-        content_area.attach (disable_label, 0, 6);
-        content_area.attach (disable_grid, 1, 6);
+        content_area.attach (tap_grid, 1, 2);
+        content_area.attach (scroll_method_label, 0, 3);
+        content_area.attach (scroll_method_grid, 1, 3);
+        content_area.attach (natural_scrolling_label, 0, 4);
+        content_area.attach (natural_scrolling_switch, 1, 4);
+        content_area.attach (disable_label, 0, 5);
+        content_area.attach (disable_grid, 1, 5);
 
         glib_settings = new GLib.Settings ("org.gnome.desktop.peripherals.touchpad");
         glib_settings.bind (
@@ -176,8 +166,14 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             GLib.SettingsBindFlags.DEFAULT
         );
         glib_settings.bind (
+            "tap-to-click",
+            tap_and_drag_check,
+            "sensitive",
+            GLib.SettingsBindFlags.DEFAULT
+        );
+        glib_settings.bind (
             "tap-and-drag",
-            tap_and_drag_switch,
+            tap_and_drag_check,
             "active",
             GLib.SettingsBindFlags.DEFAULT
         );
