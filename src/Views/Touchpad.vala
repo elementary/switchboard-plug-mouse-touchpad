@@ -68,7 +68,7 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         click_method_grid.add (multitouch_click_method_radio);
         click_method_grid.add (areas_click_method_radio);
 
-        var tap_to_click_switch = new Gtk.Switch () {
+        var tap_to_click_check = new Gtk.CheckButton.with_label (_("Tap to click")) {
             halign = Gtk.Align.START
         };
 
@@ -79,7 +79,7 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         var tap_grid = new Gtk.Grid () {
             column_spacing = 12
         };
-        tap_grid.add (tap_to_click_switch);
+        tap_grid.add (tap_to_click_check);
         tap_grid.add (tap_and_drag_check);
 
         var scroll_method_label = new SettingLabel (_("Scroll method:")) {
@@ -145,37 +145,37 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             "disable-while-typing",
             disable_while_typing_check,
             "active",
-            GLib.SettingsBindFlags.DEFAULT
+            SettingsBindFlags.DEFAULT
         );
         glib_settings.bind (
             "natural-scroll",
             natural_scrolling_switch,
             "active",
-            GLib.SettingsBindFlags.DEFAULT
+            SettingsBindFlags.DEFAULT
         );
         glib_settings.bind (
             "speed",
             pointer_speed_adjustment,
             "value",
-            GLib.SettingsBindFlags.DEFAULT
+            SettingsBindFlags.DEFAULT
         );
         glib_settings.bind (
             "tap-to-click",
-            tap_to_click_switch,
+            tap_to_click_check,
             "active",
-            GLib.SettingsBindFlags.DEFAULT
-        );
-        glib_settings.bind (
-            "tap-to-click",
-            tap_and_drag_check,
-            "sensitive",
-            GLib.SettingsBindFlags.GET
+            SettingsBindFlags.DEFAULT
         );
         glib_settings.bind (
             "tap-and-drag",
             tap_and_drag_check,
             "active",
-            GLib.SettingsBindFlags.DEFAULT
+            SettingsBindFlags.DEFAULT
+        );
+        tap_to_click_check.bind_property (
+            "active",
+            tap_and_drag_check,
+            "sensitive",
+            BindingFlags.SYNC_CREATE
         );
 
         glib_settings.bind_with_mapping (
