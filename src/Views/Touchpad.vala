@@ -169,7 +169,7 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             "tap-to-click",
             tap_and_drag_check,
             "sensitive",
-            GLib.SettingsBindFlags.DEFAULT
+            GLib.SettingsBindFlags.GET
         );
         glib_settings.bind (
             "tap-and-drag",
