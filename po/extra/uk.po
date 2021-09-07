@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 22:06+0000\n"
+"POT-Creation-Date: 2021-09-07 20:38+0000\n"
 "PO-Revision-Date: 2021-07-15 23:09+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -29,54 +29,61 @@ msgid "Configure mouse and touchpad"
 msgstr "Налаштування миші та сенсорної панелі"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:54
 msgid "New features:"
 msgstr "Нові можливості:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
-msgid "Multitouch gesture options"
-msgstr "Багатофункціональні жести"
+msgid "New toggle for “Double-tap and move to drag”"
+msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
 msgid "Minor updates:"
 msgstr "Незначні оновлення:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
-msgid "Add more snap points to pointer speed sliders"
-msgstr "Додано більше точок охоплення для вказівників швидкого гортання"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
-msgid "Redesigned touchpad settings"
-msgstr "Перероблені налаштування сенсорної панелі"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:36
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:57
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:67
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:48
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:61
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:69
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:79
 msgid "Updated translations"
 msgstr "Оновлено переклади"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:35
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:26
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:31
+msgid "Multitouch gesture options"
+msgstr "Багатофункціональні жести"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:30
+msgid "Add more snap points to pointer speed sliders"
+msgstr "Додано більше точок охоплення для вказівників швидкого гортання"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
+msgid "Redesigned touchpad settings"
+msgstr "Перероблені налаштування сенсорної панелі"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:47
 msgid "Fix stretched switches when using large text"
 msgstr "Виправлено розтягнуті перемикачі коли застосовано великий текст"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:44
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:56
 msgid "Add Dwell Click and Pointer size settings"
 msgstr "Додано налаштування розміру вказівника та швидкості натискання"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:46
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:58
 msgid "Other updates:"
 msgstr "Інші оновлення:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:48
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:60
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
 "Виправлено виявлення натискань на вторинну кнопку при виборі основної кнопки"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:56
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:68
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
@@ -84,14 +91,14 @@ msgstr ""
 "Виправлено проблему, коли вибір основної кнопки не застосовується для мов "
 "зліва направо"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:64
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:76
 msgid "New Sidebar navigation"
 msgstr "Нова бічна панель переходів"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:65
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:77
 msgid "Fix middle click not appearing"
 msgstr "Виправлено, що натискання середньою клавішею не з'являється"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:66
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:78
 msgid "Add Double-Click speed"
 msgstr "Додано швидкість подвійного натискання"

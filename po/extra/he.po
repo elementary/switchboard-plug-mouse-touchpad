@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 22:06+0000\n"
+"POT-Creation-Date: 2021-09-07 20:38+0000\n"
 "PO-Revision-Date: 2021-07-16 09:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
-"mouse-touchpad-plug-extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/mouse-"
+"touchpad-plug-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,66 +28,73 @@ msgid "Configure mouse and touchpad"
 msgstr "הגדרת עכבר ומשטח מגע"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:54
 msgid "New features:"
 msgstr "יכולות חדשות:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:19
-msgid "Multitouch gesture options"
-msgstr "אפשרויות מספר נקודות מגע"
+msgid "New toggle for “Double-tap and move to drag”"
+msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
 msgid "Minor updates:"
 msgstr "עדכונים משניים:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
-msgid "Add more snap points to pointer speed sliders"
-msgstr "נוספו נקודות הצמדה נוספות למחווני מהירות הסמן"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:20
-msgid "Redesigned touchpad settings"
-msgstr "הגדרות משטח מגע עוצבו מחדש"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:36
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:57
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:67
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:48
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:61
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:69
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:79
 msgid "Updated translations"
 msgstr "תרגומים עודכנו"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:35
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:26
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:31
+msgid "Multitouch gesture options"
+msgstr "אפשרויות מספר נקודות מגע"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:30
+msgid "Add more snap points to pointer speed sliders"
+msgstr "נוספו נקודות הצמדה נוספות למחווני מהירות הסמן"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
+msgid "Redesigned touchpad settings"
+msgstr "הגדרות משטח מגע עוצבו מחדש"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:47
 msgid "Fix stretched switches when using large text"
 msgstr "תיקון בוררים מתוחים בעת שימוש בטקסט גדול"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:44
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:56
 msgid "Add Dwell Click and Pointer size settings"
 msgstr "הוספת הגדרות לחיצה מושבית וגודל סמן"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:46
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:58
 msgid "Other updates:"
 msgstr "עדכונים אחרים:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:48
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:60
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr "להאזין ללחיצות עכבר משניות בעת בחירה בכפתור עיקרי"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:56
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:68
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
 msgstr "תיקון תקלה בה בחירת הכפתור העיקרי אינה חלה על שפות משמאל לימין"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:64
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:76
 msgid "New Sidebar navigation"
 msgstr "ניווט סרגל צד חדש"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:65
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:77
 msgid "Fix middle click not appearing"
 msgstr "תיקון כפתור אמצעי לא מופיע"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:66
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:78
 msgid "Add Double-Click speed"
 msgstr "הוספת מהירות לחיצה כפולה"
