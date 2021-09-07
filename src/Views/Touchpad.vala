@@ -68,9 +68,19 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         click_method_grid.add (multitouch_click_method_radio);
         click_method_grid.add (areas_click_method_radio);
 
-        var tap_to_click_switch = new Gtk.Switch () {
+        var tap_to_click_check = new Gtk.CheckButton.with_label (_("Tap to click")) {
             halign = Gtk.Align.START
         };
+
+        var tap_and_drag_check = new Gtk.CheckButton.with_label (_("Double-tap and move to drag")) {
+            halign = Gtk.Align.START
+        };
+
+        var tap_grid = new Gtk.Grid () {
+            column_spacing = 12
+        };
+        tap_grid.add (tap_to_click_check);
+        tap_grid.add (tap_and_drag_check);
 
         var scroll_method_label = new SettingLabel (_("Scroll method:")) {
             margin_top = 24
@@ -89,7 +99,6 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             image = new Gtk.Image.from_icon_name ("touchpad-scroll-edge-symbolic", Gtk.IconSize.DND)
         };
         edge_scroll_radio.get_style_context ().add_class ("image-button");
-
 
         var scroll_method_grid = new Gtk.Grid () {
             column_spacing = 12,
@@ -122,8 +131,8 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         content_area.attach (pointer_speed_scale, 1, 0);
         content_area.attach (click_method_label, 0, 1);
         content_area.attach (click_method_grid, 1, 1);
-        content_area.attach (new SettingLabel (_("Tap to click:")), 0, 2);
-        content_area.attach (tap_to_click_switch, 1, 2);
+        content_area.attach (new SettingLabel (_("Tapping:")), 0, 2);
+        content_area.attach (tap_grid, 1, 2);
         content_area.attach (scroll_method_label, 0, 3);
         content_area.attach (scroll_method_grid, 1, 3);
         content_area.attach (natural_scrolling_label, 0, 4);
@@ -136,29 +145,41 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
             "disable-while-typing",
             disable_while_typing_check,
             "active",
-            GLib.SettingsBindFlags.DEFAULT
+            SettingsBindFlags.DEFAULT
         );
         glib_settings.bind (
             "natural-scroll",
             natural_scrolling_switch,
             "active",
-            GLib.SettingsBindFlags.DEFAULT
+            SettingsBindFlags.DEFAULT
         );
         glib_settings.bind (
             "speed",
             pointer_speed_adjustment,
             "value",
-            GLib.SettingsBindFlags.DEFAULT
+            SettingsBindFlags.DEFAULT
         );
         glib_settings.bind (
             "tap-to-click",
-            tap_to_click_switch,
+            tap_to_click_check,
             "active",
-            GLib.SettingsBindFlags.DEFAULT
+            SettingsBindFlags.DEFAULT
+        );
+        glib_settings.bind (
+            "tap-and-drag",
+            tap_and_drag_check,
+            "active",
+            SettingsBindFlags.DEFAULT
+        );
+        tap_to_click_check.bind_property (
+            "active",
+            tap_and_drag_check,
+            "sensitive",
+            BindingFlags.SYNC_CREATE
         );
 
         glib_settings.bind_with_mapping (
-            "send-events", disable_with_mouse_check, "active", GLib.SettingsBindFlags.DEFAULT,
+            "send-events", disable_with_mouse_check, "active", SettingsBindFlags.DEFAULT,
             (value, variant, user_data) => {
                 value.set_boolean (variant.get_string () == "disabled-on-external-mouse");
                 return true;
