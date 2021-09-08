@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2021-05-10 00:55+0000\n"
+"PO-Revision-Date: 2021-09-08 17:43+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ca/>\n"
@@ -302,7 +302,7 @@ msgstr "Clic físic secundari:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
-msgstr ""
+msgstr "Toc doble i moviment per a arrossegar"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
@@ -330,7 +330,7 @@ msgstr "Quan hi hagi un ratolí connectat"
 
 #: src/Views/Touchpad.vala:134
 msgid "Tapping:"
-msgstr ""
+msgstr "Tocs:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Toc per fer clic:"
