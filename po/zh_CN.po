@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2021-07-20 18:18+0000\n"
+"PO-Revision-Date: 2021-09-08 09:21+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hans/>\n"
@@ -187,7 +187,7 @@ msgstr "水平滑动"
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
 msgid "Three fingers:"
-msgstr "三指触控:"
+msgstr "三指触控："
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
@@ -298,7 +298,7 @@ msgstr "物理二次点击："
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
-msgstr ""
+msgstr "双击并移动来拖放"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
@@ -326,7 +326,7 @@ msgstr "接入鼠标时"
 
 #: src/Views/Touchpad.vala:134
 msgid "Tapping:"
-msgstr ""
+msgstr "轻触："
 
 #~ msgid "Tap to click:"
 #~ msgstr "轻触点击："
