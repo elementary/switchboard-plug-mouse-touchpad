@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2021-05-08 17:33+0000\n"
+"PO-Revision-Date: 2021-09-12 17:04+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fi/>\n"
@@ -304,7 +304,7 @@ msgstr "Fyysinen toissijainen napsautus:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
-msgstr ""
+msgstr "Kaksoisnapauta ja siirrä raahataksesi"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
@@ -332,7 +332,7 @@ msgstr "Kun hiiri on yhdistetty"
 
 #: src/Views/Touchpad.vala:134
 msgid "Tapping:"
-msgstr ""
+msgstr "Napauttaminen:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Napsautus napauttamalla:"
