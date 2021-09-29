@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2021-08-21 13:10+0000\n"
+"PO-Revision-Date: 2021-09-29 02:52+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/nb/>\n"
@@ -314,7 +314,7 @@ msgstr "Fysisk sekundær klikking:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
-msgstr ""
+msgstr "Dobbelttrykk og flytt for å bevege"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
@@ -343,7 +343,7 @@ msgstr "Når mus er tilkoblet"
 
 #: src/Views/Touchpad.vala:134
 msgid "Tapping:"
-msgstr ""
+msgstr "Trykking:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Kort trykk for å klikke:"
