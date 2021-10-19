@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2021-05-08 09:00+0000\n"
+"PO-Revision-Date: 2021-10-19 15:45+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pt/>\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: src/Plug.vala:53
 msgid "Mouse & Touchpad"
-msgstr "Rato e Touchpad"
+msgstr "Rato e Painel tátil"
 
 #: src/Plug.vala:54
 msgid "Configure mouse and touchpad"
-msgstr "Configurar o rato e o touchpad"
+msgstr "Configurar o rato e o painel tátil"
 
 #: src/Plug.vala:126 src/Views/Clicking.vala:25
 msgid "Clicking"
@@ -89,7 +89,7 @@ msgstr "Controlar o cursor através do teclado"
 #: src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149 src/Plug.vala:150
 #: src/Views/Touchpad.vala:29
 msgid "Touchpad"
-msgstr "Touchpad"
+msgstr "Painel tátil"
 
 #: src/Plug.vala:145 src/Views/Touchpad.vala:71
 msgid "Tap to click"
@@ -302,7 +302,7 @@ msgstr "Clique secundário físico:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
-msgstr ""
+msgstr "Toque duplo e mover para arrastar"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
@@ -330,7 +330,7 @@ msgstr "Quando o rato está ligado"
 
 #: src/Views/Touchpad.vala:134
 msgid "Tapping:"
-msgstr ""
+msgstr "Tocar:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Tocar para clicar:"
