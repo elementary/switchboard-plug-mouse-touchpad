@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
 "PO-Revision-Date: 2021-11-04 08:10+0000\n"
-"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
+"Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pl/>\n"
 "Language: pl\n"
@@ -31,15 +31,15 @@ msgstr "Skonfiguruj myszkę i panel dotykowy"
 
 #: src/Plug.vala:126 src/Views/Clicking.vala:25
 msgid "Clicking"
-msgstr ""
+msgstr "Klikanie"
 
 #: src/Plug.vala:127
 msgid "Double-click speed"
-msgstr ""
+msgstr "Prędkość podwójnego klikania"
 
 #: src/Plug.vala:128
 msgid "Dwell click"
-msgstr ""
+msgstr "Trwające kliknięcie"
 
 #: src/Plug.vala:129
 msgid "Primary button"
@@ -72,7 +72,7 @@ msgstr "Przewijanie naturalne"
 
 #: src/Plug.vala:138 src/Views/Pointing.vala:24
 msgid "Pointing"
-msgstr ""
+msgstr "Wskazywanie"
 
 #: src/Plug.vala:139
 msgid "Pointer size"
@@ -115,7 +115,7 @@ msgstr "Ignoruj, gdy podłączona jest myszka"
 #: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
-msgstr ""
+msgstr "Gesty"
 
 #: src/Plug.vala:154 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
@@ -123,11 +123,11 @@ msgstr "Podgląd wielozadaniowy"
 
 #: src/Plug.vala:155
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "Przełącz obszary robocze"
 
 #: src/Plug.vala:156
 msgid "Maximize Window"
-msgstr ""
+msgstr "Maksymalizuj okno"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -146,11 +146,10 @@ msgid "Right"
 msgstr "Prawy"
 
 #: src/Views/Clicking.vala:58
-#, fuzzy
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
-"Długie przytrzymanie i odpuszczenie głównego przycisku myszy będzie jak "
-"podwójne kliknięcie."
+"Przytrzymaj i puść główny przycisk myszy, aby użyć go jako drugorzędnego "
+"kliknięcia"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -159,31 +158,29 @@ msgstr "sekund"
 #: src/Views/Clicking.vala:86
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
+"Jak szybko dwa kliknięcia pod rząd będą traktowane jako podwójne kliknięcie"
 
 #: src/Views/Clicking.vala:111
 msgid "Hold the pointer still to automatically click"
-msgstr ""
+msgstr "Przytrzymaj wskaźnik w miejscu, aby automatycznie kliknąć"
 
 #: src/Views/Clicking.vala:122
 msgid "Double-click speed:"
-msgstr ""
+msgstr "Prędkość podwójnego kliknięcia:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr ""
+msgstr "Trwające kliknięcie:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
 msgstr "Długie przytrzymanie kliknięcia prawym przyciskiem myszy:"
 
 #: src/Views/Clicking.vala:148
-#, fuzzy
-#| msgid ""
-#| "Middle or three-finger clicking on an input will paste any selected text"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
-"Kliknięcie środkowym przyciskiem lub trzema palcami na wejściu wklei dowolny "
-"zaznaczony tekst"
+"Kliknij środkowym przyciskiem lub trzema palcami na polu wprowadzania, aby "
+"wkleić zaznaczony tekst"
 
 #: src/Views/Clicking.vala:155
 msgid "Middle click paste:"
@@ -191,12 +188,12 @@ msgstr "Wklejenie poprzez kliknięcie środkowym przyciskiem:"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
-msgstr ""
+msgstr "Przesunięcie poziome"
 
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
 msgid "Three fingers:"
-msgstr ""
+msgstr "Trzy palce:"
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
@@ -206,22 +203,20 @@ msgstr "Brak czynności"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 msgid "Switch to workspace"
-msgstr ""
+msgstr "Przełącz na obszar roboczy"
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
-#, fuzzy
-#| msgid "Two-finger"
 msgid "Four fingers:"
-msgstr "Dwoma palcami"
+msgstr "Cztery palce:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
-msgstr ""
+msgstr "Przesunięcie w górę"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
-msgstr ""
+msgstr "Uszczypnięcie"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
@@ -229,7 +224,7 @@ msgstr "Przybliżenie"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
-msgstr ""
+msgstr "Przełącz zmaksymalizowane"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -264,9 +259,8 @@ msgid "Speed:"
 msgstr "Prędkość:"
 
 #: src/Views/Pointing.vala:43
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "Wyłączy to oba poziomy przycisków na klawiaturze numerycznej."
+msgstr "Wyłączy to oba poziomy przycisków na klawiaturze numerycznej"
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
@@ -274,7 +268,7 @@ msgstr "Mały"
 
 #: src/Views/Pointing.vala:55
 msgid "Medium"
-msgstr ""
+msgstr "Średni"
 
 #: src/Views/Pointing.vala:59
 msgid "Large"
@@ -289,10 +283,8 @@ msgid "Reveal pointer:"
 msgstr "Pokaż wskaźnik:"
 
 #: src/Views/Pointing.vala:87
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "Szybkość wskaźnika:"
+msgstr "Wielkość wskaźnika:"
 
 #: src/Views/Pointing.vala:94
 msgid "Control pointer using keypad:"
@@ -304,13 +296,11 @@ msgstr "Wielodotykowy"
 
 #: src/Views/Touchpad.vala:53
 msgid "Areas"
-msgstr ""
+msgstr "Strefy"
 
 #: src/Views/Touchpad.vala:60
-#, fuzzy
-#| msgid "Physical clicking:"
 msgid "Physical secondary clicking:"
-msgstr "Fizyczne kliknięcie:"
+msgstr "Fizyczne drugorzędne kliknięcie:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
@@ -318,7 +308,7 @@ msgstr "Kliknij dwukrotnie i przesuń by przeciągnąć"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
-msgstr ""
+msgstr "Metoda przewijania:"
 
 #: src/Views/Touchpad.vala:89
 msgid "Two-finger"
@@ -330,19 +320,15 @@ msgstr "Krawędź"
 
 #: src/Views/Touchpad.vala:116
 msgid "Ignore:"
-msgstr ""
+msgstr "Ignoruj:"
 
 #: src/Views/Touchpad.vala:120
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Wyłącz podczas pisania"
+msgstr "Podczas pisania"
 
 #: src/Views/Touchpad.vala:121
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Ignoruj, gdy podłączona jest myszka"
+msgstr "Gdy podłączona jest myszka"
 
 #: src/Views/Touchpad.vala:134
 msgid "Tapping:"
