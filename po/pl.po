@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-11-04 08:10+0000\n"
+"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/pl/>\n"
 "Language: pl\n"
@@ -75,10 +75,8 @@ msgid "Pointing"
 msgstr ""
 
 #: src/Plug.vala:139
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "Szybkość wskaźnika:"
+msgstr "Rozmiar wskaźnika"
 
 #: src/Plug.vala:140
 msgid "Reveal pointer"
@@ -316,7 +314,7 @@ msgstr "Fizyczne kliknięcie:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
-msgstr ""
+msgstr "Kliknij dwukrotnie i przesuń by przeciągnąć"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
@@ -348,7 +346,7 @@ msgstr "Ignoruj, gdy podłączona jest myszka"
 
 #: src/Views/Touchpad.vala:134
 msgid "Tapping:"
-msgstr ""
+msgstr "Stukanie:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Stuknij, aby kilknąć:"
