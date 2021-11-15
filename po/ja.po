@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2021-09-08 01:08+0000\n"
+"PO-Revision-Date: 2021-11-16 00:50+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -130,7 +130,7 @@ msgstr "ウィンドウを最大化"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
-msgstr "動作"
+msgstr "挙動"
 
 #: src/Views/Clicking.vala:30
 msgid "Primary button:"
