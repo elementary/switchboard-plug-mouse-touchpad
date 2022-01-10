@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-01-10 13:13+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/cs/>\n"
 "Language: cs\n"
@@ -204,10 +204,8 @@ msgstr ""
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
-#, fuzzy
-#| msgid "Two-finger"
 msgid "Four fingers:"
-msgstr "Dvěma prsty"
+msgstr "Čtyřmi prsty:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
