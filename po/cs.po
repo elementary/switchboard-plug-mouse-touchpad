@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2022-01-10 13:13+0000\n"
+"PO-Revision-Date: 2022-01-10 21:59+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/cs/>\n"
@@ -114,7 +114,7 @@ msgstr "Ignorovat při připojení myši"
 #: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
-msgstr ""
+msgstr "Gesta"
 
 #: src/Plug.vala:154 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
@@ -122,11 +122,11 @@ msgstr "Zobrazení multitaskingu"
 
 #: src/Plug.vala:155
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "Přepnout pracovní plochy"
 
 #: src/Plug.vala:156
 msgid "Maximize Window"
-msgstr ""
+msgstr "Maximalizovat okno"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -185,12 +185,12 @@ msgstr "Vkládání prostředním tlačítkem:"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
-msgstr ""
+msgstr "Přejet vodorovně"
 
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
 msgid "Three fingers:"
-msgstr ""
+msgstr "Tři prsty:"
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:43
 #: src/Views/Gestures.vala:53 src/Views/Gestures.vala:59
@@ -200,7 +200,7 @@ msgstr "Nedělat nic"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 msgid "Switch to workspace"
-msgstr ""
+msgstr "Přepnout na pracovní plochu"
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
@@ -209,11 +209,11 @@ msgstr "Čtyřmi prsty:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
-msgstr ""
+msgstr "Přejetí nahoru"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
-msgstr ""
+msgstr "Pinch"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
@@ -221,7 +221,7 @@ msgstr "Přiblížit"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
-msgstr ""
+msgstr "Vyp/zap. maximalizaci"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -293,21 +293,19 @@ msgstr "Vícedotykový"
 
 #: src/Views/Touchpad.vala:53
 msgid "Areas"
-msgstr ""
+msgstr "Oblasti"
 
 #: src/Views/Touchpad.vala:60
-#, fuzzy
-#| msgid "Physical clicking:"
 msgid "Physical secondary clicking:"
-msgstr "Klikání tlačítky:"
+msgstr "Kliknutí skutečným pravým tlačítkem:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
-msgstr ""
+msgstr "Přetahování dvojitým klepnutím a posunutím"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
-msgstr ""
+msgstr "Metoda posunování:"
 
 #: src/Views/Touchpad.vala:89
 msgid "Two-finger"
@@ -319,23 +317,19 @@ msgstr "Okraj"
 
 #: src/Views/Touchpad.vala:116
 msgid "Ignore:"
-msgstr ""
+msgstr "Ignorovat:"
 
 #: src/Views/Touchpad.vala:120
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Ignorovat při psaní"
+msgstr "Při psaní"
 
 #: src/Views/Touchpad.vala:121
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Ignorovat při připojení myši"
+msgstr "Při připojení myši"
 
 #: src/Views/Touchpad.vala:134
 msgid "Tapping:"
-msgstr ""
+msgstr "Klepání:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Kliknutí klepnutím:"
