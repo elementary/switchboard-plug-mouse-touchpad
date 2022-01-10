@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2022-01-10 12:16+0000\n"
+"PO-Revision-Date: 2022-01-10 21:59+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/cs/>\n"
@@ -35,7 +35,7 @@ msgstr "Nové funkce:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 msgid "New toggle for “Double-tap and move to drag”"
-msgstr ""
+msgstr "Nový přepínač pro „Přetahování dvojklikem a posunutím“"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
@@ -55,17 +55,15 @@ msgstr "Aktualizovány překlady"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:26
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:31
 msgid "Multitouch gesture options"
-msgstr ""
+msgstr "Předvolby pro vícedotyková gesta"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:30
 msgid "Add more snap points to pointer speed sliders"
-msgstr ""
+msgstr "Přidáno více úchytných bodů do posuvníků rychlosti ukazatele"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
-#, fuzzy
-#| msgid "Mouse &amp; Touchpad Settings"
 msgid "Redesigned touchpad settings"
-msgstr "Nastavení myši a touchpadu"
+msgstr "Předěláno nastavení myši a touchpadu"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:47
 msgid "Fix stretched switches when using large text"
