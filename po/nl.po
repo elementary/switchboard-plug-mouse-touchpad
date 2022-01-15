@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
 "PO-Revision-Date: 2022-01-15 12:25+0000\n"
-"Last-Translator: Niels Van Laerhoven <niels1995@gmail.com>\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/nl/>\n"
 "Language: nl\n"
@@ -38,7 +38,7 @@ msgstr "Dubbelklik snelheid"
 
 #: src/Plug.vala:128
 msgid "Dwell click"
-msgstr "Dwell click"
+msgstr "Zwevend klikken"
 
 #: src/Plug.vala:129
 msgid "Primary button"
@@ -114,7 +114,7 @@ msgstr "Negeren als een muis is verbonden"
 #: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
-msgstr ""
+msgstr "Gebaren"
 
 #: src/Plug.vala:154 src/Views/Gestures.vala:54 src/Views/Gestures.vala:60
 msgid "Multitasking View"
@@ -122,11 +122,11 @@ msgstr "Multitasking weergave"
 
 #: src/Plug.vala:155
 msgid "Switch Workspaces"
-msgstr ""
+msgstr "Schakel tussen werkruimtes"
 
 #: src/Plug.vala:156
 msgid "Maximize Window"
-msgstr ""
+msgstr "Venster maximaliseren"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -167,7 +167,7 @@ msgstr "Dubbelklik snelheid:"
 
 #: src/Views/Clicking.vala:126
 msgid "Dwell click:"
-msgstr "Dwell click:"
+msgstr "Zwevend klikken:"
 
 #: src/Views/Clicking.vala:132
 msgid "Long-press secondary click:"
@@ -202,10 +202,8 @@ msgstr ""
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
-#, fuzzy
-#| msgid "Two-finger"
 msgid "Four fingers:"
-msgstr "Twee vingers"
+msgstr "Vier vingers:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
