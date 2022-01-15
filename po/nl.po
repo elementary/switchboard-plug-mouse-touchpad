@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2022-01-15 12:28+0000\n"
+"PO-Revision-Date: 2022-01-15 12:35+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/nl/>\n"
@@ -207,7 +207,7 @@ msgstr "Vier vingers:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
-msgstr "Veeg Omhoog"
+msgstr "Veeg omhoog"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
@@ -302,7 +302,7 @@ msgstr "Fysiek klikken:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
-msgstr ""
+msgstr "Twee keer aantikken en dan verplaatsen om te slepen"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
@@ -321,20 +321,16 @@ msgid "Ignore:"
 msgstr ""
 
 #: src/Views/Touchpad.vala:120
-#, fuzzy
-#| msgid "Ignore while typing"
 msgid "While typing"
-msgstr "Zet uit tijdens typen"
+msgstr "Tijdens het typen"
 
 #: src/Views/Touchpad.vala:121
-#, fuzzy
-#| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
-msgstr "Negeren als een muis is verbonden"
+msgstr "Wanneer de muis is verbonden"
 
 #: src/Views/Touchpad.vala:134
 msgid "Tapping:"
-msgstr ""
+msgstr "Tikken:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Tik om te klikken:"
