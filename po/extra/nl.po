@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2020-01-25 15:08+0000\n"
-"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/mouse-"
-"touchpad-plug-extra/nl/>\n"
+"PO-Revision-Date: 2022-01-15 14:00+0000\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
+"mouse-touchpad-plug-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
@@ -31,7 +31,7 @@ msgstr "Configureer muis en touchpad"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:54
 msgid "New features:"
-msgstr "Nieuwe functies:"
+msgstr "Nieuwe functionaliteit:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 msgid "New toggle for “Double-tap and move to drag”"
@@ -39,10 +39,8 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
-#, fuzzy
-#| msgid "Other updates:"
 msgid "Minor updates:"
-msgstr "Andere updates:"
+msgstr "Kleine updates:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
