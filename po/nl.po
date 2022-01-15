@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
 "PO-Revision-Date: 2022-01-15 12:35+0000\n"
-"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
+"Last-Translator: Niels Van Laerhoven <niels1995@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/nl/>\n"
 "Language: nl\n"
@@ -211,7 +211,7 @@ msgstr "Veeg omhoog"
 
 #: src/Views/Gestures.vala:62
 msgid "Pinch"
-msgstr ""
+msgstr "Knijp"
 
 #: src/Views/Gestures.vala:70 src/Views/Gestures.vala:76
 msgid "Zoom"
@@ -219,7 +219,7 @@ msgstr "Vergroten"
 
 #: src/Views/Gestures.vala:106 src/Views/Gestures.vala:107
 msgid "Toggle maximized"
-msgstr ""
+msgstr "Maximaliseren"
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
@@ -292,13 +292,11 @@ msgstr "Gebaren"
 
 #: src/Views/Touchpad.vala:53
 msgid "Areas"
-msgstr ""
+msgstr "Gebieden"
 
 #: src/Views/Touchpad.vala:60
-#, fuzzy
-#| msgid "Physical clicking:"
 msgid "Physical secondary clicking:"
-msgstr "Fysiek klikken:"
+msgstr "Fysiek secundair klikken:"
 
 #: src/Views/Touchpad.vala:75
 msgid "Double-tap and move to drag"
@@ -306,7 +304,7 @@ msgstr "Twee keer aantikken en dan verplaatsen om te slepen"
 
 #: src/Views/Touchpad.vala:85
 msgid "Scroll method:"
-msgstr ""
+msgstr "Scroll methode:"
 
 #: src/Views/Touchpad.vala:89
 msgid "Two-finger"
@@ -318,7 +316,7 @@ msgstr "Rand"
 
 #: src/Views/Touchpad.vala:116
 msgid "Ignore:"
-msgstr ""
+msgstr "Negeer:"
 
 #: src/Views/Touchpad.vala:120
 msgid "While typing"
