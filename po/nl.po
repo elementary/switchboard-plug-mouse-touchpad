@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-07 20:38+0000\n"
 "PO-Revision-Date: 2022-01-15 12:28+0000\n"
-"Last-Translator: Niels Van Laerhoven <niels1995@gmail.com>\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/nl/>\n"
 "Language: nl\n"
@@ -122,7 +122,7 @@ msgstr "Multitasking weergave"
 
 #: src/Plug.vala:155
 msgid "Switch Workspaces"
-msgstr "Schakel tussen werkruimtes"
+msgstr "Schakel tussen werkbladen"
 
 #: src/Plug.vala:156
 msgid "Maximize Window"
@@ -183,7 +183,7 @@ msgstr "Midden klik plakken:"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
-msgstr "Veeg Horizontaal"
+msgstr "Veeg horizontaal"
 
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:50
 #: src/Views/Gestures.vala:66
@@ -198,7 +198,7 @@ msgstr "Doe niets"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:44
 msgid "Switch to workspace"
-msgstr ""
+msgstr "Schakel naar werkblad"
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
