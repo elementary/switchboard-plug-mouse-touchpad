@@ -170,11 +170,6 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             }
         }
 
-#if !HAS_GNOME_40
-        var daemon_settings = new GLib.Settings ("org.gnome.settings-daemon.peripherals.mouse");
-        daemon_settings.bind ("double-click", double_click_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
-#endif
-
         var a11y_mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
         a11y_mouse_settings.bind (
             "secondary-click-enabled",
@@ -198,10 +193,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         hold_switch.bind_property ("active", hold_spin_grid, "sensitive", BindingFlags.SYNC_CREATE);
 
         var mouse_settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
-
-#if HAS_GNOME_40
         mouse_settings.bind ("double-click", double_click_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
-#endif
 
         if (mouse_settings.get_boolean ("left-handed")) {
             mouse_right.active = true;
