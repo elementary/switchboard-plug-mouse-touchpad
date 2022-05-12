@@ -1,3 +1,13 @@
+switchboard-plug-mouse-touchpad (7.0.0) bionic; urgency=medium
+
+  * Release 7.0.0 (#200)
+  * Update translation files
+  * Actions: bump release to Horus
+  * Update translation template
+  * Clicking: drop support for old GNOME Settings Daemon
+
+ -- elementary OS Team <builds@elementary.io>  Thu, 12 May 2022 16:53:05 +0000
+
 switchboard-plug-mouse-touchpad (6.1.0) bionic; urgency=medium
 
   * Release 6.1.0 (#189)
