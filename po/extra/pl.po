@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-07 20:38+0000\n"
-"PO-Revision-Date: 2021-11-14 16:03+0000\n"
+"POT-Creation-Date: 2022-05-10 17:39+0000\n"
+"PO-Revision-Date: 2022-05-12 10:30+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/pl/>\n"
@@ -29,62 +29,68 @@ msgid "Configure mouse and touchpad"
 msgstr "Skonfiguruj myszkę i panel dotykowy"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:24
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:54
-msgid "New features:"
-msgstr "Nowe funkcje:"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
-msgid "New toggle for “Double-tap and move to drag”"
-msgstr "Nowy przełącznik dla „Stuknij dwa razy i przesuń by przeciągnąć”"
-
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:16
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:28
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:37
 msgid "Minor updates:"
 msgstr "Mniejsze aktualizacje:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:18
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:48
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:61
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:69
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:79
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
+msgid "Update for OS 7"
+msgstr "Aktualizacja OS 7"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:15
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:57
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:70
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:78
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:88
 msgid "Updated translations"
 msgstr "Zaktualizowane tłumaczenia"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:26
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:31
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:63
+msgid "New features:"
+msgstr "Nowe funkcje:"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:23
+msgid "New toggle for “Double-tap and move to drag”"
+msgstr "Nowy przełącznik dla „Stuknij dwa razy i przesuń by przeciągnąć”"
+
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:35
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
 msgid "Multitouch gesture options"
 msgstr "Opcje gestów wielodotykowych"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:30
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:39
 msgid "Add more snap points to pointer speed sliders"
 msgstr "Dodano więcej punktów przyciągania do suwaka prędkości kursora"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:32
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
 msgid "Redesigned touchpad settings"
 msgstr "Przeprojektowano ustawienia panelu dotykowego"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:47
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:56
 msgid "Fix stretched switches when using large text"
 msgstr "Naprawiono rozciągnięte przełączniki przy używaniu dużego tekstu"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:56
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:65
 msgid "Add Dwell Click and Pointer size settings"
 msgstr "Dodano ustawienia długich kliknięć oraz rozmiaru kursora"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:58
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:67
 msgid "Other updates:"
 msgstr "Inne aktualizacje:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:60
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:69
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr ""
 "Dodano nasłuchiwanie przycisku drugorzędnego przy wybieraniu przycisku "
 "pierwszorzędnego"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:68
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:77
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
@@ -92,14 +98,14 @@ msgstr ""
 "Naprawiono problem z wyborem przycisku pierwszorzędnego nie działającym w "
 "językach od prawej do lewej"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:76
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:85
 msgid "New Sidebar navigation"
 msgstr "Nowa nawigacja przy użyciu panelu bocznego"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:77
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:86
 msgid "Fix middle click not appearing"
 msgstr "Naprawiono niepojawiające się kliknięcia środkowym przyciskiem myszy"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:78
+#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:87
 msgid "Add Double-Click speed"
 msgstr "Dodano prędkość podwójnego kliknięcia"
