@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-10 17:39+0000\n"
-"PO-Revision-Date: 2022-05-10 21:28+0000\n"
+"PO-Revision-Date: 2022-05-29 23:10+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/uk/>\n"
@@ -47,7 +47,7 @@ msgstr "Оновлення для OS 7"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:78
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:88
 msgid "Updated translations"
-msgstr "Оновлено переклади"
+msgstr "Оновлені переклади"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
