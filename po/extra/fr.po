@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-10 17:39+0000\n"
-"PO-Revision-Date: 2022-05-11 09:56+0000\n"
+"PO-Revision-Date: 2022-05-30 10:51+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/fr/>\n"
@@ -31,7 +31,7 @@ msgstr "Configurer la souris et le pavé tactile"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:37
 msgid "Minor updates:"
-msgstr "Mises à jour mineures :"
+msgstr "Mises à jour mineures :"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 msgid "Update for OS 7"
