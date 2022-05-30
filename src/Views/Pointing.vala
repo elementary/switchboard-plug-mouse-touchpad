@@ -32,7 +32,7 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
 
         var keypad_pointer_adjustment = new Gtk.Adjustment (0, 0, 500, 10, 10, 10);
 
-        var pointer_speed_label = new SettingLabel (_("Speed:"));
+        var pointer_speed_label = new Gtk.Label (_("Speed:"));
 
         var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, keypad_pointer_adjustment);
         pointer_speed_scale.draw_value = false;
@@ -44,25 +44,29 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
 
         pointer_speed_help.wrap = true;
         pointer_speed_help.xalign = 0;
-        pointer_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+        pointer_speed_help.get_style_context ().add_class (Granite.STYLE_CLASS_DIM_LABEL);
 
-        var cursor_size_24 = new Gtk.RadioButton (null);
-        cursor_size_24.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
-        cursor_size_24.tooltip_text = _("Small");
+        var cursor_size_24 = new Gtk.CheckButton () {
+            tooltip_text = _("Small")
+        };
+        // cursor_size_24.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
 
-        var cursor_size_32 = new Gtk.RadioButton.from_widget (cursor_size_24);
-        cursor_size_32.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.DND);
-        cursor_size_32.tooltip_text = _("Medium");
+        var cursor_size_32 = new Gtk.CheckButton () {
+            group = cursor_size_24,
+            tooltip_text = _("Medium")
+        };
+        // cursor_size_32.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.DND);
 
-        var cursor_size_48 = new Gtk.RadioButton.from_widget (cursor_size_24);
-        cursor_size_48.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.DIALOG);
-        cursor_size_48.tooltip_text = _("Large");
+        var cursor_size_48 = new Gtk.CheckButton () {
+            group = cursor_size_24,
+            tooltip_text = _("Large")
+        };
+        // cursor_size_48.image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic", Gtk.IconSize.DIALOG);
 
-        var cursor_size_grid = new Gtk.Grid ();
-        cursor_size_grid.column_spacing = 24;
-        cursor_size_grid.add (cursor_size_24);
-        cursor_size_grid.add (cursor_size_32);
-        cursor_size_grid.add (cursor_size_48);
+        var cursor_size_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 24);
+        cursor_size_box.append (cursor_size_24);
+        cursor_size_box.append (cursor_size_32);
+        cursor_size_box.append (cursor_size_48);
 
         var locate_pointer_help = new Gtk.Label (
             _("Pressing the control key will highlight the position of the pointer")
@@ -71,9 +75,9 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
             wrap = true,
             xalign = 0
         };
-        locate_pointer_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+        locate_pointer_help.get_style_context ().add_class (Granite.STYLE_CLASS_DIM_LABEL);
 
-        var reveal_pointer_label = new SettingLabel (_("Reveal pointer:")) {
+        var reveal_pointer_label = new Gtk.Label (_("Reveal pointer:")) {
             margin_top = 18
         };
 
@@ -84,14 +88,14 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
 
         content_area.row_spacing = 6;
 
-        content_area.attach (new SettingLabel (_("Pointer size:")), 0, 0);
-        content_area.attach (cursor_size_grid, 1, 0, 3);
+        content_area.attach (new Gtk.Label (_("Pointer size:")), 0, 0);
+        content_area.attach (cursor_size_box, 1, 0, 3);
 
         content_area.attach (reveal_pointer_label, 0, 1);
         content_area.attach (reveal_pointer_switch, 1, 1, 3);
         content_area.attach (locate_pointer_help, 1, 2, 3);
 
-        content_area.attach (new SettingLabel (_("Control pointer using keypad:")), 0, 3);
+        content_area.attach (new Gtk.Label (_("Control pointer using keypad:")), 0, 3);
         content_area.attach (keypad_pointer_switch, 1, 3);
         content_area.attach (pointer_speed_label, 2, 3);
         content_area.attach (pointer_speed_scale, 3, 3);

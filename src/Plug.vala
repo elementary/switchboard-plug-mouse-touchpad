@@ -59,8 +59,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     public override Gtk.Widget get_widget () {
         if (hpaned == null) {
-            weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
-            default_theme.add_resource_path ("/io/elementary/switchboard/mouse-touchpad");
+            Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).add_resource_path ("/io/elementary/switchboard/mouse-touchpad");
 
             clicking_view = new ClickingView ();
             mouse_view = new MouseView ();
@@ -81,10 +80,11 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
             var switcher = new Granite.SettingsSidebar (stack);
 
-            hpaned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
-            hpaned.pack1 (switcher, false, false);
-            hpaned.add (stack);
-            hpaned.show_all ();
+            hpaned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL) {
+                start_child = switcher,
+                end_child = stack
+            };
+            // hpaned.pack1 (switcher, false, false);
         }
 
         return hpaned;

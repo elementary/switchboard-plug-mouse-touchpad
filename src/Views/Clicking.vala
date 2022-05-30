@@ -27,28 +27,31 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
     }
 
     construct {
-        var primary_button_label = new SettingLabel (_("Primary button:"));
+        var primary_button_label = new Gtk.Label (_("Primary button:"));
         primary_button_label.margin_bottom = 18;
 
-        var mouse_left = new Gtk.RadioButton (null);
-        mouse_left.image = new Gtk.Image.from_icon_name ("mouse-left-symbolic", Gtk.IconSize.DND);
-        mouse_left.tooltip_text = _("Left");
+        var mouse_left = new Gtk.CheckButton () {
+            // image = new Gtk.Image.from_icon_name ("mouse-left-symbolic"),
+            tooltip_text = _("Left")
+        };
 
-        var mouse_right = new Gtk.RadioButton.from_widget (mouse_left);
-        mouse_right.image = new Gtk.Image.from_icon_name ("mouse-right-symbolic", Gtk.IconSize.DND);
-        mouse_right.tooltip_text = _("Right");
+        var mouse_right = new Gtk.CheckButton () {
+            group = mouse_left,
+            // image = new Gtk.Image.from_icon_name ("mouse-right-symbolic"),
+            tooltip_text = _("Right")
+        };
 
-        var primary_button_switcher = new Gtk.Grid ();
-        primary_button_switcher.halign = Gtk.Align.START;
-        primary_button_switcher.margin_bottom = 18;
-        primary_button_switcher.column_spacing = 24;
+        var primary_button_switcher = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 24) {
+            halign = Gtk.Align.START,
+            margin_bottom = 18
+        };
 
         if (Gtk.StateFlags.DIR_LTR in get_state_flags ()) {
-            primary_button_switcher.add (mouse_left);
-            primary_button_switcher.add (mouse_right);
+            primary_button_switcher.append (mouse_left);
+            primary_button_switcher.append (mouse_right);
         } else {
-            primary_button_switcher.add (mouse_right);
-            primary_button_switcher.add (mouse_left);
+            primary_button_switcher.append (mouse_right);
+            primary_button_switcher.append (mouse_left);
         }
 
         var hold_switch = new Gtk.Switch ();
@@ -59,7 +62,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         hold_help.margin_bottom = 18;
         hold_help.wrap = true;
         hold_help.xalign = 0;
-        hold_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+        hold_help.get_style_context ().add_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         var hold_scale_adjustment = new Gtk.Adjustment (0, 0.5, 3, 0.1, 0.1, 0.1);
 
@@ -72,10 +75,9 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         var hold_units_label = new Gtk.Label (_("seconds"));
 
-        var hold_spin_grid = new Gtk.Grid ();
-        hold_spin_grid.column_spacing = 6;
-        hold_spin_grid.add (hold_spinbutton);
-        hold_spin_grid.add (hold_units_label);
+        var hold_spin_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        hold_spin_box.append (hold_spinbutton);
+        hold_spin_box.append (hold_units_label);
 
         var double_click_speed_adjustment = new Gtk.Adjustment (400, 100, 1000, 0.1, 0.1, 0.1);
 
@@ -87,7 +89,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         double_click_speed_help.margin_bottom = 18;
         double_click_speed_help.wrap = true;
         double_click_speed_help.xalign = 0;
-        double_click_speed_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+        double_click_speed_help.get_style_context ().add_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         var dwell_click_switch = new Gtk.Switch ();
         dwell_click_switch.halign = Gtk.Align.START;
@@ -103,36 +105,35 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         var dwell_click_units_label = new Gtk.Label (_("seconds"));
 
-        var dwell_click_spin_grid = new Gtk.Grid ();
-        dwell_click_spin_grid.column_spacing = 6;
-        dwell_click_spin_grid.add (dwell_click_spinbutton);
-        dwell_click_spin_grid.add (dwell_click_units_label);
+        var dwell_click_spin_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        dwell_click_spin_box.append (dwell_click_spinbutton);
+        dwell_click_spin_box.append (dwell_click_units_label);
 
         var dwell_click_help = new Gtk.Label (_("Hold the pointer still to automatically click"));
         dwell_click_help.margin_bottom = 18;
         dwell_click_help.wrap = true;
         dwell_click_help.xalign = 0;
-        dwell_click_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+        dwell_click_help.get_style_context ().add_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         content_area.row_spacing = 6;
 
         content_area.attach (primary_button_label, 0, 0);
         content_area.attach (primary_button_switcher, 1, 0, 3);
 
-        content_area.attach (new SettingLabel (_("Double-click speed:")), 0, 1);
+        content_area.attach (new Gtk.Label (_("Double-click speed:")), 0, 1);
         content_area.attach (double_click_speed_scale, 1, 1, 3);
         content_area.attach (double_click_speed_help, 1, 2, 3);
 
-        content_area.attach (new SettingLabel (_("Dwell click:")), 0, 3);
+        content_area.attach (new Gtk.Label (_("Dwell click:")), 0, 3);
         content_area.attach (dwell_click_switch, 1, 3);
         content_area.attach (dwell_click_delay_scale, 2, 3);
-        content_area.attach (dwell_click_spin_grid, 3, 3);
+        content_area.attach (dwell_click_spin_box, 3, 3);
         content_area.attach (dwell_click_help, 1, 4, 3);
 
-        content_area.attach (new SettingLabel (_("Long-press secondary click:")), 0, 5);
+        content_area.attach (new Gtk.Label (_("Long-press secondary click:")), 0, 5);
         content_area.attach (hold_switch, 1, 5);
         content_area.attach (hold_scale, 2, 5);
-        content_area.attach (hold_spin_grid, 3, 5);
+        content_area.attach (hold_spin_box, 3, 5);
         content_area.attach (hold_help, 1, 6, 3);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
@@ -150,9 +151,9 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             primary_paste_help.margin_bottom = 18;
             primary_paste_help.wrap = true;
             primary_paste_help.xalign = 0;
-            primary_paste_help.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+            primary_paste_help.get_style_context ().add_class (Granite.STYLE_CLASS_DIM_LABEL);
 
-            content_area.attach (new SettingLabel (_("Middle click paste:")), 0, 7);
+            content_area.attach (new Gtk.Label (_("Middle click paste:")), 0, 7);
             content_area.attach (primary_paste_switch, 1, 7);
             content_area.attach (primary_paste_help, 1, 8, 3);
 
@@ -185,12 +186,12 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         );
 
         a11y_mouse_settings.bind ("dwell-click-enabled", dwell_click_delay_scale, "sensitive", SettingsBindFlags.GET);
-        a11y_mouse_settings.bind ("dwell-click-enabled", dwell_click_spin_grid, "sensitive", SettingsBindFlags.GET);
+        a11y_mouse_settings.bind ("dwell-click-enabled", dwell_click_spin_box, "sensitive", SettingsBindFlags.GET);
         a11y_mouse_settings.bind ("dwell-click-enabled", dwell_click_switch, "active", SettingsBindFlags.DEFAULT);
         a11y_mouse_settings.bind ("dwell-time", dwell_click_adjustment, "value", SettingsBindFlags.DEFAULT);
 
         hold_switch.bind_property ("active", hold_scale, "sensitive", BindingFlags.SYNC_CREATE);
-        hold_switch.bind_property ("active", hold_spin_grid, "sensitive", BindingFlags.SYNC_CREATE);
+        hold_switch.bind_property ("active", hold_spin_box, "sensitive", BindingFlags.SYNC_CREATE);
 
         var mouse_settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
         mouse_settings.bind ("double-click", double_click_speed_adjustment, "value", SettingsBindFlags.DEFAULT);
@@ -201,16 +202,14 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             mouse_left.active = true;
         }
 
-        mouse_left.button_release_event.connect (() => {
+        mouse_left.activate.connect (() => {
             mouse_settings.set_boolean ("left-handed", false);
             mouse_left.active = true;
-            return Gdk.EVENT_STOP;
         });
 
-        mouse_right.button_release_event.connect (() => {
+        mouse_right.activate.connect (() => {
             mouse_settings.set_boolean ("left-handed", true);
             mouse_right.active = true;
-            return Gdk.EVENT_STOP;
         });
     }
 

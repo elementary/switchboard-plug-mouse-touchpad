@@ -29,7 +29,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
     construct {
         var horizontal_swipe_header = new Granite.HeaderLabel (_("Swipe Horizontally"));
 
-        var three_swipe_horizontal_label = new SettingLabel (_("Three fingers:"));
+        var three_swipe_horizontal_label = new Gtk.Label (_("Three fingers:"));
 
         var three_swipe_horizontal_combo = new Gtk.ComboBoxText () {
             hexpand = true
@@ -37,7 +37,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         three_swipe_horizontal_combo.append ("none", _("Do nothing"));
         three_swipe_horizontal_combo.append ("switch-to-workspace", _("Switch to workspace"));
 
-        var four_swipe_horizontal_label = new SettingLabel (_("Four fingers:"));
+        var four_swipe_horizontal_label = new Gtk.Label (_("Four fingers:"));
 
         var four_swipe_horizontal_combo = new Gtk.ComboBoxText ();
         four_swipe_horizontal_combo.append ("none", _("Do nothing"));
@@ -47,13 +47,13 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
             margin_top = 12
         };
 
-        var three_swipe_up_label = new SettingLabel (_("Three fingers:"));
+        var three_swipe_up_label = new Gtk.Label (_("Three fingers:"));
 
         var three_swipe_up_combo = new Gtk.ComboBoxText ();
         three_swipe_up_combo.append ("none", _("Do nothing"));
         three_swipe_up_combo.append ("multitasking-view", _("Multitasking View"));
 
-        var four_swipe_up_label = new SettingLabel (_("Four fingers:"));
+        var four_swipe_up_label = new Gtk.Label (_("Four fingers:"));
 
         var four_swipe_up_combo = new Gtk.ComboBoxText ();
         four_swipe_up_combo.append ("none", _("Do nothing"));
@@ -63,13 +63,13 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
             margin_top = 12
         };
 
-        var three_pinch_label = new SettingLabel (_("Three fingers:"));
+        var three_pinch_label = new Gtk.Label (_("Three fingers:"));
 
         var three_pinch_combo = new Gtk.ComboBoxText ();
         three_pinch_combo.append ("none", _("Do nothing"));
         three_pinch_combo.append ("zoom", _("Zoom"));
 
-        var four_pinch_label = new SettingLabel (_("Four fingers:"));
+        var four_pinch_label = new Gtk.Label (_("Four fingers:"));
 
         var four_pinch_combo = new Gtk.ComboBoxText ();
         four_pinch_combo.append ("none", _("Do nothing"));
