@@ -82,9 +82,12 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
             hpaned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL) {
                 start_child = switcher,
-                end_child = stack
+                resize_start_child = false,
+                shrink_start_child = false,
+                end_child = stack,
+                resize_end_child = false,
+                shrink_end_child = false
             };
-            // hpaned.pack1 (switcher, false, false);
         }
 
         return hpaned;
