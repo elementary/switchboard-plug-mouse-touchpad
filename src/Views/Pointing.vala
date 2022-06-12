@@ -106,7 +106,7 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         content_area.row_spacing = 6;
 
         content_area.attach (new Gtk.Label (_("Pointer size:")) { halign = Gtk.Align.END }, 0, 0);
-        content_area.attach (cursor_size_grid, 1, 0, 3);
+        content_area.attach (cursor_size_box, 1, 0, 3);
 
         content_area.attach (reveal_pointer_label, 0, 1);
         content_area.attach (reveal_pointer_switch, 1, 1, 3);

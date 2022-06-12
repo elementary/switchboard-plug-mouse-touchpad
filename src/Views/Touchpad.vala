@@ -160,15 +160,15 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         content_area.attach (new Gtk.Label (_("Pointer speed:")) { halign = Gtk.Align.END }, 0, 0);
         content_area.attach (pointer_speed_scale, 1, 0);
         content_area.attach (click_method_label, 0, 1);
-        content_area.attach (click_method_grid, 1, 1);
+        content_area.attach (click_method_box, 1, 1);
         content_area.attach (new Gtk.Label (_("Tapping:")) { halign = Gtk.Align.END }, 0, 2);
-        content_area.attach (tap_grid, 1, 2);
+        content_area.attach (tap_box, 1, 2);
         content_area.attach (scroll_method_label, 0, 3);
-        content_area.attach (scroll_method_grid, 1, 3);
+        content_area.attach (scroll_method_box, 1, 3);
         content_area.attach (natural_scrolling_label, 0, 4);
         content_area.attach (natural_scrolling_switch, 1, 4);
         content_area.attach (disable_label, 0, 5);
-        content_area.attach (disable_grid, 1, 5);
+        content_area.attach (disable_box, 1, 5);
 
         glib_settings = new GLib.Settings ("org.gnome.desktop.peripherals.touchpad");
         glib_settings.bind (
