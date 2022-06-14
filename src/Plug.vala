@@ -85,7 +85,6 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
                 resize_start_child = false,
                 shrink_start_child = false,
                 end_child = stack,
-                resize_end_child = false,
                 shrink_end_child = false
             };
         }
