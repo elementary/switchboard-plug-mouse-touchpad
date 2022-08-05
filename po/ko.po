@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-10 17:39+0000\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-08-05 16:24+0000\n"
+"Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ko/>\n"
 "Language: ko\n"
@@ -74,10 +74,8 @@ msgid "Pointing"
 msgstr ""
 
 #: src/Plug.vala:139
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "포인터 속도:"
+msgstr "포인터 크기"
 
 #: src/Plug.vala:140
 msgid "Reveal pointer"
@@ -147,9 +145,8 @@ msgid "Right"
 msgstr "오른쪽"
 
 #: src/Views/Clicking.vala:58
-#, fuzzy
 msgid "Long-press and release the primary button to secondary click"
-msgstr "실행 버튼을 길게 눌렀다 놓으면 보조 클릭 기능을 합니다."
+msgstr "실행 버튼을 길게 눌렀다 놓으면 보조 클릭 기능을 합니다"
 
 #: src/Views/Clicking.vala:73 src/Views/Clicking.vala:104
 msgid "seconds"
@@ -207,10 +204,8 @@ msgstr ""
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:56
 #: src/Views/Gestures.vala:72
-#, fuzzy
-#| msgid "Two-finger"
 msgid "Four fingers:"
-msgstr "두 손가락"
+msgstr "네 손가락:"
 
 #: src/Views/Gestures.vala:46
 msgid "Swipe Up"
@@ -261,9 +256,8 @@ msgid "Speed:"
 msgstr "속도:"
 
 #: src/Views/Pointing.vala:43
-#, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr "숫자 키패드에 있는 두 레벨의 키를 모두 비활성화합니다."
+msgstr "숫자 키패드에 있는 두 레벨의 키를 모두 비활성화합니다"
 
 #: src/Views/Pointing.vala:51
 msgid "Small"
