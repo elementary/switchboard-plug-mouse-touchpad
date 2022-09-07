@@ -29,29 +29,36 @@ public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
     construct {
         var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0, 0);
 
-        var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, pointer_speed_adjustment);
-        pointer_speed_scale.draw_value = false;
-        pointer_speed_scale.hexpand = true;
-        pointer_speed_scale.width_request = 160;
+        var pointer_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, pointer_speed_adjustment) {
+            draw_value = false,
+            hexpand = true,
+            width_request = 160
+        };
         pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
+
         for (double x = -0.75; x < 1; x += 0.25) {
             pointer_speed_scale.add_mark (x, Gtk.PositionType.TOP, null);
         }
 
-        var accel_profile_default = new Gtk.RadioButton.with_label (null, _("Hardware default"));
-        var accel_profile_flat = new Gtk.RadioButton.with_label_from_widget (accel_profile_default, _("None"));
-        var accel_profile_adaptive = new Gtk.RadioButton.with_label_from_widget (accel_profile_default, _("Adaptive"));
+        var accel_profile_default = new Gtk.CheckButton.with_label (_("Hardware default"));
+        var accel_profile_flat = new Gtk.CheckButton.with_label (_("None")) {
+            group = accel_profile_default
+        };
+        var accel_profile_adaptive = new Gtk.CheckButton.with_label (_("Adaptive")) {
+            group = accel_profile_default
+        };
 
-        var natural_scrolling_switch = new Gtk.Switch ();
-        natural_scrolling_switch.halign = Gtk.Align.START;
+        var natural_scrolling_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START
+        };
 
-        content_area.attach (new SettingLabel (_("Pointer speed:")), 0, 0);
+        content_area.attach (new Gtk.Label (_("Pointer speed:")) { halign = Gtk.Align.END }, 0, 0);
         content_area.attach (pointer_speed_scale, 1, 0);
-        content_area.attach (new SettingLabel (_("Pointer acceleration:")), 0, 1);
+        content_area.attach (new Gtk.Label (_("Pointer acceleration:")) { halign = Gtk.Align.END }, 0, 1);
         content_area.attach (accel_profile_default, 1, 1);
         content_area.attach (accel_profile_flat, 1, 2);
         content_area.attach (accel_profile_adaptive, 1, 3);
-        content_area.attach (new SettingLabel (_("Natural scrolling:")), 0, 4);
+        content_area.attach (new Gtk.Label (_("Natural scrolling:")) { halign = Gtk.Align.END }, 0, 4);
         content_area.attach (natural_scrolling_switch, 1, 4);
 
         var settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
