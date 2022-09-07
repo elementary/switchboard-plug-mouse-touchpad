@@ -53,6 +53,7 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         var cursor_size_24 = new Gtk.CheckButton () {
             tooltip_text = _("Small")
         };
+        cursor_size_24.add_css_class ("image-button");
 
         var cursor_size_24_image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic") {
             pixel_size = 24
@@ -63,6 +64,7 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
             group = cursor_size_24,
             tooltip_text = _("Medium")
         };
+        cursor_size_32.add_css_class ("image-button");
 
         var cursor_size_32_image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic") {
             pixel_size = 32
@@ -73,6 +75,7 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
             group = cursor_size_24,
             tooltip_text = _("Large")
         };
+        cursor_size_48.add_css_class ("image-button");
 
         var cursor_size_48_image = new Gtk.Image.from_icon_name ("mouse-touchpad-pointing-symbolic") {
             pixel_size = 48

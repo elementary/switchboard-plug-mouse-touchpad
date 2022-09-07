@@ -35,6 +35,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         var mouse_left = new Gtk.CheckButton () {
             tooltip_text = _("Left")
         };
+        mouse_left.add_css_class ("image-button");
 
         var mouse_left_image = new Gtk.Image.from_icon_name ("mouse-left-symbolic") {
             pixel_size = 32
@@ -45,6 +46,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             group = mouse_left,
             tooltip_text = _("Right")
         };
+        mouse_right.add_css_class ("image-button");
 
         var mouse_right_image = new Gtk.Image.from_icon_name ("mouse-right-symbolic") {
             pixel_size = 32
