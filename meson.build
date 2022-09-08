@@ -19,7 +19,7 @@ add_project_arguments(
 
 icon_res = gnome.compile_resources(
     'icon-resources',
-    join_paths('data', 'io.elementary.switchboard.' + meson.project_name() + '.gresource.xml'),
+    join_paths('data', meson.project_name() + '.gresource.xml'),
     source_dir: 'data'
 )
 

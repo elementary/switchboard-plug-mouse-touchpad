@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/io/elementary/switchboard/mouse-touchpad">
+  <gresource prefix="/io/elementary/settings/mouse-touchpad">
     <file alias="32x32@2/categories/mouse-left-symbolic.svg" compressed="true" preprocess="xml-stripblanks">mouse-left-symbolic.svg</file>
     <file alias="32x32@2/categories/mouse-right-symbolic.svg" compressed="true" preprocess="xml-stripblanks">mouse-right-symbolic.svg</file>
     <file alias="32x32@2/categories/touchpad-click-areas-symbolic.svg" compressed="true" preprocess="xml-stripblanks">touchpad-click-areas-symbolic.svg</file>
