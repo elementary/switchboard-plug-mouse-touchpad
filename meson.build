@@ -4,7 +4,7 @@ project(
     version: '7.0.0'
 )
 
-gettext_name = 'io.elementary.settings-' + meson.project_name()
+gettext_name = 'io.elementary.settings.' + meson.project_name()
 gnome = import('gnome')
 i18n = import('i18n')
 
@@ -25,7 +25,7 @@ icon_res = gnome.compile_resources(
 
 config_data = configuration_data()
 config_data.set_quoted('LOCALEDIR', join_paths(get_option('prefix'), get_option('localedir')))
-config_data.set_quoted('GETTEXT_PACKAGE', meson.project_name() + '-plug')
+config_data.set_quoted('GETTEXT_PACKAGE', 'io.elementary.settings.' + meson.project_name())
 config_file = configure_file(
     input: 'src/Config.vala.in',
     output: '@BASENAME@',

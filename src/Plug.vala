@@ -49,7 +49,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
         Object (
             category: Category.HARDWARE,
-            code_name: "io.elementary.switchboard.mouse-touchpad",
+            code_name: "io.elementary.settings.mouse-touchpad",
             display_name: _("Mouse & Touchpad"),
             description: _("Configure mouse and touchpad"),
             icon: "preferences-desktop-peripherals",
