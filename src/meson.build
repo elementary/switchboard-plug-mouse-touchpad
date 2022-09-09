@@ -22,6 +22,7 @@ shared_module(
         dependency('gobject-2.0'),
         dependency('granite-7'),
         dependency('gtk4'),
+        dependency('libadwaita-1'),
         dependency('libxml-2.0'),
         switchboard_dep
     ],
