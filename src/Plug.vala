@@ -49,7 +49,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
         Object (
             category: Category.HARDWARE,
-            code_name: "io.elementary.switchboard.mouse-touchpad",
+            code_name: "io.elementary.settings.mouse-touchpad",
             display_name: _("Mouse & Touchpad"),
             description: _("Configure mouse and touchpad"),
             icon: "preferences-desktop-peripherals",
@@ -59,7 +59,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
     public override Gtk.Widget get_widget () {
         if (hpaned == null) {
-            Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).add_resource_path ("/io/elementary/switchboard/mouse-touchpad");
+            Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).add_resource_path ("/io/elementary/settings/mouse-touchpad");
 
             clicking_view = new ClickingView ();
             mouse_view = new MouseView ();
