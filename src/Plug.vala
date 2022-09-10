@@ -101,12 +101,11 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             };
 
             var start_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-            start_box.add_css_class (Granite.STYLE_CLASS_VIEW);
+            start_box.add_css_class (Granite.STYLE_CLASS_SIDEBAR);
             start_box.append (start_title);
             start_box.append (switcher);
 
             var end_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
-            end_box.add_css_class (Granite.STYLE_CLASS_VIEW);
             end_box.append (end_title);
             end_box.append (stack);
 
