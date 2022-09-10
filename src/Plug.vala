@@ -78,13 +78,43 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             stack.add_named (mouse_view, "mouse");
             stack.add_named (touchpad_view, "touchpad");
 
-            var switcher = new Granite.SettingsSidebar (stack);
+            var back_button = new Gtk.Button.with_label (_("All Settings")) {
+                action_name = "app.back"
+            };
+            back_button.add_css_class (Granite.STYLE_CLASS_BACK_BUTTON);
+
+            var start_title = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+            start_title.add_css_class ("titlebar");
+            start_title.add_css_class (Granite.STYLE_CLASS_FLAT);
+            start_title.append (new Gtk.WindowControls (Gtk.PackType.START));
+            start_title.append (back_button);
+
+            var end_title = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
+                halign = Gtk.Align.END
+            };
+            end_title.add_css_class ("titlebar");
+            end_title.add_css_class (Granite.STYLE_CLASS_FLAT);
+            end_title.append (new Gtk.WindowControls (Gtk.PackType.END));
+
+            var switcher = new Granite.SettingsSidebar (stack) {
+                vexpand = true
+            };
+
+            var start_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+            start_box.add_css_class (Granite.STYLE_CLASS_VIEW);
+            start_box.append (start_title);
+            start_box.append (switcher);
+
+            var end_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+            end_box.add_css_class (Granite.STYLE_CLASS_VIEW);
+            end_box.append (end_title);
+            end_box.append (stack);
 
             hpaned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL) {
-                start_child = switcher,
+                start_child = start_box,
                 resize_start_child = false,
                 shrink_start_child = false,
-                end_child = stack,
+                end_child = end_box,
                 shrink_end_child = false
             };
         }
