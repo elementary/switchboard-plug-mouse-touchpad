@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-08 09:59-0700\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Sorani <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-mouse-touchpad/ckb/>\n"
+"PO-Revision-Date: 2022-09-21 12:19+0000\n"
+"Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
+"Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
+"switchboard/switchboard-plug-mouse-touchpad/ckb/>\n"
 "Language: ckb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: src/Views/Mouse.vala:23
 msgid "Devices"
-msgstr ""
+msgstr "ئامێرەکان"
 
 #: src/Views/Mouse.vala:43
 msgid "Hardware default"
