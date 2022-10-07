@@ -20,7 +20,7 @@ shared_module(
         dependency('glib-2.0'),
         dependency('gio-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite-7'),
+        dependency('granite-7', version: '>=7.1.0'),
         dependency('gtk4'),
         dependency('libadwaita-1'),
         dependency('libxml-2.0'),

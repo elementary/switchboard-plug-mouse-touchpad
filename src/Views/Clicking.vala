@@ -52,6 +52,7 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
 
         var primary_button_switcher = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 24) {
             halign = Gtk.Align.START,
+            margin_bottom = 12
         };
 
         if (Gtk.StateFlags.DIR_LTR in get_state_flags ()) {
@@ -62,16 +63,14 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             primary_button_switcher.append (mouse_left);
         }
 
+        var hold_header = new Granite.HeaderLabel (_("Long-press Secondary Click")) {
+            secondary_text = _("Long-press and release the primary button to secondary click")
+        };
+
         var hold_switch = new Gtk.Switch () {
             halign = Gtk.Align.END,
             valign = Gtk.Align.CENTER
         };
-
-        var hold_help = new Gtk.Label (_("Long-press and release the primary button to secondary click")) {
-            wrap = true,
-            xalign = 0
-        };
-        hold_help.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         var hold_scale_adjustment = new Gtk.Adjustment (0, 0.5, 3, 0.1, 0.1, 0.1);
 
@@ -86,9 +85,15 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             valign = Gtk.Align.START
         };
 
-        var hold_spin_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
+        var hold_spin_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
+            margin_bottom = 12
+        };
         hold_spin_box.append (hold_scale);
         hold_spin_box.append (hold_spinbutton);
+
+        var double_click_header = new Granite.HeaderLabel (_("Double-click Speed")) {
+            secondary_text = _("How quickly two clicks in a row will be treated as a double-click")
+        };
 
         var double_click_speed_adjustment = new Gtk.Adjustment (400, 100, 1000, 0.1, 0.1, 0.1);
 
@@ -97,11 +102,9 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         };
         double_click_speed_scale.add_mark (400, Gtk.PositionType.BOTTOM, null);
 
-        var double_click_speed_help = new Gtk.Label (_("How quickly two clicks in a row will be treated as a double-click")) {
-            wrap = true,
-            xalign = 0
+        var dwell_click_header = new Granite.HeaderLabel (_("Dwell Click")) {
+            secondary_text = _("Hold the pointer still to automatically click")
         };
-        double_click_speed_help.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         var dwell_click_switch = new Gtk.Switch () {
             halign = Gtk.Align.END,
@@ -121,34 +124,27 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             valign = Gtk.Align.START
         };
 
-        var dwell_click_spin_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        var dwell_click_spin_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
+            margin_bottom = 12
+        };
         dwell_click_spin_box.append (dwell_click_delay_scale);
         dwell_click_spin_box.append (dwell_click_spinbutton);
-
-        var dwell_click_help = new Gtk.Label (_("Hold the pointer still to automatically click")) {
-            wrap = true,
-            xalign = 0
-        };
-        dwell_click_help.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         content_area.row_spacing = 6;
 
         content_area.attach (primary_button_label, 0, 0, 2);
         content_area.attach (primary_button_switcher, 0, 1, 2);
 
-        content_area.attach (new Granite.HeaderLabel (_("Double-click Speed")) { margin_top = 12}, 0, 2, 2);
-        content_area.attach (double_click_speed_help, 0, 3, 2);
-        content_area.attach (double_click_speed_scale, 0, 4, 2);
+        content_area.attach (double_click_header, 0, 2, 2);
+        content_area.attach (double_click_speed_scale, 0, 3, 2);
 
-        content_area.attach (new Granite.HeaderLabel (_("Dwell Click")), 0, 5);
-        content_area.attach (dwell_click_switch, 1, 5, 1, 2);
-        content_area.attach (dwell_click_help, 0, 6);
-        content_area.attach (dwell_click_spin_box, 0, 7, 2);
+        content_area.attach (dwell_click_header, 0, 4);
+        content_area.attach (dwell_click_switch, 1, 4);
+        content_area.attach (dwell_click_spin_box, 0, 5, 2);
 
-        content_area.attach (new Granite.HeaderLabel (_("Long-press Secondary Click")), 0, 9);
-        content_area.attach (hold_switch, 1, 9, 1, 2);
-        content_area.attach (hold_help, 0, 10);
-        content_area.attach (hold_spin_box, 0, 11, 2);
+        content_area.attach (hold_header, 0, 6);
+        content_area.attach (hold_switch, 1, 6);
+        content_area.attach (hold_spin_box, 0, 7, 2);
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
             "org.gnome.settings-daemon.plugins.xsettings",
@@ -156,24 +152,17 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         );
 
         if (xsettings_schema != null) {
+            var primary_paste_header = new Granite.HeaderLabel (_("Middle Click Paste")) {
+                secondary_text = _("Middle or three-finger click on an input to paste selected text")
+            };
+
             var primary_paste_switch = new Gtk.Switch () {
                 halign = Gtk.Align.END,
                 valign = Gtk.Align.CENTER
             };
 
-            var primary_paste_help = new Gtk.Label (
-                _("Middle or three-finger click on an input to paste selected text")
-            ) {
-                wrap = true,
-                xalign = 0
-            };
-            primary_paste_help.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
-
-            content_area.attach (new Granite.HeaderLabel (_("Middle Click Paste")) { margin_top = 12 }, 0, 13);
-            content_area.attach (primary_paste_switch, 1, 13, 1, 2);
-            content_area.attach (primary_paste_help, 0, 14);
-
-
+            content_area.attach (primary_paste_header, 0, 8);
+            content_area.attach (primary_paste_switch, 1, 8);
 
             var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
             primary_paste_switch.notify["active"].connect (() => {
