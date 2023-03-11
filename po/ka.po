@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-08 09:59-0700\n"
-"PO-Revision-Date: 2023-03-11 15:11+0000\n"
+"PO-Revision-Date: 2023-03-12 15:25+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ka/>\n"
@@ -26,11 +26,11 @@ msgstr "მაუსი & თაჩპედი"
 
 #: src/Plug.vala:54
 msgid "Configure mouse and touchpad"
-msgstr ""
+msgstr "თაგუნას და თაჩპედის მორგება"
 
 #: src/Plug.vala:128 src/Views/Clicking.vala:25
 msgid "Clicking"
-msgstr ""
+msgstr "დააწკაპუნეთ"
 
 #: src/Plug.vala:129
 msgid "Double-click speed"
@@ -50,7 +50,7 @@ msgstr ""
 
 #: src/Plug.vala:133
 msgid "Middle click paste"
-msgstr ""
+msgstr "შუა-წკაპით ჩასმა"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
 #: src/Views/Mouse.vala:25
@@ -58,34 +58,28 @@ msgid "Mouse"
 msgstr "მაუსი"
 
 #: src/Plug.vala:136 src/Plug.vala:146
-#, fuzzy
 msgid "Pointer speed"
-msgstr "ისრის სიჩქარე:"
+msgstr "კურსორის სიჩქარე"
 
 #: src/Plug.vala:137
-#, fuzzy
 msgid "Pointer acceleration"
-msgstr "ისრის სიჩქარე:"
+msgstr "კურსორის აჩქარება"
 
 #: src/Plug.vala:138 src/Plug.vala:150
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "ჩვეულებრივი სკროლინგი:"
+msgstr "ჩვეულებრივი გადახვევა"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:24
 msgid "Pointing"
 msgstr ""
 
 #: src/Plug.vala:141
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size"
-msgstr "ისრის სიჩქარე:"
+msgstr "კურსორის ზომა"
 
 #: src/Plug.vala:142
-#, fuzzy
 msgid "Reveal pointer"
-msgstr "ისრის ნახვება:"
+msgstr "კურსორის ჩვენება"
 
 #: src/Plug.vala:143
 msgid "Control pointer using keypad"
@@ -98,18 +92,16 @@ msgid "Touchpad"
 msgstr "თაჩპედი"
 
 #: src/Plug.vala:147 src/Views/Touchpad.vala:87
-#, fuzzy
 msgid "Tap to click"
-msgstr "დაკვრა დასაწკაპუნებლად:"
+msgstr "დასაწკაპუნებლად შეეხეთ"
 
 #: src/Plug.vala:148
 msgid "Physical clicking"
 msgstr ""
 
 #: src/Plug.vala:149
-#, fuzzy
 msgid "Scrolling"
-msgstr "სკროლინგი:"
+msgstr "აჩოჩება"
 
 #: src/Plug.vala:151
 msgid "Ignore while typing"
@@ -122,7 +114,7 @@ msgstr ""
 #: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
-msgstr ""
+msgstr "ჟესტები"
 
 #: src/Plug.vala:156 src/Views/Gestures.vala:60 src/Views/Gestures.vala:68
 msgid "Multitasking View"
@@ -134,7 +126,7 @@ msgstr ""
 
 #: src/Plug.vala:158
 msgid "Maximize Window"
-msgstr ""
+msgstr "ფანჯრის გადიდება"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
@@ -142,7 +134,7 @@ msgstr "ქცევა"
 
 #: src/Views/Clicking.vala:30
 msgid "Primary button:"
-msgstr ""
+msgstr "ძირითადი ღილაკი:"
 
 #: src/Views/Clicking.vala:36
 msgid "Left"
@@ -170,7 +162,7 @@ msgstr ""
 
 #: src/Views/Clicking.vala:143
 msgid "Double-click speed:"
-msgstr ""
+msgstr "ორმაგი-წკაპის სიჩქარე:"
 
 #: src/Views/Clicking.vala:147
 msgid "Dwell click:"
@@ -195,7 +187,7 @@ msgstr ""
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:54
 #: src/Views/Gestures.vala:74
 msgid "Three fingers:"
-msgstr ""
+msgstr "სამი თითი:"
 
 #: src/Views/Gestures.vala:39 src/Views/Gestures.vala:47
 #: src/Views/Gestures.vala:59 src/Views/Gestures.vala:67
@@ -209,10 +201,8 @@ msgstr ""
 
 #: src/Views/Gestures.vala:42 src/Views/Gestures.vala:62
 #: src/Views/Gestures.vala:82
-#, fuzzy
-#| msgid "Two-finger"
 msgid "Four fingers:"
-msgstr "ორ-თითა"
+msgstr "ოთხი თითი:"
 
 #: src/Views/Gestures.vala:50
 msgid "Swipe Up"
@@ -220,7 +210,7 @@ msgstr ""
 
 #: src/Views/Gestures.vala:70
 msgid "Pinch"
-msgstr ""
+msgstr "გასმა"
 
 #: src/Views/Gestures.vala:80 src/Views/Gestures.vala:88
 msgid "Zoom"
@@ -236,28 +226,27 @@ msgstr "მოწყობილობები"
 
 #: src/Views/Mouse.vala:43
 msgid "Hardware default"
-msgstr ""
+msgstr "აპარატურის ნაგულისხმები"
 
 #: src/Views/Mouse.vala:44
 msgid "None"
-msgstr "არცერთი"
+msgstr "არაფერი"
 
 #: src/Views/Mouse.vala:47
 msgid "Adaptive"
-msgstr ""
+msgstr "შეგუებადი"
 
 #: src/Views/Mouse.vala:55 src/Views/Touchpad.vala:160
 msgid "Pointer speed:"
-msgstr "ისრის სიჩქარე:"
+msgstr "კურსორის სიჩქარე:"
 
 #: src/Views/Mouse.vala:57
-#, fuzzy
 msgid "Pointer acceleration:"
-msgstr "ისრის სიჩქარე:"
+msgstr "კურსორის აჩქარება:"
 
 #: src/Views/Mouse.vala:61 src/Views/Touchpad.vala:138
 msgid "Natural scrolling:"
-msgstr "ჩვეულებრივი სკროლინგი:"
+msgstr "ჩვეულებრივი გადახვევა:"
 
 #: src/Views/Pointing.vala:36
 msgid "Speed:"
@@ -273,7 +262,7 @@ msgstr "პატარა"
 
 #: src/Views/Pointing.vala:65
 msgid "Medium"
-msgstr ""
+msgstr "საშუალო"
 
 #: src/Views/Pointing.vala:76
 msgid "Large"
@@ -281,17 +270,15 @@ msgstr "დიდი"
 
 #: src/Views/Pointing.vala:91
 msgid "Pressing the control key will highlight the position of the pointer"
-msgstr "control ღილაკზე დაჭერა მიგითითებთ ისრის ადგილმდებარეობაზე"
+msgstr "Control ღილაკზე დაჭერა ისრის ადგილმდებარეობაზე მიგითითებთ"
 
 #: src/Views/Pointing.vala:99
 msgid "Reveal pointer:"
-msgstr "ისრის ნახვება:"
+msgstr "კურსორის ჩვენება:"
 
 #: src/Views/Pointing.vala:111
-#, fuzzy
-#| msgid "Pointer speed:"
 msgid "Pointer size:"
-msgstr "ისრის სიჩქარე:"
+msgstr "კურსორის ზომა:"
 
 #: src/Views/Pointing.vala:118
 msgid "Control pointer using keypad:"
@@ -299,11 +286,11 @@ msgstr ""
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
-msgstr ""
+msgstr "მულტითაჩი"
 
 #: src/Views/Touchpad.vala:66
 msgid "Areas"
-msgstr ""
+msgstr "ადგილები"
 
 #: src/Views/Touchpad.vala:76
 msgid "Physical secondary clicking:"
@@ -315,11 +302,11 @@ msgstr ""
 
 #: src/Views/Touchpad.vala:99
 msgid "Scroll method:"
-msgstr ""
+msgstr "აწევ-ჩამოწევის მეთოდი:"
 
 #: src/Views/Touchpad.vala:107
 msgid "Two-finger"
-msgstr "ორ-თითა"
+msgstr "ორი თითი"
 
 #: src/Views/Touchpad.vala:122
 msgid "Edge"
@@ -327,19 +314,19 @@ msgstr "კიდე"
 
 #: src/Views/Touchpad.vala:146
 msgid "Ignore:"
-msgstr ""
+msgstr "იგნორირება:"
 
 #: src/Views/Touchpad.vala:151
 msgid "While typing"
-msgstr ""
+msgstr "აკრეფისას"
 
 #: src/Views/Touchpad.vala:152
 msgid "When mouse is connected"
-msgstr ""
+msgstr "როცა თაგუნა მიერთებულია"
 
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
-msgstr ""
+msgstr "დატყაპუნება:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "დაკვრა დასაწკაპუნებლად:"
