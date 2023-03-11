@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-10 17:39+0000\n"
-"PO-Revision-Date: 2023-03-11 15:11+0000\n"
+"PO-Revision-Date: 2023-03-12 15:25+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/ka/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
-msgstr ""
+msgstr "თაგუნას და თაჩპედის მორგება"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
-msgstr ""
+msgstr "თაგუნას და თაჩპედის მორგება"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
@@ -61,7 +61,7 @@ msgstr ""
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:35
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
 msgid "Multitouch gesture options"
-msgstr ""
+msgstr "მულტითაჩის ჟესტების მორგება"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:39
 msgid "Add more snap points to pointer speed sliders"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:67
 msgid "Other updates:"
-msgstr ""
+msgstr "სხვა განახლებები:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:69
 msgid "Also listen to secondary button clicks when selecting Primary Button"
@@ -103,4 +103,4 @@ msgstr ""
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:87
 msgid "Add Double-Click speed"
-msgstr ""
+msgstr "ორმაგი-წკაპის სიჩქარის დამატება"
