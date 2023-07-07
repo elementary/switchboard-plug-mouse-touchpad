@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-10 17:39+0000\n"
-"PO-Revision-Date: 2021-05-06 14:05+0000\n"
+"PO-Revision-Date: 2023-07-08 21:07+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/mouse-touchpad-plug-extra/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
@@ -31,11 +31,11 @@ msgstr "Sett opp mus og pekeflate"
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:37
 msgid "Minor updates:"
-msgstr ""
+msgstr "Småoppdateringer:"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
 msgid "Update for OS 7"
-msgstr ""
+msgstr "Oppdatering for OS 7"
 
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:15
 #: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
