@@ -63,13 +63,14 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
             primary_button_switcher.append (mouse_left);
         }
 
-        var hold_header = new Granite.HeaderLabel (_("Long-press Secondary Click")) {
-            secondary_text = _("Long-press and release the primary button to secondary click")
-        };
-
         var hold_switch = new Gtk.Switch () {
             halign = Gtk.Align.END,
             valign = Gtk.Align.CENTER
+        };
+
+        var hold_header = new Granite.HeaderLabel (_("Long-press Secondary Click")) {
+            mnemonic_widget = hold_switch,
+            secondary_text = _("Long-press and release the primary button to secondary click")
         };
 
         var hold_scale_adjustment = new Gtk.Adjustment (0, 0.5, 3, 0.1, 0.1, 0.1);
@@ -91,10 +92,6 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         hold_spin_box.append (hold_scale);
         hold_spin_box.append (hold_spinbutton);
 
-        var double_click_header = new Granite.HeaderLabel (_("Double-click Speed")) {
-            secondary_text = _("How quickly two clicks in a row will be treated as a double-click")
-        };
-
         var double_click_speed_adjustment = new Gtk.Adjustment (400, 100, 1000, 0.1, 0.1, 0.1);
 
         var double_click_speed_scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, double_click_speed_adjustment) {
@@ -102,13 +99,19 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         };
         double_click_speed_scale.add_mark (400, Gtk.PositionType.BOTTOM, null);
 
-        var dwell_click_header = new Granite.HeaderLabel (_("Dwell Click")) {
-            secondary_text = _("Hold the pointer still to automatically click")
+        var double_click_header = new Granite.HeaderLabel (_("Double-click Speed")) {
+            mnemonic_widget = double_click_speed_scale,
+            secondary_text = _("How quickly two clicks in a row will be treated as a double-click")
         };
 
         var dwell_click_switch = new Gtk.Switch () {
             halign = Gtk.Align.END,
             valign = Gtk.Align.CENTER
+        };
+
+        var dwell_click_header = new Granite.HeaderLabel (_("Dwell Click")) {
+            mnemonic_widget = dwell_click_switch,
+            secondary_text = _("Hold the pointer still to automatically click")
         };
 
         var dwell_click_adjustment = new Gtk.Adjustment (0, 0.5, 3, 0.1, 0.1, 0.1);
@@ -152,13 +155,14 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         );
 
         if (xsettings_schema != null) {
-            var primary_paste_header = new Granite.HeaderLabel (_("Middle Click Paste")) {
-                secondary_text = _("Middle or three-finger click on an input to paste selected text")
-            };
-
             var primary_paste_switch = new Gtk.Switch () {
                 halign = Gtk.Align.END,
                 valign = Gtk.Align.CENTER
+            };
+
+            var primary_paste_header = new Granite.HeaderLabel (_("Middle Click Paste")) {
+                mnemonic_widget = primary_paste_switch,
+                secondary_text = _("Middle or three-finger click on an input to paste selected text")
             };
 
             content_area.attach (primary_paste_header, 0, 8);

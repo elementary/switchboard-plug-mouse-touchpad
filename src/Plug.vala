@@ -80,15 +80,11 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
 
             var switcher = new Granite.SettingsSidebar (stack);
 
-            var clamp = new Adw.Clamp () {
-                child = stack
-            };
-
             hpaned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL) {
                 start_child = switcher,
                 resize_start_child = false,
                 shrink_start_child = false,
-                end_child = clamp,
+                end_child = stack,
                 shrink_end_child = false
             };
         }
