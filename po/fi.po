@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-09 17:42+0000\n"
-"PO-Revision-Date: 2021-09-12 17:04+0000\n"
+"PO-Revision-Date: 2023-11-13 15:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:53
@@ -133,8 +133,6 @@ msgid "Behavior"
 msgstr "Toiminta"
 
 #: src/Views/Clicking.vala:30
-#, fuzzy
-#| msgid "Primary button"
 msgid "Primary Button"
 msgstr "Ensisijainen painike"
 
@@ -147,8 +145,6 @@ msgid "Right"
 msgstr "Oikea"
 
 #: src/Views/Clicking.vala:71
-#, fuzzy
-#| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
 msgstr "Kakkospainike pitkällä painalluksella"
 
@@ -159,8 +155,6 @@ msgstr ""
 "toissijaisen painikkeen napsautuksen"
 
 #: src/Views/Clicking.vala:102
-#, fuzzy
-#| msgid "Double-click speed"
 msgid "Double-click Speed"
 msgstr "Kaksoisnapsauttamisen nopeus"
 
@@ -171,8 +165,6 @@ msgstr ""
 "kaksoisnapsautuksena"
 
 #: src/Views/Clicking.vala:112
-#, fuzzy
-#| msgid "Dwell click"
 msgid "Dwell Click"
 msgstr "Napsautus kohdistamalla"
 
@@ -181,8 +173,6 @@ msgid "Hold the pointer still to automatically click"
 msgstr "Pidä osoitin paikallaan automaattista napsautusta varten"
 
 #: src/Views/Clicking.vala:163
-#, fuzzy
-#| msgid "Middle click paste"
 msgid "Middle Click Paste"
 msgstr "Liittäminen keskimmäistä napsauttamalla"
 
@@ -193,10 +183,9 @@ msgstr ""
 "tekstin"
 
 #: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
-#, fuzzy, c-format
-#| msgid "seconds"
+#, c-format
 msgid "%.1f seconds"
-msgstr "sekuntia"
+msgstr "%.1f sekuntia"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
