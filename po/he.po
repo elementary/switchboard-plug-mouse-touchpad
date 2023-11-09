@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 09:59-0700\n"
+"POT-Creation-Date: 2023-11-09 17:42+0000\n"
 "PO-Revision-Date: 2021-09-07 22:45+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
@@ -132,52 +132,64 @@ msgid "Behavior"
 msgstr "התנהגות"
 
 #: src/Views/Clicking.vala:30
-msgid "Primary button:"
-msgstr "כפתור עיקרי:"
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
+msgstr "כפתור עיקרי"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:33
 msgid "Left"
 msgstr "שמאלי"
 
-#: src/Views/Clicking.vala:47
+#: src/Views/Clicking.vala:44
 msgid "Right"
 msgstr "ימני"
 
-#: src/Views/Clicking.vala:74
+#: src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
+msgstr "לחיצה ארוכה על כפתור משני"
+
+#: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "לחיצה ארוכה ושחרור הכפתור העיקרי תגרום ללחיצה משנית"
 
-#: src/Views/Clicking.vala:91 src/Views/Clicking.vala:125
-msgid "seconds"
-msgstr "שניות"
+#: src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
+msgstr "מהירות לחיצה כפולה"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "כמה מהר שתי לחיצות ברצף ייחשבו ללחיצה כפולה"
 
-#: src/Views/Clicking.vala:131
+#: src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
+msgstr "השהיית לחיצה"
+
+#: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "להחזיק את הסמן במקום כדי ללחוץ אוטומטית"
 
-#: src/Views/Clicking.vala:143
-msgid "Double-click speed:"
-msgstr "מהירות לחיצה כפולה:"
+#: src/Views/Clicking.vala:163
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
+msgstr "הדבקה עם כפתור אמצעי"
 
-#: src/Views/Clicking.vala:147
-msgid "Dwell click:"
-msgstr "לחיצה מושהית:"
-
-#: src/Views/Clicking.vala:153
-msgid "Long-press secondary click:"
-msgstr "לחיצה ארוכה על כפתור משני:"
-
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:165
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "לחיצה אמצעית או עם שלוש אצבעות על שדה קלט כדי להדביק טקסט נבחר"
 
-#: src/Views/Clicking.vala:177
-msgid "Middle click paste:"
-msgstr "הדבקה עם סמן אמצעי:"
+#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#, fuzzy, c-format
+#| msgid "seconds"
+msgid "%.1f seconds"
+msgstr "שניות"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -326,6 +338,21 @@ msgstr "כשעכבר מחובר"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "נגיעה:"
+
+#~ msgid "Primary button:"
+#~ msgstr "כפתור עיקרי:"
+
+#~ msgid "Double-click speed:"
+#~ msgstr "מהירות לחיצה כפולה:"
+
+#~ msgid "Dwell click:"
+#~ msgstr "לחיצה מושהית:"
+
+#~ msgid "Long-press secondary click:"
+#~ msgstr "לחיצה ארוכה על כפתור משני:"
+
+#~ msgid "Middle click paste:"
+#~ msgstr "הדבקה עם סמן אמצעי:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "נגיעה לצורך לחיצה:"
