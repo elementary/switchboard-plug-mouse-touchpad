@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 15:32+0000\n"
-"PO-Revision-Date: 2021-09-29 02:52+0000\n"
+"PO-Revision-Date: 2023-11-15 23:10+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:41+0000\n"
 
 #: src/Plug.vala:53
@@ -197,10 +197,9 @@ msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Midt- eller tre-fingerklikk på inndata limer inn valgt tekst"
 
 #: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
-#, fuzzy, c-format
-#| msgid "seconds"
+#, c-format
 msgid "%.1f seconds"
-msgstr "sekund"
+msgstr "%.1f sekunder"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -222,10 +221,8 @@ msgid "Switch to workspace"
 msgstr "Bytt arbeidsområde"
 
 #: src/Views/Gestures.vala:41 src/Views/Gestures.vala:50
-#, fuzzy
-#| msgid "Switch to workspace"
 msgid "Move active window to workspace"
-msgstr "Bytt arbeidsområde"
+msgstr "Flytt aktivt vindu til arbeidsområde"
 
 #: src/Views/Gestures.vala:43 src/Views/Gestures.vala:64
 #: src/Views/Gestures.vala:84
