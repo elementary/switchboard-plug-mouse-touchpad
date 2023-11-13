@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 09:59-0700\n"
+"POT-Creation-Date: 2023-11-09 17:42+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -133,24 +133,34 @@ msgid "Behavior"
 msgstr "Comportamento"
 
 #: src/Views/Clicking.vala:30
-msgid "Primary button:"
-msgstr "Botão principal:"
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
+msgstr "Botão principal"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:33
 msgid "Left"
 msgstr "Esquerda"
 
-#: src/Views/Clicking.vala:47
+#: src/Views/Clicking.vala:44
 msgid "Right"
 msgstr "Direita"
 
-#: src/Views/Clicking.vala:74
+#: src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
+msgstr "Clique secundário de longa pressão"
+
+#: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "Mantenha pressionado e solte o botão principal para clicar secundário"
 
-#: src/Views/Clicking.vala:91 src/Views/Clicking.vala:125
-msgid "seconds"
-msgstr "segundos"
+#: src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
+msgstr "Velocidade de duplo clique"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
@@ -158,31 +168,33 @@ msgstr ""
 "A rapidez com que dois cliques consecutivos serão tratados como um clique "
 "duplo"
 
-#: src/Views/Clicking.vala:131
+#: src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
+msgstr "Clique de permanência"
+
+#: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "Mantenha o ponteiro parado para clicar automaticamente"
 
-#: src/Views/Clicking.vala:143
-msgid "Double-click speed:"
-msgstr "Velocidade de duplo clique:"
+#: src/Views/Clicking.vala:163
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
+msgstr "Colar com clique do meio"
 
-#: src/Views/Clicking.vala:147
-msgid "Dwell click:"
-msgstr "Clique de permanência:"
-
-#: src/Views/Clicking.vala:153
-msgid "Long-press secondary click:"
-msgstr "Toque secundário de longa pressão:"
-
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:165
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Clique do meio ou com três dedos em uma entrada para colar o texto "
 "selecionado"
 
-#: src/Views/Clicking.vala:177
-msgid "Middle click paste:"
-msgstr "Colagem de clique do meio:"
+#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#, fuzzy, c-format
+#| msgid "seconds"
+msgid "%.1f seconds"
+msgstr "segundos"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -339,6 +351,21 @@ msgstr "Ignore quando o mouse estiver conectado"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr ""
+
+#~ msgid "Primary button:"
+#~ msgstr "Botão principal:"
+
+#~ msgid "Double-click speed:"
+#~ msgstr "Velocidade de duplo clique:"
+
+#~ msgid "Dwell click:"
+#~ msgstr "Clique de permanência:"
+
+#~ msgid "Long-press secondary click:"
+#~ msgstr "Toque secundário de longa pressão:"
+
+#~ msgid "Middle click paste:"
+#~ msgstr "Colagem de clique do meio:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Toque para clicar:"

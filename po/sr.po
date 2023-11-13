@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 09:59-0700\n"
+"POT-Creation-Date: 2023-11-09 17:42+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian <https://l10n.elementary.io/projects/switchboard/"
@@ -134,52 +134,64 @@ msgid "Behavior"
 msgstr "Понашање"
 
 #: src/Views/Clicking.vala:30
-msgid "Primary button:"
-msgstr "Примарно дугме:"
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
+msgstr "Примарно дугме"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:33
 msgid "Left"
 msgstr "Лево"
 
-#: src/Views/Clicking.vala:47
+#: src/Views/Clicking.vala:44
 msgid "Right"
 msgstr "Десно"
 
-#: src/Views/Clicking.vala:74
+#: src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
+msgstr "Дуги притисак другог клика"
+
+#: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "Дуги притисак и отпуштање примарног дугмета за секундарни клик"
 
-#: src/Views/Clicking.vala:91 src/Views/Clicking.vala:125
-msgid "seconds"
-msgstr "секунди"
+#: src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
+msgstr "Брзина двоклика"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Колико брзо два клика у реду ће бити сматрани као двоклик"
 
-#: src/Views/Clicking.vala:131
+#: src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
+msgstr "Клик задржавања"
+
+#: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "Задржите показивач све до аутоматског клика"
 
-#: src/Views/Clicking.vala:143
-msgid "Double-click speed:"
-msgstr "Брзина двоклика:"
+#: src/Views/Clicking.vala:163
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
+msgstr "Средњи клик убацује"
 
-#: src/Views/Clicking.vala:147
-msgid "Dwell click:"
-msgstr "Клик задржавања:"
-
-#: src/Views/Clicking.vala:153
-msgid "Long-press secondary click:"
-msgstr "Дуги притисак другог клика:"
-
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:165
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Средњи или клик три прста на унос за убацивање изабраног текста"
 
-#: src/Views/Clicking.vala:177
-msgid "Middle click paste:"
-msgstr "Средњи клик убацује:"
+#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#, fuzzy, c-format
+#| msgid "seconds"
+msgid "%.1f seconds"
+msgstr "секунди"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -338,6 +350,21 @@ msgstr "Занемари када је миш повезан"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr ""
+
+#~ msgid "Primary button:"
+#~ msgstr "Примарно дугме:"
+
+#~ msgid "Double-click speed:"
+#~ msgstr "Брзина двоклика:"
+
+#~ msgid "Dwell click:"
+#~ msgstr "Клик задржавања:"
+
+#~ msgid "Long-press secondary click:"
+#~ msgstr "Дуги притисак другог клика:"
+
+#~ msgid "Middle click paste:"
+#~ msgstr "Средњи клик убацује:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Лупни за клик:"

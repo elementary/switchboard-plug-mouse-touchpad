@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 09:59-0700\n"
+"POT-Creation-Date: 2023-11-09 17:42+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/"
@@ -133,52 +133,64 @@ msgid "Behavior"
 msgstr "Adfærd"
 
 #: src/Views/Clicking.vala:30
-msgid "Primary button:"
-msgstr "Primær knap:"
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
+msgstr "Primærknap"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:33
 msgid "Left"
 msgstr "Venstre"
 
-#: src/Views/Clicking.vala:47
+#: src/Views/Clicking.vala:44
 msgid "Right"
 msgstr "Højre"
 
-#: src/Views/Clicking.vala:74
+#: src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
+msgstr "Langt tryk på sekundært klik"
+
+#: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "Hold den primære knap nede for sekundært klik"
 
-#: src/Views/Clicking.vala:91 src/Views/Clicking.vala:125
-msgid "seconds"
-msgstr "sekunder"
+#: src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
+msgstr "Dobbeltklik hastighed"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Hvor hurtigt to klik i træk behandles som et dobbeltklik"
 
-#: src/Views/Clicking.vala:131
+#: src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
+msgstr "Dvæle klik"
+
+#: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "Hold markøren i ro for automatisk klik"
 
-#: src/Views/Clicking.vala:143
-msgid "Double-click speed:"
-msgstr "Dobbeltklik hastighed:"
+#: src/Views/Clicking.vala:163
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
+msgstr "Mellem-klik indsæt"
 
-#: src/Views/Clicking.vala:147
-msgid "Dwell click:"
-msgstr "Dvale klik:"
-
-#: src/Views/Clicking.vala:153
-msgid "Long-press secondary click:"
-msgstr "Lang-tryk sekundært klik:"
-
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:165
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Mellem- eller trefingers klik på et input vil indsætte markeret tekst"
 
-#: src/Views/Clicking.vala:177
-msgid "Middle click paste:"
-msgstr "Mellem-klik indsæt:"
+#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#, fuzzy, c-format
+#| msgid "seconds"
+msgid "%.1f seconds"
+msgstr "sekunder"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -335,6 +347,21 @@ msgstr "Ignorer når en mus er tilsluttet"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr ""
+
+#~ msgid "Primary button:"
+#~ msgstr "Primær knap:"
+
+#~ msgid "Double-click speed:"
+#~ msgstr "Dobbeltklik hastighed:"
+
+#~ msgid "Dwell click:"
+#~ msgstr "Dvale klik:"
+
+#~ msgid "Long-press secondary click:"
+#~ msgstr "Lang-tryk sekundært klik:"
+
+#~ msgid "Middle click paste:"
+#~ msgstr "Mellem-klik indsæt:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Tryk for at klikke:"

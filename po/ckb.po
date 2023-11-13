@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 09:59-0700\n"
+"POT-Creation-Date: 2023-11-09 17:42+0000\n"
 "PO-Revision-Date: 2022-10-04 21:31+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -132,55 +132,67 @@ msgid "Behavior"
 msgstr "ڕەفتار"
 
 #: src/Views/Clicking.vala:30
-msgid "Primary button:"
-msgstr "دوگمەی سەرەکی:"
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
+msgstr "دوگمەی سەرەکی"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:33
 msgid "Left"
 msgstr "چەپ"
 
-#: src/Views/Clicking.vala:47
+#: src/Views/Clicking.vala:44
 msgid "Right"
 msgstr "ڕاست"
 
-#: src/Views/Clicking.vala:74
+#: src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
+msgstr "داگرتنی ماوە درێژی کرتەی لاوەکی"
+
+#: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "داگرتنی ماوە درێژی کرتەی سەرەکی بۆ ئەوەی کرتەی لاوەکی بکەیت"
 
-#: src/Views/Clicking.vala:91 src/Views/Clicking.vala:125
-msgid "seconds"
-msgstr "چرکە"
+#: src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
+msgstr "خێرایی دەبڵ-کرتە"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "بریتییە لە چۆنییەتی مامەڵەکردن لەگەڵ خێرایی نێوان دوو کرتە"
 
-#: src/Views/Clicking.vala:131
+#: src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
+msgstr "کرتەی خۆکار"
+
+#: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 "وەستاندنی نیشاندەری ماوس لە جێگەیەک بۆ ئەوەی دوای ماوەیەک خۆکرانە کرتە بکات"
 
-#: src/Views/Clicking.vala:143
-msgid "Double-click speed:"
-msgstr "خێرایی دەبڵ-کرتە:"
+#: src/Views/Clicking.vala:163
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
+msgstr "لکاندن بە دوگمەی ناوەڕاست"
 
-#: src/Views/Clicking.vala:147
-msgid "Dwell click:"
-msgstr "کرتەی خۆکارانە:"
-
-#: src/Views/Clicking.vala:153
-msgid "Long-press secondary click:"
-msgstr "داگرتنی ماوە درێژی کرتەی لاوەکی:"
-
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:165
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "بەکارهێنانی کرتەی ناوەڕاست یان دەست لێدان لە تەچپاد بە سێ پەنجە بۆ لکاندنی "
 "دەقێکی کۆپیکراو"
 
-#: src/Views/Clicking.vala:177
-msgid "Middle click paste:"
-msgstr "کرتەی ناوەڕاست بۆ لکاندن:"
+#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#, fuzzy, c-format
+#| msgid "seconds"
+msgid "%.1f seconds"
+msgstr "چرکە"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -329,6 +341,21 @@ msgstr "کاتێک ماوس پەیوەستە"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "تاپ-کردن:"
+
+#~ msgid "Primary button:"
+#~ msgstr "دوگمەی سەرەکی:"
+
+#~ msgid "Double-click speed:"
+#~ msgstr "خێرایی دەبڵ-کرتە:"
+
+#~ msgid "Dwell click:"
+#~ msgstr "کرتەی خۆکارانە:"
+
+#~ msgid "Long-press secondary click:"
+#~ msgstr "داگرتنی ماوە درێژی کرتەی لاوەکی:"
+
+#~ msgid "Middle click paste:"
+#~ msgstr "کرتەی ناوەڕاست بۆ لکاندن:"
 
 #, fuzzy
 #~| msgid "Multitasking View"

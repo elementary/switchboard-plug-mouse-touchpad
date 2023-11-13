@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 09:59-0700\n"
+"POT-Creation-Date: 2023-11-09 17:42+0000\n"
 "PO-Revision-Date: 2023-08-13 08:08+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -133,54 +133,66 @@ msgid "Behavior"
 msgstr "挙動"
 
 #: src/Views/Clicking.vala:30
-msgid "Primary button:"
-msgstr "主ボタン:"
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
+msgstr "主ボタン"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:33
 msgid "Left"
 msgstr "左"
 
-#: src/Views/Clicking.vala:47
+#: src/Views/Clicking.vala:44
 msgid "Right"
 msgstr "右"
 
-#: src/Views/Clicking.vala:74
+#: src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
+msgstr "長押しで副ボタンクリック"
+
+#: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "主ボタンを長押しして離すと、副ボタンをクリックしたことになります"
 
-#: src/Views/Clicking.vala:91 src/Views/Clicking.vala:125
-msgid "seconds"
-msgstr "秒"
+#: src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
+msgstr "ダブルクリックの速度"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "連続した 2 回のクリックがダブルクリックとして認識される速度のしきい値"
 
-#: src/Views/Clicking.vala:131
+#: src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
+msgstr "ホバークリック"
+
+#: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "ポインターをホバーし続けると自動的にクリックします"
 
-#: src/Views/Clicking.vala:143
-msgid "Double-click speed:"
-msgstr "ダブルクリックの速度:"
+#: src/Views/Clicking.vala:163
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
+msgstr "中クリックで貼り付け"
 
-#: src/Views/Clicking.vala:147
-msgid "Dwell click:"
-msgstr "ホバークリック:"
-
-#: src/Views/Clicking.vala:153
-msgid "Long-press secondary click:"
-msgstr "長押しで副ボタンクリック:"
-
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:165
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "入力欄の上で中クリックまたは 3 本指のタップをすると、選択されたテキストを貼り"
 "付けます"
 
-#: src/Views/Clicking.vala:177
-msgid "Middle click paste:"
-msgstr "中クリックで貼り付け:"
+#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#, fuzzy, c-format
+#| msgid "seconds"
+msgid "%.1f seconds"
+msgstr "秒"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -329,6 +341,21 @@ msgstr "マウス接続時"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "タップ:"
+
+#~ msgid "Primary button:"
+#~ msgstr "主ボタン:"
+
+#~ msgid "Double-click speed:"
+#~ msgstr "ダブルクリックの速度:"
+
+#~ msgid "Dwell click:"
+#~ msgstr "ホバークリック:"
+
+#~ msgid "Long-press secondary click:"
+#~ msgstr "長押しで副ボタンクリック:"
+
+#~ msgid "Middle click paste:"
+#~ msgstr "中クリックで貼り付け:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "タップでクリック:"

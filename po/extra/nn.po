@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-10 17:39+0000\n"
+"POT-Creation-Date: 2023-11-09 17:42+0000\n"
 "PO-Revision-Date: 2023-02-02 23:25+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -19,75 +19,68 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:5
+#: data/mouse-touchpad.appdata.xml.in:5
 msgid "Mouse &amp; Touchpad Settings"
 msgstr "Innstillingar for mus og peikeflate"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:6
+#: data/mouse-touchpad.appdata.xml.in:6
 msgid "Configure mouse and touchpad"
 msgstr "Konfigurer mus og peikeplate"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:12
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:25
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:37
+#: data/mouse-touchpad.appdata.xml.in:11 data/mouse-touchpad.appdata.xml.in:24
+#: data/mouse-touchpad.appdata.xml.in:36
 msgid "Minor updates:"
 msgstr "Mindre oppdateringar:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:14
+#: data/mouse-touchpad.appdata.xml.in:13
 msgid "Update for OS 7"
 msgstr "Oppdatert for OS 7"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:15
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:27
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:42
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:49
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:57
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:70
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:78
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:88
+#: data/mouse-touchpad.appdata.xml.in:14 data/mouse-touchpad.appdata.xml.in:26
+#: data/mouse-touchpad.appdata.xml.in:41 data/mouse-touchpad.appdata.xml.in:48
+#: data/mouse-touchpad.appdata.xml.in:56 data/mouse-touchpad.appdata.xml.in:69
+#: data/mouse-touchpad.appdata.xml.in:77 data/mouse-touchpad.appdata.xml.in:87
 msgid "Updated translations"
 msgstr "Oppdaterte over­setningar"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:21
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:33
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:63
+#: data/mouse-touchpad.appdata.xml.in:20 data/mouse-touchpad.appdata.xml.in:32
+#: data/mouse-touchpad.appdata.xml.in:62
 msgid "New features:"
 msgstr "Nye funksjonar:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:23
+#: data/mouse-touchpad.appdata.xml.in:22
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr "Nytt valg for \"Dobbelttrykk og flytt for å dra\""
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:35
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:40
+#: data/mouse-touchpad.appdata.xml.in:34 data/mouse-touchpad.appdata.xml.in:39
 msgid "Multitouch gesture options"
 msgstr "Valg for fleirpunktstrykk"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:39
+#: data/mouse-touchpad.appdata.xml.in:38
 msgid "Add more snap points to pointer speed sliders"
 msgstr "Vel fleire festepunkt i valg for hastighet på peikaren"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:41
+#: data/mouse-touchpad.appdata.xml.in:40
 msgid "Redesigned touchpad settings"
 msgstr "Nytt design på innstillingane for peikeflata"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:56
+#: data/mouse-touchpad.appdata.xml.in:55
 msgid "Fix stretched switches when using large text"
 msgstr "Fiksa feil med strokne brytarar når ein brukar stor tekst"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:65
+#: data/mouse-touchpad.appdata.xml.in:64
 msgid "Add Dwell Click and Pointer size settings"
 msgstr "Lagt til val for dveletrykk og storleik på peikaren"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:67
+#: data/mouse-touchpad.appdata.xml.in:66
 msgid "Other updates:"
 msgstr "Andre oppdateringar:"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:69
+#: data/mouse-touchpad.appdata.xml.in:68
 msgid "Also listen to secondary button clicks when selecting Primary Button"
 msgstr "Få med sekundærtrykk når du vel hovedknapp"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:77
+#: data/mouse-touchpad.appdata.xml.in:76
 msgid ""
 "Fix an issue where primary button selection doesn't apply in left-to-right "
 "languages"
@@ -95,14 +88,14 @@ msgstr ""
 "Fiksa ein feil der valg av hovedknapp ikkje vart fulgt når ein brukte språk "
 "som går frå venstre mot høgre"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:85
+#: data/mouse-touchpad.appdata.xml.in:84
 msgid "New Sidebar navigation"
 msgstr "Nytt sidefelt for navigasjon"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:86
+#: data/mouse-touchpad.appdata.xml.in:85
 msgid "Fix middle click not appearing"
 msgstr "Fiksa ein feil der midttrykk ikkje vart vist"
 
-#: data/io.elementary.switchboard.mouse-touchpad.appdata.xml.in:87
+#: data/mouse-touchpad.appdata.xml.in:86
 msgid "Add Double-Click speed"
 msgstr "Lagt til hastigheit på dobbeltrykk"

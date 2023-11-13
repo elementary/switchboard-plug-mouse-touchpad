@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 09:59-0700\n"
+"POT-Creation-Date: 2023-11-09 17:42+0000\n"
 "PO-Revision-Date: 2021-09-22 22:06+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -132,52 +132,64 @@ msgid "Behavior"
 msgstr "Behaviour"
 
 #: src/Views/Clicking.vala:30
-msgid "Primary button:"
-msgstr "Primary button:"
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
+msgstr "Primary button"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:33
 msgid "Left"
 msgstr "Left"
 
-#: src/Views/Clicking.vala:47
+#: src/Views/Clicking.vala:44
 msgid "Right"
 msgstr "Right"
 
-#: src/Views/Clicking.vala:74
+#: src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
+msgstr "Long-press secondary click"
+
+#: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "Long-press and release the primary button to secondary click"
 
-#: src/Views/Clicking.vala:91 src/Views/Clicking.vala:125
-msgid "seconds"
-msgstr "seconds"
+#: src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
+msgstr "Double-click speed"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "How quickly two clicks in a row will be treated as a double-click"
 
-#: src/Views/Clicking.vala:131
+#: src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
+msgstr "Dwell click"
+
+#: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "Hold the pointer still to automatically click"
 
-#: src/Views/Clicking.vala:143
-msgid "Double-click speed:"
-msgstr "Double-click speed:"
+#: src/Views/Clicking.vala:163
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
+msgstr "Middle click paste"
 
-#: src/Views/Clicking.vala:147
-msgid "Dwell click:"
-msgstr "Dwell click:"
-
-#: src/Views/Clicking.vala:153
-msgid "Long-press secondary click:"
-msgstr "Long-press secondary click:"
-
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:165
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Middle or three-finger click on an input to paste selected text"
 
-#: src/Views/Clicking.vala:177
-msgid "Middle click paste:"
-msgstr "Middle click paste:"
+#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#, fuzzy, c-format
+#| msgid "seconds"
+msgid "%.1f seconds"
+msgstr "seconds"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -326,6 +338,21 @@ msgstr "When mouse is connected"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "Tapping:"
+
+#~ msgid "Primary button:"
+#~ msgstr "Primary button:"
+
+#~ msgid "Double-click speed:"
+#~ msgstr "Double-click speed:"
+
+#~ msgid "Dwell click:"
+#~ msgstr "Dwell click:"
+
+#~ msgid "Long-press secondary click:"
+#~ msgstr "Long-press secondary click:"
+
+#~ msgid "Middle click paste:"
+#~ msgstr "Middle click paste:"
 
 #~ msgid "Tap to click:"
 #~ msgstr "Tap to click:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-08 09:59-0700\n"
+"POT-Creation-Date: 2023-11-09 17:42+0000\n"
 "PO-Revision-Date: 2021-09-08 09:21+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -133,52 +133,64 @@ msgid "Behavior"
 msgstr "行为"
 
 #: src/Views/Clicking.vala:30
-msgid "Primary button:"
-msgstr "主按键："
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
+msgstr "主按键"
 
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:33
 msgid "Left"
 msgstr "左声道"
 
-#: src/Views/Clicking.vala:47
+#: src/Views/Clicking.vala:44
 msgid "Right"
 msgstr "右声道"
 
-#: src/Views/Clicking.vala:74
+#: src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
+msgstr "二级点击"
+
+#: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "长按并放开主按键将激活二级点击"
 
-#: src/Views/Clicking.vala:91 src/Views/Clicking.vala:125
-msgid "seconds"
-msgstr "秒"
+#: src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
+msgstr "双击速度"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "双击判定间隔的长短"
 
-#: src/Views/Clicking.vala:131
+#: src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
+msgstr "自动点击"
+
+#: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "保持指针不动激活自动点击"
 
-#: src/Views/Clicking.vala:143
-msgid "Double-click speed:"
-msgstr "双击速度："
+#: src/Views/Clicking.vala:163
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
+msgstr "中键粘贴"
 
-#: src/Views/Clicking.vala:147
-msgid "Dwell click:"
-msgstr "自动点击："
-
-#: src/Views/Clicking.vala:153
-msgid "Long-press secondary click:"
-msgstr "二级点击："
-
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:165
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "中键或三指点击将会粘贴选中文本"
 
-#: src/Views/Clicking.vala:177
-msgid "Middle click paste:"
-msgstr "中键粘贴："
+#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#, fuzzy, c-format
+#| msgid "seconds"
+msgid "%.1f seconds"
+msgstr "秒"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -327,6 +339,21 @@ msgstr "接入鼠标时"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "轻触："
+
+#~ msgid "Primary button:"
+#~ msgstr "主按键："
+
+#~ msgid "Double-click speed:"
+#~ msgstr "双击速度："
+
+#~ msgid "Dwell click:"
+#~ msgstr "自动点击："
+
+#~ msgid "Long-press secondary click:"
+#~ msgstr "二级点击："
+
+#~ msgid "Middle click paste:"
+#~ msgstr "中键粘贴："
 
 #~ msgid "Tap to click:"
 #~ msgstr "轻触点击："
