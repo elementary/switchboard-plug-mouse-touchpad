@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-09 17:42+0000\n"
+"POT-Creation-Date: 2023-11-13 15:32+0000\n"
 "PO-Revision-Date: 2023-11-13 15:32+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -116,7 +116,7 @@ msgstr "Ignora'l quan hi hagi un ratolí connectat"
 msgid "Gestures"
 msgstr "Gestos"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:60 src/Views/Gestures.vala:68
+#: src/Plug.vala:156 src/Views/Gestures.vala:62 src/Views/Gestures.vala:70
 msgid "Multitasking View"
 msgstr "Vista de multitasca"
 
@@ -189,39 +189,45 @@ msgstr "%.1f segons"
 msgid "Swipe Horizontally"
 msgstr "Lliscament horitzontal"
 
-#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:54
-#: src/Views/Gestures.vala:74
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:76
 msgid "Three fingers:"
 msgstr "Tres dits:"
 
-#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:47
-#: src/Views/Gestures.vala:59 src/Views/Gestures.vala:67
-#: src/Views/Gestures.vala:79 src/Views/Gestures.vala:87
+#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:48
+#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:69
+#: src/Views/Gestures.vala:81 src/Views/Gestures.vala:89
 msgid "Do nothing"
 msgstr "No facis res"
 
-#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:48
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:49
 msgid "Switch to workspace"
 msgstr "Canvia d'espai de treball"
 
-#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:62
-#: src/Views/Gestures.vala:82
+#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:50
+#, fuzzy
+#| msgid "Switch to workspace"
+msgid "Move active window to workspace"
+msgstr "Canvia d'espai de treball"
+
+#: src/Views/Gestures.vala:43 src/Views/Gestures.vala:64
+#: src/Views/Gestures.vala:84
 msgid "Four fingers:"
 msgstr "Quatre dits:"
 
-#: src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:52
 msgid "Swipe Up"
 msgstr "Lliscament amunt"
 
-#: src/Views/Gestures.vala:70
+#: src/Views/Gestures.vala:72
 msgid "Pinch"
 msgstr "Pessigada"
 
-#: src/Views/Gestures.vala:80 src/Views/Gestures.vala:88
+#: src/Views/Gestures.vala:82 src/Views/Gestures.vala:90
 msgid "Zoom"
 msgstr "Ampliat"
 
-#: src/Views/Gestures.vala:118 src/Views/Gestures.vala:119
+#: src/Views/Gestures.vala:120 src/Views/Gestures.vala:121
 msgid "Toggle maximized"
 msgstr "Commuta la maximització"
 
