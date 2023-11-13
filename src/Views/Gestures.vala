@@ -38,6 +38,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         };
         three_swipe_horizontal_combo.append ("none", _("Do nothing"));
         three_swipe_horizontal_combo.append ("switch-to-workspace", _("Switch to workspace"));
+        three_swipe_horizontal_combo.append ("move-to-workspace", _("Move active window to workspace"));
 
         var four_swipe_horizontal_label = new Gtk.Label (_("Four fingers:")) {
             halign = Gtk.Align.END
@@ -46,6 +47,7 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         var four_swipe_horizontal_combo = new Gtk.ComboBoxText ();
         four_swipe_horizontal_combo.append ("none", _("Do nothing"));
         four_swipe_horizontal_combo.append ("switch-to-workspace", _("Switch to workspace"));
+        four_swipe_horizontal_combo.append ("move-to-workspace", _("Move active window to workspace"));
 
         var swipe_up_header = new Granite.HeaderLabel (_("Swipe Up")) {
             margin_top = 12
