@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 15:32+0000\n"
-"PO-Revision-Date: 2023-11-13 15:32+0000\n"
+"PO-Revision-Date: 2023-11-15 23:10+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -203,10 +203,8 @@ msgid "Switch to workspace"
 msgstr "ワークスペースを切り替え"
 
 #: src/Views/Gestures.vala:41 src/Views/Gestures.vala:50
-#, fuzzy
-#| msgid "Switch to workspace"
 msgid "Move active window to workspace"
-msgstr "ワークスペースを切り替え"
+msgstr "アクティブウィンドウをワークスペースに移動させる"
 
 #: src/Views/Gestures.vala:43 src/Views/Gestures.vala:64
 #: src/Views/Gestures.vala:84
