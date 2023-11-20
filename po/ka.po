@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 15:32+0000\n"
-"PO-Revision-Date: 2023-03-12 15:25+0000\n"
+"PO-Revision-Date: 2023-11-21 12:10+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ka/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:53
@@ -133,10 +133,8 @@ msgid "Behavior"
 msgstr "ქცევა"
 
 #: src/Views/Clicking.vala:30
-#, fuzzy
-#| msgid "Primary button:"
 msgid "Primary Button"
-msgstr "ძირითადი ღილაკი:"
+msgstr "ძირითადი ღილაკი"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -155,10 +153,8 @@ msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 
 #: src/Views/Clicking.vala:102
-#, fuzzy
-#| msgid "Double-click speed:"
 msgid "Double-click Speed"
-msgstr "ორმაგი-წკაპის სიჩქარე:"
+msgstr "ორმაგი-წკაპის სიჩქარე"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
@@ -173,8 +169,6 @@ msgid "Hold the pointer still to automatically click"
 msgstr ""
 
 #: src/Views/Clicking.vala:163
-#, fuzzy
-#| msgid "Middle click paste"
 msgid "Middle Click Paste"
 msgstr "შუა-წკაპით ჩასმა"
 
@@ -183,10 +177,9 @@ msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 
 #: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
-#, fuzzy, c-format
-#| msgid "seconds"
+#, c-format
 msgid "%.1f seconds"
-msgstr "წამი"
+msgstr "%.1f წამი"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
