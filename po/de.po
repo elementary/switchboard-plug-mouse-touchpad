@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 15:32+0000\n"
-"PO-Revision-Date: 2021-09-08 09:21+0000\n"
+"PO-Revision-Date: 2023-12-05 00:26+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:53
@@ -133,8 +133,6 @@ msgid "Behavior"
 msgstr "Verhalten"
 
 #: src/Views/Clicking.vala:30
-#, fuzzy
-#| msgid "Primary button"
 msgid "Primary Button"
 msgstr "Primärtaste"
 
@@ -147,8 +145,6 @@ msgid "Right"
 msgstr "Rechts"
 
 #: src/Views/Clicking.vala:71
-#, fuzzy
-#| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
 msgstr "Sekundärklick nach langem Drücken"
 
@@ -158,8 +154,6 @@ msgstr ""
 "Primärtaste lange drücken und dann loslassen bewirkt einen Sekundärklick"
 
 #: src/Views/Clicking.vala:102
-#, fuzzy
-#| msgid "Double-click speed"
 msgid "Double-click Speed"
 msgstr "Doppelklickgeschwindigkeit"
 
@@ -170,8 +164,6 @@ msgstr ""
 "gewertet zu werden"
 
 #: src/Views/Clicking.vala:112
-#, fuzzy
-#| msgid "Dwell click"
 msgid "Dwell Click"
 msgstr "Klick durch Verweilen"
 
@@ -180,8 +172,6 @@ msgid "Hold the pointer still to automatically click"
 msgstr "Zum automatischen Klicken Zeiger verweilen lassen"
 
 #: src/Views/Clicking.vala:163
-#, fuzzy
-#| msgid "Middle click paste"
 msgid "Middle Click Paste"
 msgstr "Einfügen bei Mittelklick"
 
@@ -192,10 +182,9 @@ msgstr ""
 "Zwischenablage ein"
 
 #: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
-#, fuzzy, c-format
-#| msgid "seconds"
+#, c-format
 msgid "%.1f seconds"
-msgstr "Sekunden"
+msgstr "%.1f Sekunden"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -217,10 +206,8 @@ msgid "Switch to workspace"
 msgstr "Wechseln zur Arbeitsfläche"
 
 #: src/Views/Gestures.vala:41 src/Views/Gestures.vala:50
-#, fuzzy
-#| msgid "Switch to workspace"
 msgid "Move active window to workspace"
-msgstr "Wechseln zur Arbeitsfläche"
+msgstr "Aktives Fenster auf Arbeitsfläche verschieben"
 
 #: src/Views/Gestures.vala:43 src/Views/Gestures.vala:64
 #: src/Views/Gestures.vala:84
