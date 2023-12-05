@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-13 15:32+0000\n"
+"POT-Creation-Date: 2023-12-05 00:26+0000\n"
 "PO-Revision-Date: 2023-02-02 23:25+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -115,7 +115,7 @@ msgstr "Ignorer når mus er kopla til"
 msgid "Gestures"
 msgstr "Bevegelsar"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:62 src/Views/Gestures.vala:70
+#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "Vis arbeidsområde"
 
@@ -197,45 +197,49 @@ msgstr "sekund"
 msgid "Swipe Horizontally"
 msgstr "Sveip horisontalt"
 
-#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:56
-#: src/Views/Gestures.vala:76
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:58
+#: src/Views/Gestures.vala:78
 msgid "Three fingers:"
 msgstr "Tre fingrar:"
 
-#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:48
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:69
-#: src/Views/Gestures.vala:81 src/Views/Gestures.vala:89
+#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:49
+#: src/Views/Gestures.vala:63 src/Views/Gestures.vala:71
+#: src/Views/Gestures.vala:83 src/Views/Gestures.vala:91
 msgid "Do nothing"
 msgstr "Ikkje gjer noko"
 
-#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:49
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:50
 msgid "Switch to workspace"
 msgstr "Bytt arbeidsområde"
 
-#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
 #, fuzzy
 #| msgid "Switch to workspace"
 msgid "Move active window to workspace"
 msgstr "Bytt arbeidsområde"
 
-#: src/Views/Gestures.vala:43 src/Views/Gestures.vala:64
-#: src/Views/Gestures.vala:84
+#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
+msgid "Cycle windows"
+msgstr ""
+
+#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
+#: src/Views/Gestures.vala:86
 msgid "Four fingers:"
 msgstr "Fire fingrar:"
 
-#: src/Views/Gestures.vala:52
+#: src/Views/Gestures.vala:54
 msgid "Swipe Up"
 msgstr "Sveip opp"
 
-#: src/Views/Gestures.vala:72
+#: src/Views/Gestures.vala:74
 msgid "Pinch"
 msgstr "Klyp"
 
-#: src/Views/Gestures.vala:82 src/Views/Gestures.vala:90
+#: src/Views/Gestures.vala:84 src/Views/Gestures.vala:92
 msgid "Zoom"
 msgstr "Forstørr"
 
-#: src/Views/Gestures.vala:120 src/Views/Gestures.vala:121
+#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
 msgid "Toggle maximized"
 msgstr "Veksla til fullt vindauge"
 

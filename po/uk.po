@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-13 15:32+0000\n"
+"POT-Creation-Date: 2023-12-05 00:26+0000\n"
 "PO-Revision-Date: 2023-11-19 21:42+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-02-20 06:00+0000\n"
 
@@ -117,7 +117,7 @@ msgstr "Вимикати, якщо під'єднано мишу"
 msgid "Gestures"
 msgstr "Жести"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:62 src/Views/Gestures.vala:70
+#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "Багатозадачний вигляд"
 
@@ -189,43 +189,49 @@ msgstr "%.1f секунд"
 msgid "Swipe Horizontally"
 msgstr "Горизонтальне проведення"
 
-#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:56
-#: src/Views/Gestures.vala:76
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:58
+#: src/Views/Gestures.vala:78
 msgid "Three fingers:"
 msgstr "Трьома пальцями:"
 
-#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:48
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:69
-#: src/Views/Gestures.vala:81 src/Views/Gestures.vala:89
+#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:49
+#: src/Views/Gestures.vala:63 src/Views/Gestures.vala:71
+#: src/Views/Gestures.vala:83 src/Views/Gestures.vala:91
 msgid "Do nothing"
 msgstr "Нічого не робити"
 
-#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:49
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:50
 msgid "Switch to workspace"
 msgstr "Перемкнутись на робочий простір"
 
-#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
 msgid "Move active window to workspace"
 msgstr "Перемістити активне вікно на робочий простір"
 
-#: src/Views/Gestures.vala:43 src/Views/Gestures.vala:64
-#: src/Views/Gestures.vala:84
+#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
+#, fuzzy
+#| msgid "Tile Window"
+msgid "Cycle windows"
+msgstr "Мозаїчні вікна"
+
+#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
+#: src/Views/Gestures.vala:86
 msgid "Four fingers:"
 msgstr "Чотирма пальцями:"
 
-#: src/Views/Gestures.vala:52
+#: src/Views/Gestures.vala:54
 msgid "Swipe Up"
 msgstr "Проведення вгору"
 
-#: src/Views/Gestures.vala:72
+#: src/Views/Gestures.vala:74
 msgid "Pinch"
 msgstr "Зведення пальців"
 
-#: src/Views/Gestures.vala:82 src/Views/Gestures.vala:90
+#: src/Views/Gestures.vala:84 src/Views/Gestures.vala:92
 msgid "Zoom"
 msgstr "Збільшити"
 
-#: src/Views/Gestures.vala:120 src/Views/Gestures.vala:121
+#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
 msgid "Toggle maximized"
 msgstr "Перемикання розгортання"
 
@@ -396,9 +402,6 @@ msgstr "Торкання:"
 
 #~ msgid "Ignore when mouse is connected:"
 #~ msgstr "Вимикати, якщо під'єднано мишу:"
-
-#~ msgid "Tile Window"
-#~ msgstr "Мозаїчні вікна"
 
 #~ msgid "Tile Window:"
 #~ msgstr "Мозаїчне вікно:"

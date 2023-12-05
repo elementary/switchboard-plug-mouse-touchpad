@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-13 15:32+0000\n"
+"POT-Creation-Date: 2023-12-05 00:26+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Tamil <https://l10n.elementary.io/projects/switchboard/"
@@ -115,7 +115,7 @@ msgstr ""
 msgid "Gestures"
 msgstr ""
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:62 src/Views/Gestures.vala:70
+#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr ""
 
@@ -184,43 +184,47 @@ msgstr ""
 msgid "Swipe Horizontally"
 msgstr ""
 
-#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:56
-#: src/Views/Gestures.vala:76
+#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:58
+#: src/Views/Gestures.vala:78
 msgid "Three fingers:"
 msgstr ""
 
-#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:48
-#: src/Views/Gestures.vala:61 src/Views/Gestures.vala:69
-#: src/Views/Gestures.vala:81 src/Views/Gestures.vala:89
+#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:49
+#: src/Views/Gestures.vala:63 src/Views/Gestures.vala:71
+#: src/Views/Gestures.vala:83 src/Views/Gestures.vala:91
 msgid "Do nothing"
 msgstr "ஒன்றும் செய்யாதே"
 
-#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:49
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:50
 msgid "Switch to workspace"
 msgstr ""
 
-#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
 msgid "Move active window to workspace"
 msgstr ""
 
-#: src/Views/Gestures.vala:43 src/Views/Gestures.vala:64
-#: src/Views/Gestures.vala:84
+#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
+msgid "Cycle windows"
+msgstr ""
+
+#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
+#: src/Views/Gestures.vala:86
 msgid "Four fingers:"
 msgstr ""
 
-#: src/Views/Gestures.vala:52
+#: src/Views/Gestures.vala:54
 msgid "Swipe Up"
 msgstr ""
 
-#: src/Views/Gestures.vala:72
+#: src/Views/Gestures.vala:74
 msgid "Pinch"
 msgstr ""
 
-#: src/Views/Gestures.vala:82 src/Views/Gestures.vala:90
+#: src/Views/Gestures.vala:84 src/Views/Gestures.vala:92
 msgid "Zoom"
 msgstr "பெரிதாக்கு"
 
-#: src/Views/Gestures.vala:120 src/Views/Gestures.vala:121
+#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
 msgid "Toggle maximized"
 msgstr ""
 
