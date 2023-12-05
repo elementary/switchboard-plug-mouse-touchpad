@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-05 00:26+0000\n"
 "PO-Revision-Date: 2023-12-08 15:02+0000\n"
-"Last-Translator: Niels Van Laerhoven <niels1995@gmail.com>\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/nl/>\n"
 "Language: nl\n"
@@ -133,8 +133,6 @@ msgid "Behavior"
 msgstr "Gedrag"
 
 #: src/Views/Clicking.vala:30
-#, fuzzy
-#| msgid "Primary button"
 msgid "Primary Button"
 msgstr "Primaire knop"
 
@@ -147,8 +145,6 @@ msgid "Right"
 msgstr "Rechts"
 
 #: src/Views/Clicking.vala:71
-#, fuzzy
-#| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
 msgstr "Lang indrukken secundaire klik"
 
@@ -158,18 +154,14 @@ msgstr ""
 "Lang indrukken en loslaten van de primaire knop voor een secundaire klik"
 
 #: src/Views/Clicking.vala:102
-#, fuzzy
-#| msgid "Double-click speed"
 msgid "Double-click Speed"
-msgstr "Dubbelklik snelheid"
+msgstr "Dubbelkliksnelheid"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Hoe snel worden twee kliks achter elkaar gezien als dubbelklikken"
 
 #: src/Views/Clicking.vala:112
-#, fuzzy
-#| msgid "Dwell click"
 msgid "Dwell Click"
 msgstr "Zwevend klikken"
 
@@ -178,20 +170,17 @@ msgid "Hold the pointer still to automatically click"
 msgstr "Houd de aanwijzer stil om automatisch te klikken"
 
 #: src/Views/Clicking.vala:163
-#, fuzzy
-#| msgid "Middle click paste"
 msgid "Middle Click Paste"
-msgstr "Plakken met midden klik"
+msgstr "Plakken met middelklik"
 
 #: src/Views/Clicking.vala:165
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Midden of drie-vinger klik op een input veld plakt geselecteerde tekst"
 
 #: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
-#, fuzzy, c-format
-#| msgid "seconds"
+#, c-format
 msgid "%.1f seconds"
-msgstr "seconden"
+msgstr "%.1f seconden"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -213,14 +202,12 @@ msgid "Switch to workspace"
 msgstr "Schakel naar werkblad"
 
 #: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
-#, fuzzy
-#| msgid "Switch to workspace"
 msgid "Move active window to workspace"
-msgstr "Schakel naar werkblad"
+msgstr "Verplaats actief venster naar werkblad"
 
 #: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
 msgid "Cycle windows"
-msgstr ""
+msgstr "Vensters schakelen"
 
 #: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
 #: src/Views/Gestures.vala:86
