@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-05 00:26+0000\n"
-"PO-Revision-Date: 2023-11-15 23:10+0000\n"
+"PO-Revision-Date: 2023-12-08 15:02+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/fr/>\n"
@@ -211,10 +211,8 @@ msgid "Move active window to workspace"
 msgstr "Déplacer la fenêtre active vers l'espace de travail"
 
 #: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
-#, fuzzy
-#| msgid "Tile Window"
 msgid "Cycle windows"
-msgstr "Tuiler la fenêtre"
+msgstr "Faire défiler les fenêtres"
 
 #: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
 #: src/Views/Gestures.vala:86
