@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-05 00:26+0000\n"
-"PO-Revision-Date: 2021-09-08 17:43+0000\n"
+"PO-Revision-Date: 2023-12-16 04:07+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:53
@@ -133,8 +133,6 @@ msgid "Behavior"
 msgstr "Viselkedés"
 
 #: src/Views/Clicking.vala:30
-#, fuzzy
-#| msgid "Primary button"
 msgid "Primary Button"
 msgstr "Elsődleges gomb"
 
@@ -147,8 +145,6 @@ msgid "Right"
 msgstr "Jobb"
 
 #: src/Views/Clicking.vala:71
-#, fuzzy
-#| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
 msgstr "Másodlagos kattintás hosszú nyomással"
 
@@ -158,8 +154,6 @@ msgstr ""
 "Az elsődleges gomb hosszan nyomása és eleresztése a másodlagos kattintáshoz"
 
 #: src/Views/Clicking.vala:102
-#, fuzzy
-#| msgid "Double-click speed"
 msgid "Double-click Speed"
 msgstr "Dupla kattintás sebessége"
 
@@ -169,8 +163,6 @@ msgstr ""
 "Mennyire gyorsan lesz egymás utáni két kattintás dupla kattintásként kezelve"
 
 #: src/Views/Clicking.vala:112
-#, fuzzy
-#| msgid "Dwell click"
 msgid "Dwell Click"
 msgstr "Várakozásos kattintás"
 
@@ -179,8 +171,6 @@ msgid "Hold the pointer still to automatically click"
 msgstr "A mutató egy helyben tartása automatikus kattintáshoz"
 
 #: src/Views/Clicking.vala:163
-#, fuzzy
-#| msgid "Middle click paste"
 msgid "Middle Click Paste"
 msgstr "Középső gombos beillesztés"
 
@@ -191,10 +181,9 @@ msgstr ""
 "kijelölt szöveget"
 
 #: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
-#, fuzzy, c-format
-#| msgid "seconds"
+#, c-format
 msgid "%.1f seconds"
-msgstr "másodperc"
+msgstr "%.1f másodperc"
 
 #: src/Views/Gestures.vala:30
 msgid "Swipe Horizontally"
@@ -216,14 +205,12 @@ msgid "Switch to workspace"
 msgstr "Munkaterület váltása"
 
 #: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
-#, fuzzy
-#| msgid "Switch to workspace"
 msgid "Move active window to workspace"
-msgstr "Munkaterület váltása"
+msgstr "Az aktív ablak áthelyezése munkaterületre"
 
 #: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
 msgid "Cycle windows"
-msgstr ""
+msgstr "Ablakok váltása"
 
 #: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
 #: src/Views/Gestures.vala:86
