@@ -68,14 +68,14 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         cursor_size_box.append (cursor_size_32);
         cursor_size_box.append (cursor_size_48);
 
-        var reveal_pointer_label = new Granite.HeaderLabel (_("Reveal Pointer")) {
-            mnemonic_widget = reveal_pointer_switch,
-            secondary_text = _("Pressing the control key will highlight the position of the pointer")
-        };
-
         var reveal_pointer_switch = new Gtk.Switch () {
             halign = END,
             valign = CENTER
+        };
+
+        var reveal_pointer_label = new Granite.HeaderLabel (_("Reveal Pointer")) {
+            mnemonic_widget = reveal_pointer_switch,
+            secondary_text = _("Pressing the control key will highlight the position of the pointer")
         };
 
         content_area.row_spacing = 6;
