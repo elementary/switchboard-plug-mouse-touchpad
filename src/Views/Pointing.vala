@@ -80,7 +80,7 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
 
         content_area.row_spacing = 6;
 
-        content_area.attach (new Granite.HeaderLabel (_("Pointer size:")), 0, 0);
+        content_area.attach (new Granite.HeaderLabel (_("Pointer Size")), 0, 0);
         content_area.attach (cursor_size_box, 0, 1);
 
         content_area.attach (reveal_pointer_label, 0, 2);
