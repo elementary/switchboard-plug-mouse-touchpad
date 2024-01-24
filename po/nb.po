@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2023-11-15 23:10+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -75,7 +75,7 @@ msgstr "Pekerhastighet:"
 msgid "Natural scrolling"
 msgstr "Naturlig rulling:"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Peking"
 
@@ -277,43 +277,51 @@ msgstr "Pekerhastighet:"
 msgid "Natural scrolling:"
 msgstr "Naturlig rulling:"
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
-msgstr "Hastighet:"
+#: src/Views/Pointing.vala:20
+#, fuzzy
+msgid "Control Pointer Using Keypad"
+msgstr "Kontroller peker ved bruk av nummertastefeltet:"
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 #, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Dette skrur av begge nivåene for taster på nummertastefeltet."
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr "Lite"
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr "Middels"
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "Stor"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
+msgstr "Avslør peker"
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Ved å trykke på Ctrl-tasten vil pekerens posisjon markeres"
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr "Avslør peker:"
-
-#: src/Views/Pointing.vala:111
-msgid "Pointer size:"
-msgstr "Pekerstørrelse"
-
-#: src/Views/Pointing.vala:118
+#: src/Views/Pointing.vala:83
 #, fuzzy
-msgid "Control pointer using keypad:"
-msgstr "Kontroller peker ved bruk av nummertastefeltet:"
+#| msgid "Pointer size"
+msgid "Pointer Size"
+msgstr "Pekerstørrelse"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -359,6 +367,19 @@ msgstr "Når mus er tilkoblet"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "Trykking:"
+
+#~ msgid "Speed:"
+#~ msgstr "Hastighet:"
+
+#~ msgid "Reveal pointer:"
+#~ msgstr "Avslør peker:"
+
+#~ msgid "Pointer size:"
+#~ msgstr "Pekerstørrelse"
+
+#, fuzzy
+#~ msgid "Control pointer using keypad:"
+#~ msgstr "Kontroller peker ved bruk av nummertastefeltet:"
 
 #~ msgid "Primary button:"
 #~ msgstr "Hovedknapp:"

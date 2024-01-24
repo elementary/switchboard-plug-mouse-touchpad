@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2020-10-01 23:14+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Southern Sami <https://l10n.elementary.io/projects/"
@@ -68,7 +68,7 @@ msgstr ""
 msgid "Natural scrolling"
 msgstr ""
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr ""
 
@@ -256,40 +256,44 @@ msgstr ""
 msgid "Natural scrolling:"
 msgstr ""
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
+#: src/Views/Pointing.vala:20
+msgid "Control Pointer Using Keypad"
 msgstr ""
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr ""
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr ""
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr ""
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "Storre"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+msgid "Reveal Pointer"
+msgstr ""
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr ""
-
-#: src/Views/Pointing.vala:111
-msgid "Pointer size:"
-msgstr ""
-
-#: src/Views/Pointing.vala:118
-msgid "Control pointer using keypad:"
+#: src/Views/Pointing.vala:83
+msgid "Pointer Size"
 msgstr ""
 
 #: src/Views/Touchpad.vala:50

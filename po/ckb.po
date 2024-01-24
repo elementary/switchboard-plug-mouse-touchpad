@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2022-10-04 21:31+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -68,7 +68,7 @@ msgstr "باشترکدنی نیشاندەری ماوس"
 msgid "Natural scrolling"
 msgstr "سکڕۆڵکردنی سروشتی"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "نیشاندەر"
 
@@ -272,41 +272,51 @@ msgstr "باشترکردنی نیشاندەر:"
 msgid "Natural scrolling:"
 msgstr "سکرۆڵکردنی سروشتی:"
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
-msgstr "خێرایی:"
+#: src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
+msgstr "کۆنتڕۆڵکردنی نیشاندەر بە بەکارهێنانی کیپاد"
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "ئەمە هەردوو ئاستی کلیلەکان لە کیپادی ژمارەیی ڕادەگرێت"
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr "بچوک"
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr "ناوەند"
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "گەورە"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
+msgstr "شوێنی نیشاندەر"
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "پەنجەنان بە کلیلی کۆنترۆڵ، شوێنی نیشاندەری ماوس دیاری دەکات"
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr "دەرخەری شوێنی نیشاندەر:"
-
-#: src/Views/Pointing.vala:111
-msgid "Pointer size:"
-msgstr "قەبارەی نیشاندەر:"
-
-#: src/Views/Pointing.vala:118
-msgid "Control pointer using keypad:"
-msgstr "کۆنتڕۆڵکردنی نیشاندەر بە بەکارهێنانی کیپاد:"
+#: src/Views/Pointing.vala:83
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
+msgstr "قەبارەی نیشاندەر"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -351,6 +361,18 @@ msgstr "کاتێک ماوس پەیوەستە"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "تاپ-کردن:"
+
+#~ msgid "Speed:"
+#~ msgstr "خێرایی:"
+
+#~ msgid "Reveal pointer:"
+#~ msgstr "دەرخەری شوێنی نیشاندەر:"
+
+#~ msgid "Pointer size:"
+#~ msgstr "قەبارەی نیشاندەر:"
+
+#~ msgid "Control pointer using keypad:"
+#~ msgstr "کۆنتڕۆڵکردنی نیشاندەر بە بەکارهێنانی کیپاد:"
 
 #~ msgid "Primary button:"
 #~ msgstr "دوگمەی سەرەکی:"

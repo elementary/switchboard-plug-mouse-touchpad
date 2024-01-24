@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2023-12-08 15:02+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
@@ -69,7 +69,7 @@ msgstr "Zeigerbeschleunigung"
 msgid "Natural scrolling"
 msgstr "Natürlicher Bildlauf"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Zeigen"
 
@@ -262,41 +262,51 @@ msgstr "Zeigerbeschleunigung:"
 msgid "Natural scrolling:"
 msgstr "Natürlicher Bildlauf:"
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
-msgstr "Geschwindigkeit:"
+#: src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
+msgstr "Zeiger mit dem Nummernblock steuern"
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Dadurch werden beide Ebenen der Tasten des Nummernblocks deaktiviert"
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr "Klein"
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr "Mittel"
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "Groß"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
+msgstr "Zeiger hervorheben"
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Drücken der Strg-Taste hebt die Position des Zeigers hervor"
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr "Zeiger hervorheben:"
-
-#: src/Views/Pointing.vala:111
-msgid "Pointer size:"
-msgstr "Zeigergröße:"
-
-#: src/Views/Pointing.vala:118
-msgid "Control pointer using keypad:"
-msgstr "Zeiger mit dem Nummernblock steuern:"
+#: src/Views/Pointing.vala:83
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
+msgstr "Zeigergröße"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -341,6 +351,18 @@ msgstr "Bei angeschlossener Maus"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "Tippen:"
+
+#~ msgid "Speed:"
+#~ msgstr "Geschwindigkeit:"
+
+#~ msgid "Reveal pointer:"
+#~ msgstr "Zeiger hervorheben:"
+
+#~ msgid "Pointer size:"
+#~ msgstr "Zeigergröße:"
+
+#~ msgid "Control pointer using keypad:"
+#~ msgstr "Zeiger mit dem Nummernblock steuern:"
 
 #~ msgid "Primary button:"
 #~ msgstr "Primärtaste:"

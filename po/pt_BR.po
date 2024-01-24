@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -69,7 +69,7 @@ msgstr "Aceleração do cursor"
 msgid "Natural scrolling"
 msgstr "Rolagem natural"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Apontando"
 
@@ -274,41 +274,51 @@ msgstr "Aceleração do cursor:"
 msgid "Natural scrolling:"
 msgstr "Rolagem natural:"
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
-msgstr "Velocidade:"
+#: src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
+msgstr "Controle do ponteiro usando o teclado"
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Isso desativa os dois níveis de teclas no teclado numérico"
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr "Pequeno"
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr "Médio"
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "Grande"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
+msgstr "Revelar o cursor"
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Quando pressionado o botão crlt, a posição do cursor será revelada"
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr "Revelar o cursor:"
-
-#: src/Views/Pointing.vala:111
-msgid "Pointer size:"
-msgstr "Tamanho do ponteiro:"
-
-#: src/Views/Pointing.vala:118
-msgid "Control pointer using keypad:"
-msgstr "Controle do ponteiro usando o teclado:"
+#: src/Views/Pointing.vala:83
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
+msgstr "Tamanho do ponteiro"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -359,6 +369,18 @@ msgstr "Ignore quando o mouse estiver conectado"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr ""
+
+#~ msgid "Speed:"
+#~ msgstr "Velocidade:"
+
+#~ msgid "Reveal pointer:"
+#~ msgstr "Revelar o cursor:"
+
+#~ msgid "Pointer size:"
+#~ msgstr "Tamanho do ponteiro:"
+
+#~ msgid "Control pointer using keypad:"
+#~ msgstr "Controle do ponteiro usando o teclado:"
 
 #~ msgid "Primary button:"
 #~ msgstr "Botão principal:"

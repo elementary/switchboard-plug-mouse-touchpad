@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2023-12-16 04:07+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
@@ -69,7 +69,7 @@ msgstr "Mutató gyorsítása"
 msgid "Natural scrolling"
 msgstr "Természetes görgetés"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Mutatás"
 
@@ -261,41 +261,51 @@ msgstr "Mutató gyorsítása:"
 msgid "Natural scrolling:"
 msgstr "Természetes görgetés:"
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
-msgstr "Sebesség:"
+#: src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
+msgstr "Mutató kezelése a billentyűzettel"
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Ez letiltja a számbillentyűzet mindkét szintjét"
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr "Kicsi"
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr "Közepes"
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "Nagy"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
+msgstr "Mutató kiemelése"
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "A Ctrl billentyű megnyomása kiemeli a mutató helyét"
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr "Mutató kiemelése:"
-
-#: src/Views/Pointing.vala:111
-msgid "Pointer size:"
-msgstr "Mutató mérete:"
-
-#: src/Views/Pointing.vala:118
-msgid "Control pointer using keypad:"
-msgstr "Mutató irányítása billentyűzettel:"
+#: src/Views/Pointing.vala:83
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
+msgstr "Mutató mérete"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -340,6 +350,18 @@ msgstr "Csatlakoztatott egér mellett"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "Érintés:"
+
+#~ msgid "Speed:"
+#~ msgstr "Sebesség:"
+
+#~ msgid "Reveal pointer:"
+#~ msgstr "Mutató kiemelése:"
+
+#~ msgid "Pointer size:"
+#~ msgstr "Mutató mérete:"
+
+#~ msgid "Control pointer using keypad:"
+#~ msgstr "Mutató irányítása billentyűzettel:"
 
 #~ msgid "Primary button:"
 #~ msgstr "Elsődleges gomb:"

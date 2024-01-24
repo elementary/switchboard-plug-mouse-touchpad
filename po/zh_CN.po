@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2021-09-08 09:21+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -69,7 +69,7 @@ msgstr "指针加速"
 msgid "Natural scrolling"
 msgstr "自然滚动"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "指针"
 
@@ -272,41 +272,51 @@ msgstr "指针加速："
 msgid "Natural scrolling:"
 msgstr "自然滚动："
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
-msgstr "速度："
+#: src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
+msgstr "数字键盘控制指针"
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "这会禁用数字键盘上所有等级的按键"
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr "较小"
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr "适中"
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "较大"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
+msgstr "显示指针"
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "按住 Ctrl 键时高亮指针所在位置"
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr "显示指针："
-
-#: src/Views/Pointing.vala:111
-msgid "Pointer size:"
-msgstr "指针尺寸："
-
-#: src/Views/Pointing.vala:118
-msgid "Control pointer using keypad:"
-msgstr "数字键盘控制指针："
+#: src/Views/Pointing.vala:83
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
+msgstr "指针大小"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -351,6 +361,18 @@ msgstr "接入鼠标时"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "轻触："
+
+#~ msgid "Speed:"
+#~ msgstr "速度："
+
+#~ msgid "Reveal pointer:"
+#~ msgstr "显示指针："
+
+#~ msgid "Pointer size:"
+#~ msgstr "指针尺寸："
+
+#~ msgid "Control pointer using keypad:"
+#~ msgstr "数字键盘控制指针："
 
 #~ msgid "Primary button:"
 #~ msgstr "主按键："

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -74,7 +74,7 @@ msgstr "指標加速度："
 msgid "Natural scrolling"
 msgstr "自然捲動："
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr ""
 
@@ -277,43 +277,48 @@ msgstr "指標加速度："
 msgid "Natural scrolling:"
 msgstr "自然捲動："
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
-msgstr "速度："
+#: src/Views/Pointing.vala:20
+msgid "Control Pointer Using Keypad"
+msgstr ""
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr ""
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr "較小"
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr ""
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "大"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+#, fuzzy
+msgid "Reveal Pointer"
+msgstr "揭示指標："
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "按下 Ctl 鍵可以突顯指標的位置"
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr "揭示指標："
-
-#: src/Views/Pointing.vala:111
+#: src/Views/Pointing.vala:83
 #, fuzzy
 #| msgid "Pointer speed:"
-msgid "Pointer size:"
+msgid "Pointer Size"
 msgstr "指標速度："
-
-#: src/Views/Pointing.vala:118
-msgid "Control pointer using keypad:"
-msgstr ""
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -361,6 +366,17 @@ msgstr ""
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr ""
+
+#~ msgid "Speed:"
+#~ msgstr "速度："
+
+#~ msgid "Reveal pointer:"
+#~ msgstr "揭示指標："
+
+#, fuzzy
+#~| msgid "Pointer speed:"
+#~ msgid "Pointer size:"
+#~ msgstr "指標速度："
 
 #~ msgid "Primary button:"
 #~ msgstr "主按鍵："

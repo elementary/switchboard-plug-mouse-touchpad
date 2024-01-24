@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2022-01-10 21:59+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
@@ -69,7 +69,7 @@ msgstr "Zrychlení ukazatele"
 msgid "Natural scrolling"
 msgstr "Přirozené posouvání"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Ukazatel"
 
@@ -273,41 +273,51 @@ msgstr "Zrychlení ukazatele:"
 msgid "Natural scrolling:"
 msgstr "Přirozené posouvání:"
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
-msgstr "Rychlost:"
+#: src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
+msgstr "Ovládání ukazatele klávesami"
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Toto nastavení deaktivuje obě úrovně kláves na numerické klávesnici"
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr "Malá"
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr "Střední"
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "Velká"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
+msgstr "Zvýraznit ukazatel"
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Stisknutí klávesy Control zvýrazní pozici ukazatele"
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr "Zvýraznit ukazatel:"
-
-#: src/Views/Pointing.vala:111
-msgid "Pointer size:"
-msgstr "Velikost ukazatele:"
-
-#: src/Views/Pointing.vala:118
-msgid "Control pointer using keypad:"
-msgstr "Ovládání ukazatele klávesami:"
+#: src/Views/Pointing.vala:83
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
+msgstr "Velikost ukazatele"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -352,6 +362,18 @@ msgstr "Při připojení myši"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr "Klepání:"
+
+#~ msgid "Speed:"
+#~ msgstr "Rychlost:"
+
+#~ msgid "Reveal pointer:"
+#~ msgstr "Zvýraznit ukazatel:"
+
+#~ msgid "Pointer size:"
+#~ msgstr "Velikost ukazatele:"
+
+#~ msgid "Control pointer using keypad:"
+#~ msgstr "Ovládání ukazatele klávesami:"
 
 #~ msgid "Primary button:"
 #~ msgstr "Levé tlačítko:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 00:26+0000\n"
+"POT-Creation-Date: 2024-01-24 16:35+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
@@ -70,7 +70,7 @@ msgstr "Rodyklės pagreitis"
 msgid "Natural scrolling"
 msgstr "Natūralus slinkimas"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:24
+#: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Nurodymas"
 
@@ -281,43 +281,51 @@ msgstr "Rodyklės pagreitis:"
 msgid "Natural scrolling:"
 msgstr "Natūralus slinkimas:"
 
-#: src/Views/Pointing.vala:36
-msgid "Speed:"
-msgstr "Greitis:"
+#: src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
+msgstr "Valdyti rodyklę, naudojant pagalbinę klaviatūrą"
 
-#: src/Views/Pointing.vala:47
+#: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Tai klaviatūros skaitmenų srityje išjungia abu klavišų lygius"
 
-#: src/Views/Pointing.vala:54
+#: src/Views/Pointing.vala:30
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Pointing.vala:32
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Pointing.vala:35
 msgid "Small"
 msgstr "Mažas"
 
-#: src/Views/Pointing.vala:65
+#: src/Views/Pointing.vala:46
 msgid "Medium"
 msgstr ""
 
-#: src/Views/Pointing.vala:76
+#: src/Views/Pointing.vala:57
 msgid "Large"
 msgstr "Didelis"
 
-#: src/Views/Pointing.vala:91
+#: src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
+msgstr "Parodyti rodyklę"
+
+#: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Valdymo (Ctrl) klavišo paspaudimas paryškins rodyklės vietą"
 
-#: src/Views/Pointing.vala:99
-msgid "Reveal pointer:"
-msgstr "Parodyti rodyklę:"
-
-#: src/Views/Pointing.vala:111
+#: src/Views/Pointing.vala:83
 #, fuzzy
 #| msgid "Pointer speed:"
-msgid "Pointer size:"
+msgid "Pointer Size"
 msgstr "Rodyklės greitis:"
-
-#: src/Views/Pointing.vala:118
-msgid "Control pointer using keypad:"
-msgstr "Valdyti rodyklę, naudojant pagalbinę klaviatūrą:"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
@@ -368,6 +376,20 @@ msgstr "Nepaisyti, kai yra prijungta pelė"
 #: src/Views/Touchpad.vala:164
 msgid "Tapping:"
 msgstr ""
+
+#~ msgid "Speed:"
+#~ msgstr "Greitis:"
+
+#~ msgid "Reveal pointer:"
+#~ msgstr "Parodyti rodyklę:"
+
+#, fuzzy
+#~| msgid "Pointer speed:"
+#~ msgid "Pointer size:"
+#~ msgstr "Rodyklės greitis:"
+
+#~ msgid "Control pointer using keypad:"
+#~ msgstr "Valdyti rodyklę, naudojant pagalbinę klaviatūrą:"
 
 #~ msgid "Primary button:"
 #~ msgstr "Pirminis mygtukas:"
