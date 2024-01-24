@@ -79,9 +79,7 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         tap_box.append (tap_to_click_check);
         tap_box.append (tap_and_drag_check);
 
-        var scroll_method_label = new Granite.HeaderLabel (_("Scroll Method")) {
-            margin_top = 12
-        };
+        var scroll_method_label = new Granite.HeaderLabel (_("Scroll Method"));
 
         var two_finger_scroll_radio = new Gtk.CheckButton ();
         two_finger_scroll_radio.add_css_class ("image-button");
@@ -144,15 +142,16 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         var content_box = new Gtk.Box (VERTICAL, 6);
         content_box.append (pointer_speed_header);
         content_box.append (pointer_speed_scale);
-        content_box.append (click_method_label);
-        content_box.append (click_method_box);
+        content_box.append (disable_label);
+        content_box.append (disable_box);
         content_box.append (new Granite.HeaderLabel (_("Tapping")));
         content_box.append (tap_box);
+        content_box.append (click_method_label);
+        content_box.append (click_method_box);
         content_box.append (scroll_method_label);
         content_box.append (scroll_method_box);
         content_box.append (natural_scrolling_box);
-        content_box.append (disable_label);
-        content_box.append (disable_box);
+
 
         content_area.attach (content_box, 0, 0);
 
