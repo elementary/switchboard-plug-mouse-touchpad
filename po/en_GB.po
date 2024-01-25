@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-24 16:35+0000\n"
-"PO-Revision-Date: 2023-12-08 15:02+0000\n"
+"PO-Revision-Date: 2024-01-25 21:26+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/en_GB/>\n"
@@ -257,10 +257,8 @@ msgid "Natural scrolling:"
 msgstr "Natural scrolling:"
 
 #: src/Views/Pointing.vala:20
-#, fuzzy
-#| msgid "Control pointer using keypad"
 msgid "Control Pointer Using Keypad"
-msgstr "Control pointer using keypad"
+msgstr "Control Pointer Using Keypad"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -268,11 +266,11 @@ msgstr "This disables both levels of keys on the numeric keypad"
 
 #: src/Views/Pointing.vala:30
 msgid "Slower"
-msgstr ""
+msgstr "Slower"
 
 #: src/Views/Pointing.vala:32
 msgid "Faster"
-msgstr ""
+msgstr "Faster"
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -287,20 +285,16 @@ msgid "Large"
 msgstr "Large"
 
 #: src/Views/Pointing.vala:76
-#, fuzzy
-#| msgid "Reveal pointer"
 msgid "Reveal Pointer"
-msgstr "Reveal pointer"
+msgstr "Reveal Pointer"
 
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Pressing the control key will highlight the position of the pointer"
 
 #: src/Views/Pointing.vala:83
-#, fuzzy
-#| msgid "Pointer size"
 msgid "Pointer Size"
-msgstr "Pointer size"
+msgstr "Pointer Size"
 
 #: src/Views/Touchpad.vala:50
 msgid "Multitouch"
