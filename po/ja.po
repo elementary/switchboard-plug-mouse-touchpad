@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-24 16:35+0000\n"
-"PO-Revision-Date: 2023-12-08 15:02+0000\n"
+"PO-Revision-Date: 2024-01-26 12:58+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -260,8 +260,6 @@ msgid "Natural scrolling:"
 msgstr "ナチュラルスクロール:"
 
 #: src/Views/Pointing.vala:20
-#, fuzzy
-#| msgid "Control pointer using keypad"
 msgid "Control Pointer Using Keypad"
 msgstr "キーパッドを使用してポインターを制御"
 
@@ -271,11 +269,11 @@ msgstr "これはテンキーパッドのキーを無効にします (NumLock �
 
 #: src/Views/Pointing.vala:30
 msgid "Slower"
-msgstr ""
+msgstr "遅い"
 
 #: src/Views/Pointing.vala:32
 msgid "Faster"
-msgstr ""
+msgstr "速い"
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -290,8 +288,6 @@ msgid "Large"
 msgstr "大"
 
 #: src/Views/Pointing.vala:76
-#, fuzzy
-#| msgid "Reveal pointer"
 msgid "Reveal Pointer"
 msgstr "ポインターをハイライト"
 
@@ -300,8 +296,6 @@ msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Ctrl キーを押すと、ポインターの位置がハイライトされます"
 
 #: src/Views/Pointing.vala:83
-#, fuzzy
-#| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "ポインターのサイズ"
 
