@@ -16,8 +16,7 @@ public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
         var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0, 0);
 
         var pointer_speed_scale = new Gtk.Scale (HORIZONTAL, pointer_speed_adjustment) {
-            hexpand = true,
-            width_request = 160
+            hexpand = true
         };
         pointer_speed_scale.add_mark (-1, BOTTOM, _("Slower"));
         pointer_speed_scale.add_mark (0, BOTTOM, null);
