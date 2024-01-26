@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-24 16:35+0000\n"
-"PO-Revision-Date: 2023-12-16 04:07+0000\n"
+"PO-Revision-Date: 2024-01-25 21:26+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/hu/>\n"
@@ -262,8 +262,6 @@ msgid "Natural scrolling:"
 msgstr "Természetes görgetés:"
 
 #: src/Views/Pointing.vala:20
-#, fuzzy
-#| msgid "Control pointer using keypad"
 msgid "Control Pointer Using Keypad"
 msgstr "Mutató kezelése a billentyűzettel"
 
@@ -273,11 +271,11 @@ msgstr "Ez letiltja a számbillentyűzet mindkét szintjét"
 
 #: src/Views/Pointing.vala:30
 msgid "Slower"
-msgstr ""
+msgstr "Lassabb"
 
 #: src/Views/Pointing.vala:32
 msgid "Faster"
-msgstr ""
+msgstr "Gyorsabb"
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -292,8 +290,6 @@ msgid "Large"
 msgstr "Nagy"
 
 #: src/Views/Pointing.vala:76
-#, fuzzy
-#| msgid "Reveal pointer"
 msgid "Reveal Pointer"
 msgstr "Mutató kiemelése"
 
@@ -302,8 +298,6 @@ msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "A Ctrl billentyű megnyomása kiemeli a mutató helyét"
 
 #: src/Views/Pointing.vala:83
-#, fuzzy
-#| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "Mutató mérete"
 
