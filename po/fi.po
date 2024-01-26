@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 16:35+0000\n"
+"POT-Creation-Date: 2024-01-26 12:58+0000\n"
 "PO-Revision-Date: 2023-11-13 15:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -87,11 +87,11 @@ msgstr "Hallitse osoitinta numeronäppäimistöllä"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:29
+#: src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "Kosketuslevy"
 
-#: src/Plug.vala:147 src/Views/Touchpad.vala:87
+#: src/Plug.vala:147 src/Views/Touchpad.vala:70
 msgid "Tap to click"
 msgstr "Napsautus napauttamalla"
 
@@ -255,7 +255,7 @@ msgstr "Ei mitään"
 msgid "Adaptive"
 msgstr "Sopeutuva"
 
-#: src/Views/Mouse.vala:55 src/Views/Touchpad.vala:160
+#: src/Views/Mouse.vala:55
 msgid "Pointer speed:"
 msgstr "Osoittimen nopeus:"
 
@@ -263,7 +263,7 @@ msgstr "Osoittimen nopeus:"
 msgid "Pointer acceleration:"
 msgstr "Osoittimen kiihtyvyys:"
 
-#: src/Views/Mouse.vala:61 src/Views/Touchpad.vala:138
+#: src/Views/Mouse.vala:61
 msgid "Natural scrolling:"
 msgstr "Luonnollinen vieritys:"
 
@@ -277,11 +277,11 @@ msgstr "Hallitse osoitinta numeronäppäimistöllä"
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Tämä kytkee pois päältä numeronäppäimistön molempien tasojen näppäimet"
 
-#: src/Views/Pointing.vala:30
+#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
 msgid "Slower"
 msgstr ""
 
-#: src/Views/Pointing.vala:32
+#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
 msgid "Faster"
 msgstr ""
 
@@ -313,48 +313,72 @@ msgstr "Ctrl-näppäimen painaminen korostaa hiiren osoittimen"
 msgid "Pointer Size"
 msgstr "Osoittimen koko"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "Osoittimen nopeus"
+
+#: src/Views/Touchpad.vala:38
 msgid "Multitouch"
 msgstr "Monikosketus"
 
-#: src/Views/Touchpad.vala:66
+#: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "Alueet"
 
-#: src/Views/Touchpad.vala:76
-msgid "Physical secondary clicking:"
+#: src/Views/Touchpad.vala:64
+#, fuzzy
+#| msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
 msgstr "Fyysinen toissijainen napsautus:"
 
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:74
 msgid "Double-tap and move to drag"
 msgstr "Kaksoisnapauta ja siirrä raahataksesi"
 
-#: src/Views/Touchpad.vala:99
-msgid "Scroll method:"
+#: src/Views/Touchpad.vala:82
+#, fuzzy
+#| msgid "Scroll method:"
+msgid "Scroll Method"
 msgstr "Vieritystapa:"
 
-#: src/Views/Touchpad.vala:107
+#: src/Views/Touchpad.vala:87
 msgid "Two-finger"
 msgstr "Kaksi sormea"
 
-#: src/Views/Touchpad.vala:122
+#: src/Views/Touchpad.vala:102
 msgid "Edge"
 msgstr "Reuna"
 
-#: src/Views/Touchpad.vala:146
-msgid "Ignore:"
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "Luonnollinen vieritys"
+
+#: src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
+
+#: src/Views/Touchpad.vala:133
+#, fuzzy
+#| msgid "Ignore:"
+msgid "Ignore"
 msgstr "Älä huomioi:"
 
-#: src/Views/Touchpad.vala:151
+#: src/Views/Touchpad.vala:135
 msgid "While typing"
 msgstr "Kirjoittaessa"
 
-#: src/Views/Touchpad.vala:152
+#: src/Views/Touchpad.vala:136
 msgid "When mouse is connected"
 msgstr "Kun hiiri on yhdistetty"
 
-#: src/Views/Touchpad.vala:164
-msgid "Tapping:"
+#: src/Views/Touchpad.vala:147
+#, fuzzy
+#| msgid "Tapping:"
+msgid "Tapping"
 msgstr "Napauttaminen:"
 
 #~ msgid "Speed:"

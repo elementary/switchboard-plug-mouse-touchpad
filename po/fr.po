@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 16:35+0000\n"
+"POT-Creation-Date: 2024-01-26 12:58+0000\n"
 "PO-Revision-Date: 2023-12-08 15:02+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -87,11 +87,11 @@ msgstr "Contrôler le pointeur en utilisant le pavé numérique"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:29
+#: src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "Pavé tactile"
 
-#: src/Plug.vala:147 src/Views/Touchpad.vala:87
+#: src/Plug.vala:147 src/Views/Touchpad.vala:70
 msgid "Tap to click"
 msgstr "Taper pour cliquer"
 
@@ -251,7 +251,7 @@ msgstr "Aucun"
 msgid "Adaptive"
 msgstr "Adaptative"
 
-#: src/Views/Mouse.vala:55 src/Views/Touchpad.vala:160
+#: src/Views/Mouse.vala:55
 msgid "Pointer speed:"
 msgstr "Vitesse du pointeur :"
 
@@ -259,7 +259,7 @@ msgstr "Vitesse du pointeur :"
 msgid "Pointer acceleration:"
 msgstr "Accélération du pointeur :"
 
-#: src/Views/Mouse.vala:61 src/Views/Touchpad.vala:138
+#: src/Views/Mouse.vala:61
 msgid "Natural scrolling:"
 msgstr "Défilement naturel :"
 
@@ -273,11 +273,11 @@ msgstr "Contrôler le pointeur en utilisant le pavé numérique"
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Ceci désactive les deux niveaux de touches du pavé numérique"
 
-#: src/Views/Pointing.vala:30
+#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
 msgid "Slower"
 msgstr ""
 
-#: src/Views/Pointing.vala:32
+#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
 msgid "Faster"
 msgstr ""
 
@@ -310,48 +310,72 @@ msgstr ""
 msgid "Pointer Size"
 msgstr "Taille du pointeur"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "Vitesse du pointeur"
+
+#: src/Views/Touchpad.vala:38
 msgid "Multitouch"
 msgstr "Multi-touch"
 
-#: src/Views/Touchpad.vala:66
+#: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "Zones"
 
-#: src/Views/Touchpad.vala:76
-msgid "Physical secondary clicking:"
+#: src/Views/Touchpad.vala:64
+#, fuzzy
+#| msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
 msgstr "Clic physique secondaire :"
 
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:74
 msgid "Double-tap and move to drag"
 msgstr "Taper deux fois sur une fenêtre pour la déplacer manuellement"
 
-#: src/Views/Touchpad.vala:99
-msgid "Scroll method:"
+#: src/Views/Touchpad.vala:82
+#, fuzzy
+#| msgid "Scroll method:"
+msgid "Scroll Method"
 msgstr "Méthode de défilement :"
 
-#: src/Views/Touchpad.vala:107
+#: src/Views/Touchpad.vala:87
 msgid "Two-finger"
 msgstr "À deux doigts"
 
-#: src/Views/Touchpad.vala:122
+#: src/Views/Touchpad.vala:102
 msgid "Edge"
 msgstr "Bord"
 
-#: src/Views/Touchpad.vala:146
-msgid "Ignore:"
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "Défilement naturel"
+
+#: src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
+
+#: src/Views/Touchpad.vala:133
+#, fuzzy
+#| msgid "Ignore:"
+msgid "Ignore"
 msgstr "Ignorer :"
 
-#: src/Views/Touchpad.vala:151
+#: src/Views/Touchpad.vala:135
 msgid "While typing"
 msgstr "Lors de la frappe"
 
-#: src/Views/Touchpad.vala:152
+#: src/Views/Touchpad.vala:136
 msgid "When mouse is connected"
 msgstr "Lorsqu'une souris est connectée"
 
-#: src/Views/Touchpad.vala:164
-msgid "Tapping:"
+#: src/Views/Touchpad.vala:147
+#, fuzzy
+#| msgid "Tapping:"
+msgid "Tapping"
 msgstr "Taper :"
 
 #~ msgid "Speed:"

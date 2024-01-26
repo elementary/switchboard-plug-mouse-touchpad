@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 16:35+0000\n"
+"POT-Creation-Date: 2024-01-26 12:58+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Greek <https://l10n.elementary.io/projects/switchboard/"
@@ -94,11 +94,11 @@ msgstr "Έλεγχος δείκτη χρησιμοποιώντας το πληκ
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:29
+#: src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "Touchpad"
 
-#: src/Plug.vala:147 src/Views/Touchpad.vala:87
+#: src/Plug.vala:147 src/Views/Touchpad.vala:70
 #, fuzzy
 msgid "Tap to click"
 msgstr "Άγγιγμα για κλικ:"
@@ -259,7 +259,7 @@ msgstr "Καμία"
 msgid "Adaptive"
 msgstr ""
 
-#: src/Views/Mouse.vala:55 src/Views/Touchpad.vala:160
+#: src/Views/Mouse.vala:55
 msgid "Pointer speed:"
 msgstr "Ταχύτητα δείκτη:"
 
@@ -268,7 +268,7 @@ msgstr "Ταχύτητα δείκτη:"
 msgid "Pointer acceleration:"
 msgstr "Ταχύτητα δείκτη:"
 
-#: src/Views/Mouse.vala:61 src/Views/Touchpad.vala:138
+#: src/Views/Mouse.vala:61
 msgid "Natural scrolling:"
 msgstr "Φυσική κύλιση:"
 
@@ -282,11 +282,11 @@ msgstr "Έλεγχος δείκτη χρησιμοποιώντας το πληκ
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr ""
 
-#: src/Views/Pointing.vala:30
+#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
 msgid "Slower"
 msgstr ""
 
-#: src/Views/Pointing.vala:32
+#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
 msgid "Faster"
 msgstr ""
 
@@ -317,54 +317,68 @@ msgstr "Το πάτημα του πλήκτρου control θα εμφανίσε�
 msgid "Pointer Size"
 msgstr "Ταχύτητα δείκτη:"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+msgid "Pointer Speed"
+msgstr "Ταχύτητα δείκτη:"
+
+#: src/Views/Touchpad.vala:38
 msgid "Multitouch"
 msgstr "Multitouch"
 
-#: src/Views/Touchpad.vala:66
+#: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr ""
 
-#: src/Views/Touchpad.vala:76
+#: src/Views/Touchpad.vala:64
 #, fuzzy
 #| msgid "Physical clicking:"
-msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
 msgstr "Φυσικό χτύπημα:"
 
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:74
 msgid "Double-tap and move to drag"
 msgstr ""
 
-#: src/Views/Touchpad.vala:99
-msgid "Scroll method:"
+#: src/Views/Touchpad.vala:82
+msgid "Scroll Method"
 msgstr ""
 
-#: src/Views/Touchpad.vala:107
+#: src/Views/Touchpad.vala:87
 msgid "Two-finger"
 msgstr "Με δύο δάκτυλα"
 
-#: src/Views/Touchpad.vala:122
+#: src/Views/Touchpad.vala:102
 msgid "Edge"
 msgstr "Στην άκρη"
 
-#: src/Views/Touchpad.vala:146
-msgid "Ignore:"
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+msgid "Natural Scrolling"
+msgstr "Φυσική κύλιση:"
+
+#: src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
 msgstr ""
 
-#: src/Views/Touchpad.vala:151
+#: src/Views/Touchpad.vala:133
+msgid "Ignore"
+msgstr ""
+
+#: src/Views/Touchpad.vala:135
 #, fuzzy
 #| msgid "Ignore while typing"
 msgid "While typing"
 msgstr "Αγνόηση κατά την πληκτρολόγηση"
 
-#: src/Views/Touchpad.vala:152
+#: src/Views/Touchpad.vala:136
 #, fuzzy
 #| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
 msgstr "Αγνόηση όταν το ποντίκι είναι συνδεδεμένο"
 
-#: src/Views/Touchpad.vala:164
-msgid "Tapping:"
+#: src/Views/Touchpad.vala:147
+msgid "Tapping"
 msgstr ""
 
 #~ msgid "Speed:"

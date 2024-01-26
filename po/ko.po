@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 16:35+0000\n"
+"POT-Creation-Date: 2024-01-26 12:58+0000\n"
 "PO-Revision-Date: 2022-08-06 20:16+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -87,11 +87,11 @@ msgstr "키패드로 포인터 조종하기"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:29
+#: src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "터치패드"
 
-#: src/Plug.vala:147 src/Views/Touchpad.vala:87
+#: src/Plug.vala:147 src/Views/Touchpad.vala:70
 msgid "Tap to click"
 msgstr "탭 해서 클릭"
 
@@ -258,7 +258,7 @@ msgstr "안 함"
 msgid "Adaptive"
 msgstr "감응식"
 
-#: src/Views/Mouse.vala:55 src/Views/Touchpad.vala:160
+#: src/Views/Mouse.vala:55
 msgid "Pointer speed:"
 msgstr "포인터 속도:"
 
@@ -266,7 +266,7 @@ msgstr "포인터 속도:"
 msgid "Pointer acceleration:"
 msgstr "포인터 가속:"
 
-#: src/Views/Mouse.vala:61 src/Views/Touchpad.vala:138
+#: src/Views/Mouse.vala:61
 msgid "Natural scrolling:"
 msgstr "자연스러운 스크롤:"
 
@@ -280,11 +280,11 @@ msgstr "키패드로 포인터 조종하기"
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "숫자 키패드에 있는 두 레벨의 키를 모두 비활성화합니다"
 
-#: src/Views/Pointing.vala:30
+#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
 msgid "Slower"
 msgstr ""
 
-#: src/Views/Pointing.vala:32
+#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
 msgid "Faster"
 msgstr ""
 
@@ -316,48 +316,72 @@ msgstr "ctrl 키를 누르면 포인터 위치를 표시합니다"
 msgid "Pointer Size"
 msgstr "포인터 크기"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "포인터 속도"
+
+#: src/Views/Touchpad.vala:38
 msgid "Multitouch"
 msgstr "멀티터치"
 
-#: src/Views/Touchpad.vala:66
+#: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "영역"
 
-#: src/Views/Touchpad.vala:76
-msgid "Physical secondary clicking:"
+#: src/Views/Touchpad.vala:64
+#, fuzzy
+#| msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
 msgstr "물리적 2차 클릭:"
 
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:74
 msgid "Double-tap and move to drag"
 msgstr "두 번 탭하고 드래그하여 이동"
 
-#: src/Views/Touchpad.vala:99
-msgid "Scroll method:"
+#: src/Views/Touchpad.vala:82
+#, fuzzy
+#| msgid "Scroll method:"
+msgid "Scroll Method"
 msgstr "스크롤 방식:"
 
-#: src/Views/Touchpad.vala:107
+#: src/Views/Touchpad.vala:87
 msgid "Two-finger"
 msgstr "두 손가락"
 
-#: src/Views/Touchpad.vala:122
+#: src/Views/Touchpad.vala:102
 msgid "Edge"
 msgstr "모서리"
 
-#: src/Views/Touchpad.vala:146
-msgid "Ignore:"
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "자연스러운 스크롤"
+
+#: src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
+
+#: src/Views/Touchpad.vala:133
+#, fuzzy
+#| msgid "Ignore:"
+msgid "Ignore"
 msgstr "그냥 넘기기:"
 
-#: src/Views/Touchpad.vala:151
+#: src/Views/Touchpad.vala:135
 msgid "While typing"
 msgstr "타이핑하는 동안"
 
-#: src/Views/Touchpad.vala:152
+#: src/Views/Touchpad.vala:136
 msgid "When mouse is connected"
 msgstr "마우스가 연결되면"
 
-#: src/Views/Touchpad.vala:164
-msgid "Tapping:"
+#: src/Views/Touchpad.vala:147
+#, fuzzy
+#| msgid "Tapping:"
+msgid "Tapping"
 msgstr "탭:"
 
 #~ msgid "Speed:"

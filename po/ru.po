@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 16:35+0000\n"
+"POT-Creation-Date: 2024-01-26 12:58+0000\n"
 "PO-Revision-Date: 2024-01-25 21:26+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
@@ -88,11 +88,11 @@ msgstr "Управление указателем с помощью клавиа
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:29
+#: src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "Сенсорная панель"
 
-#: src/Plug.vala:147 src/Views/Touchpad.vala:87
+#: src/Plug.vala:147 src/Views/Touchpad.vala:70
 msgid "Tap to click"
 msgstr "Коснуться для нажатия"
 
@@ -248,7 +248,7 @@ msgstr "Отсутствует"
 msgid "Adaptive"
 msgstr "Адаптивное"
 
-#: src/Views/Mouse.vala:55 src/Views/Touchpad.vala:160
+#: src/Views/Mouse.vala:55
 msgid "Pointer speed:"
 msgstr "Скорость указателя:"
 
@@ -256,7 +256,7 @@ msgstr "Скорость указателя:"
 msgid "Pointer acceleration:"
 msgstr "Ускорение указателя:"
 
-#: src/Views/Mouse.vala:61 src/Views/Touchpad.vala:138
+#: src/Views/Mouse.vala:61
 msgid "Natural scrolling:"
 msgstr "Естественная прокрутка:"
 
@@ -268,11 +268,11 @@ msgstr "Управление указателем с помощью клавиа
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Это отключает оба уровня клавиш на цифровой клавиатуре"
 
-#: src/Views/Pointing.vala:30
+#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
 msgid "Slower"
 msgstr "Медленнее"
 
-#: src/Views/Pointing.vala:32
+#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
 msgid "Faster"
 msgstr "Быстрее"
 
@@ -300,48 +300,72 @@ msgstr "Нажатие клавиши Ctrl выделит позицию кур�
 msgid "Pointer Size"
 msgstr "Размер курсора"
 
-#: src/Views/Touchpad.vala:50
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "Скорость указателя"
+
+#: src/Views/Touchpad.vala:38
 msgid "Multitouch"
 msgstr "Мультитач"
 
-#: src/Views/Touchpad.vala:66
+#: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "Области"
 
-#: src/Views/Touchpad.vala:76
-msgid "Physical secondary clicking:"
+#: src/Views/Touchpad.vala:64
+#, fuzzy
+#| msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
 msgstr "Физическое вторичное нажатие:"
 
-#: src/Views/Touchpad.vala:91
+#: src/Views/Touchpad.vala:74
 msgid "Double-tap and move to drag"
 msgstr "Перемещение при двойном касании"
 
-#: src/Views/Touchpad.vala:99
-msgid "Scroll method:"
+#: src/Views/Touchpad.vala:82
+#, fuzzy
+#| msgid "Scroll method:"
+msgid "Scroll Method"
 msgstr "Способ прокрутки:"
 
-#: src/Views/Touchpad.vala:107
+#: src/Views/Touchpad.vala:87
 msgid "Two-finger"
 msgstr "Двумя пальцами"
 
-#: src/Views/Touchpad.vala:122
+#: src/Views/Touchpad.vala:102
 msgid "Edge"
 msgstr "По краю"
 
-#: src/Views/Touchpad.vala:146
-msgid "Ignore:"
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "Естественная прокрутка"
+
+#: src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
+
+#: src/Views/Touchpad.vala:133
+#, fuzzy
+#| msgid "Ignore:"
+msgid "Ignore"
 msgstr "Игнорировать:"
 
-#: src/Views/Touchpad.vala:151
+#: src/Views/Touchpad.vala:135
 msgid "While typing"
 msgstr "Во время ввода текста"
 
-#: src/Views/Touchpad.vala:152
+#: src/Views/Touchpad.vala:136
 msgid "When mouse is connected"
 msgstr "При подключении мыши"
 
-#: src/Views/Touchpad.vala:164
-msgid "Tapping:"
+#: src/Views/Touchpad.vala:147
+#, fuzzy
+#| msgid "Tapping:"
+msgid "Tapping"
 msgstr "Касание:"
 
 #~ msgid "Speed:"
