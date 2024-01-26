@@ -3,7 +3,7 @@
  * SPDX-FileCopyrightText: 2011-2024 elementary, Inc. (https://elementary.io)
  */
 
-public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
+public class MouseTouchpad.TouchpadView : Switchboard.SettingsPage {
     private GLib.Settings glib_settings;
     private Gtk.CheckButton areas_click_method_radio;
     private Gtk.CheckButton multitouch_click_method_radio;
@@ -152,8 +152,7 @@ public class MouseTouchpad.TouchpadView : Granite.SimpleSettingsPage {
         content_box.append (scroll_method_box);
         content_box.append (natural_scrolling_box);
 
-
-        content_area.attach (content_box, 0, 0);
+        child = content_box;
 
         glib_settings = new GLib.Settings ("org.gnome.desktop.peripherals.touchpad");
         glib_settings.bind (

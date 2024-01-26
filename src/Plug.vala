@@ -78,7 +78,7 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             stack.add_named (mouse_view, "mouse");
             stack.add_named (touchpad_view, "touchpad");
 
-            var switcher = new Granite.SettingsSidebar (stack);
+            var switcher = new Switchboard.SettingsSidebar (stack);
 
             hpaned = new Gtk.Paned (Gtk.Orientation.HORIZONTAL) {
                 start_child = switcher,

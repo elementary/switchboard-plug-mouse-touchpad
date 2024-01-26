@@ -17,7 +17,7 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
+public class MouseTouchpad.MouseView : Switchboard.SettingsPage {
     public MouseView () {
         Object (
             header: _("Devices"),
@@ -52,6 +52,10 @@ public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
             halign = Gtk.Align.START
         };
 
+        var content_area = new Gtk.Grid () {
+            column_spacing = 6,
+            row_spacing = 12
+        };
         content_area.attach (new Gtk.Label (_("Pointer speed:")) { halign = Gtk.Align.END }, 0, 0);
         content_area.attach (pointer_speed_scale, 1, 0);
         content_area.attach (new Gtk.Label (_("Pointer acceleration:")) { halign = Gtk.Align.END }, 0, 1);
@@ -60,6 +64,8 @@ public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
         content_area.attach (accel_profile_adaptive, 1, 3);
         content_area.attach (new Gtk.Label (_("Natural scrolling:")) { halign = Gtk.Align.END }, 0, 4);
         content_area.attach (natural_scrolling_switch, 1, 4);
+
+        child = content_area;
 
         var settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
         settings.bind ("natural-scroll", natural_scrolling_switch, "active", GLib.SettingsBindFlags.DEFAULT);
