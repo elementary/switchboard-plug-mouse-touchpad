@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-27 12:38+0000\n"
-"PO-Revision-Date: 2024-01-27 12:38+0000\n"
+"PO-Revision-Date: 2024-01-27 17:09+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -270,8 +270,6 @@ msgid "Scrolling moves the content, not the view"
 msgstr "スクロールすると、ビューではなくコンテンツが移動します"
 
 #: src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
 msgstr "ポインターの加速"
 
