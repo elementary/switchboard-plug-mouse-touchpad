@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2021-09-08 09:21+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -53,7 +53,7 @@ msgid "Middle click paste"
 msgstr "中键粘贴"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "鼠标"
 
@@ -244,33 +244,53 @@ msgstr "缩放"
 msgid "Toggle maximized"
 msgstr "切换窗口最大化"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "设备"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "指针速度"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "硬件默认"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "无"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "自适应的"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "指针速度："
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "自然滚动"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "指针加速："
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "自然滚动："
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "指针加速"
 
 #: src/Views/Pointing.vala:20
 #, fuzzy
@@ -281,14 +301,6 @@ msgstr "数字键盘控制指针"
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "这会禁用数字键盘上所有等级的按键"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr ""
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -317,12 +329,6 @@ msgstr "按住 Ctrl 键时高亮指针所在位置"
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "指针大小"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "指针速度"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -356,16 +362,6 @@ msgstr "双指滚动"
 msgid "Edge"
 msgstr "边缘滚动"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "自然滚动"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 #, fuzzy
 #| msgid "Ignore:"
@@ -385,6 +381,15 @@ msgstr "接入鼠标时"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "轻触："
+
+#~ msgid "Pointer speed:"
+#~ msgstr "指针速度："
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "指针加速："
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "自然滚动："
 
 #~ msgid "Speed:"
 #~ msgstr "速度："

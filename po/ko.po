@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2022-08-06 20:16+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -53,7 +53,7 @@ msgid "Middle click paste"
 msgstr "가운데 클릭 붙여 넣기"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "마우스"
 
@@ -242,33 +242,53 @@ msgstr "확대"
 msgid "Toggle maximized"
 msgstr "창 최대화 토글"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "장치"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "포인터 속도"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "하드웨어 기본값"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "안 함"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "감응식"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "포인터 속도:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "자연스러운 스크롤"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "포인터 가속:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "자연스러운 스크롤:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "포인터 가속"
 
 #: src/Views/Pointing.vala:20
 #, fuzzy
@@ -279,14 +299,6 @@ msgstr "키패드로 포인터 조종하기"
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "숫자 키패드에 있는 두 레벨의 키를 모두 비활성화합니다"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr ""
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -315,12 +327,6 @@ msgstr "ctrl 키를 누르면 포인터 위치를 표시합니다"
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "포인터 크기"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "포인터 속도"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -354,16 +360,6 @@ msgstr "두 손가락"
 msgid "Edge"
 msgstr "모서리"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "자연스러운 스크롤"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 #, fuzzy
 #| msgid "Ignore:"
@@ -383,6 +379,15 @@ msgstr "마우스가 연결되면"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "탭:"
+
+#~ msgid "Pointer speed:"
+#~ msgstr "포인터 속도:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "포인터 가속:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "자연스러운 스크롤:"
 
 #~ msgid "Speed:"
 #~ msgstr "속도:"

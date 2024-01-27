@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2024-01-27 04:18+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
@@ -52,7 +52,7 @@ msgid "Middle click paste"
 msgstr "הדבקה עם כפתור אמצעי"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "עכבר"
 
@@ -228,33 +228,49 @@ msgstr "תקריב"
 msgid "Toggle maximized"
 msgstr "החלפת מצב הגדלה"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "התקנים"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr "איטי יותר"
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr "מהיר יותר"
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+msgid "Pointer Speed"
+msgstr "מהירות המצביע"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "בררת מחדל של חומרה"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "ללא"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "מסתגל"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "מהירות הסמן:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+msgid "Natural Scrolling"
+msgstr "גלילה טבעית"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr "הגלילה מזיזה את התוכן, לא את התצוגה"
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "האצת סמן:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "גלילה טבעית:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "האצת סמן"
 
 #: src/Views/Pointing.vala:20
 msgid "Control Pointer Using Keypad"
@@ -263,14 +279,6 @@ msgstr "שליטה בסמן בעזרת הלוח הנומרי"
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "פעולה זו משביתה את שתי רמות המקשים במקלדת הנומרית"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr "איטי יותר"
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr "מהיר יותר"
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -295,10 +303,6 @@ msgstr "לחיצה על המקש Ctrl תדגיש את מיקום הסמן"
 #: src/Views/Pointing.vala:83
 msgid "Pointer Size"
 msgstr "גודל סמן"
-
-#: src/Views/Touchpad.vala:31
-msgid "Pointer Speed"
-msgstr "מהירות המצביע"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -328,14 +332,6 @@ msgstr "שתי אצבעות"
 msgid "Edge"
 msgstr "קצה"
 
-#: src/Views/Touchpad.vala:122
-msgid "Natural Scrolling"
-msgstr "גלילה טבעית"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr "הגלילה מזיזה את התוכן, לא את התצוגה"
-
 #: src/Views/Touchpad.vala:133
 msgid "Ignore"
 msgstr "התעלמות"
@@ -351,6 +347,15 @@ msgstr "כשעכבר מחובר"
 #: src/Views/Touchpad.vala:147
 msgid "Tapping"
 msgstr "נגיעה"
+
+#~ msgid "Pointer speed:"
+#~ msgstr "מהירות הסמן:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "האצת סמן:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "גלילה טבעית:"
 
 #~ msgid "Speed:"
 #~ msgstr "מהירות:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2023-11-13 15:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -53,7 +53,7 @@ msgid "Middle click paste"
 msgstr "Liittäminen keskimmäistä napsauttamalla"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "Hiiri"
 
@@ -239,33 +239,53 @@ msgstr "Lähennetty"
 msgid "Toggle maximized"
 msgstr "Vaihda ikkunan suurennettua tilaa"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "Laitteet"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "Osoittimen nopeus"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Laitteiston oletus"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "Ei mitään"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "Sopeutuva"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "Osoittimen nopeus:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "Luonnollinen vieritys"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "Osoittimen kiihtyvyys:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "Luonnollinen vieritys:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "Osoittimen kiihtyvyys"
 
 #: src/Views/Pointing.vala:20
 #, fuzzy
@@ -276,14 +296,6 @@ msgstr "Hallitse osoitinta numeronäppäimistöllä"
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Tämä kytkee pois päältä numeronäppäimistön molempien tasojen näppäimet"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr ""
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -312,12 +324,6 @@ msgstr "Ctrl-näppäimen painaminen korostaa hiiren osoittimen"
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "Osoittimen koko"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "Osoittimen nopeus"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -351,16 +357,6 @@ msgstr "Kaksi sormea"
 msgid "Edge"
 msgstr "Reuna"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "Luonnollinen vieritys"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 #, fuzzy
 #| msgid "Ignore:"
@@ -380,6 +376,15 @@ msgstr "Kun hiiri on yhdistetty"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "Napauttaminen:"
+
+#~ msgid "Pointer speed:"
+#~ msgstr "Osoittimen nopeus:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "Osoittimen kiihtyvyys:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "Luonnollinen vieritys:"
 
 #~ msgid "Speed:"
 #~ msgstr "Nopeus:"

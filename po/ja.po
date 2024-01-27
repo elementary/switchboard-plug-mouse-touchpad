@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2024-01-27 12:38+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -53,7 +53,7 @@ msgid "Middle click paste"
 msgstr "中クリックで貼り付け"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "マウス"
 
@@ -231,33 +231,49 @@ msgstr "ズーム"
 msgid "Toggle maximized"
 msgstr "最大化／元のサイズに戻す"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "デバイス"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr "遅い"
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr "速い"
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+msgid "Pointer Speed"
+msgstr "ポインターの速度"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "ハードウェアのデフォルト"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "なし"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "適応"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "ポインターの速度:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+msgid "Natural Scrolling"
+msgstr "ナチュラルスクロール"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr "スクロールすると、ビューではなくコンテンツが移動します"
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "ポインターの加速:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "ナチュラルスクロール:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "ポインターの加速"
 
 #: src/Views/Pointing.vala:20
 msgid "Control Pointer Using Keypad"
@@ -266,14 +282,6 @@ msgstr "キーパッドを使用してポインターを制御"
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "これはテンキーパッドのキーを無効にします (NumLock 有効・無効問わず)"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr "遅い"
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr "速い"
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -298,10 +306,6 @@ msgstr "Ctrl キーを押すと、ポインターの位置がハイライトさ�
 #: src/Views/Pointing.vala:83
 msgid "Pointer Size"
 msgstr "ポインターのサイズ"
-
-#: src/Views/Touchpad.vala:31
-msgid "Pointer Speed"
-msgstr "ポインターの速度"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -331,14 +335,6 @@ msgstr "2 本指"
 msgid "Edge"
 msgstr "端"
 
-#: src/Views/Touchpad.vala:122
-msgid "Natural Scrolling"
-msgstr "ナチュラルスクロール"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr "スクロールすると、ビューではなくコンテンツが移動します"
-
 #: src/Views/Touchpad.vala:133
 msgid "Ignore"
 msgstr "以下の場合は無効にする"
@@ -354,6 +350,15 @@ msgstr "マウス接続時"
 #: src/Views/Touchpad.vala:147
 msgid "Tapping"
 msgstr "タップ"
+
+#~ msgid "Pointer speed:"
+#~ msgstr "ポインターの速度:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "ポインターの加速:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "ナチュラルスクロール:"
 
 #~ msgid "Speed:"
 #~ msgstr "速度:"

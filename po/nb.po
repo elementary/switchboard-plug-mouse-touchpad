@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2023-11-15 23:10+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -56,7 +56,7 @@ msgid "Middle click paste"
 msgstr "Midtklikk-innliming:"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "Mus"
 
@@ -249,33 +249,50 @@ msgstr "Forstørret"
 msgid "Toggle maximized"
 msgstr "Veksle maksimering"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "Enheter"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+msgid "Pointer Speed"
+msgstr "Pekerhastighet:"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Maskinvare standard"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "Ingen"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "Tilpasningsdyktig"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "Pekerhastighet:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+msgid "Natural Scrolling"
+msgstr "Naturlig rulling:"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
+#, fuzzy
+msgid "Pointer Acceleration"
 msgstr "Pekerhastighet:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "Naturlig rulling:"
 
 #: src/Views/Pointing.vala:20
 #, fuzzy
@@ -286,14 +303,6 @@ msgstr "Kontroller peker ved bruk av nummertastefeltet:"
 #, fuzzy
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Dette skrur av begge nivåene for taster på nummertastefeltet."
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr ""
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -322,11 +331,6 @@ msgstr "Ved å trykke på Ctrl-tasten vil pekerens posisjon markeres"
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "Pekerstørrelse"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-msgid "Pointer Speed"
-msgstr "Pekerhastighet:"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -360,15 +364,6 @@ msgstr "To-finger"
 msgid "Edge"
 msgstr "Kant"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-msgid "Natural Scrolling"
-msgstr "Naturlig rulling:"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 #, fuzzy
 #| msgid "Ignore:"
@@ -389,6 +384,15 @@ msgstr "Når mus er tilkoblet"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "Trykking:"
+
+#~ msgid "Pointer speed:"
+#~ msgstr "Pekerhastighet:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "Pekerhastighet:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "Naturlig rulling:"
 
 #~ msgid "Speed:"
 #~ msgstr "Hastighet:"

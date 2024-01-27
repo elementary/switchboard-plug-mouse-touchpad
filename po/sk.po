@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2022-03-02 17:20+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
@@ -53,7 +53,7 @@ msgid "Middle click paste"
 msgstr "Vkladanie stlačením kolieska"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "Myš"
 
@@ -245,33 +245,53 @@ msgstr "Priblížiť"
 msgid "Toggle maximized"
 msgstr "Prepínať maximalizáciu"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "Zariadenia"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "Rýchlosť ukazovateľa"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Predvolené pre hardvér"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "Žiadne"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "Adaptívne"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "Rýchlosť ukazovateľa:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "Prirodzené posúvanie"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "Zrýchlenie ukazovateľa:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "Prirodzené posúvanie:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "Zrýchlenie ukazovateľa"
 
 #: src/Views/Pointing.vala:20
 #, fuzzy
@@ -283,14 +303,6 @@ msgstr "Ovládanie ukazovateľa klávesami"
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr ""
 "Toto nastavenie deaktivuje obe úrovne klávesov na numerickej klávesnici"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr ""
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -319,12 +331,6 @@ msgstr "Stlačením ovládacieho tlačidla upozorniť na pozíciu kurzora"
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "Veľkosť ukazovateľa"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "Rýchlosť ukazovateľa"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -358,16 +364,6 @@ msgstr "Dva prsty"
 msgid "Edge"
 msgstr "Okraj"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "Prirodzené posúvanie"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 #, fuzzy
 #| msgid "Ignore:"
@@ -387,6 +383,15 @@ msgstr "Keď je pripojená myš"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "Klepnutie:"
+
+#~ msgid "Pointer speed:"
+#~ msgstr "Rýchlosť ukazovateľa:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "Zrýchlenie ukazovateľa:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "Prirodzené posúvanie:"
 
 #~ msgid "Speed:"
 #~ msgstr "Rýchlosť:"

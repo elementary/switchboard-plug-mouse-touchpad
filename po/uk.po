@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2023-12-08 15:02+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -54,7 +54,7 @@ msgid "Middle click paste"
 msgstr "Вставити середньою кнопкою"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "Миша"
 
@@ -233,33 +233,53 @@ msgstr "Збільшити"
 msgid "Toggle maximized"
 msgstr "Перемикання розгортання"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "Пристрої"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "Швидкість вказівника"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Типові апаратні засоби"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "Немає"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "Прилаштовувана"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "Швидкість вказівника:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "Природне прокручування"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "Прискорення вказівника:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "Природне прокручування:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "Прискорення вказівника"
 
 #: src/Views/Pointing.vala:20
 #, fuzzy
@@ -270,14 +290,6 @@ msgstr "Управління вказівником за допомогою кл
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Це вимикає обидва рівні клавіш на цифровій клавіатурі"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr ""
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -306,12 +318,6 @@ msgstr "Натискання клавіші Contol підсвітить пози
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "Розмір вказівника"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "Швидкість вказівника"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -345,16 +351,6 @@ msgstr "Двома пальцями"
 msgid "Edge"
 msgstr "За край"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "Природне прокручування"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 #, fuzzy
 #| msgid "Ignore:"
@@ -374,6 +370,15 @@ msgstr "Коли під'єднано мишу"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "Торкання:"
+
+#~ msgid "Pointer speed:"
+#~ msgstr "Швидкість вказівника:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "Прискорення вказівника:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "Природне прокручування:"
 
 #~ msgid "Speed:"
 #~ msgstr "Швидкість:"
