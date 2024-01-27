@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-26 12:58+0000\n"
-"PO-Revision-Date: 2023-11-21 12:10+0000\n"
+"PO-Revision-Date: 2024-01-27 04:18+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ka/>\n"
@@ -324,10 +324,8 @@ msgid "Double-tap and move to drag"
 msgstr ""
 
 #: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
 msgid "Scroll Method"
-msgstr "აწევ-ჩამოწევის მეთოდი:"
+msgstr "აწევ-ჩამოწევის მეთოდი"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -348,10 +346,8 @@ msgid "Scrolling moves the content, not the view"
 msgstr ""
 
 #: src/Views/Touchpad.vala:133
-#, fuzzy
-#| msgid "Ignore:"
 msgid "Ignore"
-msgstr "იგნორირება:"
+msgstr "დაიგნორება"
 
 #: src/Views/Touchpad.vala:135
 msgid "While typing"
@@ -362,10 +358,8 @@ msgid "When mouse is connected"
 msgstr "როცა თაგუნა მიერთებულია"
 
 #: src/Views/Touchpad.vala:147
-#, fuzzy
-#| msgid "Tapping:"
 msgid "Tapping"
-msgstr "დატყაპუნება:"
+msgstr "დატყაპუნება"
 
 #~ msgid "Speed:"
 #~ msgstr "სიჩქარე:"

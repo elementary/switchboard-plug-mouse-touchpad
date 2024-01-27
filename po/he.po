@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-26 12:58+0000\n"
-"PO-Revision-Date: 2024-01-25 21:26+0000\n"
+"PO-Revision-Date: 2024-01-27 04:18+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/he/>\n"
@@ -297,8 +297,6 @@ msgid "Pointer Size"
 msgstr "גודל סמן"
 
 #: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
 msgid "Pointer Speed"
 msgstr "מהירות המצביע"
 
@@ -311,20 +309,16 @@ msgid "Areas"
 msgstr "אזורים"
 
 #: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
-msgstr "לחיצה משנית פיזית:"
+msgstr "לחיצה משנית פיזית"
 
 #: src/Views/Touchpad.vala:74
 msgid "Double-tap and move to drag"
 msgstr "נגיעה כפולה והזזה כדי לגרור"
 
 #: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
 msgid "Scroll Method"
-msgstr "שיטת גלילה:"
+msgstr "שיטת גלילה"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -335,20 +329,16 @@ msgid "Edge"
 msgstr "קצה"
 
 #: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
 msgid "Natural Scrolling"
 msgstr "גלילה טבעית"
 
 #: src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
-msgstr ""
+msgstr "הגלילה מזיזה את התוכן, לא את התצוגה"
 
 #: src/Views/Touchpad.vala:133
-#, fuzzy
-#| msgid "Ignore:"
 msgid "Ignore"
-msgstr "התעלמות:"
+msgstr "התעלמות"
 
 #: src/Views/Touchpad.vala:135
 msgid "While typing"
@@ -359,10 +349,8 @@ msgid "When mouse is connected"
 msgstr "כשעכבר מחובר"
 
 #: src/Views/Touchpad.vala:147
-#, fuzzy
-#| msgid "Tapping:"
 msgid "Tapping"
-msgstr "נגיעה:"
+msgstr "נגיעה"
 
 #~ msgid "Speed:"
 #~ msgstr "מהירות:"
