@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-27 12:38+0000\n"
-"PO-Revision-Date: 2024-01-27 04:18+0000\n"
+"PO-Revision-Date: 2024-01-27 17:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/he/>\n"
@@ -267,8 +267,6 @@ msgid "Scrolling moves the content, not the view"
 msgstr "הגלילה מזיזה את התוכן, לא את התצוגה"
 
 #: src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
 msgstr "האצת סמן"
 
