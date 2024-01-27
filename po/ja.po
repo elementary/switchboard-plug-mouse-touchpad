@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-26 12:58+0000\n"
-"PO-Revision-Date: 2024-01-26 12:58+0000\n"
+"PO-Revision-Date: 2024-01-27 12:38+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -300,8 +300,6 @@ msgid "Pointer Size"
 msgstr "ポインターのサイズ"
 
 #: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
 msgid "Pointer Speed"
 msgstr "ポインターの速度"
 
@@ -314,20 +312,16 @@ msgid "Areas"
 msgstr "タッチパッドの右下"
 
 #: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
-msgstr "物理副ボタンクリック:"
+msgstr "物理副ボタンクリック"
 
 #: src/Views/Touchpad.vala:74
 msgid "Double-tap and move to drag"
 msgstr "ダブルタップして指を動かすとドラッグ操作として扱う"
 
 #: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
 msgid "Scroll Method"
-msgstr "スクロールの方法:"
+msgstr "スクロールの方法"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -338,20 +332,16 @@ msgid "Edge"
 msgstr "端"
 
 #: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
 msgid "Natural Scrolling"
 msgstr "ナチュラルスクロール"
 
 #: src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
-msgstr ""
+msgstr "スクロールすると、ビューではなくコンテンツが移動します"
 
 #: src/Views/Touchpad.vala:133
-#, fuzzy
-#| msgid "Ignore:"
 msgid "Ignore"
-msgstr "以下の場合は無効にする:"
+msgstr "以下の場合は無効にする"
 
 #: src/Views/Touchpad.vala:135
 msgid "While typing"
@@ -362,10 +352,8 @@ msgid "When mouse is connected"
 msgstr "マウス接続時"
 
 #: src/Views/Touchpad.vala:147
-#, fuzzy
-#| msgid "Tapping:"
 msgid "Tapping"
-msgstr "タップ:"
+msgstr "タップ"
 
 #~ msgid "Speed:"
 #~ msgstr "速度:"
