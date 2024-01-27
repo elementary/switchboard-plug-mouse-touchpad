@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2020-12-18 06:57+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Tagalog <https://l10n.elementary.io/projects/switchboard/"
@@ -54,7 +54,7 @@ msgid "Middle click paste"
 msgstr ""
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "Mouse"
 
@@ -240,34 +240,50 @@ msgstr ""
 msgid "Toggle maximized"
 msgstr ""
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "Mga Aparato"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+msgid "Pointer Speed"
+msgstr "Bilis ng pointer"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr ""
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "Wala"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr ""
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "Bilis ng pointer:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+msgid "Natural Scrolling"
+msgstr "Natural na pag-iscrol:"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
 #, fuzzy
-msgid "Pointer acceleration:"
+msgid "Pointer Acceleration"
 msgstr "Bilis ng pointer"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "Natural na pag-iscrol:"
 
 #: src/Views/Pointing.vala:20
 msgid "Control Pointer Using Keypad"
@@ -275,14 +291,6 @@ msgstr ""
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
-msgstr ""
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
 msgstr ""
 
 #: src/Views/Pointing.vala:35
@@ -312,11 +320,6 @@ msgstr "Iha-highlight ang posisyon ng pointer pag pinindot ang control key"
 msgid "Pointer Size"
 msgstr "Bilis ng pointer:"
 
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-msgid "Pointer Speed"
-msgstr "Bilis ng pointer"
-
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
 msgstr "Multitouch"
@@ -345,15 +348,6 @@ msgstr "Dalawahang-daliri"
 msgid "Edge"
 msgstr "Gilid"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-msgid "Natural Scrolling"
-msgstr "Natural na pag-iscrol:"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 msgid "Ignore"
 msgstr ""
@@ -369,6 +363,16 @@ msgstr ""
 #: src/Views/Touchpad.vala:147
 msgid "Tapping"
 msgstr ""
+
+#~ msgid "Pointer speed:"
+#~ msgstr "Bilis ng pointer:"
+
+#, fuzzy
+#~ msgid "Pointer acceleration:"
+#~ msgstr "Bilis ng pointer"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "Natural na pag-iscrol:"
 
 #~ msgid "Reveal pointer:"
 #~ msgstr "Ipakita ang Pointer:"

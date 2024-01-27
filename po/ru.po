@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
-"PO-Revision-Date: 2024-01-25 21:26+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"PO-Revision-Date: 2024-01-27 12:38+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ru/>\n"
@@ -47,14 +47,14 @@ msgstr "Основная кнопка"
 
 #: src/Plug.vala:132
 msgid "Long-press secondary click"
-msgstr "Длительное нажатие для двойного щелчка"
+msgstr "Зажать для щелчка второй кнопкой мыши"
 
 #: src/Plug.vala:133
 msgid "Middle click paste"
 msgstr "Вставка средней кнопкой"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "Мышь"
 
@@ -147,11 +147,11 @@ msgstr "Правая"
 
 #: src/Views/Clicking.vala:71
 msgid "Long-press Secondary Click"
-msgstr "Длительное нажатие для двойного щелчка"
+msgstr "Зажать для щелчка второй кнопкой мыши"
 
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
-msgstr "Длительное нажатие основной кнопки активирует двойной щелчок"
+msgstr "Зажатие основной кнопки мыши активирует щелчок второй кнопкой"
 
 #: src/Views/Clicking.vala:102
 msgid "Double-click Speed"
@@ -232,33 +232,53 @@ msgstr "Увеличить"
 msgid "Toggle maximized"
 msgstr "Переключить развёрнутый вид"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "Устройства"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr "Медленнее"
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr "Быстрее"
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "Скорость указателя"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "По умолчанию"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "Отсутствует"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "Адаптивное"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "Скорость указателя:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "Естественная прокрутка"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "Ускорение указателя:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "Естественная прокрутка:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "Ускорение указателя"
 
 #: src/Views/Pointing.vala:20
 msgid "Control Pointer Using Keypad"
@@ -267,14 +287,6 @@ msgstr "Управление указателем с помощью клавиа
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Это отключает оба уровня клавиш на цифровой клавиатуре"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr "Медленнее"
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr "Быстрее"
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -299,12 +311,6 @@ msgstr "Нажатие клавиши Ctrl выделит позицию кур�
 #: src/Views/Pointing.vala:83
 msgid "Pointer Size"
 msgstr "Размер курсора"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "Скорость указателя"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -338,16 +344,6 @@ msgstr "Двумя пальцами"
 msgid "Edge"
 msgstr "По краю"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "Естественная прокрутка"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 #, fuzzy
 #| msgid "Ignore:"
@@ -367,6 +363,15 @@ msgstr "При подключении мыши"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "Касание:"
+
+#~ msgid "Pointer speed:"
+#~ msgstr "Скорость указателя:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "Ускорение указателя:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "Естественная прокрутка:"
 
 #~ msgid "Speed:"
 #~ msgstr "Скорость:"

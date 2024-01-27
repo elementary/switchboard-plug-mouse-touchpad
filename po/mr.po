@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -52,7 +52,7 @@ msgid "Middle click paste"
 msgstr "मध्य क्लिक पेस्ट"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "माऊस"
 
@@ -247,33 +247,53 @@ msgstr "झूम करा"
 msgid "Toggle maximized"
 msgstr ""
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "उपकरण"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "पॉइंटर स्पीड"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "हार्डवेअर डीफॉल्ट"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "काहीही नाही"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "अनुकूल"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "पॉइंटर स्पीड:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "नैसर्गिक स्क्रोलिंग"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "पॉइंटर प्रवेग:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "नैसर्गिक स्क्रोलिंग:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "पॉइंटर प्रवेग"
 
 #: src/Views/Pointing.vala:20
 #, fuzzy
@@ -284,14 +304,6 @@ msgstr "कीपॅड वापरुन पॉइंटर नियंत्
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "हे अंकीय कीपॅडवरील की दोन्ही स्तर अक्षम करते"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr ""
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -320,12 +332,6 @@ msgstr "कंट्रोल की दाबून पॉईन्टरची
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "पॉईंटर आकार"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "पॉइंटर स्पीड"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -357,16 +363,6 @@ msgstr "दोन-बोटांनी"
 msgid "Edge"
 msgstr "काठ"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "नैसर्गिक स्क्रोलिंग"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 msgid "Ignore"
 msgstr ""
@@ -386,6 +382,15 @@ msgstr "माउस जोडल्यास दुर्लक्ष करा
 #: src/Views/Touchpad.vala:147
 msgid "Tapping"
 msgstr ""
+
+#~ msgid "Pointer speed:"
+#~ msgstr "पॉइंटर स्पीड:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "पॉइंटर प्रवेग:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "नैसर्गिक स्क्रोलिंग:"
 
 #~ msgid "Speed:"
 #~ msgstr "वेग:"

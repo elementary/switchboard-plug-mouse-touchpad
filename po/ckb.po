@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2022-10-04 21:31+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -52,7 +52,7 @@ msgid "Middle click paste"
 msgstr "لکاندن بە دوگمەی ناوەڕاست"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "ماوس"
 
@@ -244,33 +244,53 @@ msgstr "گەورکردن"
 msgid "Toggle maximized"
 msgstr "گەورەکردن و بچوکردنی پەنجەرە"
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "ئامێرەکان"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "خێرایی نیشاندەری ماوس"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "دۆخی بنەڕەتی ڕەقەکاڵا"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "هیچ"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "خۆگونجاندن"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "خێرایی نیشاندەری ماوس:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "سکڕۆڵکردنی سروشتی"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "باشترکردنی نیشاندەر:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "سکرۆڵکردنی سروشتی:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "باشترکدنی نیشاندەری ماوس"
 
 #: src/Views/Pointing.vala:20
 #, fuzzy
@@ -281,14 +301,6 @@ msgstr "کۆنتڕۆڵکردنی نیشاندەر بە بەکارهێنانی ک
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "ئەمە هەردوو ئاستی کلیلەکان لە کیپادی ژمارەیی ڕادەگرێت"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr ""
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -317,12 +329,6 @@ msgstr "پەنجەنان بە کلیلی کۆنترۆڵ، شوێنی نیشان�
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "قەبارەی نیشاندەر"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "خێرایی نیشاندەری ماوس"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -356,16 +362,6 @@ msgstr "دوو پەنجە"
 msgid "Edge"
 msgstr "قەراخ"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "سکڕۆڵکردنی سروشتی"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 #, fuzzy
 #| msgid "Ignore:"
@@ -385,6 +381,15 @@ msgstr "کاتێک ماوس پەیوەستە"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "تاپ-کردن:"
+
+#~ msgid "Pointer speed:"
+#~ msgstr "خێرایی نیشاندەری ماوس:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "باشترکردنی نیشاندەر:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "سکرۆڵکردنی سروشتی:"
 
 #~ msgid "Speed:"
 #~ msgstr "خێرایی:"

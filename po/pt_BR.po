@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 12:58+0000\n"
+"POT-Creation-Date: 2024-01-27 12:38+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -53,7 +53,7 @@ msgid "Middle click paste"
 msgstr "Colar com clique do meio"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
-#: src/Views/Mouse.vala:25
+#: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "Mouse"
 
@@ -246,33 +246,53 @@ msgstr "Ampliação"
 msgid "Toggle maximized"
 msgstr ""
 
-#: src/Views/Mouse.vala:23
+#: src/Views/Mouse.vala:9
 msgid "Devices"
 msgstr "Dispositivos"
 
-#: src/Views/Mouse.vala:43
+#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
+#: src/Views/Touchpad.vala:27
+msgid "Slower"
+msgstr ""
+
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
+msgid "Faster"
+msgstr ""
+
+#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
+msgstr "Velocidade do cursor"
+
+#: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Hardware padrão"
 
-#: src/Views/Mouse.vala:44
+#: src/Views/Mouse.vala:30
 msgid "None"
 msgstr "Nenhum"
 
-#: src/Views/Mouse.vala:47
+#: src/Views/Mouse.vala:33
 msgid "Adaptive"
 msgstr "Adaptável"
 
-#: src/Views/Mouse.vala:55
-msgid "Pointer speed:"
-msgstr "Velocidade do cursor:"
+#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
+msgstr "Rolagem natural"
+
+#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+msgid "Scrolling moves the content, not the view"
+msgstr ""
 
 #: src/Views/Mouse.vala:57
-msgid "Pointer acceleration:"
-msgstr "Aceleração do cursor:"
-
-#: src/Views/Mouse.vala:61
-msgid "Natural scrolling:"
-msgstr "Rolagem natural:"
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
+msgstr "Aceleração do cursor"
 
 #: src/Views/Pointing.vala:20
 #, fuzzy
@@ -283,14 +303,6 @@ msgstr "Controle do ponteiro usando o teclado"
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "Isso desativa os dois níveis de teclas no teclado numérico"
-
-#: src/Views/Pointing.vala:30 src/Views/Touchpad.vala:27
-msgid "Slower"
-msgstr ""
-
-#: src/Views/Pointing.vala:32 src/Views/Touchpad.vala:29
-msgid "Faster"
-msgstr ""
 
 #: src/Views/Pointing.vala:35
 msgid "Small"
@@ -319,12 +331,6 @@ msgstr "Quando pressionado o botão crlt, a posição do cursor será revelada"
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "Tamanho do ponteiro"
-
-#: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "Velocidade do cursor"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -356,16 +362,6 @@ msgstr "Com dois dedos"
 msgid "Edge"
 msgstr "Na borda"
 
-#: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "Rolagem natural"
-
-#: src/Views/Touchpad.vala:124
-msgid "Scrolling moves the content, not the view"
-msgstr ""
-
 #: src/Views/Touchpad.vala:133
 msgid "Ignore"
 msgstr ""
@@ -385,6 +381,15 @@ msgstr "Ignore quando o mouse estiver conectado"
 #: src/Views/Touchpad.vala:147
 msgid "Tapping"
 msgstr ""
+
+#~ msgid "Pointer speed:"
+#~ msgstr "Velocidade do cursor:"
+
+#~ msgid "Pointer acceleration:"
+#~ msgstr "Aceleração do cursor:"
+
+#~ msgid "Natural scrolling:"
+#~ msgstr "Rolagem natural:"
 
 #~ msgid "Speed:"
 #~ msgstr "Velocidade:"
