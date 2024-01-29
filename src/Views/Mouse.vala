@@ -3,7 +3,7 @@
  * SPDX-FileCopyrightText: 2011-2024 elementary, Inc. (https://elementary.io)
  */
 
-public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
+public class MouseTouchpad.MouseView : Switchboard.SettingsPage {
     public MouseView () {
         Object (
             header: _("Devices"),
@@ -60,7 +60,7 @@ public class MouseTouchpad.MouseView : Granite.SimpleSettingsPage {
         content_box.append (accel_profile_adaptive);
         content_box.append (natural_scrolling_box);
 
-        content_area.attach (content_box, 0, 0);
+        child = content_box;
 
         var settings = new GLib.Settings ("org.gnome.desktop.peripherals.mouse");
         settings.bind ("natural-scroll", natural_scrolling_switch, "active", GLib.SettingsBindFlags.DEFAULT);

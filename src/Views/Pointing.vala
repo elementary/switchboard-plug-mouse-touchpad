@@ -3,7 +3,7 @@
  * SPDX-FileCopyrightText: 2011-2024 elementary, Inc. (https://elementary.io)
  */
 
-public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
+public class MouseTouchpad.PointingView : Switchboard.SettingsPage {
     public PointingView () {
         Object (
             icon_name: "mouse-touchpad-pointing",
@@ -78,7 +78,9 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
             secondary_text = _("Pressing the control key will highlight the position of the pointer")
         };
 
-        content_area.row_spacing = 6;
+        var content_area = new Gtk.Grid () {
+            row_spacing = 6
+        };
 
         content_area.attach (new Granite.HeaderLabel (_("Pointer Size")), 0, 0);
         content_area.attach (cursor_size_box, 0, 1);
@@ -89,6 +91,8 @@ public class MouseTouchpad.PointingView : Granite.SimpleSettingsPage {
         content_area.attach (keypad_pointer_header, 0, 3);
         content_area.attach (keypad_pointer_switch, 1, 3);
         content_area.attach (pointer_speed_scale, 0, 4, 2);
+
+        child = content_area;
 
         var a11y_keyboard_settings = new GLib.Settings ("org.gnome.desktop.a11y.keyboard");
         a11y_keyboard_settings.bind (
