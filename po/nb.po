@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-27 12:38+0000\n"
-"PO-Revision-Date: 2023-11-15 23:10+0000\n"
+"PO-Revision-Date: 2024-01-29 23:58+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/nb/>\n"
@@ -42,18 +42,16 @@ msgid "Dwell click"
 msgstr "Hvilke-klikk"
 
 #: src/Plug.vala:131
-#, fuzzy
 msgid "Primary button"
-msgstr "Hovedknapp:"
+msgstr "Hovedknapp"
 
 #: src/Plug.vala:132
 msgid "Long-press secondary click"
 msgstr "Langtrykkingssekundærklikk"
 
 #: src/Plug.vala:133
-#, fuzzy
 msgid "Middle click paste"
-msgstr "Midtklikk-innliming:"
+msgstr "Midtklikk-innliming"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
 #: src/Views/Mouse.vala:11
@@ -68,12 +66,11 @@ msgstr "Pekerhastighet:"
 #: src/Plug.vala:137
 #, fuzzy
 msgid "Pointer acceleration"
-msgstr "Pekerhastighet:"
+msgstr "Pekerhastighet"
 
 #: src/Plug.vala:138 src/Plug.vala:150
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "Naturlig rulling:"
+msgstr "Naturlig rulling"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
@@ -99,14 +96,12 @@ msgid "Touchpad"
 msgstr "Pekeplate"
 
 #: src/Plug.vala:147 src/Views/Touchpad.vala:70
-#, fuzzy
 msgid "Tap to click"
-msgstr "Kort trykk for å klikke:"
+msgstr "Kort trykk for å klikke"
 
 #: src/Plug.vala:148
-#, fuzzy
 msgid "Physical clicking"
-msgstr "Fysisk klikking:"
+msgstr "Fysisk klikking"
 
 #: src/Plug.vala:149
 #, fuzzy
@@ -225,8 +220,9 @@ msgid "Move active window to workspace"
 msgstr "Flytt aktivt vindu til arbeidsområde"
 
 #: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
+#, fuzzy
 msgid "Cycle windows"
-msgstr ""
+msgstr "Bla gjennom vinduer"
 
 #: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
 #: src/Views/Gestures.vala:86
@@ -256,17 +252,16 @@ msgstr "Enheter"
 #: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
 #: src/Views/Touchpad.vala:27
 msgid "Slower"
-msgstr ""
+msgstr "Tregere"
 
 #: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
 #: src/Views/Touchpad.vala:29
 msgid "Faster"
-msgstr ""
+msgstr "Raskere"
 
 #: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-#, fuzzy
 msgid "Pointer Speed"
-msgstr "Pekerhastighet:"
+msgstr "Pekerhastighet"
 
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
@@ -281,13 +276,12 @@ msgid "Adaptive"
 msgstr "Tilpasningsdyktig"
 
 #: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-#, fuzzy
 msgid "Natural Scrolling"
-msgstr "Naturlig rulling:"
+msgstr "Naturlig rulling"
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
-msgstr ""
+msgstr "Rulling flytter innholdet, ikke visningen"
 
 #: src/Views/Mouse.vala:57
 #, fuzzy
@@ -341,20 +335,16 @@ msgid "Areas"
 msgstr "Områder"
 
 #: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
-msgstr "Fysisk sekundær klikking:"
+msgstr "Fysisk sekundær klikking"
 
 #: src/Views/Touchpad.vala:74
 msgid "Double-tap and move to drag"
 msgstr "Dobbelttrykk og flytt for å bevege"
 
 #: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
 msgid "Scroll Method"
-msgstr "Rullemetode:"
+msgstr "Rullemetode"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -365,10 +355,8 @@ msgid "Edge"
 msgstr "Kant"
 
 #: src/Views/Touchpad.vala:133
-#, fuzzy
-#| msgid "Ignore:"
 msgid "Ignore"
-msgstr "Ignorer:"
+msgstr "Ignorer"
 
 #: src/Views/Touchpad.vala:135
 #, fuzzy
@@ -380,10 +368,8 @@ msgid "When mouse is connected"
 msgstr "Når mus er tilkoblet"
 
 #: src/Views/Touchpad.vala:147
-#, fuzzy
-#| msgid "Tapping:"
 msgid "Tapping"
-msgstr "Trykking:"
+msgstr "Trykking"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "Pekerhastighet:"
