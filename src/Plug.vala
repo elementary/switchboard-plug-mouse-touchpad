@@ -126,28 +126,29 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
             (Gee.EqualDataFunc<string>)str_equal
         );
         search_results.set ("%s → %s".printf (display_name, _("Clicking")), "clicking");
-        search_results.set ("%s → %s".printf (display_name, _("Double-click speed")), "clicking");
-        search_results.set ("%s → %s".printf (display_name, _("Dwell click")), "clicking");
-        search_results.set ("%s → %s".printf (display_name, _("Primary button")), "clicking");
-        search_results.set ("%s → %s".printf (display_name, _("Long-press secondary click")), "clicking");
-        search_results.set ("%s → %s".printf (display_name, _("Middle click paste")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Double-click Speed")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Dwell Click")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Primary Button")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Long-press Secondary Click")), "clicking");
+        search_results.set ("%s → %s".printf (display_name, _("Middle Click Paste")), "clicking");
 
         search_results.set ("%s → %s".printf (display_name, _("Mouse")), "mouse");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer speed")), "mouse");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer acceleration")), "mouse");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Natural scrolling")), "mouse");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer Speed")), "mouse");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Pointer Acceleration")), "mouse");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Mouse"), _("Natural Scrolling")), "mouse");
 
         search_results.set ("%s → %s".printf (display_name, _("Pointing")), "pointing");
-        search_results.set ("%s → %s".printf (display_name, _("Pointer size")), "pointing");
-        search_results.set ("%s → %s".printf (display_name, _("Reveal pointer")), "pointing");
-        search_results.set ("%s → %s".printf (display_name, _("Control pointer using keypad")), "pointing");
+        search_results.set ("%s → %s".printf (display_name, _("Pointer Size")), "pointing");
+        search_results.set ("%s → %s".printf (display_name, _("Reveal Pointer")), "pointing");
+        search_results.set ("%s → %s".printf (display_name, _("Control Pointer Using Keypad")), "pointing");
 
         search_results.set ("%s → %s".printf (display_name, _("Touchpad")), "touchpad");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Pointer speed")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Pointer Speed")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Tap to click")), "touchpad");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Physical clicking")), "touchpad");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Scrolling")), "touchpad");
-        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Natural scrolling")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Double-tap and move to drag")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Physical Secondary Clicking")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Scroll Method")), "touchpad");
+        search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Natural Scrolling")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore while typing")), "touchpad");
         search_results.set ("%s → %s → %s".printf (display_name, _("Touchpad"), _("Ignore when mouse is connected")), "touchpad");
 
