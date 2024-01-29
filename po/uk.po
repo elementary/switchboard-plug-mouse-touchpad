@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"POT-Creation-Date: 2024-01-29 23:57+0000\n"
 "PO-Revision-Date: 2024-01-28 00:53+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-02-20 06:00+0000\n"
 
@@ -33,24 +33,24 @@ msgstr "Налаштування миші та сенсорної панелі"
 msgid "Clicking"
 msgstr "Натискання"
 
-#: src/Plug.vala:129
-msgid "Double-click speed"
+#: src/Plug.vala:129 src/Views/Clicking.vala:102
+msgid "Double-click Speed"
 msgstr "Швидкість подвійного натискання"
 
-#: src/Plug.vala:130
-msgid "Dwell click"
+#: src/Plug.vala:130 src/Views/Clicking.vala:112
+msgid "Dwell Click"
 msgstr "Натискання наведенням"
 
-#: src/Plug.vala:131
-msgid "Primary button"
+#: src/Plug.vala:131 src/Views/Clicking.vala:30
+msgid "Primary Button"
 msgstr "Основна кнопка"
 
-#: src/Plug.vala:132
-msgid "Long-press secondary click"
+#: src/Plug.vala:132 src/Views/Clicking.vala:71
+msgid "Long-press Secondary Click"
 msgstr "Затискання вторинною кнопкою"
 
-#: src/Plug.vala:133
-msgid "Middle click paste"
+#: src/Plug.vala:133 src/Views/Clicking.vala:167
+msgid "Middle Click Paste"
 msgstr "Вставити середньою кнопкою"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
@@ -58,37 +58,39 @@ msgstr "Вставити середньою кнопкою"
 msgid "Mouse"
 msgstr "Миша"
 
-#: src/Plug.vala:136 src/Plug.vala:146
-msgid "Pointer speed"
+#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
+#: src/Views/Touchpad.vala:31
+msgid "Pointer Speed"
 msgstr "Швидкість вказівника"
 
-#: src/Plug.vala:137
-msgid "Pointer acceleration"
+#: src/Plug.vala:137 src/Views/Mouse.vala:57
+msgid "Pointer Acceleration"
 msgstr "Прискорення вказівника"
 
-#: src/Plug.vala:138 src/Plug.vala:150
-msgid "Natural scrolling"
+#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
+#: src/Views/Touchpad.vala:122
+msgid "Natural Scrolling"
 msgstr "Природне прокручування"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Вказівник"
 
-#: src/Plug.vala:141
-msgid "Pointer size"
+#: src/Plug.vala:141 src/Views/Pointing.vala:85
+msgid "Pointer Size"
 msgstr "Розмір вказівника"
 
-#: src/Plug.vala:142
-msgid "Reveal pointer"
+#: src/Plug.vala:142 src/Views/Pointing.vala:76
+msgid "Reveal Pointer"
 msgstr "Показати вказівник"
 
-#: src/Plug.vala:143
-msgid "Control pointer using keypad"
+#: src/Plug.vala:143 src/Views/Pointing.vala:20
+msgid "Control Pointer Using Keypad"
 msgstr "Управління вказівником за допомогою клавіатури"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "Сенсорна панель"
 
@@ -96,46 +98,46 @@ msgstr "Сенсорна панель"
 msgid "Tap to click"
 msgstr "Торкнутися для натискання"
 
-#: src/Plug.vala:148
-msgid "Physical clicking"
-msgstr "Фізичне натискання"
+#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+msgid "Double-tap and move to drag"
+msgstr "Двічі торкнутися та перемістити, щоб перетягнути"
 
-#: src/Plug.vala:149
-msgid "Scrolling"
-msgstr "Прокручування"
+#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+msgid "Physical Secondary Clicking"
+msgstr "Фізичне вторинне натискання"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+msgid "Scroll Method"
+msgstr "Спосіб прокручування"
+
+#: src/Plug.vala:152
 msgid "Ignore while typing"
 msgstr "Вимикати на час набору тексту"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:153
 msgid "Ignore when mouse is connected"
 msgstr "Вимикати, якщо під'єднано мишу"
 
-#: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
+#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Жести"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "Багатозадачний вигляд"
 
-#: src/Plug.vala:157
+#: src/Plug.vala:158
 msgid "Switch Workspaces"
 msgstr "Перемкнути робочий простір"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:159
 msgid "Maximize Window"
 msgstr "Розгорнути вікно"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "Поведінка"
-
-#: src/Views/Clicking.vala:30
-msgid "Primary Button"
-msgstr "Основна кнопка"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -145,42 +147,26 @@ msgstr "Ліва"
 msgid "Right"
 msgstr "Права"
 
-#: src/Views/Clicking.vala:71
-msgid "Long-press Secondary Click"
-msgstr "Затискання вторинною кнопкою"
-
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Тривале натискання й відпустити основну кнопку для вторинного натискання"
 
-#: src/Views/Clicking.vala:102
-msgid "Double-click Speed"
-msgstr "Швидкість подвійного натискання"
-
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Яку швидкість двох натискань поспіль вважати за подвійне натискання"
-
-#: src/Views/Clicking.vala:112
-msgid "Dwell Click"
-msgstr "Натискання наведенням"
 
 #: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "Утримуйте вказівник нерухомим, щоб автоматично натиснути"
 
-#: src/Views/Clicking.vala:163
-msgid "Middle Click Paste"
-msgstr "Вставити середньою кнопкою"
-
-#: src/Views/Clicking.vala:165
+#: src/Views/Clicking.vala:169
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Натискання середньої кнопки або торкання трьома пальцями на полі, щоб "
 "вставити виділений текст"
 
-#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f секунд"
@@ -229,7 +215,7 @@ msgstr "Зведення пальців"
 msgid "Zoom"
 msgstr "Збільшити"
 
-#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
+#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
 msgid "Toggle maximized"
 msgstr "Перемикання розгортання"
 
@@ -247,10 +233,6 @@ msgstr "Повільніше"
 msgid "Faster"
 msgstr "Швидше"
 
-#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-msgid "Pointer Speed"
-msgstr "Швидкість вказівника"
-
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Типові апаратні засоби"
@@ -263,21 +245,9 @@ msgstr "Немає"
 msgid "Adaptive"
 msgstr "Прилаштовувана"
 
-#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-msgid "Natural Scrolling"
-msgstr "Природне прокручування"
-
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
 msgstr "Прокручування переміщує вміст, а не подання"
-
-#: src/Views/Mouse.vala:57
-msgid "Pointer Acceleration"
-msgstr "Прискорення вказівника"
-
-#: src/Views/Pointing.vala:20
-msgid "Control Pointer Using Keypad"
-msgstr "Управління вказівником за допомогою клавіатури"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -295,17 +265,9 @@ msgstr "Середній"
 msgid "Large"
 msgstr "Великий"
 
-#: src/Views/Pointing.vala:76
-msgid "Reveal Pointer"
-msgstr "Показати вказівник"
-
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Натискання клавіші Contol підсвітить позицію вказівника"
-
-#: src/Views/Pointing.vala:83
-msgid "Pointer Size"
-msgstr "Розмір вказівника"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -314,18 +276,6 @@ msgstr "Мультитач"
 #: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "Ділянки"
-
-#: src/Views/Touchpad.vala:64
-msgid "Physical Secondary Clicking"
-msgstr "Фізичне вторинне натискання"
-
-#: src/Views/Touchpad.vala:74
-msgid "Double-tap and move to drag"
-msgstr "Двічі торкнутися та перемістити, щоб перетягнути"
-
-#: src/Views/Touchpad.vala:82
-msgid "Scroll Method"
-msgstr "Спосіб прокручування"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -350,6 +300,45 @@ msgstr "Коли під'єднано мишу"
 #: src/Views/Touchpad.vala:147
 msgid "Tapping"
 msgstr "Торкання"
+
+#~ msgid "Double-click speed"
+#~ msgstr "Швидкість подвійного натискання"
+
+#~ msgid "Dwell click"
+#~ msgstr "Натискання наведенням"
+
+#~ msgid "Primary button"
+#~ msgstr "Основна кнопка"
+
+#~ msgid "Long-press secondary click"
+#~ msgstr "Затискання вторинною кнопкою"
+
+#~ msgid "Middle click paste"
+#~ msgstr "Вставити середньою кнопкою"
+
+#~ msgid "Pointer speed"
+#~ msgstr "Швидкість вказівника"
+
+#~ msgid "Pointer acceleration"
+#~ msgstr "Прискорення вказівника"
+
+#~ msgid "Natural scrolling"
+#~ msgstr "Природне прокручування"
+
+#~ msgid "Pointer size"
+#~ msgstr "Розмір вказівника"
+
+#~ msgid "Reveal pointer"
+#~ msgstr "Показати вказівник"
+
+#~ msgid "Control pointer using keypad"
+#~ msgstr "Управління вказівником за допомогою клавіатури"
+
+#~ msgid "Physical clicking"
+#~ msgstr "Фізичне натискання"
+
+#~ msgid "Scrolling"
+#~ msgstr "Прокручування"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "Швидкість вказівника:"

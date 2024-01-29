@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"POT-Creation-Date: 2024-01-29 23:57+0000\n"
 "PO-Revision-Date: 2021-09-08 09:21+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -32,24 +32,34 @@ msgstr "配置鼠标和触控板"
 msgid "Clicking"
 msgstr "点击"
 
-#: src/Plug.vala:129
-msgid "Double-click speed"
+#: src/Plug.vala:129 src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
 msgstr "双击速度"
 
-#: src/Plug.vala:130
-msgid "Dwell click"
+#: src/Plug.vala:130 src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
 msgstr "自动点击"
 
-#: src/Plug.vala:131
-msgid "Primary button"
+#: src/Plug.vala:131 src/Views/Clicking.vala:30
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
 msgstr "主按键"
 
-#: src/Plug.vala:132
-msgid "Long-press secondary click"
+#: src/Plug.vala:132 src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
 msgstr "二级点击"
 
-#: src/Plug.vala:133
-msgid "Middle click paste"
+#: src/Plug.vala:133 src/Views/Clicking.vala:167
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
 msgstr "中键粘贴"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
@@ -57,37 +67,51 @@ msgstr "中键粘贴"
 msgid "Mouse"
 msgstr "鼠标"
 
-#: src/Plug.vala:136 src/Plug.vala:146
-msgid "Pointer speed"
+#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
 msgstr "指针速度"
 
-#: src/Plug.vala:137
-msgid "Pointer acceleration"
+#: src/Plug.vala:137 src/Views/Mouse.vala:57
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
 msgstr "指针加速"
 
-#: src/Plug.vala:138 src/Plug.vala:150
-msgid "Natural scrolling"
+#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
 msgstr "自然滚动"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "指针"
 
-#: src/Plug.vala:141
-msgid "Pointer size"
+#: src/Plug.vala:141 src/Views/Pointing.vala:85
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
 msgstr "指针大小"
 
-#: src/Plug.vala:142
-msgid "Reveal pointer"
+#: src/Plug.vala:142 src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
 msgstr "显示指针"
 
-#: src/Plug.vala:143
-msgid "Control pointer using keypad"
+#: src/Plug.vala:143 src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
 msgstr "数字键盘控制指针"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "触控板"
 
@@ -95,48 +119,50 @@ msgstr "触控板"
 msgid "Tap to click"
 msgstr "轻触点击"
 
-#: src/Plug.vala:148
-msgid "Physical clicking"
-msgstr "物理点击"
+#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+msgid "Double-tap and move to drag"
+msgstr "双击并移动来拖放"
 
-#: src/Plug.vala:149
-msgid "Scrolling"
-msgstr "滚动设置"
+#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+#, fuzzy
+#| msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
+msgstr "物理二次点击："
 
-#: src/Plug.vala:151
+#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+#, fuzzy
+#| msgid "Scroll method:"
+msgid "Scroll Method"
+msgstr "滚动方式："
+
+#: src/Plug.vala:152
 msgid "Ignore while typing"
 msgstr "键盘输入时禁用"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:153
 msgid "Ignore when mouse is connected"
 msgstr "接入鼠标时忽略"
 
-#: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
+#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "手势控制"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "多任务视图"
 
-#: src/Plug.vala:157
+#: src/Plug.vala:158
 msgid "Switch Workspaces"
 msgstr "切换工作区"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:159
 msgid "Maximize Window"
 msgstr "窗口最大化"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "行为"
-
-#: src/Views/Clicking.vala:30
-#, fuzzy
-#| msgid "Primary button"
-msgid "Primary Button"
-msgstr "主按键"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -146,47 +172,23 @@ msgstr "左声道"
 msgid "Right"
 msgstr "右声道"
 
-#: src/Views/Clicking.vala:71
-#, fuzzy
-#| msgid "Long-press secondary click"
-msgid "Long-press Secondary Click"
-msgstr "二级点击"
-
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "长按并放开主按键将激活二级点击"
-
-#: src/Views/Clicking.vala:102
-#, fuzzy
-#| msgid "Double-click speed"
-msgid "Double-click Speed"
-msgstr "双击速度"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "双击判定间隔的长短"
 
-#: src/Views/Clicking.vala:112
-#, fuzzy
-#| msgid "Dwell click"
-msgid "Dwell Click"
-msgstr "自动点击"
-
 #: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "保持指针不动激活自动点击"
 
-#: src/Views/Clicking.vala:163
-#, fuzzy
-#| msgid "Middle click paste"
-msgid "Middle Click Paste"
-msgstr "中键粘贴"
-
-#: src/Views/Clicking.vala:165
+#: src/Views/Clicking.vala:169
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "中键或三指点击将会粘贴选中文本"
 
-#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"
@@ -240,7 +242,7 @@ msgstr "捏合"
 msgid "Zoom"
 msgstr "缩放"
 
-#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
+#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
 msgid "Toggle maximized"
 msgstr "切换窗口最大化"
 
@@ -258,12 +260,6 @@ msgstr ""
 msgid "Faster"
 msgstr ""
 
-#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "指针速度"
-
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "硬件默认"
@@ -276,27 +272,9 @@ msgstr "无"
 msgid "Adaptive"
 msgstr "自适应的"
 
-#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "自然滚动"
-
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
 msgstr ""
-
-#: src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
-msgid "Pointer Acceleration"
-msgstr "指针加速"
-
-#: src/Views/Pointing.vala:20
-#, fuzzy
-#| msgid "Control pointer using keypad"
-msgid "Control Pointer Using Keypad"
-msgstr "数字键盘控制指针"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -314,21 +292,9 @@ msgstr "适中"
 msgid "Large"
 msgstr "较大"
 
-#: src/Views/Pointing.vala:76
-#, fuzzy
-#| msgid "Reveal pointer"
-msgid "Reveal Pointer"
-msgstr "显示指针"
-
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "按住 Ctrl 键时高亮指针所在位置"
-
-#: src/Views/Pointing.vala:83
-#, fuzzy
-#| msgid "Pointer size"
-msgid "Pointer Size"
-msgstr "指针大小"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -337,22 +303,6 @@ msgstr "多指触控"
 #: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "区域"
-
-#: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
-msgid "Physical Secondary Clicking"
-msgstr "物理二次点击："
-
-#: src/Views/Touchpad.vala:74
-msgid "Double-tap and move to drag"
-msgstr "双击并移动来拖放"
-
-#: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
-msgid "Scroll Method"
-msgstr "滚动方式："
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -381,6 +331,45 @@ msgstr "接入鼠标时"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "轻触："
+
+#~ msgid "Double-click speed"
+#~ msgstr "双击速度"
+
+#~ msgid "Dwell click"
+#~ msgstr "自动点击"
+
+#~ msgid "Primary button"
+#~ msgstr "主按键"
+
+#~ msgid "Long-press secondary click"
+#~ msgstr "二级点击"
+
+#~ msgid "Middle click paste"
+#~ msgstr "中键粘贴"
+
+#~ msgid "Pointer speed"
+#~ msgstr "指针速度"
+
+#~ msgid "Pointer acceleration"
+#~ msgstr "指针加速"
+
+#~ msgid "Natural scrolling"
+#~ msgstr "自然滚动"
+
+#~ msgid "Pointer size"
+#~ msgstr "指针大小"
+
+#~ msgid "Reveal pointer"
+#~ msgstr "显示指针"
+
+#~ msgid "Control pointer using keypad"
+#~ msgstr "数字键盘控制指针"
+
+#~ msgid "Physical clicking"
+#~ msgstr "物理点击"
+
+#~ msgid "Scrolling"
+#~ msgstr "滚动设置"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "指针速度："

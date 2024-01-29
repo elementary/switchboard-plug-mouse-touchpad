@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"POT-Creation-Date: 2024-01-29 23:57+0000\n"
 "PO-Revision-Date: 2022-01-10 21:59+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
@@ -32,24 +32,34 @@ msgstr "Nastavit myš a touchpad"
 msgid "Clicking"
 msgstr "Klikání"
 
-#: src/Plug.vala:129
-msgid "Double-click speed"
+#: src/Plug.vala:129 src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
 msgstr "Rychlost dvojkliku"
 
-#: src/Plug.vala:130
-msgid "Dwell click"
+#: src/Plug.vala:130 src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
 msgstr "Kliknutí posečkáním"
 
-#: src/Plug.vala:131
-msgid "Primary button"
+#: src/Plug.vala:131 src/Views/Clicking.vala:30
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
 msgstr "Levé tlačítko"
 
-#: src/Plug.vala:132
-msgid "Long-press secondary click"
+#: src/Plug.vala:132 src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
 msgstr "Kliknutí pravým tlačítkem podržením levého"
 
-#: src/Plug.vala:133
-msgid "Middle click paste"
+#: src/Plug.vala:133 src/Views/Clicking.vala:167
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
 msgstr "Vkládání prostředním tlačítkem"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
@@ -57,37 +67,51 @@ msgstr "Vkládání prostředním tlačítkem"
 msgid "Mouse"
 msgstr "Myš"
 
-#: src/Plug.vala:136 src/Plug.vala:146
-msgid "Pointer speed"
+#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
 msgstr "Rychlost ukazatele"
 
-#: src/Plug.vala:137
-msgid "Pointer acceleration"
+#: src/Plug.vala:137 src/Views/Mouse.vala:57
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
 msgstr "Zrychlení ukazatele"
 
-#: src/Plug.vala:138 src/Plug.vala:150
-msgid "Natural scrolling"
+#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
 msgstr "Přirozené posouvání"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Ukazatel"
 
-#: src/Plug.vala:141
-msgid "Pointer size"
+#: src/Plug.vala:141 src/Views/Pointing.vala:85
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
 msgstr "Velikost ukazatele"
 
-#: src/Plug.vala:142
-msgid "Reveal pointer"
+#: src/Plug.vala:142 src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
 msgstr "Zvýraznit ukazatel"
 
-#: src/Plug.vala:143
-msgid "Control pointer using keypad"
+#: src/Plug.vala:143 src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
 msgstr "Ovládání ukazatele klávesami"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "Touchpad"
 
@@ -95,48 +119,50 @@ msgstr "Touchpad"
 msgid "Tap to click"
 msgstr "Kliknutí klepnutím"
 
-#: src/Plug.vala:148
-msgid "Physical clicking"
-msgstr "Klikání tlačítky"
+#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+msgid "Double-tap and move to drag"
+msgstr "Přetahování dvojitým klepnutím a posunutím"
 
-#: src/Plug.vala:149
-msgid "Scrolling"
-msgstr "Posouvání"
+#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+#, fuzzy
+#| msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
+msgstr "Kliknutí skutečným pravým tlačítkem:"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+#, fuzzy
+#| msgid "Scroll method:"
+msgid "Scroll Method"
+msgstr "Metoda posunování:"
+
+#: src/Plug.vala:152
 msgid "Ignore while typing"
 msgstr "Ignorovat při psaní"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:153
 msgid "Ignore when mouse is connected"
 msgstr "Ignorovat při připojení myši"
 
-#: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
+#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Gesta"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "Zobrazení multitaskingu"
 
-#: src/Plug.vala:157
+#: src/Plug.vala:158
 msgid "Switch Workspaces"
 msgstr "Přepnout pracovní plochy"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:159
 msgid "Maximize Window"
 msgstr "Maximalizovat okno"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "Chování"
-
-#: src/Views/Clicking.vala:30
-#, fuzzy
-#| msgid "Primary button"
-msgid "Primary Button"
-msgstr "Levé tlačítko"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -146,50 +172,26 @@ msgstr "Levé"
 msgid "Right"
 msgstr "Pravé"
 
-#: src/Views/Clicking.vala:71
-#, fuzzy
-#| msgid "Long-press secondary click"
-msgid "Long-press Secondary Click"
-msgstr "Kliknutí pravým tlačítkem podržením levého"
-
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Podržení a uvolnění primárního tlačítka provede kliknutí pravým tlačítkem"
 
-#: src/Views/Clicking.vala:102
-#, fuzzy
-#| msgid "Double-click speed"
-msgid "Double-click Speed"
-msgstr "Rychlost dvojkliku"
-
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Jak rychle za sebou musí dvě kliknutí být, aby vyvolaly dvojklik"
-
-#: src/Views/Clicking.vala:112
-#, fuzzy
-#| msgid "Dwell click"
-msgid "Dwell Click"
-msgstr "Kliknutí posečkáním"
 
 #: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "Nepohybováním ukazatelem dojde k automatickému kliknutí"
 
-#: src/Views/Clicking.vala:163
-#, fuzzy
-#| msgid "Middle click paste"
-msgid "Middle Click Paste"
-msgstr "Vkládání prostředním tlačítkem"
-
-#: src/Views/Clicking.vala:165
+#: src/Views/Clicking.vala:169
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Kliknutí prostředním tlačítkem nebo třemi prsty na vstup vloží jakýkoli "
 "vybraný text"
 
-#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"
@@ -241,7 +243,7 @@ msgstr "Pinch"
 msgid "Zoom"
 msgstr "Přiblížit"
 
-#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
+#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
 msgid "Toggle maximized"
 msgstr "Vyp/zap. maximalizaci"
 
@@ -259,12 +261,6 @@ msgstr ""
 msgid "Faster"
 msgstr ""
 
-#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "Rychlost ukazatele"
-
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Výchozí pro hardware"
@@ -277,27 +273,9 @@ msgstr "Žádný"
 msgid "Adaptive"
 msgstr "Adaptivní"
 
-#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "Přirozené posouvání"
-
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
 msgstr ""
-
-#: src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
-msgid "Pointer Acceleration"
-msgstr "Zrychlení ukazatele"
-
-#: src/Views/Pointing.vala:20
-#, fuzzy
-#| msgid "Control pointer using keypad"
-msgid "Control Pointer Using Keypad"
-msgstr "Ovládání ukazatele klávesami"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -315,21 +293,9 @@ msgstr "Střední"
 msgid "Large"
 msgstr "Velká"
 
-#: src/Views/Pointing.vala:76
-#, fuzzy
-#| msgid "Reveal pointer"
-msgid "Reveal Pointer"
-msgstr "Zvýraznit ukazatel"
-
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Stisknutí klávesy Control zvýrazní pozici ukazatele"
-
-#: src/Views/Pointing.vala:83
-#, fuzzy
-#| msgid "Pointer size"
-msgid "Pointer Size"
-msgstr "Velikost ukazatele"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -338,22 +304,6 @@ msgstr "Vícedotykový"
 #: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "Oblasti"
-
-#: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
-msgid "Physical Secondary Clicking"
-msgstr "Kliknutí skutečným pravým tlačítkem:"
-
-#: src/Views/Touchpad.vala:74
-msgid "Double-tap and move to drag"
-msgstr "Přetahování dvojitým klepnutím a posunutím"
-
-#: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
-msgid "Scroll Method"
-msgstr "Metoda posunování:"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -382,6 +332,45 @@ msgstr "Při připojení myši"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "Klepání:"
+
+#~ msgid "Double-click speed"
+#~ msgstr "Rychlost dvojkliku"
+
+#~ msgid "Dwell click"
+#~ msgstr "Kliknutí posečkáním"
+
+#~ msgid "Primary button"
+#~ msgstr "Levé tlačítko"
+
+#~ msgid "Long-press secondary click"
+#~ msgstr "Kliknutí pravým tlačítkem podržením levého"
+
+#~ msgid "Middle click paste"
+#~ msgstr "Vkládání prostředním tlačítkem"
+
+#~ msgid "Pointer speed"
+#~ msgstr "Rychlost ukazatele"
+
+#~ msgid "Pointer acceleration"
+#~ msgstr "Zrychlení ukazatele"
+
+#~ msgid "Natural scrolling"
+#~ msgstr "Přirozené posouvání"
+
+#~ msgid "Pointer size"
+#~ msgstr "Velikost ukazatele"
+
+#~ msgid "Reveal pointer"
+#~ msgstr "Zvýraznit ukazatel"
+
+#~ msgid "Control pointer using keypad"
+#~ msgstr "Ovládání ukazatele klávesami"
+
+#~ msgid "Physical clicking"
+#~ msgstr "Klikání tlačítky"
+
+#~ msgid "Scrolling"
+#~ msgstr "Posouvání"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "Rychlost ukazatele:"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"POT-Creation-Date: 2024-01-29 23:57+0000\n"
 "PO-Revision-Date: 2023-12-08 15:02+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -32,62 +32,76 @@ msgstr "Configureer muis en touchpad"
 msgid "Clicking"
 msgstr "Klikken"
 
-#: src/Plug.vala:129
-msgid "Double-click speed"
-msgstr "Dubbelklik snelheid"
+#: src/Plug.vala:129 src/Views/Clicking.vala:102
+msgid "Double-click Speed"
+msgstr "Dubbelkliksnelheid"
 
-#: src/Plug.vala:130
-msgid "Dwell click"
+#: src/Plug.vala:130 src/Views/Clicking.vala:112
+msgid "Dwell Click"
 msgstr "Zwevend klikken"
 
-#: src/Plug.vala:131
-msgid "Primary button"
+#: src/Plug.vala:131 src/Views/Clicking.vala:30
+msgid "Primary Button"
 msgstr "Primaire knop"
 
-#: src/Plug.vala:132
-msgid "Long-press secondary click"
+#: src/Plug.vala:132 src/Views/Clicking.vala:71
+msgid "Long-press Secondary Click"
 msgstr "Lang indrukken secundaire klik"
 
-#: src/Plug.vala:133
-msgid "Middle click paste"
-msgstr "Plakken met midden klik"
+#: src/Plug.vala:133 src/Views/Clicking.vala:167
+msgid "Middle Click Paste"
+msgstr "Plakken met middelklik"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
 #: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "Muis"
 
-#: src/Plug.vala:136 src/Plug.vala:146
-msgid "Pointer speed"
+#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
 msgstr "Aanwijzer snelheid"
 
-#: src/Plug.vala:137
-msgid "Pointer acceleration"
+#: src/Plug.vala:137 src/Views/Mouse.vala:57
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
 msgstr "Aanwijzer acceleratie"
 
-#: src/Plug.vala:138 src/Plug.vala:150
-msgid "Natural scrolling"
+#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
 msgstr "Natuurlijk scrollen"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Aanwijzen"
 
-#: src/Plug.vala:141
-msgid "Pointer size"
+#: src/Plug.vala:141 src/Views/Pointing.vala:85
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
 msgstr "Grootte van de aanwijzer"
 
-#: src/Plug.vala:142
-msgid "Reveal pointer"
+#: src/Plug.vala:142 src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
 msgstr "Aanwijzer tonen"
 
-#: src/Plug.vala:143
-msgid "Control pointer using keypad"
+#: src/Plug.vala:143 src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
 msgstr "Verplaats aanwijzer met het keypad"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "Touchpad"
 
@@ -95,46 +109,50 @@ msgstr "Touchpad"
 msgid "Tap to click"
 msgstr "Tik om te klikken"
 
-#: src/Plug.vala:148
-msgid "Physical clicking"
-msgstr "Fysiek klikken"
+#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+msgid "Double-tap and move to drag"
+msgstr "Twee keer aantikken en dan verplaatsen om te slepen"
 
-#: src/Plug.vala:149
-msgid "Scrolling"
-msgstr "Scrollen"
+#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+#, fuzzy
+#| msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
+msgstr "Fysiek secundair klikken:"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+#, fuzzy
+#| msgid "Scroll method:"
+msgid "Scroll Method"
+msgstr "Scroll methode:"
+
+#: src/Plug.vala:152
 msgid "Ignore while typing"
 msgstr "Zet uit tijdens typen"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:153
 msgid "Ignore when mouse is connected"
 msgstr "Negeren als een muis is verbonden"
 
-#: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
+#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Gebaren"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "Multitasking weergave"
 
-#: src/Plug.vala:157
+#: src/Plug.vala:158
 msgid "Switch Workspaces"
 msgstr "Schakel tussen werkbladen"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:159
 msgid "Maximize Window"
 msgstr "Venster maximaliseren"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "Gedrag"
-
-#: src/Views/Clicking.vala:30
-msgid "Primary Button"
-msgstr "Primaire knop"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -144,40 +162,24 @@ msgstr "Links"
 msgid "Right"
 msgstr "Rechts"
 
-#: src/Views/Clicking.vala:71
-msgid "Long-press Secondary Click"
-msgstr "Lang indrukken secundaire klik"
-
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Lang indrukken en loslaten van de primaire knop voor een secundaire klik"
 
-#: src/Views/Clicking.vala:102
-msgid "Double-click Speed"
-msgstr "Dubbelkliksnelheid"
-
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Hoe snel worden twee kliks achter elkaar gezien als dubbelklikken"
-
-#: src/Views/Clicking.vala:112
-msgid "Dwell Click"
-msgstr "Zwevend klikken"
 
 #: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "Houd de aanwijzer stil om automatisch te klikken"
 
-#: src/Views/Clicking.vala:163
-msgid "Middle Click Paste"
-msgstr "Plakken met middelklik"
-
-#: src/Views/Clicking.vala:165
+#: src/Views/Clicking.vala:169
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Midden of drie-vinger klik op een input veld plakt geselecteerde tekst"
 
-#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f seconden"
@@ -226,7 +228,7 @@ msgstr "Knijp"
 msgid "Zoom"
 msgstr "Vergroten"
 
-#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
+#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
 msgid "Toggle maximized"
 msgstr "Maximaliseren"
 
@@ -244,12 +246,6 @@ msgstr ""
 msgid "Faster"
 msgstr ""
 
-#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "Aanwijzer snelheid"
-
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Hardware standaardinstelling"
@@ -262,27 +258,9 @@ msgstr "Geen"
 msgid "Adaptive"
 msgstr "Aangepaste"
 
-#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "Natuurlijk scrollen"
-
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
 msgstr ""
-
-#: src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
-msgid "Pointer Acceleration"
-msgstr "Aanwijzer acceleratie"
-
-#: src/Views/Pointing.vala:20
-#, fuzzy
-#| msgid "Control pointer using keypad"
-msgid "Control Pointer Using Keypad"
-msgstr "Verplaats aanwijzer met het keypad"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -300,22 +278,10 @@ msgstr "Middel"
 msgid "Large"
 msgstr "Groot"
 
-#: src/Views/Pointing.vala:76
-#, fuzzy
-#| msgid "Reveal pointer"
-msgid "Reveal Pointer"
-msgstr "Aanwijzer tonen"
-
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr ""
 "Houd de Control-toets ingedrukt om de positie van de aanwijzer te laten zien"
-
-#: src/Views/Pointing.vala:83
-#, fuzzy
-#| msgid "Pointer size"
-msgid "Pointer Size"
-msgstr "Grootte van de aanwijzer"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -324,22 +290,6 @@ msgstr "Gebaren"
 #: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "Gebieden"
-
-#: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
-msgid "Physical Secondary Clicking"
-msgstr "Fysiek secundair klikken:"
-
-#: src/Views/Touchpad.vala:74
-msgid "Double-tap and move to drag"
-msgstr "Twee keer aantikken en dan verplaatsen om te slepen"
-
-#: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
-msgid "Scroll Method"
-msgstr "Scroll methode:"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -368,6 +318,45 @@ msgstr "Als muis verbonden is"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "Tikken:"
+
+#~ msgid "Double-click speed"
+#~ msgstr "Dubbelklik snelheid"
+
+#~ msgid "Dwell click"
+#~ msgstr "Zwevend klikken"
+
+#~ msgid "Primary button"
+#~ msgstr "Primaire knop"
+
+#~ msgid "Long-press secondary click"
+#~ msgstr "Lang indrukken secundaire klik"
+
+#~ msgid "Middle click paste"
+#~ msgstr "Plakken met midden klik"
+
+#~ msgid "Pointer speed"
+#~ msgstr "Aanwijzer snelheid"
+
+#~ msgid "Pointer acceleration"
+#~ msgstr "Aanwijzer acceleratie"
+
+#~ msgid "Natural scrolling"
+#~ msgstr "Natuurlijk scrollen"
+
+#~ msgid "Pointer size"
+#~ msgstr "Grootte van de aanwijzer"
+
+#~ msgid "Reveal pointer"
+#~ msgstr "Aanwijzer tonen"
+
+#~ msgid "Control pointer using keypad"
+#~ msgstr "Verplaats aanwijzer met het keypad"
+
+#~ msgid "Physical clicking"
+#~ msgstr "Fysiek klikken"
+
+#~ msgid "Scrolling"
+#~ msgstr "Scrollen"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "Cursorsnelheid:"

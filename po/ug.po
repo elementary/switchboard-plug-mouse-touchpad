@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"POT-Creation-Date: 2024-01-29 23:57+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Uyghur <https://l10n.elementary.io/projects/switchboard/"
@@ -32,25 +32,25 @@ msgstr "مائۇس ۋە تەگتاختىنى تەڭشەش"
 msgid "Clicking"
 msgstr ""
 
-#: src/Plug.vala:129
-msgid "Double-click speed"
+#: src/Plug.vala:129 src/Views/Clicking.vala:102
+msgid "Double-click Speed"
 msgstr ""
 
-#: src/Plug.vala:130
-msgid "Dwell click"
+#: src/Plug.vala:130 src/Views/Clicking.vala:112
+msgid "Dwell Click"
 msgstr ""
 
-#: src/Plug.vala:131
+#: src/Plug.vala:131 src/Views/Clicking.vala:30
 #, fuzzy
-msgid "Primary button"
+msgid "Primary Button"
 msgstr "ئاساسىي كۇنۇپكا"
 
-#: src/Plug.vala:132
-msgid "Long-press secondary click"
+#: src/Plug.vala:132 src/Views/Clicking.vala:71
+msgid "Long-press Secondary Click"
 msgstr ""
 
-#: src/Plug.vala:133
-msgid "Middle click paste"
+#: src/Plug.vala:133 src/Views/Clicking.vala:167
+msgid "Middle Click Paste"
 msgstr ""
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
@@ -58,43 +58,45 @@ msgstr ""
 msgid "Mouse"
 msgstr "مائۇس"
 
-#: src/Plug.vala:136 src/Plug.vala:146
+#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
+#: src/Views/Touchpad.vala:31
 #, fuzzy
-msgid "Pointer speed"
+msgid "Pointer Speed"
 msgstr "مائۇس سترېلكىسى سۈرئىتى"
 
-#: src/Plug.vala:137
+#: src/Plug.vala:137 src/Views/Mouse.vala:57
 #, fuzzy
-msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
 msgstr "مائۇس سترېلكىسى سۈرئىتى"
 
-#: src/Plug.vala:138 src/Plug.vala:150
+#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
+#: src/Views/Touchpad.vala:122
 #, fuzzy
-msgid "Natural scrolling"
+msgid "Natural Scrolling"
 msgstr "تەبىئىي سىيرىلىش"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr ""
 
-#: src/Plug.vala:141
+#: src/Plug.vala:141 src/Views/Pointing.vala:85
 #, fuzzy
 #| msgid "Pointer speed:"
-msgid "Pointer size"
+msgid "Pointer Size"
 msgstr "مائۇس سترېلكىسى سۈرئىتى"
 
-#: src/Plug.vala:142
+#: src/Plug.vala:142 src/Views/Pointing.vala:76
 #, fuzzy
-msgid "Reveal pointer"
+msgid "Reveal Pointer"
 msgstr "كۆرسىتىش سترېلكىسى"
 
-#: src/Plug.vala:143
-msgid "Control pointer using keypad"
+#: src/Plug.vala:143 src/Views/Pointing.vala:20
+msgid "Control Pointer Using Keypad"
 msgstr ""
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "تەگتاختا"
 
@@ -103,49 +105,48 @@ msgstr "تەگتاختا"
 msgid "Tap to click"
 msgstr "يىنىك بېسىش"
 
-#: src/Plug.vala:148
-#, fuzzy
-msgid "Physical clicking"
-msgstr "تەگتاختا كۇنۇپكىسى"
+#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+msgid "Double-tap and move to drag"
+msgstr ""
 
-#: src/Plug.vala:149
+#: src/Plug.vala:149 src/Views/Touchpad.vala:64
 #, fuzzy
-msgid "Scrolling"
-msgstr "يانغالتەك"
+#| msgid "Physical clicking:"
+msgid "Physical Secondary Clicking"
+msgstr "تەگتاختا كۇنۇپكىسى:"
 
-#: src/Plug.vala:151
-msgid "Ignore while typing"
+#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+msgid "Scroll Method"
 msgstr ""
 
 #: src/Plug.vala:152
+msgid "Ignore while typing"
+msgstr ""
+
+#: src/Plug.vala:153
 msgid "Ignore when mouse is connected"
 msgstr ""
 
-#: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
+#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr ""
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "كۆپ ۋەزىپىلىك كۆرۈنۈش"
 
-#: src/Plug.vala:157
+#: src/Plug.vala:158
 msgid "Switch Workspaces"
 msgstr ""
 
-#: src/Plug.vala:158
+#: src/Plug.vala:159
 msgid "Maximize Window"
 msgstr ""
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "ھەركەت"
-
-#: src/Views/Clicking.vala:30
-#, fuzzy
-msgid "Primary Button"
-msgstr "ئاساسىي كۇنۇپكا"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -155,39 +156,23 @@ msgstr "سول"
 msgid "Right"
 msgstr "ئوڭ"
 
-#: src/Views/Clicking.vala:71
-msgid "Long-press Secondary Click"
-msgstr ""
-
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
-msgstr ""
-
-#: src/Views/Clicking.vala:102
-msgid "Double-click Speed"
 msgstr ""
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:112
-msgid "Dwell Click"
-msgstr ""
-
 #: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:163
-msgid "Middle Click Paste"
-msgstr ""
-
-#: src/Views/Clicking.vala:165
+#: src/Views/Clicking.vala:169
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 
-#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"
@@ -239,7 +224,7 @@ msgstr ""
 msgid "Zoom"
 msgstr "كىچىكلىتىش"
 
-#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
+#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
 msgid "Toggle maximized"
 msgstr ""
 
@@ -257,11 +242,6 @@ msgstr ""
 msgid "Faster"
 msgstr ""
 
-#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-#, fuzzy
-msgid "Pointer Speed"
-msgstr "مائۇس سترېلكىسى سۈرئىتى"
-
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "قاتتىق دىتال ئەسلى ھالىتى"
@@ -274,22 +254,8 @@ msgstr "يوق"
 msgid "Adaptive"
 msgstr ""
 
-#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-#, fuzzy
-msgid "Natural Scrolling"
-msgstr "تەبىئىي سىيرىلىش"
-
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
-msgstr ""
-
-#: src/Views/Mouse.vala:57
-#, fuzzy
-msgid "Pointer Acceleration"
-msgstr "مائۇس سترېلكىسى سۈرئىتى"
-
-#: src/Views/Pointing.vala:20
-msgid "Control Pointer Using Keypad"
 msgstr ""
 
 #: src/Views/Pointing.vala:21
@@ -308,20 +274,9 @@ msgstr ""
 msgid "Large"
 msgstr "چوڭ"
 
-#: src/Views/Pointing.vala:76
-#, fuzzy
-msgid "Reveal Pointer"
-msgstr "كۆرسىتىش سترېلكىسى"
-
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Ctrl كۇنۇپكىسىنى باسسىڭىز مائۇس ئىستېرلكىسىنىڭ ئورنىنى كۆرسىتىپ بىرىدۇ"
-
-#: src/Views/Pointing.vala:83
-#, fuzzy
-#| msgid "Pointer speed:"
-msgid "Pointer Size"
-msgstr "مائۇس سترېلكىسى سۈرئىتى"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -329,20 +284,6 @@ msgstr "كۆپ بارماق"
 
 #: src/Views/Touchpad.vala:54
 msgid "Areas"
-msgstr ""
-
-#: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical clicking:"
-msgid "Physical Secondary Clicking"
-msgstr "تەگتاختا كۇنۇپكىسى:"
-
-#: src/Views/Touchpad.vala:74
-msgid "Double-tap and move to drag"
-msgstr ""
-
-#: src/Views/Touchpad.vala:82
-msgid "Scroll Method"
 msgstr ""
 
 #: src/Views/Touchpad.vala:87
@@ -368,6 +309,39 @@ msgstr ""
 #: src/Views/Touchpad.vala:147
 msgid "Tapping"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Primary button"
+#~ msgstr "ئاساسىي كۇنۇپكا"
+
+#, fuzzy
+#~ msgid "Pointer speed"
+#~ msgstr "مائۇس سترېلكىسى سۈرئىتى"
+
+#, fuzzy
+#~ msgid "Pointer acceleration"
+#~ msgstr "مائۇس سترېلكىسى سۈرئىتى"
+
+#, fuzzy
+#~ msgid "Natural scrolling"
+#~ msgstr "تەبىئىي سىيرىلىش"
+
+#, fuzzy
+#~| msgid "Pointer speed:"
+#~ msgid "Pointer size"
+#~ msgstr "مائۇس سترېلكىسى سۈرئىتى"
+
+#, fuzzy
+#~ msgid "Reveal pointer"
+#~ msgstr "كۆرسىتىش سترېلكىسى"
+
+#, fuzzy
+#~ msgid "Physical clicking"
+#~ msgstr "تەگتاختا كۇنۇپكىسى"
+
+#, fuzzy
+#~ msgid "Scrolling"
+#~ msgstr "يانغالتەك"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "مائۇس سترېلكىسى سۈرئىتى:"

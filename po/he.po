@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"POT-Creation-Date: 2024-01-29 23:57+0000\n"
 "PO-Revision-Date: 2024-01-27 17:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
@@ -31,24 +31,24 @@ msgstr "הגדרת עכבר ומשטח מגע"
 msgid "Clicking"
 msgstr "לחיצה"
 
-#: src/Plug.vala:129
-msgid "Double-click speed"
+#: src/Plug.vala:129 src/Views/Clicking.vala:102
+msgid "Double-click Speed"
 msgstr "מהירות לחיצה כפולה"
 
-#: src/Plug.vala:130
-msgid "Dwell click"
+#: src/Plug.vala:130 src/Views/Clicking.vala:112
+msgid "Dwell Click"
 msgstr "השהיית לחיצה"
 
-#: src/Plug.vala:131
-msgid "Primary button"
+#: src/Plug.vala:131 src/Views/Clicking.vala:30
+msgid "Primary Button"
 msgstr "כפתור עיקרי"
 
-#: src/Plug.vala:132
-msgid "Long-press secondary click"
+#: src/Plug.vala:132 src/Views/Clicking.vala:71
+msgid "Long-press Secondary Click"
 msgstr "לחיצה ארוכה על כפתור משני"
 
-#: src/Plug.vala:133
-msgid "Middle click paste"
+#: src/Plug.vala:133 src/Views/Clicking.vala:167
+msgid "Middle Click Paste"
 msgstr "הדבקה עם כפתור אמצעי"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
@@ -56,37 +56,39 @@ msgstr "הדבקה עם כפתור אמצעי"
 msgid "Mouse"
 msgstr "עכבר"
 
-#: src/Plug.vala:136 src/Plug.vala:146
-msgid "Pointer speed"
+#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
+#: src/Views/Touchpad.vala:31
+msgid "Pointer Speed"
 msgstr "מהירות המצביע"
 
-#: src/Plug.vala:137
-msgid "Pointer acceleration"
+#: src/Plug.vala:137 src/Views/Mouse.vala:57
+msgid "Pointer Acceleration"
 msgstr "האצת סמן"
 
-#: src/Plug.vala:138 src/Plug.vala:150
-msgid "Natural scrolling"
+#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
+#: src/Views/Touchpad.vala:122
+msgid "Natural Scrolling"
 msgstr "גלילה טבעית"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "הצבעה"
 
-#: src/Plug.vala:141
-msgid "Pointer size"
+#: src/Plug.vala:141 src/Views/Pointing.vala:85
+msgid "Pointer Size"
 msgstr "גודל סמן"
 
-#: src/Plug.vala:142
-msgid "Reveal pointer"
+#: src/Plug.vala:142 src/Views/Pointing.vala:76
+msgid "Reveal Pointer"
 msgstr "חשיפת הסמן"
 
-#: src/Plug.vala:143
-msgid "Control pointer using keypad"
+#: src/Plug.vala:143 src/Views/Pointing.vala:20
+msgid "Control Pointer Using Keypad"
 msgstr "שליטה בסמן בעזרת הלוח הנומרי"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "משטח מגע"
 
@@ -94,46 +96,46 @@ msgstr "משטח מגע"
 msgid "Tap to click"
 msgstr "נגיעה לצורך לחיצה"
 
-#: src/Plug.vala:148
-msgid "Physical clicking"
-msgstr "לחיצה פיזית"
+#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+msgid "Double-tap and move to drag"
+msgstr "נגיעה כפולה והזזה כדי לגרור"
 
-#: src/Plug.vala:149
-msgid "Scrolling"
-msgstr "גלילה"
+#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+msgid "Physical Secondary Clicking"
+msgstr "לחיצה משנית פיזית"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+msgid "Scroll Method"
+msgstr "שיטת גלילה"
+
+#: src/Plug.vala:152
 msgid "Ignore while typing"
 msgstr "התעלמות בעת הקלדה"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:153
 msgid "Ignore when mouse is connected"
 msgstr "להתעלם כשהעכבר מחובר"
 
-#: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
+#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "מחוות"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "תצוגת ריבוי משימות"
 
-#: src/Plug.vala:157
+#: src/Plug.vala:158
 msgid "Switch Workspaces"
 msgstr "מעבר בין סביבות עבודה"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:159
 msgid "Maximize Window"
 msgstr "הגדלת חלון"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "התנהגות"
-
-#: src/Views/Clicking.vala:30
-msgid "Primary Button"
-msgstr "כפתור עיקרי"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -143,39 +145,23 @@ msgstr "שמאלי"
 msgid "Right"
 msgstr "ימני"
 
-#: src/Views/Clicking.vala:71
-msgid "Long-press Secondary Click"
-msgstr "לחיצה ארוכה על כפתור משני"
-
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "לחיצה ארוכה ושחרור הכפתור העיקרי תגרום ללחיצה משנית"
-
-#: src/Views/Clicking.vala:102
-msgid "Double-click Speed"
-msgstr "מהירות לחיצה כפולה"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "כמה מהר שתי לחיצות ברצף ייחשבו ללחיצה כפולה"
 
-#: src/Views/Clicking.vala:112
-msgid "Dwell Click"
-msgstr "השהיית לחיצה"
-
 #: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "להחזיק את הסמן במקום כדי ללחוץ אוטומטית"
 
-#: src/Views/Clicking.vala:163
-msgid "Middle Click Paste"
-msgstr "הדבקה עם כפתור אמצעי"
-
-#: src/Views/Clicking.vala:165
+#: src/Views/Clicking.vala:169
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "לחיצה אמצעית או עם שלוש אצבעות על שדה קלט כדי להדביק טקסט נבחר"
 
-#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f שניות"
@@ -224,7 +210,7 @@ msgstr "צביטה"
 msgid "Zoom"
 msgstr "תקריב"
 
-#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
+#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
 msgid "Toggle maximized"
 msgstr "החלפת מצב הגדלה"
 
@@ -242,10 +228,6 @@ msgstr "איטי יותר"
 msgid "Faster"
 msgstr "מהיר יותר"
 
-#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-msgid "Pointer Speed"
-msgstr "מהירות המצביע"
-
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "בררת מחדל של חומרה"
@@ -258,21 +240,9 @@ msgstr "ללא"
 msgid "Adaptive"
 msgstr "מסתגל"
 
-#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-msgid "Natural Scrolling"
-msgstr "גלילה טבעית"
-
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
 msgstr "הגלילה מזיזה את התוכן, לא את התצוגה"
-
-#: src/Views/Mouse.vala:57
-msgid "Pointer Acceleration"
-msgstr "האצת סמן"
-
-#: src/Views/Pointing.vala:20
-msgid "Control Pointer Using Keypad"
-msgstr "שליטה בסמן בעזרת הלוח הנומרי"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -290,17 +260,9 @@ msgstr "בינוני"
 msgid "Large"
 msgstr "גדול"
 
-#: src/Views/Pointing.vala:76
-msgid "Reveal Pointer"
-msgstr "חשיפת הסמן"
-
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "לחיצה על המקש Ctrl תדגיש את מיקום הסמן"
-
-#: src/Views/Pointing.vala:83
-msgid "Pointer Size"
-msgstr "גודל סמן"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -309,18 +271,6 @@ msgstr "ריבוי נקודות מגע"
 #: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "אזורים"
-
-#: src/Views/Touchpad.vala:64
-msgid "Physical Secondary Clicking"
-msgstr "לחיצה משנית פיזית"
-
-#: src/Views/Touchpad.vala:74
-msgid "Double-tap and move to drag"
-msgstr "נגיעה כפולה והזזה כדי לגרור"
-
-#: src/Views/Touchpad.vala:82
-msgid "Scroll Method"
-msgstr "שיטת גלילה"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -345,6 +295,45 @@ msgstr "כשעכבר מחובר"
 #: src/Views/Touchpad.vala:147
 msgid "Tapping"
 msgstr "נגיעה"
+
+#~ msgid "Double-click speed"
+#~ msgstr "מהירות לחיצה כפולה"
+
+#~ msgid "Dwell click"
+#~ msgstr "השהיית לחיצה"
+
+#~ msgid "Primary button"
+#~ msgstr "כפתור עיקרי"
+
+#~ msgid "Long-press secondary click"
+#~ msgstr "לחיצה ארוכה על כפתור משני"
+
+#~ msgid "Middle click paste"
+#~ msgstr "הדבקה עם כפתור אמצעי"
+
+#~ msgid "Pointer speed"
+#~ msgstr "מהירות המצביע"
+
+#~ msgid "Pointer acceleration"
+#~ msgstr "האצת סמן"
+
+#~ msgid "Natural scrolling"
+#~ msgstr "גלילה טבעית"
+
+#~ msgid "Pointer size"
+#~ msgstr "גודל סמן"
+
+#~ msgid "Reveal pointer"
+#~ msgstr "חשיפת הסמן"
+
+#~ msgid "Control pointer using keypad"
+#~ msgstr "שליטה בסמן בעזרת הלוח הנומרי"
+
+#~ msgid "Physical clicking"
+#~ msgstr "לחיצה פיזית"
+
+#~ msgid "Scrolling"
+#~ msgstr "גלילה"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "מהירות הסמן:"

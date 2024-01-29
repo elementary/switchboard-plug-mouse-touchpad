@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"POT-Creation-Date: 2024-01-29 23:57+0000\n"
 "PO-Revision-Date: 2021-10-19 15:45+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
@@ -32,24 +32,34 @@ msgstr "Configurar o rato e o painel tátil"
 msgid "Clicking"
 msgstr "Clicar"
 
-#: src/Plug.vala:129
-msgid "Double-click speed"
+#: src/Plug.vala:129 src/Views/Clicking.vala:102
+#, fuzzy
+#| msgid "Double-click speed"
+msgid "Double-click Speed"
 msgstr "Velocidade do duplo clique"
 
-#: src/Plug.vala:130
-msgid "Dwell click"
+#: src/Plug.vala:130 src/Views/Clicking.vala:112
+#, fuzzy
+#| msgid "Dwell click"
+msgid "Dwell Click"
 msgstr "Clique de permanência"
 
-#: src/Plug.vala:131
-msgid "Primary button"
+#: src/Plug.vala:131 src/Views/Clicking.vala:30
+#, fuzzy
+#| msgid "Primary button"
+msgid "Primary Button"
 msgstr "Botão principal"
 
-#: src/Plug.vala:132
-msgid "Long-press secondary click"
+#: src/Plug.vala:132 src/Views/Clicking.vala:71
+#, fuzzy
+#| msgid "Long-press secondary click"
+msgid "Long-press Secondary Click"
 msgstr "Clique secundário de pressão longa"
 
-#: src/Plug.vala:133
-msgid "Middle click paste"
+#: src/Plug.vala:133 src/Views/Clicking.vala:167
+#, fuzzy
+#| msgid "Middle click paste"
+msgid "Middle Click Paste"
 msgstr "Colar com botão do meio"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
@@ -57,37 +67,51 @@ msgstr "Colar com botão do meio"
 msgid "Mouse"
 msgstr "Rato"
 
-#: src/Plug.vala:136 src/Plug.vala:146
-msgid "Pointer speed"
+#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
 msgstr "Velocidade do cursor"
 
-#: src/Plug.vala:137
-msgid "Pointer acceleration"
+#: src/Plug.vala:137 src/Views/Mouse.vala:57
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
 msgstr "Aceleração do cursor"
 
-#: src/Plug.vala:138 src/Plug.vala:150
-msgid "Natural scrolling"
+#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
 msgstr "Deslocação natural"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Cursor"
 
-#: src/Plug.vala:141
-msgid "Pointer size"
+#: src/Plug.vala:141 src/Views/Pointing.vala:85
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
 msgstr "Tamanho do cursor"
 
-#: src/Plug.vala:142
-msgid "Reveal pointer"
+#: src/Plug.vala:142 src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
 msgstr "Revelar cursor"
 
-#: src/Plug.vala:143
-msgid "Control pointer using keypad"
+#: src/Plug.vala:143 src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
 msgstr "Controlar o cursor através do teclado"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "Painel tátil"
 
@@ -95,48 +119,50 @@ msgstr "Painel tátil"
 msgid "Tap to click"
 msgstr "Tocar para clicar"
 
-#: src/Plug.vala:148
-msgid "Physical clicking"
-msgstr "Clique físico"
+#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+msgid "Double-tap and move to drag"
+msgstr "Toque duplo e mover para arrastar"
 
-#: src/Plug.vala:149
-msgid "Scrolling"
-msgstr "Deslocação"
+#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+#, fuzzy
+#| msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
+msgstr "Clique secundário físico:"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+#, fuzzy
+#| msgid "Scroll method:"
+msgid "Scroll Method"
+msgstr "Método de rolagem:"
+
+#: src/Plug.vala:152
 msgid "Ignore while typing"
 msgstr "Desativar ao escrever"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:153
 msgid "Ignore when mouse is connected"
 msgstr "Ignorar quando o rato está ligado"
 
-#: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
+#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Gestos"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "Vista de Tarefas"
 
-#: src/Plug.vala:157
+#: src/Plug.vala:158
 msgid "Switch Workspaces"
 msgstr "Alternar áreas de trabalho"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:159
 msgid "Maximize Window"
 msgstr "Maximizar Janela"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "Comportamento"
-
-#: src/Views/Clicking.vala:30
-#, fuzzy
-#| msgid "Primary button"
-msgid "Primary Button"
-msgstr "Botão principal"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -146,51 +172,27 @@ msgstr "Esquerda"
 msgid "Right"
 msgstr "Direita"
 
-#: src/Views/Clicking.vala:71
-#, fuzzy
-#| msgid "Long-press secondary click"
-msgid "Long-press Secondary Click"
-msgstr "Clique secundário de pressão longa"
-
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Premir e soltar o botão principal prolongadamente para o clique secundário"
-
-#: src/Views/Clicking.vala:102
-#, fuzzy
-#| msgid "Double-click speed"
-msgid "Double-click Speed"
-msgstr "Velocidade do duplo clique"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Quão rapidamente dois cliques numa linha serão tratados como um duplo clique"
 
-#: src/Views/Clicking.vala:112
-#, fuzzy
-#| msgid "Dwell click"
-msgid "Dwell Click"
-msgstr "Clique de permanência"
-
 #: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "Manter o cursor imóvel para clicar automaticamente"
 
-#: src/Views/Clicking.vala:163
-#, fuzzy
-#| msgid "Middle click paste"
-msgid "Middle Click Paste"
-msgstr "Colar com botão do meio"
-
-#: src/Views/Clicking.vala:165
+#: src/Views/Clicking.vala:169
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Clique com botão do meio ou com três dedos numa entrada para colar o texto "
 "selecionado"
 
-#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"
@@ -244,7 +246,7 @@ msgstr "Pinch"
 msgid "Zoom"
 msgstr "Ampliado"
 
-#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
+#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
 msgid "Toggle maximized"
 msgstr "Alternar para maximizado"
 
@@ -262,12 +264,6 @@ msgstr ""
 msgid "Faster"
 msgstr ""
 
-#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "Velocidade do cursor"
-
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Predefinição do equipamento"
@@ -280,27 +276,9 @@ msgstr "Nenhuma"
 msgid "Adaptive"
 msgstr "Adaptável"
 
-#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "Deslocação natural"
-
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
 msgstr ""
-
-#: src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
-msgid "Pointer Acceleration"
-msgstr "Aceleração do cursor"
-
-#: src/Views/Pointing.vala:20
-#, fuzzy
-#| msgid "Control pointer using keypad"
-msgid "Control Pointer Using Keypad"
-msgstr "Controlar o cursor através do teclado"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -318,21 +296,9 @@ msgstr "Médio"
 msgid "Large"
 msgstr "Grande"
 
-#: src/Views/Pointing.vala:76
-#, fuzzy
-#| msgid "Reveal pointer"
-msgid "Reveal Pointer"
-msgstr "Revelar cursor"
-
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Carregar na tecla control revela a posição do cursor"
-
-#: src/Views/Pointing.vala:83
-#, fuzzy
-#| msgid "Pointer size"
-msgid "Pointer Size"
-msgstr "Tamanho do cursor"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -341,22 +307,6 @@ msgstr "Multi-toque"
 #: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "Áreas"
-
-#: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
-msgid "Physical Secondary Clicking"
-msgstr "Clique secundário físico:"
-
-#: src/Views/Touchpad.vala:74
-msgid "Double-tap and move to drag"
-msgstr "Toque duplo e mover para arrastar"
-
-#: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
-msgid "Scroll Method"
-msgstr "Método de rolagem:"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -385,6 +335,45 @@ msgstr "Quando o rato está ligado"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "Tocar:"
+
+#~ msgid "Double-click speed"
+#~ msgstr "Velocidade do duplo clique"
+
+#~ msgid "Dwell click"
+#~ msgstr "Clique de permanência"
+
+#~ msgid "Primary button"
+#~ msgstr "Botão principal"
+
+#~ msgid "Long-press secondary click"
+#~ msgstr "Clique secundário de pressão longa"
+
+#~ msgid "Middle click paste"
+#~ msgstr "Colar com botão do meio"
+
+#~ msgid "Pointer speed"
+#~ msgstr "Velocidade do cursor"
+
+#~ msgid "Pointer acceleration"
+#~ msgstr "Aceleração do cursor"
+
+#~ msgid "Natural scrolling"
+#~ msgstr "Deslocação natural"
+
+#~ msgid "Pointer size"
+#~ msgstr "Tamanho do cursor"
+
+#~ msgid "Reveal pointer"
+#~ msgstr "Revelar cursor"
+
+#~ msgid "Control pointer using keypad"
+#~ msgstr "Controlar o cursor através do teclado"
+
+#~ msgid "Physical clicking"
+#~ msgstr "Clique físico"
+
+#~ msgid "Scrolling"
+#~ msgstr "Deslocação"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "Velocidade do cursor:"

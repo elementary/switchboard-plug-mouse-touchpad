@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"POT-Creation-Date: 2024-01-29 23:57+0000\n"
 "PO-Revision-Date: 2024-01-27 17:09+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -32,24 +32,24 @@ msgstr "マウスとタッチパッドを設定します"
 msgid "Clicking"
 msgstr "クリック"
 
-#: src/Plug.vala:129
-msgid "Double-click speed"
+#: src/Plug.vala:129 src/Views/Clicking.vala:102
+msgid "Double-click Speed"
 msgstr "ダブルクリックの速度"
 
-#: src/Plug.vala:130
-msgid "Dwell click"
+#: src/Plug.vala:130 src/Views/Clicking.vala:112
+msgid "Dwell Click"
 msgstr "ホバークリック"
 
-#: src/Plug.vala:131
-msgid "Primary button"
+#: src/Plug.vala:131 src/Views/Clicking.vala:30
+msgid "Primary Button"
 msgstr "主ボタン"
 
-#: src/Plug.vala:132
-msgid "Long-press secondary click"
+#: src/Plug.vala:132 src/Views/Clicking.vala:71
+msgid "Long-press Secondary Click"
 msgstr "長押しで副ボタンクリック"
 
-#: src/Plug.vala:133
-msgid "Middle click paste"
+#: src/Plug.vala:133 src/Views/Clicking.vala:167
+msgid "Middle Click Paste"
 msgstr "中クリックで貼り付け"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
@@ -57,37 +57,39 @@ msgstr "中クリックで貼り付け"
 msgid "Mouse"
 msgstr "マウス"
 
-#: src/Plug.vala:136 src/Plug.vala:146
-msgid "Pointer speed"
+#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
+#: src/Views/Touchpad.vala:31
+msgid "Pointer Speed"
 msgstr "ポインターの速度"
 
-#: src/Plug.vala:137
-msgid "Pointer acceleration"
+#: src/Plug.vala:137 src/Views/Mouse.vala:57
+msgid "Pointer Acceleration"
 msgstr "ポインターの加速"
 
-#: src/Plug.vala:138 src/Plug.vala:150
-msgid "Natural scrolling"
+#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
+#: src/Views/Touchpad.vala:122
+msgid "Natural Scrolling"
 msgstr "ナチュラルスクロール"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "ポインティング"
 
-#: src/Plug.vala:141
-msgid "Pointer size"
+#: src/Plug.vala:141 src/Views/Pointing.vala:85
+msgid "Pointer Size"
 msgstr "ポインターのサイズ"
 
-#: src/Plug.vala:142
-msgid "Reveal pointer"
+#: src/Plug.vala:142 src/Views/Pointing.vala:76
+msgid "Reveal Pointer"
 msgstr "ポインターをハイライト"
 
-#: src/Plug.vala:143
-msgid "Control pointer using keypad"
+#: src/Plug.vala:143 src/Views/Pointing.vala:20
+msgid "Control Pointer Using Keypad"
 msgstr "キーパッドを使用してポインターを制御"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "タッチパッド"
 
@@ -95,46 +97,46 @@ msgstr "タッチパッド"
 msgid "Tap to click"
 msgstr "タップでクリック"
 
-#: src/Plug.vala:148
-msgid "Physical clicking"
-msgstr "物理ボタンのクリック"
+#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+msgid "Double-tap and move to drag"
+msgstr "ダブルタップして指を動かすとドラッグ操作として扱う"
 
-#: src/Plug.vala:149
-msgid "Scrolling"
-msgstr "スクロール"
+#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+msgid "Physical Secondary Clicking"
+msgstr "物理副ボタンクリック"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+msgid "Scroll Method"
+msgstr "スクロールの方法"
+
+#: src/Plug.vala:152
 msgid "Ignore while typing"
 msgstr "文字入力中は無効にする"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:153
 msgid "Ignore when mouse is connected"
 msgstr "マウス接続時は無効にする"
 
-#: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
+#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "ジェスチャー"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "マルチタスク画面"
 
-#: src/Plug.vala:157
+#: src/Plug.vala:158
 msgid "Switch Workspaces"
 msgstr "ワークスペースを切り替え"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:159
 msgid "Maximize Window"
 msgstr "ウィンドウを最大化"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "挙動"
-
-#: src/Views/Clicking.vala:30
-msgid "Primary Button"
-msgstr "主ボタン"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -144,41 +146,25 @@ msgstr "左"
 msgid "Right"
 msgstr "右"
 
-#: src/Views/Clicking.vala:71
-msgid "Long-press Secondary Click"
-msgstr "長押しで副ボタンクリック"
-
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr "主ボタンを長押しして離すと、副ボタンをクリックしたことになります"
-
-#: src/Views/Clicking.vala:102
-msgid "Double-click Speed"
-msgstr "ダブルクリックの速度"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "連続した 2 回のクリックがダブルクリックとして認識される速度のしきい値"
 
-#: src/Views/Clicking.vala:112
-msgid "Dwell Click"
-msgstr "ホバークリック"
-
 #: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "ポインターをホバーし続けると自動的にクリックします"
 
-#: src/Views/Clicking.vala:163
-msgid "Middle Click Paste"
-msgstr "中クリックで貼り付け"
-
-#: src/Views/Clicking.vala:165
+#: src/Views/Clicking.vala:169
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "入力欄の上で中クリックまたは 3 本指のタップをすると、選択されたテキストを貼り"
 "付けます"
 
-#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f秒"
@@ -227,7 +213,7 @@ msgstr "ピンチした場合"
 msgid "Zoom"
 msgstr "ズーム"
 
-#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
+#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
 msgid "Toggle maximized"
 msgstr "最大化／元のサイズに戻す"
 
@@ -245,10 +231,6 @@ msgstr "遅い"
 msgid "Faster"
 msgstr "速い"
 
-#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-msgid "Pointer Speed"
-msgstr "ポインターの速度"
-
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "ハードウェアのデフォルト"
@@ -261,21 +243,9 @@ msgstr "なし"
 msgid "Adaptive"
 msgstr "適応"
 
-#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-msgid "Natural Scrolling"
-msgstr "ナチュラルスクロール"
-
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
 msgstr "スクロールすると、ビューではなくコンテンツが移動します"
-
-#: src/Views/Mouse.vala:57
-msgid "Pointer Acceleration"
-msgstr "ポインターの加速"
-
-#: src/Views/Pointing.vala:20
-msgid "Control Pointer Using Keypad"
-msgstr "キーパッドを使用してポインターを制御"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -293,17 +263,9 @@ msgstr "中"
 msgid "Large"
 msgstr "大"
 
-#: src/Views/Pointing.vala:76
-msgid "Reveal Pointer"
-msgstr "ポインターをハイライト"
-
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Ctrl キーを押すと、ポインターの位置がハイライトされます"
-
-#: src/Views/Pointing.vala:83
-msgid "Pointer Size"
-msgstr "ポインターのサイズ"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -312,18 +274,6 @@ msgstr "マルチタッチ"
 #: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "タッチパッドの右下"
-
-#: src/Views/Touchpad.vala:64
-msgid "Physical Secondary Clicking"
-msgstr "物理副ボタンクリック"
-
-#: src/Views/Touchpad.vala:74
-msgid "Double-tap and move to drag"
-msgstr "ダブルタップして指を動かすとドラッグ操作として扱う"
-
-#: src/Views/Touchpad.vala:82
-msgid "Scroll Method"
-msgstr "スクロールの方法"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -348,6 +298,45 @@ msgstr "マウス接続時"
 #: src/Views/Touchpad.vala:147
 msgid "Tapping"
 msgstr "タップ"
+
+#~ msgid "Double-click speed"
+#~ msgstr "ダブルクリックの速度"
+
+#~ msgid "Dwell click"
+#~ msgstr "ホバークリック"
+
+#~ msgid "Primary button"
+#~ msgstr "主ボタン"
+
+#~ msgid "Long-press secondary click"
+#~ msgstr "長押しで副ボタンクリック"
+
+#~ msgid "Middle click paste"
+#~ msgstr "中クリックで貼り付け"
+
+#~ msgid "Pointer speed"
+#~ msgstr "ポインターの速度"
+
+#~ msgid "Pointer acceleration"
+#~ msgstr "ポインターの加速"
+
+#~ msgid "Natural scrolling"
+#~ msgstr "ナチュラルスクロール"
+
+#~ msgid "Pointer size"
+#~ msgstr "ポインターのサイズ"
+
+#~ msgid "Reveal pointer"
+#~ msgstr "ポインターをハイライト"
+
+#~ msgid "Control pointer using keypad"
+#~ msgstr "キーパッドを使用してポインターを制御"
+
+#~ msgid "Physical clicking"
+#~ msgstr "物理ボタンのクリック"
+
+#~ msgid "Scrolling"
+#~ msgstr "スクロール"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "ポインターの速度:"

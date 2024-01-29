@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-27 12:38+0000\n"
+"POT-Creation-Date: 2024-01-29 23:57+0000\n"
 "PO-Revision-Date: 2023-11-13 15:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -32,24 +32,24 @@ msgstr "Määritä hiiren ja kosketuslevyn toiminta"
 msgid "Clicking"
 msgstr "Napsauttaminen"
 
-#: src/Plug.vala:129
-msgid "Double-click speed"
+#: src/Plug.vala:129 src/Views/Clicking.vala:102
+msgid "Double-click Speed"
 msgstr "Kaksoisnapsauttamisen nopeus"
 
-#: src/Plug.vala:130
-msgid "Dwell click"
+#: src/Plug.vala:130 src/Views/Clicking.vala:112
+msgid "Dwell Click"
 msgstr "Napsautus kohdistamalla"
 
-#: src/Plug.vala:131
-msgid "Primary button"
+#: src/Plug.vala:131 src/Views/Clicking.vala:30
+msgid "Primary Button"
 msgstr "Ensisijainen painike"
 
-#: src/Plug.vala:132
-msgid "Long-press secondary click"
+#: src/Plug.vala:132 src/Views/Clicking.vala:71
+msgid "Long-press Secondary Click"
 msgstr "Kakkospainike pitkällä painalluksella"
 
-#: src/Plug.vala:133
-msgid "Middle click paste"
+#: src/Plug.vala:133 src/Views/Clicking.vala:167
+msgid "Middle Click Paste"
 msgstr "Liittäminen keskimmäistä napsauttamalla"
 
 #: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
@@ -57,37 +57,51 @@ msgstr "Liittäminen keskimmäistä napsauttamalla"
 msgid "Mouse"
 msgstr "Hiiri"
 
-#: src/Plug.vala:136 src/Plug.vala:146
-msgid "Pointer speed"
+#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
+#: src/Views/Touchpad.vala:31
+#, fuzzy
+#| msgid "Pointer speed"
+msgid "Pointer Speed"
 msgstr "Osoittimen nopeus"
 
-#: src/Plug.vala:137
-msgid "Pointer acceleration"
+#: src/Plug.vala:137 src/Views/Mouse.vala:57
+#, fuzzy
+#| msgid "Pointer acceleration"
+msgid "Pointer Acceleration"
 msgstr "Osoittimen kiihtyvyys"
 
-#: src/Plug.vala:138 src/Plug.vala:150
-msgid "Natural scrolling"
+#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
+#: src/Views/Touchpad.vala:122
+#, fuzzy
+#| msgid "Natural scrolling"
+msgid "Natural Scrolling"
 msgstr "Luonnollinen vieritys"
 
 #: src/Plug.vala:140 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "Osoittaminen"
 
-#: src/Plug.vala:141
-msgid "Pointer size"
+#: src/Plug.vala:141 src/Views/Pointing.vala:85
+#, fuzzy
+#| msgid "Pointer size"
+msgid "Pointer Size"
 msgstr "Osoittimen koko"
 
-#: src/Plug.vala:142
-msgid "Reveal pointer"
+#: src/Plug.vala:142 src/Views/Pointing.vala:76
+#, fuzzy
+#| msgid "Reveal pointer"
+msgid "Reveal Pointer"
 msgstr "Korosta osoitin"
 
-#: src/Plug.vala:143
-msgid "Control pointer using keypad"
+#: src/Plug.vala:143 src/Views/Pointing.vala:20
+#, fuzzy
+#| msgid "Control pointer using keypad"
+msgid "Control Pointer Using Keypad"
 msgstr "Hallitse osoitinta numeronäppäimistöllä"
 
 #: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
 #: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "Kosketuslevy"
 
@@ -95,46 +109,50 @@ msgstr "Kosketuslevy"
 msgid "Tap to click"
 msgstr "Napsautus napauttamalla"
 
-#: src/Plug.vala:148
-msgid "Physical clicking"
-msgstr "Fyysinen napsautus"
+#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+msgid "Double-tap and move to drag"
+msgstr "Kaksoisnapauta ja siirrä raahataksesi"
 
-#: src/Plug.vala:149
-msgid "Scrolling"
-msgstr "Vieritys"
+#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+#, fuzzy
+#| msgid "Physical secondary clicking:"
+msgid "Physical Secondary Clicking"
+msgstr "Fyysinen toissijainen napsautus:"
 
-#: src/Plug.vala:151
+#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+#, fuzzy
+#| msgid "Scroll method:"
+msgid "Scroll Method"
+msgstr "Vieritystapa:"
+
+#: src/Plug.vala:152
 msgid "Ignore while typing"
 msgstr "Poista käytöstä kirjoittaessa"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:153
 msgid "Ignore when mouse is connected"
 msgstr "Poista käytöstä kun hiiri on yhdistetty"
 
-#: src/Plug.vala:155 src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158
+#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "Eleet"
 
-#: src/Plug.vala:156 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
 msgid "Multitasking View"
 msgstr "Moniajonäkymä"
 
-#: src/Plug.vala:157
+#: src/Plug.vala:158
 msgid "Switch Workspaces"
 msgstr "Vaihda työtilojen välillä"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:159
 msgid "Maximize Window"
 msgstr "Suurenna ikkuna"
 
 #: src/Views/Clicking.vala:23
 msgid "Behavior"
 msgstr "Toiminta"
-
-#: src/Views/Clicking.vala:30
-msgid "Primary Button"
-msgstr "Ensisijainen painike"
 
 #: src/Views/Clicking.vala:33
 msgid "Left"
@@ -144,19 +162,11 @@ msgstr "Vasen"
 msgid "Right"
 msgstr "Oikea"
 
-#: src/Views/Clicking.vala:71
-msgid "Long-press Secondary Click"
-msgstr "Kakkospainike pitkällä painalluksella"
-
 #: src/Views/Clicking.vala:73
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Ensisijaisen painikkeen pitkä pohjassapito ja irtipäästö tuottaa "
 "toissijaisen painikkeen napsautuksen"
-
-#: src/Views/Clicking.vala:102
-msgid "Double-click Speed"
-msgstr "Kaksoisnapsauttamisen nopeus"
 
 #: src/Views/Clicking.vala:104
 msgid "How quickly two clicks in a row will be treated as a double-click"
@@ -164,25 +174,17 @@ msgstr ""
 "Kuinka nopeasti peräkkäin tehtäviä napsautuksia kohdellaan "
 "kaksoisnapsautuksena"
 
-#: src/Views/Clicking.vala:112
-msgid "Dwell Click"
-msgstr "Napsautus kohdistamalla"
-
 #: src/Views/Clicking.vala:114
 msgid "Hold the pointer still to automatically click"
 msgstr "Pidä osoitin paikallaan automaattista napsautusta varten"
 
-#: src/Views/Clicking.vala:163
-msgid "Middle Click Paste"
-msgstr "Liittäminen keskimmäistä napsauttamalla"
-
-#: src/Views/Clicking.vala:165
+#: src/Views/Clicking.vala:169
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Keskimmäisen tai kolmen sormen napsautus syötekentässä liittää valitun "
 "tekstin"
 
-#: src/Views/Clicking.vala:227 src/Views/Clicking.vala:232
+#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f sekuntia"
@@ -235,7 +237,7 @@ msgstr "Nipistä"
 msgid "Zoom"
 msgstr "Lähennetty"
 
-#: src/Views/Gestures.vala:122 src/Views/Gestures.vala:123
+#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
 msgid "Toggle maximized"
 msgstr "Vaihda ikkunan suurennettua tilaa"
 
@@ -253,12 +255,6 @@ msgstr ""
 msgid "Faster"
 msgstr ""
 
-#: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
-msgid "Pointer Speed"
-msgstr "Osoittimen nopeus"
-
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
 msgstr "Laitteiston oletus"
@@ -271,27 +267,9 @@ msgstr "Ei mitään"
 msgid "Adaptive"
 msgstr "Sopeutuva"
 
-#: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
-msgid "Natural Scrolling"
-msgstr "Luonnollinen vieritys"
-
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
 msgstr ""
-
-#: src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
-msgid "Pointer Acceleration"
-msgstr "Osoittimen kiihtyvyys"
-
-#: src/Views/Pointing.vala:20
-#, fuzzy
-#| msgid "Control pointer using keypad"
-msgid "Control Pointer Using Keypad"
-msgstr "Hallitse osoitinta numeronäppäimistöllä"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -309,21 +287,9 @@ msgstr "Keskikoko"
 msgid "Large"
 msgstr "Suuri"
 
-#: src/Views/Pointing.vala:76
-#, fuzzy
-#| msgid "Reveal pointer"
-msgid "Reveal Pointer"
-msgstr "Korosta osoitin"
-
 #: src/Views/Pointing.vala:78
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "Ctrl-näppäimen painaminen korostaa hiiren osoittimen"
-
-#: src/Views/Pointing.vala:83
-#, fuzzy
-#| msgid "Pointer size"
-msgid "Pointer Size"
-msgstr "Osoittimen koko"
 
 #: src/Views/Touchpad.vala:38
 msgid "Multitouch"
@@ -332,22 +298,6 @@ msgstr "Monikosketus"
 #: src/Views/Touchpad.vala:54
 msgid "Areas"
 msgstr "Alueet"
-
-#: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
-msgid "Physical Secondary Clicking"
-msgstr "Fyysinen toissijainen napsautus:"
-
-#: src/Views/Touchpad.vala:74
-msgid "Double-tap and move to drag"
-msgstr "Kaksoisnapauta ja siirrä raahataksesi"
-
-#: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
-msgid "Scroll Method"
-msgstr "Vieritystapa:"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -376,6 +326,45 @@ msgstr "Kun hiiri on yhdistetty"
 #| msgid "Tapping:"
 msgid "Tapping"
 msgstr "Napauttaminen:"
+
+#~ msgid "Double-click speed"
+#~ msgstr "Kaksoisnapsauttamisen nopeus"
+
+#~ msgid "Dwell click"
+#~ msgstr "Napsautus kohdistamalla"
+
+#~ msgid "Primary button"
+#~ msgstr "Ensisijainen painike"
+
+#~ msgid "Long-press secondary click"
+#~ msgstr "Kakkospainike pitkällä painalluksella"
+
+#~ msgid "Middle click paste"
+#~ msgstr "Liittäminen keskimmäistä napsauttamalla"
+
+#~ msgid "Pointer speed"
+#~ msgstr "Osoittimen nopeus"
+
+#~ msgid "Pointer acceleration"
+#~ msgstr "Osoittimen kiihtyvyys"
+
+#~ msgid "Natural scrolling"
+#~ msgstr "Luonnollinen vieritys"
+
+#~ msgid "Pointer size"
+#~ msgstr "Osoittimen koko"
+
+#~ msgid "Reveal pointer"
+#~ msgstr "Korosta osoitin"
+
+#~ msgid "Control pointer using keypad"
+#~ msgstr "Hallitse osoitinta numeronäppäimistöllä"
+
+#~ msgid "Physical clicking"
+#~ msgstr "Fyysinen napsautus"
+
+#~ msgid "Scrolling"
+#~ msgstr "Vieritys"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "Osoittimen nopeus:"
