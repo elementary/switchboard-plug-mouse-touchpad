@@ -18,7 +18,7 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
+public class MouseTouchpad.GesturesView : Switchboard.SettingsPage {
     public GesturesView () {
         Object (
             icon_name: "mouse-touchpad-gestures",
@@ -91,6 +91,10 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         four_pinch_combo.append ("none", _("Do nothing"));
         four_pinch_combo.append ("zoom", _("Zoom"));
 
+        var content_area = new Gtk.Grid () {
+            column_spacing = 6,
+            row_spacing = 12
+        };
         content_area.attach (horizontal_swipe_header, 0, 0, 2);
         content_area.attach (three_swipe_horizontal_label, 0, 1);
         content_area.attach (three_swipe_horizontal_combo, 1, 1);
@@ -106,6 +110,8 @@ public class MouseTouchpad.GesturesView : Granite.SimpleSettingsPage {
         content_area.attach (three_pinch_combo, 1, 7);
         content_area.attach (four_pinch_label, 0, 8);
         content_area.attach (four_pinch_combo, 1, 8);
+
+        child = content_area;
 
         var glib_settings = new GLib.Settings ("io.elementary.desktop.wm.gestures");
         glib_settings.bind ("three-finger-swipe-horizontal", three_swipe_horizontal_combo, "active-id", GLib.SettingsBindFlags.DEFAULT);

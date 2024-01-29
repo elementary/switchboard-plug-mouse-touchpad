@@ -17,7 +17,7 @@
  * Boston, MA 02110-1301 USA.
  */
 
-public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
+public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
     public ClickingView () {
         Object (
             header: _("Behavior"),
@@ -133,7 +133,9 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         dwell_click_spin_box.append (dwell_click_delay_scale);
         dwell_click_spin_box.append (dwell_click_spinbutton);
 
-        content_area.row_spacing = 6;
+        var content_area = new Gtk.Grid () {
+            row_spacing = 6
+        };
 
         content_area.attach (primary_button_label, 0, 0, 2);
         content_area.attach (primary_button_switcher, 0, 1, 2);
@@ -148,6 +150,8 @@ public class MouseTouchpad.ClickingView : Granite.SimpleSettingsPage {
         content_area.attach (hold_header, 0, 6);
         content_area.attach (hold_switch, 1, 6);
         content_area.attach (hold_spin_box, 0, 7, 2);
+
+        child = content_area;
 
         var xsettings_schema = SettingsSchemaSource.get_default ().lookup (
             "org.gnome.settings-daemon.plugins.xsettings",
