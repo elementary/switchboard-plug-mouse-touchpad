@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-27 12:38+0000\n"
-"PO-Revision-Date: 2024-01-26 12:58+0000\n"
+"PO-Revision-Date: 2024-01-29 23:58+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ca/>\n"
@@ -248,8 +248,6 @@ msgid "Faster"
 msgstr "Més ràpid"
 
 #: src/Views/Mouse.vala:25 src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
 msgid "Pointer Speed"
 msgstr "Velocitat del punter"
 
@@ -266,18 +264,14 @@ msgid "Adaptive"
 msgstr "Adaptatiu"
 
 #: src/Views/Mouse.vala:43 src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
 msgid "Natural Scrolling"
 msgstr "Desplaçament natural"
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
-msgstr ""
+msgstr "El desplaçament mou el contingut, no la vista."
 
 #: src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
 msgstr "Acceleració del punter"
 
@@ -322,20 +316,16 @@ msgid "Areas"
 msgstr "Àrees"
 
 #: src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
-msgstr "Clic físic secundari:"
+msgstr "Clic secundari físic"
 
 #: src/Views/Touchpad.vala:74
 msgid "Double-tap and move to drag"
 msgstr "Toc doble i moviment per a arrossegar"
 
 #: src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
 msgid "Scroll Method"
-msgstr "Mètode de desplaçament:"
+msgstr "Mètode de desplaçament"
 
 #: src/Views/Touchpad.vala:87
 msgid "Two-finger"
@@ -346,10 +336,8 @@ msgid "Edge"
 msgstr "Vora"
 
 #: src/Views/Touchpad.vala:133
-#, fuzzy
-#| msgid "Ignore:"
 msgid "Ignore"
-msgstr "Ignora:"
+msgstr "Ignora"
 
 #: src/Views/Touchpad.vala:135
 msgid "While typing"
@@ -360,10 +348,8 @@ msgid "When mouse is connected"
 msgstr "Quan hi hagi un ratolí connectat"
 
 #: src/Views/Touchpad.vala:147
-#, fuzzy
-#| msgid "Tapping:"
 msgid "Tapping"
-msgstr "Tocs:"
+msgstr "Tocs"
 
 #~ msgid "Pointer speed:"
 #~ msgstr "Velocitat del punter:"
