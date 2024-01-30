@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 15:51+0000\n"
-"PO-Revision-Date: 2023-05-23 19:07+0000\n"
-"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
-"io>\n"
+"PO-Revision-Date: 2024-01-30 16:38+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/id/>\n"
 "Language: id\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: src/Plug.vala:53
 msgid "Mouse & Touchpad"
@@ -140,16 +139,12 @@ msgstr ""
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
 #: src/Views/Clicking.vala:34
-#, fuzzy
-#| msgid "Left"
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "Kiri"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
 #: src/Views/Clicking.vala:46
-#, fuzzy
-#| msgid "Right"
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "Kanan"
