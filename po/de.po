@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 23:57+0000\n"
+"POT-Creation-Date: 2024-01-30 15:51+0000\n"
 "PO-Revision-Date: 2023-12-08 15:02+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
@@ -32,11 +32,11 @@ msgstr "Maus und Tastfeld einrichten"
 msgid "Clicking"
 msgstr "Klicken"
 
-#: src/Plug.vala:129 src/Views/Clicking.vala:102
+#: src/Plug.vala:129 src/Views/Clicking.vala:104
 msgid "Double-click Speed"
 msgstr "Doppelklickgeschwindigkeit"
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:112
+#: src/Plug.vala:130 src/Views/Clicking.vala:114
 msgid "Dwell Click"
 msgstr "Klick durch Verweilen"
 
@@ -44,11 +44,11 @@ msgstr "Klick durch Verweilen"
 msgid "Primary Button"
 msgstr "Primärtaste"
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:71
+#: src/Plug.vala:132 src/Views/Clicking.vala:73
 msgid "Long-press Secondary Click"
 msgstr "Sekundärklick nach langem Drücken"
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:167
+#: src/Plug.vala:133 src/Views/Clicking.vala:169
 msgid "Middle Click Paste"
 msgstr "Einfügen bei Mittelklick"
 
@@ -154,36 +154,44 @@ msgstr "Fenster maximieren"
 msgid "Behavior"
 msgstr "Verhalten"
 
-#: src/Views/Clicking.vala:33
+#. / TRANSLATORS: Used as "Primary Button: Left"
+#: src/Views/Clicking.vala:34
+#, fuzzy
+#| msgid "Left"
+msgctxt "mouse-button"
 msgid "Left"
 msgstr "Links"
 
-#: src/Views/Clicking.vala:44
+#. / TRANSLATORS: Used as "Primary Button: Right";
+#: src/Views/Clicking.vala:46
+#, fuzzy
+#| msgid "Right"
+msgctxt "mouse-button"
 msgid "Right"
 msgstr "Rechts"
 
-#: src/Views/Clicking.vala:73
+#: src/Views/Clicking.vala:75
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Primärtaste lange drücken und dann loslassen bewirkt einen Sekundärklick"
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:106
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Wie schnell zwei Klicks aufeinander folgen müssen, um als Doppelklick "
 "gewertet zu werden"
 
-#: src/Views/Clicking.vala:114
+#: src/Views/Clicking.vala:116
 msgid "Hold the pointer still to automatically click"
 msgstr "Zum automatischen Klicken Zeiger verweilen lassen"
 
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:171
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Mittel- oder Drei-Finger-Klick in einen Eingabebereich fügt Text aus "
 "Zwischenablage ein"
 
-#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
+#: src/Views/Clicking.vala:233 src/Views/Clicking.vala:238
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f Sekunden"

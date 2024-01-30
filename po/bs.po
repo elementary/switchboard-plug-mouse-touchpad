@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 23:57+0000\n"
+"POT-Creation-Date: 2024-01-30 15:51+0000\n"
 "PO-Revision-Date: 2021-04-21 20:13+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Bosnian <https://l10n.elementary.io/projects/switchboard/"
@@ -32,11 +32,11 @@ msgstr "Podesite miš i dodirnu ploču"
 msgid "Clicking"
 msgstr ""
 
-#: src/Plug.vala:129 src/Views/Clicking.vala:102
+#: src/Plug.vala:129 src/Views/Clicking.vala:104
 msgid "Double-click Speed"
 msgstr ""
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:112
+#: src/Plug.vala:130 src/Views/Clicking.vala:114
 msgid "Dwell Click"
 msgstr ""
 
@@ -46,11 +46,11 @@ msgstr ""
 msgid "Primary Button"
 msgstr "Glavno dugme"
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:71
+#: src/Plug.vala:132 src/Views/Clicking.vala:73
 msgid "Long-press Secondary Click"
 msgstr ""
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:167
+#: src/Plug.vala:133 src/Views/Clicking.vala:169
 #, fuzzy
 #| msgid "Middle click paste"
 msgid "Middle Click Paste"
@@ -154,27 +154,35 @@ msgstr ""
 msgid "Behavior"
 msgstr "Ponašanje"
 
-#: src/Views/Clicking.vala:33
+#. / TRANSLATORS: Used as "Primary Button: Left"
+#: src/Views/Clicking.vala:34
+#, fuzzy
+#| msgid "Left"
+msgctxt "mouse-button"
 msgid "Left"
 msgstr "Lijevo"
 
-#: src/Views/Clicking.vala:44
+#. / TRANSLATORS: Used as "Primary Button: Right";
+#: src/Views/Clicking.vala:46
+#, fuzzy
+#| msgid "Right"
+msgctxt "mouse-button"
 msgid "Right"
 msgstr "Desno"
 
-#: src/Views/Clicking.vala:73
+#: src/Views/Clicking.vala:75
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:106
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:114
+#: src/Views/Clicking.vala:116
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:171
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
@@ -183,7 +191,7 @@ msgstr ""
 "Srednjim klikom ili klikom s tri prsta u polje unosa označeni tekst će biti "
 "zalijepljen"
 
-#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
+#: src/Views/Clicking.vala:233 src/Views/Clicking.vala:238
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"

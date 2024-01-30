@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 23:57+0000\n"
+"POT-Creation-Date: 2024-01-30 15:51+0000\n"
 "PO-Revision-Date: 2023-11-13 15:32+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -32,11 +32,11 @@ msgstr "Määritä hiiren ja kosketuslevyn toiminta"
 msgid "Clicking"
 msgstr "Napsauttaminen"
 
-#: src/Plug.vala:129 src/Views/Clicking.vala:102
+#: src/Plug.vala:129 src/Views/Clicking.vala:104
 msgid "Double-click Speed"
 msgstr "Kaksoisnapsauttamisen nopeus"
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:112
+#: src/Plug.vala:130 src/Views/Clicking.vala:114
 msgid "Dwell Click"
 msgstr "Napsautus kohdistamalla"
 
@@ -44,11 +44,11 @@ msgstr "Napsautus kohdistamalla"
 msgid "Primary Button"
 msgstr "Ensisijainen painike"
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:71
+#: src/Plug.vala:132 src/Views/Clicking.vala:73
 msgid "Long-press Secondary Click"
 msgstr "Kakkospainike pitkällä painalluksella"
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:167
+#: src/Plug.vala:133 src/Views/Clicking.vala:169
 msgid "Middle Click Paste"
 msgstr "Liittäminen keskimmäistä napsauttamalla"
 
@@ -154,37 +154,45 @@ msgstr "Suurenna ikkuna"
 msgid "Behavior"
 msgstr "Toiminta"
 
-#: src/Views/Clicking.vala:33
+#. / TRANSLATORS: Used as "Primary Button: Left"
+#: src/Views/Clicking.vala:34
+#, fuzzy
+#| msgid "Left"
+msgctxt "mouse-button"
 msgid "Left"
 msgstr "Vasen"
 
-#: src/Views/Clicking.vala:44
+#. / TRANSLATORS: Used as "Primary Button: Right";
+#: src/Views/Clicking.vala:46
+#, fuzzy
+#| msgid "Right"
+msgctxt "mouse-button"
 msgid "Right"
 msgstr "Oikea"
 
-#: src/Views/Clicking.vala:73
+#: src/Views/Clicking.vala:75
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Ensisijaisen painikkeen pitkä pohjassapito ja irtipäästö tuottaa "
 "toissijaisen painikkeen napsautuksen"
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:106
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Kuinka nopeasti peräkkäin tehtäviä napsautuksia kohdellaan "
 "kaksoisnapsautuksena"
 
-#: src/Views/Clicking.vala:114
+#: src/Views/Clicking.vala:116
 msgid "Hold the pointer still to automatically click"
 msgstr "Pidä osoitin paikallaan automaattista napsautusta varten"
 
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:171
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Keskimmäisen tai kolmen sormen napsautus syötekentässä liittää valitun "
 "tekstin"
 
-#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
+#: src/Views/Clicking.vala:233 src/Views/Clicking.vala:238
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f sekuntia"

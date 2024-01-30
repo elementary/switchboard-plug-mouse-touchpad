@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 23:57+0000\n"
+"POT-Creation-Date: 2024-01-30 15:51+0000\n"
 "PO-Revision-Date: 2024-01-28 00:53+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -33,11 +33,11 @@ msgstr "Налаштування миші та сенсорної панелі"
 msgid "Clicking"
 msgstr "Натискання"
 
-#: src/Plug.vala:129 src/Views/Clicking.vala:102
+#: src/Plug.vala:129 src/Views/Clicking.vala:104
 msgid "Double-click Speed"
 msgstr "Швидкість подвійного натискання"
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:112
+#: src/Plug.vala:130 src/Views/Clicking.vala:114
 msgid "Dwell Click"
 msgstr "Натискання наведенням"
 
@@ -45,11 +45,11 @@ msgstr "Натискання наведенням"
 msgid "Primary Button"
 msgstr "Основна кнопка"
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:71
+#: src/Plug.vala:132 src/Views/Clicking.vala:73
 msgid "Long-press Secondary Click"
 msgstr "Затискання вторинною кнопкою"
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:167
+#: src/Plug.vala:133 src/Views/Clicking.vala:169
 msgid "Middle Click Paste"
 msgstr "Вставити середньою кнопкою"
 
@@ -139,34 +139,42 @@ msgstr "Розгорнути вікно"
 msgid "Behavior"
 msgstr "Поведінка"
 
-#: src/Views/Clicking.vala:33
+#. / TRANSLATORS: Used as "Primary Button: Left"
+#: src/Views/Clicking.vala:34
+#, fuzzy
+#| msgid "Left"
+msgctxt "mouse-button"
 msgid "Left"
 msgstr "Ліва"
 
-#: src/Views/Clicking.vala:44
+#. / TRANSLATORS: Used as "Primary Button: Right";
+#: src/Views/Clicking.vala:46
+#, fuzzy
+#| msgid "Right"
+msgctxt "mouse-button"
 msgid "Right"
 msgstr "Права"
 
-#: src/Views/Clicking.vala:73
+#: src/Views/Clicking.vala:75
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Тривале натискання й відпустити основну кнопку для вторинного натискання"
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:106
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Яку швидкість двох натискань поспіль вважати за подвійне натискання"
 
-#: src/Views/Clicking.vala:114
+#: src/Views/Clicking.vala:116
 msgid "Hold the pointer still to automatically click"
 msgstr "Утримуйте вказівник нерухомим, щоб автоматично натиснути"
 
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:171
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Натискання середньої кнопки або торкання трьома пальцями на полі, щоб "
 "вставити виділений текст"
 
-#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
+#: src/Views/Clicking.vala:233 src/Views/Clicking.vala:238
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f секунд"

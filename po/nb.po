@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 23:57+0000\n"
+"POT-Creation-Date: 2024-01-30 15:51+0000\n"
 "PO-Revision-Date: 2024-01-29 23:58+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -32,13 +32,13 @@ msgstr "Sett opp mus og pekeflate"
 msgid "Clicking"
 msgstr "Klikking"
 
-#: src/Plug.vala:129 src/Views/Clicking.vala:102
+#: src/Plug.vala:129 src/Views/Clicking.vala:104
 #, fuzzy
 #| msgid "Double-click speed"
 msgid "Double-click Speed"
 msgstr "Dobbeltklikkingshastighet"
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:112
+#: src/Plug.vala:130 src/Views/Clicking.vala:114
 #, fuzzy
 msgid "Dwell Click"
 msgstr "Hvilke-klikk"
@@ -48,13 +48,13 @@ msgstr "Hvilke-klikk"
 msgid "Primary Button"
 msgstr "Hovedknapp:"
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:71
+#: src/Plug.vala:132 src/Views/Clicking.vala:73
 #, fuzzy
 #| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
 msgstr "Langtrykkingssekundærklikk"
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:167
+#: src/Plug.vala:133 src/Views/Clicking.vala:169
 #, fuzzy
 msgid "Middle Click Paste"
 msgstr "Midtklikk-innliming:"
@@ -153,32 +153,40 @@ msgstr "Maksimer vindu"
 msgid "Behavior"
 msgstr "Oppførsel"
 
-#: src/Views/Clicking.vala:33
+#. / TRANSLATORS: Used as "Primary Button: Left"
+#: src/Views/Clicking.vala:34
+#, fuzzy
+#| msgid "Left"
+msgctxt "mouse-button"
 msgid "Left"
 msgstr "Venstre"
 
-#: src/Views/Clicking.vala:44
+#. / TRANSLATORS: Used as "Primary Button: Right";
+#: src/Views/Clicking.vala:46
+#, fuzzy
+#| msgid "Right"
+msgctxt "mouse-button"
 msgid "Right"
 msgstr "Høyre"
 
-#: src/Views/Clicking.vala:73
+#: src/Views/Clicking.vala:75
 msgid "Long-press and release the primary button to secondary click"
 msgstr "Langtrykking og utløsing av hovedknappen vil sekundærklikke."
 
-#: src/Views/Clicking.vala:104
+#: src/Views/Clicking.vala:106
 #, fuzzy
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Hvor raskt to klikk på rad skal behandles som dobbeltklikk"
 
-#: src/Views/Clicking.vala:114
+#: src/Views/Clicking.vala:116
 msgid "Hold the pointer still to automatically click"
 msgstr "Hold pekeren i ro for å klikke automatisk"
 
-#: src/Views/Clicking.vala:169
+#: src/Views/Clicking.vala:171
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Midt- eller tre-fingerklikk på inndata limer inn valgt tekst"
 
-#: src/Views/Clicking.vala:231 src/Views/Clicking.vala:236
+#: src/Views/Clicking.vala:233 src/Views/Clicking.vala:238
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f sekunder"
