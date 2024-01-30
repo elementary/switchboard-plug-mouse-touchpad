@@ -30,7 +30,8 @@ public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
         var primary_button_label = new Granite.HeaderLabel (_("Primary Button"));
 
         var mouse_left = new Gtk.CheckButton () {
-            tooltip_text = _("Left")
+            /// TRANSLATORS: Used as "Primary Button: Left"
+            tooltip_text = NC_("mouse-button", "Left")
         };
         mouse_left.add_css_class ("image-button");
 
@@ -41,7 +42,8 @@ public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
 
         var mouse_right = new Gtk.CheckButton () {
             group = mouse_left,
-            tooltip_text = _("Right")
+            /// TRANSLATORS: Used as "Primary Button: Right";
+            tooltip_text = NC_("mouse-button", "Right")
         };
         mouse_right.add_css_class ("image-button");
 
