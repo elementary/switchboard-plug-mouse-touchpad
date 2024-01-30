@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 15:51+0000\n"
-"PO-Revision-Date: 2021-04-21 20:13+0000\n"
+"PO-Revision-Date: 2024-01-30 16:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Thai <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/th/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:53
@@ -147,16 +147,12 @@ msgstr "ลักษณะการทำงาน"
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
 #: src/Views/Clicking.vala:34
-#, fuzzy
-#| msgid "Left"
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "ซ้าย"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
 #: src/Views/Clicking.vala:46
-#, fuzzy
-#| msgid "Right"
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "ขวา"
