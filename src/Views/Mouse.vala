@@ -7,7 +7,7 @@ public class MouseTouchpad.MouseView : Switchboard.SettingsPage {
     public MouseView () {
         Object (
             header: _("Devices"),
-            icon_name: "input-mouse",
+            icon: new ThemedIcon ("input-mouse"),
             title: _("Mouse")
         );
     }

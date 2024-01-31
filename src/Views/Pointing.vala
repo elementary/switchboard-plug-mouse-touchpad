@@ -6,7 +6,7 @@
 public class MouseTouchpad.PointingView : Switchboard.SettingsPage {
     public PointingView () {
         Object (
-            icon_name: "mouse-touchpad-pointing",
+            icon: new ThemedIcon ("mouse-touchpad-pointing"),
             title: _("Pointing")
         );
     }

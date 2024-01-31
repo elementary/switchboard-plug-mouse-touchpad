@@ -21,7 +21,7 @@
 public class MouseTouchpad.GesturesView : Switchboard.SettingsPage {
     public GesturesView () {
         Object (
-            icon_name: "mouse-touchpad-gestures",
+            icon: new ThemedIcon ("mouse-touchpad-gestures"),
             title: _("Gestures")
         );
     }
