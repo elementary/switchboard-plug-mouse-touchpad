@@ -11,7 +11,7 @@ public class MouseTouchpad.TouchpadView : Switchboard.SettingsPage {
 
     public TouchpadView () {
         Object (
-            icon_name: "input-touchpad",
+            icon: new ThemedIcon ("input-touchpad"),
             title: _("Touchpad")
         );
     }

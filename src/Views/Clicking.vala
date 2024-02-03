@@ -21,7 +21,7 @@ public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
     public ClickingView () {
         Object (
             header: _("Behavior"),
-            icon_name: "mouse-touchpad-clicking",
+            icon: new ThemedIcon ("mouse-touchpad-clicking"),
             title: _("Clicking")
         );
     }
