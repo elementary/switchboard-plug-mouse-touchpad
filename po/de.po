@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 15:51+0000\n"
-"PO-Revision-Date: 2024-01-30 16:38+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-02-12 16:57+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/de/>\n"
 "Language: de\n"
@@ -59,21 +59,15 @@ msgstr "Maus"
 
 #: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
 #: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
 msgid "Pointer Speed"
 msgstr "Zeigergeschwindigkeit"
 
 #: src/Plug.vala:137 src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
 msgstr "Zeigerbeschleunigung"
 
 #: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
 #: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
 msgid "Natural Scrolling"
 msgstr "Natürlicher Bildlauf"
 
@@ -82,20 +76,14 @@ msgid "Pointing"
 msgstr "Zeigen"
 
 #: src/Plug.vala:141 src/Views/Pointing.vala:85
-#, fuzzy
-#| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "Zeigergröße"
 
 #: src/Plug.vala:142 src/Views/Pointing.vala:76
-#, fuzzy
-#| msgid "Reveal pointer"
 msgid "Reveal Pointer"
 msgstr "Zeiger hervorheben"
 
 #: src/Plug.vala:143 src/Views/Pointing.vala:20
-#, fuzzy
-#| msgid "Control pointer using keypad"
 msgid "Control Pointer Using Keypad"
 msgstr "Zeiger mit dem Nummernblock steuern"
 
@@ -114,16 +102,12 @@ msgid "Double-tap and move to drag"
 msgstr "Zum Ziehen doppelt tippen und bewegen"
 
 #: src/Plug.vala:149 src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
-msgstr "Physisches Sekundärklicken:"
+msgstr "Physisches Sekundärklicken"
 
 #: src/Plug.vala:150 src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
 msgid "Scroll Method"
-msgstr "Bildlaufmethode:"
+msgstr "Bildlaufmethode"
 
 #: src/Plug.vala:152
 msgid "Ignore while typing"
@@ -247,12 +231,12 @@ msgstr "Geräte"
 #: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
 #: src/Views/Touchpad.vala:27
 msgid "Slower"
-msgstr ""
+msgstr "Langsamer"
 
 #: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
 #: src/Views/Touchpad.vala:29
 msgid "Faster"
-msgstr ""
+msgstr "Schneller"
 
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
@@ -268,7 +252,7 @@ msgstr "Adaptiv"
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
-msgstr ""
+msgstr "Bildlauf bewegt den Inhalt, nicht die Ansicht"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -307,10 +291,8 @@ msgid "Edge"
 msgstr "Rand"
 
 #: src/Views/Touchpad.vala:133
-#, fuzzy
-#| msgid "Ignore:"
 msgid "Ignore"
-msgstr "Ignorieren:"
+msgstr "Ignorieren"
 
 #: src/Views/Touchpad.vala:135
 msgid "While typing"
@@ -321,10 +303,8 @@ msgid "When mouse is connected"
 msgstr "Bei angeschlossener Maus"
 
 #: src/Views/Touchpad.vala:147
-#, fuzzy
-#| msgid "Tapping:"
 msgid "Tapping"
-msgstr "Tippen:"
+msgstr "Tippen"
 
 #~ msgid "Double-click speed"
 #~ msgstr "Doppelklickgeschwindigkeit"
