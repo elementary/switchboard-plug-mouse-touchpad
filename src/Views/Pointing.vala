@@ -12,6 +12,8 @@ public class MouseTouchpad.PointingView : Switchboard.SettingsPage {
     }
 
     construct {
+        show_end_title_buttons = true;
+
         var keypad_pointer_switch = new Gtk.Switch () {
             halign = END,
             valign = CENTER
