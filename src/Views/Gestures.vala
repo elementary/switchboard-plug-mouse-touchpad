@@ -27,6 +27,8 @@ public class MouseTouchpad.GesturesView : Switchboard.SettingsPage {
     }
 
     construct {
+        show_end_title_buttons = true;
+
         var horizontal_swipe_header = new Granite.HeaderLabel (_("Swipe Horizontally"));
 
         var three_swipe_horizontal_label = new Gtk.Label (_("Three fingers:")) {

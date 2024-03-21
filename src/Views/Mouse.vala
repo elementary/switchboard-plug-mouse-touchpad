@@ -13,6 +13,8 @@ public class MouseTouchpad.MouseView : Switchboard.SettingsPage {
     }
 
     construct {
+        show_end_title_buttons = true;
+
         var pointer_speed_adjustment = new Gtk.Adjustment (0, -1, 1, 0.1, 0, 0);
 
         var pointer_speed_scale = new Gtk.Scale (HORIZONTAL, pointer_speed_adjustment) {

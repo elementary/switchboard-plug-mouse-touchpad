@@ -27,6 +27,8 @@ public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
     }
 
     construct {
+        show_end_title_buttons = true;
+
         var primary_button_label = new Granite.HeaderLabel (_("Primary Button"));
 
         var mouse_left = new Gtk.CheckButton () {
