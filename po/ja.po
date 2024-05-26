@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 15:51+0000\n"
-"PO-Revision-Date: 2024-05-09 08:16+0000\n"
+"PO-Revision-Date: 2024-05-27 07:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ja/>\n"
@@ -180,7 +180,7 @@ msgstr "水平にスワイプした場合"
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:58
 #: src/Views/Gestures.vala:78
 msgid "Three fingers:"
-msgstr "3本指:"
+msgstr "3 本指:"
 
 #: src/Views/Gestures.vala:39 src/Views/Gestures.vala:49
 #: src/Views/Gestures.vala:63 src/Views/Gestures.vala:71
@@ -203,7 +203,7 @@ msgstr "ウィンドウを切り替え"
 #: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
 #: src/Views/Gestures.vala:86
 msgid "Four fingers:"
-msgstr "4本指:"
+msgstr "4 本指:"
 
 #: src/Views/Gestures.vala:54
 msgid "Swipe Up"
