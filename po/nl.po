@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 15:51+0000\n"
-"PO-Revision-Date: 2024-01-30 16:38+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-05-29 20:51+0000\n"
+"Last-Translator: Sven <622b1a13-49d8-4ace-bca7-48bff17b4780@unbox.at>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/nl/>\n"
 "Language: nl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.5\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:53
@@ -59,21 +59,15 @@ msgstr "Muis"
 
 #: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
 #: src/Views/Touchpad.vala:31
-#, fuzzy
-#| msgid "Pointer speed"
 msgid "Pointer Speed"
-msgstr "Aanwijzer snelheid"
+msgstr "Snelheid van de aanwijzer"
 
 #: src/Plug.vala:137 src/Views/Mouse.vala:57
-#, fuzzy
-#| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
-msgstr "Aanwijzer acceleratie"
+msgstr "Acceleratie van de aanwijzer"
 
 #: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
 #: src/Views/Touchpad.vala:122
-#, fuzzy
-#| msgid "Natural scrolling"
 msgid "Natural Scrolling"
 msgstr "Natuurlijk scrollen"
 
@@ -114,16 +108,12 @@ msgid "Double-tap and move to drag"
 msgstr "Twee keer aantikken en dan verplaatsen om te slepen"
 
 #: src/Plug.vala:149 src/Views/Touchpad.vala:64
-#, fuzzy
-#| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
-msgstr "Fysiek secundair klikken:"
+msgstr "Fysiek secundair klikken"
 
 #: src/Plug.vala:150 src/Views/Touchpad.vala:82
-#, fuzzy
-#| msgid "Scroll method:"
 msgid "Scroll Method"
-msgstr "Scroll methode:"
+msgstr "Scrollmethode"
 
 #: src/Plug.vala:152
 msgid "Ignore while typing"
@@ -243,12 +233,12 @@ msgstr "Apparaten"
 #: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
 #: src/Views/Touchpad.vala:27
 msgid "Slower"
-msgstr ""
+msgstr "Langzamer"
 
 #: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
 #: src/Views/Touchpad.vala:29
 msgid "Faster"
-msgstr ""
+msgstr "Sneller"
 
 #: src/Views/Mouse.vala:29
 msgid "Hardware default"
@@ -264,7 +254,7 @@ msgstr "Aangepaste"
 
 #: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
 msgid "Scrolling moves the content, not the view"
-msgstr ""
+msgstr "Scrollen verplaatst de inhoud, niet de weergave"
 
 #: src/Views/Pointing.vala:21
 msgid "This disables both levels of keys on the numeric keypad"
@@ -304,10 +294,8 @@ msgid "Edge"
 msgstr "Rand"
 
 #: src/Views/Touchpad.vala:133
-#, fuzzy
-#| msgid "Ignore:"
 msgid "Ignore"
-msgstr "Negeer:"
+msgstr "Negeer"
 
 #: src/Views/Touchpad.vala:135
 msgid "While typing"
@@ -318,10 +306,8 @@ msgid "When mouse is connected"
 msgstr "Als muis verbonden is"
 
 #: src/Views/Touchpad.vala:147
-#, fuzzy
-#| msgid "Tapping:"
 msgid "Tapping"
-msgstr "Tikken:"
+msgstr "Tikken"
 
 #~ msgid "Double-click speed"
 #~ msgstr "Dubbelklik snelheid"
