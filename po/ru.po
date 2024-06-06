@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 15:51+0000\n"
-"PO-Revision-Date: 2024-01-30 16:38+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-06-06 08:56+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.5\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:53
@@ -166,7 +166,7 @@ msgstr "Удерживайте указатель неподвижным для 
 #: src/Views/Clicking.vala:171
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
-"Нажатие средней клавиши или косание тремя пальцами, чтобы вставить "
+"Нажмите средней кнопкой мыши или коснитесь тремя пальцами, чтобы вставить "
 "выделенный текст"
 
 #: src/Views/Clicking.vala:233 src/Views/Clicking.vala:238
@@ -181,7 +181,7 @@ msgstr "Проведение по горизонтали"
 #: src/Views/Gestures.vala:32 src/Views/Gestures.vala:58
 #: src/Views/Gestures.vala:78
 msgid "Three fingers:"
-msgstr "Три пальца:"
+msgstr "Тремя пальцами:"
 
 #: src/Views/Gestures.vala:39 src/Views/Gestures.vala:49
 #: src/Views/Gestures.vala:63 src/Views/Gestures.vala:71
@@ -204,7 +204,7 @@ msgstr "Переключение окон"
 #: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
 #: src/Views/Gestures.vala:86
 msgid "Four fingers:"
-msgstr "Четыре пальца:"
+msgstr "Четырьмя пальцами:"
 
 #: src/Views/Gestures.vala:54
 msgid "Swipe Up"
