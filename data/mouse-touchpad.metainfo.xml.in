@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>io.elementary.settings.mouse-touchpad</id>
+  <extends>io.elementary.settings</extends>
+  <translation type="gettext">io.elementary.settings.mouse-touchpad</translation>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+
+  <icon type="stock">preferences-desktop-peripherals</icon>
+  <name>Mouse &amp; Touchpad Settings</name>
+  <summary>Configure mouse and touchpad</summary>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-clicking.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-pointing.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-gestures.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-mouse.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-touchpad.png</image>
+    </screenshot>
+  </screenshots>
+
+  <content_rating type="oars-1.1" />
+
+  <url type="bugtracker">https://github.com/elementary/switchboard-plug-mouse-touchpad/issues</url>
+  <url type="donation">https://elementary.io/get-involved#funding</url>
+  <url type="help">https://github.com/elementary/switchboard-plug-mouse-touchpad/discussions</url>
+  <url type="homepage">https://elementary.io/</url>
+  <url type="translate">https://l10n.elementary.io/engage/switchboard/</url>
+
+  <developer id="org.elementaryos">
+    <name>elementary, Inc.</name>
+  </developer>
+  <project_group>elementary</project_group>
+  <update_contact>contact_at_elementary.io</update_contact>
+
+  <releases>
+    <release version="7.0.0" date="2022-05-10" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Update for OS 7</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.1.0" date="2021-09-22" urgency="medium">
+      <description>
+        <p>New features:</p>
+        <ul>
+          <li>New toggle for “Double-tap and move to drag”</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.0.0" date="2021-07-15" urgency="medium">
+      <description>
+        <p>New features:</p>
+        <ul>
+          <li>Multitouch gesture options</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Add more snap points to pointer speed sliders</li>
+          <li>Multitouch gesture options</li>
+          <li>Redesigned touchpad settings</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="2.4.2" date="2020-05-28" urgency="medium">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="2.4.1" date="2020-04-08" urgency="medium">
+      <description>
+        <ul>
+          <li>Fix stretched switches when using large text</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="2.4.0" date="2020-01-21" urgency="medium" />
+    <release version="2.3.1" date="2019-11-30" urgency="medium" />
+    <release version="2.3.0" date="2019-11-15" urgency="medium" />
+  </releases>
+</component>
