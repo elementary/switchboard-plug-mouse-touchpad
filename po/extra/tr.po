@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 01:01+0000\n"
+"POT-Creation-Date: 2024-06-11 01:10+0000\n"
 "PO-Revision-Date: 2022-05-14 14:52+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -32,48 +32,58 @@ msgid "elementary, Inc."
 msgstr ""
 
 #: data/mouse-touchpad.metainfo.xml.in:48
-#: data/mouse-touchpad.metainfo.xml.in:62
-#: data/mouse-touchpad.metainfo.xml.in:75
+#: data/mouse-touchpad.metainfo.xml.in:59
+#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:86
 msgid "Minor updates:"
 msgstr "Küçük güncellemeler:"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
-msgid "Update for OS 7"
-msgstr "OS 7 için güncelleme"
+msgid "Redesigned, easier to read views with more helpful descriptions"
+msgstr ""
 
 #: data/mouse-touchpad.metainfo.xml.in:51
-#: data/mouse-touchpad.metainfo.xml.in:64
-#: data/mouse-touchpad.metainfo.xml.in:80
-#: data/mouse-touchpad.metainfo.xml.in:88
-#: data/mouse-touchpad.metainfo.xml.in:97
+msgid ""
+"Add \"Cycle windows\" and \"Move active window to workspace\" as gesture "
+"options"
+msgstr ""
+
+#: data/mouse-touchpad.metainfo.xml.in:52
+#: data/mouse-touchpad.metainfo.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:75
+#: data/mouse-touchpad.metainfo.xml.in:91
+#: data/mouse-touchpad.metainfo.xml.in:99
 msgid "Updated translations"
 msgstr "Çeviriler güncellendi"
 
-#: data/mouse-touchpad.metainfo.xml.in:58
-#: data/mouse-touchpad.metainfo.xml.in:71
+#: data/mouse-touchpad.metainfo.xml.in:61
+msgid "Update for OS 7"
+msgstr "OS 7 için güncelleme"
+
+#: data/mouse-touchpad.metainfo.xml.in:69
+#: data/mouse-touchpad.metainfo.xml.in:82
 msgid "New features:"
 msgstr "Yeni özellikler:"
 
-#: data/mouse-touchpad.metainfo.xml.in:60
+#: data/mouse-touchpad.metainfo.xml.in:71
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr ""
 
-#: data/mouse-touchpad.metainfo.xml.in:73
-#: data/mouse-touchpad.metainfo.xml.in:78
+#: data/mouse-touchpad.metainfo.xml.in:84
+#: data/mouse-touchpad.metainfo.xml.in:89
 msgid "Multitouch gesture options"
 msgstr "Çoklu dokunma hareketi seçenekleri eklendi"
 
-#: data/mouse-touchpad.metainfo.xml.in:77
+#: data/mouse-touchpad.metainfo.xml.in:88
 msgid "Add more snap points to pointer speed sliders"
 msgstr "İşaretçi hızı kaydırıcılarına daha fazla nokta eklendi"
 
-#: data/mouse-touchpad.metainfo.xml.in:79
+#: data/mouse-touchpad.metainfo.xml.in:90
 msgid "Redesigned touchpad settings"
 msgstr "Dokunmatik yüzey ayarları yeniden tasarlandı"
 
-#: data/mouse-touchpad.metainfo.xml.in:96
-msgid "Fix stretched switches when using large text"
-msgstr "Büyük metin kullanırken genişleyen anahtarlar düzeltildi"
+#~ msgid "Fix stretched switches when using large text"
+#~ msgstr "Büyük metin kullanırken genişleyen anahtarlar düzeltildi"
 
 #~ msgid "Add Dwell Click and Pointer size settings"
 #~ msgstr "Otomatik tıklama ve İşaretçi boyutu ayarları eklendi"
