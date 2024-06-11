@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 15:51+0000\n"
+"POT-Creation-Date: 2024-06-11 01:01+0000\n"
 "PO-Revision-Date: 2024-01-30 16:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -28,135 +28,135 @@ msgstr "마우스 & 터치패드"
 msgid "Configure mouse and touchpad"
 msgstr "마우스와 터치패드를 설정합니다"
 
-#: src/Plug.vala:128 src/Views/Clicking.vala:25
+#: src/Plug.vala:130 src/Views/Clicking.vala:25
 msgid "Clicking"
 msgstr "클릭"
 
-#: src/Plug.vala:129 src/Views/Clicking.vala:104
+#: src/Plug.vala:131 src/Views/Clicking.vala:106
 #, fuzzy
 #| msgid "Double-click speed"
 msgid "Double-click Speed"
 msgstr "더블 클릭 속도"
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:114
+#: src/Plug.vala:132 src/Views/Clicking.vala:116
 #, fuzzy
 #| msgid "Dwell click"
 msgid "Dwell Click"
 msgstr "드웰 클릭"
 
-#: src/Plug.vala:131 src/Views/Clicking.vala:30
+#: src/Plug.vala:133 src/Views/Clicking.vala:32
 #, fuzzy
 #| msgid "Primary button"
 msgid "Primary Button"
 msgstr "실행 버튼"
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:73
+#: src/Plug.vala:134 src/Views/Clicking.vala:75
 #, fuzzy
 #| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
 msgstr "길게 누르기로 보조 클릭"
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:169
+#: src/Plug.vala:135 src/Views/Clicking.vala:171
 #, fuzzy
 #| msgid "Middle click paste"
 msgid "Middle Click Paste"
 msgstr "가운데 클릭 붙여 넣기"
 
-#: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
+#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "마우스"
 
-#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
-#: src/Views/Touchpad.vala:31
+#: src/Plug.vala:138 src/Plug.vala:148 src/Views/Mouse.vala:27
+#: src/Views/Touchpad.vala:33
 #, fuzzy
 #| msgid "Pointer speed"
 msgid "Pointer Speed"
 msgstr "포인터 속도"
 
-#: src/Plug.vala:137 src/Views/Mouse.vala:57
+#: src/Plug.vala:139 src/Views/Mouse.vala:59
 #, fuzzy
 #| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
 msgstr "포인터 가속"
 
-#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
-#: src/Views/Touchpad.vala:122
+#: src/Plug.vala:140 src/Plug.vala:153 src/Views/Mouse.vala:45
+#: src/Views/Touchpad.vala:124
 #, fuzzy
 #| msgid "Natural scrolling"
 msgid "Natural Scrolling"
 msgstr "자연스러운 스크롤"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:10
+#: src/Plug.vala:142 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "포인팅"
 
-#: src/Plug.vala:141 src/Views/Pointing.vala:85
+#: src/Plug.vala:143 src/Views/Pointing.vala:87
 #, fuzzy
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "포인터 크기"
 
-#: src/Plug.vala:142 src/Views/Pointing.vala:76
+#: src/Plug.vala:144 src/Views/Pointing.vala:78
 #, fuzzy
 #| msgid "Reveal pointer"
 msgid "Reveal Pointer"
 msgstr "포인터 표시"
 
-#: src/Plug.vala:143 src/Views/Pointing.vala:20
+#: src/Plug.vala:145 src/Views/Pointing.vala:22
 #, fuzzy
 #| msgid "Control pointer using keypad"
 msgid "Control Pointer Using Keypad"
 msgstr "키패드로 포인터 조종하기"
 
-#: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
-#: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Plug.vala:153 src/Views/Touchpad.vala:15
+#: src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149 src/Plug.vala:150
+#: src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153 src/Plug.vala:154
+#: src/Plug.vala:155 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "터치패드"
 
-#: src/Plug.vala:147 src/Views/Touchpad.vala:70
+#: src/Plug.vala:149 src/Views/Touchpad.vala:72
 msgid "Tap to click"
 msgstr "탭 해서 클릭"
 
-#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+#: src/Plug.vala:150 src/Views/Touchpad.vala:76
 msgid "Double-tap and move to drag"
 msgstr "두 번 탭하고 드래그하여 이동"
 
-#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+#: src/Plug.vala:151 src/Views/Touchpad.vala:66
 #, fuzzy
 #| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
 msgstr "물리적 2차 클릭:"
 
-#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+#: src/Plug.vala:152 src/Views/Touchpad.vala:84
 #, fuzzy
 #| msgid "Scroll method:"
 msgid "Scroll Method"
 msgstr "스크롤 방식:"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:154
 msgid "Ignore while typing"
 msgstr "타이핑할 땐 끄기"
 
-#: src/Plug.vala:153
+#: src/Plug.vala:155
 msgid "Ignore when mouse is connected"
 msgstr "마우스를 연결하면 끄기"
 
-#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
+#: src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160 src/Plug.vala:161
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "제스처"
 
-#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:159 src/Views/Gestures.vala:66 src/Views/Gestures.vala:74
 msgid "Multitasking View"
 msgstr "멀티태스킹 뷰"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:160
 msgid "Switch Workspaces"
 msgstr "작업 공간 전환"
 
-#: src/Plug.vala:159
+#: src/Plug.vala:161
 msgid "Maximize Window"
 msgstr "창 최대화"
 
@@ -165,86 +165,86 @@ msgid "Behavior"
 msgstr "동작"
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
-#: src/Views/Clicking.vala:34
+#: src/Views/Clicking.vala:36
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "왼쪽"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
-#: src/Views/Clicking.vala:46
+#: src/Views/Clicking.vala:48
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "오른쪽"
 
-#: src/Views/Clicking.vala:75
+#: src/Views/Clicking.vala:77
 msgid "Long-press and release the primary button to secondary click"
 msgstr "실행 버튼을 길게 눌렀다 놓으면 보조 클릭 기능을 합니다"
 
-#: src/Views/Clicking.vala:106
+#: src/Views/Clicking.vala:108
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "더블 클릭으로 인식될 만한 빠르기의 두 번 클릭"
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:118
 msgid "Hold the pointer still to automatically click"
 msgstr "자동 클릭할 때까지 포인터 누르고 있기"
 
-#: src/Views/Clicking.vala:171
+#: src/Views/Clicking.vala:173
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "가운데 또는 세 손가락으로 입력을 클릭하면 선택한 텍스트가 붙여집니다"
 
-#: src/Views/Clicking.vala:233 src/Views/Clicking.vala:238
+#: src/Views/Clicking.vala:235 src/Views/Clicking.vala:240
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"
 msgstr "초"
 
-#: src/Views/Gestures.vala:30
+#: src/Views/Gestures.vala:32
 msgid "Swipe Horizontally"
 msgstr "가로로 스와이프"
 
-#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:58
-#: src/Views/Gestures.vala:78
+#: src/Views/Gestures.vala:34 src/Views/Gestures.vala:60
+#: src/Views/Gestures.vala:80
 msgid "Three fingers:"
 msgstr "세 손가락:"
 
-#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:49
-#: src/Views/Gestures.vala:63 src/Views/Gestures.vala:71
-#: src/Views/Gestures.vala:83 src/Views/Gestures.vala:91
+#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
+#: src/Views/Gestures.vala:65 src/Views/Gestures.vala:73
+#: src/Views/Gestures.vala:85 src/Views/Gestures.vala:93
 msgid "Do nothing"
 msgstr "아무것도 안 함"
 
-#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
 msgid "Switch to workspace"
 msgstr "작업 공간으로 전환"
 
-#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
+#: src/Views/Gestures.vala:43 src/Views/Gestures.vala:53
 #, fuzzy
 #| msgid "Switch to workspace"
 msgid "Move active window to workspace"
 msgstr "작업 공간으로 전환"
 
-#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
+#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:54
 msgid "Cycle windows"
 msgstr ""
 
-#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
-#: src/Views/Gestures.vala:86
+#: src/Views/Gestures.vala:46 src/Views/Gestures.vala:68
+#: src/Views/Gestures.vala:88
 msgid "Four fingers:"
 msgstr "네 손가락:"
 
-#: src/Views/Gestures.vala:54
+#: src/Views/Gestures.vala:56
 msgid "Swipe Up"
 msgstr "위로 스와이프"
 
-#: src/Views/Gestures.vala:74
+#: src/Views/Gestures.vala:76
 msgid "Pinch"
 msgstr "핀치"
 
-#: src/Views/Gestures.vala:84 src/Views/Gestures.vala:92
+#: src/Views/Gestures.vala:86 src/Views/Gestures.vala:94
 msgid "Zoom"
 msgstr "확대"
 
-#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
+#: src/Views/Gestures.vala:130 src/Views/Gestures.vala:131
 msgid "Toggle maximized"
 msgstr "창 최대화 토글"
 
@@ -252,83 +252,83 @@ msgstr "창 최대화 토글"
 msgid "Devices"
 msgstr "장치"
 
-#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
-#: src/Views/Touchpad.vala:27
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
 msgid "Slower"
 msgstr ""
 
-#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
-#: src/Views/Touchpad.vala:29
+#: src/Views/Mouse.vala:25 src/Views/Pointing.vala:34
+#: src/Views/Touchpad.vala:31
 msgid "Faster"
 msgstr ""
 
-#: src/Views/Mouse.vala:29
+#: src/Views/Mouse.vala:31
 msgid "Hardware default"
 msgstr "하드웨어 기본값"
 
-#: src/Views/Mouse.vala:30
+#: src/Views/Mouse.vala:32
 msgid "None"
 msgstr "안 함"
 
-#: src/Views/Mouse.vala:33
+#: src/Views/Mouse.vala:35
 msgid "Adaptive"
 msgstr "감응식"
 
-#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+#: src/Views/Mouse.vala:47 src/Views/Touchpad.vala:126
 msgid "Scrolling moves the content, not the view"
 msgstr ""
 
-#: src/Views/Pointing.vala:21
+#: src/Views/Pointing.vala:23
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "숫자 키패드에 있는 두 레벨의 키를 모두 비활성화합니다"
 
-#: src/Views/Pointing.vala:35
+#: src/Views/Pointing.vala:37
 msgid "Small"
 msgstr "작게"
 
-#: src/Views/Pointing.vala:46
+#: src/Views/Pointing.vala:48
 msgid "Medium"
 msgstr "중간"
 
-#: src/Views/Pointing.vala:57
+#: src/Views/Pointing.vala:59
 msgid "Large"
 msgstr "크게"
 
-#: src/Views/Pointing.vala:78
+#: src/Views/Pointing.vala:80
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "ctrl 키를 누르면 포인터 위치를 표시합니다"
 
-#: src/Views/Touchpad.vala:38
+#: src/Views/Touchpad.vala:40
 msgid "Multitouch"
 msgstr "멀티터치"
 
-#: src/Views/Touchpad.vala:54
+#: src/Views/Touchpad.vala:56
 msgid "Areas"
 msgstr "영역"
 
-#: src/Views/Touchpad.vala:87
+#: src/Views/Touchpad.vala:89
 msgid "Two-finger"
 msgstr "두 손가락"
 
-#: src/Views/Touchpad.vala:102
+#: src/Views/Touchpad.vala:104
 msgid "Edge"
 msgstr "모서리"
 
-#: src/Views/Touchpad.vala:133
+#: src/Views/Touchpad.vala:135
 #, fuzzy
 #| msgid "Ignore:"
 msgid "Ignore"
 msgstr "그냥 넘기기:"
 
-#: src/Views/Touchpad.vala:135
+#: src/Views/Touchpad.vala:137
 msgid "While typing"
 msgstr "타이핑하는 동안"
 
-#: src/Views/Touchpad.vala:136
+#: src/Views/Touchpad.vala:138
 msgid "When mouse is connected"
 msgstr "마우스가 연결되면"
 
-#: src/Views/Touchpad.vala:147
+#: src/Views/Touchpad.vala:149
 #, fuzzy
 #| msgid "Tapping:"
 msgid "Tapping"

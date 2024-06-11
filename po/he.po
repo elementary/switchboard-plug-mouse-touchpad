@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 15:51+0000\n"
+"POT-Creation-Date: 2024-06-11 01:01+0000\n"
 "PO-Revision-Date: 2024-01-30 16:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
@@ -27,109 +27,109 @@ msgstr "עכבר ומשטח מגע"
 msgid "Configure mouse and touchpad"
 msgstr "הגדרת עכבר ומשטח מגע"
 
-#: src/Plug.vala:128 src/Views/Clicking.vala:25
+#: src/Plug.vala:130 src/Views/Clicking.vala:25
 msgid "Clicking"
 msgstr "לחיצה"
 
-#: src/Plug.vala:129 src/Views/Clicking.vala:104
+#: src/Plug.vala:131 src/Views/Clicking.vala:106
 msgid "Double-click Speed"
 msgstr "מהירות לחיצה כפולה"
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:114
+#: src/Plug.vala:132 src/Views/Clicking.vala:116
 msgid "Dwell Click"
 msgstr "השהיית לחיצה"
 
-#: src/Plug.vala:131 src/Views/Clicking.vala:30
+#: src/Plug.vala:133 src/Views/Clicking.vala:32
 msgid "Primary Button"
 msgstr "כפתור עיקרי"
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:73
+#: src/Plug.vala:134 src/Views/Clicking.vala:75
 msgid "Long-press Secondary Click"
 msgstr "לחיצה ארוכה על כפתור משני"
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:169
+#: src/Plug.vala:135 src/Views/Clicking.vala:171
 msgid "Middle Click Paste"
 msgstr "הדבקה עם כפתור אמצעי"
 
-#: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
+#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "עכבר"
 
-#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
-#: src/Views/Touchpad.vala:31
+#: src/Plug.vala:138 src/Plug.vala:148 src/Views/Mouse.vala:27
+#: src/Views/Touchpad.vala:33
 msgid "Pointer Speed"
 msgstr "מהירות המצביע"
 
-#: src/Plug.vala:137 src/Views/Mouse.vala:57
+#: src/Plug.vala:139 src/Views/Mouse.vala:59
 msgid "Pointer Acceleration"
 msgstr "האצת סמן"
 
-#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
-#: src/Views/Touchpad.vala:122
+#: src/Plug.vala:140 src/Plug.vala:153 src/Views/Mouse.vala:45
+#: src/Views/Touchpad.vala:124
 msgid "Natural Scrolling"
 msgstr "גלילה טבעית"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:10
+#: src/Plug.vala:142 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "הצבעה"
 
-#: src/Plug.vala:141 src/Views/Pointing.vala:85
+#: src/Plug.vala:143 src/Views/Pointing.vala:87
 msgid "Pointer Size"
 msgstr "גודל סמן"
 
-#: src/Plug.vala:142 src/Views/Pointing.vala:76
+#: src/Plug.vala:144 src/Views/Pointing.vala:78
 msgid "Reveal Pointer"
 msgstr "חשיפת הסמן"
 
-#: src/Plug.vala:143 src/Views/Pointing.vala:20
+#: src/Plug.vala:145 src/Views/Pointing.vala:22
 msgid "Control Pointer Using Keypad"
 msgstr "שליטה בסמן בעזרת הלוח הנומרי"
 
-#: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
-#: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Plug.vala:153 src/Views/Touchpad.vala:15
+#: src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149 src/Plug.vala:150
+#: src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153 src/Plug.vala:154
+#: src/Plug.vala:155 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "משטח מגע"
 
-#: src/Plug.vala:147 src/Views/Touchpad.vala:70
+#: src/Plug.vala:149 src/Views/Touchpad.vala:72
 msgid "Tap to click"
 msgstr "נגיעה לצורך לחיצה"
 
-#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+#: src/Plug.vala:150 src/Views/Touchpad.vala:76
 msgid "Double-tap and move to drag"
 msgstr "נגיעה כפולה והזזה כדי לגרור"
 
-#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+#: src/Plug.vala:151 src/Views/Touchpad.vala:66
 msgid "Physical Secondary Clicking"
 msgstr "לחיצה משנית פיזית"
 
-#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+#: src/Plug.vala:152 src/Views/Touchpad.vala:84
 msgid "Scroll Method"
 msgstr "שיטת גלילה"
 
-#: src/Plug.vala:152
+#: src/Plug.vala:154
 msgid "Ignore while typing"
 msgstr "התעלמות בעת הקלדה"
 
-#: src/Plug.vala:153
+#: src/Plug.vala:155
 msgid "Ignore when mouse is connected"
 msgstr "להתעלם כשהעכבר מחובר"
 
-#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
+#: src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160 src/Plug.vala:161
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "מחוות"
 
-#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:159 src/Views/Gestures.vala:66 src/Views/Gestures.vala:74
 msgid "Multitasking View"
 msgstr "תצוגת ריבוי משימות"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:160
 msgid "Switch Workspaces"
 msgstr "מעבר בין סביבות עבודה"
 
-#: src/Plug.vala:159
+#: src/Plug.vala:161
 msgid "Maximize Window"
 msgstr "הגדלת חלון"
 
@@ -138,83 +138,83 @@ msgid "Behavior"
 msgstr "התנהגות"
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
-#: src/Views/Clicking.vala:34
+#: src/Views/Clicking.vala:36
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "שמאלי"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
-#: src/Views/Clicking.vala:46
+#: src/Views/Clicking.vala:48
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "ימני"
 
-#: src/Views/Clicking.vala:75
+#: src/Views/Clicking.vala:77
 msgid "Long-press and release the primary button to secondary click"
 msgstr "לחיצה ארוכה ושחרור הכפתור העיקרי תגרום ללחיצה משנית"
 
-#: src/Views/Clicking.vala:106
+#: src/Views/Clicking.vala:108
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "כמה מהר שתי לחיצות ברצף ייחשבו ללחיצה כפולה"
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:118
 msgid "Hold the pointer still to automatically click"
 msgstr "להחזיק את הסמן במקום כדי ללחוץ אוטומטית"
 
-#: src/Views/Clicking.vala:171
+#: src/Views/Clicking.vala:173
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "לחיצה אמצעית או עם שלוש אצבעות על שדה קלט כדי להדביק טקסט נבחר"
 
-#: src/Views/Clicking.vala:233 src/Views/Clicking.vala:238
+#: src/Views/Clicking.vala:235 src/Views/Clicking.vala:240
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f שניות"
 
-#: src/Views/Gestures.vala:30
+#: src/Views/Gestures.vala:32
 msgid "Swipe Horizontally"
 msgstr "החלקה אופקית"
 
-#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:58
-#: src/Views/Gestures.vala:78
+#: src/Views/Gestures.vala:34 src/Views/Gestures.vala:60
+#: src/Views/Gestures.vala:80
 msgid "Three fingers:"
 msgstr "שלוש אצבעות:"
 
-#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:49
-#: src/Views/Gestures.vala:63 src/Views/Gestures.vala:71
-#: src/Views/Gestures.vala:83 src/Views/Gestures.vala:91
+#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
+#: src/Views/Gestures.vala:65 src/Views/Gestures.vala:73
+#: src/Views/Gestures.vala:85 src/Views/Gestures.vala:93
 msgid "Do nothing"
 msgstr "לא לעשות כלום"
 
-#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
 msgid "Switch to workspace"
 msgstr "מעבר לסביבת עבודה"
 
-#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
+#: src/Views/Gestures.vala:43 src/Views/Gestures.vala:53
 msgid "Move active window to workspace"
 msgstr "העברת החלון הפעיל לסביבת עבודה"
 
-#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
+#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:54
 msgid "Cycle windows"
 msgstr "מעבר מעגלי בין חלונות"
 
-#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
-#: src/Views/Gestures.vala:86
+#: src/Views/Gestures.vala:46 src/Views/Gestures.vala:68
+#: src/Views/Gestures.vala:88
 msgid "Four fingers:"
 msgstr "ארבע אצבעות:"
 
-#: src/Views/Gestures.vala:54
+#: src/Views/Gestures.vala:56
 msgid "Swipe Up"
 msgstr "החלקה למעלה"
 
-#: src/Views/Gestures.vala:74
+#: src/Views/Gestures.vala:76
 msgid "Pinch"
 msgstr "צביטה"
 
-#: src/Views/Gestures.vala:84 src/Views/Gestures.vala:92
+#: src/Views/Gestures.vala:86 src/Views/Gestures.vala:94
 msgid "Zoom"
 msgstr "תקריב"
 
-#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
+#: src/Views/Gestures.vala:130 src/Views/Gestures.vala:131
 msgid "Toggle maximized"
 msgstr "החלפת מצב הגדלה"
 
@@ -222,81 +222,81 @@ msgstr "החלפת מצב הגדלה"
 msgid "Devices"
 msgstr "התקנים"
 
-#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
-#: src/Views/Touchpad.vala:27
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
 msgid "Slower"
 msgstr "איטי יותר"
 
-#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
-#: src/Views/Touchpad.vala:29
+#: src/Views/Mouse.vala:25 src/Views/Pointing.vala:34
+#: src/Views/Touchpad.vala:31
 msgid "Faster"
 msgstr "מהיר יותר"
 
-#: src/Views/Mouse.vala:29
+#: src/Views/Mouse.vala:31
 msgid "Hardware default"
 msgstr "בררת מחדל של חומרה"
 
-#: src/Views/Mouse.vala:30
+#: src/Views/Mouse.vala:32
 msgid "None"
 msgstr "ללא"
 
-#: src/Views/Mouse.vala:33
+#: src/Views/Mouse.vala:35
 msgid "Adaptive"
 msgstr "מסתגל"
 
-#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+#: src/Views/Mouse.vala:47 src/Views/Touchpad.vala:126
 msgid "Scrolling moves the content, not the view"
 msgstr "הגלילה מזיזה את התוכן, לא את התצוגה"
 
-#: src/Views/Pointing.vala:21
+#: src/Views/Pointing.vala:23
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "פעולה זו משביתה את שתי רמות המקשים במקלדת הנומרית"
 
-#: src/Views/Pointing.vala:35
+#: src/Views/Pointing.vala:37
 msgid "Small"
 msgstr "קטן"
 
-#: src/Views/Pointing.vala:46
+#: src/Views/Pointing.vala:48
 msgid "Medium"
 msgstr "בינוני"
 
-#: src/Views/Pointing.vala:57
+#: src/Views/Pointing.vala:59
 msgid "Large"
 msgstr "גדול"
 
-#: src/Views/Pointing.vala:78
+#: src/Views/Pointing.vala:80
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "לחיצה על המקש Ctrl תדגיש את מיקום הסמן"
 
-#: src/Views/Touchpad.vala:38
+#: src/Views/Touchpad.vala:40
 msgid "Multitouch"
 msgstr "ריבוי נקודות מגע"
 
-#: src/Views/Touchpad.vala:54
+#: src/Views/Touchpad.vala:56
 msgid "Areas"
 msgstr "אזורים"
 
-#: src/Views/Touchpad.vala:87
+#: src/Views/Touchpad.vala:89
 msgid "Two-finger"
 msgstr "שתי אצבעות"
 
-#: src/Views/Touchpad.vala:102
+#: src/Views/Touchpad.vala:104
 msgid "Edge"
 msgstr "קצה"
 
-#: src/Views/Touchpad.vala:133
+#: src/Views/Touchpad.vala:135
 msgid "Ignore"
 msgstr "התעלמות"
 
-#: src/Views/Touchpad.vala:135
+#: src/Views/Touchpad.vala:137
 msgid "While typing"
 msgstr "בעת הקלדה"
 
-#: src/Views/Touchpad.vala:136
+#: src/Views/Touchpad.vala:138
 msgid "When mouse is connected"
 msgstr "כשעכבר מחובר"
 
-#: src/Views/Touchpad.vala:147
+#: src/Views/Touchpad.vala:149
 msgid "Tapping"
 msgstr "נגיעה"
 

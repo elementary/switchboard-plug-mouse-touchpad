@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 15:51+0000\n"
+"POT-Creation-Date: 2024-06-11 01:01+0000\n"
 "PO-Revision-Date: 2024-01-30 16:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -27,133 +27,133 @@ msgstr "माऊस आणि टचपॅड"
 msgid "Configure mouse and touchpad"
 msgstr "माउस आणि टचपॅड कॉन्फिगर करा"
 
-#: src/Plug.vala:128 src/Views/Clicking.vala:25
+#: src/Plug.vala:130 src/Views/Clicking.vala:25
 msgid "Clicking"
 msgstr "क्लिक करत आहे"
 
-#: src/Plug.vala:129 src/Views/Clicking.vala:104
+#: src/Plug.vala:131 src/Views/Clicking.vala:106
 #, fuzzy
 #| msgid "Double-click speed"
 msgid "Double-click Speed"
 msgstr "डबल क्लिकचा वेग"
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:114
+#: src/Plug.vala:132 src/Views/Clicking.vala:116
 #, fuzzy
 #| msgid "Dwell click"
 msgid "Dwell Click"
 msgstr "ड्वेल क्लिक"
 
-#: src/Plug.vala:131 src/Views/Clicking.vala:30
+#: src/Plug.vala:133 src/Views/Clicking.vala:32
 #, fuzzy
 #| msgid "Primary button"
 msgid "Primary Button"
 msgstr "प्राथमिक बटण"
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:73
+#: src/Plug.vala:134 src/Views/Clicking.vala:75
 #, fuzzy
 #| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
 msgstr "दुय्यम क्लिक दीर्घ-दाब"
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:169
+#: src/Plug.vala:135 src/Views/Clicking.vala:171
 #, fuzzy
 #| msgid "Middle click paste"
 msgid "Middle Click Paste"
 msgstr "मध्य क्लिक पेस्ट"
 
-#: src/Plug.vala:135 src/Plug.vala:136 src/Plug.vala:137 src/Plug.vala:138
+#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 #: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "माऊस"
 
-#: src/Plug.vala:136 src/Plug.vala:146 src/Views/Mouse.vala:25
-#: src/Views/Touchpad.vala:31
+#: src/Plug.vala:138 src/Plug.vala:148 src/Views/Mouse.vala:27
+#: src/Views/Touchpad.vala:33
 #, fuzzy
 #| msgid "Pointer speed"
 msgid "Pointer Speed"
 msgstr "पॉइंटर स्पीड"
 
-#: src/Plug.vala:137 src/Views/Mouse.vala:57
+#: src/Plug.vala:139 src/Views/Mouse.vala:59
 #, fuzzy
 #| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
 msgstr "पॉइंटर प्रवेग"
 
-#: src/Plug.vala:138 src/Plug.vala:151 src/Views/Mouse.vala:43
-#: src/Views/Touchpad.vala:122
+#: src/Plug.vala:140 src/Plug.vala:153 src/Views/Mouse.vala:45
+#: src/Views/Touchpad.vala:124
 #, fuzzy
 #| msgid "Natural scrolling"
 msgid "Natural Scrolling"
 msgstr "नैसर्गिक स्क्रोलिंग"
 
-#: src/Plug.vala:140 src/Views/Pointing.vala:10
+#: src/Plug.vala:142 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "पॉइंटिंग"
 
-#: src/Plug.vala:141 src/Views/Pointing.vala:85
+#: src/Plug.vala:143 src/Views/Pointing.vala:87
 #, fuzzy
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "पॉईंटर आकार"
 
-#: src/Plug.vala:142 src/Views/Pointing.vala:76
+#: src/Plug.vala:144 src/Views/Pointing.vala:78
 #, fuzzy
 #| msgid "Reveal pointer"
 msgid "Reveal Pointer"
 msgstr "पॉइंटर प्रकट करा"
 
-#: src/Plug.vala:143 src/Views/Pointing.vala:20
+#: src/Plug.vala:145 src/Views/Pointing.vala:22
 #, fuzzy
 #| msgid "Control pointer using keypad"
 msgid "Control Pointer Using Keypad"
 msgstr "कीपॅड वापरुन पॉइंटर नियंत्रित करा"
 
-#: src/Plug.vala:145 src/Plug.vala:146 src/Plug.vala:147 src/Plug.vala:148
-#: src/Plug.vala:149 src/Plug.vala:150 src/Plug.vala:151 src/Plug.vala:152
-#: src/Plug.vala:153 src/Views/Touchpad.vala:15
+#: src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149 src/Plug.vala:150
+#: src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153 src/Plug.vala:154
+#: src/Plug.vala:155 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "टचपॅड"
 
-#: src/Plug.vala:147 src/Views/Touchpad.vala:70
+#: src/Plug.vala:149 src/Views/Touchpad.vala:72
 msgid "Tap to click"
 msgstr "क्लिक करण्यासाठी टॅप करा"
 
-#: src/Plug.vala:148 src/Views/Touchpad.vala:74
+#: src/Plug.vala:150 src/Views/Touchpad.vala:76
 msgid "Double-tap and move to drag"
 msgstr ""
 
-#: src/Plug.vala:149 src/Views/Touchpad.vala:64
+#: src/Plug.vala:151 src/Views/Touchpad.vala:66
 #, fuzzy
 #| msgid "Physical clicking:"
 msgid "Physical Secondary Clicking"
 msgstr "नैसर्गिक क्लिक:"
 
-#: src/Plug.vala:150 src/Views/Touchpad.vala:82
+#: src/Plug.vala:152 src/Views/Touchpad.vala:84
 msgid "Scroll Method"
 msgstr ""
 
-#: src/Plug.vala:152
+#: src/Plug.vala:154
 msgid "Ignore while typing"
 msgstr "टाइप करताना दुर्लक्ष करा"
 
-#: src/Plug.vala:153
+#: src/Plug.vala:155
 msgid "Ignore when mouse is connected"
 msgstr "माउस जोडल्यास दुर्लक्ष करा"
 
-#: src/Plug.vala:156 src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159
+#: src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160 src/Plug.vala:161
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "जेश्चर"
 
-#: src/Plug.vala:157 src/Views/Gestures.vala:64 src/Views/Gestures.vala:72
+#: src/Plug.vala:159 src/Views/Gestures.vala:66 src/Views/Gestures.vala:74
 msgid "Multitasking View"
 msgstr "मल्टीटास्किंग दृश्य"
 
-#: src/Plug.vala:158
+#: src/Plug.vala:160
 msgid "Switch Workspaces"
 msgstr "वर्कस्पेसेस स्विच करा"
 
-#: src/Plug.vala:159
+#: src/Plug.vala:161
 msgid "Maximize Window"
 msgstr "विंडो मोठी करा"
 
@@ -162,92 +162,92 @@ msgid "Behavior"
 msgstr "वर्तन"
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
-#: src/Views/Clicking.vala:34
+#: src/Views/Clicking.vala:36
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "डावा"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
-#: src/Views/Clicking.vala:46
+#: src/Views/Clicking.vala:48
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "उजवा"
 
-#: src/Views/Clicking.vala:75
+#: src/Views/Clicking.vala:77
 msgid "Long-press and release the primary button to secondary click"
 msgstr "दुय्यम क्लिक करण्यासाठी प्राथमिक बटण दीर्घकाळ दाबा आणि सोडा"
 
-#: src/Views/Clicking.vala:106
+#: src/Views/Clicking.vala:108
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "सलग दोन क्लिक किती द्रुतपणे डबल-क्लिक म्हणून मानले जातील"
 
-#: src/Views/Clicking.vala:116
+#: src/Views/Clicking.vala:118
 msgid "Hold the pointer still to automatically click"
 msgstr "आपोआप क्लिक करण्यासाठी पॉईंटर स्थिर ठेवा"
 
-#: src/Views/Clicking.vala:171
+#: src/Views/Clicking.vala:173
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "निवडलेला मजकूर पेस्ट करण्यासाठी इनपुटवर मध्यम किंवा तीन-बोट क्लिक करा"
 
-#: src/Views/Clicking.vala:233 src/Views/Clicking.vala:238
+#: src/Views/Clicking.vala:235 src/Views/Clicking.vala:240
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"
 msgstr "सेकंद"
 
-#: src/Views/Gestures.vala:30
+#: src/Views/Gestures.vala:32
 msgid "Swipe Horizontally"
 msgstr ""
 
-#: src/Views/Gestures.vala:32 src/Views/Gestures.vala:58
-#: src/Views/Gestures.vala:78
+#: src/Views/Gestures.vala:34 src/Views/Gestures.vala:60
+#: src/Views/Gestures.vala:80
 msgid "Three fingers:"
 msgstr ""
 
-#: src/Views/Gestures.vala:39 src/Views/Gestures.vala:49
-#: src/Views/Gestures.vala:63 src/Views/Gestures.vala:71
-#: src/Views/Gestures.vala:83 src/Views/Gestures.vala:91
+#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
+#: src/Views/Gestures.vala:65 src/Views/Gestures.vala:73
+#: src/Views/Gestures.vala:85 src/Views/Gestures.vala:93
 msgid "Do nothing"
 msgstr "काही करू नका"
 
-#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:50
+#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
 #, fuzzy
 #| msgid "Switch Workspaces"
 msgid "Switch to workspace"
 msgstr "वर्कस्पेसेस स्विच करा"
 
-#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
+#: src/Views/Gestures.vala:43 src/Views/Gestures.vala:53
 #, fuzzy
 #| msgid "Switch Workspaces"
 msgid "Move active window to workspace"
 msgstr "वर्कस्पेसेस स्विच करा"
 
-#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
+#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:54
 #, fuzzy
 #| msgid "Tile Window"
 msgid "Cycle windows"
 msgstr "विंडो टाइल करा"
 
-#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:66
-#: src/Views/Gestures.vala:86
+#: src/Views/Gestures.vala:46 src/Views/Gestures.vala:68
+#: src/Views/Gestures.vala:88
 #, fuzzy
 #| msgid "Two-finger"
 msgid "Four fingers:"
 msgstr "दोन-बोटांनी"
 
-#: src/Views/Gestures.vala:54
+#: src/Views/Gestures.vala:56
 msgid "Swipe Up"
 msgstr ""
 
-#: src/Views/Gestures.vala:74
+#: src/Views/Gestures.vala:76
 msgid "Pinch"
 msgstr ""
 
-#: src/Views/Gestures.vala:84 src/Views/Gestures.vala:92
+#: src/Views/Gestures.vala:86 src/Views/Gestures.vala:94
 msgid "Zoom"
 msgstr "झूम करा"
 
-#: src/Views/Gestures.vala:128 src/Views/Gestures.vala:129
+#: src/Views/Gestures.vala:130 src/Views/Gestures.vala:131
 msgid "Toggle maximized"
 msgstr ""
 
@@ -255,85 +255,85 @@ msgstr ""
 msgid "Devices"
 msgstr "उपकरण"
 
-#: src/Views/Mouse.vala:21 src/Views/Pointing.vala:30
-#: src/Views/Touchpad.vala:27
+#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
+#: src/Views/Touchpad.vala:29
 msgid "Slower"
 msgstr ""
 
-#: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
-#: src/Views/Touchpad.vala:29
+#: src/Views/Mouse.vala:25 src/Views/Pointing.vala:34
+#: src/Views/Touchpad.vala:31
 msgid "Faster"
 msgstr ""
 
-#: src/Views/Mouse.vala:29
+#: src/Views/Mouse.vala:31
 msgid "Hardware default"
 msgstr "हार्डवेअर डीफॉल्ट"
 
-#: src/Views/Mouse.vala:30
+#: src/Views/Mouse.vala:32
 msgid "None"
 msgstr "काहीही नाही"
 
-#: src/Views/Mouse.vala:33
+#: src/Views/Mouse.vala:35
 msgid "Adaptive"
 msgstr "अनुकूल"
 
-#: src/Views/Mouse.vala:45 src/Views/Touchpad.vala:124
+#: src/Views/Mouse.vala:47 src/Views/Touchpad.vala:126
 msgid "Scrolling moves the content, not the view"
 msgstr ""
 
-#: src/Views/Pointing.vala:21
+#: src/Views/Pointing.vala:23
 msgid "This disables both levels of keys on the numeric keypad"
 msgstr "हे अंकीय कीपॅडवरील की दोन्ही स्तर अक्षम करते"
 
-#: src/Views/Pointing.vala:35
+#: src/Views/Pointing.vala:37
 msgid "Small"
 msgstr "लहान"
 
-#: src/Views/Pointing.vala:46
+#: src/Views/Pointing.vala:48
 msgid "Medium"
 msgstr "मध्यम"
 
-#: src/Views/Pointing.vala:57
+#: src/Views/Pointing.vala:59
 msgid "Large"
 msgstr "मोठा"
 
-#: src/Views/Pointing.vala:78
+#: src/Views/Pointing.vala:80
 msgid "Pressing the control key will highlight the position of the pointer"
 msgstr "कंट्रोल की दाबून पॉईन्टरची स्थिती ठळक होईल"
 
-#: src/Views/Touchpad.vala:38
+#: src/Views/Touchpad.vala:40
 msgid "Multitouch"
 msgstr "मल्टीटॉच"
 
-#: src/Views/Touchpad.vala:54
+#: src/Views/Touchpad.vala:56
 msgid "Areas"
 msgstr ""
 
-#: src/Views/Touchpad.vala:87
+#: src/Views/Touchpad.vala:89
 msgid "Two-finger"
 msgstr "दोन-बोटांनी"
 
-#: src/Views/Touchpad.vala:102
+#: src/Views/Touchpad.vala:104
 msgid "Edge"
 msgstr "काठ"
 
-#: src/Views/Touchpad.vala:133
+#: src/Views/Touchpad.vala:135
 msgid "Ignore"
 msgstr ""
 
-#: src/Views/Touchpad.vala:135
+#: src/Views/Touchpad.vala:137
 #, fuzzy
 #| msgid "Ignore while typing"
 msgid "While typing"
 msgstr "टाइप करताना दुर्लक्ष करा"
 
-#: src/Views/Touchpad.vala:136
+#: src/Views/Touchpad.vala:138
 #, fuzzy
 #| msgid "Ignore when mouse is connected"
 msgid "When mouse is connected"
 msgstr "माउस जोडल्यास दुर्लक्ष करा"
 
-#: src/Views/Touchpad.vala:147
+#: src/Views/Touchpad.vala:149
 msgid "Tapping"
 msgstr ""
 
