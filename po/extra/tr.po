@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 15:51+0000\n"
+"POT-Creation-Date: 2024-06-11 01:01+0000\n"
 "PO-Revision-Date: 2022-05-14 14:52+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -19,84 +19,84 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/mouse-touchpad.appdata.xml.in:5
+#: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
 msgstr "Fare ve Dokunmatik Yüzey Ayarları"
 
-#: data/mouse-touchpad.appdata.xml.in:6
+#: data/mouse-touchpad.metainfo.xml.in:11
 msgid "Configure mouse and touchpad"
 msgstr "Fare ve dokunmatik yüzeyi yapılandırın"
 
-#: data/mouse-touchpad.appdata.xml.in:11 data/mouse-touchpad.appdata.xml.in:24
-#: data/mouse-touchpad.appdata.xml.in:36
+#: data/mouse-touchpad.metainfo.xml.in:40
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/mouse-touchpad.metainfo.xml.in:48
+#: data/mouse-touchpad.metainfo.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:75
 msgid "Minor updates:"
 msgstr "Küçük güncellemeler:"
 
-#: data/mouse-touchpad.appdata.xml.in:13
+#: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Update for OS 7"
 msgstr "OS 7 için güncelleme"
 
-#: data/mouse-touchpad.appdata.xml.in:14 data/mouse-touchpad.appdata.xml.in:26
-#: data/mouse-touchpad.appdata.xml.in:41 data/mouse-touchpad.appdata.xml.in:48
-#: data/mouse-touchpad.appdata.xml.in:56 data/mouse-touchpad.appdata.xml.in:69
-#: data/mouse-touchpad.appdata.xml.in:77 data/mouse-touchpad.appdata.xml.in:87
+#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:64
+#: data/mouse-touchpad.metainfo.xml.in:80
+#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:97
 msgid "Updated translations"
 msgstr "Çeviriler güncellendi"
 
-#: data/mouse-touchpad.appdata.xml.in:20 data/mouse-touchpad.appdata.xml.in:32
-#: data/mouse-touchpad.appdata.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:58
+#: data/mouse-touchpad.metainfo.xml.in:71
 msgid "New features:"
 msgstr "Yeni özellikler:"
 
-#: data/mouse-touchpad.appdata.xml.in:22
+#: data/mouse-touchpad.metainfo.xml.in:60
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr ""
 
-#: data/mouse-touchpad.appdata.xml.in:34 data/mouse-touchpad.appdata.xml.in:39
+#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:78
 msgid "Multitouch gesture options"
 msgstr "Çoklu dokunma hareketi seçenekleri eklendi"
 
-#: data/mouse-touchpad.appdata.xml.in:38
+#: data/mouse-touchpad.metainfo.xml.in:77
 msgid "Add more snap points to pointer speed sliders"
 msgstr "İşaretçi hızı kaydırıcılarına daha fazla nokta eklendi"
 
-#: data/mouse-touchpad.appdata.xml.in:40
+#: data/mouse-touchpad.metainfo.xml.in:79
 msgid "Redesigned touchpad settings"
 msgstr "Dokunmatik yüzey ayarları yeniden tasarlandı"
 
-#: data/mouse-touchpad.appdata.xml.in:55
+#: data/mouse-touchpad.metainfo.xml.in:96
 msgid "Fix stretched switches when using large text"
 msgstr "Büyük metin kullanırken genişleyen anahtarlar düzeltildi"
 
-#: data/mouse-touchpad.appdata.xml.in:64
-msgid "Add Dwell Click and Pointer size settings"
-msgstr "Otomatik tıklama ve İşaretçi boyutu ayarları eklendi"
+#~ msgid "Add Dwell Click and Pointer size settings"
+#~ msgstr "Otomatik tıklama ve İşaretçi boyutu ayarları eklendi"
 
-#: data/mouse-touchpad.appdata.xml.in:66
-msgid "Other updates:"
-msgstr "Diğer güncellemeler:"
+#~ msgid "Other updates:"
+#~ msgstr "Diğer güncellemeler:"
 
-#: data/mouse-touchpad.appdata.xml.in:68
-msgid "Also listen to secondary button clicks when selecting Primary Button"
-msgstr ""
-"Ayrıca Birincil Düğmeyi seçerken ikincil düğme tıklamalarını da dinleyin"
+#~ msgid "Also listen to secondary button clicks when selecting Primary Button"
+#~ msgstr ""
+#~ "Ayrıca Birincil Düğmeyi seçerken ikincil düğme tıklamalarını da dinleyin"
 
-#: data/mouse-touchpad.appdata.xml.in:76
-msgid ""
-"Fix an issue where primary button selection doesn't apply in left-to-right "
-"languages"
-msgstr ""
-"Soldan sağa dillerde birincil düğme seçiminin uygulanmamasına neden olan bir "
-"sorun düzeltildi"
+#~ msgid ""
+#~ "Fix an issue where primary button selection doesn't apply in left-to-"
+#~ "right languages"
+#~ msgstr ""
+#~ "Soldan sağa dillerde birincil düğme seçiminin uygulanmamasına neden olan "
+#~ "bir sorun düzeltildi"
 
-#: data/mouse-touchpad.appdata.xml.in:84
-msgid "New Sidebar navigation"
-msgstr "Yeni kenar çubuğu gezintisi"
+#~ msgid "New Sidebar navigation"
+#~ msgstr "Yeni kenar çubuğu gezintisi"
 
-#: data/mouse-touchpad.appdata.xml.in:85
-msgid "Fix middle click not appearing"
-msgstr "Orta tıklatmanın görünmemesi düzeltildi"
+#~ msgid "Fix middle click not appearing"
+#~ msgstr "Orta tıklatmanın görünmemesi düzeltildi"
 
-#: data/mouse-touchpad.appdata.xml.in:86
-msgid "Add Double-Click speed"
-msgstr "Çift tıklatma hızı eklendi"
+#~ msgid "Add Double-Click speed"
+#~ msgstr "Çift tıklatma hızı eklendi"

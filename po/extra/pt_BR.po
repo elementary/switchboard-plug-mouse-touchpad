@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 15:51+0000\n"
+"POT-Creation-Date: 2024-06-11 01:01+0000\n"
 "PO-Revision-Date: 2021-08-09 16:35+0000\n"
 "Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -19,86 +19,88 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/mouse-touchpad.appdata.xml.in:5
+#: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
 msgstr "Mouse &amp; Configurações do Touchpad"
 
-#: data/mouse-touchpad.appdata.xml.in:6
+#: data/mouse-touchpad.metainfo.xml.in:11
 msgid "Configure mouse and touchpad"
 msgstr "Configurar mouse e touchpad"
 
-#: data/mouse-touchpad.appdata.xml.in:11 data/mouse-touchpad.appdata.xml.in:24
-#: data/mouse-touchpad.appdata.xml.in:36
+#: data/mouse-touchpad.metainfo.xml.in:40
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/mouse-touchpad.metainfo.xml.in:48
+#: data/mouse-touchpad.metainfo.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:75
 msgid "Minor updates:"
 msgstr "Pequenas atualizações:"
 
-#: data/mouse-touchpad.appdata.xml.in:13
+#: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Update for OS 7"
 msgstr ""
 
-#: data/mouse-touchpad.appdata.xml.in:14 data/mouse-touchpad.appdata.xml.in:26
-#: data/mouse-touchpad.appdata.xml.in:41 data/mouse-touchpad.appdata.xml.in:48
-#: data/mouse-touchpad.appdata.xml.in:56 data/mouse-touchpad.appdata.xml.in:69
-#: data/mouse-touchpad.appdata.xml.in:77 data/mouse-touchpad.appdata.xml.in:87
+#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:64
+#: data/mouse-touchpad.metainfo.xml.in:80
+#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:97
 msgid "Updated translations"
 msgstr "Traduções atualizadas"
 
-#: data/mouse-touchpad.appdata.xml.in:20 data/mouse-touchpad.appdata.xml.in:32
-#: data/mouse-touchpad.appdata.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:58
+#: data/mouse-touchpad.metainfo.xml.in:71
 msgid "New features:"
 msgstr "Novas funcionalidades:"
 
-#: data/mouse-touchpad.appdata.xml.in:22
+#: data/mouse-touchpad.metainfo.xml.in:60
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr ""
 
-#: data/mouse-touchpad.appdata.xml.in:34 data/mouse-touchpad.appdata.xml.in:39
+#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:78
 msgid "Multitouch gesture options"
 msgstr ""
 
-#: data/mouse-touchpad.appdata.xml.in:38
+#: data/mouse-touchpad.metainfo.xml.in:77
 msgid "Add more snap points to pointer speed sliders"
 msgstr ""
 
-#: data/mouse-touchpad.appdata.xml.in:40
+#: data/mouse-touchpad.metainfo.xml.in:79
 #, fuzzy
 #| msgid "Mouse &amp; Touchpad Settings"
 msgid "Redesigned touchpad settings"
 msgstr "Mouse &amp; Configurações do Touchpad"
 
-#: data/mouse-touchpad.appdata.xml.in:55
+#: data/mouse-touchpad.metainfo.xml.in:96
 msgid "Fix stretched switches when using large text"
 msgstr "Corrigir opções esticadas ao usar texto grande"
 
-#: data/mouse-touchpad.appdata.xml.in:64
-msgid "Add Dwell Click and Pointer size settings"
-msgstr "Adicionar configurações de tamanho de clique de permanência e ponteiro"
+#~ msgid "Add Dwell Click and Pointer size settings"
+#~ msgstr ""
+#~ "Adicionar configurações de tamanho de clique de permanência e ponteiro"
 
-#: data/mouse-touchpad.appdata.xml.in:66
-msgid "Other updates:"
-msgstr "Outras atualizações:"
+#~ msgid "Other updates:"
+#~ msgstr "Outras atualizações:"
 
-#: data/mouse-touchpad.appdata.xml.in:68
-msgid "Also listen to secondary button clicks when selecting Primary Button"
-msgstr ""
-"Ouvir também os cliques do botão secundário ao selecionar o botão Principal"
+#~ msgid "Also listen to secondary button clicks when selecting Primary Button"
+#~ msgstr ""
+#~ "Ouvir também os cliques do botão secundário ao selecionar o botão "
+#~ "Principal"
 
-#: data/mouse-touchpad.appdata.xml.in:76
-msgid ""
-"Fix an issue where primary button selection doesn't apply in left-to-right "
-"languages"
-msgstr ""
-"Correção de um problema em que a seleção do botão principal não se aplica "
-"nos idiomas da esquerda para a direita"
+#~ msgid ""
+#~ "Fix an issue where primary button selection doesn't apply in left-to-"
+#~ "right languages"
+#~ msgstr ""
+#~ "Correção de um problema em que a seleção do botão principal não se aplica "
+#~ "nos idiomas da esquerda para a direita"
 
-#: data/mouse-touchpad.appdata.xml.in:84
-msgid "New Sidebar navigation"
-msgstr "Nova navegação da barra lateral"
+#~ msgid "New Sidebar navigation"
+#~ msgstr "Nova navegação da barra lateral"
 
-#: data/mouse-touchpad.appdata.xml.in:85
-msgid "Fix middle click not appearing"
-msgstr "Corrige o clique do meio de não aparecer"
+#~ msgid "Fix middle click not appearing"
+#~ msgstr "Corrige o clique do meio de não aparecer"
 
-#: data/mouse-touchpad.appdata.xml.in:86
-msgid "Add Double-Click speed"
-msgstr "Adicionar velocidade de clique duplo"
+#~ msgid "Add Double-Click speed"
+#~ msgstr "Adicionar velocidade de clique duplo"

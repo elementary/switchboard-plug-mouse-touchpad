@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 15:51+0000\n"
+"POT-Creation-Date: 2024-06-11 01:01+0000\n"
 "PO-Revision-Date: 2022-05-29 23:10+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -16,88 +16,89 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/mouse-touchpad.appdata.xml.in:5
+#: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
 msgstr "Налаштування миші та сенсорної панелі"
 
-#: data/mouse-touchpad.appdata.xml.in:6
+#: data/mouse-touchpad.metainfo.xml.in:11
 msgid "Configure mouse and touchpad"
 msgstr "Налаштування миші та сенсорної панелі"
 
-#: data/mouse-touchpad.appdata.xml.in:11 data/mouse-touchpad.appdata.xml.in:24
-#: data/mouse-touchpad.appdata.xml.in:36
+#: data/mouse-touchpad.metainfo.xml.in:40
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/mouse-touchpad.metainfo.xml.in:48
+#: data/mouse-touchpad.metainfo.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:75
 msgid "Minor updates:"
 msgstr "Незначні оновлення:"
 
-#: data/mouse-touchpad.appdata.xml.in:13
+#: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Update for OS 7"
 msgstr "Оновлення для OS 7"
 
-#: data/mouse-touchpad.appdata.xml.in:14 data/mouse-touchpad.appdata.xml.in:26
-#: data/mouse-touchpad.appdata.xml.in:41 data/mouse-touchpad.appdata.xml.in:48
-#: data/mouse-touchpad.appdata.xml.in:56 data/mouse-touchpad.appdata.xml.in:69
-#: data/mouse-touchpad.appdata.xml.in:77 data/mouse-touchpad.appdata.xml.in:87
+#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:64
+#: data/mouse-touchpad.metainfo.xml.in:80
+#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:97
 msgid "Updated translations"
 msgstr "Оновлені переклади"
 
-#: data/mouse-touchpad.appdata.xml.in:20 data/mouse-touchpad.appdata.xml.in:32
-#: data/mouse-touchpad.appdata.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:58
+#: data/mouse-touchpad.metainfo.xml.in:71
 msgid "New features:"
 msgstr "Нові функції:"
 
-#: data/mouse-touchpad.appdata.xml.in:22
+#: data/mouse-touchpad.metainfo.xml.in:60
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr "Новий перемикач «Двічі торкнутися та перемістити, щоб перетягнути»"
 
-#: data/mouse-touchpad.appdata.xml.in:34 data/mouse-touchpad.appdata.xml.in:39
+#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:78
 msgid "Multitouch gesture options"
 msgstr "Багатофункціональні жести"
 
-#: data/mouse-touchpad.appdata.xml.in:38
+#: data/mouse-touchpad.metainfo.xml.in:77
 msgid "Add more snap points to pointer speed sliders"
 msgstr "Додано більше точок охоплення для вказівників швидкого гортання"
 
-#: data/mouse-touchpad.appdata.xml.in:40
+#: data/mouse-touchpad.metainfo.xml.in:79
 msgid "Redesigned touchpad settings"
 msgstr "Перероблені налаштування сенсорної панелі"
 
-#: data/mouse-touchpad.appdata.xml.in:55
+#: data/mouse-touchpad.metainfo.xml.in:96
 msgid "Fix stretched switches when using large text"
 msgstr "Виправлено розтягнуті перемикачі коли застосовано великий текст"
 
-#: data/mouse-touchpad.appdata.xml.in:64
-msgid "Add Dwell Click and Pointer size settings"
-msgstr "Додано налаштування розміру вказівника та швидкості натискання"
+#~ msgid "Add Dwell Click and Pointer size settings"
+#~ msgstr "Додано налаштування розміру вказівника та швидкості натискання"
 
-#: data/mouse-touchpad.appdata.xml.in:66
-msgid "Other updates:"
-msgstr "Інші оновлення:"
+#~ msgid "Other updates:"
+#~ msgstr "Інші оновлення:"
 
-#: data/mouse-touchpad.appdata.xml.in:68
-msgid "Also listen to secondary button clicks when selecting Primary Button"
-msgstr ""
-"Виправлено виявлення натискань на вторинну кнопку при виборі основної кнопки"
+#~ msgid "Also listen to secondary button clicks when selecting Primary Button"
+#~ msgstr ""
+#~ "Виправлено виявлення натискань на вторинну кнопку при виборі основної "
+#~ "кнопки"
 
-#: data/mouse-touchpad.appdata.xml.in:76
-msgid ""
-"Fix an issue where primary button selection doesn't apply in left-to-right "
-"languages"
-msgstr ""
-"Виправлено проблему, коли вибір основної кнопки не застосовується для мов "
-"зліва направо"
+#~ msgid ""
+#~ "Fix an issue where primary button selection doesn't apply in left-to-"
+#~ "right languages"
+#~ msgstr ""
+#~ "Виправлено проблему, коли вибір основної кнопки не застосовується для мов "
+#~ "зліва направо"
 
-#: data/mouse-touchpad.appdata.xml.in:84
-msgid "New Sidebar navigation"
-msgstr "Нова бічна панель переходів"
+#~ msgid "New Sidebar navigation"
+#~ msgstr "Нова бічна панель переходів"
 
-#: data/mouse-touchpad.appdata.xml.in:85
-msgid "Fix middle click not appearing"
-msgstr "Виправлено, що натискання середньою клавішею не з'являється"
+#~ msgid "Fix middle click not appearing"
+#~ msgstr "Виправлено, що натискання середньою клавішею не з'являється"
 
-#: data/mouse-touchpad.appdata.xml.in:86
-msgid "Add Double-Click speed"
-msgstr "Додано швидкість подвійного натискання"
+#~ msgid "Add Double-Click speed"
+#~ msgstr "Додано швидкість подвійного натискання"

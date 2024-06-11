@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 15:51+0000\n"
+"POT-Creation-Date: 2024-06-11 01:01+0000\n"
 "PO-Revision-Date: 2022-05-12 10:30+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -19,85 +19,85 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/mouse-touchpad.appdata.xml.in:5
+#: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
 msgstr "Paràmetres del ratolí i del ratolí tàctil"
 
-#: data/mouse-touchpad.appdata.xml.in:6
+#: data/mouse-touchpad.metainfo.xml.in:11
 msgid "Configure mouse and touchpad"
 msgstr "Configureu el ratolí i el ratolí tàctil."
 
-#: data/mouse-touchpad.appdata.xml.in:11 data/mouse-touchpad.appdata.xml.in:24
-#: data/mouse-touchpad.appdata.xml.in:36
+#: data/mouse-touchpad.metainfo.xml.in:40
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/mouse-touchpad.metainfo.xml.in:48
+#: data/mouse-touchpad.metainfo.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:75
 msgid "Minor updates:"
 msgstr "Actualitzacions menors:"
 
-#: data/mouse-touchpad.appdata.xml.in:13
+#: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Update for OS 7"
 msgstr "Actualització a SO 7"
 
-#: data/mouse-touchpad.appdata.xml.in:14 data/mouse-touchpad.appdata.xml.in:26
-#: data/mouse-touchpad.appdata.xml.in:41 data/mouse-touchpad.appdata.xml.in:48
-#: data/mouse-touchpad.appdata.xml.in:56 data/mouse-touchpad.appdata.xml.in:69
-#: data/mouse-touchpad.appdata.xml.in:77 data/mouse-touchpad.appdata.xml.in:87
+#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:64
+#: data/mouse-touchpad.metainfo.xml.in:80
+#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:97
 msgid "Updated translations"
 msgstr "Traduccions actualitzades"
 
-#: data/mouse-touchpad.appdata.xml.in:20 data/mouse-touchpad.appdata.xml.in:32
-#: data/mouse-touchpad.appdata.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:58
+#: data/mouse-touchpad.metainfo.xml.in:71
 msgid "New features:"
 msgstr "Característiques noves:"
 
-#: data/mouse-touchpad.appdata.xml.in:22
+#: data/mouse-touchpad.metainfo.xml.in:60
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr "Commutació nova per al toc doble i moviment per a arrossegar"
 
-#: data/mouse-touchpad.appdata.xml.in:34 data/mouse-touchpad.appdata.xml.in:39
+#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:78
 msgid "Multitouch gesture options"
 msgstr "Opcions de gests multitàctils"
 
-#: data/mouse-touchpad.appdata.xml.in:38
+#: data/mouse-touchpad.metainfo.xml.in:77
 msgid "Add more snap points to pointer speed sliders"
 msgstr "Addició de més punts als lliscadors de la velocitat del punter"
 
-#: data/mouse-touchpad.appdata.xml.in:40
+#: data/mouse-touchpad.metainfo.xml.in:79
 msgid "Redesigned touchpad settings"
 msgstr "Configuració de ratolí tàctil redissenyada"
 
-#: data/mouse-touchpad.appdata.xml.in:55
+#: data/mouse-touchpad.metainfo.xml.in:96
 msgid "Fix stretched switches when using large text"
 msgstr "Correcció dels commutadors estirats quan s'usa text gros"
 
-#: data/mouse-touchpad.appdata.xml.in:64
-msgid "Add Dwell Click and Pointer size settings"
-msgstr "Addició de la configuració del clic en aturar-s'hi"
+#~ msgid "Add Dwell Click and Pointer size settings"
+#~ msgstr "Addició de la configuració del clic en aturar-s'hi"
 
-#: data/mouse-touchpad.appdata.xml.in:66
-msgid "Other updates:"
-msgstr "Altres actualitzacions:"
+#~ msgid "Other updates:"
+#~ msgstr "Altres actualitzacions:"
 
-#: data/mouse-touchpad.appdata.xml.in:68
-msgid "Also listen to secondary button clicks when selecting Primary Button"
-msgstr ""
-"També es tenen en compte els clics del botó secundari quan se selecciona el "
-"botó primari."
+#~ msgid "Also listen to secondary button clicks when selecting Primary Button"
+#~ msgstr ""
+#~ "També es tenen en compte els clics del botó secundari quan se selecciona "
+#~ "el botó primari."
 
-#: data/mouse-touchpad.appdata.xml.in:76
-msgid ""
-"Fix an issue where primary button selection doesn't apply in left-to-right "
-"languages"
-msgstr ""
-"Correcció de la selecció del botó primari que no s'aplica a llengües "
-"d'esquerra a dreta"
+#~ msgid ""
+#~ "Fix an issue where primary button selection doesn't apply in left-to-"
+#~ "right languages"
+#~ msgstr ""
+#~ "Correcció de la selecció del botó primari que no s'aplica a llengües "
+#~ "d'esquerra a dreta"
 
-#: data/mouse-touchpad.appdata.xml.in:84
-msgid "New Sidebar navigation"
-msgstr "Nova barra de navegació lateral"
+#~ msgid "New Sidebar navigation"
+#~ msgstr "Nova barra de navegació lateral"
 
-#: data/mouse-touchpad.appdata.xml.in:85
-msgid "Fix middle click not appearing"
-msgstr "Correcció del clic del mig, que no hi era."
+#~ msgid "Fix middle click not appearing"
+#~ msgstr "Correcció del clic del mig, que no hi era."
 
-#: data/mouse-touchpad.appdata.xml.in:86
-msgid "Add Double-Click speed"
-msgstr "Addició de la velocitat del doble clic"
+#~ msgid "Add Double-Click speed"
+#~ msgstr "Addició de la velocitat del doble clic"

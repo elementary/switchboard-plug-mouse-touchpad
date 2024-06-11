@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 15:51+0000\n"
+"POT-Creation-Date: 2024-06-11 01:01+0000\n"
 "PO-Revision-Date: 2024-02-20 13:12+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
@@ -20,86 +20,88 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.2\n"
 
-#: data/mouse-touchpad.appdata.xml.in:5
+#: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
 msgstr "Параметры мыши и сенсорной панели"
 
-#: data/mouse-touchpad.appdata.xml.in:6
+#: data/mouse-touchpad.metainfo.xml.in:11
 msgid "Configure mouse and touchpad"
 msgstr "Настройка мыши и сенсорной панели"
 
-#: data/mouse-touchpad.appdata.xml.in:11 data/mouse-touchpad.appdata.xml.in:24
-#: data/mouse-touchpad.appdata.xml.in:36
+#: data/mouse-touchpad.metainfo.xml.in:40
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/mouse-touchpad.metainfo.xml.in:48
+#: data/mouse-touchpad.metainfo.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:75
 msgid "Minor updates:"
 msgstr "Незначительные обновления:"
 
-#: data/mouse-touchpad.appdata.xml.in:13
+#: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Update for OS 7"
 msgstr "Обновлено до OS 7"
 
-#: data/mouse-touchpad.appdata.xml.in:14 data/mouse-touchpad.appdata.xml.in:26
-#: data/mouse-touchpad.appdata.xml.in:41 data/mouse-touchpad.appdata.xml.in:48
-#: data/mouse-touchpad.appdata.xml.in:56 data/mouse-touchpad.appdata.xml.in:69
-#: data/mouse-touchpad.appdata.xml.in:77 data/mouse-touchpad.appdata.xml.in:87
+#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:64
+#: data/mouse-touchpad.metainfo.xml.in:80
+#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:97
 msgid "Updated translations"
 msgstr "Обновлены переводы"
 
-#: data/mouse-touchpad.appdata.xml.in:20 data/mouse-touchpad.appdata.xml.in:32
-#: data/mouse-touchpad.appdata.xml.in:62
+#: data/mouse-touchpad.metainfo.xml.in:58
+#: data/mouse-touchpad.metainfo.xml.in:71
 msgid "New features:"
 msgstr "Новые возможности:"
 
-#: data/mouse-touchpad.appdata.xml.in:22
+#: data/mouse-touchpad.metainfo.xml.in:60
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr "Новый переключатель «Перемещение при двойном касании»"
 
-#: data/mouse-touchpad.appdata.xml.in:34 data/mouse-touchpad.appdata.xml.in:39
+#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:78
 msgid "Multitouch gesture options"
 msgstr "Параметры мультитач-жестов"
 
-#: data/mouse-touchpad.appdata.xml.in:38
+#: data/mouse-touchpad.metainfo.xml.in:77
 msgid "Add more snap points to pointer speed sliders"
 msgstr "Добавлено больше точек охвата для настройки скорости указателя"
 
-#: data/mouse-touchpad.appdata.xml.in:40
+#: data/mouse-touchpad.metainfo.xml.in:79
 msgid "Redesigned touchpad settings"
 msgstr "Изменён дизайн параметров сенсорной панели"
 
-#: data/mouse-touchpad.appdata.xml.in:55
+#: data/mouse-touchpad.metainfo.xml.in:96
 msgid "Fix stretched switches when using large text"
 msgstr ""
 "Исправление растянутых переключателей при использовании большого текста"
 
-#: data/mouse-touchpad.appdata.xml.in:64
-msgid "Add Dwell Click and Pointer size settings"
-msgstr ""
-"Добавлены параметры для Автонажатия при наведении курсора и Размера указателя"
+#~ msgid "Add Dwell Click and Pointer size settings"
+#~ msgstr ""
+#~ "Добавлены параметры для Автонажатия при наведении курсора и Размера "
+#~ "указателя"
 
-#: data/mouse-touchpad.appdata.xml.in:66
-msgid "Other updates:"
-msgstr "Остальные обновления:"
+#~ msgid "Other updates:"
+#~ msgstr "Остальные обновления:"
 
-#: data/mouse-touchpad.appdata.xml.in:68
-msgid "Also listen to secondary button clicks when selecting Primary Button"
-msgstr ""
-"Также учитываются нажатия на вторую кнопку мыши при выборе основной клавиши"
+#~ msgid "Also listen to secondary button clicks when selecting Primary Button"
+#~ msgstr ""
+#~ "Также учитываются нажатия на вторую кнопку мыши при выборе основной "
+#~ "клавиши"
 
-#: data/mouse-touchpad.appdata.xml.in:76
-msgid ""
-"Fix an issue where primary button selection doesn't apply in left-to-right "
-"languages"
-msgstr ""
-"Исправлена ошибка, из-за которой выбор основной кнопки мыши не применялся на "
-"языках слева направо"
+#~ msgid ""
+#~ "Fix an issue where primary button selection doesn't apply in left-to-"
+#~ "right languages"
+#~ msgstr ""
+#~ "Исправлена ошибка, из-за которой выбор основной кнопки мыши не применялся "
+#~ "на языках слева направо"
 
-#: data/mouse-touchpad.appdata.xml.in:84
-msgid "New Sidebar navigation"
-msgstr "Новая боковая панель навигации"
+#~ msgid "New Sidebar navigation"
+#~ msgstr "Новая боковая панель навигации"
 
-#: data/mouse-touchpad.appdata.xml.in:85
-msgid "Fix middle click not appearing"
-msgstr "Исправлен неработающий щелчок средней кнопки мыши"
+#~ msgid "Fix middle click not appearing"
+#~ msgstr "Исправлен неработающий щелчок средней кнопки мыши"
 
-#: data/mouse-touchpad.appdata.xml.in:86
-msgid "Add Double-Click speed"
-msgstr "Добавлена скорость двойного нажатия"
+#~ msgid "Add Double-Click speed"
+#~ msgstr "Добавлена скорость двойного нажатия"
