@@ -43,6 +43,17 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.0.0" date="2024-06-10" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Redesigned, easier to read views with more helpful descriptions</li>
+          <li>Add "Cycle windows" and "Move active window to workspace" as gesture options</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="7.0.0" date="2022-05-10" urgency="medium">
       <description>
         <p>Minor updates:</p>
@@ -90,15 +101,7 @@
       </description>
     </release>
 
-    <release version="2.4.1" date="2020-04-08" urgency="medium">
-      <description>
-        <ul>
-          <li>Fix stretched switches when using large text</li>
-          <li>Updated translations</li>
-        </ul>
-      </description>
-    </release>
-
+    <release version="2.4.1" date="2020-04-08" urgency="medium" />
     <release version="2.4.0" date="2020-01-21" urgency="medium" />
     <release version="2.3.1" date="2019-11-30" urgency="medium" />
     <release version="2.3.0" date="2019-11-15" urgency="medium" />
