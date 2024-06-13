@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 01:10+0000\n"
-"PO-Revision-Date: 2021-08-27 08:04+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2024-06-13 08:33+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
@@ -63,7 +63,7 @@ msgstr ""
 #: data/mouse-touchpad.metainfo.xml.in:69
 #: data/mouse-touchpad.metainfo.xml.in:82
 msgid "New features:"
-msgstr "Funcionalidades nuevas:"
+msgstr "Nuevas características:"
 
 #: data/mouse-touchpad.metainfo.xml.in:71
 msgid "New toggle for “Double-tap and move to drag”"
