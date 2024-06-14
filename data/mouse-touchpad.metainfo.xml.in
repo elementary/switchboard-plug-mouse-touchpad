@@ -12,19 +12,19 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-clicking.png</image>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/8.0.0/data/screenshot-clicking.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-pointing.png</image>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/8.0.0/data/screenshot-pointing.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-gestures.png</image>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/8.0.0/data/screenshot-gestures.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-mouse.png</image>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/8.0.0/data/screenshot-mouse.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/main/data/screenshot-touchpad.png</image>
+      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-mouse-touchpad/8.0.0/data/screenshot-touchpad.png</image>
     </screenshot>
   </screenshots>
 
@@ -43,7 +43,7 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
-    <release version="8.0.0" date="2024-06-10" urgency="medium">
+    <release version="8.0.0" date="2024-06-14" urgency="medium">
       <description>
         <p>Minor updates:</p>
         <ul>
