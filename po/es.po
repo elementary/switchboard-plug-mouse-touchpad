@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 01:10+0000\n"
-"PO-Revision-Date: 2024-06-15 16:16+0000\n"
+"PO-Revision-Date: 2024-06-24 15:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/es/>\n"
@@ -124,7 +124,7 @@ msgstr "Gestos"
 
 #: src/Plug.vala:159 src/Views/Gestures.vala:66 src/Views/Gestures.vala:74
 msgid "Multitasking View"
-msgstr "Vista multitarea"
+msgstr "Vista Multitarea"
 
 #: src/Plug.vala:160
 msgid "Switch Workspaces"
