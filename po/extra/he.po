@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 01:10+0000\n"
-"PO-Revision-Date: 2024-06-13 01:03+0000\n"
+"PO-Revision-Date: 2024-07-23 18:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
@@ -29,7 +29,7 @@ msgstr "הגדרת עכבר ומשטח מגע"
 
 #: data/mouse-touchpad.metainfo.xml.in:40
 msgid "elementary, Inc."
-msgstr "elementary בע״מ."
+msgstr "elementary בע״מ"
 
 #: data/mouse-touchpad.metainfo.xml.in:48
 #: data/mouse-touchpad.metainfo.xml.in:59
@@ -40,13 +40,13 @@ msgstr "עדכונים משניים:"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Redesigned, easier to read views with more helpful descriptions"
-msgstr ""
+msgstr "עוצב מחדש, תצוגות קלות יותר לקריאה ועוד תיאורים חיוניים"
 
 #: data/mouse-touchpad.metainfo.xml.in:51
 msgid ""
 "Add \"Cycle windows\" and \"Move active window to workspace\" as gesture "
 "options"
-msgstr ""
+msgstr "הוספת „החלפת חלונות בלולאה” ו„העברת חלון לסביבת עבודה” כאפשרויות למחוות"
 
 #: data/mouse-touchpad.metainfo.xml.in:52
 #: data/mouse-touchpad.metainfo.xml.in:62

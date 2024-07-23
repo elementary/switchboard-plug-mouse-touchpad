@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 01:10+0000\n"
-"PO-Revision-Date: 2024-06-13 15:50+0000\n"
+"PO-Revision-Date: 2024-06-15 16:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/es/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
-msgstr "Configuración de ratón y panel táctil"
+msgstr "Configuración de Ratón y panel táctil"
 
 #: data/mouse-touchpad.metainfo.xml.in:11
 msgid "Configure mouse and touchpad"
-msgstr "Configurar ratón y panel táctil"
+msgstr "Configurar el ratón y el panel táctil"
 
 #: data/mouse-touchpad.metainfo.xml.in:40
 msgid "elementary, Inc."
@@ -41,12 +41,16 @@ msgstr "Actualizaciones menores:"
 #: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Redesigned, easier to read views with more helpful descriptions"
 msgstr ""
+"Vistas rediseñadas para ser más fáciles de leer y con descripciones más "
+"útiles"
 
 #: data/mouse-touchpad.metainfo.xml.in:51
 msgid ""
 "Add \"Cycle windows\" and \"Move active window to workspace\" as gesture "
 "options"
 msgstr ""
+"Se agregaron opciones de gestos para «Cambiar entre ventanas» y «Mover "
+"ventana activa al área de trabajo»"
 
 #: data/mouse-touchpad.metainfo.xml.in:52
 #: data/mouse-touchpad.metainfo.xml.in:62
@@ -58,7 +62,7 @@ msgstr "Traducciones actualizadas"
 
 #: data/mouse-touchpad.metainfo.xml.in:61
 msgid "Update for OS 7"
-msgstr ""
+msgstr "Actualizado a OS 7"
 
 #: data/mouse-touchpad.metainfo.xml.in:69
 #: data/mouse-touchpad.metainfo.xml.in:82
@@ -68,21 +72,22 @@ msgstr "Nuevas características:"
 #: data/mouse-touchpad.metainfo.xml.in:71
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr ""
+"Nuevo botón para activar o desactivar «Doble pulsación para mover y "
+"arrastrar»"
 
 #: data/mouse-touchpad.metainfo.xml.in:84
 #: data/mouse-touchpad.metainfo.xml.in:89
 msgid "Multitouch gesture options"
-msgstr ""
+msgstr "Opciones de gestos multi toque"
 
 #: data/mouse-touchpad.metainfo.xml.in:88
 msgid "Add more snap points to pointer speed sliders"
 msgstr ""
+"Se agregaron más puntos de ancla, y controles deslizantes para velocidades"
 
 #: data/mouse-touchpad.metainfo.xml.in:90
-#, fuzzy
-#| msgid "Mouse &amp; Touchpad Settings"
 msgid "Redesigned touchpad settings"
-msgstr "Configuración de ratón y panel táctil"
+msgstr "Se rediseñó la configuración del panel táctil"
 
 #~ msgid "Fix stretched switches when using large text"
 #~ msgstr "Se corrigieron los interruptores estirados al utilizar texto grande"
