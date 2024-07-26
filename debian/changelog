@@ -1,3 +1,9 @@
+io.elementary.settings-mouse-touchpad (8.0.0) noble; urgency=medium
+
+  * Release 8.0.0
+
+ -- Danielle Foré <danielle@elementary.io>  Fri, 26 Jul 2024 10:26:05 -0700
+
 io.elementary.settings-mouse-touchpad (7.0.0) bionic; urgency=medium
 
   * Release 7.0.0 (#200)
