@@ -1,4 +1,4 @@
-Source: io.elementary.settings-mouse-touchpad
+Source: io.elementary.settings.mouse-touchpad
 Section: x11
 Priority: optional
 Maintainer: elementary OS Team <builds@elementary.io>
@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 10.5.1),
 Standards-Version: 4.1.1
 Homepage: https://github.com/elementary/switchboard-plug-mouse-touchpad
 
-Package: io.elementary.settings-mouse-touchpad
+Package: io.elementary.settings.mouse-touchpad
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Enhances: switchboard
