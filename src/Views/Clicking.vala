@@ -222,11 +222,15 @@ public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
         }
 
         mouse_left.toggled.connect (() => {
-            mouse_settings.set_boolean ("left-handed", false);
+            if (mouse_left.active) {
+                mouse_settings.set_boolean ("left-handed", false);
+            }
         });
 
         mouse_right.toggled.connect (() => {
-            mouse_settings.set_boolean ("left-handed", true);
+            if (mouse_right.active) {
+                mouse_settings.set_boolean ("left-handed", true);
+            }
         });
 
         dwell_click_spinbutton.output.connect (() => {
