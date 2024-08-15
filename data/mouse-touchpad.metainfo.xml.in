@@ -43,6 +43,18 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.0.1" date="2024-07-26" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/switchboard-plug-mouse-touchpad/issues/241">Changing mouse buttons does nothing</issue>
+      </issues>
+    </release>
+
     <release version="8.0.0" date="2024-07-26" urgency="medium">
       <description>
         <p>Minor updates:</p>
@@ -93,14 +105,7 @@
       </description>
     </release>
 
-    <release version="2.4.2" date="2020-05-28" urgency="medium">
-      <description>
-        <ul>
-          <li>Updated translations</li>
-        </ul>
-      </description>
-    </release>
-
+    <release version="2.4.2" date="2020-05-28" urgency="medium" />
     <release version="2.4.1" date="2020-04-08" urgency="medium" />
     <release version="2.4.0" date="2020-01-21" urgency="medium" />
     <release version="2.3.1" date="2019-11-30" urgency="medium" />
