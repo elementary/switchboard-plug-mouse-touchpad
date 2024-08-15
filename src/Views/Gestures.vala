@@ -29,12 +29,6 @@ public class MouseTouchpad.GesturesView : Switchboard.SettingsPage {
     construct {
         show_end_title_buttons = true;
 
-        var horizontal_swipe_header = new Granite.HeaderLabel (_("Swipe Horizontally"));
-
-        var three_swipe_horizontal_label = new Gtk.Label (_("Three fingers:")) {
-            halign = Gtk.Align.END
-        };
-
         var three_swipe_horizontal_combo = new Gtk.ComboBoxText () {
             hexpand = true
         };
@@ -43,8 +37,9 @@ public class MouseTouchpad.GesturesView : Switchboard.SettingsPage {
         three_swipe_horizontal_combo.append ("move-to-workspace", _("Move active window to workspace"));
         three_swipe_horizontal_combo.append ("switch-windows", _("Cycle windows"));
 
-        var four_swipe_horizontal_label = new Gtk.Label (_("Four fingers:")) {
-            halign = Gtk.Align.END
+        var three_swipe_horizontal_label = new Gtk.Label (_("Three fingers:")) {
+            halign = END,
+            mnemonic_widget = three_swipe_horizontal_combo
         };
 
         var four_swipe_horizontal_combo = new Gtk.ComboBoxText ();
@@ -53,65 +48,102 @@ public class MouseTouchpad.GesturesView : Switchboard.SettingsPage {
         four_swipe_horizontal_combo.append ("move-to-workspace", _("Move active window to workspace"));
         four_swipe_horizontal_combo.append ("switch-windows", _("Cycle windows"));
 
-        var swipe_up_header = new Granite.HeaderLabel (_("Swipe Up")) {
-            margin_top = 12
+        var four_swipe_horizontal_label = new Gtk.Label (_("Four fingers:")) {
+            halign = END,
+            mnemonic_widget = four_swipe_horizontal_combo
         };
 
-        var three_swipe_up_label = new Gtk.Label (_("Three fingers:")) {
-            halign = Gtk.Align.END
+        var horizontal_swipe_grid = new Gtk.Grid () {
+            accessible_role = GROUP,
+            column_spacing = 6,
+            row_spacing = 12
+        };
+        horizontal_swipe_grid.attach (three_swipe_horizontal_label, 0, 1);
+        horizontal_swipe_grid.attach (three_swipe_horizontal_combo, 1, 1);
+        horizontal_swipe_grid.attach (four_swipe_horizontal_label, 0, 2);
+        horizontal_swipe_grid.attach (four_swipe_horizontal_combo, 1, 2);
+
+        var horizontal_swipe_header = new Granite.HeaderLabel (_("Swipe Horizontally")) {
+            mnemonic_widget = horizontal_swipe_grid
         };
 
-        var three_swipe_up_combo = new Gtk.ComboBoxText ();
+        var three_swipe_up_combo = new Gtk.ComboBoxText () {
+            hexpand = true
+        };
         three_swipe_up_combo.append ("none", _("Do nothing"));
         three_swipe_up_combo.append ("multitasking-view", _("Multitasking View"));
 
-        var four_swipe_up_label = new Gtk.Label (_("Four fingers:")) {
-            halign = Gtk.Align.END
+        var three_swipe_up_label = new Gtk.Label (_("Three fingers:")) {
+            halign = END,
+            mnemonic_widget = three_swipe_up_combo
         };
 
         var four_swipe_up_combo = new Gtk.ComboBoxText ();
         four_swipe_up_combo.append ("none", _("Do nothing"));
         four_swipe_up_combo.append ("multitasking-view", _("Multitasking View"));
 
-        var pinch_header = new Granite.HeaderLabel (_("Pinch")) {
-            margin_top = 12
+        var four_swipe_up_label = new Gtk.Label (_("Four fingers:")) {
+            halign = END,
+            mnemonic_widget = four_swipe_up_combo
         };
 
-        var three_pinch_label = new Gtk.Label (_("Three fingers:")) {
-            halign = Gtk.Align.END
+        var swipe_up_grid = new Gtk.Grid () {
+            accessible_role = GROUP,
+            column_spacing = 6,
+            row_spacing = 12
+        };
+        swipe_up_grid.attach (three_swipe_up_label, 0, 4);
+        swipe_up_grid.attach (three_swipe_up_combo, 1, 4);
+        swipe_up_grid.attach (four_swipe_up_label, 0, 5);
+        swipe_up_grid.attach (four_swipe_up_combo, 1, 5);
+
+        var swipe_up_header = new Granite.HeaderLabel (_("Swipe Up")) {
+            margin_top = 12,
+            mnemonic_widget = swipe_up_grid
         };
 
-        var three_pinch_combo = new Gtk.ComboBoxText ();
+        var three_pinch_combo = new Gtk.ComboBoxText () {
+            hexpand = true
+        };
         three_pinch_combo.append ("none", _("Do nothing"));
         three_pinch_combo.append ("zoom", _("Zoom"));
 
-        var four_pinch_label = new Gtk.Label (_("Four fingers:")) {
-            halign = Gtk.Align.END
+        var three_pinch_label = new Gtk.Label (_("Three fingers:")) {
+            halign = END,
+            mnemonic_widget = three_pinch_combo
         };
 
         var four_pinch_combo = new Gtk.ComboBoxText ();
         four_pinch_combo.append ("none", _("Do nothing"));
         four_pinch_combo.append ("zoom", _("Zoom"));
 
-        var content_area = new Gtk.Grid () {
+        var four_pinch_label = new Gtk.Label (_("Four fingers:")) {
+            halign = END,
+            mnemonic_widget = four_pinch_combo
+        };
+
+        var pinch_grid = new Gtk.Grid () {
+            accessible_role = GROUP,
             column_spacing = 6,
             row_spacing = 12
         };
-        content_area.attach (horizontal_swipe_header, 0, 0, 2);
-        content_area.attach (three_swipe_horizontal_label, 0, 1);
-        content_area.attach (three_swipe_horizontal_combo, 1, 1);
-        content_area.attach (four_swipe_horizontal_label, 0, 2);
-        content_area.attach (four_swipe_horizontal_combo, 1, 2);
-        content_area.attach (swipe_up_header, 0, 3, 2);
-        content_area.attach (three_swipe_up_label, 0, 4);
-        content_area.attach (three_swipe_up_combo, 1, 4);
-        content_area.attach (four_swipe_up_label, 0, 5);
-        content_area.attach (four_swipe_up_combo, 1, 5);
-        content_area.attach (pinch_header, 0, 6, 2);
-        content_area.attach (three_pinch_label, 0, 7);
-        content_area.attach (three_pinch_combo, 1, 7);
-        content_area.attach (four_pinch_label, 0, 8);
-        content_area.attach (four_pinch_combo, 1, 8);
+        pinch_grid.attach (three_pinch_label, 0, 7);
+        pinch_grid.attach (three_pinch_combo, 1, 7);
+        pinch_grid.attach (four_pinch_label, 0, 8);
+        pinch_grid.attach (four_pinch_combo, 1, 8);
+
+        var pinch_header = new Granite.HeaderLabel (_("Pinch")) {
+            margin_top = 12,
+            mnemonic_widget = pinch_grid
+        };
+
+        var content_area = new Gtk.Box (VERTICAL, 12);
+        content_area.append (horizontal_swipe_header);
+        content_area.append (horizontal_swipe_grid);
+        content_area.append (swipe_up_header);
+        content_area.append (swipe_up_grid);
+        content_area.append (pinch_header);
+        content_area.append (pinch_grid);
 
         child = content_area;
 
