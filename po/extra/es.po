@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 01:10+0000\n"
+"POT-Creation-Date: 2024-08-15 23:34+0000\n"
 "PO-Revision-Date: 2024-06-15 16:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
@@ -32,19 +32,28 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/mouse-touchpad.metainfo.xml.in:48
-#: data/mouse-touchpad.metainfo.xml.in:59
-#: data/mouse-touchpad.metainfo.xml.in:73
-#: data/mouse-touchpad.metainfo.xml.in:86
+#: data/mouse-touchpad.metainfo.xml.in:60
+#: data/mouse-touchpad.metainfo.xml.in:71
+#: data/mouse-touchpad.metainfo.xml.in:85
+#: data/mouse-touchpad.metainfo.xml.in:98
 msgid "Minor updates:"
 msgstr "Actualizaciones menores:"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
+#: data/mouse-touchpad.metainfo.xml.in:64
+#: data/mouse-touchpad.metainfo.xml.in:74
+#: data/mouse-touchpad.metainfo.xml.in:87
+#: data/mouse-touchpad.metainfo.xml.in:103
+msgid "Updated translations"
+msgstr "Traducciones actualizadas"
+
+#: data/mouse-touchpad.metainfo.xml.in:62
 msgid "Redesigned, easier to read views with more helpful descriptions"
 msgstr ""
 "Vistas rediseñadas para ser más fáciles de leer y con descripciones más "
 "útiles"
 
-#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:63
 msgid ""
 "Add \"Cycle windows\" and \"Move active window to workspace\" as gesture "
 "options"
@@ -52,40 +61,32 @@ msgstr ""
 "Se agregaron opciones de gestos para «Cambiar entre ventanas» y «Mover "
 "ventana activa al área de trabajo»"
 
-#: data/mouse-touchpad.metainfo.xml.in:52
-#: data/mouse-touchpad.metainfo.xml.in:62
-#: data/mouse-touchpad.metainfo.xml.in:75
-#: data/mouse-touchpad.metainfo.xml.in:91
-#: data/mouse-touchpad.metainfo.xml.in:99
-msgid "Updated translations"
-msgstr "Traducciones actualizadas"
-
-#: data/mouse-touchpad.metainfo.xml.in:61
+#: data/mouse-touchpad.metainfo.xml.in:73
 msgid "Update for OS 7"
 msgstr "Actualizado a OS 7"
 
-#: data/mouse-touchpad.metainfo.xml.in:69
-#: data/mouse-touchpad.metainfo.xml.in:82
+#: data/mouse-touchpad.metainfo.xml.in:81
+#: data/mouse-touchpad.metainfo.xml.in:94
 msgid "New features:"
 msgstr "Nuevas características:"
 
-#: data/mouse-touchpad.metainfo.xml.in:71
+#: data/mouse-touchpad.metainfo.xml.in:83
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr ""
 "Nuevo botón para activar o desactivar «Doble pulsación para mover y "
 "arrastrar»"
 
-#: data/mouse-touchpad.metainfo.xml.in:84
-#: data/mouse-touchpad.metainfo.xml.in:89
+#: data/mouse-touchpad.metainfo.xml.in:96
+#: data/mouse-touchpad.metainfo.xml.in:101
 msgid "Multitouch gesture options"
 msgstr "Opciones de gestos multi toque"
 
-#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:100
 msgid "Add more snap points to pointer speed sliders"
 msgstr ""
 "Se agregaron más puntos de ancla, y controles deslizantes para velocidades"
 
-#: data/mouse-touchpad.metainfo.xml.in:90
+#: data/mouse-touchpad.metainfo.xml.in:102
 msgid "Redesigned touchpad settings"
 msgstr "Se rediseñó la configuración del panel táctil"
 
