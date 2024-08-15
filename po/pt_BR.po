@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 01:10+0000\n"
+"POT-Creation-Date: 2024-08-15 23:34+0000\n"
 "PO-Revision-Date: 2024-04-24 13:13+0000\n"
 "Last-Translator: Matheus Torres Carvalho <matheustcarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -194,7 +194,7 @@ msgstr ""
 "Clique do meio ou com três dedos em uma entrada para colar o texto "
 "selecionado"
 
-#: src/Views/Clicking.vala:235 src/Views/Clicking.vala:240
+#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f segundos"

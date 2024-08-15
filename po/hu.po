@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 01:10+0000\n"
+"POT-Creation-Date: 2024-08-15 23:34+0000\n"
 "PO-Revision-Date: 2024-01-31 19:11+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
@@ -170,7 +170,7 @@ msgstr ""
 "A középső gombos vagy háromujjas kattintás egy beviteli mezőben beilleszti a "
 "kijelölt szöveget"
 
-#: src/Views/Clicking.vala:235 src/Views/Clicking.vala:240
+#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f másodperc"
