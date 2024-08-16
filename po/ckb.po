@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 01:10+0000\n"
+"POT-Creation-Date: 2024-08-15 23:34+0000\n"
 "PO-Revision-Date: 2024-01-30 16:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -194,7 +194,7 @@ msgstr ""
 "بەکارهێنانی کرتەی ناوەڕاست یان دەست لێدان لە تەچپاد بە سێ پەنجە بۆ لکاندنی "
 "دەقێکی کۆپیکراو"
 
-#: src/Views/Clicking.vala:235 src/Views/Clicking.vala:240
+#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"

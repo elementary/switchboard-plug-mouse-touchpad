@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 01:10+0000\n"
+"POT-Creation-Date: 2024-08-15 23:34+0000\n"
 "PO-Revision-Date: 2024-05-31 01:46+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -167,7 +167,7 @@ msgstr "Houd de aanwijzer stil om automatisch te klikken"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Midden of drie-vinger klik op een input veld plakt geselecteerde tekst"
 
-#: src/Views/Clicking.vala:235 src/Views/Clicking.vala:240
+#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f seconden"
