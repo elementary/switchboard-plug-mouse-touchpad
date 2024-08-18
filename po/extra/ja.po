@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-18 16:26+0000\n"
-"PO-Revision-Date: 2024-06-11 18:45+0000\n"
+"PO-Revision-Date: 2024-08-19 17:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
@@ -41,7 +41,7 @@ msgstr "そのほかのアップデート:"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Improved screen reader compatibility"
-msgstr ""
+msgstr "スクリーンリーダーとの互換性を改善"
 
 #: data/mouse-touchpad.metainfo.xml.in:51
 #: data/mouse-touchpad.metainfo.xml.in:65
