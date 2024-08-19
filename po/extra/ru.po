@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-18 16:26+0000\n"
-"PO-Revision-Date: 2024-06-20 18:16+0000\n"
-"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
+"PO-Revision-Date: 2024-08-19 17:16+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
@@ -42,7 +42,7 @@ msgstr "Незначительные обновления:"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Improved screen reader compatibility"
-msgstr ""
+msgstr "Улучшена работа со скринридерами"
 
 #: data/mouse-touchpad.metainfo.xml.in:51
 #: data/mouse-touchpad.metainfo.xml.in:65
