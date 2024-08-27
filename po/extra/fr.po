@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 01:10+0000\n"
-"PO-Revision-Date: 2024-06-11 18:45+0000\n"
+"POT-Creation-Date: 2024-08-18 16:26+0000\n"
+"PO-Revision-Date: 2024-08-27 08:16+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
@@ -32,18 +32,31 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/mouse-touchpad.metainfo.xml.in:48
-#: data/mouse-touchpad.metainfo.xml.in:59
-#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:61
+#: data/mouse-touchpad.metainfo.xml.in:72
 #: data/mouse-touchpad.metainfo.xml.in:86
+#: data/mouse-touchpad.metainfo.xml.in:99
 msgid "Minor updates:"
 msgstr "Mises à jour mineures :"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
+msgid "Improved screen reader compatibility"
+msgstr "Amélioration de la compatibilité avec les lecteurs d'écran"
+
+#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:65
+#: data/mouse-touchpad.metainfo.xml.in:75
+#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:104
+msgid "Updated translations"
+msgstr "Mise à jour des traductions"
+
+#: data/mouse-touchpad.metainfo.xml.in:63
 msgid "Redesigned, easier to read views with more helpful descriptions"
 msgstr ""
 "Des vues repensées, plus faciles à lire, avec des descriptions plus utiles"
 
-#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:64
 msgid ""
 "Add \"Cycle windows\" and \"Move active window to workspace\" as gesture "
 "options"
@@ -51,39 +64,31 @@ msgstr ""
 "Ajout des options « Faire défiler les fenêtres » et « Déplacer la fenêtre "
 "active vers l'espace de travail » comme options de geste"
 
-#: data/mouse-touchpad.metainfo.xml.in:52
-#: data/mouse-touchpad.metainfo.xml.in:62
-#: data/mouse-touchpad.metainfo.xml.in:75
-#: data/mouse-touchpad.metainfo.xml.in:91
-#: data/mouse-touchpad.metainfo.xml.in:99
-msgid "Updated translations"
-msgstr "Mise à jour des traductions"
-
-#: data/mouse-touchpad.metainfo.xml.in:61
+#: data/mouse-touchpad.metainfo.xml.in:74
 msgid "Update for OS 7"
 msgstr "Mise à jour pour OS 7"
 
-#: data/mouse-touchpad.metainfo.xml.in:69
 #: data/mouse-touchpad.metainfo.xml.in:82
+#: data/mouse-touchpad.metainfo.xml.in:95
 msgid "New features:"
 msgstr "Nouvelles fonctionnalités :"
 
-#: data/mouse-touchpad.metainfo.xml.in:71
+#: data/mouse-touchpad.metainfo.xml.in:84
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr ""
 "Nouveau paramètre pour « Taper deux fois sur une fenêtre pour la déplacer »"
 
-#: data/mouse-touchpad.metainfo.xml.in:84
-#: data/mouse-touchpad.metainfo.xml.in:89
+#: data/mouse-touchpad.metainfo.xml.in:97
+#: data/mouse-touchpad.metainfo.xml.in:102
 msgid "Multitouch gesture options"
 msgstr "Options pour le multi-touch"
 
-#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:101
 msgid "Add more snap points to pointer speed sliders"
 msgstr ""
 "Ajout de plus de points d'ancrage pour les sélecteurs de vitesse du pointeur"
 
-#: data/mouse-touchpad.metainfo.xml.in:90
+#: data/mouse-touchpad.metainfo.xml.in:103
 msgid "Redesigned touchpad settings"
 msgstr "Refonte des paramètres du pavé tactile"
 

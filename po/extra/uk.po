@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 01:10+0000\n"
-"PO-Revision-Date: 2024-07-01 02:16+0000\n"
+"POT-Creation-Date: 2024-08-18 16:26+0000\n"
+"PO-Revision-Date: 2024-08-19 17:16+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
@@ -33,17 +33,30 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/mouse-touchpad.metainfo.xml.in:48
-#: data/mouse-touchpad.metainfo.xml.in:59
-#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:61
+#: data/mouse-touchpad.metainfo.xml.in:72
 #: data/mouse-touchpad.metainfo.xml.in:86
+#: data/mouse-touchpad.metainfo.xml.in:99
 msgid "Minor updates:"
 msgstr "Незначні оновлення:"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
+msgid "Improved screen reader compatibility"
+msgstr "Поліпшено сумісність зчитувача з екрана"
+
+#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:65
+#: data/mouse-touchpad.metainfo.xml.in:75
+#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:104
+msgid "Updated translations"
+msgstr "Оновлені переклади"
+
+#: data/mouse-touchpad.metainfo.xml.in:63
 msgid "Redesigned, easier to read views with more helpful descriptions"
 msgstr "Перероблені, зручніший для читання вигляд з кориснішими описами"
 
-#: data/mouse-touchpad.metainfo.xml.in:51
+#: data/mouse-touchpad.metainfo.xml.in:64
 msgid ""
 "Add \"Cycle windows\" and \"Move active window to workspace\" as gesture "
 "options"
@@ -51,37 +64,29 @@ msgstr ""
 "Додано \"Перемикання вікон\" і \"Переміщення активного вікна на робочий "
 "простір\" опцією жестів"
 
-#: data/mouse-touchpad.metainfo.xml.in:52
-#: data/mouse-touchpad.metainfo.xml.in:62
-#: data/mouse-touchpad.metainfo.xml.in:75
-#: data/mouse-touchpad.metainfo.xml.in:91
-#: data/mouse-touchpad.metainfo.xml.in:99
-msgid "Updated translations"
-msgstr "Оновлені переклади"
-
-#: data/mouse-touchpad.metainfo.xml.in:61
+#: data/mouse-touchpad.metainfo.xml.in:74
 msgid "Update for OS 7"
 msgstr "Оновлення для OS 7"
 
-#: data/mouse-touchpad.metainfo.xml.in:69
 #: data/mouse-touchpad.metainfo.xml.in:82
+#: data/mouse-touchpad.metainfo.xml.in:95
 msgid "New features:"
 msgstr "Нові функції:"
 
-#: data/mouse-touchpad.metainfo.xml.in:71
+#: data/mouse-touchpad.metainfo.xml.in:84
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr "Новий перемикач «Двічі торкнутися та перемістити, щоб перетягнути»"
 
-#: data/mouse-touchpad.metainfo.xml.in:84
-#: data/mouse-touchpad.metainfo.xml.in:89
+#: data/mouse-touchpad.metainfo.xml.in:97
+#: data/mouse-touchpad.metainfo.xml.in:102
 msgid "Multitouch gesture options"
 msgstr "Багатофункціональні жести"
 
-#: data/mouse-touchpad.metainfo.xml.in:88
+#: data/mouse-touchpad.metainfo.xml.in:101
 msgid "Add more snap points to pointer speed sliders"
 msgstr "Додано більше точок охоплення для вказівників швидкого гортання"
 
-#: data/mouse-touchpad.metainfo.xml.in:90
+#: data/mouse-touchpad.metainfo.xml.in:103
 msgid "Redesigned touchpad settings"
 msgstr "Перероблені налаштування сенсорної панелі"
 

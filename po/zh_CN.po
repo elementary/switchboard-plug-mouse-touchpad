@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-11 01:10+0000\n"
+"POT-Creation-Date: 2024-08-18 16:26+0000\n"
 "PO-Revision-Date: 2024-01-30 16:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -148,7 +148,7 @@ msgstr "接入鼠标时忽略"
 msgid "Gestures"
 msgstr "手势控制"
 
-#: src/Plug.vala:159 src/Views/Gestures.vala:66 src/Views/Gestures.vala:74
+#: src/Plug.vala:159 src/Views/Gestures.vala:74 src/Views/Gestures.vala:83
 msgid "Multitasking View"
 msgstr "多任务视图"
 
@@ -192,61 +192,61 @@ msgstr "保持指针不动激活自动点击"
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "中键或三指点击将会粘贴选中文本"
 
-#: src/Views/Clicking.vala:235 src/Views/Clicking.vala:240
+#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"
 msgstr "秒"
 
-#: src/Views/Gestures.vala:32
-msgid "Swipe Horizontally"
-msgstr "水平滑动"
-
-#: src/Views/Gestures.vala:34 src/Views/Gestures.vala:60
-#: src/Views/Gestures.vala:80
-msgid "Three fingers:"
-msgstr "三指触控："
-
-#: src/Views/Gestures.vala:41 src/Views/Gestures.vala:51
-#: src/Views/Gestures.vala:65 src/Views/Gestures.vala:73
-#: src/Views/Gestures.vala:85 src/Views/Gestures.vala:93
+#: src/Views/Gestures.vala:35 src/Views/Gestures.vala:46
+#: src/Views/Gestures.vala:73 src/Views/Gestures.vala:82
+#: src/Views/Gestures.vala:108 src/Views/Gestures.vala:117
 msgid "Do nothing"
 msgstr "无操作"
 
-#: src/Views/Gestures.vala:42 src/Views/Gestures.vala:52
+#: src/Views/Gestures.vala:36 src/Views/Gestures.vala:47
 msgid "Switch to workspace"
 msgstr "切换工作区"
 
-#: src/Views/Gestures.vala:43 src/Views/Gestures.vala:53
+#: src/Views/Gestures.vala:37 src/Views/Gestures.vala:48
 #, fuzzy
 #| msgid "Switch to workspace"
 msgid "Move active window to workspace"
 msgstr "切换工作区"
 
-#: src/Views/Gestures.vala:44 src/Views/Gestures.vala:54
+#: src/Views/Gestures.vala:38 src/Views/Gestures.vala:49
 #, fuzzy
 #| msgid "Tile Window"
 msgid "Cycle windows"
 msgstr "窗口分屏"
 
-#: src/Views/Gestures.vala:46 src/Views/Gestures.vala:68
-#: src/Views/Gestures.vala:88
+#: src/Views/Gestures.vala:40 src/Views/Gestures.vala:76
+#: src/Views/Gestures.vala:111
+msgid "Three fingers:"
+msgstr "三指触控："
+
+#: src/Views/Gestures.vala:51 src/Views/Gestures.vala:85
+#: src/Views/Gestures.vala:120
 msgid "Four fingers:"
 msgstr "四指触控："
 
-#: src/Views/Gestures.vala:56
+#: src/Views/Gestures.vala:66
+msgid "Swipe Horizontally"
+msgstr "水平滑动"
+
+#: src/Views/Gestures.vala:100
 msgid "Swipe Up"
 msgstr "向上滑动"
 
-#: src/Views/Gestures.vala:76
-msgid "Pinch"
-msgstr "捏合"
-
-#: src/Views/Gestures.vala:86 src/Views/Gestures.vala:94
+#: src/Views/Gestures.vala:109 src/Views/Gestures.vala:118
 msgid "Zoom"
 msgstr "缩放"
 
-#: src/Views/Gestures.vala:130 src/Views/Gestures.vala:131
+#: src/Views/Gestures.vala:135
+msgid "Pinch"
+msgstr "捏合"
+
+#: src/Views/Gestures.vala:162 src/Views/Gestures.vala:163
 msgid "Toggle maximized"
 msgstr "切换窗口最大化"
 
