@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-18 16:26+0000\n"
-"PO-Revision-Date: 2024-09-06 10:13+0000\n"
+"PO-Revision-Date: 2024-09-19 10:09+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "switchboard/mouse-touchpad-plug-extra/zh_Hant/>\n"
@@ -59,7 +59,7 @@ msgstr "重新設計，提供更有幫助的說明與更容易理解的畫面"
 msgid ""
 "Add \"Cycle windows\" and \"Move active window to workspace\" as gesture "
 "options"
-msgstr ""
+msgstr "將「循環切換視窗」與「將作用中視窗移動到工作區」動作加入手勢選項"
 
 #: data/mouse-touchpad.metainfo.xml.in:74
 msgid "Update for OS 7"
@@ -81,7 +81,7 @@ msgstr "多點手勢選項"
 
 #: data/mouse-touchpad.metainfo.xml.in:101
 msgid "Add more snap points to pointer speed sliders"
-msgstr ""
+msgstr "在指標速度選項的滑動條上加入更多固定的設定點"
 
 #: data/mouse-touchpad.metainfo.xml.in:103
 msgid "Redesigned touchpad settings"
