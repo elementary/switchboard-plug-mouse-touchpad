@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-18 16:26+0000\n"
-"PO-Revision-Date: 2024-08-07 18:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-09-21 11:16+0000\n"
+"Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/tr/>\n"
 "Language: tr\n"
@@ -41,7 +41,7 @@ msgstr "Küçük güncellemeler:"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Improved screen reader compatibility"
-msgstr ""
+msgstr "Ekran okuyucu uyumluluğu iyileştirildi"
 
 #: data/mouse-touchpad.metainfo.xml.in:51
 #: data/mouse-touchpad.metainfo.xml.in:65
@@ -54,12 +54,15 @@ msgstr "Çeviriler güncellendi"
 #: data/mouse-touchpad.metainfo.xml.in:63
 msgid "Redesigned, easier to read views with more helpful descriptions"
 msgstr ""
+"Yeniden tasarlanan, daha faydalı açıklamalarla okunması daha kolay görünümler"
 
 #: data/mouse-touchpad.metainfo.xml.in:64
 msgid ""
 "Add \"Cycle windows\" and \"Move active window to workspace\" as gesture "
 "options"
 msgstr ""
+"\"Pencereler arası geçiş\" ve \"Etkin pencereyi çalışma alanına taşı\" "
+"hareket seçenekleri olarak eklendi"
 
 #: data/mouse-touchpad.metainfo.xml.in:74
 msgid "Update for OS 7"
@@ -72,7 +75,7 @@ msgstr "Yeni özellikler:"
 
 #: data/mouse-touchpad.metainfo.xml.in:84
 msgid "New toggle for “Double-tap and move to drag”"
-msgstr ""
+msgstr "“Sürüklemek için çift dokunun ve hareket ettirin” için yeni seçenek"
 
 #: data/mouse-touchpad.metainfo.xml.in:97
 #: data/mouse-touchpad.metainfo.xml.in:102
