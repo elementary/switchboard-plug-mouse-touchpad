@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-18 16:26+0000\n"
-"PO-Revision-Date: 2024-01-30 16:38+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-09-24 11:24+0000\n"
+"Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-mouse-touchpad/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 06:46+0000\n"
 
 #: src/Plug.vala:53
@@ -33,32 +33,22 @@ msgid "Clicking"
 msgstr "Tıklama"
 
 #: src/Plug.vala:131 src/Views/Clicking.vala:106
-#, fuzzy
-#| msgid "Double-click speed"
 msgid "Double-click Speed"
-msgstr "Çift tıklama hızı"
+msgstr "Çift tıklama Hızı"
 
 #: src/Plug.vala:132 src/Views/Clicking.vala:116
-#, fuzzy
-#| msgid "Dwell click"
 msgid "Dwell Click"
-msgstr "Otomatik tıklama"
+msgstr "Basılı kalan Tıklama"
 
 #: src/Plug.vala:133 src/Views/Clicking.vala:32
-#, fuzzy
-#| msgid "Primary button"
 msgid "Primary Button"
-msgstr "Birincil düğme"
+msgstr "Birincil Düğme"
 
 #: src/Plug.vala:134 src/Views/Clicking.vala:75
-#, fuzzy
-#| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
-msgstr "İkincil tıklama için basılı tutun"
+msgstr "Uzun Basma İkincil Tıklama"
 
 #: src/Plug.vala:135 src/Views/Clicking.vala:171
-#, fuzzy
-#| msgid "Middle click paste"
 msgid "Middle Click Paste"
 msgstr "Orta tıklama ile yapıştır"
 
@@ -69,45 +59,33 @@ msgstr "Fare"
 
 #: src/Plug.vala:138 src/Plug.vala:148 src/Views/Mouse.vala:27
 #: src/Views/Touchpad.vala:33
-#, fuzzy
-#| msgid "Pointer speed"
 msgid "Pointer Speed"
-msgstr "İşaretçi hızı"
+msgstr "İşaretçi Hızı"
 
 #: src/Plug.vala:139 src/Views/Mouse.vala:59
-#, fuzzy
-#| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
-msgstr "İşaretçi hızlandırması"
+msgstr "İşaretçi Hızlandırması"
 
 #: src/Plug.vala:140 src/Plug.vala:153 src/Views/Mouse.vala:45
 #: src/Views/Touchpad.vala:124
-#, fuzzy
-#| msgid "Natural scrolling"
 msgid "Natural Scrolling"
-msgstr "Doğal kaydırma"
+msgstr "Doğal Kaydırma"
 
 #: src/Plug.vala:142 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "İşaretçi"
 
 #: src/Plug.vala:143 src/Views/Pointing.vala:87
-#, fuzzy
-#| msgid "Pointer size"
 msgid "Pointer Size"
-msgstr "İşaretçi boyutu"
+msgstr "İşaretçi Boyutu"
 
 #: src/Plug.vala:144 src/Views/Pointing.vala:78
-#, fuzzy
-#| msgid "Reveal pointer"
 msgid "Reveal Pointer"
-msgstr "İşaretçiyi göster"
+msgstr "İşaretçiyi Göster"
 
 #: src/Plug.vala:145 src/Views/Pointing.vala:22
-#, fuzzy
-#| msgid "Control pointer using keypad"
 msgid "Control Pointer Using Keypad"
-msgstr "İşaretçiyi tuş takımını kullanarak kontrol et"
+msgstr "İşaretçiyi Tuş Takımını Kullanarak Kontrol Et"
 
 #: src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149 src/Plug.vala:150
 #: src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153 src/Plug.vala:154
@@ -124,16 +102,12 @@ msgid "Double-tap and move to drag"
 msgstr "Sürüklemek için iki kez dokunun ve hareket ettirin"
 
 #: src/Plug.vala:151 src/Views/Touchpad.vala:66
-#, fuzzy
-#| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
-msgstr "Fiziksel ikincil tıklama:"
+msgstr "Fiziksel İkincil Tıklama"
 
 #: src/Plug.vala:152 src/Views/Touchpad.vala:84
-#, fuzzy
-#| msgid "Scroll method:"
 msgid "Scroll Method"
-msgstr "Kaydırma yöntemi:"
+msgstr "Kaydırma Yöntemi"
 
 #: src/Plug.vala:154
 msgid "Ignore while typing"
@@ -196,10 +170,9 @@ msgstr ""
 "tıklayın"
 
 #: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
-#, fuzzy, c-format
-#| msgid "seconds"
+#, c-format
 msgid "%.1f seconds"
-msgstr "saniye"
+msgstr "%.1f saniye"
 
 #: src/Views/Gestures.vala:35 src/Views/Gestures.vala:46
 #: src/Views/Gestures.vala:73 src/Views/Gestures.vala:82
@@ -212,16 +185,12 @@ msgid "Switch to workspace"
 msgstr "Çalışma alanlarını değiştir"
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:48
-#, fuzzy
-#| msgid "Switch to workspace"
 msgid "Move active window to workspace"
-msgstr "Çalışma alanlarını değiştir"
+msgstr "Etkin pencereyi çalışma alanına taşı"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:49
-#, fuzzy
-#| msgid "Tile Window"
 msgid "Cycle windows"
-msgstr "Pencereyi Döşe"
+msgstr "Pencereler arasında geçiş yap"
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:76
 #: src/Views/Gestures.vala:111
@@ -260,12 +229,12 @@ msgstr "Aygıtlar"
 #: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
 #: src/Views/Touchpad.vala:29
 msgid "Slower"
-msgstr ""
+msgstr "Daha Yavaş"
 
 #: src/Views/Mouse.vala:25 src/Views/Pointing.vala:34
 #: src/Views/Touchpad.vala:31
 msgid "Faster"
-msgstr ""
+msgstr "Daha Hızlı"
 
 #: src/Views/Mouse.vala:31
 msgid "Hardware default"
@@ -281,7 +250,7 @@ msgstr "Uyarlamalı"
 
 #: src/Views/Mouse.vala:47 src/Views/Touchpad.vala:126
 msgid "Scrolling moves the content, not the view"
-msgstr ""
+msgstr "Kaydırma, görünümü değil içeriği hareket ettirir"
 
 #: src/Views/Pointing.vala:23
 msgid "This disables both levels of keys on the numeric keypad"
@@ -321,10 +290,8 @@ msgid "Edge"
 msgstr "Kenar"
 
 #: src/Views/Touchpad.vala:135
-#, fuzzy
-#| msgid "Ignore:"
 msgid "Ignore"
-msgstr "Yoksay:"
+msgstr "Yoksay"
 
 #: src/Views/Touchpad.vala:137
 msgid "While typing"
@@ -335,10 +302,8 @@ msgid "When mouse is connected"
 msgstr "Fare bağlandığında"
 
 #: src/Views/Touchpad.vala:149
-#, fuzzy
-#| msgid "Tapping:"
 msgid "Tapping"
-msgstr "Dokunma:"
+msgstr "Dokunma"
 
 #~ msgid "Double-click speed"
 #~ msgstr "Çift tıklama hızı"
