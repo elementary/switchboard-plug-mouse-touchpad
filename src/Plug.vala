@@ -89,6 +89,9 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
                 end_child = stack,
                 shrink_end_child = false
             };
+
+            var settings = new Settings ("io.elementary.settings");
+            settings.bind ("sidebar-position", hpaned, "position", DEFAULT);
         }
 
         return hpaned;
