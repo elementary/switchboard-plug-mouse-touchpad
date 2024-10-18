@@ -90,8 +90,11 @@ public class MouseTouchpad.Plug : Switchboard.Plug {
                 shrink_end_child = false
             };
 
-            var settings = new Settings ("io.elementary.settings");
-            settings.bind ("sidebar-position", hpaned, "position", DEFAULT);
+            var sss = SettingsSchemaSource.get_default ().lookup ("io.elementary.settings", true);
+            if (sss != null && sss.has_key ("sidebar-position")) {
+                var settings = new Settings ("io.elementary.settings");
+                settings.bind ("sidebar-position", hpaned, "position", DEFAULT);
+            }
         }
 
         return hpaned;
