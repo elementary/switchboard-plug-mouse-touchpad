@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-18 16:26+0000\n"
-"PO-Revision-Date: 2024-11-06 11:18+0000\n"
+"PO-Revision-Date: 2024-11-06 11:20+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-mouse-touchpad/zh_Hant/>\n"
@@ -142,13 +142,13 @@ msgstr "行為"
 #: src/Views/Clicking.vala:36
 msgctxt "mouse-button"
 msgid "Left"
-msgstr "左"
+msgstr "左鍵"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
 #: src/Views/Clicking.vala:48
 msgctxt "mouse-button"
 msgid "Right"
-msgstr "右側"
+msgstr "右鍵"
 
 #: src/Views/Clicking.vala:77
 msgid "Long-press and release the primary button to secondary click"
