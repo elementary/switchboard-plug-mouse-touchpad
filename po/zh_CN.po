@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-18 16:26+0000\n"
+"POT-Creation-Date: 2024-12-11 11:27+0000\n"
 "PO-Revision-Date: 2024-01-30 16:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -28,135 +28,135 @@ msgstr "鼠标和触控"
 msgid "Configure mouse and touchpad"
 msgstr "配置鼠标和触控板"
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:25
+#: src/Plug.vala:136 src/Views/Clicking.vala:25
 msgid "Clicking"
 msgstr "点击"
 
-#: src/Plug.vala:131 src/Views/Clicking.vala:106
+#: src/Plug.vala:137 src/Views/Clicking.vala:106
 #, fuzzy
 #| msgid "Double-click speed"
 msgid "Double-click Speed"
 msgstr "双击速度"
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:116
+#: src/Plug.vala:138 src/Views/Clicking.vala:116
 #, fuzzy
 #| msgid "Dwell click"
 msgid "Dwell Click"
 msgstr "自动点击"
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:32
+#: src/Plug.vala:139 src/Views/Clicking.vala:32
 #, fuzzy
 #| msgid "Primary button"
 msgid "Primary Button"
 msgstr "主按键"
 
-#: src/Plug.vala:134 src/Views/Clicking.vala:75
+#: src/Plug.vala:140 src/Views/Clicking.vala:75
 #, fuzzy
 #| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
 msgstr "二级点击"
 
-#: src/Plug.vala:135 src/Views/Clicking.vala:171
+#: src/Plug.vala:141 src/Views/Clicking.vala:171
 #, fuzzy
 #| msgid "Middle click paste"
 msgid "Middle Click Paste"
 msgstr "中键粘贴"
 
-#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
+#: src/Plug.vala:143 src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146
 #: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr "鼠标"
 
-#: src/Plug.vala:138 src/Plug.vala:148 src/Views/Mouse.vala:27
+#: src/Plug.vala:144 src/Plug.vala:154 src/Views/Mouse.vala:27
 #: src/Views/Touchpad.vala:33
 #, fuzzy
 #| msgid "Pointer speed"
 msgid "Pointer Speed"
 msgstr "指针速度"
 
-#: src/Plug.vala:139 src/Views/Mouse.vala:59
+#: src/Plug.vala:145 src/Views/Mouse.vala:59
 #, fuzzy
 #| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
 msgstr "指针加速"
 
-#: src/Plug.vala:140 src/Plug.vala:153 src/Views/Mouse.vala:45
+#: src/Plug.vala:146 src/Plug.vala:159 src/Views/Mouse.vala:45
 #: src/Views/Touchpad.vala:124
 #, fuzzy
 #| msgid "Natural scrolling"
 msgid "Natural Scrolling"
 msgstr "自然滚动"
 
-#: src/Plug.vala:142 src/Views/Pointing.vala:10
+#: src/Plug.vala:148 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr "指针"
 
-#: src/Plug.vala:143 src/Views/Pointing.vala:87
+#: src/Plug.vala:149 src/Views/Pointing.vala:87
 #, fuzzy
 #| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "指针大小"
 
-#: src/Plug.vala:144 src/Views/Pointing.vala:78
+#: src/Plug.vala:150 src/Views/Pointing.vala:78
 #, fuzzy
 #| msgid "Reveal pointer"
 msgid "Reveal Pointer"
 msgstr "显示指针"
 
-#: src/Plug.vala:145 src/Views/Pointing.vala:22
+#: src/Plug.vala:151 src/Views/Pointing.vala:22
 #, fuzzy
 #| msgid "Control pointer using keypad"
 msgid "Control Pointer Using Keypad"
 msgstr "数字键盘控制指针"
 
-#: src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149 src/Plug.vala:150
-#: src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153 src/Plug.vala:154
-#: src/Plug.vala:155 src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
+#: src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160
+#: src/Plug.vala:161 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr "触控板"
 
-#: src/Plug.vala:149 src/Views/Touchpad.vala:72
+#: src/Plug.vala:155 src/Views/Touchpad.vala:72
 msgid "Tap to click"
 msgstr "轻触点击"
 
-#: src/Plug.vala:150 src/Views/Touchpad.vala:76
+#: src/Plug.vala:156 src/Views/Touchpad.vala:76
 msgid "Double-tap and move to drag"
 msgstr "双击并移动来拖放"
 
-#: src/Plug.vala:151 src/Views/Touchpad.vala:66
+#: src/Plug.vala:157 src/Views/Touchpad.vala:66
 #, fuzzy
 #| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
 msgstr "物理二次点击："
 
-#: src/Plug.vala:152 src/Views/Touchpad.vala:84
+#: src/Plug.vala:158 src/Views/Touchpad.vala:84
 #, fuzzy
 #| msgid "Scroll method:"
 msgid "Scroll Method"
 msgstr "滚动方式："
 
-#: src/Plug.vala:154
+#: src/Plug.vala:160
 msgid "Ignore while typing"
 msgstr "键盘输入时禁用"
 
-#: src/Plug.vala:155
+#: src/Plug.vala:161
 msgid "Ignore when mouse is connected"
 msgstr "接入鼠标时忽略"
 
-#: src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160 src/Plug.vala:161
+#: src/Plug.vala:164 src/Plug.vala:165 src/Plug.vala:166 src/Plug.vala:167
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr "手势控制"
 
-#: src/Plug.vala:159 src/Views/Gestures.vala:74 src/Views/Gestures.vala:83
+#: src/Plug.vala:165 src/Views/Gestures.vala:74 src/Views/Gestures.vala:83
 msgid "Multitasking View"
 msgstr "多任务视图"
 
-#: src/Plug.vala:160
+#: src/Plug.vala:166
 msgid "Switch Workspaces"
 msgstr "切换工作区"
 
-#: src/Plug.vala:161
+#: src/Plug.vala:167
 msgid "Maximize Window"
 msgstr "窗口最大化"
 

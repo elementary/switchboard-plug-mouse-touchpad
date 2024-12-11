@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mouse-touchpad-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-18 16:26+0000\n"
+"POT-Creation-Date: 2024-12-11 11:27+0000\n"
 "PO-Revision-Date: 2020-10-01 23:14+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Southern Sami <https://l10n.elementary.io/projects/"
@@ -27,109 +27,109 @@ msgstr ""
 msgid "Configure mouse and touchpad"
 msgstr ""
 
-#: src/Plug.vala:130 src/Views/Clicking.vala:25
+#: src/Plug.vala:136 src/Views/Clicking.vala:25
 msgid "Clicking"
 msgstr ""
 
-#: src/Plug.vala:131 src/Views/Clicking.vala:106
+#: src/Plug.vala:137 src/Views/Clicking.vala:106
 msgid "Double-click Speed"
 msgstr ""
 
-#: src/Plug.vala:132 src/Views/Clicking.vala:116
+#: src/Plug.vala:138 src/Views/Clicking.vala:116
 msgid "Dwell Click"
 msgstr ""
 
-#: src/Plug.vala:133 src/Views/Clicking.vala:32
+#: src/Plug.vala:139 src/Views/Clicking.vala:32
 msgid "Primary Button"
 msgstr ""
 
-#: src/Plug.vala:134 src/Views/Clicking.vala:75
+#: src/Plug.vala:140 src/Views/Clicking.vala:75
 msgid "Long-press Secondary Click"
 msgstr ""
 
-#: src/Plug.vala:135 src/Views/Clicking.vala:171
+#: src/Plug.vala:141 src/Views/Clicking.vala:171
 msgid "Middle Click Paste"
 msgstr ""
 
-#: src/Plug.vala:137 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
+#: src/Plug.vala:143 src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146
 #: src/Views/Mouse.vala:11
 msgid "Mouse"
 msgstr ""
 
-#: src/Plug.vala:138 src/Plug.vala:148 src/Views/Mouse.vala:27
+#: src/Plug.vala:144 src/Plug.vala:154 src/Views/Mouse.vala:27
 #: src/Views/Touchpad.vala:33
 msgid "Pointer Speed"
 msgstr ""
 
-#: src/Plug.vala:139 src/Views/Mouse.vala:59
+#: src/Plug.vala:145 src/Views/Mouse.vala:59
 msgid "Pointer Acceleration"
 msgstr ""
 
-#: src/Plug.vala:140 src/Plug.vala:153 src/Views/Mouse.vala:45
+#: src/Plug.vala:146 src/Plug.vala:159 src/Views/Mouse.vala:45
 #: src/Views/Touchpad.vala:124
 msgid "Natural Scrolling"
 msgstr ""
 
-#: src/Plug.vala:142 src/Views/Pointing.vala:10
+#: src/Plug.vala:148 src/Views/Pointing.vala:10
 msgid "Pointing"
 msgstr ""
 
-#: src/Plug.vala:143 src/Views/Pointing.vala:87
+#: src/Plug.vala:149 src/Views/Pointing.vala:87
 msgid "Pointer Size"
 msgstr ""
 
-#: src/Plug.vala:144 src/Views/Pointing.vala:78
+#: src/Plug.vala:150 src/Views/Pointing.vala:78
 msgid "Reveal Pointer"
 msgstr ""
 
-#: src/Plug.vala:145 src/Views/Pointing.vala:22
+#: src/Plug.vala:151 src/Views/Pointing.vala:22
 msgid "Control Pointer Using Keypad"
 msgstr ""
 
-#: src/Plug.vala:147 src/Plug.vala:148 src/Plug.vala:149 src/Plug.vala:150
-#: src/Plug.vala:151 src/Plug.vala:152 src/Plug.vala:153 src/Plug.vala:154
-#: src/Plug.vala:155 src/Views/Touchpad.vala:15
+#: src/Plug.vala:153 src/Plug.vala:154 src/Plug.vala:155 src/Plug.vala:156
+#: src/Plug.vala:157 src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160
+#: src/Plug.vala:161 src/Views/Touchpad.vala:15
 msgid "Touchpad"
 msgstr ""
 
-#: src/Plug.vala:149 src/Views/Touchpad.vala:72
+#: src/Plug.vala:155 src/Views/Touchpad.vala:72
 msgid "Tap to click"
 msgstr ""
 
-#: src/Plug.vala:150 src/Views/Touchpad.vala:76
+#: src/Plug.vala:156 src/Views/Touchpad.vala:76
 msgid "Double-tap and move to drag"
 msgstr ""
 
-#: src/Plug.vala:151 src/Views/Touchpad.vala:66
+#: src/Plug.vala:157 src/Views/Touchpad.vala:66
 msgid "Physical Secondary Clicking"
 msgstr ""
 
-#: src/Plug.vala:152 src/Views/Touchpad.vala:84
+#: src/Plug.vala:158 src/Views/Touchpad.vala:84
 msgid "Scroll Method"
 msgstr ""
 
-#: src/Plug.vala:154
+#: src/Plug.vala:160
 msgid "Ignore while typing"
 msgstr ""
 
-#: src/Plug.vala:155
+#: src/Plug.vala:161
 msgid "Ignore when mouse is connected"
 msgstr ""
 
-#: src/Plug.vala:158 src/Plug.vala:159 src/Plug.vala:160 src/Plug.vala:161
+#: src/Plug.vala:164 src/Plug.vala:165 src/Plug.vala:166 src/Plug.vala:167
 #: src/Views/Gestures.vala:25
 msgid "Gestures"
 msgstr ""
 
-#: src/Plug.vala:159 src/Views/Gestures.vala:74 src/Views/Gestures.vala:83
+#: src/Plug.vala:165 src/Views/Gestures.vala:74 src/Views/Gestures.vala:83
 msgid "Multitasking View"
 msgstr ""
 
-#: src/Plug.vala:160
+#: src/Plug.vala:166
 msgid "Switch Workspaces"
 msgstr ""
 
-#: src/Plug.vala:161
+#: src/Plug.vala:167
 msgid "Maximize Window"
 msgstr ""
 
