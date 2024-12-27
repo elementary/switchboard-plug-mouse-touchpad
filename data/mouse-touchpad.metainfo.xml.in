@@ -43,7 +43,7 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
-    <release version="8.0.2" date="2024-11-12" urgency="medium">
+    <release version="8.0.2" date="2024-12-28" urgency="medium">
       <description>
         <p>Minor updates:</p>
         <ul>
@@ -52,7 +52,7 @@
         </ul>
       </description>
     </release>
-    
+
     <release version="8.0.1" date="2024-08-15" urgency="medium">
       <description>
         <p>Minor updates:</p>
