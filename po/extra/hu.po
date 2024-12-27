@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 11:27+0000\n"
-"PO-Revision-Date: 2024-06-19 02:57+0000\n"
+"PO-Revision-Date: 2024-12-19 20:16+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
 "mouse-touchpad-plug-extra/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
@@ -42,7 +42,7 @@ msgstr "Kisebb frissítések:"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
 msgid "Sidebar position is now remembered"
-msgstr ""
+msgstr "Az oldalsáv helyzete megjegyzésre kerül"
 
 #: data/mouse-touchpad.metainfo.xml.in:51
 #: data/mouse-touchpad.metainfo.xml.in:61
