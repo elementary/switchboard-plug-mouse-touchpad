@@ -18,6 +18,9 @@
  */
 
 public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
+    private GLib.Settings? xsettings;
+    private GLib.Settings interface_settings;
+
     public ClickingView () {
         Object (
             header: _("Behavior"),
@@ -161,34 +164,39 @@ public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
             "org.gnome.settings-daemon.plugins.xsettings",
             true
         );
-
         if (xsettings_schema != null) {
-            var primary_paste_switch = new Gtk.Switch () {
-                halign = Gtk.Align.END,
-                valign = Gtk.Align.CENTER
-            };
+            xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
+        }
 
-            var primary_paste_header = new Granite.HeaderLabel (_("Middle Click Paste")) {
-                mnemonic_widget = primary_paste_switch,
-                secondary_text = _("Middle or three-finger click on an input to paste selected text")
-            };
+        interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
 
-            content_area.attach (primary_paste_header, 0, 8);
-            content_area.attach (primary_paste_switch, 1, 8);
+        var primary_paste_switch = new Gtk.Switch () {
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.CENTER
+        };
 
-            var xsettings = new GLib.Settings ("org.gnome.settings-daemon.plugins.xsettings");
-            primary_paste_switch.notify["active"].connect (() => {
-                on_primary_paste_switch_changed (primary_paste_switch, xsettings);
-            });
+        var primary_paste_header = new Granite.HeaderLabel (_("Middle Click Paste")) {
+            mnemonic_widget = primary_paste_switch,
+            secondary_text = _("Middle or three-finger click on an input to paste selected text")
+        };
 
-            var current_value = xsettings.get_value ("overrides").lookup_value (
-                "Gtk/EnablePrimaryPaste",
-                VariantType.INT32
-            );
-            if (current_value != null) {
-                primary_paste_switch.active = current_value.get_int32 () == 1;
+        content_area.attach (primary_paste_header, 0, 8);
+        content_area.attach (primary_paste_switch, 1, 8);
+
+        primary_paste_switch.notify["active"].connect (() => {
+            on_primary_paste_switch_changed (primary_paste_switch);
+        });
+
+        var current_x_value = false;
+        if (xsettings != null) {
+            var value = xsettings.get_value ("overrides").lookup_value ("Gtk/EnablePrimaryPaste", VariantType.INT32);
+            if (value != null) {
+                current_x_value = value.get_int32 () == 1;
             }
         }
+
+        var current_wayland_value = interface_settings.get_boolean ("gtk-enable-primary-paste");
+        primary_paste_switch.active = current_wayland_value || current_x_value;
 
         var a11y_mouse_settings = new GLib.Settings ("org.gnome.desktop.a11y.mouse");
         a11y_mouse_settings.bind (
@@ -244,12 +252,14 @@ public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
         });
     }
 
-    private void on_primary_paste_switch_changed (Gtk.Switch switch, GLib.Settings xsettings) {
+    private void on_primary_paste_switch_changed (Gtk.Switch switch) {
         var overrides = xsettings.get_value ("overrides");
         var dict = new VariantDict (overrides);
         dict.insert_value ("Gtk/EnablePrimaryPaste", new Variant.int32 (switch.active ? 1 : 0));
 
         overrides = dict.end ();
         xsettings.set_value ("overrides", overrides);
+
+        interface_settings.set_boolean ("gtk-enable-primary-paste", switch.active);
     }
 }
