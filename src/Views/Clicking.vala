@@ -253,12 +253,14 @@ public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
     }
 
     private void on_primary_paste_switch_changed (Gtk.Switch switch) {
-        var overrides = xsettings.get_value ("overrides");
-        var dict = new VariantDict (overrides);
-        dict.insert_value ("Gtk/EnablePrimaryPaste", new Variant.int32 (switch.active ? 1 : 0));
-
-        overrides = dict.end ();
-        xsettings.set_value ("overrides", overrides);
+        if (xsettings != null) {
+            var overrides = xsettings.get_value ("overrides");
+            var dict = new VariantDict (overrides);
+            dict.insert_value ("Gtk/EnablePrimaryPaste", new Variant.int32 (switch.active ? 1 : 0));
+    
+            overrides = dict.end ();
+            xsettings.set_value ("overrides", overrides);
+        }
 
         interface_settings.set_boolean ("gtk-enable-primary-paste", switch.active);
     }
