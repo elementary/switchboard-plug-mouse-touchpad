@@ -257,7 +257,7 @@ public class MouseTouchpad.ClickingView : Switchboard.SettingsPage {
             var overrides = xsettings.get_value ("overrides");
             var dict = new VariantDict (overrides);
             dict.insert_value ("Gtk/EnablePrimaryPaste", new Variant.int32 (switch.active ? 1 : 0));
-    
+
             overrides = dict.end ();
             xsettings.set_value ("overrides", overrides);
         }
