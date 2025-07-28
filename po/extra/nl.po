@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-15 21:49+0000\n"
-"PO-Revision-Date: 2024-12-19 20:16+0000\n"
-"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/mouse-"
-"touchpad-plug-extra/nl/>\n"
+"PO-Revision-Date: 2025-07-29 14:55+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
+"mouse-touchpad-plug-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/mouse-touchpad.metainfo.xml.in:10
 msgid "Mouse &amp; Touchpad Settings"
@@ -53,7 +53,7 @@ msgstr "Bijgewerkte vertalingen"
 
 #: data/mouse-touchpad.metainfo.xml.in:62
 msgid "Sidebar position is now remembered"
-msgstr ""
+msgstr "Zijbalk positie wordt nu onthouden"
 
 #: data/mouse-touchpad.metainfo.xml.in:72
 msgid "Improved screen reader compatibility"
