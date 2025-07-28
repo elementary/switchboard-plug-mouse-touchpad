@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:27+0000\n"
+"POT-Creation-Date: 2025-05-15 21:49+0000\n"
 "PO-Revision-Date: 2024-01-30 16:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -28,35 +28,35 @@ msgstr "마우스 & 터치패드"
 msgid "Configure mouse and touchpad"
 msgstr "마우스와 터치패드를 설정합니다"
 
-#: src/Plug.vala:136 src/Views/Clicking.vala:25
+#: src/Plug.vala:136 src/Views/Clicking.vala:28
 msgid "Clicking"
 msgstr "클릭"
 
-#: src/Plug.vala:137 src/Views/Clicking.vala:106
+#: src/Plug.vala:137 src/Views/Clicking.vala:109
 #, fuzzy
 #| msgid "Double-click speed"
 msgid "Double-click Speed"
 msgstr "더블 클릭 속도"
 
-#: src/Plug.vala:138 src/Views/Clicking.vala:116
+#: src/Plug.vala:138 src/Views/Clicking.vala:119
 #, fuzzy
 #| msgid "Dwell click"
 msgid "Dwell Click"
 msgstr "드웰 클릭"
 
-#: src/Plug.vala:139 src/Views/Clicking.vala:32
+#: src/Plug.vala:139 src/Views/Clicking.vala:35
 #, fuzzy
 #| msgid "Primary button"
 msgid "Primary Button"
 msgstr "실행 버튼"
 
-#: src/Plug.vala:140 src/Views/Clicking.vala:75
+#: src/Plug.vala:140 src/Views/Clicking.vala:78
 #, fuzzy
 #| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
 msgstr "길게 누르기로 보조 클릭"
 
-#: src/Plug.vala:141 src/Views/Clicking.vala:171
+#: src/Plug.vala:141 src/Views/Clicking.vala:178
 #, fuzzy
 #| msgid "Middle click paste"
 msgid "Middle Click Paste"
@@ -160,39 +160,39 @@ msgstr "작업 공간 전환"
 msgid "Maximize Window"
 msgstr "창 최대화"
 
-#: src/Views/Clicking.vala:23
+#: src/Views/Clicking.vala:26
 msgid "Behavior"
 msgstr "동작"
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:39
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "왼쪽"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
-#: src/Views/Clicking.vala:48
+#: src/Views/Clicking.vala:51
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "오른쪽"
 
-#: src/Views/Clicking.vala:77
+#: src/Views/Clicking.vala:80
 msgid "Long-press and release the primary button to secondary click"
 msgstr "실행 버튼을 길게 눌렀다 놓으면 보조 클릭 기능을 합니다"
 
-#: src/Views/Clicking.vala:108
+#: src/Views/Clicking.vala:111
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "더블 클릭으로 인식될 만한 빠르기의 두 번 클릭"
 
-#: src/Views/Clicking.vala:118
+#: src/Views/Clicking.vala:121
 msgid "Hold the pointer still to automatically click"
 msgstr "자동 클릭할 때까지 포인터 누르고 있기"
 
-#: src/Views/Clicking.vala:173
+#: src/Views/Clicking.vala:180
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "가운데 또는 세 손가락으로 입력을 클릭하면 선택한 텍스트가 붙여집니다"
 
-#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
+#: src/Views/Clicking.vala:245 src/Views/Clicking.vala:250
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"

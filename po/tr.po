@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:27+0000\n"
+"POT-Creation-Date: 2025-05-15 21:49+0000\n"
 "PO-Revision-Date: 2024-09-24 11:24+0000\n"
 "Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -28,27 +28,27 @@ msgstr "Fare ve Dokunmatik Yüzey"
 msgid "Configure mouse and touchpad"
 msgstr "Fare ve dokunmatik yüzeyi yapılandırın"
 
-#: src/Plug.vala:136 src/Views/Clicking.vala:25
+#: src/Plug.vala:136 src/Views/Clicking.vala:28
 msgid "Clicking"
 msgstr "Tıklama"
 
-#: src/Plug.vala:137 src/Views/Clicking.vala:106
+#: src/Plug.vala:137 src/Views/Clicking.vala:109
 msgid "Double-click Speed"
 msgstr "Çift tıklama Hızı"
 
-#: src/Plug.vala:138 src/Views/Clicking.vala:116
+#: src/Plug.vala:138 src/Views/Clicking.vala:119
 msgid "Dwell Click"
 msgstr "Basılı kalan Tıklama"
 
-#: src/Plug.vala:139 src/Views/Clicking.vala:32
+#: src/Plug.vala:139 src/Views/Clicking.vala:35
 msgid "Primary Button"
 msgstr "Birincil Düğme"
 
-#: src/Plug.vala:140 src/Views/Clicking.vala:75
+#: src/Plug.vala:140 src/Views/Clicking.vala:78
 msgid "Long-press Secondary Click"
 msgstr "Uzun Basma İkincil Tıklama"
 
-#: src/Plug.vala:141 src/Views/Clicking.vala:171
+#: src/Plug.vala:141 src/Views/Clicking.vala:178
 msgid "Middle Click Paste"
 msgstr "Orta tıklama ile yapıştır"
 
@@ -134,42 +134,42 @@ msgstr "Çalışma Alanlarını Değiştir"
 msgid "Maximize Window"
 msgstr "Pencereye Ekranı Kaplat"
 
-#: src/Views/Clicking.vala:23
+#: src/Views/Clicking.vala:26
 msgid "Behavior"
 msgstr "Davranış"
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:39
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "Sol"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
-#: src/Views/Clicking.vala:48
+#: src/Views/Clicking.vala:51
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "Sağ"
 
-#: src/Views/Clicking.vala:77
+#: src/Views/Clicking.vala:80
 msgid "Long-press and release the primary button to secondary click"
 msgstr "İkincil tıklama için birincil düğmeye uzun basın ve bırakın"
 
-#: src/Views/Clicking.vala:108
+#: src/Views/Clicking.vala:111
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Hangi hızdaki art arda iki tıklamanın, çift tıklama olarak kabul edileceği"
 
-#: src/Views/Clicking.vala:118
+#: src/Views/Clicking.vala:121
 msgid "Hold the pointer still to automatically click"
 msgstr "Otomatik olarak tıklamak için işaretçiyi hareketsiz tutun"
 
-#: src/Views/Clicking.vala:173
+#: src/Views/Clicking.vala:180
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "Seçili metni yapıştırmak için giriş alanına orta tuşla veya üç parmak ile "
 "tıklayın"
 
-#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
+#: src/Views/Clicking.vala:245 src/Views/Clicking.vala:250
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f saniye"

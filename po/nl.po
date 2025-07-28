@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:27+0000\n"
+"POT-Creation-Date: 2025-05-15 21:49+0000\n"
 "PO-Revision-Date: 2024-05-31 01:46+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -28,27 +28,27 @@ msgstr "Muis & touchpad"
 msgid "Configure mouse and touchpad"
 msgstr "Configureer muis en touchpad"
 
-#: src/Plug.vala:136 src/Views/Clicking.vala:25
+#: src/Plug.vala:136 src/Views/Clicking.vala:28
 msgid "Clicking"
 msgstr "Klikken"
 
-#: src/Plug.vala:137 src/Views/Clicking.vala:106
+#: src/Plug.vala:137 src/Views/Clicking.vala:109
 msgid "Double-click Speed"
 msgstr "Dubbelkliksnelheid"
 
-#: src/Plug.vala:138 src/Views/Clicking.vala:116
+#: src/Plug.vala:138 src/Views/Clicking.vala:119
 msgid "Dwell Click"
 msgstr "Zwevend klikken"
 
-#: src/Plug.vala:139 src/Views/Clicking.vala:32
+#: src/Plug.vala:139 src/Views/Clicking.vala:35
 msgid "Primary Button"
 msgstr "Primaire knop"
 
-#: src/Plug.vala:140 src/Views/Clicking.vala:75
+#: src/Plug.vala:140 src/Views/Clicking.vala:78
 msgid "Long-press Secondary Click"
 msgstr "Lang indrukken secundaire klik"
 
-#: src/Plug.vala:141 src/Views/Clicking.vala:171
+#: src/Plug.vala:141 src/Views/Clicking.vala:178
 msgid "Middle Click Paste"
 msgstr "Plakken met middelklik"
 
@@ -134,40 +134,40 @@ msgstr "Schakel tussen werkbladen"
 msgid "Maximize Window"
 msgstr "Venster maximaliseren"
 
-#: src/Views/Clicking.vala:23
+#: src/Views/Clicking.vala:26
 msgid "Behavior"
 msgstr "Gedrag"
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:39
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "Links"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
-#: src/Views/Clicking.vala:48
+#: src/Views/Clicking.vala:51
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "Rechts"
 
-#: src/Views/Clicking.vala:77
+#: src/Views/Clicking.vala:80
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Lang indrukken en loslaten van de primaire knop voor een secundaire klik"
 
-#: src/Views/Clicking.vala:108
+#: src/Views/Clicking.vala:111
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr "Hoe snel worden twee kliks achter elkaar gezien als dubbelklikken"
 
-#: src/Views/Clicking.vala:118
+#: src/Views/Clicking.vala:121
 msgid "Hold the pointer still to automatically click"
 msgstr "Houd de aanwijzer stil om automatisch te klikken"
 
-#: src/Views/Clicking.vala:173
+#: src/Views/Clicking.vala:180
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "Midden of drie-vinger klik op een input veld plakt geselecteerde tekst"
 
-#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
+#: src/Views/Clicking.vala:245 src/Views/Clicking.vala:250
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f seconden"

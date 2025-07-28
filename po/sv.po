@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:27+0000\n"
+"POT-Creation-Date: 2025-05-15 21:49+0000\n"
 "PO-Revision-Date: 2024-01-30 16:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
@@ -28,29 +28,29 @@ msgstr "Mus och pekplatta"
 msgid "Configure mouse and touchpad"
 msgstr "Ställ in mus och pekplatta"
 
-#: src/Plug.vala:136 src/Views/Clicking.vala:25
+#: src/Plug.vala:136 src/Views/Clicking.vala:28
 msgid "Clicking"
 msgstr ""
 
-#: src/Plug.vala:137 src/Views/Clicking.vala:106
+#: src/Plug.vala:137 src/Views/Clicking.vala:109
 msgid "Double-click Speed"
 msgstr ""
 
-#: src/Plug.vala:138 src/Views/Clicking.vala:116
+#: src/Plug.vala:138 src/Views/Clicking.vala:119
 msgid "Dwell Click"
 msgstr ""
 
-#: src/Plug.vala:139 src/Views/Clicking.vala:32
+#: src/Plug.vala:139 src/Views/Clicking.vala:35
 #, fuzzy
 #| msgid "Primary button"
 msgid "Primary Button"
 msgstr "Primärknapp"
 
-#: src/Plug.vala:140 src/Views/Clicking.vala:75
+#: src/Plug.vala:140 src/Views/Clicking.vala:78
 msgid "Long-press Secondary Click"
 msgstr ""
 
-#: src/Plug.vala:141 src/Views/Clicking.vala:171
+#: src/Plug.vala:141 src/Views/Clicking.vala:178
 #, fuzzy
 #| msgid "Middle click paste"
 msgid "Middle Click Paste"
@@ -150,35 +150,35 @@ msgstr ""
 msgid "Maximize Window"
 msgstr ""
 
-#: src/Views/Clicking.vala:23
+#: src/Views/Clicking.vala:26
 msgid "Behavior"
 msgstr "Beteende"
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:39
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "Vänster"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
-#: src/Views/Clicking.vala:48
+#: src/Views/Clicking.vala:51
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "Höger"
 
-#: src/Views/Clicking.vala:77
+#: src/Views/Clicking.vala:80
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 
-#: src/Views/Clicking.vala:108
+#: src/Views/Clicking.vala:111
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 
-#: src/Views/Clicking.vala:118
+#: src/Views/Clicking.vala:121
 msgid "Hold the pointer still to automatically click"
 msgstr ""
 
-#: src/Views/Clicking.vala:173
+#: src/Views/Clicking.vala:180
 #, fuzzy
 #| msgid ""
 #| "Middle or three-finger clicking on an input will paste any selected text"
@@ -187,7 +187,7 @@ msgstr ""
 "Mellan- eller trefingerklick på ett inmatningsfält kommer klistra in "
 "markerad text"
 
-#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
+#: src/Views/Clicking.vala:245 src/Views/Clicking.vala:250
 #, fuzzy, c-format
 #| msgid "seconds"
 msgid "%.1f seconds"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:27+0000\n"
+"POT-Creation-Date: 2025-05-15 21:49+0000\n"
 "PO-Revision-Date: 2024-01-31 19:11+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
@@ -28,27 +28,27 @@ msgstr "Egér és touchpad"
 msgid "Configure mouse and touchpad"
 msgstr "Egér és touchpad beállítása"
 
-#: src/Plug.vala:136 src/Views/Clicking.vala:25
+#: src/Plug.vala:136 src/Views/Clicking.vala:28
 msgid "Clicking"
 msgstr "Kattintás"
 
-#: src/Plug.vala:137 src/Views/Clicking.vala:106
+#: src/Plug.vala:137 src/Views/Clicking.vala:109
 msgid "Double-click Speed"
 msgstr "Dupla kattintás sebessége"
 
-#: src/Plug.vala:138 src/Views/Clicking.vala:116
+#: src/Plug.vala:138 src/Views/Clicking.vala:119
 msgid "Dwell Click"
 msgstr "Várakozásos kattintás"
 
-#: src/Plug.vala:139 src/Views/Clicking.vala:32
+#: src/Plug.vala:139 src/Views/Clicking.vala:35
 msgid "Primary Button"
 msgstr "Elsődleges gomb"
 
-#: src/Plug.vala:140 src/Views/Clicking.vala:75
+#: src/Plug.vala:140 src/Views/Clicking.vala:78
 msgid "Long-press Secondary Click"
 msgstr "Másodlagos kattintás hosszú nyomással"
 
-#: src/Plug.vala:141 src/Views/Clicking.vala:171
+#: src/Plug.vala:141 src/Views/Clicking.vala:178
 msgid "Middle Click Paste"
 msgstr "Középső gombos beillesztés"
 
@@ -134,43 +134,43 @@ msgstr "Munkaterület váltása"
 msgid "Maximize Window"
 msgstr "Ablak teljes méretre állítása"
 
-#: src/Views/Clicking.vala:23
+#: src/Views/Clicking.vala:26
 msgid "Behavior"
 msgstr "Viselkedés"
 
 #. / TRANSLATORS: Used as "Primary Button: Left"
-#: src/Views/Clicking.vala:36
+#: src/Views/Clicking.vala:39
 msgctxt "mouse-button"
 msgid "Left"
 msgstr "Bal"
 
 #. / TRANSLATORS: Used as "Primary Button: Right";
-#: src/Views/Clicking.vala:48
+#: src/Views/Clicking.vala:51
 msgctxt "mouse-button"
 msgid "Right"
 msgstr "Jobb"
 
-#: src/Views/Clicking.vala:77
+#: src/Views/Clicking.vala:80
 msgid "Long-press and release the primary button to secondary click"
 msgstr ""
 "Az elsődleges gomb hosszan nyomása és eleresztése a másodlagos kattintáshoz"
 
-#: src/Views/Clicking.vala:108
+#: src/Views/Clicking.vala:111
 msgid "How quickly two clicks in a row will be treated as a double-click"
 msgstr ""
 "Mennyire gyorsan lesz egymás utáni két kattintás dupla kattintásként kezelve"
 
-#: src/Views/Clicking.vala:118
+#: src/Views/Clicking.vala:121
 msgid "Hold the pointer still to automatically click"
 msgstr "A mutató egy helyben tartása automatikus kattintáshoz"
 
-#: src/Views/Clicking.vala:173
+#: src/Views/Clicking.vala:180
 msgid "Middle or three-finger click on an input to paste selected text"
 msgstr ""
 "A középső gombos vagy háromujjas kattintás egy beviteli mezőben beilleszti a "
 "kijelölt szöveget"
 
-#: src/Views/Clicking.vala:237 src/Views/Clicking.vala:242
+#: src/Views/Clicking.vala:245 src/Views/Clicking.vala:250
 #, c-format
 msgid "%.1f seconds"
 msgstr "%.1f másodperc"
