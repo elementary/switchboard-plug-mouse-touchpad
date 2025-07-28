@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 11:27+0000\n"
+"POT-Creation-Date: 2025-05-15 21:49+0000\n"
 "PO-Revision-Date: 2024-09-21 11:16+0000\n"
 "Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -32,37 +32,39 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/mouse-touchpad.metainfo.xml.in:48
-#: data/mouse-touchpad.metainfo.xml.in:58
-#: data/mouse-touchpad.metainfo.xml.in:71
-#: data/mouse-touchpad.metainfo.xml.in:82
-#: data/mouse-touchpad.metainfo.xml.in:96
-#: data/mouse-touchpad.metainfo.xml.in:109
+#: data/mouse-touchpad.metainfo.xml.in:60
+#: data/mouse-touchpad.metainfo.xml.in:70
+#: data/mouse-touchpad.metainfo.xml.in:83
+#: data/mouse-touchpad.metainfo.xml.in:94
+#: data/mouse-touchpad.metainfo.xml.in:108
+#: data/mouse-touchpad.metainfo.xml.in:121
 msgid "Minor updates:"
 msgstr "Küçük güncellemeler:"
 
 #: data/mouse-touchpad.metainfo.xml.in:50
-msgid "Sidebar position is now remembered"
-msgstr ""
-
-#: data/mouse-touchpad.metainfo.xml.in:51
-#: data/mouse-touchpad.metainfo.xml.in:61
-#: data/mouse-touchpad.metainfo.xml.in:75
-#: data/mouse-touchpad.metainfo.xml.in:85
-#: data/mouse-touchpad.metainfo.xml.in:98
-#: data/mouse-touchpad.metainfo.xml.in:114
+#: data/mouse-touchpad.metainfo.xml.in:63
+#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:87
+#: data/mouse-touchpad.metainfo.xml.in:97
+#: data/mouse-touchpad.metainfo.xml.in:110
+#: data/mouse-touchpad.metainfo.xml.in:126
 msgid "Updated translations"
 msgstr "Çeviriler güncellendi"
 
-#: data/mouse-touchpad.metainfo.xml.in:60
+#: data/mouse-touchpad.metainfo.xml.in:62
+msgid "Sidebar position is now remembered"
+msgstr ""
+
+#: data/mouse-touchpad.metainfo.xml.in:72
 msgid "Improved screen reader compatibility"
 msgstr "Ekran okuyucu uyumluluğu iyileştirildi"
 
-#: data/mouse-touchpad.metainfo.xml.in:73
+#: data/mouse-touchpad.metainfo.xml.in:85
 msgid "Redesigned, easier to read views with more helpful descriptions"
 msgstr ""
 "Yeniden tasarlanan, daha faydalı açıklamalarla okunması daha kolay görünümler"
 
-#: data/mouse-touchpad.metainfo.xml.in:74
+#: data/mouse-touchpad.metainfo.xml.in:86
 msgid ""
 "Add \"Cycle windows\" and \"Move active window to workspace\" as gesture "
 "options"
@@ -70,29 +72,29 @@ msgstr ""
 "\"Pencereler arası geçiş\" ve \"Etkin pencereyi çalışma alanına taşı\" "
 "hareket seçenekleri olarak eklendi"
 
-#: data/mouse-touchpad.metainfo.xml.in:84
+#: data/mouse-touchpad.metainfo.xml.in:96
 msgid "Update for OS 7"
 msgstr "OS 7 için güncelleme"
 
-#: data/mouse-touchpad.metainfo.xml.in:92
-#: data/mouse-touchpad.metainfo.xml.in:105
+#: data/mouse-touchpad.metainfo.xml.in:104
+#: data/mouse-touchpad.metainfo.xml.in:117
 msgid "New features:"
 msgstr "Yeni özellikler:"
 
-#: data/mouse-touchpad.metainfo.xml.in:94
+#: data/mouse-touchpad.metainfo.xml.in:106
 msgid "New toggle for “Double-tap and move to drag”"
 msgstr "“Sürüklemek için çift dokunun ve hareket ettirin” için yeni seçenek"
 
-#: data/mouse-touchpad.metainfo.xml.in:107
-#: data/mouse-touchpad.metainfo.xml.in:112
+#: data/mouse-touchpad.metainfo.xml.in:119
+#: data/mouse-touchpad.metainfo.xml.in:124
 msgid "Multitouch gesture options"
 msgstr "Çoklu dokunma hareketi seçenekleri eklendi"
 
-#: data/mouse-touchpad.metainfo.xml.in:111
+#: data/mouse-touchpad.metainfo.xml.in:123
 msgid "Add more snap points to pointer speed sliders"
 msgstr "İşaretçi hızı kaydırıcılarına daha fazla nokta eklendi"
 
-#: data/mouse-touchpad.metainfo.xml.in:113
+#: data/mouse-touchpad.metainfo.xml.in:125
 msgid "Redesigned touchpad settings"
 msgstr "Dokunmatik yüzey ayarları yeniden tasarlandı"
 
