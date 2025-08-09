@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-mouse-touchpad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-15 21:49+0000\n"
-"PO-Revision-Date: 2025-08-08 13:55+0000\n"
+"PO-Revision-Date: 2025-08-10 04:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "l10n.elementaryos.org/projects/settings/switchboard-plug-mouse-touchpad/"
@@ -46,16 +46,12 @@ msgid "Primary Button"
 msgstr "主按钮"
 
 #: src/Plug.vala:140 src/Views/Clicking.vala:78
-#, fuzzy
-#| msgid "Long-press secondary click"
 msgid "Long-press Secondary Click"
-msgstr "二级点击"
+msgstr "长按为次要点击"
 
 #: src/Plug.vala:141 src/Views/Clicking.vala:178
-#, fuzzy
-#| msgid "Middle click paste"
 msgid "Middle Click Paste"
-msgstr "中键粘贴"
+msgstr "中键点击粘贴"
 
 #: src/Plug.vala:143 src/Plug.vala:144 src/Plug.vala:145 src/Plug.vala:146
 #: src/Views/Mouse.vala:11
@@ -64,21 +60,15 @@ msgstr "鼠标"
 
 #: src/Plug.vala:144 src/Plug.vala:154 src/Views/Mouse.vala:27
 #: src/Views/Touchpad.vala:33
-#, fuzzy
-#| msgid "Pointer speed"
 msgid "Pointer Speed"
 msgstr "指针速度"
 
 #: src/Plug.vala:145 src/Views/Mouse.vala:59
-#, fuzzy
-#| msgid "Pointer acceleration"
 msgid "Pointer Acceleration"
-msgstr "指针加速"
+msgstr "指针加速度"
 
 #: src/Plug.vala:146 src/Plug.vala:159 src/Views/Mouse.vala:45
 #: src/Views/Touchpad.vala:124
-#, fuzzy
-#| msgid "Natural scrolling"
 msgid "Natural Scrolling"
 msgstr "自然滚动"
 
@@ -87,20 +77,14 @@ msgid "Pointing"
 msgstr "指针"
 
 #: src/Plug.vala:149 src/Views/Pointing.vala:87
-#, fuzzy
-#| msgid "Pointer size"
 msgid "Pointer Size"
 msgstr "指针大小"
 
 #: src/Plug.vala:150 src/Views/Pointing.vala:78
-#, fuzzy
-#| msgid "Reveal pointer"
 msgid "Reveal Pointer"
 msgstr "显示指针"
 
 #: src/Plug.vala:151 src/Views/Pointing.vala:22
-#, fuzzy
-#| msgid "Control pointer using keypad"
 msgid "Control Pointer Using Keypad"
 msgstr "数字键盘控制指针"
 
@@ -119,16 +103,12 @@ msgid "Double-tap and move to drag"
 msgstr "双击并移动来拖放"
 
 #: src/Plug.vala:157 src/Views/Touchpad.vala:66
-#, fuzzy
-#| msgid "Physical secondary clicking:"
 msgid "Physical Secondary Clicking"
-msgstr "物理二次点击："
+msgstr "物理二次点击"
 
 #: src/Plug.vala:158 src/Views/Touchpad.vala:84
-#, fuzzy
-#| msgid "Scroll method:"
 msgid "Scroll Method"
-msgstr "滚动方式："
+msgstr "滚动方式"
 
 #: src/Plug.vala:160
 msgid "Ignore while typing"
@@ -188,10 +168,9 @@ msgid "Middle or three-finger click on an input to paste selected text"
 msgstr "中键或三指点击将会粘贴选中文本"
 
 #: src/Views/Clicking.vala:245 src/Views/Clicking.vala:250
-#, fuzzy, c-format
-#| msgid "seconds"
+#, c-format
 msgid "%.1f seconds"
-msgstr "秒"
+msgstr "%.1f秒"
 
 #: src/Views/Gestures.vala:35 src/Views/Gestures.vala:46
 #: src/Views/Gestures.vala:73 src/Views/Gestures.vala:82
@@ -204,16 +183,12 @@ msgid "Switch to workspace"
 msgstr "切换工作区"
 
 #: src/Views/Gestures.vala:37 src/Views/Gestures.vala:48
-#, fuzzy
-#| msgid "Switch to workspace"
 msgid "Move active window to workspace"
-msgstr "切换工作区"
+msgstr "将活动窗口移动到工作区"
 
 #: src/Views/Gestures.vala:38 src/Views/Gestures.vala:49
-#, fuzzy
-#| msgid "Tile Window"
 msgid "Cycle windows"
-msgstr "窗口分屏"
+msgstr "循环切换窗口"
 
 #: src/Views/Gestures.vala:40 src/Views/Gestures.vala:76
 #: src/Views/Gestures.vala:111
@@ -252,12 +227,12 @@ msgstr "设备"
 #: src/Views/Mouse.vala:23 src/Views/Pointing.vala:32
 #: src/Views/Touchpad.vala:29
 msgid "Slower"
-msgstr ""
+msgstr "较慢"
 
 #: src/Views/Mouse.vala:25 src/Views/Pointing.vala:34
 #: src/Views/Touchpad.vala:31
 msgid "Faster"
-msgstr ""
+msgstr "较快"
 
 #: src/Views/Mouse.vala:31
 msgid "Hardware default"
@@ -273,7 +248,7 @@ msgstr "自适应的"
 
 #: src/Views/Mouse.vala:47 src/Views/Touchpad.vala:126
 msgid "Scrolling moves the content, not the view"
-msgstr ""
+msgstr "滚动时移动内容，而非视图区"
 
 #: src/Views/Pointing.vala:23
 msgid "This disables both levels of keys on the numeric keypad"
@@ -297,7 +272,7 @@ msgstr "按住 Ctrl 键时高亮指针所在位置"
 
 #: src/Views/Touchpad.vala:40
 msgid "Multitouch"
-msgstr "多指触控"
+msgstr "多点触控"
 
 #: src/Views/Touchpad.vala:56
 msgid "Areas"
@@ -305,17 +280,15 @@ msgstr "区域"
 
 #: src/Views/Touchpad.vala:89
 msgid "Two-finger"
-msgstr "双指滚动"
+msgstr "两指"
 
 #: src/Views/Touchpad.vala:104
 msgid "Edge"
-msgstr "边缘滚动"
+msgstr "边缘"
 
 #: src/Views/Touchpad.vala:135
-#, fuzzy
-#| msgid "Ignore:"
 msgid "Ignore"
-msgstr "忽略触控输入："
+msgstr "在以下情形停用"
 
 #: src/Views/Touchpad.vala:137
 msgid "While typing"
@@ -326,10 +299,8 @@ msgid "When mouse is connected"
 msgstr "接入鼠标时"
 
 #: src/Views/Touchpad.vala:149
-#, fuzzy
-#| msgid "Tapping:"
 msgid "Tapping"
-msgstr "轻触："
+msgstr "轻触时"
 
 #~ msgid "Double-click speed"
 #~ msgstr "双击速度"
